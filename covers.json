@@ -1,13 +1,2785 @@
 {
   "source": "Tempo Perso Cover Bot",
-  "updated_at": null,
+  "updated_at": "2026-03-21T12:26:52Z",
   "catalog_stats": {
     "source_items_with_stock": 7165,
     "unique_isbn_candidates": 6915,
-    "with_cover": 0,
-    "misses": 0,
-    "pending": 6915
+    "with_cover": 317,
+    "misses": 33,
+    "pending": 6565,
+    "processed_this_run": 350,
+    "found_this_run": 317,
+    "max_new_this_run": 350
   },
-  "covers": {},
-  "misses": {}
+  "covers": {
+    "1000000043532": {
+      "url": "https://books.google.com/books/content?id=ie2-sunaqA8C&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "COMANDAMENTI DI DIO",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "1000000060416": {
+      "url": "https://books.google.com/books/content?id=6DAjAQAAIAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DE STRATA FRANCIGENA IN LUNIGIANA",
+      "author": "",
+      "publisher": "CENTRO STUDI ROMEI"
+    },
+    "1000000108552": {
+      "url": "https://books.google.com/books/content?id=JB9FzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUIDA TURISTICA PONTREMOLI",
+      "author": "BISSOLI PAOLO",
+      "publisher": ""
+    },
+    "1000000167078": {
+      "url": "https://books.google.com/books/content?id=pcayuwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LUNIGIANA CARTA SENTIERI",
+      "author": "",
+      "publisher": "MARZIO"
+    },
+    "1000000336580": {
+      "url": "https://covers.openlibrary.org/b/id/11726014-M.jpg",
+      "provider": "openlibrary_search",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "APPENNINO LIGURE E TOSCO EMILIANO",
+      "author": "",
+      "publisher": ""
+    },
+    "1000000474701": {
+      "url": "https://books.google.com/books/content?id=6887AQAAIAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LE ORIGINI DEL MALASP",
+      "author": "",
+      "publisher": "GIUNTI"
+    },
+    "8007038011208": {
+      "url": "https://books.google.com/books/content?id=Xy-3zgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PRIMO ALBUM DA COLORARE",
+      "author": "",
+      "publisher": "WALT DISNEY"
+    },
+    "8019118059024": {
+      "url": "https://books.google.com/books/content?id=ylapMGfMM-QC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BENVENUTO BIGLIETTO. CON CD",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "8019118059185": {
+      "url": "https://books.google.com/books/content?id=yFxrzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DEDICATO A TE",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "8019118111159": {
+      "url": "https://books.google.com/books/content?id=pQ29cDtPQPwC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL ROSARIO",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8019118111272": {
+      "url": "https://books.google.com/books/content?id=Nz-lEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RICORDO PRIMA COMUNIONE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8019118112262": {
+      "url": "https://books.google.com/books/content?id=oBDK6M5MgSAC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "HA FATTO LA PRIMA CONFESSIONE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8019118112316": {
+      "url": "https://books.google.com/books/content?id=6l2976CdmXIC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RICORDO PRIMA CONFESSIONE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8019118112897": {
+      "url": "https://books.google.com/books/content?id=jLIXMQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MIA PRIMA COMUNIONE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8019118112903": {
+      "url": "https://books.google.com/books/content?id=mC1pAAAAcAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RICORDO DELLA CRESIMA",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8020035801528": {
+      "url": "https://books.google.com/books/content?id=n0-1EAAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FIABE PICCOLINE",
+      "author": "",
+      "publisher": "APE"
+    },
+    "8023392008418": {
+      "url": "https://books.google.com/books/content?id=pQ29cDtPQPwC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL ROSARIO",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8023392013375": {
+      "url": "https://books.google.com/books/content?id=pYGg0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NATALE È INCONTRARE GESÙ (CONF. 10 PZ)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "8025686040715": {
+      "url": "https://books.google.com/books/content?id=ioFWAAAAYAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CHI CREDE PARTE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8032551434128": {
+      "url": "https://books.google.com/books/content?id=ZlZIAAAAcAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VERITA' E NORME DI VITA CRISTIANA",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8032551434135": {
+      "url": "https://books.google.com/books/content?id=I_zWzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PER MARIA A GESU'",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8051739455618": {
+      "url": "https://books.google.com/books/content?id=ebdMJqbjMq0C&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PAGINE PER TE",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "8052400812259": {
+      "url": "https://books.google.com/books/content?id=EX1GFwQc5fkC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PAROLA E PREGHIERA",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "8052400814406": {
+      "url": "https://books.google.com/books/content?id=aXQXAQAAIAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PAROLA E PREGHIERA 9/14",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "8820918196": {
+      "url": "https://books.google.com/books/content?id=em9wAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SARETE MIEI TESTIMONI",
+      "author": "",
+      "publisher": "C.E.I."
+    },
+    "8843311409": {
+      "url": "https://books.google.com/books/content?id=tmcUPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIOLOGIAM DELLA CELLULA",
+      "author": "",
+      "publisher": "BIGNAMI"
+    },
+    "8881021435": {
+      "url": "https://books.google.com/books/content?id=U6sdAQAAIAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GIORNO DEL TUO BATTESIMO",
+      "author": "",
+      "publisher": "ESPERIENZE"
+    },
+    "888356006X": {
+      "url": "https://books.google.com/books/content?id=8c55AAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ELIS DI'",
+      "author": "PINELLI GIACOMO",
+      "publisher": "NN"
+    },
+    "9771591042687": {
+      "url": "https://covers.openlibrary.org/b/id/13507687-M.jpg",
+      "provider": "openlibrary_search",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PRODO",
+      "author": "",
+      "publisher": "FRIDERICIANA EDITRICE UNIVERSITARIA"
+    },
+    "9771591059708": {
+      "url": "https://covers.openlibrary.org/b/id/10207768-M.jpg",
+      "provider": "openlibrary_search",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FINDING DORY",
+      "author": "",
+      "publisher": "EUROPUBLIS"
+    },
+    "9771594579203": {
+      "url": "https://books.google.com/books/content?id=Q7AO0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PANE QUOTIDIANO GEN FEB 2018",
+      "author": "",
+      "publisher": "SEMPRE COMUNICAZIONE"
+    },
+    "9786600015880": {
+      "url": "https://books.google.com/books/content?id=CFFIlFl3_UMC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GIOCHI MAGNETICI",
+      "author": "",
+      "publisher": "THE PURPLE COW"
+    },
+    "9788801000580": {
+      "url": "https://books.google.com/books/content?id=_EIZAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VIVERE LA RICONCILIAZIONE",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801005165": {
+      "url": "https://books.google.com/books/content?id=Kc_PPAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SENZA LA DOMENICA NON POSSIAMO VIVERE. I",
+      "author": "CEI. CONSIGLIO EPISCOPALE PERM",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801024982": {
+      "url": "https://books.google.com/books/content?id=aQ3aAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL NUOVO DIARIO DEL CATECHISTA",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801025156": {
+      "url": "https://books.google.com/books/content?id=_gLEAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "A CATECHISMO CON SARETE MIEI TESIMONI",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801029642": {
+      "url": "https://books.google.com/books/content?id=ggDKAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PROGETTO MAGNIFICAT. VOL. 1/1. QUADERNO",
+      "author": "Peiretti Anna",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801030396": {
+      "url": "https://books.google.com/books/content?id=qidBPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PROGETTO MAGNIFICAT. VOL 1\\2: QUADERNO D",
+      "author": "Peiretti Chiara",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801030723": {
+      "url": "https://books.google.com/books/content?id=stKmAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PROGETTO MAGNIFICAT. VOL. 3/2: QUADERNO",
+      "author": "Pellegrino Carlo",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801030822": {
+      "url": "https://books.google.com/books/content?id=NJY5AgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PROGETTO MAGNIFICAT. VOL. 2/2. QUADERNO",
+      "author": "Cusino Monica",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801033960": {
+      "url": "https://books.google.com/books/content?id=b-iKPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL MIO BATTESIMO",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801040975": {
+      "url": "https://books.google.com/books/content?id=so6uPgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA MIA PICCOLA GRANDE BIBBIA",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801052343": {
+      "url": "https://books.google.com/books/content?id=9g5ZLwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DAMMI FEDE, SIGNORE. PREGHIERE PER INCON",
+      "author": "Volpi Giuliano",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801054163": {
+      "url": "https://books.google.com/books/content?id=4-qAngEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PIACERE, DIO! QUADERNO DI CATECHISMO 2",
+      "author": "Peiretti Anna",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801063622": {
+      "url": "https://books.google.com/books/content?id=7PK_PAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AGENDA SORRISI 2018",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801064230": {
+      "url": "https://books.google.com/books/content?id=2oLutAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PASSIO. LETTURE DIALOGATE DELLA PASSIONE",
+      "author": "CENTRO EVANGELIZZAZIONE E CATE",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801064360": {
+      "url": "https://books.google.com/books/content?id=QxsctQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELI E ATTI DEGLI APOSTOLI PER LA MIA",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801065923": {
+      "url": "https://books.google.com/books/content?id=OFjTxwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AGENDA DEL CATECHISTA. ANNO CATECHISTICO",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801069525": {
+      "url": "https://books.google.com/books/content?id=1Jo80QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RICORDO DELLA PRIMA COMUNIONE. PER TE CH",
+      "author": "RAIMONDO PIERFORTUNATO",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801102444": {
+      "url": "https://books.google.com/books/content?id=hoS0AAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PACE A QUESTA CASA. RITO DELLA BENEDIZIO",
+      "author": "Conferenza Episcopale Italiana",
+      "publisher": "ELLE DI CI"
+    },
+    "9788801138412": {
+      "url": "https://books.google.com/books/content?id=odJ5AAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA MIA CRESIMA",
+      "author": "",
+      "publisher": "ELLE DI CI"
+    },
+    "9788804702313": {
+      "url": "https://books.google.com/books/content?id=BRVdtwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ASFALTO",
+      "author": "DOVIZIOSO ANDREA",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804729914": {
+      "url": "https://books.google.com/books/content?id=9NCuzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DENOMINAZIONE DI ORIGINE INVENTATA. LE B",
+      "author": "GRANDI ALBERTO",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804745280": {
+      "url": "https://books.google.com/books/content?id=U98tzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NON PUOI FIDARTI DI GENTE COSÌ. STORIA D",
+      "author": "CALANDRI MASSIMO",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804752370": {
+      "url": "https://books.google.com/books/content?id=yfE80AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TOP COLLECTION 1+1 (2023)",
+      "author": "",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804755326": {
+      "url": "https://books.google.com/books/content?id=DgRgzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "C'È CHIMICA IN CASA. LA SCIENZA QUOTIDIA",
+      "author": "ROLLINI RUGGERO",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804786344": {
+      "url": "https://covers.openlibrary.org/b/isbn/9788804786344-L.jpg?default=false",
+      "provider": "openlibrary_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FA BENE O FA MALE? MANUALE DI AUTODIFESA",
+      "author": "BRESSANINI DARIO",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804797548": {
+      "url": "https://books.google.com/books/content?id=tu0Q0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SPERA. L'AUTOBIOGRAFIA",
+      "author": "FRANCESCO (JORGE MARIO BERGOGL",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788804810995": {
+      "url": "https://books.google.com/books/content?id=huuz0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CESARE. LA CONQUISTA DELL'ETERNITÀ",
+      "author": "ANGELA ALBERTO",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788807896491": {
+      "url": "https://covers.openlibrary.org/b/isbn/9788807896491-L.jpg?default=false",
+      "provider": "openlibrary_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "UE FELTRINELLI 1+1 (2022)",
+      "author": "",
+      "publisher": "FELTRINELLI"
+    },
+    "9788807925009": {
+      "url": "https://books.google.com/books/content?id=DI7Z0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GIRO DEL MONDO DI TOPO CACIOTTA. EDIZ. A",
+      "author": "MOZZILLO ANGELO",
+      "publisher": "FELTRINELLI"
+    },
+    "9788809060456": {
+      "url": "https://books.google.com/books/content?id=4UmMNwAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIZIONARIO ILLUSTRATO ITALIANO INGLESE",
+      "author": "",
+      "publisher": "GIUNTI"
+    },
+    "9788809612723": {
+      "url": "https://books.google.com/books/content?id=NevQAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL SUPERLIBRO DELL'INGLESE DA COLORARE",
+      "author": "",
+      "publisher": "DAMI"
+    },
+    "9788809919853": {
+      "url": "https://books.google.com/books/content?id=PD1w0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "COSIMO I DEI MEDICI. IL PADRE DELLA TOSC",
+      "author": "GIANI EUGENIO",
+      "publisher": "GIUNTI"
+    },
+    "9788810113455": {
+      "url": "https://books.google.com/books/content?id=LaZHrgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BOLLA D'INDIZIONE DEL GIUBILEO SULLA MIS",
+      "author": "Francesco (Jorge Mario Bergogl",
+      "publisher": "EDB"
+    },
+    "9788810512265": {
+      "url": "https://books.google.com/books/content?id=UasUogEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIALOGO. DALL'ESORTAZIONE APOSTOLICA. EV",
+      "author": "Francesco (Jorge Mario Bergogl",
+      "publisher": "EDB"
+    },
+    "9788810512418": {
+      "url": "https://books.google.com/books/content?id=JAztsgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MISERICORDIA. MESSAGGI DISCORSI E OMELIE",
+      "author": "FRANCESCO (JORGE MARIO BERGOGL",
+      "publisher": "EDB"
+    },
+    "9788810702055": {
+      "url": "https://books.google.com/books/content?id=DShCPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA PREGHIERA DEL MATTINO E DELLA SERA",
+      "author": "",
+      "publisher": "EDB"
+    },
+    "9788810706794": {
+      "url": "https://books.google.com/books/content?id=xbnjAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TU BATTEZZI TUO FIGLIO. ITINERARIO DI PR",
+      "author": "Franchini Enzo",
+      "publisher": "EDB"
+    },
+    "9788810707753": {
+      "url": "https://books.google.com/books/content?id=oE-BMAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL NATALE DI TUTTI",
+      "author": "Bocchini Sergio",
+      "publisher": "EDB"
+    },
+    "9788810708040": {
+      "url": "https://books.google.com/books/content?id=KGiEPgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SANTA MESSA PER GLI SPOSI",
+      "author": "",
+      "publisher": "DEHONIANE"
+    },
+    "9788810708088": {
+      "url": "https://books.google.com/books/content?id=Zz9kzgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RICORDO DI MATRIMONIO",
+      "author": "",
+      "publisher": "EDB"
+    },
+    "9788810715116": {
+      "url": "https://books.google.com/books/content?id=WS5wvgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CAMMINO. ADULTI. PASQUA 2017 (IN)",
+      "author": "CORALLO ANNAMARIA",
+      "publisher": "EDB"
+    },
+    "9788810820315": {
+      "url": "https://covers.openlibrary.org/b/isbn/9788810820315-L.jpg?default=false",
+      "provider": "openlibrary_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA BIBBIA DI GERUSALEMME",
+      "author": "tela rossa normale",
+      "publisher": "EDB"
+    },
+    "9788810820353": {
+      "url": "https://books.google.com/books/content?id=7Pz8PgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA BIBBIA DI GERUSALEMME TASC. CUST.",
+      "author": "",
+      "publisher": "EDB"
+    },
+    "9788815383679": {
+      "url": "https://books.google.com/books/content?id=-FbxzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SANZIONI INTERNAZIONALI. STORIA OBIETTIV",
+      "author": "GIUMELLI FRANCESCO",
+      "publisher": "IL MULINO"
+    },
+    "9788817146876": {
+      "url": "https://books.google.com/books/content?id=mDHBzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUIDA INDISPENSABILE AL CAMBIAMENTO CLIM",
+      "author": "NELLES DAVID",
+      "publisher": "RIZZOLI"
+    },
+    "9788817149655": {
+      "url": "https://books.google.com/books/content?id=tNMRzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ASTROBUFALE. TUTTO CIÒ CHE SAPPIAMO (MA",
+      "author": "PERRI LUCA",
+      "publisher": "RIZZOLI"
+    },
+    "9788817158053": {
+      "url": "https://books.google.com/books/content?id=skexzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BANDA DEGLI DEI (LA)",
+      "author": "FIORIO BARBARA",
+      "publisher": "RIZZOLI"
+    },
+    "9788817174459": {
+      "url": "https://books.google.com/books/content?id=Zn-X0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ULTIMO SEGRETO (L')",
+      "author": "BROWN DAN",
+      "publisher": "RIZZOLI"
+    },
+    "9788820069322": {
+      "url": "https://books.google.com/books/content?id=dnBrzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CON LA TESTA E CON IL CUORE",
+      "author": "COVA ALBERTO",
+      "publisher": "SPERLING & KUPFER"
+    },
+    "9788820079741": {
+      "url": "https://books.google.com/books/content?id=6U-10AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CORAGGIO DI PROVARCI. UNA STORIA CONTROV",
+      "author": "SCOCCHIA CRISTINA",
+      "publisher": "SPERLING & KUPFER"
+    },
+    "9788820919658": {
+      "url": "https://books.google.com/books/content?id=6Dd_mAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIRETTORIO PER MINISTERO E VITA PRESBITE",
+      "author": "",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9788820923679": {
+      "url": "https://books.google.com/books/content?id=T_x7PgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VENITE E VEDRETE 2",
+      "author": "",
+      "publisher": "C.E.I."
+    },
+    "9788820989033": {
+      "url": "https://books.google.com/books/content?id=dGZoNQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CATECHISMO DELLA CHIESA CATTOLICA. COMPE",
+      "author": "",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9788820994488": {
+      "url": "https://books.google.com/books/content?id=dTvDrQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SFIDE PASTORALI SULLA FAMIGLIA NEL CONTE",
+      "author": "Sinodo dei vescovi (cur.)",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9788821513251": {
+      "url": "https://books.google.com/books/content?id=B5CxPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL BATTESIMO. RITO",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821513947": {
+      "url": "https://books.google.com/books/content?id=5MPcAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA CRESIMA. RITO",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821531453": {
+      "url": "https://books.google.com/books/content?id=yUYAAQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LODI VESPRI COMPIETA. DELLE QUATTRO SETT",
+      "author": "Moscardo I. (cur.)",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821555305": {
+      "url": "https://books.google.com/books/content?id=lHgFPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PREGHIERE DI OGNI GIORNO. TESTO LATINO E",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821563324": {
+      "url": "https://books.google.com/books/content?id=dUjpPAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO E ATTI DEGLI APOSTOLI. NUOVA VER",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821565533": {
+      "url": "https://books.google.com/books/content?id=am48QQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO E ATTI DEGLI APOSTOLI",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821574856": {
+      "url": "https://books.google.com/books/content?id=WVZ3tgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PINK LADY",
+      "author": "Bonfiglioli Benedetta",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821577499": {
+      "url": "https://books.google.com/books/content?id=8Qf1mAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO DELLA PRIMA COMUNIONE. TESTO CEI",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821579424": {
+      "url": "https://books.google.com/books/content?id=49wCnAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA PREGHIERA SULLA PUNTA DELLE DITA",
+      "author": "Bergoglio Jorge Mario",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821593246": {
+      "url": "https://books.google.com/books/content?id=9UzboAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA BIBBIA",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788821594113": {
+      "url": "https://books.google.com/books/content?id=ze7-oQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIBBIA DELLA CRESIMA (LA)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788822626042": {
+      "url": "https://covers.openlibrary.org/b/isbn/9788822626042-L.jpg?default=false",
+      "provider": "openlibrary_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DETECTIVE CONAN. NEW EDITION. VOL. 1",
+      "author": "AOYAMA GOSHO",
+      "publisher": "STAR COMICS"
+    },
+    "9788822638335": {
+      "url": "https://books.google.com/books/content?id=-41aEAAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DEMON SLAYER. KIMETSU NO YAIBA. LIMITED",
+      "author": "GOTOUGE KOYOHARU",
+      "publisher": "STAR COMICS"
+    },
+    "9788822643353": {
+      "url": "https://books.google.com/books/content?id=sAkp0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GACHIAKUTA. VOL. 1",
+      "author": "URANA KEI",
+      "publisher": "STAR COMICS"
+    },
+    "9788822646477": {
+      "url": "https://books.google.com/books/content?id=Duin0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DEMON SLAYER. CAMPUS KIMETSU!. VOL. 1",
+      "author": "GOTOUGE KOYOHARU",
+      "publisher": "STAR COMICS"
+    },
+    "9788822753717": {
+      "url": "https://covers.openlibrary.org/b/isbn/9788822753717-L.jpg?default=false",
+      "provider": "openlibrary_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "INSUPERABILI GOLD (1 DI 2) (GLI)",
+      "author": "",
+      "publisher": "NEWTON COMPTON"
+    },
+    "9788822767493": {
+      "url": "https://books.google.com/books/content?id=-94Q0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PICCOLO NEGOZIO DEL LIETO FINE (IL)",
+      "author": "MCNAMARA ALI",
+      "publisher": "NEWTON COMPTON"
+    },
+    "9788822767882": {
+      "url": "https://books.google.com/books/content?id=b1WczwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "QUINTO SIGILLO (IL)",
+      "author": "COSSU DAVIDE",
+      "publisher": "NEWTON COMPTON"
+    },
+    "9788822776884": {
+      "url": "https://books.google.com/books/content?id=LVQQ0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "COME UN FULMINE A CIEL SERENO",
+      "author": "MCNAMARA ALI",
+      "publisher": "NEWTON COMPTON"
+    },
+    "9788822783295": {
+      "url": "https://books.google.com/books/content?id=h0uL0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CASTELLO DEI FALCHI NERI (IL)",
+      "author": "SIMONI MARCELLO",
+      "publisher": "NEWTON COMPTON"
+    },
+    "9788825039016": {
+      "url": "https://books.google.com/books/content?id=XBG1oQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO E ATTI DEGLI APOSTOLI",
+      "author": "",
+      "publisher": "MESSAGGERO PADOVA"
+    },
+    "9788826204758": {
+      "url": "https://books.google.com/books/content?id=M0mdzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ETICHETTE ADESIVE",
+      "author": "",
+      "publisher": "EDIZIONI DEL BALDO"
+    },
+    "9788826608495": {
+      "url": "https://books.google.com/books/content?id=41ew0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IN PREGHIERA CON GESÙ SULLA VIA DELLA CR",
+      "author": "FRANCESCO (JORGE MARIO BERGOGL",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9788826609966": {
+      "url": "https://books.google.com/books/content?id=8_bc0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FOTO UFFICIALE LEONE XIV 50X70",
+      "author": "",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9788826610276": {
+      "url": "https://books.google.com/books/content?id=o5Cc0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DILEXI TE. EDIZ. ITALIANA",
+      "author": "LEONE XIV (ROBERT FRANCIS PREV",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9788828716839": {
+      "url": "https://books.google.com/books/content?id=6cxfzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUERRA ZERO. FORTNITE X MARVEL. VOL. 4",
+      "author": "GAGE CHRISTOS N.",
+      "publisher": "PANINI COMICS"
+    },
+    "9788828718116": {
+      "url": "https://books.google.com/books/content?id=g3ROzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUERRA ZERO. FORTNITE X MARVEL. VOL. 3",
+      "author": "GAGE CHRISTOS N.",
+      "publisher": "PANINI COMICS"
+    },
+    "9788828719137": {
+      "url": "https://books.google.com/books/content?id=fEdwzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUERRA ZERO. FORTNITE X MARVEL. VOL. 5",
+      "author": "GAGE CHRISTOS N.",
+      "publisher": "PANINI COMICS"
+    },
+    "9788828742470": {
+      "url": "https://books.google.com/books/content?id=lwWozwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NARUTO. VOL. 1",
+      "author": "KISHIMOTO MASASHI",
+      "publisher": "PANINI COMICS"
+    },
+    "9788828745082": {
+      "url": "https://books.google.com/books/content?id=nwO5zwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NARUTO. IL MITO. VOL. 3",
+      "author": "KISHIMOTO MASASHI",
+      "publisher": "PANINI COMICS"
+    },
+    "9788828745389": {
+      "url": "https://books.google.com/books/content?id=IYmqzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NARUTO. IL MITO. VOL. 2",
+      "author": "KISHIMOTO MASASHI",
+      "publisher": "PANINI COMICS"
+    },
+    "9788828766841": {
+      "url": "https://books.google.com/books/content?id=XqwqzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BORUTO. NARUTO NEXT GENERATIONS. VOL. 5",
+      "author": "KISHIMOTO MASASHI",
+      "publisher": "PANINI COMICS"
+    },
+    "9788829603206": {
+      "url": "https://books.google.com/books/content?id=1warzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DESIDERI. EDIZ. A COLORI",
+      "author": "SAUNDERS CHRIS",
+      "publisher": "EMME"
+    },
+    "9788829606399": {
+      "url": "https://books.google.com/books/content?id=stEQ0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "OVUNQUE. EDIZ. A COLORI",
+      "author": "SAUNDERS CHRIS",
+      "publisher": "EMME"
+    },
+    "9788829607525": {
+      "url": "https://books.google.com/books/content?id=gTCa0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "INSIEME. EDIZ. A COLORI",
+      "author": "SAUNDERS CHRIS",
+      "publisher": "EMME"
+    },
+    "9788829934393": {
+      "url": "https://books.google.com/books/content?id=5wIO0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "INVESTIGARE 5.0",
+      "author": "RIZZI GIANNINI",
+      "publisher": "PICCOLO"
+    },
+    "9788830110373": {
+      "url": "https://books.google.com/books/content?id=X1zK0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "COME L'ARANCIO AMARO",
+      "author": "PALMINTERI MILENA",
+      "publisher": "BOMPIANI"
+    },
+    "9788830449633": {
+      "url": "https://books.google.com/books/content?id=Wdf2uQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LADRO GENTILUOMO (IL)",
+      "author": "GAZZOLA ALESSIA",
+      "publisher": "LONGANESI"
+    },
+    "9788830723252": {
+      "url": "https://books.google.com/books/content?id=OoocjgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DAR DA MANGIARE DAR DA BERE. LA CARITÀ È",
+      "author": "FERNÁNDEZ VÍCTOR M.",
+      "publisher": "EMI"
+    },
+    "9788830902800": {
+      "url": "https://books.google.com/books/content?id=3J-pzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DOLCI DI FAMIGLIA. LE MIE RICETTE DEL CU",
+      "author": "MASSARI IGINIO",
+      "publisher": "CAIRO"
+    },
+    "9788831003483": {
+      "url": "https://books.google.com/books/content?id=lWCSzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SEGRETO DEL PETTIROSSO (IL)",
+      "author": "PURICELLI GUERRA ELISA",
+      "publisher": "SALANI"
+    },
+    "9788831138611": {
+      "url": "https://books.google.com/books/content?id=BDJZPgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA SETTIMANA SANTA. CELEBRAZIONE E CONTE",
+      "author": "",
+      "publisher": "CITTA' NUOVA"
+    },
+    "9788831503761": {
+      "url": "https://books.google.com/books/content?id=uXEwPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ORIENTAMENTI EDUCATIVI SULL'AMORE UMANO.",
+      "author": "Conferenza episcopale italiana",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831504713": {
+      "url": "https://books.google.com/books/content?id=_iLHAQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIVES IN MISERICORDIA. LETTERA ENCICLICA",
+      "author": "Giovanni Paolo II",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831506373": {
+      "url": "https://books.google.com/books/content?id=WBmZAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PROGETTO RAGAZZI",
+      "author": "PANZA",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831516259": {
+      "url": "https://books.google.com/books/content?id=etzmAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VENITE CON ME",
+      "author": "CALABRESE",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831528313": {
+      "url": "https://books.google.com/books/content?id=LSljPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL GIORNO DELLA MIA PRIMA COMUNIONE",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788831536325": {
+      "url": "https://books.google.com/books/content?id=EwR3PgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELI E ATTI DEGLI APOSTOLI",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831536486": {
+      "url": "https://books.google.com/books/content?id=VUaEPgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL MIO PRIMO INCONTRO CON GESÙ",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831545693": {
+      "url": "https://books.google.com/books/content?id=JN_2rQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CONOSCIAMO GESÙ. QUADERNO ATTIVO PER IL",
+      "author": "Ferraresso Luigi",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831547536": {
+      "url": "https://books.google.com/books/content?id=j8PrjwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO E ATTI DEGLI APOSTOLI",
+      "author": "CEI. COMM. EPISCOPALE PER LA D",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831548366": {
+      "url": "https://books.google.com/books/content?id=jLIXMQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MIA PRIMA COMUNIONE CON PAPA FRANCESCO (",
+      "author": "ROSU C. (CUR.)",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831548519": {
+      "url": "https://books.google.com/books/content?id=tMNUMQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MIA CRESIMA CON PAPA FRANCESCO (LA)",
+      "author": "ROSU C. (CUR.)",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831553575": {
+      "url": "https://books.google.com/books/content?id=9fPxzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FRATELLI TUTTI. LETTERA ENCICLICA SULLA",
+      "author": "FRANCESCO (JORGE MARIO BERGOGL",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788831554152": {
+      "url": "https://books.google.com/books/content?id=0aRKzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MIO NUOVO MESSALINO (IL)",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788832088649": {
+      "url": "https://books.google.com/books/content?id=MEnk0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MANUALE DI AUTODIFESA PER RAGAZZE E RAGA",
+      "author": "BERNARDINI DE PACE ANNAMARIA",
+      "publisher": "BRAMANTE - VIDEO RAI"
+    },
+    "9788832142082": {
+      "url": "https://books.google.com/books/content?id=eO4rzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VIAGGIO IN LUNIGIANA",
+      "author": "",
+      "publisher": "toscana book"
+    },
+    "9788832142150": {
+      "url": "https://books.google.com/books/content?id=FlguzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FIUMI E SENTIERI IN ALTA TOSCANA. LUNIGI",
+      "author": "BARDI MAURIZIO",
+      "publisher": "toscana book"
+    },
+    "9788832142587": {
+      "url": "https://books.google.com/books/content?id=6dgC0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LUNIGIANA IN BICICLETTA. GLI ITINERARI S",
+      "author": "BARDI MAURIZIO",
+      "publisher": "toscana book"
+    },
+    "9788832722949": {
+      "url": "https://books.google.com/books/content?id=zr8C0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DANTE E ULISSE DUE UOMINI IN VIAGGIO E A",
+      "author": "GAMBINI RINA",
+      "publisher": "IBISKOS ULIVIERI"
+    },
+    "9788832723151": {
+      "url": "https://books.google.com/books/content?id=tZWT0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GIOVANNI BOCCACCIO. IL MERCANTE MANCATO",
+      "author": "GAMBINI RINA",
+      "publisher": "IBISKOS ULIVIERI"
+    },
+    "9788833577012": {
+      "url": "https://books.google.com/books/content?id=WfiF0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TANGERINN",
+      "author": "ANECHOUM EMANUELA",
+      "publisher": "E/O"
+    },
+    "9788834911259": {
+      "url": "https://covers.openlibrary.org/b/isbn/9788834911259-L.jpg?default=false",
+      "provider": "openlibrary_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DANDADAN. VOL. 1",
+      "author": "TATSU YUKINOBU",
+      "publisher": "EDIZIONI BD"
+    },
+    "9788836011063": {
+      "url": "https://books.google.com/books/content?id=8KKFzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GABER",
+      "author": "NERI SANDRO",
+      "publisher": "HOEPLI"
+    },
+    "9788836240470": {
+      "url": "https://books.google.com/books/content?id=dEcOzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CENA DEGLI DEI (LA)",
+      "author": "BARTOLETTI MARINO",
+      "publisher": "GALLUCCI"
+    },
+    "9788839551108": {
+      "url": "https://books.google.com/books/content?id=CfzzAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIZIONARIO DI INGLESE OXFORD-PARAVIA CON",
+      "author": "",
+      "publisher": "PARAVIA"
+    },
+    "9788841524138": {
+      "url": "https://books.google.com/books/content?id=SUUHlYJdknwC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ATLANTE MUTO DEL MONDO",
+      "author": "",
+      "publisher": "DE AGOSTINI"
+    },
+    "9788842934844": {
+      "url": "https://books.google.com/books/content?id=Ct6czwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PORTALETTERE (LA)",
+      "author": "GIANNONE FRANCESCA",
+      "publisher": "NORD"
+    },
+    "9788842935636": {
+      "url": "https://books.google.com/books/content?id=5qfc0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ALBA DEI LEONI. LA SAGA DEI FLORIO (L')",
+      "author": "AUCI STEFANIA",
+      "publisher": "NORD"
+    },
+    "9788843301546": {
+      "url": "https://books.google.com/books/content?id=QkKKAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LETTERATURA ITALIANA. MATURITÀ - IL NOVE",
+      "author": "",
+      "publisher": "BIGNAMI"
+    },
+    "9788843301669": {
+      "url": "https://books.google.com/books/content?id=oKSAPgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "STORIA CONTEMPORANEA. DALL'UNITÀ D'ITALI",
+      "author": "Busotti A.",
+      "publisher": "BIGNAMI"
+    },
+    "9788843306244": {
+      "url": "https://books.google.com/books/content?id=vpEaAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "L'ESAME DI STORIA MODERNA. PER LE SCUOLE",
+      "author": "Danugi P.",
+      "publisher": "BIGNAMI"
+    },
+    "9788843306459": {
+      "url": "https://books.google.com/books/content?id=xLoIPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ESAME DI STORIA. VOL.V: IL NOVECENTO",
+      "author": "Lorenzi A.",
+      "publisher": "BIGNAMI"
+    },
+    "9788843308033": {
+      "url": "https://books.google.com/books/content?id=mLbnPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ESAME DI FILOSOFIA 3. DAL ROMANTICISMO A",
+      "author": "Sacchi F.",
+      "publisher": "BIGNAMI"
+    },
+    "9788843315086": {
+      "url": "https://books.google.com/books/content?id=61TSAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ESAME DI TRIGONOMETRIA",
+      "author": "",
+      "publisher": "BIGNAMI"
+    },
+    "9788843320103": {
+      "url": "https://books.google.com/books/content?id=_p9SAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MASTRO DON GESUALDO",
+      "author": "",
+      "publisher": "BIGNAMI"
+    },
+    "9788843351015": {
+      "url": "https://books.google.com/books/content?id=_h3aAAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIRITTO. PER CONCORSI",
+      "author": "",
+      "publisher": "BIGNAMI"
+    },
+    "9788847743229": {
+      "url": "https://books.google.com/books/content?id=rV-h0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ZANNA BIANCA. STAMPATELLO MAIUSCOLO. EDI",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743236": {
+      "url": "https://books.google.com/books/content?id=ReSc0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "STRADA DI CIOCCOLATO. STAMPATELLO MAIUSC",
+      "author": "RODARI GIANNI",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743243": {
+      "url": "https://books.google.com/books/content?id=Ztib0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TRE MOSCHETTIERI. STAMPATELLO MAIUSCOLO.",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743250": {
+      "url": "https://books.google.com/books/content?id=Uieh0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AL LUPO AL LUPO! STAMPATELLO MAIUSCOLO.",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743267": {
+      "url": "https://books.google.com/books/content?id=oPSe0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GATTO CON GLI STIVALI. STAMPATELLO MAIUS",
+      "author": "PIUMINI ROBERTO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743274": {
+      "url": "https://books.google.com/books/content?id=FCmh0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GIORNALINO DI GIAN BURRASCA. STAMPATELLO",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743281": {
+      "url": "https://books.google.com/books/content?id=U82h0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LEGGENDA DELLA SPADA NELLA ROCCIA. STAMP",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743298": {
+      "url": "https://books.google.com/books/content?id=Up2i0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PICCOLA FIAMMIFERAIA. STAMPATELLO MAIUSC",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743304": {
+      "url": "https://books.google.com/books/content?id=m32d0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MOBY DICK. STAMPATELLO MAIUSCOLO. EDIZ.",
+      "author": "BORDIGLIONI STEFANO",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788847743311": {
+      "url": "https://books.google.com/books/content?id=w82j0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VIOLA AL POLO NORD. STAMPATELLO MAIUSCOL",
+      "author": "RODARI GIANNI",
+      "publisher": "EDIZIONI EL"
+    },
+    "9788849877335": {
+      "url": "https://books.google.com/books/content?id=G_oo0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "INFERNO NON PREVARRÀ (L')",
+      "author": "APOLLONIO ANDREA",
+      "publisher": "RUBBETTINO"
+    },
+    "9788850272570": {
+      "url": "https://books.google.com/books/content?id=BwCYvgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "2025 1+1 TEA",
+      "author": "",
+      "publisher": "TEA"
+    },
+    "9788851175627": {
+      "url": "https://books.google.com/books/content?id=6qsNywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PARTENZE A RAZZO. TUTTO CIÒ CHE C'È DA S",
+      "author": "PERRI LUCA",
+      "publisher": "DE AGOSTINI"
+    },
+    "9788851187002": {
+      "url": "https://books.google.com/books/content?id=uYGyzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "APOLLO CREDICI. UN GAME BOOK SPAZIALE",
+      "author": "FARTADE ADRIAN",
+      "publisher": "DE AGOSTINI"
+    },
+    "9788851416256": {
+      "url": "https://books.google.com/books/content?id=1k6ojgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NATALE DI UNA VOLTA (CONF. 10 PZ)",
+      "author": "",
+      "publisher": "ANCORA"
+    },
+    "9788851421199": {
+      "url": "https://books.google.com/books/content?id=JsbpwQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIBBIA DELLA MIA CRESIMA (LA)",
+      "author": "MAGGIONI B. (CUR.)",
+      "publisher": "ANCORA"
+    },
+    "9788851427962": {
+      "url": "https://books.google.com/books/content?id=qvpK0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VIA CRUCIS. PELLEGRINI DI SPERANZA CON B",
+      "author": "BENEDETTO XVI (JOSEPH RATZINGE",
+      "publisher": "ANCORA"
+    },
+    "9788852502019": {
+      "url": "https://books.google.com/books/content?id=X2nxPQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RIZZOLI LAROUSSE MINI. ESPANOL-ITALIANO",
+      "author": "",
+      "publisher": "RIZZOLI LAROUSSE"
+    },
+    "9788854050082": {
+      "url": "https://books.google.com/books/content?id=92Z4EAAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CAMMINI DI SANTIAGO. CON CARTA GEOGRAFIC",
+      "author": "",
+      "publisher": "WHITE STAR"
+    },
+    "9788855618052": {
+      "url": "https://books.google.com/books/content?id=bgn-nQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LEGGIMI UNA FIABA N.E. SFUSI",
+      "author": "",
+      "publisher": "EDIBIMBI"
+    },
+    "9788856301861": {
+      "url": "https://books.google.com/books/content?id=QXPIjgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DUE INCREDIBILI STORIE DI NATALE",
+      "author": "LIMONE LOREDANA",
+      "publisher": "SARNUS"
+    },
+    "9788856694963": {
+      "url": "https://books.google.com/books/content?id=3LCn0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CORAGGIO VINCE. VITA E VALORI DI UN GENE",
+      "author": "VANNACCI ROBERTO",
+      "publisher": "PIEMME"
+    },
+    "9788858046937": {
+      "url": "https://books.google.com/books/content?id=nmc60AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "QUELLO CHE SAI SULLA PLASTICA È SBAGLIAT",
+      "author": "ROLLINI RUGGERO",
+      "publisher": "GRIBAUDO"
+    },
+    "9788861240568": {
+      "url": "https://books.google.com/books/content?id=r35Ugk55H0gC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PER LA MIA PRIMA COMUNIONE",
+      "author": "Gruppo Il Sicomoro (cur.)",
+      "publisher": "POZZO DI GIACOBBE"
+    },
+    "9788861243132": {
+      "url": "https://books.google.com/books/content?id=KciXpwAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LE PREGHIERE DI PASQUA",
+      "author": "Fabris Francesca",
+      "publisher": "POZZO DI GIACOBBE"
+    },
+    "9788861243781": {
+      "url": "https://books.google.com/books/content?id=r7bzugAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIBBIA DA COLORARE",
+      "author": "Gruppo il Sicomoro",
+      "publisher": "POZZO DI GIACOBBE"
+    },
+    "9788863622836": {
+      "url": "https://books.google.com/books/content?id=-gJ30QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA SERVA DI DIO CARMEN HERNANDEZ",
+      "author": "Charlie Metola e Isabel Bander",
+      "publisher": "CHIRICO"
+    },
+    "9788863638004": {
+      "url": "https://books.google.com/books/content?id=M0mdzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ETICHETTE ADESIVE - MARMELLATE",
+      "author": "",
+      "publisher": "DEL BALDO"
+    },
+    "9788863860191": {
+      "url": "https://books.google.com/books/content?id=i3Y60AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "POTERE DI ADESSO. UNA GUIDA ALL'ILLUMINA",
+      "author": "TOLLE ECKHART",
+      "publisher": ""
+    },
+    "9788864201870": {
+      "url": "https://books.google.com/books/content?id=HimIvQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ONE PIECE. NEW EDITION. VOL. 1",
+      "author": "ODA EIICHIRO",
+      "publisher": "STAR COMICS"
+    },
+    "9788866564041": {
+      "url": "https://books.google.com/books/content?id=b43rswEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PUSHER",
+      "author": "FERRARA ANTONIO",
+      "publisher": "EINAUDI RAGAZZI"
+    },
+    "9788867214570": {
+      "url": "https://books.google.com/books/content?id=93dODQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LIQUORINI. ETICHETTE ADESIVE",
+      "author": "",
+      "publisher": "DEL BALDO"
+    },
+    "9788867570089": {
+      "url": "https://books.google.com/books/content?id=G_vMmAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PREGHIERE PER LA MIA CRESIMA",
+      "author": "Vecchini Silvia",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867570133": {
+      "url": "https://books.google.com/books/content?id=eihWnQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA MESSA E IL TESORO NASCOSTO DELL'EUCAR",
+      "author": "Fabris Francesca",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867570140": {
+      "url": "https://books.google.com/books/content?id=0uq2nQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA CONFESSIONE E IL TESORO DEL PERDONO",
+      "author": "Fabris Francesca",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867570454": {
+      "url": "https://books.google.com/books/content?id=1MPbsgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CRESIMA E IL TESORO DELLO SPIRITO SANTO",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867570645": {
+      "url": "https://books.google.com/books/content?id=mxjZsgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIBBIA E IL TESORO NASCOSTO NELLA PAROLA",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867570775": {
+      "url": "https://books.google.com/books/content?id=3hDjAQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GESÙ E IL TESORO NASCOSTO DEL REGNO DEI",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867570911": {
+      "url": "https://books.google.com/books/content?id=o5xSvgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "COMUNIONE E IL TESORO NASCOSTO... (LA)",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867571895": {
+      "url": "https://books.google.com/books/content?id=PMI3zwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "STORIA DI CARLO ACUTIS. EDIZ. ILLUSTRATA",
+      "author": "PANDINI ANTONELLA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572137": {
+      "url": "https://books.google.com/books/content?id=dCfazwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PREGHIERE PER LA PRIMA COMUNIONE. EDIZ.",
+      "author": "DI GIROLAMO C. (CUR.)",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572304": {
+      "url": "https://books.google.com/books/content?id=CWGr0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PECORELLA SMARRITA. LE PARABOLINE (LA)",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572311": {
+      "url": "https://books.google.com/books/content?id=3PGs0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SEMINATORE. LE PARABOLINE. EDIZ. A COLOR",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572328": {
+      "url": "https://books.google.com/books/content?id=euGp0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BUON SAMARITANO. LE PARABOLINE. EDIZ. IL",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572335": {
+      "url": "https://books.google.com/books/content?id=6Xmq0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FIGLIOL PRODIGO. LE PARABOLINE",
+      "author": "",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572342": {
+      "url": "https://books.google.com/books/content?id=xcCo0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CASA SULLA ROCCIA. LE PARABOLINE (LA)",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867572359": {
+      "url": "https://books.google.com/books/content?id=yimt0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TALENTI. LE PARABOLINE. EDIZ. ILLUSTRATA",
+      "author": "FABRIS FRANCESCA",
+      "publisher": "IL SICOMORO"
+    },
+    "9788867716227": {
+      "url": "https://books.google.com/books/content?id=nprUxgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIVERSE METÀ DELLA VITA (LE)",
+      "author": "MAGNAVACCA ALE",
+      "publisher": "CILIEGIO"
+    },
+    "9788867907236": {
+      "url": "https://books.google.com/books/content?id=YNQ40QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DIDI. VOL. 1: NASCITA",
+      "author": "GALLI CHRISTIAN",
+      "publisher": "TUNUÉ"
+    },
+    "9788868528560": {
+      "url": "https://books.google.com/books/content?id=LcZargEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PIUMA (LA)",
+      "author": "Faletti Giorgio",
+      "publisher": "BALDINI CASTOLDI DALAI"
+    },
+    "9788869057021": {
+      "url": "https://books.google.com/books/content?id=saVSzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PER IL MIO BENE",
+      "author": "STOKHOLMA EMA",
+      "publisher": "MONDADORI ARNOLDO VARIA"
+    },
+    "9788869206269": {
+      "url": "https://books.google.com/books/content?id=7qj5jgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MY HERO ACADEMIA. VOL. 1",
+      "author": "HORIKOSHI KOHEI",
+      "publisher": "STAR COMICS"
+    },
+    "9788869446689": {
+      "url": "https://books.google.com/books/content?id=bLHCjwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SIAMO TUTTI DIVERSI! PER UNA TEOLOGIA QU",
+      "author": "FORCADES TERESA",
+      "publisher": "CASTELVECCHI"
+    },
+    "9788871375168": {
+      "url": "https://books.google.com/books/content?id=efDfCwAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TEMI SVOLTI LETT. IT DALLE ORIGINI",
+      "author": "",
+      "publisher": "CIERRE"
+    },
+    "9788874650309": {
+      "url": "https://books.google.com/books/content?id=iMFtnQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CARTA DEI SENTIERI E DEI RIFUGI 1:25000",
+      "author": "",
+      "publisher": "MULTIGRAPHIC"
+    },
+    "9788875077563": {
+      "url": "https://books.google.com/books/content?id=Zky5PAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GLI ANGELI. LIBRO DA COLORARE",
+      "author": "Cooper Dianne",
+      "publisher": "MACRO"
+    },
+    "9788876010897": {
+      "url": "https://books.google.com/books/content?id=B9MYAQAAIAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SINFONIA GASTRONOMICA. FRA MUSICA, EROS",
+      "author": "Iovino Roberto",
+      "publisher": "VIENNEPIERRE"
+    },
+    "9788878418561": {
+      "url": "https://books.google.com/books/content?id=3uDinQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SORRISO DI TOMMY",
+      "author": "",
+      "publisher": "IBISKOS"
+    },
+    "9788878749245": {
+      "url": "https://books.google.com/books/content?id=P_jWzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FINO ALL'ULTIMA #CHALLENGE",
+      "author": "NICASTRO DANIELE",
+      "publisher": "LAPIS"
+    },
+    "9788880685975": {
+      "url": "https://books.google.com/books/content?id=wKuQMAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL MIO TORO LA MIA PASSIONE. LA MIA MISS",
+      "author": "Rabino Aldo",
+      "publisher": "PRIULI E VERLUCCA"
+    },
+    "9788881461325": {
+      "url": "https://books.google.com/books/content?id=toyVY3nsGOwC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA SPEZIA E BORGATE LUNIGIANA 1/8000",
+      "author": "",
+      "publisher": "BELLETTI"
+    },
+    "9788881991990": {
+      "url": "https://books.google.com/books/content?id=4D5ingEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FRATE INDOVINO",
+      "author": "",
+      "publisher": "BIBLIOTECA FRANCESCANA"
+    },
+    "9788882720070": {
+      "url": "https://books.google.com/books/content?id=ACH-PAAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IL LIBRO D'ORO",
+      "author": "",
+      "publisher": "CANTAGALLI"
+    },
+    "9788884040787": {
+      "url": "https://books.google.com/books/content?id=KDaJxQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TREDICINA A SANT'ANTONIO DI PADOVA",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884042057": {
+      "url": "https://books.google.com/books/content?id=b3x1PgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CORONCINA BIBLICA",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884042798": {
+      "url": "https://books.google.com/books/content?id=CB1IygAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO E ATTI DEGLI APOSTOLI",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884043610": {
+      "url": "https://books.google.com/books/content?id=7WnVrQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AVE MARIA. PREGHIERA DI VITA",
+      "author": "Fanzolato Gianni",
+      "publisher": "SHALOM"
+    },
+    "9788884044204": {
+      "url": "https://books.google.com/books/content?id=JprHtwAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MIE PREGHIERE (LE)",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884044969": {
+      "url": "https://books.google.com/books/content?id=xp8wtAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2018",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884046765": {
+      "url": "https://books.google.com/books/content?id=VHvxzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO GENNAIO-FEBB",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884047632": {
+      "url": "https://books.google.com/books/content?id=Eu34zgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. LETTURE DEL",
+      "author": "FUSCO ROBERTO",
+      "publisher": "SHALOM"
+    },
+    "9788884047748": {
+      "url": "https://books.google.com/books/content?id=kqAqzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "MOJOLI P. (CUR.)",
+      "publisher": "SHALOM"
+    },
+    "9788884047991": {
+      "url": "https://books.google.com/books/content?id=3PFkzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "TOGNETTI S. (CUR.)",
+      "publisher": "SHALOM"
+    },
+    "9788884048585": {
+      "url": "https://books.google.com/books/content?id=f9cC0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2024. RITO ROMANO",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884048660": {
+      "url": "https://books.google.com/books/content?id=gGHXzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "FUSCO ROBERTO",
+      "publisher": "SHALOM"
+    },
+    "9788884049322": {
+      "url": "https://books.google.com/books/content?id=XpYQ0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884049582": {
+      "url": "https://books.google.com/books/content?id=5mus0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "",
+      "publisher": "SHALOM"
+    },
+    "9788884746900": {
+      "url": "https://covers.openlibrary.org/b/id/14629576-M.jpg",
+      "provider": "openlibrary_search",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MONDO AL CONTRARIO (IL)",
+      "author": "VANNACCI ROBERTO",
+      "publisher": "CERCHIO"
+    },
+    "9788885589322": {
+      "url": "https://books.google.com/books/content?id=UleMzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PANE QUOTIDIANO. MAGGIO GIUGNO 2020",
+      "author": "BENZI ORESTE",
+      "publisher": "SEMPRE COMUNICAZIONE"
+    },
+    "9788885589339": {
+      "url": "https://books.google.com/books/content?id=cztlEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PANE QUOTIDIANO. LUGLIO AGOSTO 2020",
+      "author": "BENZI ORESTE",
+      "publisher": "SEMPRE COMUNICAZIONE"
+    },
+    "9788885589520": {
+      "url": "https://books.google.com/books/content?id=-jafEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PANE QUOTIDIANO. GENNAIO FEBBRAIO 2021",
+      "author": "BENZI ORESTE",
+      "publisher": "SEMPRE COMUNICAZIONE"
+    },
+    "9788886242639": {
+      "url": "https://books.google.com/books/content?id=LZoVAgAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IN CAMMINO CON GESÙ VERSO LA PRIMA COMUN",
+      "author": "",
+      "publisher": ""
+    },
+    "9788886423076": {
+      "url": "https://books.google.com/books/content?id=vPeO0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PRIMA CONFESSIONE…",
+      "author": "Sorrentino Antonio",
+      "publisher": "DOTTRINARI"
+    },
+    "9788887837322": {
+      "url": "https://books.google.com/books/content?id=6IbQtAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "A CASA DEL DIAVOLO E ALTRI RACCONTI",
+      "author": "BERTELLA",
+      "publisher": "NN"
+    },
+    "9788889823736": {
+      "url": "https://books.google.com/books/content?id=YOdtswEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ALPI APUANE. CARTA TOPOGRAFICA-ESCURSION",
+      "author": "",
+      "publisher": ""
+    },
+    "9788890600715": {
+      "url": "https://books.google.com/books/content?id=T-GktAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "I MENÙ DELLA TRADIZIONE LUNIGIANESE",
+      "author": "",
+      "publisher": "toscana book"
+    },
+    "9788890600753": {
+      "url": "https://books.google.com/books/content?id=xq7JjwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUIDA DI PONTREMOLI. CON LA GUIDA AL MUS",
+      "author": "BARDI MAURIZIO",
+      "publisher": "toscana book"
+    },
+    "9788891840622": {
+      "url": "https://books.google.com/books/content?id=f57J0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ATLANTE GOLOSO DEL MITO. IL CIBO DEGLI A",
+      "author": "OLIVA MARILÙ",
+      "publisher": "ELECTA"
+    },
+    "9788892210387": {
+      "url": "https://books.google.com/books/content?id=ayPjAQAACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO DELLA PRIMA COMUNIONE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE"
+    },
+    "9788892213449": {
+      "url": "https://books.google.com/books/content?id=_q-cuwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AMEN (2018). VOL. 11: NOVEMBRE",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892217911": {
+      "url": "https://books.google.com/books/content?id=sjoRwwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VANGELO DELLA CRESIMA",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219410": {
+      "url": "https://books.google.com/books/content?id=AZQMzAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CAPPUCCETTO ROSSO. EDIZ. A COLORI",
+      "author": "PERRAULT CHARLES",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219427": {
+      "url": "https://books.google.com/books/content?id=INbjywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PRINCIPESSA SUL PISELLO. EDIZ. A COLORI",
+      "author": "ANDERSEN HANS CHRISTIAN",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219434": {
+      "url": "https://books.google.com/books/content?id=r-TjywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "JACK E IL FAGIOLO MAGICO. EDIZ. A COLORI",
+      "author": "CIMA LODOVICA",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219441": {
+      "url": "https://books.google.com/books/content?id=aqgHzAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "HANSEL E GRETEL",
+      "author": "CIMA LODOVICA",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219458": {
+      "url": "https://books.google.com/books/content?id=82_6ywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BRUTTO ANATROCCOLO (IL)",
+      "author": "ANDERSEN HANS CHRISTIAN",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219465": {
+      "url": "https://books.google.com/books/content?id=yaEVzAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SIRENETTA. EDIZ. A COLORI (LA)",
+      "author": "ANDERSEN HANS CHRISTIAN",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219472": {
+      "url": "https://books.google.com/books/content?id=oej0ywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GATTO CON GLI STIVALI (IL)",
+      "author": "PERRAULT CHARLES",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219496": {
+      "url": "https://books.google.com/books/content?id=Zc8HzAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CENERENTOLA",
+      "author": "CIMA LODOVICA",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219502": {
+      "url": "https://books.google.com/books/content?id=CzLrywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TRE PORCELLINI. EDIZ. A COLORI (I)",
+      "author": "CIMA LODOVICA",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219519": {
+      "url": "https://books.google.com/books/content?id=p83nywEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BELLA ADDORMENTATA NEL BOSCO. EDIZ. A CO",
+      "author": "CIMA LODOVICA",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892219526": {
+      "url": "https://books.google.com/books/content?id=FusNzAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIANCANEVE E I SETTE NANI",
+      "author": "CIMA LODOVICA",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892221949": {
+      "url": "https://books.google.com/books/content?id=jajxzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIBBIA SLS (LA)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892222199": {
+      "url": "https://books.google.com/books/content?id=Tx9MAAAAMAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "1+1 GRANDI CLASSICI RAGAZZI",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892222205": {
+      "url": "https://books.google.com/books/content?id=zPaUzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2021",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892222755": {
+      "url": "https://books.google.com/books/content?id=nL_xzQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BIBBIA SLS. EDIZ.OLANDESE (LA)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223172": {
+      "url": "https://books.google.com/books/content?id=_tkMzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RAPERONZOLO. EDIZ. A COLORI",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223189": {
+      "url": "https://books.google.com/books/content?id=XCJjzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LUPO E I SETTE CAPRETTI (IL)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223196": {
+      "url": "https://books.google.com/books/content?id=YddfzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CIGNI SELVATICI (I)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223219": {
+      "url": "https://books.google.com/books/content?id=2gFbzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PRINCIPE RANOCCHIO (IL)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223257": {
+      "url": "https://books.google.com/books/content?id=xoYMzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BELLA E LA BESTIA. EDIZ. ILLUSTRATA (LA)",
+      "author": "BARSOTTI RENZO",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223264": {
+      "url": "https://books.google.com/books/content?id=ix9fzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ALÌ BABÀ E I QUARANTA LADRONI",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892223271": {
+      "url": "https://books.google.com/books/content?id=lT0NzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PINOCCHIO. EDIZ. ILLUSTRATA",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892227606": {
+      "url": "https://books.google.com/books/content?id=1mvtzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NOSTRA EUCARESTIA (LA)",
+      "author": "MOSCARDO IMERIO",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892227620": {
+      "url": "https://books.google.com/books/content?id=LQnwzgEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PRIMA COMUNIONE. GESÙ IL MIO MIGLIORE AM",
+      "author": "MOSCARDO IMERIO",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892228115": {
+      "url": "https://books.google.com/books/content?id=DNkrzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CRESIMA. NUOVA EDIZ. (LA)",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892228887": {
+      "url": "https://books.google.com/books/content?id=rjsuzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2023",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892240384": {
+      "url": "https://books.google.com/books/content?id=PwanzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ARTE DELLA BUONA BATTAGLIA. LA LIBERTÀ I",
+      "author": "ROSINI FABIO",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892241961": {
+      "url": "https://books.google.com/books/content?id=f9cC0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2024",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892242661": {
+      "url": "https://books.google.com/books/content?id=Axcp0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BERLINO 1936. LA STORIA DI LUZ LONG E JE",
+      "author": "ASSANDRI GIUSEPPE",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892244658": {
+      "url": "https://books.google.com/books/content?id=7VrJ0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2025",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892246775": {
+      "url": "https://books.google.com/books/content?id=vj7z0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "DILEXIT NOS. LETTERA ENCICLICA SULL'AMOR",
+      "author": "FRANCESCO (JORGE MARIO BERGOGL",
+      "publisher": "SAN PAOLO"
+    },
+    "9788892247741": {
+      "url": "https://books.google.com/books/content?id=SWht0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO LITURGICO 2026",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9788893095181": {
+      "url": "https://books.google.com/books/content?id=O6ntrQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BUONANOTTE. FIABE PICCOLINE. EDIZ. ILLUS",
+      "author": "",
+      "publisher": "APE"
+    },
+    "9788893782968": {
+      "url": "https://books.google.com/books/content?id=8hrazwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MAGISTRATO IPOCRITA. LA PRIMA INCHIESTA",
+      "author": "PILATO FABIO",
+      "publisher": "PANDA EDIZIONI"
+    },
+    "9788894253955": {
+      "url": "https://books.google.com/books/content?id=T-GktAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "I MENU DELLA TRADIZIONE LUNIGIANESE",
+      "author": "",
+      "publisher": "toscana book"
+    },
+    "9788894576887": {
+      "url": "https://books.google.com/books/content?id=YvvN0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LUNIGIANA",
+      "author": "",
+      "publisher": "Il gufo editore"
+    },
+    "9788894679816": {
+      "url": "https://books.google.com/books/content?id=HDctzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "POESIE TRA PANDEMIA E GUERRA",
+      "author": "PASQUALI",
+      "publisher": "CARTE AMARANTO"
+    },
+    "9788895569611": {
+      "url": "https://books.google.com/books/content?id=EPpHnwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PIATTI CHIARI",
+      "author": "FALORNI TIZIANA",
+      "publisher": "PILGRIM EDIZIONI"
+    },
+    "9788897057697": {
+      "url": "https://books.google.com/books/content?id=rLjDkQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "NEL NOME DEL PADRE DEL FIGLIO E DELLO SP",
+      "author": "Esposito Franco",
+      "publisher": "ABSOLUTELY FREE"
+    },
+    "9788897266631": {
+      "url": "https://books.google.com/books/content?id=-zd6oAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GUARDIANI DELLA GALASSIA. LA STORIA ILLU",
+      "author": "",
+      "publisher": "MARVEL LIBRI"
+    },
+    "9788898823390": {
+      "url": "https://books.google.com/books/content?id=eMnyoQEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PONTREMOLI FRA 1880 E 1900",
+      "author": "CAMPOLONGHI",
+      "publisher": "TROLL LIBRI"
+    },
+    "9788899792510": {
+      "url": "https://books.google.com/books/content?id=4dq2wwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "QUESTA CAPACITÀ DI SORRIDERE E PIANGERE",
+      "author": "ASCIONE MAURIZIO",
+      "publisher": "PAV EDIZIONI"
+    },
+    "9791220022": {
+      "url": "https://books.google.com/books/content?id=vlcpwAEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA MADONNA DELL'EDERA",
+      "author": "Maria Cristina Pippo",
+      "publisher": "LOCALE"
+    },
+    "9791221209877": {
+      "url": "https://books.google.com/books/content?id=P62A0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PINGUINI ALL'EQUATORE",
+      "author": "PERRI LUCA",
+      "publisher": "DE AGOSTINI"
+    },
+    "9791221210439": {
+      "url": "https://books.google.com/books/content?id=MWvJ0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ERRORI GALATTICI. ERRARE È UMANO PERSEVE",
+      "author": "PERRI LUCA",
+      "publisher": "DE AGOSTINI"
+    },
+    "9791221211719": {
+      "url": "https://books.google.com/books/content?id=lwn10AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CARLO ANGELA E IL SEGRETO DEI MATTI. LA",
+      "author": "FERRARI ALESSANDRO Q.",
+      "publisher": "DE AGOSTINI"
+    },
+    "9791221909616": {
+      "url": "https://books.google.com/books/content?id=pKoh0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SPY X FAMILY. VOL. 2",
+      "author": "ENDO TATSUYA",
+      "publisher": "PANINI COMICS"
+    },
+    "9791222106700": {
+      "url": "https://books.google.com/books/content?id=bpjl0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SOPHIE. SE CI SEI BATTI UN COLPO!",
+      "author": "BRUNIALTI NICOLA",
+      "publisher": "GALLUCCI"
+    },
+    "9791255272410": {
+      "url": "https://books.google.com/books/content?id=LGYZ0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RAGAZZA CON LA GONNA A FIORI (LA)",
+      "author": "RODRIGUEZ GUIDO",
+      "publisher": "MORELLINI"
+    },
+    "9791255790198": {
+      "url": "https://books.google.com/books/content?id=E7Ym0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MARXISTI IN PRATI",
+      "author": "Fabrizio Gandini",
+      "publisher": "AFFIORI"
+    },
+    "9791256141326": {
+      "url": "https://books.google.com/books/content?id=XA2-0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ASCOLTO SMARRITO. LABORATORI DI SCRITTUR",
+      "author": "",
+      "publisher": "CASTELVECCHI"
+    },
+    "9791256391813": {
+      "url": "https://books.google.com/books/content?id=XpYQ0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "TOGNETTI SERAFINO",
+      "publisher": "SHALOM"
+    },
+    "9791256392193": {
+      "url": "https://books.google.com/books/content?id=bXc70QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. LETTURE DEL",
+      "author": "FUSCO ROBERTO",
+      "publisher": "SHALOM"
+    },
+    "9791256392490": {
+      "url": "https://books.google.com/books/content?id=EBh10QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "SULLA TUA PAROLA. MESSALINO. SANTA MESSA",
+      "author": "TOGNETTI SERAFINO",
+      "publisher": "SHALOM"
+    },
+    "9791280132352": {
+      "url": "https://books.google.com/books/content?id=Cl220AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MALEDETTA EUROPA. NON È UNO STATO. NON H",
+      "author": "PARAGONE GIANLUIGI",
+      "publisher": "SIGNS PUBLISHING"
+    },
+    "9791280192288": {
+      "url": "https://books.google.com/books/content?id=qDuJzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LITURGIA DELLE ORE VOL. III",
+      "author": "",
+      "publisher": "SAN PAOLO"
+    },
+    "9791280192301": {
+      "url": "https://books.google.com/books/content?id=w9yHzwEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LITURGIA DELLE ORE VOL.1",
+      "author": "",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9791280192318": {
+      "url": "https://books.google.com/books/content?id=We53CwAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LITURGIA DELLE ORE VOL.2",
+      "author": "",
+      "publisher": "LIBRERIA EDITRICE VATICANA"
+    },
+    "9791280192325": {
+      "url": "https://books.google.com/books/content?id=fEnuCgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_title",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LITURGIA DELLE ORE VOL IV",
+      "author": "",
+      "publisher": "C.E.I."
+    },
+    "9791280845597": {
+      "url": "https://books.google.com/books/content?id=LTa10AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GIBILDONNA",
+      "author": "PRIMAVERA NUNZIO",
+      "publisher": "LAURANA EDITORE"
+    },
+    "9791280920621": {
+      "url": "https://books.google.com/books/content?id=m3MG0QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AMERICA SECONDO TRUMP. PROSPETTIVE ECONO",
+      "author": "VOLPI ALESSANDRO",
+      "publisher": "LA VELA (VIAREGGIO)"
+    },
+    "9791280987365": {
+      "url": "https://books.google.com/books/content?id=IUyu0AEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "UN DIALOGO NOTTURNO",
+      "author": "Niccolò Nisivoccia",
+      "publisher": "INDUSTRIA & LETTERATURA"
+    },
+    "9791281864061": {
+      "url": "https://books.google.com/books/content?id=3DB50QEACAAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "provider": "google_isbn",
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FILASTROCHE (LE)",
+      "author": "ROSSI STEFANO",
+      "publisher": "toscana book"
+    }
+  },
+  "misses": {
+    "1000000011043": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MAGGIO CON MARIA",
+      "author": "FERRINI",
+      "publisher": "ED FRANCESCANE",
+      "status": "miss"
+    },
+    "1000000012927": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "FRANCESCO FOLGOLA APOSTOLO IN CINA",
+      "author": "",
+      "publisher": "FRATI MINORI",
+      "status": "miss"
+    },
+    "1000000014983": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "COLLANA FILO DIRETTO",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE",
+      "status": "miss"
+    },
+    "1000000053425": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ULTIMO URLO GRANDE TORINO",
+      "author": "",
+      "publisher": "ABACO SERVICE",
+      "status": "miss"
+    },
+    "1000000267723": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LA CUCINA DEL MEZZADRO",
+      "author": "MARCHETTI MARTINELLI",
+      "publisher": "IL CORRIERE APUANO",
+      "status": "miss"
+    },
+    "1000000299908": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CARTA ESCURSIONISTAICA ALPI APUANE",
+      "author": "4 land",
+      "publisher": "",
+      "status": "miss"
+    },
+    "2113428772362": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CUORE DI MAMMA CALENDARIO 2022",
+      "author": "Angelo Comastri",
+      "publisher": "PALUMBI",
+      "status": "miss"
+    },
+    "5907700085267": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MISERICORDINA",
+      "author": "",
+      "publisher": "CORONE",
+      "status": "miss"
+    },
+    "8007038303914": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LEGGIPENNA",
+      "author": "",
+      "publisher": "WALT DISNEY",
+      "status": "miss"
+    },
+    "8019118059017": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BENVENUTA BIGLIETTO. CON CD",
+      "author": "",
+      "publisher": "SAN PAOLO",
+      "status": "miss"
+    },
+    "8019118059208": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GRAZIE. CON PRODOTTI VARI",
+      "author": "",
+      "publisher": "SAN PAOLO",
+      "status": "miss"
+    },
+    "8034076210140": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "S. CAMILLO (QUADRETTO MAGNETICO) (CONF.",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE",
+      "status": "miss"
+    },
+    "8051739456837": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CI SALVA LA GENTILEZZA. AGENDINA 2024",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE",
+      "status": "miss"
+    },
+    "8052400817421": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AGENDINA 2017. LA GIOIA DELL'AMORE",
+      "author": "",
+      "publisher": "EDIZIONI PAOLINE",
+      "status": "miss"
+    },
+    "8870183092": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IDENTITA' COERENZA CONTRADDIZIONE",
+      "author": "",
+      "publisher": "IL MANGELO",
+      "status": "miss"
+    },
+    "8872550661": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "LUCA FIESCHI ALLA CORTE DI AVIGNONE",
+      "author": "DE ROSA",
+      "publisher": "NN",
+      "status": "miss"
+    },
+    "9788807898624": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "UE FELTRINELLI 1+1 (2024)",
+      "author": "",
+      "publisher": "FELTRINELLI",
+      "status": "miss"
+    },
+    "9788808520371": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TAVOLA PERIODICA DEGLI ELEMENTI",
+      "author": "AA.VV.",
+      "publisher": "ZANICHELLI",
+      "status": "miss"
+    },
+    "9788826208312": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PICCOLO LUNARIO DELL'ORTO. CALENDARIETTO",
+      "author": "",
+      "publisher": "DEL BALDO",
+      "status": "miss"
+    },
+    "9788826208381": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IO GUFO E TU? CALENDARIETTO 2025",
+      "author": "",
+      "publisher": "DEL BALDO",
+      "status": "miss"
+    },
+    "9788830107373": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "BOMPIANI 1+1 (VOLUMI ASSORTITI)",
+      "author": "",
+      "publisher": "BOMPIANI",
+      "status": "miss"
+    },
+    "9788831278911": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "PENSIERI EUCARISTICI 2024",
+      "author": "",
+      "publisher": "CENTRO EUCARISTICO",
+      "status": "miss"
+    },
+    "9788850266135": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "TANDEM (COFANETTO 2 VOLUMI)",
+      "author": "",
+      "publisher": "TEA",
+      "status": "miss"
+    },
+    "9788854602496": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "MODULATE ARMONIE",
+      "author": "PALLADINI",
+      "publisher": "IBISKOS",
+      "status": "miss"
+    },
+    "9788858044988": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "GRIBAUDO 1+1 (2023)",
+      "author": "",
+      "publisher": "GRIBAUDO",
+      "status": "miss"
+    },
+    "9788866161752": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "ANIMAL WATCH 12 PZ",
+      "author": "",
+      "publisher": "VEGA",
+      "status": "miss"
+    },
+    "9788875494438": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "IN VIAGGIO NELLA PONTREMOLI GRANDUCALE E",
+      "author": "BERTOCCHI LUCIANO",
+      "publisher": "IL CORRIERE APUANO",
+      "status": "miss"
+    },
+    "9788878084209": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "RIFUGI 3. DAL ROCCIAMELONE AL MONTE BIAN",
+      "author": "",
+      "publisher": "VIVALDA",
+      "status": "miss"
+    },
+    "9788881991792": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CALENDARIO FRATE INDOVINO 2023",
+      "author": "",
+      "publisher": "EDIZIONI FRATE INDOVINO",
+      "status": "miss"
+    },
+    "9788886423212": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "CON GESU' VERSO IL PADRE",
+      "author": "",
+      "publisher": "DOTTRINARI",
+      "status": "miss"
+    },
+    "9788892213364": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AMEN (2018). VOL. 3",
+      "author": "",
+      "publisher": "SAN PAOLO",
+      "status": "miss"
+    },
+    "9788892248304": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "AMEN. LA PAROLA CHE SALVA (2026). VOL. 3",
+      "author": "",
+      "publisher": "SAN PAOLO",
+      "status": "miss"
+    },
+    "9788896581803": {
+      "checked_at": "2026-03-21T12:26:52Z",
+      "title": "VOLTI DI SAN PIO DA PIETRALCINA. CALENDA",
+      "author": "FONDAZIONE VOCE DI PADRE PIO",
+      "publisher": "EDIZIONI PAOLINE",
+      "status": "miss"
+    }
+  }
 }
