@@ -62,7 +62,7 @@ def sanitize_image_url(url: str) -> str:
 
 def load_dataset_items(index_path: Path) -> List[Dict[str, Any]]:
     raw = index_path.read_text(encoding='utf-8', errors='ignore')
-    m = re.search(r'<script[^>]+id=["']dataset["'][^>]*>(.*?)</script>', raw, re.S)
+    m = re.search(r"<script[^>]+id=[\"']dataset[\"'][^>]*>(.*?)</script>", raw, re.S)
     if not m:
         raise RuntimeError('Dataset embedded JSON not found in index.html')
     payload = json.loads(m.group(1))
