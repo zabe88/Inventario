@@ -2,149 +2,88 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cervellone God Mode - Libreria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    
+    <title>Cervellone - Triage Magazzino</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f0f2f5;
-            color: #333;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-        }
-        h1 { text-align: center; color: #1a1a1a; }
+        body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
         
-        /* La barra di ricerca del lettore di codici a barre */
-        .scanner-input {
-            width: 100%;
-            padding: 20px;
-            font-size: 24px;
-            border: 3px solid #007aff;
-            border-radius: 10px;
-            box-sizing: border-box;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-        .scanner-input:focus { outline: none; box-shadow: 0 0 15px rgba(0, 122, 255, 0.4); }
-
-        /* I box di intelligenza artificiale */
-        .intelligence-panel { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+        /* HEADER MINIMALE */
+        .header { position: sticky; top: 0; background: #111; padding: 15px; z-index: 100; border-bottom: 4px solid #eab308; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
+        h1 { font-size: 20px; margin: 0 0 12px 0; color: white; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
         
-        .alert-box {
-            padding: 20px;
-            border-radius: 8px;
-            font-size: 18px;
-            font-weight: bold;
-            display: none; /* Nascosti di default */
-            animation: fadeIn 0.5s ease-in-out;
-        }
-
-        /* Colori specifici per ogni ragno */
-        .alert-hype { background: #ffebee; color: #c62828; border-left: 8px solid #c62828; } /* Anime e BookTok */
-        .alert-release { background: #e3f2fd; color: #1565c0; border-left: 8px solid #1565c0; } /* Uscite Editori */
-        .alert-local { background: #e8f5e9; color: #2e7d32; border-left: 8px solid #2e7d32; } /* Lunigiana */
+        /* RADAR A SCOMPARSA (STILE iOS) */
+        #radar-widget { margin-bottom: 15px; }
+        #radar-toggle { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); color: #e0e7ff; padding: 12px 15px; border-radius: 8px; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: space-between; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.1s ease;}
+        #radar-toggle:active { transform: scale(0.98); }
+        .radar-icon { display: flex; align-items: center; gap: 8px; }
+        #radar-chevron { transition: transform 0.3s ease; }
+        #radar-chevron.open { transform: rotate(180deg); }
         
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+        #radar-content { background: #0f172a; color: #cbd5e1; border-radius: 8px; padding: 0 15px; font-size: 14px; line-height: 1.6; display: none; margin-top: 5px; border: 1px solid #1e293b; max-height: 300px; overflow-y: auto;}
+        #radar-content.active { display: block; padding: 15px; }
+        
+        .radar-item { padding: 10px 0; border-bottom: 1px solid #1e293b; }
+        .radar-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .badge-data { background: #4f46e5; color: white; padding: 3px 6px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 8px; display: inline-block; margin-bottom: 4px; letter-spacing: 0.5px;}
 
-        .loader { text-align: center; font-style: italic; color: #666; display: none; }
+        /* RICERCA */
+        #search-box { width: 100%; padding: 14px; font-size: 16px; border-radius: 8px; border: none; box-sizing: border-box; background: #fff; color: #333; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);}
+        #search-box:focus { outline: 2px solid #eab308; }
+        
+        /* CARD LIBRI */
+        .list-container { display: flex; flex-direction: column; gap: 15px; }
+        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
+        .book-header { display: flex; gap: 15px; align-items: stretch; }
+        
+        .book-cover { width: 80px; height: 120px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 3px 6px rgba(0,0,0,0.15); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;}
+        
+        .book-info { flex: 1; display: flex; flex-direction: column; justify-content: center;}
+        .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
+        .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
+        .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
+        
+        /* AI BOXES */
+        .ai-box { background: #111; border-left: 5px solid #eab308; border-radius: 6px; padding: 12px; font-size: 14px; color: #fef08a; line-height: 1.5; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); }
+        .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 8px; color: #eab308; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
+        .ai-alert { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
+        .ai-alert:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0;}
+        
+        .ai-local-box { background: linear-gradient(to right, #2e1065, #1e1b4b); border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
+        .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;}
+
+        /* BOTTONI */
+        .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px;}
+        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 65px; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
+        button:active { transform: scale(0.95); }
+        .btn-tenere { background-color: #10b981; } 
+        .btn-reso { background-color: #f97316; } 
+        .btn-regalo { background-color: #8b5cf6; } 
+        .btn-bundle { background-color: #ec4899; } 
+        .btn-mancante { background-color: #ef4444; } 
+        
+        .loading { text-align: center; color: #666; font-size: 18px; padding: 30px; font-weight: bold;}
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>🧠 God Mode: Attivo</h1>
-    
-    <input type="text" id="scanner" class="scanner-input" placeholder="Spara un codice a barre o scrivi un titolo..." autofocus>
-    
-    <div id="loading" class="loader">Interrogazione dei 9 Sciami in corso...</div>
-
-    <div id="intelligence-results" class="intelligence-panel"></div>
-</div>
-
-<script>
-    // --- LE TUE CHIAVI SEGRETE ---
-    const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
-    const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
-    const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-
-    const inputScanner = document.getElementById('scanner');
-    const loadingDiv = document.getElementById('loading');
-    const resultsDiv = document.getElementById('intelligence-results');
-
-    // Il lettore di codici a barre simula la pressione del tasto "Invio"
-    inputScanner.addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            let query = inputScanner.value.trim();
-            if (query !== "") {
-                eseguiScansioneGodMode(query);
-            }
-        }
-    });
-
-    async function eseguiScansioneGodMode(testoScansionato) {
-        // Pulisce lo schermo per la nuova ricerca
-        resultsDiv.innerHTML = '';
-        loadingDiv.style.display = 'block';
-
-        // Estrapoliamo la prima parola chiave forte dal titolo per fare la ricerca incrociata
-        // (Se è un codice a barre, nella tua app reale prima lo convertiresti in Titolo. 
-        // Per ora facciamo finta che scrivi il titolo o una parola chiave del manga)
-        let parolaChiave = testoScansionato.split(" ")[0]; 
-
-        try {
-            // L'ATTACCO AL DATABASE: Cerchiamo cosa sanno i ragni su questa parola chiave
-            const { data, error } = await supabase
-                .from('external_signal_staging')
-                .select('*')
-                .ilike('signal_text', `%${parolaChiave}%`)
-                .limit(5);
-
-            loadingDiv.style.display = 'none';
-
-            if (error) throw error;
-
-            if (data && data.length > 0) {
-                // Se i ragni hanno trovato qualcosa, accendiamo gli allarmi!
-                data.forEach(segnale => {
-                    let tipoAllarme = 'alert-local'; // Default
-                    
-                    // Capiamo chi ha mandato il segnale per colorare il box
-                    if (segnale.signal_type === 'national_trend') tipoAllarme = 'alert-hype';
-                    if (segnale.signal_type === 'publisher_release') tipoAllarme = 'alert-release';
-
-                    // Creiamo il box esplosivo a schermo
-                    let box = document.createElement('div');
-                    box.className = `alert-box ${tipoAllarme}`;
-                    box.style.display = 'block';
-                    box.innerHTML = segnale.signal_text;
-                    resultsDiv.appendChild(box);
-                });
-            } else {
-                // Se i ragni tacciono
-                let boxVuoto = document.createElement('div');
-                boxVuoto.style.padding = '10px';
-                boxVuoto.style.color = '#888';
-                boxVuoto.innerHTML = "Nessun segnale intercettato dai ragni per questo titolo. Tutto tranquillo.";
-                resultsDiv.appendChild(boxVuoto);
-            }
-
-        } catch (error) {
-            console.error('Errore di connessione al Cervellone:', error);
-            loadingDiv.style.display = 'none';
-        }
+    <div class="header">
+        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">LUNIGIANA</span></h1>
         
-        // Svuota la barra per sparare al prossimo libro
-        inputScanner.value = '';
-    }
-</script>
+        <div id="radar-widget">
+            <div id="radar-toggle" onclick="toggleRadar()">
+                <div class="radar-icon">📍 <span id="radar-summary">Sincronizzazione eventi...</span></div>
+                <div id="radar-chevron">▼</div>
+            </div>
+            <div id="radar-content">
+                <div id="radar-list">Nessun evento caricato.</div>
+            </div>
+        </div>
 
-</body>
-</html>
+        <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="handleSearchInput()">
+    </div>
+
+    <div id="loading" class="loading">Sincronizzazione Rete Neurale... 🧠</div>
+    <div class="list-
