@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
-Scraper classifiche libri MULTI-FONTE → Supabase ranking_charts
-Versione 8: Libraccio + Mondadori Store + Giunti al Punto
-Ogni fonte viene salvata separatamente, poi il DB calcola uno score incrociato.
-Solo requests + BeautifulSoup, niente Playwright.
+RADAR COMPLETO: Classifiche + Eventi Locali + Manga Trend → Supabase
+Versione 9: multi-fonte, multi-tipo segnale.
 """
 
 import argparse
@@ -24,117 +22,71 @@ HEADERS = {
 
 
 def extract_isbn(url: str) -> str | None:
-    """Estrai ISBN-13 da una URL."""
     m = re.search(r'(97[89]\d{10})', url or '')
     return m.group(1) if m else None
 
 
+def fetch_page(url: str) -> str | None:
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        return resp.text
+    except Exception as e:
+        print(f"  ⚠ Errore fetch: {e}")
+        return None
+
+
 # ═══════════════════════════════════════════════════════
-# PARSER: LIBRACCIO
+# CLASSIFICHE
 # ═══════════════════════════════════════════════════════
+
 def parse_libraccio(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
-    entries = []
-    seen = set()
-    pos = 1
+    entries, seen, pos = [], set(), 1
     for link in soup.select('a[href*="/libro/"]'):
         href = link.get("href", "")
-        if href in seen or "/autore/" in href:
-            continue
+        if href in seen or "/autore/" in href: continue
         title = link.get_text(strip=True)
-        if not title or len(title) < 4:
-            continue
+        if not title or len(title) < 4: continue
         seen.add(href)
         entry = {"position": pos, "title": title[:200]}
         ean = extract_isbn(href)
-        if ean:
-            entry["ean"] = ean
+        if ean: entry["ean"] = ean
         parent = link.find_parent(["div", "li", "td"])
         if parent:
             auth = parent.select_one('a[href*="/autore/"]')
-            if auth:
-                entry["author"] = auth.get_text(strip=True)[:100]
+            if auth: entry["author"] = auth.get_text(strip=True)[:100]
         entries.append(entry)
         pos += 1
     return entries
 
 
-# ═══════════════════════════════════════════════════════
-# PARSER: GIUNTI AL PUNTO (Shopify-based)
-# ═══════════════════════════════════════════════════════
 def parse_giunti(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
-    entries = []
-    seen = set()
-    pos = 1
-    # Giunti usa Shopify: prodotti in card con link /products/
+    entries, seen, pos = [], set(), 1
     for link in soup.select('a[href*="/products/"]'):
         href = link.get("href", "")
-        if href in seen:
-            continue
+        if href in seen: continue
         title = link.get_text(strip=True)
-        if not title or len(title) < 4:
-            continue
-        # Salta link di navigazione
-        if title.lower() in ("vedi tutto", "scopri", "aggiungi"):
-            continue
+        if not title or len(title) < 4: continue
+        if title.lower() in ("vedi tutto", "scopri", "aggiungi"): continue
         seen.add(href)
         entry = {"position": pos, "title": title[:200]}
         ean = extract_isbn(href)
-        if ean:
-            entry["ean"] = ean
-        # Cerca autore vicino
+        if ean: entry["ean"] = ean
         parent = link.find_parent(["div", "li", "article"])
         if parent:
-            # Giunti mette l'autore in un elemento separato
             for el in parent.find_all(string=True):
                 text = el.strip()
-                if text and text != title and len(text) > 3 and len(text) < 80:
-                    if not text.startswith("€") and not text.startswith("Aggiungi"):
-                        entry["author"] = text[:100]
-                        break
-        entries.append(entry)
-        pos += 1
-    return entries
-
-
-# ═══════════════════════════════════════════════════════
-# PARSER: MONDADORI STORE
-# ═══════════════════════════════════════════════════════
-def parse_mondadori(html: str) -> list[dict]:
-    soup = BeautifulSoup(html, "html.parser")
-    entries = []
-    seen = set()
-    pos = 1
-    # Mondadori Store usa link con ISBN o /p/
-    for link in soup.select('a[href]'):
-        href = link.get("href", "")
-        ean = extract_isbn(href)
-        if not ean or ean in seen:
-            continue
-        title = link.get_text(strip=True)
-        if not title or len(title) < 4:
-            continue
-        seen.add(ean)
-        entry = {"position": pos, "title": title[:200], "ean": ean}
-        parent = link.find_parent(["div", "li", "article"])
-        if parent:
-            # Cerca testo autore
-            for el in parent.select('.author, [class*="author"], [class*="brand"]'):
-                author_text = el.get_text(strip=True)
-                if author_text:
-                    entry["author"] = author_text[:100]
+                if text and text != title and 3 < len(text) < 80 and not text.startswith("€"):
+                    entry["author"] = text[:100]
                     break
         entries.append(entry)
         pos += 1
     return entries
 
 
-# ═══════════════════════════════════════════════════════
-# CONFIGURAZIONE CHART
-# ═══════════════════════════════════════════════════════
-CHARTS = [
-    # LIBRACCIO
+RANKING_CHARTS = [
     {"name": "Libraccio Top 100", "category": "generale", "source_key": "libraccio",
      "url": "https://www.libraccio.it/Top100.aspx", "parser": parse_libraccio},
     {"name": "Libraccio Narrativa", "category": "narrativa", "source_key": "libraccio",
@@ -145,7 +97,6 @@ CHARTS = [
      "url": "https://www.libraccio.it/reparto/21/fumetti-e-graphic-novels.html?ordinamento=piu-venduti", "parser": parse_libraccio},
     {"name": "Libraccio Religione", "category": "religione", "source_key": "libraccio",
      "url": "https://www.libraccio.it/reparto/35/religione.html?ordinamento=piu-venduti", "parser": parse_libraccio},
-    # GIUNTI AL PUNTO
     {"name": "Giunti Top 20", "category": "generale", "source_key": "giunti",
      "url": "https://giuntialpunto.it/collections/classifica-gap", "parser": parse_giunti},
     {"name": "Giunti Gialli Thriller", "category": "gialli_thriller", "source_key": "giunti",
@@ -154,22 +105,202 @@ CHARTS = [
      "url": "https://giuntialpunto.it/collections/bambini-e-ragazzi", "parser": parse_giunti},
     {"name": "Giunti TikTok", "category": "social_trend", "source_key": "giunti",
      "url": "https://giuntialpunto.it/collections/i-piu-amati-su-tik-tok", "parser": parse_giunti},
+    {"name": "Giunti Fantasy", "category": "fantasy", "source_key": "giunti",
+     "url": "https://giuntialpunto.it/collections/fantasy", "parser": parse_giunti},
+    {"name": "Giunti Young Adult", "category": "young_adult", "source_key": "giunti",
+     "url": "https://giuntialpunto.it/collections/young-adult", "parser": parse_giunti},
 ]
 
 
-def scrape_chart(chart: dict) -> list[dict]:
-    url = chart["url"]
-    print(f"  Fetching {url} ...")
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"  ⚠ Errore: {e}")
-        return []
-    return chart["parser"](resp.text)
+# ═══════════════════════════════════════════════════════
+# EVENTI LOCALI LUNIGIANA
+# ═══════════════════════════════════════════════════════
+
+def parse_sigeric_events(html: str) -> list[dict]:
+    """Parsa eventi da sigeric.it"""
+    soup = BeautifulSoup(html, "html.parser")
+    events = []
+    # Sigeric usa WordPress con post/eventi
+    articles = soup.select("article, .event-item, .post, .entry, .wp-block-post")
+    if not articles:
+        # Fallback: cerca tutti i link con "evento" o date
+        articles = soup.select('a[href*="evento"], a[href*="event"], a[href*="/tour/"]')
+    
+    for art in articles:
+        title_el = art.select_one("h2, h3, h4, .entry-title, .event-title") or art
+        title = title_el.get_text(strip=True)[:200]
+        if not title or len(title) < 5: continue
+        
+        link_el = art.select_one("a[href]") if art.name != 'a' else art
+        url = link_el.get("href", "") if link_el else ""
+        
+        # Cerca date nel testo
+        text = art.get_text(" ", strip=True)
+        date_match = re.search(r'(\d{1,2})\s*(?:e\s*\d{1,2}\s*)?(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s*(20\d{2})', text, re.IGNORECASE)
+        event_date = None
+        if date_match:
+            months = {"gennaio":"01","febbraio":"02","marzo":"03","aprile":"04","maggio":"05","giugno":"06",
+                      "luglio":"07","agosto":"08","settembre":"09","ottobre":"10","novembre":"11","dicembre":"12"}
+            for m_name, m_num in months.items():
+                if m_name in text.lower():
+                    day = date_match.group(1).zfill(2)
+                    year = date_match.group(2)
+                    event_date = f"{year}-{m_num}-{day}"
+                    break
+        
+        events.append({
+            "title": title,
+            "url": url,
+            "event_date": event_date,
+            "source_text": text[:500],
+        })
+    return events
 
 
-def push_to_supabase(supabase_url, supabase_key, chart, entries, chart_date):
+def parse_visitlunigiana_events(html: str) -> list[dict]:
+    """Parsa eventi da visitlunigiana.it"""
+    soup = BeautifulSoup(html, "html.parser")
+    events = []
+    # VisitLunigiana usa The Events Calendar (WordPress)
+    articles = soup.select(".tribe_events, .type-tribe_events, article, .event-item")
+    if not articles:
+        articles = soup.select('a[href*="/events/"], a[href*="/evento/"]')
+    
+    for art in articles:
+        title_el = art.select_one("h2, h3, .tribe-events-list-event-title, .entry-title") or art
+        title = title_el.get_text(strip=True)[:200]
+        if not title or len(title) < 5: continue
+        
+        link_el = art.select_one("a[href]") if art.name != 'a' else art
+        url = link_el.get("href", "") if link_el else ""
+        
+        date_el = art.select_one(".tribe-event-schedule-details, time, .event-date, [datetime]")
+        event_date = None
+        if date_el:
+            dt = date_el.get("datetime", "")
+            if dt:
+                event_date = dt[:10]
+        
+        events.append({
+            "title": title,
+            "url": url,
+            "event_date": event_date,
+        })
+    return events
+
+
+def parse_lunigianaworld_events(html: str) -> list[dict]:
+    """Parsa eventi da lunigianaworld.it"""
+    soup = BeautifulSoup(html, "html.parser")
+    events = []
+    articles = soup.select("article, .event, .entry, a[href*='evento']")
+    
+    for art in articles:
+        title_el = art.select_one("h2, h3, h4, .entry-title") or art
+        title = title_el.get_text(strip=True)[:200]
+        if not title or len(title) < 5: continue
+        
+        link_el = art.select_one("a[href]") if art.name != 'a' else art
+        url = link_el.get("href", "") if link_el else ""
+        
+        events.append({"title": title, "url": url})
+    return events
+
+
+def parse_sagretoscane(html: str) -> list[dict]:
+    """Parsa eventi da sagretoscane.com"""
+    soup = BeautifulSoup(html, "html.parser")
+    events = []
+    articles = soup.select(".event, article, .sagra, a[href*='sagr'], a[href*='evento']")
+    
+    for art in articles:
+        title_el = art.select_one("h2, h3, h4, .title") or art
+        title = title_el.get_text(strip=True)[:200]
+        if not title or len(title) < 5: continue
+        
+        link_el = art.select_one("a[href]") if art.name != 'a' else art
+        url = link_el.get("href", "") if link_el else ""
+        
+        # Cerca date
+        text = art.get_text(" ", strip=True)
+        date_match = re.search(r'(\d{1,2})/(\d{1,2})/(20\d{2})', text)
+        event_date = None
+        if date_match:
+            event_date = f"{date_match.group(3)}-{date_match.group(2).zfill(2)}-{date_match.group(1).zfill(2)}"
+        
+        events.append({"title": title, "url": url, "event_date": event_date})
+    return events
+
+
+LOCAL_EVENT_SOURCES = [
+    {"name": "Sigeric Eventi", "source_key": "sigeric",
+     "url": "https://www.sigeric.it/", "parser": parse_sigeric_events},
+    {"name": "VisitLunigiana Eventi", "source_key": "visitlunigiana",
+     "url": "https://visitlunigiana.it/events/", "parser": parse_visitlunigiana_events},
+    {"name": "VisitLunigiana Lista", "source_key": "visitlunigiana",
+     "url": "https://visitlunigiana.it/eventi-in-lunigiana/", "parser": parse_visitlunigiana_events},
+    {"name": "Lunigiana World", "source_key": "lunigianaworld",
+     "url": "https://www.lunigianaworld.it/calendario-eventi/", "parser": parse_lunigianaworld_events},
+    {"name": "Sagre Toscane Lunigiana", "source_key": "sagretoscane",
+     "url": "https://www.sagretoscane.com/eventi/lunigiana/", "parser": parse_sagretoscane},
+]
+
+
+# ═══════════════════════════════════════════════════════
+# MANGA / ANIME TREND
+# ═══════════════════════════════════════════════════════
+
+def parse_mycomics_classifica(html: str) -> list[dict]:
+    """Parsa classifica settimanale MyComics"""
+    soup = BeautifulSoup(html, "html.parser")
+    entries, seen, pos = [], set(), 1
+    for link in soup.select('a[href*="/product/"], a[href*="/prodotto/"]'):
+        href = link.get("href", "")
+        if href in seen: continue
+        title = link.get_text(strip=True)
+        if not title or len(title) < 4: continue
+        seen.add(href)
+        entry = {"position": pos, "title": title[:200]}
+        ean = extract_isbn(href)
+        if ean: entry["ean"] = ean
+        entries.append(entry)
+        pos += 1
+    return entries
+
+
+def parse_animeclick_news(html: str) -> list[dict]:
+    """Parsa news da AnimeClick per trend manga/anime"""
+    soup = BeautifulSoup(html, "html.parser")
+    entries = []
+    articles = soup.select("article, .news-item, .entry, h2 a, h3 a")
+    seen = set()
+    
+    for art in articles:
+        link_el = art.select_one("a[href]") if art.name != 'a' else art
+        if not link_el: continue
+        href = link_el.get("href", "")
+        if href in seen: continue
+        title = link_el.get_text(strip=True)[:200]
+        if not title or len(title) < 10: continue
+        seen.add(href)
+        entries.append({"title": title, "url": href})
+    return entries[:30]  # Top 30
+
+
+MANGA_SOURCES = [
+    {"name": "Libraccio Fumetti", "category": "fumetti", "source_key": "libraccio",
+     "url": "https://www.libraccio.it/reparto/21/fumetti-e-graphic-novels.html?ordinamento=piu-venduti",
+     "parser": parse_libraccio, "type": "ranking"},
+    {"name": "AnimeClick News", "source_key": "animeclick",
+     "url": "https://www.animeclick.it/news", "parser": parse_animeclick_news, "type": "trend"},
+]
+
+
+# ═══════════════════════════════════════════════════════
+# SUPABASE INTEGRATION
+# ═══════════════════════════════════════════════════════
+
+def push_rankings(supabase_url, supabase_key, chart, entries, chart_date):
     rpc_url = f"{supabase_url}/rest/v1/rpc/ingest_ranking_chart"
     payload = {
         "p_source_key": chart["source_key"],
@@ -190,9 +321,78 @@ def push_to_supabase(supabase_url, supabase_key, chart, entries, chart_date):
     return resp.json()
 
 
-def save_json(all_entries, output_path):
+def push_events(supabase_url, supabase_key, source_key, events):
+    """Push eventi locali in external_signal_staging"""
+    headers = {
+        "apikey": supabase_key,
+        "Authorization": f"Bearer {supabase_key}",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal",
+    }
+    inserted = 0
+    for ev in events:
+        row = {
+            "feed_key": f"events-{source_key}",
+            "source_key": source_key,
+            "raw_title": ev.get("title", ""),
+            "signal_type": "local_event",
+            "signal_text": ev.get("title", ""),
+            "event_date": ev.get("event_date"),
+            "source_url": ev.get("url", ""),
+            "source_payload": json.dumps(ev),
+            "processed": False,
+        }
+        try:
+            resp = requests.post(
+                f"{supabase_url}/rest/v1/external_signal_staging",
+                json=row, headers=headers, timeout=10
+            )
+            if resp.status_code in (200, 201):
+                inserted += 1
+        except:
+            pass
+    return inserted
+
+
+def push_manga_trends(supabase_url, supabase_key, source_key, trends):
+    """Push manga trends in external_signal_staging"""
+    headers = {
+        "apikey": supabase_key,
+        "Authorization": f"Bearer {supabase_key}",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal",
+    }
+    inserted = 0
+    for t in trends:
+        row = {
+            "feed_key": f"manga-{source_key}",
+            "source_key": source_key,
+            "raw_title": t.get("title", ""),
+            "signal_type": "manga_trend",
+            "signal_text": t.get("title", ""),
+            "source_url": t.get("url", ""),
+            "source_payload": json.dumps(t),
+            "processed": False,
+        }
+        try:
+            resp = requests.post(
+                f"{supabase_url}/rest/v1/external_signal_staging",
+                json=row, headers=headers, timeout=10
+            )
+            if resp.status_code in (200, 201):
+                inserted += 1
+        except:
+            pass
+    return inserted
+
+
+# ═══════════════════════════════════════════════════════
+# JSON OUTPUT
+# ═══════════════════════════════════════════════════════
+
+def save_json(all_rankings, all_events, all_manga, output_path):
     feed = {
-        "source": "Multi-source rankings v8",
+        "source": "Radar completo v9",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rankings": [{
             "ean": e.get("ean", ""),
@@ -201,13 +401,28 @@ def save_json(all_entries, output_path):
             "position": e.get("position", 0),
             "category": e.get("_category", ""),
             "source": e.get("_source", ""),
-            "period": "1week",
-        } for e in all_entries]
+        } for e in all_rankings],
+        "local_events": [{
+            "title": e.get("title", ""),
+            "date": e.get("event_date", ""),
+            "url": e.get("url", ""),
+            "source": e.get("_source", ""),
+        } for e in all_events],
+        "manga_trends": [{
+            "title": e.get("title", ""),
+            "source": e.get("_source", ""),
+            "url": e.get("url", ""),
+        } for e in all_manga],
     }
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)
-    print(f"\n✓ JSON salvato: {output_path} ({len(feed['rankings'])} entries)")
+    total = len(feed["rankings"]) + len(feed["local_events"]) + len(feed["manga_trends"])
+    print(f"\n✓ JSON salvato: {output_path} ({total} segnali totali)")
 
+
+# ═══════════════════════════════════════════════════════
+# MAIN
+# ═══════════════════════════════════════════════════════
 
 def main():
     parser = argparse.ArgumentParser()
@@ -218,60 +433,113 @@ def main():
     args = parser.parse_args()
 
     chart_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    all_entries = []
+    all_rankings = []
+    all_events = []
+    all_manga = []
     total_ingested = 0
     total_matched = 0
+    has_db = args.supabase_url and args.supabase_key and not args.json_only
 
-    print(f"=== Multi-source rankings v8 — {chart_date} ===")
-    print(f"    Fonti: Libraccio, Giunti al Punto")
-    print(f"    Classifiche: {len(CHARTS)}\n")
+    print(f"{'='*60}")
+    print(f"  RADAR COMPLETO v9 — {chart_date}")
+    print(f"  Classifiche: {len(RANKING_CHARTS)}")
+    print(f"  Eventi locali: {len(LOCAL_EVENT_SOURCES)} fonti")
+    print(f"  Manga/anime: {len(MANGA_SOURCES)} fonti")
+    print(f"{'='*60}\n")
 
-    for chart in CHARTS:
-        print(f"\n📊 [{chart['source_key'].upper()}] {chart['name']} ({chart['category']})")
-        entries = scrape_chart(chart)
+    # ── CLASSIFICHE ────────────────────────────────────
+    print("━━━ CLASSIFICHE ━━━")
+    for chart in RANKING_CHARTS:
+        print(f"\n📊 [{chart['source_key'].upper()}] {chart['name']}")
+        html = fetch_page(chart["url"])
+        if not html: continue
+        entries = chart["parser"](html)
         print(f"   Trovati {len(entries)} titoli")
-
-        if not entries:
-            continue
-
+        if not entries: continue
         for e in entries:
             e["_category"] = chart["category"]
             e["_source"] = chart["source_key"]
-        all_entries.extend(entries)
-
-        if args.supabase_url and args.supabase_key and not args.json_only:
+        all_rankings.extend(entries)
+        if has_db:
             try:
                 clean = [{k: v for k, v in e.items() if not k.startswith("_")} for e in entries]
-                result = push_to_supabase(
-                    args.supabase_url, args.supabase_key,
-                    chart, clean, chart_date
-                )
+                result = push_rankings(args.supabase_url, args.supabase_key, chart, clean, chart_date)
                 if isinstance(result, list) and len(result) > 0:
                     r = result[0]
                     total_ingested += r.get("ingested", 0)
                     total_matched += r.get("matched", 0)
                     print(f"   → DB: {r.get('ingested',0)} ingested, {r.get('matched',0)} matched")
-                else:
-                    print(f"   → DB: ok")
             except Exception as e:
-                print(f"   ⚠ Errore Supabase: {e}")
-
+                print(f"   ⚠ DB: {e}")
         time.sleep(1.5)
 
-    save_json(all_entries, args.output)
+    # ── EVENTI LOCALI ──────────────────────────────────
+    print("\n\n━━━ EVENTI LOCALI LUNIGIANA ━━━")
+    for src in LOCAL_EVENT_SOURCES:
+        print(f"\n📍 [{src['source_key'].upper()}] {src['name']}")
+        html = fetch_page(src["url"])
+        if not html: continue
+        events = src["parser"](html)
+        print(f"   Trovati {len(events)} eventi")
+        if not events: continue
+        for e in events:
+            e["_source"] = src["source_key"]
+        all_events.extend(events)
+        if has_db:
+            try:
+                n = push_events(args.supabase_url, args.supabase_key, src["source_key"], events)
+                print(f"   → DB: {n} eventi inseriti in staging")
+            except Exception as e:
+                print(f"   ⚠ DB: {e}")
+        time.sleep(1.5)
 
-    print(f"\n{'='*50}")
-    print(f"Totale: {len(all_entries)} titoli da {len(CHARTS)} classifiche")
+    # ── MANGA / ANIME TREND ────────────────────────────
+    print("\n\n━━━ MANGA / ANIME TREND ━━━")
+    for src in MANGA_SOURCES:
+        print(f"\n🔥 [{src['source_key'].upper()}] {src['name']}")
+        html = fetch_page(src["url"])
+        if not html: continue
+        
+        if src.get("type") == "ranking":
+            entries = src["parser"](html)
+            print(f"   Trovati {len(entries)} titoli")
+            # Già incluso nelle classifiche sopra se è Libraccio Fumetti
+        else:
+            trends = src["parser"](html)
+            print(f"   Trovati {len(trends)} trend/news")
+            for t in trends:
+                t["_source"] = src["source_key"]
+            all_manga.extend(trends)
+            if has_db:
+                try:
+                    n = push_manga_trends(args.supabase_url, args.supabase_key, src["source_key"], trends)
+                    print(f"   → DB: {n} trend inseriti in staging")
+                except Exception as e:
+                    print(f"   ⚠ DB: {e}")
+        time.sleep(1.5)
+
+    # ── SALVA JSON ─────────────────────────────────────
+    save_json(all_rankings, all_events, all_manga, args.output)
+
+    # ── RIEPILOGO ──────────────────────────────────────
+    print(f"\n{'='*60}")
+    print(f"  RIEPILOGO")
+    print(f"  Classifiche: {len(all_rankings)} titoli")
+    print(f"  Eventi locali: {len(all_events)} eventi")
+    print(f"  Manga trend: {len(all_manga)} segnali")
     if total_ingested > 0:
-        print(f"Supabase: {total_ingested} ingested, {total_matched} matched")
-
-    # Riepilogo per fonte
+        print(f"  Supabase rankings: {total_ingested} ingested, {total_matched} matched")
+    
     from collections import Counter
-    by_source = Counter(e["_source"] for e in all_entries)
-    for src, cnt in by_source.most_common():
-        print(f"  {src}: {cnt} titoli")
-
-    print("Done!")
+    print(f"\n  Per fonte:")
+    for src, cnt in Counter(e.get("_source","?") for e in all_rankings).most_common():
+        print(f"    📊 {src}: {cnt} titoli")
+    for src, cnt in Counter(e.get("_source","?") for e in all_events).most_common():
+        print(f"    📍 {src}: {cnt} eventi")
+    for src, cnt in Counter(e.get("_source","?") for e in all_manga).most_common():
+        print(f"    🔥 {src}: {cnt} trend")
+    
+    print(f"\n  Done!")
 
 
 if __name__ == "__main__":
