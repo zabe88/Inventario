@@ -32,3 +32,6 @@ jobs:
 
     - name: 🗣️ Scatena il Radar Passaparola (Reddit)
       run: python ragno_reddit.py
+
+    - name: 📱 Scatena il Radar BookTok (TikTok/Google)
+      run: python ragno_booktok.py
