@@ -6,82 +6,25 @@
     <title>Cervellone - Triage Magazzino</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 15px;
-        }
-        .header {
-            position: sticky;
-            top: 0;
-            background: #f4f4f9;
-            padding-bottom: 10px;
-            z-index: 100;
-            border-bottom: 2px solid #ddd;
-            margin-bottom: 20px;
-        }
+        body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
+        .header { position: sticky; top: 0; background: #f4f4f9; padding-bottom: 10px; z-index: 100; border-bottom: 2px solid #ddd; margin-bottom: 20px; }
         h1 { color: #333; font-size: 22px; margin: 0 0 10px 0; }
-        
-        /* Barra di ricerca enorme e comoda per iPad */
-        #search-box {
-            width: 100%;
-            padding: 15px;
-            font-size: 18px;
-            border-radius: 8px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-
-        .list-container {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        
-        .book-card {
-            background: white;
-            border-radius: 10px;
-            padding: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: opacity 0.3s;
-        }
+        #search-box { width: 100%; padding: 15px; font-size: 18px; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; }
+        .list-container { display: flex; flex-direction: column; gap: 15px; }
+        .book-card { background: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .book-title { font-size: 18px; font-weight: bold; color: #111; margin-bottom: 5px;}
         .book-meta { font-size: 14px; color: #666; margin-bottom: 15px; }
-        .badge {
-            background: #e2e8f0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-weight: bold;
-            color: #333;
-        }
-
-        /* Bottoni più compatti per stare in riga */
-        .btn-row {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-        button {
-            border: none;
-            border-radius: 6px;
-            padding: 12px 10px;
-            font-size: 13px;
-            font-weight: bold;
-            color: white;
-            cursor: pointer;
-            flex: 1 1 calc(20% - 8px); /* 5 bottoni in riga */
-            min-width: 80px;
-        }
+        .badge { background: #e2e8f0; padding: 3px 8px; border-radius: 4px; font-weight: bold; color: #333; }
+        .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+        button { border: none; border-radius: 6px; padding: 12px 10px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 80px; }
         button:active { transform: scale(0.95); }
-        
-        .btn-mancante { background-color: #ef4444; } /* Rosso */
-        .btn-tenere { background-color: #10b981; } /* Verde */
-        .btn-reso { background-color: #f97316; } /* Arancio */
-        .btn-regalo { background-color: #8b5cf6; } /* Viola */
-        .btn-bundle { background-color: #ec4899; } /* Rosa */
-
+        .btn-mancante { background-color: #ef4444; } 
+        .btn-tenere { background-color: #10b981; } 
+        .btn-reso { background-color: #f97316; } 
+        .btn-regalo { background-color: #8b5cf6; } 
+        .btn-bundle { background-color: #ec4899; } 
         .loading { text-align: center; color: #666; font-size: 18px; padding: 20px; }
+        #error-box { display: none; background: #fee2e2; color: #b91c1c; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-weight: bold; word-break: break-all; }
     </style>
 </head>
 <body>
@@ -91,41 +34,52 @@
         <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="filterList()">
     </div>
 
+    <div id="error-box"></div>
+
     <div id="loading" class="loading">Caricamento inventario...</div>
-    <div class="list-container" id="book-list">
-        </div>
+    <div class="list-container" id="book-list"></div>
 
     <script>
         const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
-        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        
+        let allBooks = [];
 
-        let allBooks = []; // Salviamo tutti i libri qui
-
-        // Carica fino a 500 libri da verificare, ordinati per scaffale
-        async function loadBooks() {
-            document.getElementById('loading').style.display = 'block';
-            const { data, error } = await supabase
-                .from('assistant_triage_inventario')
-                .select('*')
-                .order('posizione_scaffale', { ascending: true })
-                .order('titolo', { ascending: true })
-                .limit(500);
-
-            if (error) {
-                alert("Errore: " + error.message);
-                return;
-            }
-
-            allBooks = data;
+        function showError(msg) {
             document.getElementById('loading').style.display = 'none';
-            renderList(allBooks);
+            const eb = document.getElementById('error-box');
+            eb.style.display = 'block';
+            eb.innerText = "ERRORE DI SISTEMA: " + msg;
         }
 
-        // Disegna la lista a schermo
+        async function loadBooks() {
+            try {
+                const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+                
+                const { data, error } = await supabase
+                    .from('assistant_triage_inventario')
+                    .select('*')
+                    .order('posizione_scaffale', { ascending: true })
+                    .order('titolo', { ascending: true })
+                    .limit(500);
+
+                if (error) {
+                    showError(error.message);
+                    return;
+                }
+
+                allBooks = data;
+                document.getElementById('loading').style.display = 'none';
+                renderList(allBooks);
+                
+            } catch (err) {
+                showError(err.message || err.toString());
+            }
+        }
+
         function renderList(books) {
             const container = document.getElementById('book-list');
-            container.innerHTML = ''; // Svuota
+            container.innerHTML = ''; 
 
             if(books.length === 0) {
                 container.innerHTML = '<div class="loading">Nessun libro da verificare trovato! 🎉</div>';
@@ -157,7 +111,6 @@
             });
         }
 
-        // Filtra la lista quando scrivi nella barra di ricerca
         function filterList() {
             const query = document.getElementById('search-box').value.toLowerCase();
             const filtered = allBooks.filter(b => 
@@ -168,36 +121,36 @@
             renderList(filtered);
         }
 
-        // Salva la decisione e fa sparire la card
         async function processBook(id, status, decision) {
-            // Nascondiamo subito la card per darti l'effetto "Fatto!" veloce
             document.getElementById('card-' + id).style.opacity = '0.2';
             document.getElementById('card-' + id).style.pointerEvents = 'none';
 
-            const { error } = await supabase
-                .from('catalog_inventory')
-                .update({ 
-                    audit_status: status, 
-                    azione_decisione: decision,
-                    data_ultimo_audit: new Date().toISOString()
-                })
-                .eq('id', id);
+            try {
+                const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+                const { error } = await supabaseClient
+                    .from('catalog_inventory')
+                    .update({ 
+                        audit_status: status, 
+                        azione_decisione: decision,
+                        data_ultimo_audit: new Date().toISOString()
+                    })
+                    .eq('id', id);
 
-            if (error) {
-                alert("Errore salvataggio: " + error.message);
-                // Se fallisce, la facciamo riapparire
+                if (error) {
+                    alert("Errore salvataggio: " + error.message);
+                    document.getElementById('card-' + id).style.opacity = '1';
+                    document.getElementById('card-' + id).style.pointerEvents = 'auto';
+                } else {
+                    document.getElementById('card-' + id).style.display = 'none';
+                    allBooks = allBooks.filter(b => b.id !== id);
+                }
+            } catch(err) {
+                alert("Errore di rete: " + err.message);
                 document.getElementById('card-' + id).style.opacity = '1';
                 document.getElementById('card-' + id).style.pointerEvents = 'auto';
-            } else {
-                // Se va a buon fine, la eliminiamo definitivamente dallo schermo
-                document.getElementById('card-' + id).style.display = 'none';
-                
-                // Rimuoviamolo anche dall'array in memoria
-                allBooks = allBooks.filter(b => b.id !== id);
             }
         }
 
-        // Inizializza
         window.onload = loadBooks;
     </script>
 </body>
