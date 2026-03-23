@@ -20,7 +20,7 @@
         #radar-chevron { transition: transform 0.3s ease; }
         #radar-chevron.open { transform: rotate(180deg); }
         
-        #radar-content { background: #0f172a; color: #cbd5e1; border-radius: 8px; padding: 0 15px; font-size: 14px; line-height: 1.6; display: none; margin-top: 5px; border: 1px solid #1e293b; max-height: 300px; overflow-y: auto;}
+        #radar-content { background: #0f172a; color: #cbd5e1; border-radius: 8px; padding: 0 15px; font-size: 14px; line-height: 1.6; display: none; margin-top: 5px; border: 1px solid #1e293b; max-height: 400px; overflow-y: auto;}
         #radar-content.active { display: block; padding: 15px; }
         
         .radar-item { padding: 10px 0; border-bottom: 1px solid #1e293b; }
@@ -64,15 +64,15 @@
 <body>
 
     <div class="header">
-        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">LUNIGIANA</span></h1>
+        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">GOD MODE</span></h1>
         
         <div id="radar-widget">
             <div id="radar-toggle" onclick="toggleRadar()">
-                <div class="radar-icon">📍 <span id="radar-summary">Sincronizzazione eventi...</span></div>
+                <div class="radar-icon">📍 <span id="radar-summary">Analisi Intelligence in corso...</span></div>
                 <div id="radar-chevron">▼</div>
             </div>
             <div id="radar-content">
-                <div id="radar-list">Nessun evento caricato.</div>
+                <div id="radar-list"></div>
             </div>
         </div>
 
@@ -107,53 +107,78 @@
         async function initCervellone() {
             try {
                 // MINI-CHIAMATA 1: I Trend
-                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).limit(1000);
+                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).limit(100);
                 if(res1.data) dbTrends = res1.data;
 
                 // MINI-CHIAMATA 2: Le Uscite
-                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).limit(1000);
+                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).limit(100);
                 if(res2.data) dbReleases = res2.data;
 
                 // MINI-CHIAMATA 3: Le Classifiche
                 const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
                 if(res3.data) dbCharts = res3.data;
 
-                // MINI-CHIAMATA 4: Il Radar Locale Lunigiana
-                const res4 = await supabaseClient.from('external_signal_staging').select('signal_text, signal_type').in('source_key', ['eco_lunigiana', 'sigeric', 'lunigianaworld', 'visitlunigiana']);
+                // MINI-CHIAMATA 4: Il Radar Locale (Corretto: peschiamo in base al tipo di segnale, non alla fonte, così non ce ne perdiamo uno!)
+                const res4 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'local_event').limit(100);
                 if(res4.data) dbLocalEvents = res4.data;
 
             } catch (err) { console.error("Errore fetch silenziato:", err); }
             
-            // Renderizziamo il radar e carichiamo i libri
-            renderRadarLocale();
+            // Popoliamo la nuova Vetrina Radar
+            renderRadarDashboard();
             loadBooks('');
         }
 
-        function renderRadarLocale() {
+        function renderRadarDashboard() {
             const radarList = document.getElementById('radar-list');
             
-            // Filtra solo gli eventi veri (non i trend che potrebbero essere finiti qui per errore)
-            const eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event');
-
-            if(eventi.length === 0) {
-                document.getElementById('radar-summary').innerText = "Radar: Nessun evento in arrivo";
-                radarList.innerHTML = "La Lunigiana dorme serena.";
-                return;
+            // --- SEZIONE 1: LA VETRINA DEL GIORNO ---
+            let html = `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-bottom: 8px;">
+                            <span style="color: #eab308; font-weight: bold; font-size: 11px; letter-spacing: 1px;">🏆 VETRINA CONSIGLIATA OGGI</span>
+                        </div>`;
+            
+            if (dbTrends.length > 0) {
+                // Prendiamo i 2 trend più freschi
+                dbTrends.slice(0, 2).forEach(t => {
+                    html += `<div class="radar-item"><span class="badge-data" style="background:#ef4444;">🔥 TREND</span> ${t.signal_text}</div>`;
+                });
+            }
+            if (dbReleases.length > 0) {
+                // Prendiamo le 2 uscite editoriali imminenti
+                dbReleases.slice(0, 2).forEach(r => {
+                    html += `<div class="radar-item"><span class="badge-data" style="background:#3b82f6;">📅 USCITA</span> ${r.signal_text}</div>`;
+                });
+            }
+            if (dbTrends.length === 0 && dbReleases.length === 0) {
+                html += `<div class="radar-item" style="color:#888;">Nessun dato nazionale oggi.</div>`;
             }
 
-            document.getElementById('radar-summary').innerText = `Radar: ${eventi.length} eventi in arrivo`;
+            // --- SEZIONE 2: GLI EVENTI LOCALI ---
+            html += `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-top: 15px; margin-bottom: 8px;">
+                        <span style="color: #a855f7; font-weight: bold; font-size: 11px; letter-spacing: 1px;">📍 EVENTI IN LUNIGIANA</span>
+                    </div>`;
 
-            let html = "";
-            eventi.forEach(e => {
-                if(!e.signal_text) return;
-                let testo = e.signal_text;
-                let dataMatch = testo.match(/\[(.*?)\]/);
-                let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
-                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
-                
-                html += `<div class="radar-item"><span class="badge-data">${dataStr}</span> ${testoPulito}</div>`;
-            });
+            if(dbLocalEvents.length === 0) {
+                html += `<div class="radar-item" style="color:#888;">La Lunigiana dorme serena. Nessun evento.</div>`;
+            } else {
+                dbLocalEvents.forEach(e => {
+                    if(!e.signal_text) return;
+                    let testo = e.signal_text;
+                    
+                    // Addio "PRESTO". Peschiamo il nome della fonte tra le parentesi quadre.
+                    let fonteMatch = testo.match(/\[(.*?)\]/);
+                    let fonte = fonteMatch ? fonteMatch[1].substring(0, 10).toUpperCase() : "LOCAL";
+                    
+                    // Puliamo via la scritta "EVENTO [...]" per lasciare solo il titolo nudo e crudo
+                    let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
+                    
+                    html += `<div class="radar-item"><span class="badge-data" style="background:#a855f7;">${fonte}</span> ${testoPulito}</div>`;
+                });
+            }
+            
             radarList.innerHTML = html;
+            // Aggiorniamo il titolo del bottoncino chiuso
+            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi | Vetrina Aggiornata`;
         }
 
         function handleSearchInput() {
@@ -210,7 +235,6 @@
 
             let cardBorderColor = "#ccc";
 
-            // LOGICA DEL CERVELLONE RESTAURATA AL 100%
             if (isReleaseImminent) { 
                 let infoUscita = isReleaseImminent.signal_text.substring(0, 60);
                 alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${infoUscita}...</div>`); 
