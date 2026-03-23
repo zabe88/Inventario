@@ -29,9 +29,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-classifiche.txt
 
-      - name: Build classifiche.json
+      - name: Build classifiche
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
-          python scripts/update_classifiche.py --output classifiche.json --max-pages 5
+          python scripts/update_classifiche.py \
+            --supabase-url "$SUPABASE_URL" \
+            --supabase-key "$SUPABASE_KEY" \
+            --output classifiche.json \
+            --max-pages 3
 
       - name: Commit updated feed
         run: |
