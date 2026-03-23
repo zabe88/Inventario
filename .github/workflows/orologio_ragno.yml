@@ -43,3 +43,6 @@ jobs:
 
     - name: 📚 Scatena l'Oracolo (Uscite Giunti)
       run: python ragno_giunti.py
+
+    - name: 🌸 Scatena l'Oracolo (Uscite J-Pop)
+      run: python ragno_jpop.py
