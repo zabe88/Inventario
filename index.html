@@ -139,37 +139,52 @@
                 `;
                 container.appendChild(div);
                 
-                // Lanciamo la ricerca della copertina su Google Books in background
-                fetchCover(book.ean, coverId);
+                // Lanciamo il nuovo super-motore italiano
+                fetchCoverItaliana(book.ean, coverId);
             });
         }
 
-        // Il nuovo Motore Copertine (Google Books + Fallback)
-        async function fetchCover(ean, imgId) {
+        // Il Super-Motore Copertine (Cascata Italiana)
+        async function fetchCoverItaliana(ean, imgId) {
             const imgElement = document.getElementById(imgId);
-            if (!imgElement) return;
+            if (!imgElement || !ean) return;
+
+            // Puliamo l'EAN da eventuali spazi
+            const cleanEan = ean.toString().trim();
+
+            // La nostra lista di server da "attaccare" in sequenza se il precedente fallisce
+            const fallbacks = [
+                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, // Server Libraccio
+                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       // Server IBS
+                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg`,    // Open Library
+                'https://via.placeholder.com/75x110.png?text=No+Cover'        // Arresa totale
+            ];
+
+            let currentFallbackIndex = 0;
+
+            // Se un'immagine dà errore (non esiste), passiamo automaticamente alla successiva!
+            imgElement.onerror = function() {
+                if (currentFallbackIndex < fallbacks.length) {
+                    imgElement.src = fallbacks[currentFallbackIndex];
+                    currentFallbackIndex++;
+                }
+            };
 
             try {
-                const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${ean}`);
+                // Proviamo PRIMA Google Books (è veloce)
+                const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
                 const data = await res.json();
 
                 if (data.items && data.items.length > 0 && data.items[0].volumeInfo.imageLinks) {
-                    // Copertina trovata su Google Books!
                     let url = data.items[0].volumeInfo.imageLinks.thumbnail;
                     imgElement.src = url.replace('http:', 'https:');
                 } else {
-                    // Fallback su Open Library
-                    imgElement.src = `https://covers.openlibrary.org/b/isbn/${ean}-M.jpg`;
-                    imgElement.onerror = function() {
-                        this.src = 'https://via.placeholder.com/75x110.png?text=No+Cover';
-                    };
+                    // Se Google non ce l'ha, scatta la trappola: partiamo coi server italiani!
+                    imgElement.onerror();
                 }
             } catch (err) {
-                // In caso di errore di rete, prova Open Library
-                imgElement.src = `https://covers.openlibrary.org/b/isbn/${ean}-M.jpg`;
-                imgElement.onerror = function() {
-                    this.src = 'https://via.placeholder.com/75x110.png?text=No+Cover';
-                };
+                // Se c'è un errore di rete, scatta la trappola sui server italiani
+                imgElement.onerror();
             }
         }
 
