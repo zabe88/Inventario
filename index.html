@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    
     <title>Cervellone - Triage Magazzino</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
@@ -58,7 +60,6 @@
         let allBooks = [];
         let searchTimeout = null;
 
-        // Costruiamo dei segnaposto matematici in SVG per non dipendere da siti esterni
         const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
         const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
 
@@ -109,7 +110,7 @@
             container.innerHTML = ''; 
 
             if(books.length === 0) {
-                container.innerHTML = '<div class="loading">Nessun libro trovato per questa ricerca! 🕵️‍♂️</div>';
+                container.innerHTML = '<div class="loading">Nessun libro trovato! 🕵️‍♂️</div>';
                 return;
             }
 
@@ -132,7 +133,6 @@
                             </div>
                         </div>
                     </div>
-                    
                     <div class="btn-row">
                         <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
                         <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
@@ -143,28 +143,30 @@
                 `;
                 container.appendChild(div);
                 
+                // Lanciamo il motore immagini spietato
                 fetchCoverItaliana(book.ean, coverId);
             });
         }
 
-        // Il Super-Motore Copertine Blindato
+        // Il Super-Motore Spietato
         async function fetchCoverItaliana(ean, imgId) {
             const imgElement = document.getElementById(imgId);
             if (!imgElement) return;
 
-            const cleanEan = ean ? ean.toString().trim() : '';
+            // Pulizia estrema: estrae SOLO i numeri (rimuove spazi, trattini, lettere accidentali)
+            const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
 
-            // Se l'EAN non è un codice a barre valido, stampiamo subito "No Cover" senza tentare
             if (!cleanEan || cleanEan.length < 10) {
                 imgElement.src = noCoverSvg;
                 return;
             }
 
+            // La cascata definitiva: se la prima fallisce, passa alla seconda in automatico
             const fallbacks = [
-                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
-                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       
-                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`,
-                noCoverSvg // L'ultima spiaggia infallibile
+                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, // Libraccio HQ
+                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       // IBS HQ
+                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, // OpenLibrary
+                noCoverSvg // Fine corsa
             ];
 
             let currentFallbackIndex = 0;
@@ -174,42 +176,28 @@
                     imgElement.src = fallbacks[currentFallbackIndex];
                     currentFallbackIndex++;
                 } else {
-                    imgElement.onerror = null; // Spegne il controllo errori, bloccando il file spezzato
+                    imgElement.onerror = null; 
                     imgElement.src = noCoverSvg;
                 }
             };
 
-            try {
-                const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
-                const data = await res.json();
-
-                if (data.items && data.items.length > 0 && data.items[0].volumeInfo.imageLinks) {
-                    let url = data.items[0].volumeInfo.imageLinks.thumbnail;
-                    imgElement.src = url.replace('http:', 'https:');
-                } else {
-                    imgElement.onerror();
-                }
-            } catch (err) {
-                imgElement.onerror();
-            }
+            // Iniziamo subito attaccando Libraccio (il più fornito in Italia), 
+            // saltando Google Books che spesso coi manga si incarta.
+            imgElement.src = fallbacks[0];
+            currentFallbackIndex = 1; // Imposta il prossimo passo in caso di errore
         }
 
         async function processBook(id, status, decision) {
             document.getElementById('card-' + id).style.opacity = '0.2';
             document.getElementById('card-' + id).style.pointerEvents = 'none';
-
             try {
                 const { error } = await supabaseClient
                     .from('catalog_inventory')
-                    .update({ 
-                        audit_status: status, 
-                        azione_decisione: decision,
-                        data_ultimo_audit: new Date().toISOString()
-                    })
+                    .update({ audit_status: status, azione_decisione: decision, data_ultimo_audit: new Date().toISOString() })
                     .eq('id', id);
 
                 if (error) {
-                    alert("Errore salvataggio: " + error.message);
+                    alert("Errore: " + error.message);
                     document.getElementById('card-' + id).style.opacity = '1';
                     document.getElementById('card-' + id).style.pointerEvents = 'auto';
                 } else {
