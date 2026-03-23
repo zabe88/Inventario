@@ -106,25 +106,39 @@
 
         async function initCervellone() {
             try {
-                // MINI-CHIAMATA 1: I Trend
-                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).limit(100);
-                if(res1.data) dbTrends = res1.data;
+                // CHIAMATE ORDINATE PER DATA (Le più fresche) E FILTRATE
+                const res1 = await supabaseClient.from('external_signal_staging')
+                    .select('signal_text')
+                    .in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok'])
+                    .order('created_at', { ascending: false }).limit(100);
+                if(res1.data) {
+                    // FILTRO SPAZZATURA: Via i "nessun evento" o testi troppo brevi
+                    dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
+                }
 
-                // MINI-CHIAMATA 2: Le Uscite
-                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).limit(100);
-                if(res2.data) dbReleases = res2.data;
+                const res2 = await supabaseClient.from('external_signal_staging')
+                    .select('signal_text')
+                    .in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori'])
+                    .order('created_at', { ascending: false }).limit(100);
+                if(res2.data) {
+                    // FILTRO SPAZZATURA
+                    dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes("titolo da monitorare") && !r.signal_text.toLowerCase().includes("nuova uscita"));
+                }
 
-                // MINI-CHIAMATA 3: Le Classifiche
                 const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
                 if(res3.data) dbCharts = res3.data;
 
-                // MINI-CHIAMATA 4: Il Radar Locale (Corretto: peschiamo in base al tipo di segnale, non alla fonte, così non ce ne perdiamo uno!)
-                const res4 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'local_event').limit(100);
-                if(res4.data) dbLocalEvents = res4.data;
+                const res4 = await supabaseClient.from('external_signal_staging')
+                    .select('signal_text')
+                    .eq('signal_type', 'local_event')
+                    .order('created_at', { ascending: false }).limit(100);
+                if(res4.data) {
+                    // FILTRO SPAZZATURA LOCALE
+                    dbLocalEvents = res4.data.filter(e => e.signal_text && !e.signal_text.toLowerCase().includes("nessun evento") && e.signal_text.length > 10);
+                }
 
             } catch (err) { console.error("Errore fetch silenziato:", err); }
             
-            // Popoliamo la nuova Vetrina Radar
             renderRadarDashboard();
             loadBooks('');
         }
@@ -132,52 +146,51 @@
         function renderRadarDashboard() {
             const radarList = document.getElementById('radar-list');
             
-            // --- SEZIONE 1: LA VETRINA DEL GIORNO ---
             let html = `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-bottom: 8px;">
                             <span style="color: #eab308; font-weight: bold; font-size: 11px; letter-spacing: 1px;">🏆 VETRINA CONSIGLIATA OGGI</span>
                         </div>`;
             
             if (dbTrends.length > 0) {
-                // Prendiamo i 2 trend più freschi
-                dbTrends.slice(0, 2).forEach(t => {
+                dbTrends.slice(0, 3).forEach(t => {
                     html += `<div class="radar-item"><span class="badge-data" style="background:#ef4444;">🔥 TREND</span> ${t.signal_text}</div>`;
                 });
             }
             if (dbReleases.length > 0) {
-                // Prendiamo le 2 uscite editoriali imminenti
-                dbReleases.slice(0, 2).forEach(r => {
-                    html += `<div class="radar-item"><span class="badge-data" style="background:#3b82f6;">📅 USCITA</span> ${r.signal_text}</div>`;
+                dbReleases.slice(0, 3).forEach(r => {
+                    // Cerchiamo una data vera (gg/mm/aaaa) nel testo
+                    let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
+                    let dataStr = dataMatch ? dataMatch[0] : "USCITA";
+                    let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
+                    
+                    html += `<div class="radar-item"><span class="badge-data" style="background:#3b82f6;">📅 ${dataStr}</span> ${testoPulito}</div>`;
                 });
             }
             if (dbTrends.length === 0 && dbReleases.length === 0) {
-                html += `<div class="radar-item" style="color:#888;">Nessun dato nazionale oggi.</div>`;
+                html += `<div class="radar-item" style="color:#888;">Nessun dato nazionale fresco.</div>`;
             }
 
-            // --- SEZIONE 2: GLI EVENTI LOCALI ---
             html += `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-top: 15px; margin-bottom: 8px;">
                         <span style="color: #a855f7; font-weight: bold; font-size: 11px; letter-spacing: 1px;">📍 EVENTI IN LUNIGIANA</span>
                     </div>`;
 
             if(dbLocalEvents.length === 0) {
-                html += `<div class="radar-item" style="color:#888;">La Lunigiana dorme serena. Nessun evento.</div>`;
+                html += `<div class="radar-item" style="color:#888;">Nessun evento confermato nel database fresco.</div>`;
             } else {
                 dbLocalEvents.forEach(e => {
-                    if(!e.signal_text) return;
                     let testo = e.signal_text;
-                    
-                    // Addio "PRESTO". Peschiamo il nome della fonte tra le parentesi quadre.
                     let fonteMatch = testo.match(/\[(.*?)\]/);
                     let fonte = fonteMatch ? fonteMatch[1].substring(0, 10).toUpperCase() : "LOCAL";
                     
-                    // Puliamo via la scritta "EVENTO [...]" per lasciare solo il titolo nudo e crudo
-                    let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
+                    // Cerchiamo una data anche qui se c'è
+                    let dataMatch = testo.match(/\d{2}\/\d{2}\/\d{4}/);
+                    if(dataMatch) fonte = dataMatch[0]; // Se c'è la data, mostriamo quella invece di "LOCAL"
                     
+                    let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
                     html += `<div class="radar-item"><span class="badge-data" style="background:#a855f7;">${fonte}</span> ${testoPulito}</div>`;
                 });
             }
             
             radarList.innerHTML = html;
-            // Aggiorniamo il titolo del bottoncino chiuso
             document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi | Vetrina Aggiornata`;
         }
 
@@ -219,14 +232,16 @@
             let title = book.titolo ? book.titolo.toLowerCase() : '';
             if (!title) return { html: '', color: '#ccc' }; 
             
-            let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 4 && title.includes(t.signal_text.toLowerCase()));
-            let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 4 && title.includes(c.titolo.toLowerCase()));
-            
-            // Check uscite editori (J-Pop, Panini ecc)
-            let primeParole = title.split(" ").slice(0, 2).join(" ");
+            // MATCH RIGOROSO PER EVITARE L'ALLUCINAZIONE "A CASA"
+            // Richiediamo che il titolo sia lungo almeno 5 caratteri per fare match di intelligenza
+            let isTrend = false;
+            let isChart = false;
             let isReleaseImminent = null;
-            if (primeParole.length > 3) {
-                isReleaseImminent = dbReleases.find(r => r.signal_text && r.signal_text.toLowerCase().includes(primeParole));
+            
+            if (title.length > 5) {
+                isTrend = dbTrends.some(t => t.signal_text.toLowerCase().includes(title));
+                isChart = dbCharts.some(c => c.titolo && c.titolo.toLowerCase().includes(title));
+                isReleaseImminent = dbReleases.find(r => r.signal_text.toLowerCase().includes(title));
             }
             
             let isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
@@ -236,7 +251,9 @@
             let cardBorderColor = "#ccc";
 
             if (isReleaseImminent) { 
-                let infoUscita = isReleaseImminent.signal_text.substring(0, 60);
+                // Puliamo la stringa prima di mostrarla
+                let testoPulito = isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
+                let infoUscita = testoPulito.substring(0, 60);
                 alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${infoUscita}...</div>`); 
                 cardBorderColor = "#3b82f6"; 
             }
