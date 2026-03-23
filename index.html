@@ -20,14 +20,25 @@
         
         .book-cover { 
             width: 75px; height: 110px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; 
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2); flex-shrink: 0; display: flex; align-items: center; 
-            justify-content: center; font-size: 10px; color: #666; text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;
         }
         
         .book-info { flex: 1; }
         .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
         .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
         .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
+        
+        /* IL BOX DELL'INTELLIGENZA ARTIFICIALE */
+        .ai-box {
+            background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
+            border-left: 5px solid #eab308;
+            border-radius: 6px;
+            padding: 12px;
+            font-size: 14px;
+            color: #854d0e;
+            line-height: 1.5;
+        }
+        .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 6px; color: #ca8a04;}
         
         .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
         button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 70px; }
@@ -49,16 +60,20 @@
     </div>
 
     <div id="error-box"></div>
-    <div id="loading" class="loading">Caricamento inventario...</div>
+    <div id="loading" class="loading">Sincronizzazione Cervellone in corso... 🧠</div>
     <div class="list-container" id="book-list"></div>
 
     <script>
         const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
-        
         const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        
         let allBooks = [];
         let searchTimeout = null;
+        
+        // Memoria del Cervellone
+        let dbTrends = [];
+        let dbCharts = [];
 
         const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
         const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
@@ -66,16 +81,30 @@
         function showError(msg) {
             document.getElementById('loading').style.display = 'none';
             const eb = document.getElementById('error-box');
-            eb.style.display = 'block';
-            eb.innerText = "ERRORE: " + msg;
+            eb.style.display = 'block'; eb.innerText = "ERRORE: " + msg;
+        }
+
+        // 1. CARICHIAMO I DATI ESTERNI (Trend e Classifiche) ALL'AVVIO
+        async function initCervellone() {
+            try {
+                // Peschiamo i trend da Supabase
+                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').limit(1000);
+                if(res1.data) dbTrends = res1.data;
+
+                // Peschiamo le classifiche
+                const res2 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
+                if(res2.data) dbCharts = res2.data;
+            } catch (err) {
+                console.warn("Impossibile caricare alcune tabelle esterne", err);
+            }
+            // Dopo aver caricato la mente, carichiamo i libri
+            loadBooks('');
         }
 
         function handleSearchInput() {
             const query = document.getElementById('search-box').value.trim();
             clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
-                loadBooks(query);
-            }, 500); 
+            searchTimeout = setTimeout(() => { loadBooks(query); }, 500); 
         }
 
         async function loadBooks(searchQuery = '') {
@@ -83,10 +112,7 @@
             document.getElementById('book-list').innerHTML = ''; 
 
             try {
-                let queryBuilder = supabaseClient
-                    .from('assistant_triage_inventario')
-                    .select('*')
-                    .limit(200); 
+                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(200); 
 
                 if (searchQuery !== '') {
                     queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
@@ -95,7 +121,6 @@
                 }
 
                 const { data, error } = await queryBuilder;
-
                 if (error) { showError(error.message); return; }
 
                 allBooks = data;
@@ -103,6 +128,41 @@
                 renderList(allBooks);
                 
             } catch (err) { showError(err.message || err.toString()); }
+        }
+
+        // 2. LA LOGICA DEL CERVELLONE (Incrocio Dati in tempo reale)
+        function analyzeBook(book) {
+            let alerts = [];
+            let bookTitle = book.titolo ? book.titolo.toLowerCase() : '';
+
+            // A) Ricerca nei Social Trends (Ignoriamo parole troppo corte come "Il", "La")
+            let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 3 && bookTitle.includes(t.signal_text.toLowerCase()));
+            if (isTrend) {
+                alerts.push("🔥 <b>IN TREND SUI SOCIAL!</b> Questo titolo sta girando online. NON RENDERLO.");
+            }
+
+            // B) Ricerca nelle Classifiche
+            let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 3 && bookTitle.includes(c.titolo.toLowerCase()));
+            if (isChart) {
+                alerts.push("📈 <b>IN CLASSIFICA!</b> Fa parte dei Top titoli nazionali.");
+            }
+
+            // C) Logica di Giacenza Cassa (Il fiuto aziendale)
+            if (book.giacenti > 4 && !isTrend && !isChart) {
+                alerts.push(`📦 <b>GIACENZA SILENTE (${book.giacenti} copie):</b> Non è in trend e ne hai molti. Considera un <b>RESO</b> o fai un <b>BUNDLE</b> per sfoltire.`);
+            } else if (book.giacenti == 1 && (isTrend || isChart)) {
+                alerts.push(`💎 <b>ULTIMA COPIA D'ORO!</b> È richiestissimo e ne hai solo uno. Mettilo in vetrina frontale!`);
+            }
+
+            // Se il Cervellone ha trovato qualcosa, crea il box. Altrimenti restituisce vuoto.
+            if (alerts.length > 0) {
+                return `
+                <div class="ai-box">
+                    <div class="ai-title">🧠 IL CERVELLONE CONSIGLIA:</div>
+                    ${alerts.join("<br><br>")}
+                </div>`;
+            }
+            return '';
         }
 
         function renderList(books) {
@@ -121,6 +181,9 @@
                 div.id = 'card-' + book.id;
                 const coverId = 'cover-' + book.id;
                 
+                // Richiamiamo la funzione che sputa fuori il consiglio
+                const aiSuggestionBox = analyzeBook(book);
+
                 div.innerHTML = `
                     <div class="book-header">
                         <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
@@ -133,7 +196,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn-row">
+                    
+                    ${aiSuggestionBox}
+                    
+                    <div class="btn-row" style="margin-top: 5px;">
                         <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
                         <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
                         <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
@@ -142,35 +208,24 @@
                     </div>
                 `;
                 container.appendChild(div);
-                
-                // Lanciamo il motore immagini spietato
                 fetchCoverItaliana(book.ean, coverId);
             });
         }
 
-        // Il Super-Motore Spietato
         async function fetchCoverItaliana(ean, imgId) {
             const imgElement = document.getElementById(imgId);
             if (!imgElement) return;
-
-            // Pulizia estrema: estrae SOLO i numeri (rimuove spazi, trattini, lettere accidentali)
             const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
+            if (!cleanEan || cleanEan.length < 10) { imgElement.src = noCoverSvg; return; }
 
-            if (!cleanEan || cleanEan.length < 10) {
-                imgElement.src = noCoverSvg;
-                return;
-            }
-
-            // La cascata definitiva: se la prima fallisce, passa alla seconda in automatico
             const fallbacks = [
-                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, // Libraccio HQ
-                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       // IBS HQ
-                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, // OpenLibrary
-                noCoverSvg // Fine corsa
+                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
+                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       
+                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, 
+                noCoverSvg 
             ];
 
             let currentFallbackIndex = 0;
-
             imgElement.onerror = function() {
                 if (currentFallbackIndex < fallbacks.length) {
                     imgElement.src = fallbacks[currentFallbackIndex];
@@ -180,11 +235,8 @@
                     imgElement.src = noCoverSvg;
                 }
             };
-
-            // Iniziamo subito attaccando Libraccio (il più fornito in Italia), 
-            // saltando Google Books che spesso coi manga si incarta.
             imgElement.src = fallbacks[0];
-            currentFallbackIndex = 1; // Imposta il prossimo passo in caso di errore
+            currentFallbackIndex = 1; 
         }
 
         async function processBook(id, status, decision) {
@@ -204,13 +256,14 @@
                     document.getElementById('card-' + id).style.display = 'none';
                 }
             } catch(err) {
-                alert("Errore di rete: " + err.message);
+                alert("Errore rete: " + err.message);
                 document.getElementById('card-' + id).style.opacity = '1';
                 document.getElementById('card-' + id).style.pointerEvents = 'auto';
             }
         }
 
-        window.onload = () => loadBooks('');
+        // Avviamo tutto: prima i dati neurali, poi la lista!
+        window.onload = initCervellone;
     </script>
 </body>
 </html>
