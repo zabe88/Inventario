@@ -7,159 +7,173 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
-            padding: 20px;
+            padding: 15px;
+        }
+        .header {
+            position: sticky;
+            top: 0;
+            background: #f4f4f9;
+            padding-bottom: 10px;
+            z-index: 100;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 20px;
+        }
+        h1 { color: #333; font-size: 22px; margin: 0 0 10px 0; }
+        
+        /* Barra di ricerca enorme e comoda per iPad */
+        #search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .list-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
-        }
-        .card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            padding: 30px;
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-            margin-top: 20px;
-        }
-        h1 { color: #333; font-size: 24px; margin-bottom: 5px; }
-        .meta-info { color: #666; font-size: 18px; margin-bottom: 30px; }
-        .badge {
-            background: #eee;
-            padding: 5px 10px;
-            border-radius: 8px;
-            font-weight: bold;
-            display: inline-block;
-            margin: 5px;
-        }
-        .btn-group {
-            display: flex;
-            flex-wrap: wrap;
             gap: 15px;
-            justify-content: center;
-            margin-top: 20px;
+        }
+        
+        .book-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: opacity 0.3s;
+        }
+        .book-title { font-size: 18px; font-weight: bold; color: #111; margin-bottom: 5px;}
+        .book-meta { font-size: 14px; color: #666; margin-bottom: 15px; }
+        .badge {
+            background: #e2e8f0;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Bottoni più compatti per stare in riga */
+        .btn-row {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
         }
         button {
             border: none;
-            border-radius: 12px;
-            padding: 20px 30px;
-            font-size: 18px;
+            border-radius: 6px;
+            padding: 12px 10px;
+            font-size: 13px;
             font-weight: bold;
             color: white;
             cursor: pointer;
-            flex: 1 1 40%; /* I bottoni si adattano allo schermo */
-            min-width: 200px;
-            transition: transform 0.1s, opacity 0.2s;
+            flex: 1 1 calc(20% - 8px); /* 5 bottoni in riga */
+            min-width: 80px;
         }
         button:active { transform: scale(0.95); }
-        button:disabled { opacity: 0.5; cursor: not-allowed; }
         
-        .btn-presente { background-color: #10b981; } /* Verde */
         .btn-mancante { background-color: #ef4444; } /* Rosso */
-        
-        .btn-tenere { background-color: #3b82f6; } /* Blu */
-        .btn-reso { background-color: #f97316; } /* Arancione */
+        .btn-tenere { background-color: #10b981; } /* Verde */
+        .btn-reso { background-color: #f97316; } /* Arancio */
         .btn-regalo { background-color: #8b5cf6; } /* Viola */
         .btn-bundle { background-color: #ec4899; } /* Rosa */
 
-        #action-buttons { display: none; } /* Nascosti di default */
-        #loading { display: none; color: #666; font-style: italic; margin-top: 20px; }
-        #done-message { display: none; color: #10b981; font-size: 24px; font-weight: bold; margin-top: 50px; }
+        .loading { text-align: center; color: #666; font-size: 18px; padding: 20px; }
     </style>
 </head>
 <body>
 
-    <div id="done-message">🎉 Triage completato! Hai controllato tutto!</div>
-
-    <div class="card" id="item-card">
-        <div class="badge" id="item-pos">Scaffale: N/D</div>
-        <div class="badge" id="item-qty">Giacenza: 0</div>
-        
-        <h1 id="item-title">Caricamento in corso...</h1>
-        <div class="meta-info" id="item-ean">EAN: -</div>
-
-        <div id="loading">Aggiornamento database...</div>
-
-        <div class="btn-group" id="verify-buttons">
-            <button class="btn-mancante" onclick="markMissing()">❌ MANCANTE</button>
-            <button class="btn-presente" onclick="showActions()">✅ PRESENTE</button>
-        </div>
-
-        <div class="btn-group" id="action-buttons">
-            <button class="btn-tenere" onclick="markAction('tenere')">📦 TIENI A SCAFFALE</button>
-            <button class="btn-reso" onclick="markAction('reso_o_buttare')">🗑️ RESO / BUTTA</button>
-            <button class="btn-regalo" onclick="markAction('cestone_sconto')">🛒 CESTONE / SCONTO</button>
-            <button class="btn-bundle" onclick="markAction('crea_bundle')">🎀 CREA BUNDLE</button>
-        </div>
+    <div class="header">
+        <h1>📦 Triage Veloce Magazzino</h1>
+        <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="filterList()">
     </div>
 
+    <div id="loading" class="loading">Caricamento inventario...</div>
+    <div class="list-container" id="book-list">
+        </div>
+
     <script>
-        // ==========================================
-        // LE TUE CHIAVI SUPABASE CABLATE
-        // ==========================================
         const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
-        // ==========================================
-
         const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-        let currentItem = null;
 
-        // Funzione per pescare il prossimo libro da controllare
-        async function loadNextItem() {
-            setLoading(true);
-            document.getElementById('verify-buttons').style.display = 'flex';
-            document.getElementById('action-buttons').style.display = 'none';
+        let allBooks = []; // Salviamo tutti i libri qui
 
-            // Peschiamo 1 record dalla vista che abbiamo creato prima
+        // Carica fino a 500 libri da verificare, ordinati per scaffale
+        async function loadBooks() {
+            document.getElementById('loading').style.display = 'block';
             const { data, error } = await supabase
                 .from('assistant_triage_inventario')
                 .select('*')
-                .limit(1);
+                .order('posizione_scaffale', { ascending: true })
+                .order('titolo', { ascending: true })
+                .limit(500);
 
             if (error) {
-                alert("Errore di connessione: " + error.message);
+                alert("Errore: " + error.message);
                 return;
             }
 
-            if (data && data.length > 0) {
-                currentItem = data[0];
-                document.getElementById('item-title').innerText = currentItem.titolo;
-                document.getElementById('item-ean').innerText = 'EAN: ' + currentItem.ean;
-                document.getElementById('item-pos').innerText = 'Scaffale: ' + (currentItem.posizione_scaffale || 'Sconosciuta');
-                document.getElementById('item-qty').innerText = 'Giacenza: ' + currentItem.giacenti;
-                
-                document.getElementById('item-card').style.display = 'block';
-                document.getElementById('done-message').style.display = 'none';
-            } else {
-                // Abbiamo finito i libri!
-                document.getElementById('item-card').style.display = 'none';
-                document.getElementById('done-message').style.display = 'block';
+            allBooks = data;
+            document.getElementById('loading').style.display = 'none';
+            renderList(allBooks);
+        }
+
+        // Disegna la lista a schermo
+        function renderList(books) {
+            const container = document.getElementById('book-list');
+            container.innerHTML = ''; // Svuota
+
+            if(books.length === 0) {
+                container.innerHTML = '<div class="loading">Nessun libro da verificare trovato! 🎉</div>';
+                return;
             }
-            setLoading(false);
+
+            books.forEach(book => {
+                const pos = book.posizione_scaffale || 'ND';
+                const div = document.createElement('div');
+                div.className = 'book-card';
+                div.id = 'card-' + book.id;
+                
+                div.innerHTML = `
+                    <div class="book-title">${book.titolo}</div>
+                    <div class="book-meta">
+                        <span class="badge">Pos: ${pos}</span> 
+                        <span class="badge">Q.tà: ${book.giacenti}</span> 
+                        EAN: ${book.ean}
+                    </div>
+                    <div class="btn-row">
+                        <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
+                        <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso/Butta</button>
+                        <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
+                        <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
+                        <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
         }
 
-        // Funzione: Il libro non si trova fisicamente
-        async function markMissing() {
-            await updateDatabase('mancante', 'nessuna_azione');
+        // Filtra la lista quando scrivi nella barra di ricerca
+        function filterList() {
+            const query = document.getElementById('search-box').value.toLowerCase();
+            const filtered = allBooks.filter(b => 
+                b.titolo.toLowerCase().includes(query) || 
+                (b.posizione_scaffale && b.posizione_scaffale.toLowerCase().includes(query)) ||
+                b.ean.includes(query)
+            );
+            renderList(filtered);
         }
 
-        // Mostra i bottoni per decidere cosa fare se il libro c'è
-        function showActions() {
-            document.getElementById('verify-buttons').style.display = 'none';
-            document.getElementById('action-buttons').style.display = 'flex';
-        }
+        // Salva la decisione e fa sparire la card
+        async function processBook(id, status, decision) {
+            // Nascondiamo subito la card per darti l'effetto "Fatto!" veloce
+            document.getElementById('card-' + id).style.opacity = '0.2';
+            document.getElementById('card-' + id).style.pointerEvents = 'none';
 
-        // Funzione: Salva la decisione per il libro presente
-        async function markAction(decision) {
-            await updateDatabase('presente', decision);
-        }
-
-        // Il "motore" che aggiorna il database e ricarica
-        async function updateDatabase(status, decision) {
-            setLoading(true);
             const { error } = await supabase
                 .from('catalog_inventory')
                 .update({ 
@@ -167,25 +181,24 @@
                     azione_decisione: decision,
                     data_ultimo_audit: new Date().toISOString()
                 })
-                .eq('id', currentItem.id);
+                .eq('id', id);
 
             if (error) {
-                alert("Errore durante il salvataggio: " + error.message);
-                setLoading(false);
+                alert("Errore salvataggio: " + error.message);
+                // Se fallisce, la facciamo riapparire
+                document.getElementById('card-' + id).style.opacity = '1';
+                document.getElementById('card-' + id).style.pointerEvents = 'auto';
             } else {
-                // Se è andato tutto bene, carica subito il prossimo
-                loadNextItem();
+                // Se va a buon fine, la eliminiamo definitivamente dallo schermo
+                document.getElementById('card-' + id).style.display = 'none';
+                
+                // Rimuoviamolo anche dall'array in memoria
+                allBooks = allBooks.filter(b => b.id !== id);
             }
         }
 
-        function setLoading(isLoading) {
-            const buttons = document.querySelectorAll('button');
-            buttons.forEach(b => b.disabled = isLoading);
-            document.getElementById('loading').style.display = isLoading ? 'block' : 'none';
-        }
-
-        // Avvia l'app caricando il primo elemento
-        window.onload = loadNextItem;
+        // Inizializza
+        window.onload = loadBooks;
     </script>
 </body>
 </html>
