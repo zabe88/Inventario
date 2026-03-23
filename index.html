@@ -86,4 +86,228 @@
     </div>
 
     <div id="loading" class="loading">Sincronizzazione Rete Neurale... 🧠</div>
-    <div class="list-
+    <div class="list-container" id="book-list"></div>
+
+    <script>
+        const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
+        const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        
+        let allBooks = [];
+        let searchTimeout = null;
+        let dbTrends = [];
+        let dbReleases = []; // NUOVO: Raccoglitore per uscite editori (J-Pop, Panini, ecc)
+        let dbCharts = [];
+        let dbLocalEvents = [];
+
+        const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
+        const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
+
+        function toggleRadar() {
+            const content = document.getElementById('radar-content');
+            const chevron = document.getElementById('radar-chevron');
+            content.classList.toggle('active');
+            chevron.classList.toggle('open');
+        }
+
+        async function initCervellone() {
+            try {
+                // Modificato: Ora carichiamo non solo i trend social, ma anche le USCITE DEGLI EDITORI!
+                const resSignals = await supabaseClient.from('external_signal_staging').select('signal_text, signal_type, feed_key').limit(2000);
+                if(resSignals.data) {
+                    dbTrends = resSignals.data.filter(s => s.signal_type === 'national_trend');
+                    dbReleases = resSignals.data.filter(s => s.signal_type === 'publisher_release');
+                    dbLocalEvents = resSignals.data.filter(s => s.signal_type === 'local_event');
+                    renderRadarLocale();
+                }
+                
+                const res2 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
+                if(res2.data) dbCharts = res2.data;
+
+            } catch (err) { console.warn("Errore caricamento dati:", err); }
+            loadBooks('');
+        }
+
+        function renderRadarLocale() {
+            const radarList = document.getElementById('radar-list');
+            if(dbLocalEvents.length === 0) {
+                document.getElementById('radar-summary').innerText = "Radar: Nessun evento in arrivo";
+                radarList.innerHTML = "La Lunigiana dorme serena.";
+                return;
+            }
+
+            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} eventi in arrivo`;
+
+            let html = "";
+            dbLocalEvents.forEach(e => {
+                let testo = e.signal_text;
+                let dataMatch = testo.match(/\[(.*?)\]/);
+                let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
+                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
+                
+                html += `<div class="radar-item">
+                            <span class="badge-data">${dataStr}</span> 
+                            ${testoPulito}
+                         </div>`;
+            });
+            radarList.innerHTML = html;
+        }
+
+        function handleSearchInput() {
+            const query = document.getElementById('search-box').value.trim();
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => { loadBooks(query); }, 500); 
+        }
+
+        async function loadBooks(searchQuery = '') {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('book-list').innerHTML = ''; 
+
+            try {
+                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(200); 
+                if (searchQuery !== '') {
+                    queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
+                } else {
+                    queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
+                }
+                const { data, error } = await queryBuilder;
+                if (error) { alert("Errore caricamento libri: " + error.message); return; }
+                allBooks = data;
+                document.getElementById('loading').style.display = 'none';
+                renderList(allBooks);
+            } catch (err) { alert(err.message); }
+        }
+
+        function analyzeBook(book) {
+            let alerts = [];
+            let localAlerts = [];
+            let title = book.titolo ? book.titolo.toLowerCase() : '';
+            
+            // IL MOTORE DI ANALISI AGGIORNATO CON I NUOVI SCIAMI
+            let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 4 && title.includes(t.signal_text.toLowerCase()));
+            let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 4 && title.includes(c.titolo.toLowerCase()));
+            
+            // Check uscite imminenti (es. J-Pop, Panini)
+            // Estrapoliamo la prima parola forte del titolo del libro per cercare nei bollettini uscite
+            let primeParole = title.split(" ").slice(0, 2).join(" ");
+            let isReleaseImminent = dbReleases.find(r => r.signal_text && primeParole.length > 4 && r.signal_text.toLowerCase().includes(primeParole));
+            
+            let isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
+            let isVariant = title.includes('variant') || title.includes('limited') || title.includes('special');
+
+            let cardBorderColor = "#ccc";
+
+            // LA SCALA DI PRIORITÀ DEL CERVELLONE
+            if (isReleaseImminent) { 
+                alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> Intercettato nei bollettini! ${isReleaseImminent.signal_text.substring(0, 50)}...</div>`); 
+                cardBorderColor = "#3b82f6"; // Blu forte
+            }
+            if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
+            else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione ricercatissima. Tienila.</div>"); cardBorderColor = "#eab308"; }
+            else if (isTrend && book.giacenti <= 2) { alerts.push(`<div class='ai-alert' style='color:#ef4444;'>🚨 <b>ALLERTA STOCK:</b> Hype Social altissimo ma hai solo ${book.giacenti} copie! Ordina subito.</div>`); cardBorderColor = "#ef4444"; }
+            else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>"); cardBorderColor = "#10b981"; }
+            else if (!isTrend && !isChart && !isReleaseImminent && book.giacenti > 5) { alerts.push(`<div class='ai-alert' style='color:#94a3b8;'>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${book.giacenti} copie a far polvere. SCONTA O RENDI.</div>`); cardBorderColor = "#94a3b8"; }
+            
+            // Radar Locale (rimane invariato)
+            let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
+            paroleChiaveLocali.forEach(parola => {
+                let regexParola = new RegExp(`\\b${parola}\\b`, 'i');
+                if (regexParola.test(title)) {
+                    localAlerts.push(`Questo titolo tocca il tema "<b>${parola.toUpperCase()}</b>", intercettato dal Radar Eventi! Valuta Vetrina Tematica.`);
+                    if(cardBorderColor === "#ccc" || cardBorderColor === "#94a3b8") cardBorderColor = "#a855f7"; 
+                }
+            });
+
+            let boxHtml = '';
+            if (alerts.length > 0) {
+                boxHtml += `<div class="ai-box"><div class="ai-title">👁️ IL CERVELLONE ORDINA:</div>${alerts.join("")}</div>`;
+            }
+            if (localAlerts.length > 0) {
+                boxHtml += `<div class="ai-local-box"><div class="ai-local-title">📍 ASSIST TERRITORIALE:</div>${localAlerts.join("<br>")}</div>`;
+            }
+            
+            return { html: boxHtml, color: cardBorderColor };
+        }
+
+        async function fetchCoverItaliana(ean, imgId) {
+            const imgElement = document.getElementById(imgId);
+            if (!imgElement) return;
+            const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
+            if (!cleanEan || cleanEan.length < 10) { imgElement.src = noCoverSvg; return; }
+
+            const fallbacks = [
+                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
+                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       
+                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, 
+                noCoverSvg 
+            ];
+
+            let currentFallbackIndex = 0;
+            imgElement.onerror = function() {
+                if (currentFallbackIndex < fallbacks.length) {
+                    imgElement.src = fallbacks[currentFallbackIndex];
+                    currentFallbackIndex++;
+                } else {
+                    imgElement.onerror = null; 
+                    imgElement.src = noCoverSvg;
+                }
+            };
+            imgElement.src = fallbacks[0];
+            currentFallbackIndex = 1; 
+        }
+
+        function renderList(books) {
+            const container = document.getElementById('book-list');
+            container.innerHTML = ''; 
+            if(books.length === 0) { container.innerHTML = '<div class="loading">Nessun libro trovato! 🕵️‍♂️</div>'; return; }
+
+            books.forEach(book => {
+                const pos = book.posizione_scaffale || 'ND';
+                const div = document.createElement('div');
+                div.id = 'card-' + book.id;
+                const coverId = 'cover-' + book.id;
+                
+                const aiData = analyzeBook(book);
+                
+                div.className = 'book-card';
+                div.style.borderLeftColor = aiData.color;
+
+                div.innerHTML = `
+                    <div class="book-header">
+                        <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
+                        <div class="book-info">
+                            <div class="book-title">${book.titolo}</div>
+                            <div class="book-meta">
+                                <span class="badge">Pos: ${pos}</span> 
+                                <span class="badge" style="background:#111; color:#fff;">Q.tà: ${book.giacenti}</span><br>
+                                EAN: ${book.ean}
+                            </div>
+                        </div>
+                    </div>
+                    ${aiData.html}
+                    <div class="btn-row">
+                        <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
+                        <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
+                        <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
+                        <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
+                        <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
+                    </div>
+                `;
+                container.appendChild(div);
+                fetchCoverItaliana(book.ean, coverId);
+            });
+        }
+
+        async function processBook(id, status, decision) {
+            document.getElementById('card-' + id).style.opacity = '0.2';
+            document.getElementById('card-' + id).style.pointerEvents = 'none';
+            try {
+                const { error } = await supabaseClient.from('catalog_inventory').update({ audit_status: status, azione_decisione: decision, data_ultimo_audit: new Date().toISOString() }).eq('id', id);
+                if (!error) document.getElementById('card-' + id).style.display = 'none';
+            } catch(err) { alert("Errore rete: " + err.message); }
+        }
+
+        window.onload = initCervellone;
+    </script>
+</body>
+</html>
