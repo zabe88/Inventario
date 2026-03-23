@@ -29,3 +29,6 @@ jobs:
 
     - name: 🌋 Scatena il Sismografo (Trend Anime Nazionali)
       run: python ragno_anime.py
+
+    - name: 🗣️ Scatena il Radar Passaparola (Reddit)
+      run: python ragno_reddit.py
