@@ -10,13 +10,38 @@
         .header { position: sticky; top: 0; background: #f4f4f9; padding-bottom: 10px; z-index: 100; border-bottom: 2px solid #ddd; margin-bottom: 20px; }
         h1 { color: #333; font-size: 22px; margin: 0 0 10px 0; }
         #search-box { width: 100%; padding: 15px; font-size: 18px; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; }
+        
         .list-container { display: flex; flex-direction: column; gap: 15px; }
-        .book-card { background: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .book-title { font-size: 18px; font-weight: bold; color: #111; margin-bottom: 5px;}
-        .book-meta { font-size: 14px; color: #666; margin-bottom: 15px; }
-        .badge { background: #e2e8f0; padding: 3px 8px; border-radius: 4px; font-weight: bold; color: #333; }
+        
+        /* Nuovo design della Card con Copertina */
+        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 15px; }
+        
+        .book-header { display: flex; gap: 15px; align-items: center; }
+        
+        /* Stile per la copertina */
+        .book-cover { 
+            width: 75px; 
+            height: 110px; 
+            object-fit: cover; 
+            border-radius: 6px; 
+            background-color: #e2e8f0; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #666;
+            text-align: center;
+        }
+        
+        .book-info { flex: 1; }
+        .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
+        .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
+        .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
+        
         .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
-        button { border: none; border-radius: 6px; padding: 12px 10px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 80px; }
+        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 70px; }
         button:active { transform: scale(0.95); }
         .btn-mancante { background-color: #ef4444; } 
         .btn-tenere { background-color: #10b981; } 
@@ -35,24 +60,21 @@
     </div>
 
     <div id="error-box"></div>
-
-    <div id="loading" class="loading">Caricamento inventario...</div>
+    <div id="loading" class="loading">Caricamento inventario e copertine...</div>
     <div class="list-container" id="book-list"></div>
 
     <script>
         const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
         
-        // CORREZIONE: Inizializziamo il client di Supabase chiamandolo "supabaseClient" in modo corretto!
         const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-        
         let allBooks = [];
 
         function showError(msg) {
             document.getElementById('loading').style.display = 'none';
             const eb = document.getElementById('error-box');
             eb.style.display = 'block';
-            eb.innerText = "ERRORE DI SISTEMA: " + msg;
+            eb.innerText = "ERRORE: " + msg;
         }
 
         async function loadBooks() {
@@ -64,18 +86,13 @@
                     .order('titolo', { ascending: true })
                     .limit(500);
 
-                if (error) {
-                    showError(error.message);
-                    return;
-                }
+                if (error) { showError(error.message); return; }
 
                 allBooks = data;
                 document.getElementById('loading').style.display = 'none';
                 renderList(allBooks);
                 
-            } catch (err) {
-                showError(err.message || err.toString());
-            }
+            } catch (err) { showError(err.message || err.toString()); }
         }
 
         function renderList(books) {
@@ -93,16 +110,26 @@
                 div.className = 'book-card';
                 div.id = 'card-' + book.id;
                 
+                // Creiamo l'URL dinamico per la copertina usando l'EAN
+                const coverUrl = `https://covers.openlibrary.org/b/isbn/${book.ean}-M.jpg`;
+
                 div.innerHTML = `
-                    <div class="book-title">${book.titolo}</div>
-                    <div class="book-meta">
-                        <span class="badge">Pos: ${pos}</span> 
-                        <span class="badge">Q.tà: ${book.giacenti}</span> 
-                        EAN: ${book.ean}
+                    <div class="book-header">
+                        <img class="book-cover" src="${coverUrl}" alt="Cover" onerror="this.src='https://via.placeholder.com/75x110.png?text=No+Cover'">
+                        
+                        <div class="book-info">
+                            <div class="book-title">${book.titolo}</div>
+                            <div class="book-meta">
+                                <span class="badge">Pos: ${pos}</span> 
+                                <span class="badge">Q.tà: ${book.giacenti}</span><br>
+                                EAN: ${book.ean}
+                            </div>
+                        </div>
                     </div>
+                    
                     <div class="btn-row">
                         <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
-                        <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso/Butta</button>
+                        <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
                         <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
                         <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
                         <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
