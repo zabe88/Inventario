@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
 Scraper classifiche IBS → Supabase ranking_charts
-Versione 4: usa Playwright (browser headless) perché IBS carica via JS.
+Versione 5: Playwright con estrazione JS robusta.
 """
 
 import argparse
 import json
 import re
-import sys
 import time
 from datetime import datetime, timezone
 
@@ -30,70 +29,159 @@ CHARTS = [
      "url": "https://www.ibs.it/classifica/libri_gialli-thriller-horror/1week/sold"},
 ]
 
-
-def extract_ean_from_url(url: str) -> str | None:
-    m = re.search(r'/e/(\d{13})$', url or '')
-    if m and m.group(1).startswith(('978', '979')):
-        return m.group(1)
-    return None
+# JavaScript da iniettare nella pagina per estrarre i prodotti
+EXTRACT_JS = """
+() => {
+    const results = [];
+    // IBS usa diverse strutture. Proviamo tutte.
+    
+    // Strategia 1: cerca i div della classifica con data-product-id o data-ean
+    let items = document.querySelectorAll('[data-product-id], [data-ean]:not([data-site-position="menu"])');
+    
+    // Strategia 2: cerca nella zona main/content, escludendo menu/header/footer
+    if (items.length === 0) {
+        const mainArea = document.querySelector('main, #main, .main-content, .cc-content, [role="main"], .page-main');
+        if (mainArea) {
+            items = mainArea.querySelectorAll('a[href*="/e/"]');
+        }
+    }
+    
+    // Strategia 3: cerca cc-showcase-product o simili
+    if (items.length === 0) {
+        items = document.querySelectorAll('.cc-showcase-product, .cc-product-item, .product-item-info');
+    }
+    
+    // Strategia 4: intercetta i dati dal dataLayer di Google Analytics
+    if (items.length === 0 && window.dataLayer) {
+        for (const entry of window.dataLayer) {
+            if (entry.ecommerce && entry.ecommerce.impressions) {
+                for (const imp of entry.ecommerce.impressions) {
+                    results.push({
+                        title: imp.name || '',
+                        ean: imp.id || '',
+                        author: imp.brand || '',
+                        position: imp.position || results.length + 1,
+                        category: imp.category || ''
+                    });
+                }
+                return results;
+            }
+        }
+    }
+    
+    // Strategia 5: cerca staticImpressions (IBS li usa per analytics)
+    if (items.length === 0 && window.staticImpressions) {
+        for (const key of Object.keys(window.staticImpressions)) {
+            const impressions = window.staticImpressions[key];
+            if (Array.isArray(impressions)) {
+                for (const imp of impressions) {
+                    results.push({
+                        title: (imp.item_name || '').replace(/_/g, ' '),
+                        ean: imp.item_id || '',
+                        position: (imp.index || results.length) + 1,
+                        category: imp.item_category2 || ''
+                    });
+                }
+                return results;
+            }
+        }
+    }
+    
+    // Processa gli items trovati con strategie 1-3
+    const seen = new Set();
+    let pos = 1;
+    items.forEach(item => {
+        // Trova il link al prodotto
+        const link = item.tagName === 'A' ? item : item.querySelector('a[href*="/e/"]');
+        if (!link) return;
+        
+        const href = link.getAttribute('href') || '';
+        if (seen.has(href) || !href.includes('/e/')) return;
+        
+        // Escludi link del menu
+        if (link.getAttribute('data-site-position') === 'menu') return;
+        if (link.closest('nav, header, .menu, .cc-header')) return;
+        
+        seen.add(href);
+        
+        // Estrai EAN dalla URL
+        const eanMatch = href.match(/\\/e\\/(\\d{13})$/);
+        const ean = eanMatch ? eanMatch[1] : '';
+        
+        // Titolo
+        const titleEl = item.querySelector('h2, h3, .cc-product-title, [class*="title"]') || link;
+        const title = (titleEl.textContent || '').trim();
+        
+        if (!title || title.length < 3) return;
+        
+        // Autore
+        const authorEl = item.querySelector('[class*="author"]');
+        let author = authorEl ? authorEl.textContent.trim() : '';
+        if (author.toLowerCase().startsWith('di ')) author = author.substring(3);
+        
+        results.push({
+            title: title.substring(0, 200),
+            ean: ean,
+            author: author.substring(0, 100),
+            position: pos++
+        });
+    });
+    
+    return results;
+}
+"""
 
 
 def scrape_chart_playwright(page, chart: dict) -> list[dict]:
-    """Scrapa una classifica IBS usando Playwright."""
-    entries = []
     url = chart["url"]
     print(f"  Navigating to {url} ...")
 
     try:
-        page.goto(url, wait_until="networkidle", timeout=30000)
-        # Aspetta che appaiano i prodotti
-        page.wait_for_selector('a[href*="/e/"]', timeout=15000)
-        time.sleep(2)  # Extra wait per rendering completo
+        page.goto(url, wait_until="networkidle", timeout=45000)
+        # Aspetta che la pagina finisca di caricare i dati
+        time.sleep(5)
     except Exception as e:
         print(f"  ⚠ Errore navigazione: {e}")
-        return entries
+        # Prova comunque a estrarre
+        time.sleep(3)
 
-    # Estrai tutti i link prodotto con /e/ (EAN a 13 cifre)
-    links = page.query_selector_all('a[href*="/e/"]')
-    seen = set()
-    position = 1
+    try:
+        entries = page.evaluate(EXTRACT_JS)
+        if entries:
+            # Pulisci EAN
+            for e in entries:
+                ean = str(e.get("ean", ""))
+                if not re.match(r'^97[89]\d{10}$', ean):
+                    e.pop("ean", None)
+            return entries
+    except Exception as e:
+        print(f"  ⚠ Errore estrazione JS: {e}")
 
-    for link in links:
-        href = link.get_attribute("href") or ""
-        if "/e/" not in href or href in seen:
-            continue
+    # Fallback: prova a prendere il contenuto HTML e parsarlo
+    try:
+        content = page.content()
+        # Cerca staticImpressions nel source
+        match = re.search(r'staticImpressions\[.*?\]\s*=\s*(\[.*?\]);', content, re.DOTALL)
+        if match:
+            data = json.loads(match.group(1))
+            entries = []
+            for i, item in enumerate(data):
+                entry = {
+                    "position": i + 1,
+                    "title": (item.get("item_name") or "").replace("_", " "),
+                }
+                ean = item.get("item_id", "")
+                if re.match(r'^97[89]\d{10}$', str(ean)):
+                    entry["ean"] = str(ean)
+                if entry["title"]:
+                    entries.append(entry)
+            if entries:
+                print(f"  → Trovati via staticImpressions nel source")
+                return entries
+    except Exception as e:
+        print(f"  ⚠ Errore fallback: {e}")
 
-        # Filtra solo link che sembrano prodotti (non menu/sidebar)
-        ean = extract_ean_from_url(href)
-        title_text = link.inner_text().strip()
-
-        # Salta link troppo corti o di navigazione
-        if not title_text or len(title_text) < 3:
-            continue
-        if title_text.lower() in ("vedi tutti", "scopri", "iscriviti"):
-            continue
-
-        seen.add(href)
-        entry = {"position": position, "title": title_text[:200]}
-        if ean:
-            entry["ean"] = ean
-
-        # Prova a trovare autore nel contesto vicino
-        parent = link.evaluate_handle("el => el.closest('div, li, article')")
-        if parent:
-            try:
-                parent_text = parent.inner_text()
-                # Cerca pattern "di NomeCognome"
-                author_match = re.search(r'\bdi\s+([A-Z][a-zà-ú]+ [A-Z][a-zà-ú]+(?:\s[A-Z][a-zà-ú]+)?)', parent_text)
-                if author_match:
-                    entry["author"] = author_match.group(1).strip()[:100]
-            except:
-                pass
-
-        entries.append(entry)
-        position += 1
-
-    return entries
+    return []
 
 
 def push_to_supabase(supabase_url, supabase_key, chart, entries, chart_date):
@@ -119,7 +207,7 @@ def push_to_supabase(supabase_url, supabase_key, chart, entries, chart_date):
 
 def save_json(all_entries, output_path):
     feed = {
-        "source": "Scraper classifiche IBS v4 (Playwright)",
+        "source": "Scraper classifiche IBS v5",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rankings": [{
             "ean": e.get("ean", ""),
@@ -144,7 +232,6 @@ def main():
     parser.add_argument("--json-only", action="store_true")
     args = parser.parse_args()
 
-    # Import Playwright qui per non fallire se non installato
     from playwright.sync_api import sync_playwright
 
     chart_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -152,7 +239,7 @@ def main():
     total_ingested = 0
     total_matched = 0
 
-    print(f"=== Scraper classifiche IBS v4 (Playwright) — {chart_date} ===\n")
+    print(f"=== Scraper classifiche IBS v5 — {chart_date} ===\n")
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
@@ -160,7 +247,15 @@ def main():
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                        "AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
             locale="it-IT",
+            viewport={"width": 1280, "height": 900},
         )
+        # Blocca cookie banner per non interferire
+        context.add_cookies([{
+            "name": "CookieConsent",
+            "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false}",
+            "domain": ".ibs.it",
+            "path": "/",
+        }])
         page = context.new_page()
 
         for chart in CHARTS:
