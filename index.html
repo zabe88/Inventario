@@ -10,11 +10,9 @@
     <style>
         body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
         
-        /* HEADER MINIMALE */
         .header { position: sticky; top: 0; background: #111; padding: 15px; z-index: 100; border-bottom: 4px solid #eab308; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
         h1 { font-size: 20px; margin: 0 0 12px 0; color: white; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
         
-        /* RADAR A SCOMPARSA (STILE iOS) */
         #radar-widget { margin-bottom: 15px; }
         #radar-toggle { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); color: #e0e7ff; padding: 12px 15px; border-radius: 8px; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: space-between; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.1s ease;}
         #radar-toggle:active { transform: scale(0.98); }
@@ -29,11 +27,9 @@
         .radar-item:last-child { border-bottom: none; padding-bottom: 0; }
         .badge-data { background: #4f46e5; color: white; padding: 3px 6px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 8px; display: inline-block; margin-bottom: 4px; letter-spacing: 0.5px;}
 
-        /* RICERCA */
         #search-box { width: 100%; padding: 14px; font-size: 16px; border-radius: 8px; border: none; box-sizing: border-box; background: #fff; color: #333; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);}
         #search-box:focus { outline: 2px solid #eab308; }
         
-        /* CARD LIBRI */
         .list-container { display: flex; flex-direction: column; gap: 15px; }
         .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
         .book-header { display: flex; gap: 15px; align-items: stretch; }
@@ -45,7 +41,6 @@
         .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
         .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
         
-        /* AI BOXES */
         .ai-box { background: #111; border-left: 5px solid #eab308; border-radius: 6px; padding: 12px; font-size: 14px; color: #fef08a; line-height: 1.5; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); }
         .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 8px; color: #eab308; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
         .ai-alert { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
@@ -54,7 +49,6 @@
         .ai-local-box { background: linear-gradient(to right, #2e1065, #1e1b4b); border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
         .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;}
 
-        /* BOTTONI */
         .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px;}
         button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 65px; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
         button:active { transform: scale(0.95); }
@@ -96,7 +90,7 @@
         let allBooks = [];
         let searchTimeout = null;
         let dbTrends = [];
-        let dbReleases = []; // NUOVO: Raccoglitore per uscite editori (J-Pop, Panini, ecc)
+        let dbReleases = [];
         let dbCharts = [];
         let dbLocalEvents = [];
 
@@ -112,8 +106,8 @@
 
         async function initCervellone() {
             try {
-                // Modificato: Ora carichiamo non solo i trend social, ma anche le USCITE DEGLI EDITORI!
-                const resSignals = await supabaseClient.from('external_signal_staging').select('signal_text, signal_type, feed_key').limit(2000);
+                // Limitiamo la quantità per non far esplodere la memoria dell'iPad
+                const resSignals = await supabaseClient.from('external_signal_staging').select('signal_text, signal_type, feed_key').limit(3000);
                 if(resSignals.data) {
                     dbTrends = resSignals.data.filter(s => s.signal_type === 'national_trend');
                     dbReleases = resSignals.data.filter(s => s.signal_type === 'publisher_release');
@@ -124,7 +118,9 @@
                 const res2 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
                 if(res2.data) dbCharts = res2.data;
 
-            } catch (err) { console.warn("Errore caricamento dati:", err); }
+            } catch (err) { console.error("Errore silenziato nel radar:", err); }
+            
+            // Qualsiasi cosa succeda, carica i libri
             loadBooks('');
         }
 
@@ -140,15 +136,13 @@
 
             let html = "";
             dbLocalEvents.forEach(e => {
+                if(!e.signal_text) return; // Salvavita
                 let testo = e.signal_text;
                 let dataMatch = testo.match(/\[(.*?)\]/);
                 let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
                 let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
                 
-                html += `<div class="radar-item">
-                            <span class="badge-data">${dataStr}</span> 
-                            ${testoPulito}
-                         </div>`;
+                html += `<div class="radar-item"><span class="badge-data">${dataStr}</span> ${testoPulito}</div>`;
             });
             radarList.innerHTML = html;
         }
@@ -160,7 +154,8 @@
         }
 
         async function loadBooks(searchQuery = '') {
-            document.getElementById('loading').style.display = 'block';
+            const loadingDiv = document.getElementById('loading');
+            loadingDiv.style.display = 'block';
             document.getElementById('book-list').innerHTML = ''; 
 
             try {
@@ -170,61 +165,67 @@
                 } else {
                     queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
                 }
+                
                 const { data, error } = await queryBuilder;
-                if (error) { alert("Errore caricamento libri: " + error.message); return; }
-                allBooks = data;
-                document.getElementById('loading').style.display = 'none';
+                
+                if (error) throw error;
+                allBooks = data || [];
+                
+            } catch (err) { 
+                console.error(err);
+                allBooks = []; // Svuota in caso di errore
+            } finally {
+                // Scompare SEMPRE il caricamento, anche se c'è un errore
+                loadingDiv.style.display = 'none';
                 renderList(allBooks);
-            } catch (err) { alert(err.message); }
+            }
         }
 
         function analyzeBook(book) {
             let alerts = [];
             let localAlerts = [];
             let title = book.titolo ? book.titolo.toLowerCase() : '';
+            if (!title) return { html: '', color: '#ccc' }; // Salvavita per libri senza titolo
             
-            // IL MOTORE DI ANALISI AGGIORNATO CON I NUOVI SCIAMI
             let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 4 && title.includes(t.signal_text.toLowerCase()));
             let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 4 && title.includes(c.titolo.toLowerCase()));
             
-            // Check uscite imminenti (es. J-Pop, Panini)
-            // Estrapoliamo la prima parola forte del titolo del libro per cercare nei bollettini uscite
+            // Ricerca uscite super blindata contro gli errori
             let primeParole = title.split(" ").slice(0, 2).join(" ");
-            let isReleaseImminent = dbReleases.find(r => r.signal_text && primeParole.length > 4 && r.signal_text.toLowerCase().includes(primeParole));
+            let isReleaseImminent = null;
+            if (primeParole.length > 3) {
+                isReleaseImminent = dbReleases.find(r => r.signal_text && r.signal_text.toLowerCase().includes(primeParole));
+            }
             
             let isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
             let isVariant = title.includes('variant') || title.includes('limited') || title.includes('special');
+            let giacenze = book.giacenti || 0;
 
             let cardBorderColor = "#ccc";
 
-            // LA SCALA DI PRIORITÀ DEL CERVELLONE
             if (isReleaseImminent) { 
-                alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> Intercettato nei bollettini! ${isReleaseImminent.signal_text.substring(0, 50)}...</div>`); 
-                cardBorderColor = "#3b82f6"; // Blu forte
+                let infoUscita = isReleaseImminent.signal_text.substring(0, 60);
+                alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${infoUscita}...</div>`); 
+                cardBorderColor = "#3b82f6"; 
             }
             if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
-            else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione ricercatissima. Tienila.</div>"); cardBorderColor = "#eab308"; }
-            else if (isTrend && book.giacenti <= 2) { alerts.push(`<div class='ai-alert' style='color:#ef4444;'>🚨 <b>ALLERTA STOCK:</b> Hype Social altissimo ma hai solo ${book.giacenti} copie! Ordina subito.</div>`); cardBorderColor = "#ef4444"; }
+            else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione. Tienila.</div>"); cardBorderColor = "#eab308"; }
+            else if (isTrend && giacenze <= 2) { alerts.push(`<div class='ai-alert' style='color:#ef4444;'>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie! Ordina subito.</div>`); cardBorderColor = "#ef4444"; }
             else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>"); cardBorderColor = "#10b981"; }
-            else if (!isTrend && !isChart && !isReleaseImminent && book.giacenti > 5) { alerts.push(`<div class='ai-alert' style='color:#94a3b8;'>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${book.giacenti} copie a far polvere. SCONTA O RENDI.</div>`); cardBorderColor = "#94a3b8"; }
+            else if (!isTrend && !isChart && !isReleaseImminent && giacenze > 5) { alerts.push(`<div class='ai-alert' style='color:#94a3b8;'>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${giacenze} copie a poltrire. SCONTA O RENDI.</div>`); cardBorderColor = "#94a3b8"; }
             
-            // Radar Locale (rimane invariato)
             let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
             paroleChiaveLocali.forEach(parola => {
                 let regexParola = new RegExp(`\\b${parola}\\b`, 'i');
                 if (regexParola.test(title)) {
-                    localAlerts.push(`Questo titolo tocca il tema "<b>${parola.toUpperCase()}</b>", intercettato dal Radar Eventi! Valuta Vetrina Tematica.`);
+                    localAlerts.push(`Tocca il tema "<b>${parola.toUpperCase()}</b>" del Radar Eventi! Vetrina Tematica.`);
                     if(cardBorderColor === "#ccc" || cardBorderColor === "#94a3b8") cardBorderColor = "#a855f7"; 
                 }
             });
 
             let boxHtml = '';
-            if (alerts.length > 0) {
-                boxHtml += `<div class="ai-box"><div class="ai-title">👁️ IL CERVELLONE ORDINA:</div>${alerts.join("")}</div>`;
-            }
-            if (localAlerts.length > 0) {
-                boxHtml += `<div class="ai-local-box"><div class="ai-local-title">📍 ASSIST TERRITORIALE:</div>${localAlerts.join("<br>")}</div>`;
-            }
+            if (alerts.length > 0) { boxHtml += `<div class="ai-box"><div class="ai-title">👁️ IL CERVELLONE ORDINA:</div>${alerts.join("")}</div>`; }
+            if (localAlerts.length > 0) { boxHtml += `<div class="ai-local-box"><div class="ai-local-title">📍 ASSIST TERRITORIALE:</div>${localAlerts.join("<br>")}</div>`; }
             
             return { html: boxHtml, color: cardBorderColor };
         }
@@ -259,42 +260,47 @@
         function renderList(books) {
             const container = document.getElementById('book-list');
             container.innerHTML = ''; 
+            
             if(books.length === 0) { container.innerHTML = '<div class="loading">Nessun libro trovato! 🕵️‍♂️</div>'; return; }
 
             books.forEach(book => {
-                const pos = book.posizione_scaffale || 'ND';
-                const div = document.createElement('div');
-                div.id = 'card-' + book.id;
-                const coverId = 'cover-' + book.id;
-                
-                const aiData = analyzeBook(book);
-                
-                div.className = 'book-card';
-                div.style.borderLeftColor = aiData.color;
+                try {
+                    const pos = book.posizione_scaffale || 'ND';
+                    const div = document.createElement('div');
+                    div.id = 'card-' + book.id;
+                    const coverId = 'cover-' + book.id;
+                    
+                    const aiData = analyzeBook(book);
+                    
+                    div.className = 'book-card';
+                    div.style.borderLeftColor = aiData.color;
 
-                div.innerHTML = `
-                    <div class="book-header">
-                        <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
-                        <div class="book-info">
-                            <div class="book-title">${book.titolo}</div>
-                            <div class="book-meta">
-                                <span class="badge">Pos: ${pos}</span> 
-                                <span class="badge" style="background:#111; color:#fff;">Q.tà: ${book.giacenti}</span><br>
-                                EAN: ${book.ean}
+                    div.innerHTML = `
+                        <div class="book-header">
+                            <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
+                            <div class="book-info">
+                                <div class="book-title">${book.titolo || 'Senza Titolo'}</div>
+                                <div class="book-meta">
+                                    <span class="badge">Pos: ${pos}</span> 
+                                    <span class="badge" style="background:#111; color:#fff;">Q.tà: ${book.giacenti || 0}</span><br>
+                                    EAN: ${book.ean || 'N/D'}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    ${aiData.html}
-                    <div class="btn-row">
-                        <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
-                        <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
-                        <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
-                        <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
-                        <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
-                    </div>
-                `;
-                container.appendChild(div);
-                fetchCoverItaliana(book.ean, coverId);
+                        ${aiData.html}
+                        <div class="btn-row">
+                            <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
+                            <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
+                            <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
+                            <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
+                            <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
+                        </div>
+                    `;
+                    container.appendChild(div);
+                    fetchCoverItaliana(book.ean, coverId);
+                } catch (e) {
+                    console.error("Errore saltato sul libro:", book.titolo, e);
+                }
             });
         }
 
