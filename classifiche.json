@@ -1,6 +1,6 @@
 {
   "source": "Multi-source rankings v8",
-  "updated_at": "2026-03-23T03:27:50.536519+00:00",
+  "updated_at": "2026-03-23T03:31:09.823183+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -111,19 +111,10 @@
       "period": "1week"
     },
     {
-      "ean": "9788879849456",
-      "title": "La lampada della conoscenza non-duale",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio",
-      "period": "1week"
-    },
-    {
       "ean": "9788820080914",
       "title": "Ancora insieme. Love me love me. Vol. 4",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "generale",
       "source": "libraccio",
       "period": "1week"
@@ -132,7 +123,7 @@
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "generale",
       "source": "libraccio",
       "period": "1week"
@@ -140,6 +131,15 @@
     {
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio",
+      "period": "1week"
+    },
+    {
+      "ean": "9788879849456",
+      "title": "La lampada della conoscenza non-duale",
       "author": "",
       "position": 16,
       "category": "generale",
@@ -840,8 +840,8 @@
       "period": "1week"
     },
     {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
+      "ean": "9788883625169",
+      "title": "Papà-isola. Ediz. a colori",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -849,8 +849,8 @@
       "period": "1week"
     },
     {
-      "ean": "9788883625169",
-      "title": "Papà-isola. Ediz. a colori",
+      "ean": "9788893481335",
+      "title": "Le tue antenate. Donne pioniere nella so...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
@@ -858,8 +858,8 @@
       "period": "1week"
     },
     {
-      "ean": "9788893481335",
-      "title": "Le tue antenate. Donne pioniere nella so...",
+      "ean": "9788817179614",
+      "title": "Tutte le ragazze mentono",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
