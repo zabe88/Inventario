@@ -40,3 +40,6 @@ jobs:
 
     - name: 🦸‍♂️ Scatena l'Oracolo (Uscite Panini)
       run: python ragno_panini.py
+
+    - name: 📚 Scatena l'Oracolo (Uscite Giunti)
+      run: python ragno_giunti.py
