@@ -65,31 +65,27 @@
             eb.innerText = "ERRORE: " + msg;
         }
 
-        // Aspetta che tu finisca di scrivere per non interrogare il database a ogni singola lettera
         function handleSearchInput() {
             const query = document.getElementById('search-box').value.trim();
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(() => {
                 loadBooks(query);
-            }, 500); // Aspetta mezzo secondo
+            }, 500); 
         }
 
         async function loadBooks(searchQuery = '') {
             document.getElementById('loading').style.display = 'block';
-            document.getElementById('book-list').innerHTML = ''; // Svuota la lista vecchia
+            document.getElementById('book-list').innerHTML = ''; 
 
             try {
-                // Costruiamo la chiamata al database
                 let queryBuilder = supabaseClient
                     .from('assistant_triage_inventario')
                     .select('*')
-                    .limit(200); // Limite di 200 per non intaccare la velocità
+                    .limit(200); 
 
-                // Se hai scritto qualcosa, cerchiamo in tutto il database (Titolo, EAN o Scaffale)
                 if (searchQuery !== '') {
                     queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
                 } else {
-                    // Se è vuota, mostriamo i primi in ordine alfabetico e di scaffale
                     queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
                 }
 
@@ -118,12 +114,11 @@
                 const div = document.createElement('div');
                 div.className = 'book-card';
                 div.id = 'card-' + book.id;
+                const coverId = 'cover-' + book.id;
                 
-                const coverUrl = `https://covers.openlibrary.org/b/isbn/${book.ean}-M.jpg`;
-
                 div.innerHTML = `
                     <div class="book-header">
-                        <img class="book-cover" src="${coverUrl}" alt="Cover" onerror="this.src='https://via.placeholder.com/75x110.png?text=No+Cover'">
+                        <img class="book-cover" id="${coverId}" src="https://via.placeholder.com/75x110.png?text=Cerco..." alt="Cover">
                         <div class="book-info">
                             <div class="book-title">${book.titolo}</div>
                             <div class="book-meta">
@@ -143,7 +138,39 @@
                     </div>
                 `;
                 container.appendChild(div);
+                
+                // Lanciamo la ricerca della copertina su Google Books in background
+                fetchCover(book.ean, coverId);
             });
+        }
+
+        // Il nuovo Motore Copertine (Google Books + Fallback)
+        async function fetchCover(ean, imgId) {
+            const imgElement = document.getElementById(imgId);
+            if (!imgElement) return;
+
+            try {
+                const res = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${ean}`);
+                const data = await res.json();
+
+                if (data.items && data.items.length > 0 && data.items[0].volumeInfo.imageLinks) {
+                    // Copertina trovata su Google Books!
+                    let url = data.items[0].volumeInfo.imageLinks.thumbnail;
+                    imgElement.src = url.replace('http:', 'https:');
+                } else {
+                    // Fallback su Open Library
+                    imgElement.src = `https://covers.openlibrary.org/b/isbn/${ean}-M.jpg`;
+                    imgElement.onerror = function() {
+                        this.src = 'https://via.placeholder.com/75x110.png?text=No+Cover';
+                    };
+                }
+            } catch (err) {
+                // In caso di errore di rete, prova Open Library
+                imgElement.src = `https://covers.openlibrary.org/b/isbn/${ean}-M.jpg`;
+                imgElement.onerror = function() {
+                    this.src = 'https://via.placeholder.com/75x110.png?text=No+Cover';
+                };
+            }
         }
 
         async function processBook(id, status, decision) {
@@ -174,7 +201,6 @@
             }
         }
 
-        // Carica i primi record all'avvio
         window.onload = () => loadBooks('');
     </script>
 </body>
