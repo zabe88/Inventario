@@ -2,7 +2,6 @@ name: 🕷️ Risveglio Notturno degli Sciami
 
 on:
   schedule:
-    # Esegue ogni notte alle 03:00 UTC (04:00/05:00 in Italia)
     - cron: '0 3 * * *'
   workflow_dispatch: 
 
@@ -35,3 +34,6 @@ jobs:
 
     - name: 📱 Scatena il Radar BookTok (TikTok/Google)
       run: python ragno_booktok.py
+
+    - name: ⭐ Scatena l'Oracolo (Uscite Star Comics)
+      run: python ragno_star.py
