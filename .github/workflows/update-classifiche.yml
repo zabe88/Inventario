@@ -1,52 +1,33 @@
 name: Update classifiche
-
 on:
-  workflow_dispatch:
   schedule:
     - cron: '17 5,13 * * *'
-
-permissions:
-  contents: write
-
-concurrency:
-  group: update-classifiche
-  cancel-in-progress: true
+  workflow_dispatch: {}
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements-classifiche.txt
-
+        run: pip install requests beautifulsoup4 google-api-python-client
       - name: Build classifiche
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           python scripts/update_classifiche.py \
             --supabase-url "$SUPABASE_URL" \
             --supabase-key "$SUPABASE_KEY" \
+            --youtube-key "$YOUTUBE_API_KEY" \
             --output classifiche.json
-
       - name: Commit updated feed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- classifiche.json; then
-            echo "No changes"
-            exit 0
-          fi
-          git add classifiche.json
-          git commit -m "chore: update classifiche feed"
-          git push
+          git config user.name "Cervellone Bot"
+          git config user.email "bot@cervellone.local"
+          git add classifiche.json || true
+          git diff --staged --quiet || git commit -m "auto: classifiche $(date +%Y-%m-%d)" && git push || true
