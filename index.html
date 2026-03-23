@@ -43,6 +43,9 @@
         const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
         
+        // CORREZIONE: Inizializziamo il client di Supabase chiamandolo "supabaseClient" in modo corretto!
+        const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        
         let allBooks = [];
 
         function showError(msg) {
@@ -54,9 +57,7 @@
 
         async function loadBooks() {
             try {
-                const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-                
-                const { data, error } = await supabase
+                const { data, error } = await supabaseClient
                     .from('assistant_triage_inventario')
                     .select('*')
                     .order('posizione_scaffale', { ascending: true })
@@ -126,7 +127,6 @@
             document.getElementById('card-' + id).style.pointerEvents = 'none';
 
             try {
-                const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
                 const { error } = await supabaseClient
                     .from('catalog_inventory')
                     .update({ 
