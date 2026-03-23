@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v9",
-  "updated_at": "2026-03-23T08:11:27.312521+00:00",
+  "updated_at": "2026-03-23T11:20:45.615564+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -43,10 +43,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804773276",
+      "title": "Le libere donne di Magliano",
+      "author": "",
+      "position": 6,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788821457111",
       "title": "Netter. Atlante di anatomia umana",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
@@ -54,7 +62,7 @@
       "ean": "9788863114287",
       "title": "Cime tempestose. Ediz. integrale",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,7 +70,7 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
@@ -70,39 +78,7 @@
       "ean": "9791255172086",
       "title": "Heated rivalry. Ediz. italiana",
       "author": "",
-      "position": 9,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
-      "author": "",
       "position": 10,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
-      "author": "",
-      "position": 11,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788879849456",
-      "title": "La lampada della conoscenza non-duale",
-      "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788820080914",
-      "title": "Ancora insieme. Love me love me. Vol. 4",
-      "author": "",
-      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,7 +86,7 @@
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
-      "position": 14,
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,13 +94,37 @@
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
+      "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
+      "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
+      "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788879849456",
+      "title": "La lampada della conoscenza non-duale",
+      "author": "",
       "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788820080914",
+      "title": "Ancora insieme. Love me love me. Vol. 4",
       "author": "",
       "position": 16,
       "category": "generale",
@@ -139,24 +139,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867908264",
-      "title": "Il gioco delle risate",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
+      "ean": "9788867908264",
+      "title": "Il gioco delle risate",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9789403212555",
-      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
+      "ean": "9789403206042",
+      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -387,10 +387,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804773276",
+      "title": "Le libere donne di Magliano",
+      "author": "",
+      "position": 29,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 29,
+      "position": 30,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -398,37 +406,29 @@
       "ean": "9791255172086",
       "title": "Heated rivalry. Ediz. italiana",
       "author": "",
-      "position": 30,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
-      "author": "",
       "position": 31,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 32,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788820080914",
-      "title": "Ancora insieme. Love me love me. Vol. 4",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 33,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -499,18 +499,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9780746083383",
-      "title": "Che cosa mi succede? (Ragazze). Ediz. il...",
-      "author": "",
-      "position": 9,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9781409515470",
       "title": "Atlante illustrato. Ediz. a colori. Con ...",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -518,7 +510,7 @@
       "ean": "9781409551133",
       "title": "Miti greci per bambini. Mini",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -526,7 +518,7 @@
       "ean": "9781474916301",
       "title": "Facciamo un quiz! Piccoli passatempi. Ed...",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -534,7 +526,7 @@
       "ean": "9781474938655",
       "title": "Cosa sono i microbi? Ediz. a colori",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,7 +534,7 @@
       "ean": "9788804413707",
       "title": "Il ritorno della mummia",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -550,13 +542,21 @@
       "ean": "9788804423997",
       "title": "I prigionieri della torre",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804446255",
       "title": "Diana, Cupìdo e il commendatore",
+      "author": "",
+      "position": 15,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804479857",
+      "title": "Sette Robinson su un'isola matta",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -1027,24 +1027,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828788386",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 5: I...",
+      "ean": "9788828781424",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828762942",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
+      "ean": "9788828788386",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 5: I...",
       "author": "",
       "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828781424",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
+      "ean": "9788828762942",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
       "author": "",
       "position": 35,
       "category": "fumetti",
@@ -1059,16 +1059,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788891291073",
-      "title": "Berserk collection. Serie nera. Vol. 10",
+      "ean": "9788891291080",
+      "title": "Berserk collection. Serie nera. Vol. 13",
       "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788891291080",
-      "title": "Berserk collection. Serie nera. Vol. 13",
+      "ean": "9788891297372",
+      "title": "Berserk collection. Serie nera. Vol. 12",
       "author": "",
       "position": 38,
       "category": "fumetti",
