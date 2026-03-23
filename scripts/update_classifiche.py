@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
 Scraper classifiche IBS → Supabase ranking_charts
-Versione 5: Playwright con estrazione JS robusta.
+Versione 6: aggiunge debug screenshot + HTML dump per diagnostica.
 """
 
 import argparse
 import json
+import os
 import re
 import time
 from datetime import datetime, timezone
@@ -29,159 +30,174 @@ CHARTS = [
      "url": "https://www.ibs.it/classifica/libri_gialli-thriller-horror/1week/sold"},
 ]
 
-# JavaScript da iniettare nella pagina per estrarre i prodotti
 EXTRACT_JS = """
 () => {
     const results = [];
-    // IBS usa diverse strutture. Proviamo tutte.
+    const debug = {strategies_tried: [], page_title: document.title, url: location.href};
     
-    // Strategia 1: cerca i div della classifica con data-product-id o data-ean
-    let items = document.querySelectorAll('[data-product-id], [data-ean]:not([data-site-position="menu"])');
-    
-    // Strategia 2: cerca nella zona main/content, escludendo menu/header/footer
-    if (items.length === 0) {
-        const mainArea = document.querySelector('main, #main, .main-content, .cc-content, [role="main"], .page-main');
-        if (mainArea) {
-            items = mainArea.querySelectorAll('a[href*="/e/"]');
-        }
-    }
-    
-    // Strategia 3: cerca cc-showcase-product o simili
-    if (items.length === 0) {
-        items = document.querySelectorAll('.cc-showcase-product, .cc-product-item, .product-item-info');
-    }
-    
-    // Strategia 4: intercetta i dati dal dataLayer di Google Analytics
-    if (items.length === 0 && window.dataLayer) {
-        for (const entry of window.dataLayer) {
-            if (entry.ecommerce && entry.ecommerce.impressions) {
-                for (const imp of entry.ecommerce.impressions) {
-                    results.push({
-                        title: imp.name || '',
-                        ean: imp.id || '',
-                        author: imp.brand || '',
-                        position: imp.position || results.length + 1,
-                        category: imp.category || ''
-                    });
-                }
-                return results;
-            }
-        }
-    }
-    
-    // Strategia 5: cerca staticImpressions (IBS li usa per analytics)
-    if (items.length === 0 && window.staticImpressions) {
+    // Strategia 1: staticImpressions (IBS analytics object)
+    debug.strategies_tried.push('staticImpressions');
+    if (window.staticImpressions) {
+        debug.staticImpressions_keys = Object.keys(window.staticImpressions);
         for (const key of Object.keys(window.staticImpressions)) {
             const impressions = window.staticImpressions[key];
-            if (Array.isArray(impressions)) {
+            if (Array.isArray(impressions) && impressions.length > 0) {
+                debug.staticImpressions_found = impressions.length;
                 for (const imp of impressions) {
                     results.push({
                         title: (imp.item_name || '').replace(/_/g, ' '),
                         ean: imp.item_id || '',
-                        position: (imp.index || results.length) + 1,
+                        position: (imp.index != null ? imp.index : results.length) + 1,
+                        publisher: imp.item_brand || '',
                         category: imp.item_category2 || ''
                     });
                 }
-                return results;
+                return {results, debug};
             }
         }
     }
     
-    // Processa gli items trovati con strategie 1-3
-    const seen = new Set();
-    let pos = 1;
-    items.forEach(item => {
-        // Trova il link al prodotto
-        const link = item.tagName === 'A' ? item : item.querySelector('a[href*="/e/"]');
-        if (!link) return;
-        
-        const href = link.getAttribute('href') || '';
-        if (seen.has(href) || !href.includes('/e/')) return;
-        
-        // Escludi link del menu
-        if (link.getAttribute('data-site-position') === 'menu') return;
-        if (link.closest('nav, header, .menu, .cc-header')) return;
-        
-        seen.add(href);
-        
-        // Estrai EAN dalla URL
-        const eanMatch = href.match(/\\/e\\/(\\d{13})$/);
-        const ean = eanMatch ? eanMatch[1] : '';
-        
-        // Titolo
-        const titleEl = item.querySelector('h2, h3, .cc-product-title, [class*="title"]') || link;
-        const title = (titleEl.textContent || '').trim();
-        
-        if (!title || title.length < 3) return;
-        
-        // Autore
-        const authorEl = item.querySelector('[class*="author"]');
-        let author = authorEl ? authorEl.textContent.trim() : '';
-        if (author.toLowerCase().startsWith('di ')) author = author.substring(3);
-        
-        results.push({
-            title: title.substring(0, 200),
-            ean: ean,
-            author: author.substring(0, 100),
-            position: pos++
-        });
-    });
+    // Strategia 2: dataLayer
+    debug.strategies_tried.push('dataLayer');
+    if (window.dataLayer) {
+        debug.dataLayer_length = window.dataLayer.length;
+        for (const entry of window.dataLayer) {
+            if (entry.ecommerce) {
+                const impressions = entry.ecommerce.impressions || 
+                                   (entry.ecommerce.promoView && entry.ecommerce.promoView.promotions) || [];
+                if (impressions.length > 0) {
+                    debug.dataLayer_impressions = impressions.length;
+                    for (const imp of impressions) {
+                        results.push({
+                            title: imp.name || '',
+                            ean: imp.id || '',
+                            author: imp.brand || '',
+                            position: imp.position || results.length + 1,
+                        });
+                    }
+                    return {results, debug};
+                }
+            }
+        }
+    }
     
-    return results;
+    // Strategia 3: cerca nel DOM i prodotti, escludendo menu
+    debug.strategies_tried.push('DOM_main_area');
+    const mainSelectors = [
+        'main', '#maincontent', '.page-main', '.cc-content-area',
+        '[role="main"]', '.cc-page-content', '#content'
+    ];
+    let mainArea = null;
+    for (const sel of mainSelectors) {
+        mainArea = document.querySelector(sel);
+        if (mainArea) { debug.main_selector = sel; break; }
+    }
+    
+    if (mainArea) {
+        const allLinks = mainArea.querySelectorAll('a[href*="/e/"]');
+        debug.main_links_count = allLinks.length;
+        const seen = new Set();
+        let pos = 1;
+        allLinks.forEach(link => {
+            const href = link.getAttribute('href') || '';
+            if (seen.has(href)) return;
+            if (link.closest('nav, header, .cc-header, [data-site-position="menu"]')) return;
+            seen.add(href);
+            const eanMatch = href.match(/\\/e\\/(\\d{13})$/);
+            const title = (link.textContent || '').trim();
+            if (title && title.length > 3 && title.length < 300) {
+                results.push({
+                    title: title.substring(0, 200),
+                    ean: eanMatch ? eanMatch[1] : '',
+                    position: pos++
+                });
+            }
+        });
+    }
+    
+    // Strategia 4: cerca qualsiasi dato in window che sembri una lista prodotti
+    if (results.length === 0) {
+        debug.strategies_tried.push('window_scan');
+        const interesting = [];
+        for (const key of Object.keys(window)) {
+            try {
+                const val = window[key];
+                if (Array.isArray(val) && val.length > 5 && val.length < 500) {
+                    if (val[0] && (val[0].item_name || val[0].name || val[0].title || val[0].ean)) {
+                        interesting.push(key);
+                    }
+                }
+            } catch(e) {}
+        }
+        debug.interesting_window_keys = interesting;
+    }
+    
+    debug.total_results = results.length;
+    // Dump some page structure info
+    debug.body_children = Array.from(document.body.children).map(el => 
+        el.tagName + (el.id ? '#'+el.id : '') + (el.className ? '.'+el.className.split(' ')[0] : '')
+    ).slice(0, 20);
+    
+    return {results, debug};
 }
 """
 
 
-def scrape_chart_playwright(page, chart: dict) -> list[dict]:
+def scrape_chart_playwright(page, chart, save_debug=False):
     url = chart["url"]
     print(f"  Navigating to {url} ...")
 
     try:
         page.goto(url, wait_until="networkidle", timeout=45000)
-        # Aspetta che la pagina finisca di caricare i dati
         time.sleep(5)
     except Exception as e:
         print(f"  ⚠ Errore navigazione: {e}")
-        # Prova comunque a estrarre
         time.sleep(3)
 
-    try:
-        entries = page.evaluate(EXTRACT_JS)
-        if entries:
-            # Pulisci EAN
-            for e in entries:
-                ean = str(e.get("ean", ""))
-                if not re.match(r'^97[89]\d{10}$', ean):
-                    e.pop("ean", None)
-            return entries
-    except Exception as e:
-        print(f"  ⚠ Errore estrazione JS: {e}")
+    # Debug: save screenshot for first chart
+    if save_debug:
+        try:
+            page.screenshot(path="debug_screenshot.png", full_page=True)
+            print(f"  📸 Screenshot salvato: debug_screenshot.png")
+            with open("debug_page.html", "w", encoding="utf-8") as f:
+                f.write(page.content())
+            print(f"  📄 HTML salvato: debug_page.html")
+        except Exception as e:
+            print(f"  ⚠ Debug save error: {e}")
 
-    # Fallback: prova a prendere il contenuto HTML e parsarlo
     try:
-        content = page.content()
-        # Cerca staticImpressions nel source
-        match = re.search(r'staticImpressions\[.*?\]\s*=\s*(\[.*?\]);', content, re.DOTALL)
-        if match:
-            data = json.loads(match.group(1))
-            entries = []
-            for i, item in enumerate(data):
-                entry = {
-                    "position": i + 1,
-                    "title": (item.get("item_name") or "").replace("_", " "),
-                }
-                ean = item.get("item_id", "")
-                if re.match(r'^97[89]\d{10}$', str(ean)):
-                    entry["ean"] = str(ean)
-                if entry["title"]:
-                    entries.append(entry)
-            if entries:
-                print(f"  → Trovati via staticImpressions nel source")
-                return entries
+        result = page.evaluate(EXTRACT_JS)
+        debug = result.get("debug", {})
+        entries = result.get("results", [])
+        
+        # Print debug info
+        print(f"  🔍 Debug: strategies={debug.get('strategies_tried')}")
+        print(f"  🔍 Debug: title='{debug.get('page_title','?')}'")
+        if 'staticImpressions_keys' in debug:
+            print(f"  🔍 Debug: staticImpressions keys={debug['staticImpressions_keys']}")
+        if 'staticImpressions_found' in debug:
+            print(f"  🔍 Debug: staticImpressions found={debug['staticImpressions_found']}")
+        if 'dataLayer_length' in debug:
+            print(f"  🔍 Debug: dataLayer entries={debug['dataLayer_length']}")
+        if 'dataLayer_impressions' in debug:
+            print(f"  🔍 Debug: dataLayer impressions={debug['dataLayer_impressions']}")
+        if 'main_selector' in debug:
+            print(f"  🔍 Debug: main area='{debug['main_selector']}', links={debug.get('main_links_count',0)}")
+        if 'interesting_window_keys' in debug:
+            print(f"  🔍 Debug: interesting window keys={debug['interesting_window_keys']}")
+        if 'body_children' in debug:
+            print(f"  🔍 Debug: body structure={debug['body_children'][:10]}")
+        
+        # Clean EAN
+        for e in entries:
+            ean = str(e.get("ean", ""))
+            if not re.match(r'^97[89]\d{10}$', ean):
+                e.pop("ean", None)
+        
+        return entries
     except Exception as e:
-        print(f"  ⚠ Errore fallback: {e}")
-
-    return []
+        print(f"  ⚠ Errore estrazione: {e}")
+        return []
 
 
 def push_to_supabase(supabase_url, supabase_key, chart, entries, chart_date):
@@ -207,7 +223,7 @@ def push_to_supabase(supabase_url, supabase_key, chart, entries, chart_date):
 
 def save_json(all_entries, output_path):
     feed = {
-        "source": "Scraper classifiche IBS v5",
+        "source": "Scraper classifiche IBS v6",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rankings": [{
             "ean": e.get("ean", ""),
@@ -239,7 +255,7 @@ def main():
     total_ingested = 0
     total_matched = 0
 
-    print(f"=== Scraper classifiche IBS v5 — {chart_date} ===\n")
+    print(f"=== Scraper classifiche IBS v6 (debug) — {chart_date} ===\n")
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
@@ -249,18 +265,17 @@ def main():
             locale="it-IT",
             viewport={"width": 1280, "height": 900},
         )
-        # Blocca cookie banner per non interferire
         context.add_cookies([{
             "name": "CookieConsent",
-            "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false}",
+            "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true}",
             "domain": ".ibs.it",
             "path": "/",
         }])
         page = context.new_page()
 
-        for chart in CHARTS:
+        for i, chart in enumerate(CHARTS):
             print(f"\n📊 {chart['name']} ({chart['category']})")
-            entries = scrape_chart_playwright(page, chart)
+            entries = scrape_chart_playwright(page, chart, save_debug=(i == 0))
             print(f"   Trovati {len(entries)} titoli")
 
             if not entries:
