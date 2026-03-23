@@ -106,37 +106,46 @@
 
         async function initCervellone() {
             try {
-                // Limitiamo la quantità per non far esplodere la memoria dell'iPad
-                const resSignals = await supabaseClient.from('external_signal_staging').select('signal_text, signal_type, feed_key').limit(3000);
-                if(resSignals.data) {
-                    dbTrends = resSignals.data.filter(s => s.signal_type === 'national_trend');
-                    dbReleases = resSignals.data.filter(s => s.signal_type === 'publisher_release');
-                    dbLocalEvents = resSignals.data.filter(s => s.signal_type === 'local_event');
-                    renderRadarLocale();
-                }
-                
-                const res2 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
-                if(res2.data) dbCharts = res2.data;
+                // MINI-CHIAMATA 1: I Trend
+                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).limit(1000);
+                if(res1.data) dbTrends = res1.data;
 
-            } catch (err) { console.error("Errore silenziato nel radar:", err); }
+                // MINI-CHIAMATA 2: Le Uscite
+                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).limit(1000);
+                if(res2.data) dbReleases = res2.data;
+
+                // MINI-CHIAMATA 3: Le Classifiche
+                const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
+                if(res3.data) dbCharts = res3.data;
+
+                // MINI-CHIAMATA 4: Il Radar Locale Lunigiana
+                const res4 = await supabaseClient.from('external_signal_staging').select('signal_text, signal_type').in('source_key', ['eco_lunigiana', 'sigeric', 'lunigianaworld', 'visitlunigiana']);
+                if(res4.data) dbLocalEvents = res4.data;
+
+            } catch (err) { console.error("Errore fetch silenziato:", err); }
             
-            // Qualsiasi cosa succeda, carica i libri
+            // Renderizziamo il radar e carichiamo i libri
+            renderRadarLocale();
             loadBooks('');
         }
 
         function renderRadarLocale() {
             const radarList = document.getElementById('radar-list');
-            if(dbLocalEvents.length === 0) {
+            
+            // Filtra solo gli eventi veri (non i trend che potrebbero essere finiti qui per errore)
+            const eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event');
+
+            if(eventi.length === 0) {
                 document.getElementById('radar-summary').innerText = "Radar: Nessun evento in arrivo";
                 radarList.innerHTML = "La Lunigiana dorme serena.";
                 return;
             }
 
-            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} eventi in arrivo`;
+            document.getElementById('radar-summary').innerText = `Radar: ${eventi.length} eventi in arrivo`;
 
             let html = "";
-            dbLocalEvents.forEach(e => {
-                if(!e.signal_text) return; // Salvavita
+            eventi.forEach(e => {
+                if(!e.signal_text) return;
                 let testo = e.signal_text;
                 let dataMatch = testo.match(/\[(.*?)\]/);
                 let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
@@ -167,15 +176,13 @@
                 }
                 
                 const { data, error } = await queryBuilder;
-                
                 if (error) throw error;
                 allBooks = data || [];
                 
             } catch (err) { 
                 console.error(err);
-                allBooks = []; // Svuota in caso di errore
+                allBooks = []; 
             } finally {
-                // Scompare SEMPRE il caricamento, anche se c'è un errore
                 loadingDiv.style.display = 'none';
                 renderList(allBooks);
             }
@@ -185,12 +192,12 @@
             let alerts = [];
             let localAlerts = [];
             let title = book.titolo ? book.titolo.toLowerCase() : '';
-            if (!title) return { html: '', color: '#ccc' }; // Salvavita per libri senza titolo
+            if (!title) return { html: '', color: '#ccc' }; 
             
             let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 4 && title.includes(t.signal_text.toLowerCase()));
             let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 4 && title.includes(c.titolo.toLowerCase()));
             
-            // Ricerca uscite super blindata contro gli errori
+            // Check uscite editori (J-Pop, Panini ecc)
             let primeParole = title.split(" ").slice(0, 2).join(" ");
             let isReleaseImminent = null;
             if (primeParole.length > 3) {
@@ -203,15 +210,18 @@
 
             let cardBorderColor = "#ccc";
 
+            // LOGICA DEL CERVELLONE RESTAURATA AL 100%
             if (isReleaseImminent) { 
                 let infoUscita = isReleaseImminent.signal_text.substring(0, 60);
                 alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${infoUscita}...</div>`); 
                 cardBorderColor = "#3b82f6"; 
             }
+            
             if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
             else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione. Tienila.</div>"); cardBorderColor = "#eab308"; }
             else if (isTrend && giacenze <= 2) { alerts.push(`<div class='ai-alert' style='color:#ef4444;'>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie! Ordina subito.</div>`); cardBorderColor = "#ef4444"; }
             else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>"); cardBorderColor = "#10b981"; }
+            else if (isVol1 && !isTrend) { alerts.push("<div class='ai-alert'>🎣 <b>L'ESCA:</b> È un Numero 1. Esponi di piatto per agganciare il cliente.</div>"); cardBorderColor = "#3b82f6"; }
             else if (!isTrend && !isChart && !isReleaseImminent && giacenze > 5) { alerts.push(`<div class='ai-alert' style='color:#94a3b8;'>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${giacenze} copie a poltrire. SCONTA O RENDI.</div>`); cardBorderColor = "#94a3b8"; }
             
             let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
