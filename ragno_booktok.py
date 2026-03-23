@@ -1,5 +1,3 @@
-!pip install -q supabase requests beautifulsoup4 lxml
-
 import requests
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
