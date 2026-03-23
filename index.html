@@ -13,26 +13,13 @@
         
         .list-container { display: flex; flex-direction: column; gap: 15px; }
         
-        /* Nuovo design della Card con Copertina */
         .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 15px; }
-        
         .book-header { display: flex; gap: 15px; align-items: center; }
         
-        /* Stile per la copertina */
         .book-cover { 
-            width: 75px; 
-            height: 110px; 
-            object-fit: cover; 
-            border-radius: 6px; 
-            background-color: #e2e8f0; 
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 10px;
-            color: #666;
-            text-align: center;
+            width: 75px; height: 110px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2); flex-shrink: 0; display: flex; align-items: center; 
+            justify-content: center; font-size: 10px; color: #666; text-align: center;
         }
         
         .book-info { flex: 1; }
@@ -56,11 +43,11 @@
 
     <div class="header">
         <h1>📦 Triage Veloce Magazzino</h1>
-        <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="filterList()">
+        <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="handleSearchInput()">
     </div>
 
     <div id="error-box"></div>
-    <div id="loading" class="loading">Caricamento inventario e copertine...</div>
+    <div id="loading" class="loading">Caricamento inventario...</div>
     <div class="list-container" id="book-list"></div>
 
     <script>
@@ -69,6 +56,7 @@
         
         const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
         let allBooks = [];
+        let searchTimeout = null;
 
         function showError(msg) {
             document.getElementById('loading').style.display = 'none';
@@ -77,14 +65,35 @@
             eb.innerText = "ERRORE: " + msg;
         }
 
-        async function loadBooks() {
+        // Aspetta che tu finisca di scrivere per non interrogare il database a ogni singola lettera
+        function handleSearchInput() {
+            const query = document.getElementById('search-box').value.trim();
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                loadBooks(query);
+            }, 500); // Aspetta mezzo secondo
+        }
+
+        async function loadBooks(searchQuery = '') {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('book-list').innerHTML = ''; // Svuota la lista vecchia
+
             try {
-                const { data, error } = await supabaseClient
+                // Costruiamo la chiamata al database
+                let queryBuilder = supabaseClient
                     .from('assistant_triage_inventario')
                     .select('*')
-                    .order('posizione_scaffale', { ascending: true })
-                    .order('titolo', { ascending: true })
-                    .limit(500);
+                    .limit(200); // Limite di 200 per non intaccare la velocità
+
+                // Se hai scritto qualcosa, cerchiamo in tutto il database (Titolo, EAN o Scaffale)
+                if (searchQuery !== '') {
+                    queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
+                } else {
+                    // Se è vuota, mostriamo i primi in ordine alfabetico e di scaffale
+                    queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
+                }
+
+                const { data, error } = await queryBuilder;
 
                 if (error) { showError(error.message); return; }
 
@@ -100,7 +109,7 @@
             container.innerHTML = ''; 
 
             if(books.length === 0) {
-                container.innerHTML = '<div class="loading">Nessun libro da verificare trovato! 🎉</div>';
+                container.innerHTML = '<div class="loading">Nessun libro trovato per questa ricerca! 🕵️‍♂️</div>';
                 return;
             }
 
@@ -110,13 +119,11 @@
                 div.className = 'book-card';
                 div.id = 'card-' + book.id;
                 
-                // Creiamo l'URL dinamico per la copertina usando l'EAN
                 const coverUrl = `https://covers.openlibrary.org/b/isbn/${book.ean}-M.jpg`;
 
                 div.innerHTML = `
                     <div class="book-header">
                         <img class="book-cover" src="${coverUrl}" alt="Cover" onerror="this.src='https://via.placeholder.com/75x110.png?text=No+Cover'">
-                        
                         <div class="book-info">
                             <div class="book-title">${book.titolo}</div>
                             <div class="book-meta">
@@ -139,16 +146,6 @@
             });
         }
 
-        function filterList() {
-            const query = document.getElementById('search-box').value.toLowerCase();
-            const filtered = allBooks.filter(b => 
-                b.titolo.toLowerCase().includes(query) || 
-                (b.posizione_scaffale && b.posizione_scaffale.toLowerCase().includes(query)) ||
-                b.ean.includes(query)
-            );
-            renderList(filtered);
-        }
-
         async function processBook(id, status, decision) {
             document.getElementById('card-' + id).style.opacity = '0.2';
             document.getElementById('card-' + id).style.pointerEvents = 'none';
@@ -169,7 +166,6 @@
                     document.getElementById('card-' + id).style.pointerEvents = 'auto';
                 } else {
                     document.getElementById('card-' + id).style.display = 'none';
-                    allBooks = allBooks.filter(b => b.id !== id);
                 }
             } catch(err) {
                 alert("Errore di rete: " + err.message);
@@ -178,7 +174,8 @@
             }
         }
 
-        window.onload = loadBooks;
+        // Carica i primi record all'avvio
+        window.onload = () => loadBooks('');
     </script>
 </body>
 </html>
