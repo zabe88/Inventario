@@ -119,7 +119,7 @@
 
                 const resLocal = await supabaseClient.from('external_signal_staging')
                     .select('signal_text, signal_type, feed_key')
-                    .in('source_key', ['eco_lunigiana', 'sigeric', 'lunigianaworld', 'visitlunigiana']); // Usando le source_key corrette
+                    .in('source_key', ['eco_lunigiana', 'sigeric', 'lunigianaworld', 'visitlunigiana']); 
                 
                 if(resLocal.data) {
                     dbLocalEvents = resLocal.data;
@@ -130,32 +130,39 @@
             loadBooks('');
         }
 
+        // ==========================================
+        // IL RADAR PULITO E FILTRATO
+        // ==========================================
         function renderRadarLocale() {
             const radarList = document.getElementById('radar-list');
-            const eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event');
+            
+            // FILTRO: Prende solo eventi con la data tra parentesi quadre
+            let eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event' && e.signal_text.includes('[') && e.signal_text.includes(']'));
             
             if(eventi.length === 0) {
-                document.getElementById('radar-summary').innerText = "Radar: Nessun evento in arrivo";
-                radarList.innerHTML = "La Lunigiana dorme serena.";
+                document.getElementById('radar-summary').innerText = "Radar: Nessun evento confermato";
+                radarList.innerHTML = "<div style='padding: 10px 0; color: #94a3b8;'>La Lunigiana dorme serena. Nessun evento all'orizzonte.</div>";
                 return;
             }
 
-            // Aggiorna il bottone chiuso
-            document.getElementById('radar-summary').innerText = `Radar: ${eventi.length} eventi in arrivo`;
+            document.getElementById('radar-summary').innerText = `Radar: ${eventi.length} eventi confermati`;
 
-            // Stampa la lista intera, senza mai tagliare il testo!
             let html = "";
             eventi.forEach(e => {
                 let testo = e.signal_text;
                 let dataMatch = testo.match(/\[(.*?)\]/);
-                let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
-                // Rimuoviamo solo la parte tecnica inziale, lasciando intatto l'evento e la fonte
-                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
                 
-                html += `<div class="radar-item">
-                            <span class="badge-data">${dataStr}</span> 
-                            ${testoPulito}
-                         </div>`;
+                if (dataMatch) {
+                    let dataStr = dataMatch[1]; 
+                    // Separa la data dal resto e prendi solo la notizia pulita
+                    let splitTesto = testo.split(']: ');
+                    let testoPulito = splitTesto.length > 1 ? splitTesto[1].trim() : testo.trim();
+                    
+                    html += `<div class="radar-item">
+                                <span class="badge-data">${dataStr}</span> 
+                                ${testoPulito}
+                             </div>`;
+                }
             });
             radarList.innerHTML = html;
         }
