@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 RADAR COMPLETO: Classifiche + Eventi Locali + Manga Trend → Supabase
-Versione 9: multi-fonte, multi-tipo segnale.
+Versione 10: multi-fonte, multi-tipo segnale + fix parser (Giunti, Sagre, LW, AnimeClick).
 """
 
 import argparse
@@ -63,15 +63,19 @@ def parse_libraccio(html: str) -> list[dict]:
 
 def parse_giunti(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
-    entries, seen, pos = [], set(), 1
+    entries, seen_titles, pos = [], set(), 1
     for link in soup.select('a[href*="/products/"]'):
-        href = link.get("href", "")
-        if href in seen: continue
         title = link.get_text(strip=True)
         if not title or len(title) < 4: continue
         if title.lower() in ("vedi tutto", "scopri", "aggiungi"): continue
-        seen.add(href)
+        
+        # Deduplicazione basata sul titolo normalizzato, non sull'URL
+        norm_title = re.sub(r'[^a-z0-9]', '', title.lower())
+        if norm_title in seen_titles: continue
+        seen_titles.add(norm_title)
+        
         entry = {"position": pos, "title": title[:200]}
+        href = link.get("href", "")
         ean = extract_isbn(href)
         if ean: entry["ean"] = ean
         parent = link.find_parent(["div", "li", "article"])
@@ -193,35 +197,58 @@ def parse_lunigianaworld_events(html: str) -> list[dict]:
     """Parsa eventi da lunigianaworld.it"""
     soup = BeautifulSoup(html, "html.parser")
     events = []
-    articles = soup.select("article, .event, .entry, a[href*='evento']")
     
-    for art in articles:
-        title_el = art.select_one("h2, h3, h4, .entry-title") or art
-        title = title_el.get_text(strip=True)[:200]
-        if not title or len(title) < 5: continue
-        
-        link_el = art.select_one("a[href]") if art.name != 'a' else art
-        url = link_el.get("href", "") if link_el else ""
-        
-        events.append({"title": title, "url": url})
-    return events
+    # Usiamo un approccio euristico: cerchiamo i blocchi che contengono le date
+    for container in soup.select('.elementor-widget-wrap, article, .event-container, div'):
+        text = container.get_text(" ", strip=True)
+        # Il loro layout attuale stampa: "dal GG/MM/AAAA al GG/MM/AAAA [Comune] LOCANDINA"
+        if "dal " in text and "al " in text and ("(MS)" in text or "LOCANDINA" in text):
+            title_el = container.select_one("h2, h3, h4")
+            if not title_el: continue
+            
+            title = title_el.get_text(strip=True)[:200]
+            if not title or len(title) < 5: continue
+            
+            a_tag = container.select_one("a[href]")
+            url = a_tag.get("href", "") if a_tag else ""
+            
+            # Estrazione data sicura
+            date_match = re.search(r'dal (\d{2}/\d{2}/\d{4})', text)
+            event_date = None
+            if date_match:
+                d, m, y = date_match.group(1).split('/')
+                event_date = f"{y}-{m}-{d}"
+            
+            events.append({"title": title, "url": url, "event_date": event_date})
+            
+    # Deduplicazione finale (Elementor spesso duplica i widget in DOM per mobile/desktop)
+    unique_events = {e["title"]: e for e in events}.values()
+    return list(unique_events)
 
 
 def parse_sagretoscane(html: str) -> list[dict]:
     """Parsa eventi da sagretoscane.com"""
     soup = BeautifulSoup(html, "html.parser")
     events = []
-    articles = soup.select(".event, article, .sagra, a[href*='sagr'], a[href*='evento']")
     
-    for art in articles:
-        title_el = art.select_one("h2, h3, h4, .title") or art
+    # Se la pagina dichiara che non ci sono eventi, usciamo subito per non scrapare il widget laterale
+    if "Nessun evento in programma al momento" in html:
+        return []
+        
+    # Evitiamo la sidebar cercando nel blocco principale
+    main_content = soup.select_one('.main-content, #content, .elenco-eventi, .ev-list') or soup
+    
+    for art in main_content.select("article, .evento, .sagra-item"):
+        title_el = art.select_one("h2, h3, .title") or art
         title = title_el.get_text(strip=True)[:200]
         if not title or len(title) < 5: continue
+        
+        # Filtro extra per sicurezza
+        if "Sagre in provincia" in title or "Eventi in" in title: continue
         
         link_el = art.select_one("a[href]") if art.name != 'a' else art
         url = link_el.get("href", "") if link_el else ""
         
-        # Cerca date
         text = art.get_text(" ", strip=True)
         date_match = re.search(r'(\d{1,2})/(\d{1,2})/(20\d{2})', text)
         event_date = None
@@ -271,20 +298,26 @@ def parse_mycomics_classifica(html: str) -> list[dict]:
 def parse_animeclick_news(html: str) -> list[dict]:
     """Parsa news da AnimeClick per trend manga/anime"""
     soup = BeautifulSoup(html, "html.parser")
-    entries = []
-    articles = soup.select("article, .news-item, .entry, h2 a, h3 a")
-    seen = set()
+    entries = set() # Usiamo un set per evitare di inserire la stessa news due volte
+    seen_urls = set()
     
-    for art in articles:
-        link_el = art.select_one("a[href]") if art.name != 'a' else art
-        if not link_el: continue
-        href = link_el.get("href", "")
-        if href in seen: continue
-        title = link_el.get_text(strip=True)[:200]
+    # I titoli delle news principali sono generalmente in h2/h3 con classe .news-item o link diretti
+    for link in soup.select('.news-item a[href], h1 a[href], h2 a[href], h3 a[href]'):
+        href = link.get("href", "")
+        if not href.startswith('/') and not href.startswith('http'): continue
+        if href in seen_urls: continue
+        
+        title = link.get_text(strip=True)[:200]
         if not title or len(title) < 10: continue
-        seen.add(href)
-        entries.append({"title": title, "url": href})
-    return entries[:30]  # Top 30
+        # Skippiamo roba di navigazione
+        if "AnimeClick" in title or "Accedi" in title or "Registrati" in title: continue
+        
+        seen_urls.add(href)
+        full_url = href if href.startswith('http') else f"https://www.animeclick.it{href}"
+        entries.add((title, full_url))
+        
+    # Convertiamo il set in lista di dizionari
+    return [{"title": t[0], "url": t[1]} for t in list(entries)[:30]]
 
 
 MANGA_SOURCES = [
@@ -392,7 +425,7 @@ def push_manga_trends(supabase_url, supabase_key, source_key, trends):
 
 def save_json(all_rankings, all_events, all_manga, output_path):
     feed = {
-        "source": "Radar completo v9",
+        "source": "Radar completo v10",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rankings": [{
             "ean": e.get("ean", ""),
@@ -423,8 +456,6 @@ def save_json(all_rankings, all_events, all_manga, output_path):
 # ═══════════════════════════════════════════════════════
 # MAIN
 # ═══════════════════════════════════════════════════════
-
-
 
 def run_brain_cycle(supabase_url, supabase_key):
     """Esegue il ciclo completo del cervellone dopo lo scraping"""
@@ -516,7 +547,7 @@ def main():
     has_db = args.supabase_url and args.supabase_key and not args.json_only
 
     print(f"{'='*60}")
-    print(f"  RADAR COMPLETO v9 — {chart_date}")
+    print(f"  RADAR COMPLETO v10 — {chart_date}")
     print(f"  Classifiche: {len(RANKING_CHARTS)}")
     print(f"  Eventi locali: {len(LOCAL_EVENT_SOURCES)} fonti")
     print(f"  Manga/anime: {len(MANGA_SOURCES)} fonti")
