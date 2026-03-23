@@ -1,427 +1,191 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Cervellone OS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-<style>
-:root {
-  --bg: #080c14; --bg2: #0f1623; --bg3: #172033;
-  --fg: #e4eaf4; --fg2: #8494ad; --fg3: #4a5568;
-  --gold: #f0b429; --green: #0ec97a; --blue: #5b7cf7; --pink: #f06595; --red: #e84057;
-  --border: #1a2540; --card: #111b2e; --radius: 14px;
-  --safe-b: env(safe-area-inset-bottom, 0px);
-}
-*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html{font-size:15px;height:100%;overflow:hidden}
-body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--fg);height:100%;display:flex;flex-direction:column;overflow:hidden}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cervellone - Triage Magazzino</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 { color: #333; font-size: 24px; margin-bottom: 5px; }
+        .meta-info { color: #666; font-size: 18px; margin-bottom: 30px; }
+        .badge {
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+        }
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        button {
+            border: none;
+            border-radius: 12px;
+            padding: 20px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            flex: 1 1 40%; /* I bottoni si adattano allo schermo */
+            min-width: 200px;
+            transition: transform 0.1s, opacity 0.2s;
+        }
+        button:active { transform: scale(0.95); }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+        
+        .btn-presente { background-color: #10b981; } /* Verde */
+        .btn-mancante { background-color: #ef4444; } /* Rosso */
+        
+        .btn-tenere { background-color: #3b82f6; } /* Blu */
+        .btn-reso { background-color: #f97316; } /* Arancione */
+        .btn-regalo { background-color: #8b5cf6; } /* Viola */
+        .btn-bundle { background-color: #ec4899; } /* Rosa */
 
-/* HEADER */
-.hdr{background:rgba(8,12,20,0.88);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid var(--border);padding:0 1.2rem;height:56px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;z-index:50}
-.brand{font-family:'Playfair Display',serif;font-weight:900;font-size:1.25rem;color:var(--gold);display:flex;align-items:center;gap:.4rem}
-.brand i{font-size:1.4rem;font-style:normal}
-.hdr-right{display:flex;gap:.6rem;align-items:center}
-.hdr-btn{background:var(--bg3);border:1px solid var(--border);color:var(--fg2);padding:.4rem .7rem;border-radius:8px;font:600 .8rem 'JetBrains Mono',monospace;cursor:pointer;transition:.2s}
-.hdr-btn:active{transform:scale(.95);background:var(--gold);color:var(--bg)}
-.status-dot{width:8px;height:8px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-
-/* CONTENT */
-.content{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;padding:1rem 1rem calc(72px + var(--safe-b))}
-.view{display:none;animation:slideUp .25s ease-out}
-.view.active{display:block}
-@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-
-/* NAV */
-nav{position:fixed;bottom:0;width:100%;background:rgba(15,22,35,0.95);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-top:1px solid var(--border);display:flex;padding-bottom:var(--safe-b);z-index:50}
-.nav-btn{flex:1;background:none;border:none;border-top:3px solid transparent;color:var(--fg3);padding:.7rem 0 .5rem;font:600 .72rem 'DM Sans',sans-serif;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;transition:.15s}
-.nav-btn .ico{font-size:1.35rem;font-style:normal;line-height:1}
-.nav-btn.active{color:var(--gold);border-top-color:var(--gold);background:rgba(240,180,41,0.04)}
-
-/* CARDS */
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem;margin-bottom:1rem;position:relative;overflow:hidden}
-.card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
-.card.t-feature::before{background:linear-gradient(90deg,var(--gold),transparent)}
-.card.t-reorder::before{background:linear-gradient(90deg,var(--green),transparent)}
-.card.t-discount::before{background:linear-gradient(90deg,var(--blue),transparent)}
-.card.t-return::before{background:linear-gradient(90deg,var(--pink),transparent)}
-.card.t-keep::before{background:linear-gradient(90deg,var(--fg3),transparent)}
-.card.t-bundle::before{background:linear-gradient(90deg,#a78bfa,transparent)}
-.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem}
-.badge{font-family:'JetBrains Mono',monospace;font-size:.65rem;font-weight:700;padding:.25rem .55rem;border-radius:6px;text-transform:uppercase;letter-spacing:.04em}
-.b-feature{background:rgba(240,180,41,0.12);color:var(--gold)}
-.b-reorder{background:rgba(14,201,122,0.12);color:var(--green)}
-.b-discount{background:rgba(91,124,247,0.12);color:var(--blue)}
-.b-return{background:rgba(240,101,149,0.12);color:var(--pink)}
-.b-keep{background:rgba(132,148,173,0.12);color:var(--fg2)}
-.b-bundle{background:rgba(167,139,250,0.12);color:#a78bfa}
-.b-monitor{background:rgba(132,148,173,0.08);color:var(--fg3)}
-.prio{font-family:'JetBrains Mono',monospace;font-size:.75rem;font-weight:700;color:var(--gold)}
-.card-title{font-size:1.15rem;font-weight:700;line-height:1.25;margin-bottom:.3rem}
-.card-meta{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--fg2);margin-bottom:.7rem}
-.card-reason{font-size:.85rem;background:var(--bg3);padding:.6rem .8rem;border-radius:8px;border-left:3px solid var(--gold);margin-bottom:.8rem;line-height:1.4;color:var(--fg2)}
-
-/* BUTTONS */
-.actions{display:flex;gap:.5rem;flex-wrap:wrap}
-.btn{flex:1;min-width:80px;padding:.75rem .4rem;border:none;border-radius:9px;font:700 .85rem 'DM Sans',sans-serif;cursor:pointer;transition:.12s;text-align:center}
-.btn:active{transform:scale(.95)}
-.btn-accept{background:var(--green);color:#000}
-.btn-defer{background:var(--bg3);color:var(--fg);border:1px solid var(--border)}
-.btn-dismiss{background:rgba(232,64,87,0.12);color:var(--red);border:1px solid rgba(232,64,87,0.2)}
-.btn-ack{background:var(--bg3);color:var(--fg);border:1px solid var(--border);width:100%}
-.btn-gold{background:var(--gold);color:#000;width:100%;padding:.9rem;font-size:.95rem}
-.btn-full{width:100%;margin-top:.5rem}
-
-/* AUDIT */
-.audit-card{text-align:center;padding:2rem 1.2rem}
-.audit-zona{display:inline-block;background:var(--bg3);border:1px solid var(--blue);color:var(--blue);padding:.3rem .8rem;border-radius:20px;font:600 .8rem 'JetBrains Mono',monospace;margin-bottom:1.2rem}
-.audit-title{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;margin-bottom:.4rem}
-.audit-meta{font-family:'JetBrains Mono',monospace;font-size:.8rem;color:var(--fg2);margin-bottom:1.5rem}
-.audit-box{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;margin-bottom:1.5rem}
-.audit-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--fg3);font-weight:700;margin-bottom:.3rem}
-.audit-num{font-family:'Playfair Display',serif;font-size:4rem;font-weight:900;color:var(--blue);line-height:1}
-.audit-btns{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
-.audit-btns .btn{padding:1.1rem .5rem;font-size:.95rem}
-.btn-adjust{grid-column:span 2;background:var(--bg3);color:var(--fg2);border:1px solid var(--border);font-size:.85rem;padding:.8rem}
-
-/* REPORT */
-.report-section{margin-bottom:1.2rem}
-.report-label{font:700 .7rem 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--fg3);margin-bottom:.5rem}
-.report-item{background:var(--bg3);border-radius:8px;padding:.7rem .8rem;margin-bottom:.4rem;font-size:.85rem;display:flex;justify-content:space-between;align-items:center}
-.report-item .val{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--gold)}
-.report-pills{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.8rem}
-.pill{background:var(--bg3);border:1px solid var(--border);border-radius:20px;padding:.35rem .7rem;font:600 .75rem 'JetBrains Mono',monospace;color:var(--fg2)}
-.pill.hot{border-color:var(--red);color:var(--red)}
-
-/* SEVERITY */
-.sev-warning{border-left:3px solid var(--gold)}
-.sev-opportunity{border-left:3px solid var(--green)}
-.sev-critical{border-left:3px solid var(--red)}
-.sev-info{border-left:3px solid var(--fg3)}
-
-/* INSIGHT TYPE */
-.insight-type{font-family:'JetBrains Mono',monospace;font-size:.65rem;padding:.2rem .5rem;border-radius:4px;background:var(--bg3);color:var(--fg2);text-transform:uppercase}
-
-/* SECTION TITLE */
-.sec-title{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;margin-bottom:.8rem;display:flex;align-items:center;gap:.5rem}
-.sec-sub{font-size:.85rem;color:var(--fg2);margin-bottom:1.2rem}
-
-/* MODAL */
-.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:200;align-items:center;justify-content:center;padding:1rem}
-.modal.active{display:flex}
-.modal-box{background:var(--bg2);padding:1.8rem;border-radius:var(--radius);width:100%;max-width:380px;border:1px solid var(--border)}
-.modal-box h2{font-family:'Playfair Display',serif;color:var(--gold);margin-bottom:.8rem}
-.modal-box p{color:var(--fg2);font-size:.85rem;margin-bottom:1.2rem}
-.modal-box input{width:100%;padding:.9rem;margin-bottom:.8rem;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--fg);font:500 .9rem 'JetBrains Mono',monospace}
-.modal-box input:focus{outline:none;border-color:var(--gold)}
-
-/* LOADER */
-.loader{text-align:center;padding:3rem 1rem;color:var(--fg3);font-style:italic}
-.empty{text-align:center;padding:3rem;color:var(--fg3)}
-.empty i{font-size:2.5rem;display:block;margin-bottom:.8rem;font-style:normal}
-
-/* FADE OUT */
-.fading{opacity:0;transform:scale(.96);transition:.3s;pointer-events:none}
-</style>
+        #action-buttons { display: none; } /* Nascosti di default */
+        #loading { display: none; color: #666; font-style: italic; margin-top: 20px; }
+        #done-message { display: none; color: #10b981; font-size: 24px; font-weight: bold; margin-top: 50px; }
+    </style>
 </head>
 <body>
 
-<header class="hdr">
-  <div class="brand"><i>🧠</i> Cervellone</div>
-  <div class="hdr-right">
-    <span class="status-dot" id="statusDot"></span>
-    <button class="hdr-btn" onclick="openSetup()">⚙️</button>
-    <button class="hdr-btn" onclick="loadData()">↻</button>
-  </div>
-</header>
+    <div id="done-message">🎉 Triage completato! Hai controllato tutto!</div>
 
-<div class="content">
-  <!-- MOSSE -->
-  <div id="v-mosse" class="view active">
-    <div class="sec-title">🎯 Mosse Strategiche</div>
-    <div class="sec-sub">Raccomandazioni pesate dal cervellone. Accetta, rinvia o rifiuta.</div>
-    <div id="mosse-list"><div class="loader">Caricamento...</div></div>
-  </div>
+    <div class="card" id="item-card">
+        <div class="badge" id="item-pos">Scaffale: N/D</div>
+        <div class="badge" id="item-qty">Giacenza: 0</div>
+        
+        <h1 id="item-title">Caricamento in corso...</h1>
+        <div class="meta-info" id="item-ean">EAN: -</div>
 
-  <!-- INSIGHT -->
-  <div id="v-insight" class="view">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.4rem">
-      <div class="sec-title">💡 Insight AI</div>
-      <button class="hdr-btn" onclick="runBrain()">⚡ Cervello</button>
+        <div id="loading">Aggiornamento database...</div>
+
+        <div class="btn-group" id="verify-buttons">
+            <button class="btn-mancante" onclick="markMissing()">❌ MANCANTE</button>
+            <button class="btn-presente" onclick="showActions()">✅ PRESENTE</button>
+        </div>
+
+        <div class="btn-group" id="action-buttons">
+            <button class="btn-tenere" onclick="markAction('tenere')">📦 TIENI A SCAFFALE</button>
+            <button class="btn-reso" onclick="markAction('reso_o_buttare')">🗑️ RESO / BUTTA</button>
+            <button class="btn-regalo" onclick="markAction('cestone_sconto')">🛒 CESTONE / SCONTO</button>
+            <button class="btn-bundle" onclick="markAction('crea_bundle')">🎀 CREA BUNDLE</button>
+        </div>
     </div>
-    <div class="sec-sub">Pattern e opportunità scoperti autonomamente.</div>
-    <div id="insight-list"><div class="loader">Caricamento...</div></div>
-  </div>
 
-  <!-- AUDIT -->
-  <div id="v-audit" class="view">
-    <div class="sec-title">📦 Audit Scaffale</div>
-    <div class="sec-sub">Verifica un libro alla volta. Vai allo scaffale, conta, conferma o correggi.</div>
-    <div id="audit-list"><div class="loader">Caricamento...</div></div>
-  </div>
+    <script>
+        // ==========================================
+        // LE TUE CHIAVI SUPABASE CABLATE
+        // ==========================================
+        const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
+        // ==========================================
 
-  <!-- REPORT -->
-  <div id="v-report" class="view">
-    <div class="sec-title">📊 Report</div>
-    <div class="report-pills">
-      <button class="pill" onclick="loadReport('morning')" id="pill-morning">☀️ Mattina</button>
-      <button class="pill" onclick="loadReport('midday')" id="pill-midday">🏪 Mezzogiorno</button>
-      <button class="pill" onclick="loadReport('evening')" id="pill-evening">🌙 Sera</button>
-    </div>
-    <div id="report-content"><div class="loader">Scegli un report</div></div>
-  </div>
-</div>
+        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+        let currentItem = null;
 
-<nav>
-  <button class="nav-btn active" onclick="tab('mosse')"><i class="ico">🎯</i>Mosse</button>
-  <button class="nav-btn" onclick="tab('insight')"><i class="ico">💡</i>Insight</button>
-  <button class="nav-btn" onclick="tab('audit')"><i class="ico">📦</i>Audit</button>
-  <button class="nav-btn" onclick="tab('report')"><i class="ico">📊</i>Report</button>
-</nav>
+        // Funzione per pescare il prossimo libro da controllare
+        async function loadNextItem() {
+            setLoading(true);
+            document.getElementById('verify-buttons').style.display = 'flex';
+            document.getElementById('action-buttons').style.display = 'none';
 
-<div id="setupModal" class="modal">
-  <div class="modal-box">
-    <h2>🔗 Connetti Supabase</h2>
-    <p>Inserisci le credenziali. Restano salvate solo su questo dispositivo.</p>
-    <input id="inUrl" placeholder="https://xxxxx.supabase.co" autocapitalize="off" autocorrect="off">
-    <input id="inKey" type="password" placeholder="Service Key">
-    <button class="btn btn-gold" onclick="saveSetup()">Connetti</button>
-  </div>
-</div>
+            // Peschiamo 1 record dalla vista che abbiamo creato prima
+            const { data, error } = await supabase
+                .from('assistant_triage_inventario')
+                .select('*')
+                .limit(1);
 
-<script>
-let U=localStorage.getItem('cv_u')||'',K=localStorage.getItem('cv_k')||'';
-window.onload=()=>{if(!U||!K)openSetup();else loadData()};
+            if (error) {
+                alert("Errore di connessione: " + error.message);
+                return;
+            }
 
-function openSetup(){document.getElementById('inUrl').value=U;document.getElementById('inKey').value=K;document.getElementById('setupModal').classList.add('active')}
-function saveSetup(){U=document.getElementById('inUrl').value.trim();K=document.getElementById('inKey').value.trim();localStorage.setItem('cv_u',U);localStorage.setItem('cv_k',K);document.getElementById('setupModal').classList.remove('active');loadData()}
+            if (data && data.length > 0) {
+                currentItem = data[0];
+                document.getElementById('item-title').innerText = currentItem.titolo;
+                document.getElementById('item-ean').innerText = 'EAN: ' + currentItem.ean;
+                document.getElementById('item-pos').innerText = 'Scaffale: ' + (currentItem.posizione_scaffale || 'Sconosciuta');
+                document.getElementById('item-qty').innerText = 'Giacenza: ' + currentItem.giacenti;
+                
+                document.getElementById('item-card').style.display = 'block';
+                document.getElementById('done-message').style.display = 'none';
+            } else {
+                // Abbiamo finito i libri!
+                document.getElementById('item-card').style.display = 'none';
+                document.getElementById('done-message').style.display = 'block';
+            }
+            setLoading(false);
+        }
 
-async function api(ep,method='GET',body=null){
-  const h={'apikey':K,'Authorization':'Bearer '+K,'Content-Type':'application/json','Prefer':'return=representation'};
-  const opt={method,headers:h};
-  if(body)opt.body=JSON.stringify(body);
-  try{const r=await fetch(U+'/rest/v1/'+ep,opt);if(!r.ok)throw new Error(r.status);return method==='GET'?await r.json():await r.json().catch(()=>true)}
-  catch(e){console.error(e);return null}
-}
-async function rpc(fn,body={}){
-  const h={'apikey':K,'Authorization':'Bearer '+K,'Content-Type':'application/json','Prefer':'return=representation'};
-  try{const r=await fetch(U+'/rest/v1/rpc/'+fn,{method:'POST',headers:h,body:JSON.stringify(body)});return await r.json()}
-  catch(e){console.error(e);return null}
-}
+        // Funzione: Il libro non si trova fisicamente
+        async function markMissing() {
+            await updateDatabase('mancante', 'nessuna_azione');
+        }
 
-function tab(t){
-  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
-  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
-  document.getElementById('v-'+t).classList.add('active');
-  event.currentTarget.classList.add('active');
-  document.querySelector('.content').scrollTop=0;
-  loadData();
-}
+        // Mostra i bottoni per decidere cosa fare se il libro c'è
+        function showActions() {
+            document.getElementById('verify-buttons').style.display = 'none';
+            document.getElementById('action-buttons').style.display = 'flex';
+        }
 
-function loadData(){
-  const a=document.querySelector('.view.active').id;
-  if(a==='v-mosse')loadMosse();
-  if(a==='v-insight')loadInsight();
-  if(a==='v-audit')loadAudit();
-}
+        // Funzione: Salva la decisione per il libro presente
+        async function markAction(decision) {
+            await updateDatabase('presente', decision);
+        }
 
-// ═══════ MOSSE ═══════
-async function loadMosse(){
-  const el=document.getElementById('mosse-list');
-  el.innerHTML='<div class="loader">Analisi strategica...</div>';
-  let d=await api('assistant_recommendations_weighted?order=weighted_priority.desc&limit=25');
-  if(!d||!d.length)d=await api('action_recommendations?recommendation_status=eq.open&order=priority.desc&limit=25');
-  if(!d||!d.length){el.innerHTML='<div class="empty"><i>✨</i>Tutto sotto controllo. Nessuna mossa richiesta.</div>';return}
-  el.innerHTML=d.map(r=>{
-    const t=r.recommendation_type||'feature';
-    const p=Math.round(r.weighted_priority||r.priority||0);
-    const rule=r.raw_payload?.rule_code||'';
-    return`<div class="card t-${t}" id="r-${r.id}">
-      <div class="card-top"><span class="badge b-${t}">${t}</span><span class="prio">P${p}</span></div>
-      <div class="card-title">${r.titolo||'?'}</div>
-      <div class="card-meta">EAN ${r.ean||'—'} · Stock ${r.stock_snapshot??r.giacenti??'?'} · ${rule}</div>
-      <div class="actions">
-        <button class="btn btn-accept" onclick="fbRec('${r.id}','accepted',2)">✅ Fatto</button>
-        <button class="btn btn-defer" onclick="fbRec('${r.id}','deferred',0)">⏳ Dopo</button>
-        <button class="btn btn-dismiss" onclick="fbRec('${r.id}','dismissed',-1)">✕ No</button>
-      </div>
-    </div>`}).join('');
-}
-async function fbRec(id,action,score){
-  document.getElementById('r-'+id).classList.add('fading');
-  await rpc('submit_recommendation_feedback',{p_recommendation_id:id,p_action:action,p_score:score,p_note:'iPad',p_actor:'zabe'});
-  setTimeout(()=>{const e=document.getElementById('r-'+id);if(e)e.remove()},300);
-}
+        // Il "motore" che aggiorna il database e ricarica
+        async function updateDatabase(status, decision) {
+            setLoading(true);
+            const { error } = await supabase
+                .from('catalog_inventory')
+                .update({ 
+                    audit_status: status, 
+                    azione_decisione: decision,
+                    data_ultimo_audit: new Date().toISOString()
+                })
+                .eq('id', currentItem.id);
 
-// ═══════ INSIGHT ═══════
-async function loadInsight(){
-  const el=document.getElementById('insight-list');
-  el.innerHTML='<div class="loader">Lettura cervellone...</div>';
-  const d=await api('assistant_brain_insights?acknowledged=eq.false&order=sort_order.asc,created_at.desc&limit=20');
-  if(!d||!d.length){el.innerHTML='<div class="empty"><i>🧘</i>Cervello a riposo. Nessun insight nuovo.</div>';return}
-  el.innerHTML=d.map(i=>`<div class="card sev-${i.severity}" id="i-${i.id}">
-    <div class="card-top">
-      <span class="insight-type">${(i.insight_type||'').replace(/_/g,' ')}</span>
-      <span style="font-size:.75rem;font-weight:700;color:${i.severity==='opportunity'?'var(--green)':i.severity==='warning'?'var(--gold)':'var(--fg3)'}">${i.severity}</span>
-    </div>
-    <div class="card-title">${i.title||'?'}</div>
-    <div class="card-meta" style="font-family:'DM Sans';font-size:.82rem">${i.description||''}</div>
-    ${i.suggestion?`<div class="card-reason">🤖 ${i.suggestion}</div>`:''}
-    <button class="btn btn-ack" onclick="ackIns('${i.id}')">👁️ Ricevuto</button>
-  </div>`).join('');
-}
-async function ackIns(id){
-  document.getElementById('i-'+id).classList.add('fading');
-  await rpc('acknowledge_insight',{p_insight_id:id});
-  setTimeout(()=>{const e=document.getElementById('i-'+id);if(e)e.remove()},300);
-}
-async function runBrain(){
-  document.getElementById('insight-list').innerHTML='<div class="loader">⚡ Cervellone in esecuzione...</div>';
-  await rpc('daily_brain_cycle');
-  loadInsight();
-}
+            if (error) {
+                alert("Errore durante il salvataggio: " + error.message);
+                setLoading(false);
+            } else {
+                // Se è andato tutto bene, carica subito il prossimo
+                loadNextItem();
+            }
+        }
 
-// ═══════ AUDIT ═══════
-async function loadAudit(){
-  const el=document.getElementById('audit-list');
-  el.innerHTML='<div class="loader">Estrazione titolo sospetto...</div>';
-  const d=await api('assistant_audit_queue?audit_status=eq.mai_auditato&limit=1');
-  if(!d||!d.length){el.innerHTML='<div class="empty"><i>🎉</i>Scaffali perfetti! Nessun titolo in coda.</div>';return}
-  const a=d[0];
-  el.innerHTML=`<div class="card audit-card" id="a-${a.item_id}">
-    <div class="audit-zona">📍 ${a.posto||'Zona ?'}</div>
-    <div class="audit-title">${a.titolo||'?'}</div>
-    <div class="audit-meta">${a.editore||''} · EAN ${a.ean||'?'}</div>
-    <div class="audit-box">
-      <div class="audit-label">Il sistema dice</div>
-      <div class="audit-num">${a.giacenti}</div>
-      <div class="audit-label" style="margin-top:.3rem">copie</div>
-    </div>
-    <div class="audit-btns">
-      <button class="btn btn-accept" onclick="doAudit('${a.item_id}','confirmed')">✅ Ci Sono</button>
-      <button class="btn btn-dismiss" onclick="doAudit('${a.item_id}','not_found')">❌ Zero</button>
-      <button class="btn btn-adjust" onclick="adjAudit('${a.item_id}')">✏️ Quantità diversa...</button>
-    </div>
-  </div>`;
-}
-async function doAudit(id,action,qty=null){
-  document.getElementById('a-'+id).classList.add('fading');
-  await rpc('submit_inventory_audit',{p_item_id:id,p_action:action,p_adjusted_qty:qty,p_note:'iPad'});
-  setTimeout(()=>loadAudit(),350);
-}
-function adjAudit(id){
-  const q=prompt('Quante copie hai contato?');
-  if(q!==null&&!isNaN(q))doAudit(id,'adjusted',parseInt(q));
-}
+        function setLoading(isLoading) {
+            const buttons = document.querySelectorAll('button');
+            buttons.forEach(b => b.disabled = isLoading);
+            document.getElementById('loading').style.display = isLoading ? 'block' : 'none';
+        }
 
-// ═══════ REPORT ═══════
-async function loadReport(type){
-  document.querySelectorAll('.pill').forEach(p=>p.style.borderColor='var(--border)');
-  document.getElementById('pill-'+type).style.borderColor='var(--gold)';
-  const el=document.getElementById('report-content');
-  el.innerHTML='<div class="loader">Generazione report...</div>';
-  
-  const fnMap={morning:'morning_brief',midday:'midday_floor_report',evening:'evening_learning_report'};
-  const r=await rpc(fnMap[type]);
-  if(!r){el.innerHTML='<div class="empty"><i>⚠️</i>Errore nel generare il report.</div>';return}
-  
-  const data=typeof r==='string'?JSON.parse(r):r;
-  
-  if(type==='morning')renderMorning(data,el);
-  else if(type==='midday')renderMidday(data,el);
-  else renderEvening(data,el);
-}
-
-function renderMorning(d,el){
-  let h=`<div class="report-section"><div class="report-label">☀️ ${d.buongiorno||'Buongiorno!'}</div></div>`;
-  
-  if(d.restock_critico?.length){
-    h+=`<div class="report-section"><div class="report-label">🚨 Restock Critico</div>`;
-    d.restock_critico.forEach(r=>h+=`<div class="report-item"><span>${r.titolo}</span><span class="val" style="color:var(--red)">${r.restock_urgency} · ${r.giacenti}pz</span></div>`);
-    h+=`</div>`;
-  }
-  if(d.opportunita?.length){
-    h+=`<div class="report-section"><div class="report-label">🛒 Da Comprare (non li hai)</div>`;
-    d.opportunita.forEach(o=>h+=`<div class="report-item"><span>${o.title}</span><span class="val">#${o.best_position} ${o.chart_category}</span></div>`);
-    h+=`</div>`;
-  }
-  if(d.insight_warning?.length){
-    h+=`<div class="report-section"><div class="report-label">⚠️ Warning</div>`;
-    d.insight_warning.forEach(w=>h+=`<div class="report-item" style="flex-direction:column;align-items:flex-start;gap:.3rem"><span>${w.title}</span><span style="font-size:.75rem;color:var(--fg3)">${w.azione}</span></div>`);
-    h+=`</div>`;
-  }
-  if(d.playbook_suggerito){
-    h+=`<div class="report-section"><div class="report-label">📋 Playbook Suggerito</div>`;
-    h+=`<div class="card" style="border-left:3px solid var(--green)"><div class="card-title" style="font-size:1rem">${d.playbook_suggerito.titolo}</div><div class="card-meta" style="font-family:'DM Sans'">${d.playbook_suggerito.primo_step}</div></div>`;
-    h+=`</div>`;
-  }
-  if(d.numeri_chiave){
-    const n=d.numeri_chiave;
-    h+=`<div class="report-section"><div class="report-label">📊 Numeri</div>`;
-    h+=`<div class="report-item"><span>Raccomandazioni</span><span class="val">${n.raccomandazioni_open}</span></div>`;
-    h+=`<div class="report-item"><span>Insight da gestire</span><span class="val">${n.insight_da_gestire}</span></div>`;
-    h+=`<div class="report-item"><span>Audit da fare</span><span class="val">${n.audit_da_fare}</span></div>`;
-    h+=`</div>`;
-  }
-  el.innerHTML=h;
-}
-
-function renderMidday(d,el){
-  let h='';
-  if(d.sposta_in_vetrina?.length){
-    h+=`<div class="report-section"><div class="report-label">🪟 Sposta in Vetrina</div>`;
-    d.sposta_in_vetrina.forEach(s=>h+=`<div class="report-item"><span>${s.titolo}</span><span class="val">#${s.position} ${s.chart_name}</span></div>`);
-    h+=`</div>`;
-  }
-  if(d.promozioni_da_attivare?.length){
-    h+=`<div class="report-section"><div class="report-label">💰 Liquidazione</div>`;
-    d.promozioni_da_attivare.forEach(p=>h+=`<div class="report-item"><span>${p.titolo} (${p.giacenti}pz)</span><span class="val" style="color:var(--red)">${p.suggested_discount}</span></div>`);
-    h+=`</div>`;
-  }
-  if(d.scaffale_check?.length){
-    h+=`<div class="report-section"><div class="report-label">🚨 Scaffale Check</div>`;
-    d.scaffale_check.forEach(s=>h+=`<div class="report-item"><span>${s.titolo}</span><span class="val" style="color:var(--red)">${s.restock_urgency}</span></div>`);
-    h+=`</div>`;
-  }
-  if(d.audit_rapido){
-    h+=`<div class="report-section"><div class="report-label">📦 Audit Rapido</div>`;
-    h+=`<div class="report-item"><span>${d.audit_rapido.suggerimento}</span></div></div>`;
-  }
-  el.innerHTML=h||'<div class="empty">Nessun dato per il report.</div>';
-}
-
-function renderEvening(d,el){
-  let h='';
-  if(d.feedback_oggi){
-    const f=d.feedback_oggi;
-    h+=`<div class="report-section"><div class="report-label">📝 Feedback Oggi</div>`;
-    h+=`<div class="report-item"><span>Totale</span><span class="val">${f.totale}</span></div>`;
-    h+=`<div class="report-item"><span>Accettati / Fatti / Rifiutati</span><span class="val">${f.accepted} / ${f.done} / ${f.dismissed}</span></div></div>`;
-  }
-  if(d.nuovi_insight){
-    h+=`<div class="report-section"><div class="report-label">🧠 Insight Generati Oggi</div>`;
-    h+=`<div class="report-item"><span>Warning</span><span class="val" style="color:var(--gold)">${d.nuovi_insight.warning}</span></div>`;
-    h+=`<div class="report-item"><span>Opportunità</span><span class="val" style="color:var(--green)">${d.nuovi_insight.opportunity}</span></div></div>`;
-  }
-  if(d.classifiche_match){
-    h+=`<div class="report-section"><div class="report-label">🔗 Matching Classifiche</div>`;
-    h+=`<div class="report-item"><span>Matchati / Totale</span><span class="val">${d.classifiche_match.matchati} / ${d.classifiche_match.titoli_in_chart} (${d.classifiche_match.pct}%)</span></div></div>`;
-  }
-  if(d.regole_confermate?.length){
-    h+=`<div class="report-section"><div class="report-label">✅ Regole Confermate</div>`;
-    d.regole_confermate.forEach(r=>h+=`<div class="card" style="border-left:3px solid var(--green)"><div style="font-weight:700;margin-bottom:.3rem">${r.title}</div><div style="font-size:.82rem;color:var(--fg2)">${r.body}</div></div>`);
-    h+=`</div>`;
-  }
-  if(d.consiglio_serale){
-    h+=`<div class="report-section"><div class="report-label">💭 Consiglio Serale</div>`;
-    h+=`<div class="card" style="border-left:3px solid var(--gold);font-style:italic;color:var(--fg2)">${d.consiglio_serale}</div></div>`;
-  }
-  el.innerHTML=h||'<div class="empty">Nessun dato per il report serale.</div>';
-}
-</script>
+        // Avvia l'app caricando il primo elemento
+        window.onload = loadNextItem;
+    </script>
 </body>
 </html>
