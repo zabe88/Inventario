@@ -46,3 +46,6 @@ jobs:
 
     - name: 🌸 Scatena l'Oracolo (Uscite J-Pop)
       run: python ragno_jpop.py
+
+    - name: 🦅 Scatena l'Oracolo (Uscite Mondadori/Vault)
+      run: python ragno_mondadori.py
