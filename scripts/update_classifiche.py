@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 RADAR COMPLETO: Classifiche + Eventi Locali + Manga Trend → Supabase
-Versione 10: multi-fonte, multi-tipo segnale + fix parser (Giunti, Sagre, LW, AnimeClick).
+Versione 10.1: multi-fonte, multi-tipo segnale + fix parser completi (Giunti, Sagre, LW, AnimeClick).
 """
 
 import argparse
@@ -298,25 +298,26 @@ def parse_mycomics_classifica(html: str) -> list[dict]:
 def parse_animeclick_news(html: str) -> list[dict]:
     """Parsa news da AnimeClick per trend manga/anime"""
     soup = BeautifulSoup(html, "html.parser")
-    entries = set() # Usiamo un set per evitare di inserire la stessa news due volte
+    entries = set()
     seen_urls = set()
     
-    # I titoli delle news principali sono generalmente in h2/h3 con classe .news-item o link diretti
-    for link in soup.select('.news-item a[href], h1 a[href], h2 a[href], h3 a[href]'):
+    # Approccio a strascico: analizziamo tutti i link
+    for link in soup.select('a[href]'):
         href = link.get("href", "")
         if not href.startswith('/') and not href.startswith('http'): continue
         if href in seen_urls: continue
         
         title = link.get_text(strip=True)[:200]
-        if not title or len(title) < 10: continue
-        # Skippiamo roba di navigazione
-        if "AnimeClick" in title or "Accedi" in title or "Registrati" in title: continue
+        # Scartiamo testi corti, roba di UI e menù
+        if not title or len(title) < 15: continue
+        if any(x in title for x in ["AnimeClick", "Accedi", "Registrati", "Commenti", "Leggi tutto"]): continue
         
-        seen_urls.add(href)
-        full_url = href if href.startswith('http') else f"https://www.animeclick.it{href}"
-        entries.add((title, full_url))
-        
-    # Convertiamo il set in lista di dizionari
+        # Le vere news hanno titoli articolati (es. più di 4 parole)
+        if len(title.split()) > 4: 
+            seen_urls.add(href)
+            full_url = href if href.startswith('http') else f"https://www.animeclick.it{href}"
+            entries.add((title, full_url))
+            
     return [{"title": t[0], "url": t[1]} for t in list(entries)[:30]]
 
 
@@ -425,7 +426,7 @@ def push_manga_trends(supabase_url, supabase_key, source_key, trends):
 
 def save_json(all_rankings, all_events, all_manga, output_path):
     feed = {
-        "source": "Radar completo v10",
+        "source": "Radar completo v10.1",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rankings": [{
             "ean": e.get("ean", ""),
@@ -547,7 +548,7 @@ def main():
     has_db = args.supabase_url and args.supabase_key and not args.json_only
 
     print(f"{'='*60}")
-    print(f"  RADAR COMPLETO v10 — {chart_date}")
+    print(f"  RADAR COMPLETO v10.1 — {chart_date}")
     print(f"  Classifiche: {len(RANKING_CHARTS)}")
     print(f"  Eventi locali: {len(LOCAL_EVENT_SOURCES)} fonti")
     print(f"  Manga/anime: {len(MANGA_SOURCES)} fonti")
