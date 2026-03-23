@@ -10,26 +10,33 @@
     <style>
         body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
         
-        /* HEADER & RADAR */
-        .header { position: sticky; top: 0; background: #000; padding: 15px; z-index: 100; border-bottom: 3px solid #eab308; margin-bottom: 15px; border-radius: 8px; color: white;}
-        h1 { font-size: 20px; margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
+        /* HEADER & RADAR PREMIO */
+        .header { position: sticky; top: 0; background: #111; padding: 15px; z-index: 100; border-bottom: 4px solid #eab308; margin-bottom: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
+        h1 { font-size: 20px; margin: 0 0 12px 0; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
         
-        #radar-container { background: #1e1b4b; border: 1px solid #6366f1; border-radius: 6px; padding: 10px; margin-bottom: 15px; font-size: 13px; color: #c7d2fe; max-height: 120px; overflow-y: auto;}
-        .radar-title { font-weight: bold; color: #818cf8; margin-bottom: 5px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;}
-        .radar-item { margin-bottom: 4px; border-bottom: 1px solid rgba(99, 102, 241, 0.3); padding-bottom: 4px;}
-        .radar-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
-        .badge-data { background: #4f46e5; color: white; padding: 2px 5px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 5px;}
+        #radar-container { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); border: 1px solid #4f46e5; border-radius: 8px; padding: 12px; margin-bottom: 15px; font-size: 13px; color: #e0e7ff; max-height: 110px; overflow-y: auto; box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);}
+        
+        /* Custom Scrollbar per il Radar */
+        #radar-container::-webkit-scrollbar { width: 6px; }
+        #radar-container::-webkit-scrollbar-track { background: #1e1b4b; border-radius: 4px; }
+        #radar-container::-webkit-scrollbar-thumb { background: #4f46e5; border-radius: 4px; }
 
-        #search-box { width: 100%; padding: 12px; font-size: 16px; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; }
+        .radar-title { font-weight: bold; color: #a5b4fc; margin-bottom: 8px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 5px;}
+        .radar-item { margin-bottom: 6px; border-bottom: 1px solid rgba(99, 102, 241, 0.2); padding-bottom: 6px; line-height: 1.4;}
+        .radar-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+        .badge-data { background: #4f46e5; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 6px; letter-spacing: 0.5px;}
+
+        #search-box { width: 100%; padding: 14px; font-size: 16px; border-radius: 8px; border: none; box-sizing: border-box; background: #fff; color: #333; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);}
+        #search-box:focus { outline: 2px solid #eab308; }
         
-        /* CARD LIBRI */
+        /* CARD LIBRI (Ritorno alla gloria visiva) */
         .list-container { display: flex; flex-direction: column; gap: 15px; }
-        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: flex; flex-direction: column; gap: 15px; border-left: 4px solid #ccc;}
-        .book-header { display: flex; gap: 15px; align-items: center; }
+        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
+        .book-header { display: flex; gap: 15px; align-items: stretch; }
         
-        .book-cover { width: 75px; height: 110px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.2); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;}
+        .book-cover { width: 80px; height: 120px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 3px 6px rgba(0,0,0,0.15); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;}
         
-        .book-info { flex: 1; }
+        .book-info { flex: 1; display: flex; flex-direction: column; justify-content: center;}
         .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
         .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
         .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
@@ -38,39 +45,39 @@
         .ai-box { background: #111; border-left: 5px solid #eab308; border-radius: 6px; padding: 12px; font-size: 14px; color: #fef08a; line-height: 1.5; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); }
         .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 8px; color: #eab308; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
         .ai-alert { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
-        .ai-alert:last-child { margin-bottom: 0; border-bottom: none; }
+        .ai-alert:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0;}
         
         /* AI BOX LOCALE (Viola) */
-        .ai-local-box { background: #2e1065; border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
-        .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px;}
+        .ai-local-box { background: linear-gradient(to right, #2e1065, #1e1b4b); border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
+        .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;}
 
-        /* BOTTONI */
-        .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
-        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 70px; text-transform: uppercase;}
+        /* BOTTONI REINTEGRATI */
+        .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px;}
+        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 65px; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
         button:active { transform: scale(0.95); }
-        .btn-mancante { background-color: #ef4444; } 
         .btn-tenere { background-color: #10b981; } 
         .btn-reso { background-color: #f97316; } 
         .btn-regalo { background-color: #8b5cf6; } 
         .btn-bundle { background-color: #ec4899; } 
+        .btn-mancante { background-color: #ef4444; } 
         
-        .loading { text-align: center; color: #666; font-size: 18px; padding: 20px; font-weight: bold;}
+        .loading { text-align: center; color: #666; font-size: 18px; padding: 30px; font-weight: bold;}
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>👁️ IL CERVELLONE <span style="font-size:12px; background:#eab308; color:#000; padding:3px 6px; border-radius:4px;">GOD MODE + LUNIGIANA</span></h1>
+        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">GOD MODE + LUNIGIANA</span></h1>
         
         <div id="radar-container">
-            <div class="radar-title">📡 Radar Eventi Lunigiana in arrivo:</div>
+            <div class="radar-title">📡 Radar Eventi Lunigiana:</div>
             <div id="radar-list">Sincronizzazione sonde locali in corso...</div>
         </div>
 
         <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="handleSearchInput()">
     </div>
 
-    <div id="loading" class="loading">Inizializzazione Rete Neurale... 🧠</div>
+    <div id="loading" class="loading">Sincronizzazione Rete Neurale... 🧠</div>
     <div class="list-container" id="book-list"></div>
 
     <script>
@@ -83,6 +90,10 @@
         let dbTrends = [];
         let dbCharts = [];
         let dbLocalEvents = [];
+
+        // SVG Placeholder per le copertine
+        const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
+        const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
 
         async function initCervellone() {
             try {
@@ -107,9 +118,6 @@
             loadBooks('');
         }
 
-        // ==========================================
-        // DISEGNA IL RADAR IN CIMA ALL'APP
-        // ==========================================
         function renderRadarLocale() {
             const radarList = document.getElementById('radar-list');
             const eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event');
@@ -121,12 +129,10 @@
 
             let html = "";
             eventi.forEach(e => {
-                // Estrae la data tra parentesi quadre se c'è
                 let testo = e.signal_text;
                 let dataMatch = testo.match(/\[(.*?)\]/);
                 let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
-                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').substring(0, 70) + "...";
-                
+                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').substring(0, 80) + "...";
                 html += `<div class="radar-item"><span class="badge-data">${dataStr}</span> ${testoPulito}</div>`;
             });
             radarList.innerHTML = html;
@@ -157,9 +163,6 @@
             } catch (err) { alert(err.message); }
         }
 
-        // ==========================================
-        // IL MOTORE "GOD MODE" INCROCIA IL TERRITORIO
-        // ==========================================
         function analyzeBook(book) {
             let alerts = [];
             let localAlerts = [];
@@ -179,14 +182,16 @@
             else if (isTrend && book.giacenti <= 2) { alerts.push(`<div class='ai-alert'>🚨 <b>RISCHIO ROTTURA STOCK:</b> È in trend ma hai solo ${book.giacenti} copie! Ordina.</div>`); cardBorderColor = "#ef4444"; }
             else if (!isTrend && !isChart && book.giacenti > 5) { alerts.push(`<div class='ai-alert'>⚰️ <b>ZAVORRA MORTA:</b> Nessun hype, hai ${book.giacenti} copie. RENDERE O SCONTARE.</div>`); cardBorderColor = "#94a3b8"; }
             else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Mettilo ad altezza occhi.</div>"); cardBorderColor = "#10b981"; }
+            else if (isVol1 && !isTrend) { alerts.push("<div class='ai-alert'>🎣 <b>L'ESCA:</b> È un Numero 1. Esponi di piatto per agganciare il cliente.</div>"); cardBorderColor = "#3b82f6"; }
 
             // LOGICA LOCALE (Il radar sul territorio!)
-            // Controllo se il libro contiene parole chiave incrociate con gli eventi locali
-            let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello"];
+            let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
             paroleChiaveLocali.forEach(parola => {
-                if (title.includes(parola)) {
-                    localAlerts.push(`Questo libro contiene il tema "<b>${parola.toUpperCase()}</b>", in trend con gli eventi radar di Pontremoli! Creare Vetrina Tema?`);
-                    cardBorderColor = "#a855f7"; // Viola per il territorio
+                // Cerca la parola come parola intera, non dentro altre parole (es. "mare" in "amare")
+                let regexParola = new RegExp(`\\b${parola}\\b`, 'i');
+                if (regexParola.test(title)) {
+                    localAlerts.push(`Questo titolo tocca il tema "<b>${parola.toUpperCase()}</b>", intercettato dal Radar Eventi di Pontremoli! Valuta Vetrina Tematica.`);
+                    if(cardBorderColor === "#ccc" || cardBorderColor === "#94a3b8") cardBorderColor = "#a855f7"; // Sovrascrive il bordo solo se non è già oro o rosso
                 }
             });
 
@@ -201,6 +206,36 @@
             return { html: boxHtml, color: cardBorderColor };
         }
 
+        // ==========================================
+        // LA CASCATA DELLE COPERTINE (RIPRISTINATA)
+        // ==========================================
+        async function fetchCoverItaliana(ean, imgId) {
+            const imgElement = document.getElementById(imgId);
+            if (!imgElement) return;
+            const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
+            if (!cleanEan || cleanEan.length < 10) { imgElement.src = noCoverSvg; return; }
+
+            const fallbacks = [
+                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
+                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       
+                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, 
+                noCoverSvg 
+            ];
+
+            let currentFallbackIndex = 0;
+            imgElement.onerror = function() {
+                if (currentFallbackIndex < fallbacks.length) {
+                    imgElement.src = fallbacks[currentFallbackIndex];
+                    currentFallbackIndex++;
+                } else {
+                    imgElement.onerror = null; 
+                    imgElement.src = noCoverSvg;
+                }
+            };
+            imgElement.src = fallbacks[0];
+            currentFallbackIndex = 1; 
+        }
+
         function renderList(books) {
             const container = document.getElementById('book-list');
             container.innerHTML = ''; 
@@ -210,6 +245,7 @@
                 const pos = book.posizione_scaffale || 'ND';
                 const div = document.createElement('div');
                 div.id = 'card-' + book.id;
+                const coverId = 'cover-' + book.id; // ID per l'immagine
                 
                 const aiData = analyzeBook(book);
                 
@@ -218,6 +254,8 @@
 
                 div.innerHTML = `
                     <div class="book-header">
+                        <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
+                        
                         <div class="book-info">
                             <div class="book-title">${book.titolo}</div>
                             <div class="book-meta">
@@ -227,14 +265,21 @@
                             </div>
                         </div>
                     </div>
+                    
                     ${aiData.html}
-                    <div class="btn-row" style="margin-top: 5px;">
+                    
+                    <div class="btn-row">
                         <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
                         <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
                         <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
+                        <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
+                        <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
                     </div>
                 `;
                 container.appendChild(div);
+                
+                // Richiama il cacciatore di copertine per ogni libro
+                fetchCoverItaliana(book.ean, coverId);
             });
         }
 
