@@ -37,3 +37,6 @@ jobs:
 
     - name: ⭐ Scatena l'Oracolo (Uscite Star Comics)
       run: python ragno_star.py
+
+    - name: 🦸‍♂️ Scatena l'Oracolo (Uscite Panini)
+      run: python ragno_panini.py
