@@ -10,26 +10,30 @@
     <style>
         body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
         
-        /* HEADER & RADAR PREMIO */
-        .header { position: sticky; top: 0; background: #111; padding: 15px; z-index: 100; border-bottom: 4px solid #eab308; margin-bottom: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
-        h1 { font-size: 20px; margin: 0 0 12px 0; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
+        /* HEADER MINIMALE */
+        .header { position: sticky; top: 0; background: #111; padding: 15px; z-index: 100; border-bottom: 4px solid #eab308; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
+        h1 { font-size: 20px; margin: 0 0 12px 0; color: white; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
         
-        #radar-container { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); border: 1px solid #4f46e5; border-radius: 8px; padding: 12px; margin-bottom: 15px; font-size: 13px; color: #e0e7ff; max-height: 110px; overflow-y: auto; box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);}
+        /* RADAR A SCOMPARSA (STILE iOS) */
+        #radar-widget { margin-bottom: 15px; }
+        #radar-toggle { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); color: #e0e7ff; padding: 12px 15px; border-radius: 8px; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: space-between; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.1s ease;}
+        #radar-toggle:active { transform: scale(0.98); }
+        .radar-icon { display: flex; align-items: center; gap: 8px; }
+        #radar-chevron { transition: transform 0.3s ease; }
+        #radar-chevron.open { transform: rotate(180deg); }
         
-        /* Custom Scrollbar per il Radar */
-        #radar-container::-webkit-scrollbar { width: 6px; }
-        #radar-container::-webkit-scrollbar-track { background: #1e1b4b; border-radius: 4px; }
-        #radar-container::-webkit-scrollbar-thumb { background: #4f46e5; border-radius: 4px; }
+        #radar-content { background: #0f172a; color: #cbd5e1; border-radius: 8px; padding: 0 15px; font-size: 14px; line-height: 1.6; display: none; margin-top: 5px; border: 1px solid #1e293b; max-height: 300px; overflow-y: auto;}
+        #radar-content.active { display: block; padding: 15px; }
+        
+        .radar-item { padding: 10px 0; border-bottom: 1px solid #1e293b; }
+        .radar-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .badge-data { background: #4f46e5; color: white; padding: 3px 6px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 8px; display: inline-block; margin-bottom: 4px; letter-spacing: 0.5px;}
 
-        .radar-title { font-weight: bold; color: #a5b4fc; margin-bottom: 8px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 5px;}
-        .radar-item { margin-bottom: 6px; border-bottom: 1px solid rgba(99, 102, 241, 0.2); padding-bottom: 6px; line-height: 1.4;}
-        .radar-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
-        .badge-data { background: #4f46e5; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 6px; letter-spacing: 0.5px;}
-
+        /* RICERCA */
         #search-box { width: 100%; padding: 14px; font-size: 16px; border-radius: 8px; border: none; box-sizing: border-box; background: #fff; color: #333; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);}
         #search-box:focus { outline: 2px solid #eab308; }
         
-        /* CARD LIBRI (Ritorno alla gloria visiva) */
+        /* CARD LIBRI */
         .list-container { display: flex; flex-direction: column; gap: 15px; }
         .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
         .book-header { display: flex; gap: 15px; align-items: stretch; }
@@ -47,11 +51,10 @@
         .ai-alert { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
         .ai-alert:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0;}
         
-        /* AI BOX LOCALE (Viola) */
         .ai-local-box { background: linear-gradient(to right, #2e1065, #1e1b4b); border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
         .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;}
 
-        /* BOTTONI REINTEGRATI */
+        /* BOTTONI */
         .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px;}
         button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 65px; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
         button:active { transform: scale(0.95); }
@@ -67,11 +70,16 @@
 <body>
 
     <div class="header">
-        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">GOD MODE + LUNIGIANA</span></h1>
+        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">LUNIGIANA</span></h1>
         
-        <div id="radar-container">
-            <div class="radar-title">📡 Radar Eventi Lunigiana:</div>
-            <div id="radar-list">Sincronizzazione sonde locali in corso...</div>
+        <div id="radar-widget">
+            <div id="radar-toggle" onclick="toggleRadar()">
+                <div class="radar-icon">📍 <span id="radar-summary">Sincronizzazione eventi...</span></div>
+                <div id="radar-chevron">▼</div>
+            </div>
+            <div id="radar-content">
+                <div id="radar-list">Nessun evento caricato.</div>
+            </div>
         </div>
 
         <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="handleSearchInput()">
@@ -91,30 +99,34 @@
         let dbCharts = [];
         let dbLocalEvents = [];
 
-        // SVG Placeholder per le copertine
         const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
         const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
 
+        function toggleRadar() {
+            const content = document.getElementById('radar-content');
+            const chevron = document.getElementById('radar-chevron');
+            content.classList.toggle('active');
+            chevron.classList.toggle('open');
+        }
+
         async function initCervellone() {
             try {
-                // Carica Hype Nazionale
                 const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick']).limit(1000);
                 if(res1.data) dbTrends = res1.data;
                 
                 const res2 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
                 if(res2.data) dbCharts = res2.data;
 
-                // Carica Radar Locale (La nostra nuova arma!)
                 const resLocal = await supabaseClient.from('external_signal_staging')
                     .select('signal_text, signal_type, feed_key')
-                    .in('feed_key', ['eco_lunigiana', 'sigeric_web', 'lunigiana_world', 'visit_pontremoli', 'farfalle_cammino']);
+                    .in('source_key', ['eco_lunigiana', 'sigeric', 'lunigianaworld', 'visitlunigiana']); // Usando le source_key corrette
                 
                 if(resLocal.data) {
                     dbLocalEvents = resLocal.data;
                     renderRadarLocale();
                 }
 
-            } catch (err) { console.warn("Errore caricamento dati esterni:", err); }
+            } catch (err) { console.warn("Errore caricamento dati:", err); }
             loadBooks('');
         }
 
@@ -123,17 +135,27 @@
             const eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event');
             
             if(eventi.length === 0) {
-                radarList.innerHTML = "Nessun evento rilevato nelle prossime settimane.";
+                document.getElementById('radar-summary').innerText = "Radar: Nessun evento in arrivo";
+                radarList.innerHTML = "La Lunigiana dorme serena.";
                 return;
             }
 
+            // Aggiorna il bottone chiuso
+            document.getElementById('radar-summary').innerText = `Radar: ${eventi.length} eventi in arrivo`;
+
+            // Stampa la lista intera, senza mai tagliare il testo!
             let html = "";
             eventi.forEach(e => {
                 let testo = e.signal_text;
                 let dataMatch = testo.match(/\[(.*?)\]/);
                 let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
-                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').substring(0, 80) + "...";
-                html += `<div class="radar-item"><span class="badge-data">${dataStr}</span> ${testoPulito}</div>`;
+                // Rimuoviamo solo la parte tecnica inziale, lasciando intatto l'evento e la fonte
+                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
+                
+                html += `<div class="radar-item">
+                            <span class="badge-data">${dataStr}</span> 
+                            ${testoPulito}
+                         </div>`;
             });
             radarList.innerHTML = html;
         }
@@ -176,7 +198,6 @@
 
             let cardBorderColor = "#ccc";
 
-            // LOGICA NAZIONALE (Fumetti / Classifiche)
             if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale. VETRINA FRONTALE IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
             else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione ricercatissima. Tienila.</div>"); cardBorderColor = "#eab308"; }
             else if (isTrend && book.giacenti <= 2) { alerts.push(`<div class='ai-alert'>🚨 <b>RISCHIO ROTTURA STOCK:</b> È in trend ma hai solo ${book.giacenti} copie! Ordina.</div>`); cardBorderColor = "#ef4444"; }
@@ -184,14 +205,12 @@
             else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Mettilo ad altezza occhi.</div>"); cardBorderColor = "#10b981"; }
             else if (isVol1 && !isTrend) { alerts.push("<div class='ai-alert'>🎣 <b>L'ESCA:</b> È un Numero 1. Esponi di piatto per agganciare il cliente.</div>"); cardBorderColor = "#3b82f6"; }
 
-            // LOGICA LOCALE (Il radar sul territorio!)
             let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
             paroleChiaveLocali.forEach(parola => {
-                // Cerca la parola come parola intera, non dentro altre parole (es. "mare" in "amare")
                 let regexParola = new RegExp(`\\b${parola}\\b`, 'i');
                 if (regexParola.test(title)) {
                     localAlerts.push(`Questo titolo tocca il tema "<b>${parola.toUpperCase()}</b>", intercettato dal Radar Eventi di Pontremoli! Valuta Vetrina Tematica.`);
-                    if(cardBorderColor === "#ccc" || cardBorderColor === "#94a3b8") cardBorderColor = "#a855f7"; // Sovrascrive il bordo solo se non è già oro o rosso
+                    if(cardBorderColor === "#ccc" || cardBorderColor === "#94a3b8") cardBorderColor = "#a855f7"; 
                 }
             });
 
@@ -206,9 +225,6 @@
             return { html: boxHtml, color: cardBorderColor };
         }
 
-        // ==========================================
-        // LA CASCATA DELLE COPERTINE (RIPRISTINATA)
-        // ==========================================
         async function fetchCoverItaliana(ean, imgId) {
             const imgElement = document.getElementById(imgId);
             if (!imgElement) return;
@@ -245,7 +261,7 @@
                 const pos = book.posizione_scaffale || 'ND';
                 const div = document.createElement('div');
                 div.id = 'card-' + book.id;
-                const coverId = 'cover-' + book.id; // ID per l'immagine
+                const coverId = 'cover-' + book.id;
                 
                 const aiData = analyzeBook(book);
                 
@@ -255,7 +271,6 @@
                 div.innerHTML = `
                     <div class="book-header">
                         <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
-                        
                         <div class="book-info">
                             <div class="book-title">${book.titolo}</div>
                             <div class="book-meta">
@@ -265,9 +280,7 @@
                             </div>
                         </div>
                     </div>
-                    
                     ${aiData.html}
-                    
                     <div class="btn-row">
                         <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
                         <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
@@ -277,8 +290,6 @@
                     </div>
                 `;
                 container.appendChild(div);
-                
-                // Richiama il cacciatore di copertine per ogni libro
                 fetchCoverItaliana(book.ean, coverId);
             });
         }
