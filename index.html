@@ -9,58 +9,68 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
         body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
-        .header { position: sticky; top: 0; background: #f4f4f9; padding-bottom: 10px; z-index: 100; border-bottom: 2px solid #ddd; margin-bottom: 20px; }
-        h1 { color: #333; font-size: 22px; margin: 0 0 10px 0; }
-        #search-box { width: 100%; padding: 15px; font-size: 18px; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; }
         
+        /* HEADER & RADAR */
+        .header { position: sticky; top: 0; background: #000; padding: 15px; z-index: 100; border-bottom: 3px solid #eab308; margin-bottom: 15px; border-radius: 8px; color: white;}
+        h1 { font-size: 20px; margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
+        
+        #radar-container { background: #1e1b4b; border: 1px solid #6366f1; border-radius: 6px; padding: 10px; margin-bottom: 15px; font-size: 13px; color: #c7d2fe; max-height: 120px; overflow-y: auto;}
+        .radar-title { font-weight: bold; color: #818cf8; margin-bottom: 5px; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;}
+        .radar-item { margin-bottom: 4px; border-bottom: 1px solid rgba(99, 102, 241, 0.3); padding-bottom: 4px;}
+        .radar-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+        .badge-data { background: #4f46e5; color: white; padding: 2px 5px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 5px;}
+
+        #search-box { width: 100%; padding: 12px; font-size: 16px; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; }
+        
+        /* CARD LIBRI */
         .list-container { display: flex; flex-direction: column; gap: 15px; }
-        
-        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 15px; }
+        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: flex; flex-direction: column; gap: 15px; border-left: 4px solid #ccc;}
         .book-header { display: flex; gap: 15px; align-items: center; }
         
-        .book-cover { 
-            width: 75px; height: 110px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; 
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;
-        }
+        .book-cover { width: 75px; height: 110px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.2); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;}
         
         .book-info { flex: 1; }
         .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
         .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
         .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
         
-        /* IL BOX DELL'INTELLIGENZA ARTIFICIALE */
-        .ai-box {
-            background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
-            border-left: 5px solid #eab308;
-            border-radius: 6px;
-            padding: 12px;
-            font-size: 14px;
-            color: #854d0e;
-            line-height: 1.5;
-        }
-        .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 6px; color: #ca8a04;}
+        /* AI BOXES */
+        .ai-box { background: #111; border-left: 5px solid #eab308; border-radius: 6px; padding: 12px; font-size: 14px; color: #fef08a; line-height: 1.5; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); }
+        .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 8px; color: #eab308; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
+        .ai-alert { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
+        .ai-alert:last-child { margin-bottom: 0; border-bottom: none; }
         
+        /* AI BOX LOCALE (Viola) */
+        .ai-local-box { background: #2e1065; border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
+        .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px;}
+
+        /* BOTTONI */
         .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
-        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 70px; }
+        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 70px; text-transform: uppercase;}
         button:active { transform: scale(0.95); }
         .btn-mancante { background-color: #ef4444; } 
         .btn-tenere { background-color: #10b981; } 
         .btn-reso { background-color: #f97316; } 
         .btn-regalo { background-color: #8b5cf6; } 
         .btn-bundle { background-color: #ec4899; } 
-        .loading { text-align: center; color: #666; font-size: 18px; padding: 20px; }
-        #error-box { display: none; background: #fee2e2; color: #b91c1c; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-weight: bold; word-break: break-all; }
+        
+        .loading { text-align: center; color: #666; font-size: 18px; padding: 20px; font-weight: bold;}
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>📦 Triage Veloce Magazzino</h1>
+        <h1>👁️ IL CERVELLONE <span style="font-size:12px; background:#eab308; color:#000; padding:3px 6px; border-radius:4px;">GOD MODE + LUNIGIANA</span></h1>
+        
+        <div id="radar-container">
+            <div class="radar-title">📡 Radar Eventi Lunigiana in arrivo:</div>
+            <div id="radar-list">Sincronizzazione sonde locali in corso...</div>
+        </div>
+
         <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="handleSearchInput()">
     </div>
 
-    <div id="error-box"></div>
-    <div id="loading" class="loading">Sincronizzazione Cervellone in corso... 🧠</div>
+    <div id="loading" class="loading">Inizializzazione Rete Neurale... 🧠</div>
     <div class="list-container" id="book-list"></div>
 
     <script>
@@ -70,35 +80,56 @@
         
         let allBooks = [];
         let searchTimeout = null;
-        
-        // Memoria del Cervellone
         let dbTrends = [];
         let dbCharts = [];
+        let dbLocalEvents = [];
 
-        const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
-        const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
-
-        function showError(msg) {
-            document.getElementById('loading').style.display = 'none';
-            const eb = document.getElementById('error-box');
-            eb.style.display = 'block'; eb.innerText = "ERRORE: " + msg;
-        }
-
-        // 1. CARICHIAMO I DATI ESTERNI (Trend e Classifiche) ALL'AVVIO
         async function initCervellone() {
             try {
-                // Peschiamo i trend da Supabase
-                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').limit(1000);
+                // Carica Hype Nazionale
+                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick']).limit(1000);
                 if(res1.data) dbTrends = res1.data;
-
-                // Peschiamo le classifiche
+                
                 const res2 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
                 if(res2.data) dbCharts = res2.data;
-            } catch (err) {
-                console.warn("Impossibile caricare alcune tabelle esterne", err);
-            }
-            // Dopo aver caricato la mente, carichiamo i libri
+
+                // Carica Radar Locale (La nostra nuova arma!)
+                const resLocal = await supabaseClient.from('external_signal_staging')
+                    .select('signal_text, signal_type, feed_key')
+                    .in('feed_key', ['eco_lunigiana', 'sigeric_web', 'lunigiana_world', 'visit_pontremoli', 'farfalle_cammino']);
+                
+                if(resLocal.data) {
+                    dbLocalEvents = resLocal.data;
+                    renderRadarLocale();
+                }
+
+            } catch (err) { console.warn("Errore caricamento dati esterni:", err); }
             loadBooks('');
+        }
+
+        // ==========================================
+        // DISEGNA IL RADAR IN CIMA ALL'APP
+        // ==========================================
+        function renderRadarLocale() {
+            const radarList = document.getElementById('radar-list');
+            const eventi = dbLocalEvents.filter(e => e.signal_type === 'local_event');
+            
+            if(eventi.length === 0) {
+                radarList.innerHTML = "Nessun evento rilevato nelle prossime settimane.";
+                return;
+            }
+
+            let html = "";
+            eventi.forEach(e => {
+                // Estrae la data tra parentesi quadre se c'è
+                let testo = e.signal_text;
+                let dataMatch = testo.match(/\[(.*?)\]/);
+                let dataStr = dataMatch ? dataMatch[1] : "PRESTO";
+                let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').substring(0, 70) + "...";
+                
+                html += `<div class="radar-item"><span class="badge-data">${dataStr}</span> ${testoPulito}</div>`;
+            });
+            radarList.innerHTML = html;
         }
 
         function handleSearchInput() {
@@ -113,156 +144,109 @@
 
             try {
                 let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(200); 
-
                 if (searchQuery !== '') {
                     queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
                 } else {
                     queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
                 }
-
                 const { data, error } = await queryBuilder;
-                if (error) { showError(error.message); return; }
-
+                if (error) { alert("Errore caricamento libri: " + error.message); return; }
                 allBooks = data;
                 document.getElementById('loading').style.display = 'none';
                 renderList(allBooks);
-                
-            } catch (err) { showError(err.message || err.toString()); }
+            } catch (err) { alert(err.message); }
         }
 
-        // 2. LA LOGICA DEL CERVELLONE (Incrocio Dati in tempo reale)
+        // ==========================================
+        // IL MOTORE "GOD MODE" INCROCIA IL TERRITORIO
+        // ==========================================
         function analyzeBook(book) {
             let alerts = [];
-            let bookTitle = book.titolo ? book.titolo.toLowerCase() : '';
+            let localAlerts = [];
+            let title = book.titolo ? book.titolo.toLowerCase() : '';
+            
+            let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 3 && title.includes(t.signal_text.toLowerCase()));
+            let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 3 && title.includes(c.titolo.toLowerCase()));
+            
+            let isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
+            let isVariant = title.includes('variant') || title.includes('limited') || title.includes('special');
 
-            // A) Ricerca nei Social Trends (Ignoriamo parole troppo corte come "Il", "La")
-            let isTrend = dbTrends.some(t => t.signal_text && t.signal_text.length > 3 && bookTitle.includes(t.signal_text.toLowerCase()));
-            if (isTrend) {
-                alerts.push("🔥 <b>IN TREND SUI SOCIAL!</b> Questo titolo sta girando online. NON RENDERLO.");
-            }
+            let cardBorderColor = "#ccc";
 
-            // B) Ricerca nelle Classifiche
-            let isChart = dbCharts.some(c => c.titolo && c.titolo.length > 3 && bookTitle.includes(c.titolo.toLowerCase()));
-            if (isChart) {
-                alerts.push("📈 <b>IN CLASSIFICA!</b> Fa parte dei Top titoli nazionali.");
-            }
+            // LOGICA NAZIONALE (Fumetti / Classifiche)
+            if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale. VETRINA FRONTALE IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
+            else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione ricercatissima. Tienila.</div>"); cardBorderColor = "#eab308"; }
+            else if (isTrend && book.giacenti <= 2) { alerts.push(`<div class='ai-alert'>🚨 <b>RISCHIO ROTTURA STOCK:</b> È in trend ma hai solo ${book.giacenti} copie! Ordina.</div>`); cardBorderColor = "#ef4444"; }
+            else if (!isTrend && !isChart && book.giacenti > 5) { alerts.push(`<div class='ai-alert'>⚰️ <b>ZAVORRA MORTA:</b> Nessun hype, hai ${book.giacenti} copie. RENDERE O SCONTARE.</div>`); cardBorderColor = "#94a3b8"; }
+            else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Mettilo ad altezza occhi.</div>"); cardBorderColor = "#10b981"; }
 
-            // C) Logica di Giacenza Cassa (Il fiuto aziendale)
-            if (book.giacenti > 4 && !isTrend && !isChart) {
-                alerts.push(`📦 <b>GIACENZA SILENTE (${book.giacenti} copie):</b> Non è in trend e ne hai molti. Considera un <b>RESO</b> o fai un <b>BUNDLE</b> per sfoltire.`);
-            } else if (book.giacenti == 1 && (isTrend || isChart)) {
-                alerts.push(`💎 <b>ULTIMA COPIA D'ORO!</b> È richiestissimo e ne hai solo uno. Mettilo in vetrina frontale!`);
-            }
+            // LOGICA LOCALE (Il radar sul territorio!)
+            // Controllo se il libro contiene parole chiave incrociate con gli eventi locali
+            let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello"];
+            paroleChiaveLocali.forEach(parola => {
+                if (title.includes(parola)) {
+                    localAlerts.push(`Questo libro contiene il tema "<b>${parola.toUpperCase()}</b>", in trend con gli eventi radar di Pontremoli! Creare Vetrina Tema?`);
+                    cardBorderColor = "#a855f7"; // Viola per il territorio
+                }
+            });
 
-            // Se il Cervellone ha trovato qualcosa, crea il box. Altrimenti restituisce vuoto.
+            let boxHtml = '';
             if (alerts.length > 0) {
-                return `
-                <div class="ai-box">
-                    <div class="ai-title">🧠 IL CERVELLONE CONSIGLIA:</div>
-                    ${alerts.join("<br><br>")}
-                </div>`;
+                boxHtml += `<div class="ai-box"><div class="ai-title">👁️ IL CERVELLONE ORDINA:</div>${alerts.join("")}</div>`;
             }
-            return '';
+            if (localAlerts.length > 0) {
+                boxHtml += `<div class="ai-local-box"><div class="ai-local-title">📍 ASSIST TERRITORIALE:</div>${localAlerts.join("<br>")}</div>`;
+            }
+            
+            return { html: boxHtml, color: cardBorderColor };
         }
 
         function renderList(books) {
             const container = document.getElementById('book-list');
             container.innerHTML = ''; 
-
-            if(books.length === 0) {
-                container.innerHTML = '<div class="loading">Nessun libro trovato! 🕵️‍♂️</div>';
-                return;
-            }
+            if(books.length === 0) { container.innerHTML = '<div class="loading">Nessun libro trovato! 🕵️‍♂️</div>'; return; }
 
             books.forEach(book => {
                 const pos = book.posizione_scaffale || 'ND';
                 const div = document.createElement('div');
-                div.className = 'book-card';
                 div.id = 'card-' + book.id;
-                const coverId = 'cover-' + book.id;
                 
-                // Richiamiamo la funzione che sputa fuori il consiglio
-                const aiSuggestionBox = analyzeBook(book);
+                const aiData = analyzeBook(book);
+                
+                div.className = 'book-card';
+                div.style.borderLeftColor = aiData.color;
 
                 div.innerHTML = `
                     <div class="book-header">
-                        <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
                         <div class="book-info">
                             <div class="book-title">${book.titolo}</div>
                             <div class="book-meta">
                                 <span class="badge">Pos: ${pos}</span> 
-                                <span class="badge">Q.tà: ${book.giacenti}</span><br>
+                                <span class="badge" style="background:#111; color:#fff;">Q.tà: ${book.giacenti}</span><br>
                                 EAN: ${book.ean}
                             </div>
                         </div>
                     </div>
-                    
-                    ${aiSuggestionBox}
-                    
+                    ${aiData.html}
                     <div class="btn-row" style="margin-top: 5px;">
                         <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
                         <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
                         <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
-                        <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
-                        <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
                     </div>
                 `;
                 container.appendChild(div);
-                fetchCoverItaliana(book.ean, coverId);
             });
-        }
-
-        async function fetchCoverItaliana(ean, imgId) {
-            const imgElement = document.getElementById(imgId);
-            if (!imgElement) return;
-            const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
-            if (!cleanEan || cleanEan.length < 10) { imgElement.src = noCoverSvg; return; }
-
-            const fallbacks = [
-                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
-                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       
-                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, 
-                noCoverSvg 
-            ];
-
-            let currentFallbackIndex = 0;
-            imgElement.onerror = function() {
-                if (currentFallbackIndex < fallbacks.length) {
-                    imgElement.src = fallbacks[currentFallbackIndex];
-                    currentFallbackIndex++;
-                } else {
-                    imgElement.onerror = null; 
-                    imgElement.src = noCoverSvg;
-                }
-            };
-            imgElement.src = fallbacks[0];
-            currentFallbackIndex = 1; 
         }
 
         async function processBook(id, status, decision) {
             document.getElementById('card-' + id).style.opacity = '0.2';
             document.getElementById('card-' + id).style.pointerEvents = 'none';
             try {
-                const { error } = await supabaseClient
-                    .from('catalog_inventory')
-                    .update({ audit_status: status, azione_decisione: decision, data_ultimo_audit: new Date().toISOString() })
-                    .eq('id', id);
-
-                if (error) {
-                    alert("Errore: " + error.message);
-                    document.getElementById('card-' + id).style.opacity = '1';
-                    document.getElementById('card-' + id).style.pointerEvents = 'auto';
-                } else {
-                    document.getElementById('card-' + id).style.display = 'none';
-                }
-            } catch(err) {
-                alert("Errore rete: " + err.message);
-                document.getElementById('card-' + id).style.opacity = '1';
-                document.getElementById('card-' + id).style.pointerEvents = 'auto';
-            }
+                const { error } = await supabaseClient.from('catalog_inventory').update({ audit_status: status, azione_decisione: decision, data_ultimo_audit: new Date().toISOString() }).eq('id', id);
+                if (!error) document.getElementById('card-' + id).style.display = 'none';
+            } catch(err) { alert("Errore rete: " + err.message); }
         }
 
-        // Avviamo tutto: prima i dati neurali, poi la lista!
         window.onload = initCervellone;
     </script>
 </body>
