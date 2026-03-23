@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """
-RADAR COMPLETO: Classifiche + Eventi Locali + Manga Trend → Supabase
-Versione 10.1: multi-fonte, multi-tipo segnale + fix parser completi (Giunti, Sagre, LW, AnimeClick).
+RADAR COMPLETO: Classifiche + Eventi Locali + Manga Trend + YouTube → Supabase
+Versione 11.0: Integrazione API YouTube Data v3 per BookTok/Manga.
 """
 
 import argparse
 import json
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import requests
 from bs4 import BeautifulSoup
+from googleapiclient.discovery import build
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -35,6 +36,60 @@ def fetch_page(url: str) -> str | None:
         print(f"  ⚠ Errore fetch: {e}")
         return None
 
+
+# ═══════════════════════════════════════════════════════
+# YOUTUBE BOOKTOK / MANGA TREND
+# ═══════════════════════════════════════════════════════
+
+def fetch_youtube_trends(api_key: str) -> list[dict]:
+    """Cerca video in trend su YouTube (ultimi 7 gg) per BookTok e Manga"""
+    if not api_key:
+        print("   ⚠ YouTube API Key mancante. Salto YouTube.")
+        return []
+
+    try:
+        youtube = build('youtube', 'v3', developerKey=api_key)
+        
+        # Cerchiamo video degli ultimi 7 giorni
+        week_ago = (datetime.utcnow() - timedelta(days=7)).isoformat() + 'Z'
+        
+        queries = ["booktok ita", "manga consigliati", "recensione fumetto", "nuovi manga"]
+        entries = []
+        seen_videos = set()
+
+        for q in queries:
+            print(f"   Ricerca YT: '{q}'...")
+            request = youtube.search().list(
+                part="snippet",
+                q=q,
+                type="video",
+                publishedAfter=week_ago,
+                regionCode="IT",  # Solo Italia
+                maxResults=10,
+                order="viewCount" # Ordina per i più visti
+            )
+            response = request.execute()
+
+            for item in response.get("items", []):
+                vid = item["id"]["videoId"]
+                if vid in seen_videos: continue
+                seen_videos.add(vid)
+                
+                title = item["snippet"]["title"]
+                channel = item["snippet"]["channelTitle"]
+                
+                entries.append({
+                    "title": f"[{channel}] {title}",
+                    "url": f"https://www.youtube.com/watch?v={vid}",
+                    "source_text": item["snippet"]["description"][:500]
+                })
+            time.sleep(1) # Rispettiamo i rate limit
+
+        return entries
+
+    except Exception as e:
+        print(f"   ⚠ Errore YouTube API: {e}")
+        return []
 
 # ═══════════════════════════════════════════════════════
 # CLASSIFICHE
@@ -388,8 +443,8 @@ def push_events(supabase_url, supabase_key, source_key, events):
     return inserted
 
 
-def push_manga_trends(supabase_url, supabase_key, source_key, trends):
-    """Push manga trends in external_signal_staging"""
+def push_manga_trends(supabase_url, supabase_key, source_key, trends, signal_type="manga_trend"):
+    """Push trend e video in external_signal_staging"""
     headers = {
         "apikey": supabase_key,
         "Authorization": f"Bearer {supabase_key}",
@@ -399,11 +454,11 @@ def push_manga_trends(supabase_url, supabase_key, source_key, trends):
     inserted = 0
     for t in trends:
         row = {
-            "feed_key": f"manga-{source_key}",
+            "feed_key": f"{signal_type}-{source_key}",
             "source_key": source_key,
             "raw_title": t.get("title", ""),
-            "signal_type": "manga_trend",
-            "signal_text": t.get("title", ""),
+            "signal_type": signal_type,
+            "signal_text": t.get("source_text", t.get("title", "")),
             "source_url": t.get("url", ""),
             "source_payload": json.dumps(t),
             "processed": False,
@@ -424,9 +479,9 @@ def push_manga_trends(supabase_url, supabase_key, source_key, trends):
 # JSON OUTPUT
 # ═══════════════════════════════════════════════════════
 
-def save_json(all_rankings, all_events, all_manga, output_path):
+def save_json(all_rankings, all_events, all_manga, all_youtube, output_path):
     feed = {
-        "source": "Radar completo v10.1",
+        "source": "Radar completo v11.0",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rankings": [{
             "ean": e.get("ean", ""),
@@ -447,10 +502,14 @@ def save_json(all_rankings, all_events, all_manga, output_path):
             "source": e.get("_source", ""),
             "url": e.get("url", ""),
         } for e in all_manga],
+        "youtube_trends": [{
+            "title": e.get("title", ""),
+            "url": e.get("url", ""),
+        } for e in all_youtube],
     }
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)
-    total = len(feed["rankings"]) + len(feed["local_events"]) + len(feed["manga_trends"])
+    total = len(feed["rankings"]) + len(feed["local_events"]) + len(feed["manga_trends"]) + len(feed["youtube_trends"])
     print(f"\n✓ JSON salvato: {output_path} ({total} segnali totali)")
 
 
@@ -535,6 +594,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--supabase-url")
     parser.add_argument("--supabase-key")
+    parser.add_argument("--youtube-key")
     parser.add_argument("--output", default="classifiche.json")
     parser.add_argument("--json-only", action="store_true")
     args = parser.parse_args()
@@ -543,15 +603,17 @@ def main():
     all_rankings = []
     all_events = []
     all_manga = []
+    all_youtube = []
     total_ingested = 0
     total_matched = 0
     has_db = args.supabase_url and args.supabase_key and not args.json_only
 
     print(f"{'='*60}")
-    print(f"  RADAR COMPLETO v10.1 — {chart_date}")
+    print(f"  RADAR COMPLETO v11.0 — {chart_date}")
     print(f"  Classifiche: {len(RANKING_CHARTS)}")
     print(f"  Eventi locali: {len(LOCAL_EVENT_SOURCES)} fonti")
     print(f"  Manga/anime: {len(MANGA_SOURCES)} fonti")
+    print(f"  YouTube API: {'Attiva' if args.youtube_key else 'Inattiva'}")
     print(f"{'='*60}\n")
 
     # ── CLASSIFICHE ────────────────────────────────────
@@ -625,12 +687,30 @@ def main():
                     print(f"   ⚠ DB: {e}")
         time.sleep(1.5)
 
+    # ── YOUTUBE BOOKTOK / MANGA ────────────────────────
+    print("\n\n━━━ YOUTUBE TREND ━━━")
+    if args.youtube_key:
+        yt_trends = fetch_youtube_trends(args.youtube_key)
+        print(f"   Trovati {len(yt_trends)} video in trend")
+        for yt in yt_trends:
+            yt["_source"] = "youtube"
+        all_youtube.extend(yt_trends)
+        if has_db and yt_trends:
+            try:
+                n = push_manga_trends(args.supabase_url, args.supabase_key, "youtube", yt_trends, signal_type="social_trend")
+                print(f"   → DB: {n} video inseriti in staging")
+            except Exception as e:
+                print(f"   ⚠ DB: {e}")
+    else:
+        print("   ⚠ YouTube API Key mancante, salto il recupero dei video.")
+
+
     # ── BRAIN CYCLE ─────────────────────────────────
     if has_db:
         run_brain_cycle(args.supabase_url, args.supabase_key)
 
     # ── SALVA JSON ─────────────────────────────────────
-    save_json(all_rankings, all_events, all_manga, args.output)
+    save_json(all_rankings, all_events, all_manga, all_youtube, args.output)
 
     # ── RIEPILOGO ──────────────────────────────────────
     print(f"\n{'='*60}")
@@ -638,6 +718,7 @@ def main():
     print(f"  Classifiche: {len(all_rankings)} titoli")
     print(f"  Eventi locali: {len(all_events)} eventi")
     print(f"  Manga trend: {len(all_manga)} segnali")
+    print(f"  YouTube trend: {len(all_youtube)} video")
     if total_ingested > 0:
         print(f"  Supabase rankings: {total_ingested} ingested, {total_matched} matched")
     
@@ -649,6 +730,8 @@ def main():
         print(f"    📍 {src}: {cnt} eventi")
     for src, cnt in Counter(e.get("_source","?") for e in all_manga).most_common():
         print(f"    🔥 {src}: {cnt} trend")
+    if all_youtube:
+        print(f"    ▶️ youtube: {len(all_youtube)} video")
     
     print(f"\n  Done!")
 
