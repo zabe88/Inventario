@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v9",
-  "updated_at": "2026-03-23T03:45:19.549287+00:00",
+  "updated_at": "2026-03-23T08:11:27.312521+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -43,18 +43,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804773276",
-      "title": "Le libere donne di Magliano",
-      "author": "",
-      "position": 6,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788821457111",
       "title": "Netter. Atlante di anatomia umana",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,7 +54,7 @@
       "ean": "9788863114287",
       "title": "Cime tempestose. Ediz. integrale",
       "author": "",
-      "position": 8,
+      "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
@@ -70,7 +62,7 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,7 +70,7 @@
       "ean": "9791255172086",
       "title": "Heated rivalry. Ediz. italiana",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,13 +78,21 @@
       "ean": "9788861853768",
       "title": "La metamorfosi",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822788351",
       "title": "Una di famiglia",
+      "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788879849456",
+      "title": "La lampada della conoscenza non-duale",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -123,18 +123,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788879849456",
-      "title": "La lampada della conoscenza non-duale",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863113853",
       "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
-      "position": 17,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,7 +134,7 @@
       "ean": "9788821454547",
       "title": "Psicologia dinamica. Dalle origini a Sigmund Freud",
       "author": "",
-      "position": 18,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,13 +142,21 @@
       "ean": "9788867908264",
       "title": "Il gioco delle risate",
       "author": "",
-      "position": 19,
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9789403206042",
       "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9789403212555",
+      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -387,18 +387,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804773276",
-      "title": "Le libere donne di Magliano",
-      "author": "",
-      "position": 29,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 30,
+      "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -406,7 +398,7 @@
       "ean": "9791255172086",
       "title": "Heated rivalry. Ediz. italiana",
       "author": "",
-      "position": 31,
+      "position": 30,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -414,7 +406,7 @@
       "ean": "9788861853768",
       "title": "La metamorfosi",
       "author": "",
-      "position": 32,
+      "position": 31,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -422,13 +414,21 @@
       "ean": "9788822788351",
       "title": "Una di famiglia",
       "author": "",
-      "position": 33,
+      "position": 32,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788820080914",
       "title": "Ancora insieme. Love me love me. Vol. 4",
+      "author": "",
+      "position": 33,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -539,24 +539,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788800744942",
-      "title": "Didattica della storia. Manuale per la f...",
+      "ean": "9788804413707",
+      "title": "Il ritorno della mummia",
       "author": "",
       "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804413707",
-      "title": "Il ritorno della mummia",
+      "ean": "9788804423997",
+      "title": "I prigionieri della torre",
       "author": "",
       "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804423997",
-      "title": "I prigionieri della torre",
+      "ean": "9788804446255",
+      "title": "Diana, Cupìdo e il commendatore",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -747,24 +747,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788883625169",
-      "title": "Papà-isola. Ediz. a colori",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788893481335",
-      "title": "Le tue antenate. Donne pioniere nella so...",
+      "ean": "9788883625169",
+      "title": "Papà-isola. Ediz. a colori",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788817179614",
-      "title": "Tutte le ragazze mentono",
+      "ean": "9788893481335",
+      "title": "Le tue antenate. Donne pioniere nella so...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -883,16 +883,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804544104",
-      "title": "XXX Manga. Il meglio del fumetto erotico...",
+      "ean": "9788804607779",
+      "title": "L'abbraccio",
       "author": "",
       "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788804584100",
-      "title": "Tex. L'uomo senza passato",
+      "ean": "9788804680529",
+      "title": "Monstress. Vol. 1: Risveglio",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1147,26 +1147,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788801047127",
-      "title": "Il libro della Parola. Introduzione alla...",
-      "author": "",
-      "position": 10,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788801054064",
       "title": "Carlo Acutis. La vita oltre il confine",
       "author": "",
-      "position": 11,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788801056334",
-      "title": "Parola del Signore. La Bibbia in lingua ...",
-      "author": "",
-      "position": 12,
+      "position": 10,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1174,7 +1158,7 @@
       "ean": "9788804453925",
       "title": "Tantra. La via dell'estasi sessuale",
       "author": "",
-      "position": 13,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1182,7 +1166,7 @@
       "ean": "9788804486848",
       "title": "L' arte della felicità",
       "author": "",
-      "position": 14,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1190,13 +1174,29 @@
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 15,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804538806",
       "title": "I vangeli gnostici",
+      "author": "",
+      "position": 14,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804544746",
+      "title": "Senza radici. Europa, relativismo, crist...",
+      "author": "",
+      "position": 15,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804551737",
+      "title": "Con te e senza di te",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1363,24 +1363,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
+      "ean": "9788804745440",
+      "title": "Profondo come il mare, leggero come il c...",
       "author": "",
       "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804745440",
-      "title": "Profondo come il mare, leggero come il c...",
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
       "author": "",
       "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788811016441",
-      "title": "Gesù e Cristo",
+      "ean": "9788821563324",
+      "title": "Vangelo e Atti degli apostoli. Nuova ver...",
       "author": "",
       "position": 39,
       "category": "religione",
@@ -1395,16 +1395,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854174603",
-      "title": "Il Corano. Ediz. integrale",
+      "ean": "9788811016441",
+      "title": "Gesù e Cristo",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788838252778",
-      "title": "Al prete ignoto. L’ecclesiologia implici...",
+      "ean": "9788811689072",
+      "title": "Il dono del silenzio",
       "author": "",
       "position": 42,
       "category": "religione",
