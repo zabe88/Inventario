@@ -1,22 +1,5 @@
 {
-  "source": "IBS bestseller scraper",
-  "updated_at": "2026-03-22T14:49:50Z",
-  "generated_by": "scripts/update_classifiche.py",
-  "settings": {
-    "max_pages": 5,
-    "categories": [
-      "Libri",
-      "Narrativa italiana",
-      "Narrativa straniera",
-      "Bambini e ragazzi",
-      "Religione e spiritualità"
-    ],
-    "periods": [
-      "1week",
-      "1month",
-      "1year"
-    ]
-  },
-  "errors": [],
+  "source": "Scraper classifiche IBS v2",
+  "updated_at": "2026-03-23T02:53:00.412551+00:00",
   "rankings": []
 }
