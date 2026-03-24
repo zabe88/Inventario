@@ -53,3 +53,7 @@ jobs:
     - name: 🦅 Scatena l'Oracolo (Uscite Mondadori/Vault)
       run: python ragno_mondadori.py
       continue-on-error: true
+      
+    - name: 🧙‍♂️ Scatena L'Archivista (Recupero Copertine)
+      run: python ragno_archivista.py
+      continue-on-error: true
