@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }} # <-- LA SERRATURA CORRETTA
 
     steps:
     - name: 📥 Scarica i file dal tuo repository
@@ -53,7 +53,7 @@ jobs:
     - name: 🦅 Scatena l'Oracolo (Uscite Mondadori/Vault)
       run: python ragno_mondadori.py
       continue-on-error: true
-      
+
     - name: 🧙‍♂️ Scatena L'Archivista (Recupero Copertine)
       run: python ragno_archivista.py
       continue-on-error: true
