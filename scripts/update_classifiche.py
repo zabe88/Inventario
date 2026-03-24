@@ -21,6 +21,18 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml",
 }
 
+VISITLUNIGIANA_HEADERS = {
+    **HEADERS,
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.7,en;q=0.5",
+    "Referer": "https://www.google.com/",
+    "DNT": "1",
+    "Upgrade-Insecure-Requests": "1",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+}
+
 
 def extract_isbn(url: str) -> str | None:
     m = re.search(r'(97[89]\d{10})', url or '')
@@ -28,13 +40,23 @@ def extract_isbn(url: str) -> str | None:
 
 
 def fetch_page(url: str) -> str | None:
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        return resp.text
-    except Exception as e:
-        print(f"  ⚠ Errore fetch: {e}")
-        return None
+    headers = VISITLUNIGIANA_HEADERS if "visitlunigiana.it" in (url or "") else HEADERS
+    last_error = None
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=headers, timeout=20)
+            if resp.status_code == 403 and "visitlunigiana.it" in (url or ""):
+                # 403 frequente su runner cloud: ritenta con lieve backoff, mantenendo headers più realistici
+                time.sleep(1.5 * (attempt + 1))
+                last_error = RuntimeError(f"403 Forbidden su {url}")
+                continue
+            resp.raise_for_status()
+            return resp.text
+        except Exception as e:
+            last_error = e
+            time.sleep(1.2 * (attempt + 1))
+    print(f"  ⚠ Errore fetch: {last_error}")
+    return None
 
 
 # ═══════════════════════════════════════════════════════
