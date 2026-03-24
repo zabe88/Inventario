@@ -5,84 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="referrer" content="no-referrer">
     
-    <title>Cervellone - Triage Magazzino</title>
+    <title>Cervellone - God Mode</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        body { font-family: -apple-system, sans-serif; background-color: #f4f4f9; margin: 0; padding: 15px; }
+        /* BASE APPLE DARK MODE */
+        :root { --bg: #000000; --surface: #1c1c1e; --text: #f5f5f7; --subtext: #86868b; --blue: #0a84ff; --red: #ff453a; --yellow: #ffd60a; --green: #32d74b; --purple: #bf5af2;}
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
         
-        .header { position: sticky; top: 0; background: #111; padding: 15px; z-index: 100; border-bottom: 4px solid #eab308; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
-        h1 { font-size: 20px; margin: 0 0 12px 0; color: white; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; justify-content: space-between;}
+        /* HEADER GLASSMORPHISM */
+        .header { position: sticky; top: 0; background: rgba(28, 28, 30, 0.75); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 15px 20px; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1);}
+        h1 { font-size: 22px; margin: 0 0 15px 0; font-weight: 700; letter-spacing: -0.5px; display: flex; align-items: center; justify-content: space-between;}
         
+        /* SEARCH BAR STILE IOS */
+        #search-box { width: 100%; padding: 12px 16px; font-size: 17px; border-radius: 12px; border: none; background: rgba(255,255,255,0.1); color: white; box-sizing: border-box; outline: none; transition: background 0.2s;}
+        #search-box:focus { background: rgba(255,255,255,0.15); box-shadow: 0 0 0 2px var(--blue); }
+        #search-box::placeholder { color: #86868b; }
+
+        /* RADAR WIDGET STILE IOS */
         #radar-widget { margin-bottom: 15px; }
-        #radar-toggle { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); color: #e0e7ff; padding: 12px 15px; border-radius: 8px; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: space-between; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.1s ease;}
-        #radar-toggle:active { transform: scale(0.98); }
-        .radar-icon { display: flex; align-items: center; gap: 8px; }
-        #radar-chevron { transition: transform 0.3s ease; }
-        #radar-chevron.open { transform: rotate(180deg); }
+        #radar-toggle { background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 15px; font-size: 13px; font-weight: 600; color: var(--blue); display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s;}
+        #radar-toggle:active { background: rgba(255,255,255,0.1); }
+        #radar-content { display: none; margin-top: 10px; background: var(--surface); border-radius: 12px; padding: 15px; font-size: 13px; max-height: 250px; overflow-y: auto;}
+        #radar-content.active { display: block; animation: fadeIn 0.3s ease;}
         
-        #radar-content { background: #0f172a; color: #cbd5e1; border-radius: 8px; padding: 0 15px; font-size: 14px; line-height: 1.6; display: none; margin-top: 5px; border: 1px solid #1e293b; max-height: 400px; overflow-y: auto;}
-        #radar-content.active { display: block; padding: 15px; }
-        
-        .radar-item { padding: 10px 0; border-bottom: 1px solid #1e293b; }
-        .radar-item:last-child { border-bottom: none; padding-bottom: 0; }
-        .badge-data { background: #4f46e5; color: white; padding: 3px 6px; border-radius: 4px; font-size: 11px; font-weight: bold; margin-right: 8px; display: inline-block; margin-bottom: 4px; letter-spacing: 0.5px;}
+        .radar-section-title { font-size: 11px; text-transform: uppercase; color: var(--subtext); font-weight: 700; margin-bottom: 8px; margin-top: 15px; letter-spacing: 0.5px;}
+        .radar-section-title:first-child { margin-top: 0; }
+        .radar-item { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); line-height: 1.4; color: #ddd;}
+        .radar-item:last-child { border-bottom: none; }
+        .badge-data { padding: 3px 6px; border-radius: 4px; font-size: 10px; font-weight: 800; margin-right: 6px; color: #000;}
 
-        #search-box { width: 100%; padding: 14px; font-size: 16px; border-radius: 8px; border: none; box-sizing: border-box; background: #fff; color: #333; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);}
-        #search-box:focus { outline: 2px solid #eab308; }
+        /* GRIGLIA LIBRI STILE PANELS */
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 16px; padding: 20px; }
         
-        .list-container { display: flex; flex-direction: column; gap: 15px; }
-        .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
-        .book-header { display: flex; gap: 15px; align-items: stretch; }
+        .book-card { display: flex; flex-direction: column; cursor: pointer; position: relative;}
+        .book-card:active .cover-wrapper { transform: scale(0.95); opacity: 0.8;}
         
-        .book-cover { width: 80px; height: 120px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 3px 6px rgba(0,0,0,0.15); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center; cursor: pointer; transition: transform 0.2s;}
-        .book-cover:active { transform: scale(0.93); }
+        .cover-wrapper { width: 100%; aspect-ratio: 2 / 3; border-radius: 8px; overflow: hidden; background: var(--surface); position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.5); transition: transform 0.2s, opacity 0.2s; border: 1px solid rgba(255,255,255,0.05);}
+        .cover-img { width: 100%; height: 100%; object-fit: cover; }
         
-        .book-info { flex: 1; display: flex; flex-direction: column; justify-content: center;}
-        .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
-        .book-meta { font-size: 13px; color: #555; line-height: 1.8; }
-        .badge { background: #e2e8f0; padding: 4px 8px; border-radius: 4px; font-weight: bold; color: #333; margin-right: 5px; }
+        /* BADGES SULLE COPERTINE */
+        .qty-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); color: white; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.1);}
+        .pos-badge { position: absolute; bottom: 6px; left: 6px; background: rgba(255,255,255,0.9); color: black; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 800;}
         
-        .ai-box { background: #111; border-left: 5px solid #eab308; border-radius: 6px; padding: 12px; font-size: 14px; color: #fef08a; line-height: 1.5; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); }
-        .ai-title { font-weight: bold; display: flex; align-items: center; gap: 5px; margin-bottom: 8px; color: #eab308; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
-        .ai-alert { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
-        .ai-alert:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0;}
-        
-        .ai-local-box { background: linear-gradient(to right, #2e1065, #1e1b4b); border-left: 5px solid #a855f7; border-radius: 6px; padding: 12px; font-size: 14px; color: #e9d5ff; line-height: 1.5; margin-top: -5px;}
-        .ai-local-title { font-weight: bold; color: #d8b4fe; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; display: flex; align-items: center; gap: 5px;}
+        .ai-overlay-badge { position: absolute; top: 6px; right: 6px; padding: 4px 6px; border-radius: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.5); z-index: 2;}
+        .ai-banner-bottom { position: absolute; bottom: 0; left: 0; width: 100%; padding: 4px 0; font-size: 10px; font-weight: bold; text-align: center; text-transform: uppercase; z-index: 2; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
 
-        .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px;}
-        button { border: none; border-radius: 8px; padding: 12px 5px; font-size: 13px; font-weight: bold; color: white; cursor: pointer; flex: 1 1 calc(20% - 8px); min-width: 65px; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
-        button:active { transform: scale(0.95); }
-        .btn-tenere { background-color: #10b981; } 
-        .btn-reso { background-color: #f97316; } 
-        .btn-regalo { background-color: #8b5cf6; } 
-        .btn-bundle { background-color: #ec4899; } 
-        .btn-mancante { background-color: #ef4444; } 
-        
-        .loading { text-align: center; color: #666; font-size: 18px; padding: 30px; font-weight: bold;}
+        /* INFO SOTTO LA COPERTINA */
+        .book-title { margin-top: 8px; font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .book-ean { font-size: 11px; color: var(--subtext); margin-top: 2px; font-family: monospace;}
 
-        /* STILE DEL POP-UP DELLA SINOSSI */
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 1000; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; backdrop-filter: blur(4px);}
-        .modal-box { background: #fff; width: 100%; max-width: 500px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); animation: slideUp 0.3s ease; display: flex; flex-direction: column; max-height: 85vh;}
-        .modal-header { background: #111; color: #fff; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid #3b82f6;}
-        .modal-header h2 { margin: 0; font-size: 16px; text-transform: uppercase; letter-spacing: 1px;}
-        .close-btn { background: none; border: none; color: #fff; font-size: 28px; cursor: pointer; padding: 0; line-height: 1; box-shadow: none; min-width: auto;}
-        .modal-content { padding: 20px; overflow-y: auto; background: #f8fafc;}
+        /* MODALE SCHEDA LIBRO (iOS Sheet style) */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 1000; justify-content: center; align-items: flex-end; }
+        .modal-box { background: var(--surface); width: 100%; max-width: 600px; max-height: 90vh; border-radius: 20px 20px 0 0; display: flex; flex-direction: column; animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); padding-bottom: constant(safe-area-inset-bottom); padding-bottom: env(safe-area-inset-bottom);}
         
-        .btn-google { background:#3b82f6; color:white; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:15px; box-shadow:0 4px 6px rgba(0,0,0,0.1); }
-        .btn-google:active { transform:scale(0.95); }
+        .modal-drag-handle { width: 40px; height: 5px; background: rgba(255,255,255,0.2); border-radius: 3px; margin: 10px auto; }
+        .modal-content { padding: 0 20px 20px 20px; overflow-y: auto; flex: 1;}
         
-        @keyframes slideUp { from { transform: translateY(30px); opacity: 0;} to { transform: translateY(0); opacity: 1;} }
+        .modal-book-header { display: flex; gap: 15px; margin-bottom: 20px; margin-top: 10px;}
+        .modal-book-cover { width: 100px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); object-fit: cover;}
+        .modal-book-title { font-size: 20px; font-weight: 700; margin: 0 0 5px 0; line-height: 1.2;}
+        .modal-book-meta { font-size: 13px; color: var(--subtext); margin-bottom: 3px;}
+        
+        .modal-synopsis { font-size: 14px; line-height: 1.5; color: #ddd; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 20px;}
+        .modal-ai-box { background: rgba(10, 132, 255, 0.1); border: 1px solid rgba(10, 132, 255, 0.3); padding: 15px; border-radius: 12px; margin-bottom: 20px;}
+        
+        /* BOTTONI TRIAGE DENTRO LA MODALE */
+        .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto;}
+        .btn-action { padding: 14px; border-radius: 12px; border: none; font-size: 14px; font-weight: 700; color: white; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 6px;}
+        .btn-action:active { filter: brightness(0.8); }
+        .btn-tenere { background: var(--green); }
+        .btn-reso { background: var(--red); }
+        .btn-regalo { background: var(--purple); }
+        .btn-bundle { background: var(--blue); grid-column: span 2;}
+
+        .loading { text-align: center; color: var(--subtext); font-size: 14px; padding: 40px; font-weight: 600;}
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { transform: translateY(100%);} to { transform: translateY(0);} }
+
+        /* Media query per schermi più grandi (iPad in orizzontale) */
+        @media (min-width: 600px) {
+            .grid-container { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+            .modal-box { border-radius: 20px; margin: 20px; align-self: center; height: auto; }
+            .modal-overlay { align-items: center; }
+        }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>👁️ IL CERVELLONE <span style="font-size:11px; background:#eab308; color:#000; padding:4px 8px; border-radius:6px; letter-spacing: 0;">GOD MODE</span></h1>
+        <h1>👁️ God Mode <span style="font-size:10px; background:var(--blue); color:#fff; padding:3px 6px; border-radius:4px; font-weight:bold; margin-left:10px;">LUNIGIANA</span></h1>
         
         <div id="radar-widget">
             <div id="radar-toggle" onclick="toggleRadar()">
-                <div class="radar-icon">📍 <span id="radar-summary">Analisi Intelligence in corso...</span></div>
+                <div class="radar-icon">📍 <span id="radar-summary">Intelligence...</span></div>
                 <div id="radar-chevron">▼</div>
             </div>
             <div id="radar-content">
@@ -90,18 +106,15 @@
             </div>
         </div>
 
-        <input type="text" id="search-box" placeholder="Cerca Scaffale, Titolo o EAN..." onkeyup="handleSearchInput()">
+        <input type="text" id="search-box" placeholder="Scansiona EAN o cerca titolo..." onkeyup="handleSearchInput()" autofocus>
     </div>
 
     <div id="loading" class="loading">Sincronizzazione Rete Neurale... 🧠</div>
-    <div class="list-container" id="book-list"></div>
+    <div class="grid-container" id="book-list"></div>
 
     <div id="book-modal" class="modal-overlay" onclick="closeModalOutside(event)">
         <div class="modal-box">
-            <div class="modal-header">
-                <h2>🔎 Scheda Intelligence</h2>
-                <button class="close-btn" onclick="closeBookModal()">&times;</button>
-            </div>
+            <div class="modal-drag-handle"></div>
             <div id="book-modal-content" class="modal-content">
                 </div>
         </div>
@@ -119,19 +132,13 @@
         let dbCharts = [];
         let dbLocalEvents = [];
 
-        const searchSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ECerco...%3C%2Ftext%3E%3C%2Fsvg%3E';
-        const noCoverSvg = 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%23e2e8f0%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3Ctext%20fill%3D%22%23666666%22%20font-family%3D%22sans-serif%22%20font-size%3D%2210%22%20dy%3D%225%22%20font-weight%3D%22bold%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20text-anchor%3D%22middle%22%3ENo%20Cover%3C%2Ftext%3E%3C%2Fsvg%3E';
-
         function toggleRadar() {
             const content = document.getElementById('radar-content');
-            const chevron = document.getElementById('radar-chevron');
             content.classList.toggle('active');
-            chevron.classList.toggle('open');
         }
 
         async function initCervellone() {
             try {
-                // Fetch ordinato per i segnali più recenti
                 const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(100);
                 if(res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
 
@@ -152,49 +159,45 @@
 
         function renderRadarDashboard() {
             const radarList = document.getElementById('radar-list');
-            let html = `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-bottom: 8px;">
-                            <span style="color: #eab308; font-weight: bold; font-size: 11px; letter-spacing: 1px;">🏆 VETRINA CONSIGLIATA OGGI</span>
-                        </div>`;
+            let html = `<div class="radar-section-title" style="color:var(--yellow);">🏆 VETRINA CONSIGLIATA</div>`;
             
             if (dbTrends.length > 0) {
-                dbTrends.slice(0, 3).forEach(t => { html += `<div class="radar-item"><span class="badge-data" style="background:#ef4444;">🔥 TREND</span> ${t.signal_text}</div>`; });
+                dbTrends.slice(0, 2).forEach(t => { html += `<div class="radar-item"><span class="badge-data" style="background:var(--red);">🔥 TREND</span> ${t.signal_text}</div>`; });
             }
             if (dbReleases.length > 0) {
-                dbReleases.slice(0, 3).forEach(r => {
+                dbReleases.slice(0, 2).forEach(r => {
                     let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
                     let dataStr = dataMatch ? dataMatch[0] : "USCITA";
                     let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
-                    html += `<div class="radar-item"><span class="badge-data" style="background:#3b82f6;">📅 ${dataStr}</span> ${testoPulito}</div>`;
+                    html += `<div class="radar-item"><span class="badge-data" style="background:var(--blue);">📅 ${dataStr}</span> ${testoPulito}</div>`;
                 });
             }
-            if (dbTrends.length === 0 && dbReleases.length === 0) { html += `<div class="radar-item" style="color:#888;">Nessun dato nazionale fresco.</div>`; }
+            if (dbTrends.length === 0 && dbReleases.length === 0) { html += `<div class="radar-item" style="color:var(--subtext);">Nessun dato nazionale fresco.</div>`; }
 
-            html += `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-top: 15px; margin-bottom: 8px;">
-                        <span style="color: #a855f7; font-weight: bold; font-size: 11px; letter-spacing: 1px;">📍 EVENTI IN LUNIGIANA</span>
-                    </div>`;
+            html += `<div class="radar-section-title" style="color:var(--purple);">📍 EVENTI IN LUNIGIANA</div>`;
 
             if(dbLocalEvents.length === 0) {
-                html += `<div class="radar-item" style="color:#888;">Nessun evento confermato nel database fresco.</div>`;
+                html += `<div class="radar-item" style="color:var(--subtext);">Nessun evento confermato nel database.</div>`;
             } else {
-                dbLocalEvents.forEach(e => {
+                dbLocalEvents.slice(0, 3).forEach(e => {
                     let testo = e.signal_text;
                     let fonteMatch = testo.match(/\[(.*?)\]/);
-                    let fonte = fonteMatch ? fonteMatch[1].substring(0, 10).toUpperCase() : "LOCAL";
+                    let fonte = fonteMatch ? fonteMatch[1].substring(0, 8).toUpperCase() : "LOCAL";
                     let dataMatch = testo.match(/\d{2}\/\d{2}\/\d{4}/);
                     if(dataMatch) fonte = dataMatch[0]; 
                     let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
-                    html += `<div class="radar-item"><span class="badge-data" style="background:#a855f7;">${fonte}</span> ${testoPulito}</div>`;
+                    html += `<div class="radar-item"><span class="badge-data" style="background:var(--purple); color:white;">${fonte}</span> ${testoPulito}</div>`;
                 });
             }
             
             radarList.innerHTML = html;
-            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi | Vetrina Aggiornata`;
+            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi attivi`;
         }
 
         function handleSearchInput() {
             const query = document.getElementById('search-box').value.trim();
             clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => { loadBooks(query); }, 500); 
+            searchTimeout = setTimeout(() => { loadBooks(query); }, 300); 
         }
 
         async function loadBooks(searchQuery = '') {
@@ -203,7 +206,7 @@
             document.getElementById('book-list').innerHTML = ''; 
 
             try {
-                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(200); 
+                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(100); 
                 if (searchQuery !== '') {
                     queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
                 } else {
@@ -218,10 +221,9 @@
         }
 
         function analyzeBook(book) {
-            let alerts = [];
-            let localAlerts = [];
+            let alerts = []; let localAlerts = [];
             let title = book.titolo ? book.titolo.toLowerCase() : '';
-            if (!title) return { html: '', color: '#ccc' }; 
+            if (!title) return { badgeHtml: '', alertHtml: '', color: '#ccc' }; 
             
             let isTrend = false; let isChart = false; let isReleaseImminent = null;
             if (title.length > 5) {
@@ -234,191 +236,165 @@
             let isVariant = title.includes('variant') || title.includes('limited') || title.includes('special');
             let giacenze = book.giacenti || 0;
 
-            let cardBorderColor = "#ccc";
+            let badgeHtml = '';
+            let alertHtml = ''; // Per la modale interna
 
+            // LOGICA DEI BADGE SOVRAPPOSTI (Solo i più importanti per la griglia)
             if (isReleaseImminent) { 
-                let testoPulito = isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
-                alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${testoPulito.substring(0, 60)}...</div>`); 
-                cardBorderColor = "#3b82f6"; 
+                badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(10, 132, 255, 0.9); color:white;">📅 USCITA</div>`;
+                alertHtml += `<div>📅 <b>USCITA IMMINENTE:</b> ${isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim()}</div>`;
+            } else if (isTrend && isVol1) { 
+                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--yellow); color:black;">👑 GRAAL</div>`;
+                alertHtml += `<div>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>`;
+            } else if (isTrend && giacenze <= 2) { 
+                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--red); color:white;">🚨 STOCK</div>`;
+                alertHtml += `<div>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie!</div>`;
+            } else if (isChart) { 
+                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--green); color:black;">📈 TOP</div>`;
+                alertHtml += `<div>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>`;
+            } else if (!isTrend && !isChart && !isReleaseImminent && giacenze > 5) { 
+                badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(142, 142, 147, 0.9); color:white;">⚰️ ZAVORRA</div>`;
+                alertHtml += `<div>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${giacenze} copie a poltrire.</div>`;
             }
-            if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
-            else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione. Tienila.</div>"); cardBorderColor = "#eab308"; }
-            else if (isTrend && giacenze <= 2) { alerts.push(`<div class='ai-alert' style='color:#ef4444;'>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie! Ordina subito.</div>`); cardBorderColor = "#ef4444"; }
-            else if (isChart) { alerts.push("<div class='ai-alert'>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>"); cardBorderColor = "#10b981"; }
-            else if (isVol1 && !isTrend) { alerts.push("<div class='ai-alert'>🎣 <b>L'ESCA:</b> È un Numero 1. Esponi di piatto per agganciare il cliente.</div>"); cardBorderColor = "#3b82f6"; }
-            else if (!isTrend && !isChart && !isReleaseImminent && giacenze > 5) { alerts.push(`<div class='ai-alert' style='color:#94a3b8;'>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${giacenze} copie a poltrire. SCONTA O RENDI.</div>`); cardBorderColor = "#94a3b8"; }
-            
+
             let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
             paroleChiaveLocali.forEach(parola => {
                 let regexParola = new RegExp(`\\b${parola}\\b`, 'i');
                 if (regexParola.test(title)) {
-                    localAlerts.push(`Tocca il tema "<b>${parola.toUpperCase()}</b>" del Radar Eventi! Vetrina Tematica.`);
-                    if(cardBorderColor === "#ccc" || cardBorderColor === "#94a3b8") cardBorderColor = "#a855f7"; 
+                    if(!badgeHtml.includes('ai-overlay-badge')) badgeHtml += `<div class="ai-overlay-badge" style="background:var(--purple); color:white;">📍 LOCAL</div>`;
+                    alertHtml += `<div style="margin-top:8px; color:var(--purple);">📍 <b>ASSIST:</b> Tocca il tema "${parola.toUpperCase()}" del Radar Eventi!</div>`;
                 }
             });
 
-            let boxHtml = '';
-            if (alerts.length > 0) { boxHtml += `<div class="ai-box"><div class="ai-title">👁️ IL CERVELLONE ORDINA:</div>${alerts.join("")}</div>`; }
-            if (localAlerts.length > 0) { boxHtml += `<div class="ai-local-box"><div class="ai-local-title">📍 ASSIST TERRITORIALE:</div>${localAlerts.join("<br>")}</div>`; }
-            
-            return { html: boxHtml, color: cardBorderColor };
+            return { badgeHtml, alertHtml };
+        }
+
+        function renderList(books) {
+            const container = document.getElementById('book-list');
+            if(books.length === 0) { container.innerHTML = '<div class="loading">Nessun libro trovato in magazzino.</div>'; return; }
+
+            books.forEach(book => {
+                try {
+                    const div = document.createElement('div');
+                    div.id = 'card-' + book.id;
+                    div.className = 'book-card';
+                    
+                    const coverId = 'cover-' + book.id;
+                    const aiData = analyzeBook(book);
+                    const safeTitle = encodeURIComponent(book.titolo || '');
+                    const safeAlert = encodeURIComponent(aiData.alertHtml || '');
+                    
+                    // L'intera card è cliccabile e apre la Modale Apple
+                    div.onclick = () => apriDettaglio(book.id, book.ean, safeTitle, book.posizione_scaffale, book.giacenti, safeAlert);
+
+                    div.innerHTML = `
+                        <div class="cover-wrapper">
+                            <img class="cover-img" id="${coverId}" src="https://covers.openlibrary.org/b/id/1-S.jpg" alt="Cover">
+                            <div class="qty-badge">${book.giacenti || 0}</div>
+                            <div class="pos-badge">${book.posizione_scaffale || 'ND'}</div>
+                            ${aiData.badgeHtml}
+                        </div>
+                        <div class="book-title">${book.titolo || 'Senza Titolo'}</div>
+                        <div class="book-ean">${book.ean || ''}</div>
+                    `;
+                    container.appendChild(div);
+                    fetchCoverItaliana(book.ean, coverId);
+                } catch (e) { console.error("Errore render libro:", e); }
+            });
         }
 
         async function fetchCoverItaliana(ean, imgId) {
             const imgElement = document.getElementById(imgId);
             if (!imgElement) return;
             const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
-            if (!cleanEan || cleanEan.length < 10) { imgElement.src = noCoverSvg; return; }
+            if (!cleanEan || cleanEan.length < 10) return;
 
             const fallbacks = [
                 `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
-                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,       
-                `https://covers.openlibrary.org/b/isbn/${cleanEan}-M.jpg?default=false`, 
-                noCoverSvg 
+                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`
             ];
 
-            let currentFallbackIndex = 0;
             imgElement.onerror = function() {
-                if (currentFallbackIndex < fallbacks.length) {
-                    imgElement.src = fallbacks[currentFallbackIndex];
-                    currentFallbackIndex++;
-                } else {
-                    imgElement.onerror = null; 
-                    imgElement.src = noCoverSvg;
-                }
+                imgElement.onerror = null; 
+                imgElement.src = fallbacks[1]; // Prova la seconda se la prima fallisce
             };
             imgElement.src = fallbacks[0];
-            currentFallbackIndex = 1; 
         }
 
-        function renderList(books) {
-            const container = document.getElementById('book-list');
-            container.innerHTML = ''; 
-            
-            if(books.length === 0) { container.innerHTML = '<div class="loading">Nessun libro trovato! 🕵️‍♂️</div>'; return; }
-
-            books.forEach(book => {
-                try {
-                    const pos = book.posizione_scaffale || 'ND';
-                    const div = document.createElement('div');
-                    div.id = 'card-' + book.id;
-                    const coverId = 'cover-' + book.id;
-                    
-                    const aiData = analyzeBook(book);
-                    
-                    div.className = 'book-card';
-                    div.style.borderLeftColor = aiData.color;
-
-                    const safeTitle = encodeURIComponent(book.titolo || '');
-
-                    div.innerHTML = `
-                        <div class="book-header">
-                            <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover" onclick="apriSinossi('${book.ean}', '${safeTitle}')" title="Clicca per leggere la trama!">
-                            <div class="book-info">
-                                <div class="book-title">${book.titolo || 'Senza Titolo'}</div>
-                                <div class="book-meta">
-                                    <span class="badge">Pos: ${pos}</span> 
-                                    <span class="badge" style="background:#111; color:#fff;">Q.tà: ${book.giacenti || 0}</span><br>
-                                    EAN: ${book.ean || 'N/D'}
-                                </div>
-                            </div>
-                        </div>
-                        ${aiData.html}
-                        <div class="btn-row">
-                            <button class="btn-tenere" onclick="processBook('${book.id}', 'presente', 'tenere')">✅ Tieni</button>
-                            <button class="btn-reso" onclick="processBook('${book.id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
-                            <button class="btn-regalo" onclick="processBook('${book.id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
-                            <button class="btn-bundle" onclick="processBook('${book.id}', 'presente', 'crea_bundle')">🎀 Bundle</button>
-                            <button class="btn-mancante" onclick="processBook('${book.id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
-                        </div>
-                    `;
-                    container.appendChild(div);
-                    fetchCoverItaliana(book.ean, coverId);
-                } catch (e) { console.error("Errore saltato sul libro:", e); }
-            });
-        }
-
-        // --- LA MAGIA DI GOOGLE BOOKS V3 (IL TRIPLO COLPO) ---
-        async function apriSinossi(ean, titoloCodificato) {
+        // --- LA MODALE STILE APPLE CON SINOSSI E TRIAGE ---
+        async function apriDettaglio(id, ean, titoloCodificato, pos, giacenti, alertCodificato) {
             const modal = document.getElementById('book-modal');
             const content = document.getElementById('book-modal-content');
             const titolo = decodeURIComponent(titoloCodificato);
+            const alertHtml = decodeURIComponent(alertCodificato);
+            const cleanEan = ean ? String(ean).replace(/\D/g, '') : '';
+            const imgUrl = `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`;
             
             modal.style.display = 'flex';
-            content.innerHTML = '<div class="loading">Recupero informazioni dai server mondiali... 🌍</div>';
+            
+            // Layout Base della Modale
+            content.innerHTML = `
+                <div class="modal-book-header">
+                    <img src="${imgUrl}" class="modal-book-cover" onerror="this.src='https://covers.openlibrary.org/b/id/1-M.jpg'">
+                    <div>
+                        <h2 class="modal-book-title">${titolo}</h2>
+                        <div class="modal-book-meta"><b>EAN:</b> ${ean || 'N/D'}</div>
+                        <div class="modal-book-meta"><b>Posizione:</b> ${pos || 'ND'} | <b>Giacenza:</b> ${giacenti || 0}</div>
+                    </div>
+                </div>
+                
+                ${alertHtml ? `<div class="modal-ai-box">${alertHtml}</div>` : ''}
+                
+                <div id="sinossi-container" class="modal-synopsis">
+                    <span style="color:var(--subtext);">⏳ Ricerca trama nei server Google...</span>
+                </div>
+                
+                <div class="action-grid">
+                    <button class="btn-action btn-tenere" onclick="processBook('${id}', 'presente', 'tenere')">✅ Tieni</button>
+                    <button class="btn-action btn-reso" onclick="processBook('${id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
+                    <button class="btn-action btn-regalo" onclick="processBook('${id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
+                    <button class="btn-action btn-mancante" onclick="processBook('${id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
+                    <button class="btn-action btn-bundle" onclick="processBook('${id}', 'presente', 'crea_bundle')">🎀 Crea Bundle</button>
+                </div>
+            `;
 
-            const cleanEan = ean ? String(ean).replace(/\D/g, '') : '';
+            // Estrazione Google Books asincrona (Triplo Colpo)
             let data = null;
-
             try {
-                // TENTATIVO 1: Ricerca ISBN pura (la più precisa)
                 if (cleanEan && cleanEan.length >= 10) {
                     let res1 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
                     let d1 = await res1.json();
-                    if (d1.items && d1.items.length > 0) {
-                        data = d1;
-                    }
+                    if (d1.items && d1.items.length > 0) data = d1;
                 }
-
-                // TENTATIVO 2: Ricerca per Titolo Esatto
                 if (!data) {
                     let titoloPulito = titolo.replace(/vol\..*/i, '').replace(/n\..*/i, '').replace(/\(.*/, '').trim();
                     let res2 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titoloPulito)}`);
                     let d2 = await res2.json();
-                    if (d2.items && d2.items.length > 0) {
-                        data = d2;
-                    } else {
-                        // TENTATIVO 3: Ricerca Brutale (Niente intitle, cerca ovunque)
+                    if (d2.items && d2.items.length > 0) data = d2;
+                    else {
                         let res3 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(titoloPulito)}`);
                         let d3 = await res3.json();
-                        if (d3.items && d3.items.length > 0) {
-                            data = d3;
-                        }
+                        if (d3.items && d3.items.length > 0) data = d3;
                     }
                 }
 
-                // MOSTRA I RISULTATI
+                const sinossiDiv = document.getElementById('sinossi-container');
                 if (data && data.items && data.items.length > 0) {
                     const info = data.items[0].volumeInfo;
-                    const desc = info.description ? info.description : '<i>Sinossi non fornita dall\'editore per questo volume.</i>';
-                    const autori = info.authors ? info.authors.join(', ') : 'Sconosciuto';
-                    const editore = info.publisher ? info.publisher : 'N/D';
-                    const pagine = info.pageCount ? `${info.pageCount} pagine` : '';
-                    const cover = info.imageLinks ? (info.imageLinks.thumbnail || info.imageLinks.smallThumbnail) : noCoverSvg;
-
-                    content.innerHTML = `
-                        <div style="display:flex; gap:15px; margin-bottom:15px;">
-                            <img src="${cover}" style="width:90px; height:130px; border-radius:6px; box-shadow:0 3px 10px rgba(0,0,0,0.15); object-fit:cover;">
-                            <div>
-                                <h3 style="margin:0 0 8px 0; font-size:18px; color:#111;">${info.title}</h3>
-                                <div style="font-size:14px; color:#444; margin-bottom:4px;"><b>✍️ Autore:</b> ${autori}</div>
-                                <div style="font-size:14px; color:#444; margin-bottom:4px;"><b>🏢 Editore:</b> ${editore}</div>
-                                <div style="font-size:14px; color:#666;"><b>📄 Formato:</b> ${pagine}</div>
-                            </div>
-                        </div>
-                        <div style="background:#fff; padding:15px; border-radius:8px; border:1px solid #e2e8f0; font-size:14px; line-height:1.6; color:#333;">
-                            <b style="color:#3b82f6;">📖 LA TRAMA:</b><br><br>
-                            ${desc}
-                        </div>
-                    `;
+                    const desc = info.description ? info.description : 'Nessuna trama fornita dall\'editore.';
+                    sinossiDiv.innerHTML = `<b>📖 TRAMA:</b><br>${desc}`;
                 } else {
-                    // PIANO Z: Se Google Books fallisce, offriamo una scorciatoia a Google Web!
-                    content.innerHTML = `
-                        <div style="text-align:center; padding:30px 10px;">
-                            <h3 style="margin-bottom:10px;">${titolo}</h3>
-                            <p style="color:#666; margin-bottom:20px;">I server globali di Google Books non hanno una scheda per questa specifica edizione (capita spesso con i manga italiani).</p>
-                            <a href="https://www.google.com/search?q=libro+${encodeURIComponent(titolo)}" target="_blank" class="btn-google">🔍 Cerca su Google Web</a>
-                        </div>`;
+                    sinossiDiv.innerHTML = `<span style="color:var(--subtext);">Nessuna scheda Google trovata.</span> <br><br> <a href="https://www.google.com/search?q=libro+${encodeURIComponent(titolo)}" target="_blank" style="color:var(--blue); text-decoration:none; font-weight:bold;">🔍 Cerca su Google Web</a>`;
                 }
             } catch (error) {
-                content.innerHTML = `<div style="text-align:center; padding:20px; color:#ef4444; font-weight:bold;">Errore di connessione ai database globali.</div>`;
+                document.getElementById('sinossi-container').innerHTML = `<span style="color:var(--red);">Errore connessione server Google.</span>`;
             }
         }
 
-        function closeBookModal() { document.getElementById('book-modal').style.display = 'none'; }
-        function closeModalOutside(event) { if (event.target === document.getElementById('book-modal')) closeBookModal(); }
+        function closeModalOutside(event) { if (event.target === document.getElementById('book-modal') || event.target.className === 'modal-drag-handle') document.getElementById('book-modal').style.display = 'none'; }
 
         async function processBook(id, status, decision) {
+            document.getElementById('book-modal').style.display = 'none';
             document.getElementById('card-' + id).style.opacity = '0.2';
             document.getElementById('card-' + id).style.pointerEvents = 'none';
             try {
