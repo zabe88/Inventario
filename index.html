@@ -8,20 +8,16 @@
     <title>Cervellone - God Mode</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        /* BASE APPLE DARK MODE */
         :root { --bg: #000000; --surface: #1c1c1e; --text: #f5f5f7; --subtext: #86868b; --blue: #0a84ff; --red: #ff453a; --yellow: #ffd60a; --green: #32d74b; --purple: #bf5af2;}
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
         
-        /* HEADER GLASSMORPHISM */
         .header { position: sticky; top: 0; background: rgba(28, 28, 30, 0.75); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 15px 20px; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1);}
         h1 { font-size: 22px; margin: 0 0 15px 0; font-weight: 700; letter-spacing: -0.5px; display: flex; align-items: center; justify-content: space-between;}
         
-        /* SEARCH BAR STILE IOS */
         #search-box { width: 100%; padding: 12px 16px; font-size: 17px; border-radius: 12px; border: none; background: rgba(255,255,255,0.1); color: white; box-sizing: border-box; outline: none; transition: background 0.2s;}
         #search-box:focus { background: rgba(255,255,255,0.15); box-shadow: 0 0 0 2px var(--blue); }
         #search-box::placeholder { color: #86868b; }
 
-        /* RADAR WIDGET STILE IOS */
         #radar-widget { margin-bottom: 15px; }
         #radar-toggle { background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 15px; font-size: 13px; font-weight: 600; color: var(--blue); display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s;}
         #radar-toggle:active { background: rgba(255,255,255,0.1); }
@@ -34,7 +30,6 @@
         .radar-item:last-child { border-bottom: none; }
         .badge-data { padding: 3px 6px; border-radius: 4px; font-size: 10px; font-weight: 800; margin-right: 6px; color: #000;}
 
-        /* GRIGLIA LIBRI STILE PANELS */
         .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 16px; padding: 20px; }
         
         .book-card { display: flex; flex-direction: column; cursor: pointer; position: relative;}
@@ -43,18 +38,15 @@
         .cover-wrapper { width: 100%; aspect-ratio: 2 / 3; border-radius: 8px; overflow: hidden; background: var(--surface); position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.5); transition: transform 0.2s, opacity 0.2s; border: 1px solid rgba(255,255,255,0.05);}
         .cover-img { width: 100%; height: 100%; object-fit: cover; }
         
-        /* BADGES SULLE COPERTINE */
         .qty-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); color: white; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.1);}
         .pos-badge { position: absolute; bottom: 6px; left: 6px; background: rgba(255,255,255,0.9); color: black; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 800;}
         
         .ai-overlay-badge { position: absolute; top: 6px; right: 6px; padding: 4px 6px; border-radius: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.5); z-index: 2;}
         .ai-banner-bottom { position: absolute; bottom: 0; left: 0; width: 100%; padding: 4px 0; font-size: 10px; font-weight: bold; text-align: center; text-transform: uppercase; z-index: 2; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
 
-        /* INFO SOTTO LA COPERTINA */
         .book-title { margin-top: 8px; font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .book-ean { font-size: 11px; color: var(--subtext); margin-top: 2px; font-family: monospace;}
 
-        /* MODALE SCHEDA LIBRO (iOS Sheet style) */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 1000; justify-content: center; align-items: flex-end; }
         .modal-box { background: var(--surface); width: 100%; max-width: 600px; max-height: 90vh; border-radius: 20px 20px 0 0; display: flex; flex-direction: column; animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); padding-bottom: constant(safe-area-inset-bottom); padding-bottom: env(safe-area-inset-bottom);}
         
@@ -69,7 +61,6 @@
         .modal-synopsis { font-size: 14px; line-height: 1.5; color: #ddd; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 20px;}
         .modal-ai-box { background: rgba(10, 132, 255, 0.1); border: 1px solid rgba(10, 132, 255, 0.3); padding: 15px; border-radius: 12px; margin-bottom: 20px;}
         
-        /* BOTTONI TRIAGE DENTRO LA MODALE */
         .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto;}
         .btn-action { padding: 14px; border-radius: 12px; border: none; font-size: 14px; font-weight: 700; color: white; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 6px;}
         .btn-action:active { filter: brightness(0.8); }
@@ -83,7 +74,6 @@
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         @keyframes slideUp { from { transform: translateY(100%);} to { transform: translateY(0);} }
 
-        /* Media query per schermi più grandi (iPad in orizzontale) */
         @media (min-width: 600px) {
             .grid-container { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
             .modal-box { border-radius: 20px; margin: 20px; align-self: center; height: auto; }
@@ -115,8 +105,7 @@
     <div id="book-modal" class="modal-overlay" onclick="closeModalOutside(event)">
         <div class="modal-box">
             <div class="modal-drag-handle"></div>
-            <div id="book-modal-content" class="modal-content">
-                </div>
+            <div id="book-modal-content" class="modal-content"></div>
         </div>
     </div>
 
@@ -131,6 +120,7 @@
         let dbReleases = [];
         let dbCharts = [];
         let dbLocalEvents = [];
+        let dbArchivista = {}; // LA LIBRERIA SEGRETA DELLE COPERTINE DELL'ARCHIVISTA
 
         function toggleRadar() {
             const content = document.getElementById('radar-content');
@@ -150,6 +140,16 @@
 
                 const res4 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'local_event').order('created_at', { ascending: false }).limit(100);
                 if(res4.data) dbLocalEvents = res4.data.filter(e => e.signal_text && !e.signal_text.toLowerCase().includes("nessun evento") && e.signal_text.length > 10);
+
+                // CARICHIAMO LE COPERTINE DELL'ARCHIVISTA
+                const res5 = await supabaseClient.from('external_signal_staging').select('feed_key, signal_text').eq('signal_type', 'book_cover').limit(5000);
+                if (res5.data) {
+                    res5.data.forEach(c => {
+                        if(c.signal_text !== 'NOT_FOUND') {
+                            dbArchivista[c.feed_key] = c.signal_text;
+                        }
+                    });
+                }
 
             } catch (err) { console.error("Errore fetch silenziato:", err); }
             
@@ -237,9 +237,8 @@
             let giacenze = book.giacenti || 0;
 
             let badgeHtml = '';
-            let alertHtml = ''; // Per la modale interna
+            let alertHtml = ''; 
 
-            // LOGICA DEI BADGE SOVRAPPOSTI (Solo i più importanti per la griglia)
             if (isReleaseImminent) { 
                 badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(10, 132, 255, 0.9); color:white;">📅 USCITA</div>`;
                 alertHtml += `<div>📅 <b>USCITA IMMINENTE:</b> ${isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim()}</div>`;
@@ -284,12 +283,11 @@
                     const safeTitle = encodeURIComponent(book.titolo || '');
                     const safeAlert = encodeURIComponent(aiData.alertHtml || '');
                     
-                    // L'intera card è cliccabile e apre la Modale Apple
                     div.onclick = () => apriDettaglio(book.id, book.ean, safeTitle, book.posizione_scaffale, book.giacenti, safeAlert);
 
                     div.innerHTML = `
                         <div class="cover-wrapper">
-                            <img class="cover-img" id="${coverId}" src="https://covers.openlibrary.org/b/id/1-S.jpg" alt="Cover">
+                            <img class="cover-img" id="${coverId}" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%232c2c2e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E" alt="Cover">
                             <div class="qty-badge">${book.giacenti || 0}</div>
                             <div class="pos-badge">${book.posizione_scaffale || 'ND'}</div>
                             ${aiData.badgeHtml}
@@ -307,8 +305,15 @@
             const imgElement = document.getElementById(imgId);
             if (!imgElement) return;
             const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
-            if (!cleanEan || cleanEan.length < 10) return;
+            
+            // 1. PRIMA CHIEDIAMO ALL'ARCHIVISTA (Se l'ha trovata di notte)
+            if (cleanEan && dbArchivista[cleanEan]) {
+                imgElement.src = dbArchivista[cleanEan];
+                return;
+            }
 
+            // 2. SE L'ARCHIVISTA NON SA NULLA, PROVIAMO LIBRACCIO/IBS
+            if (!cleanEan || cleanEan.length < 10) return;
             const fallbacks = [
                 `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
                 `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`
@@ -316,26 +321,26 @@
 
             imgElement.onerror = function() {
                 imgElement.onerror = null; 
-                imgElement.src = fallbacks[1]; // Prova la seconda se la prima fallisce
+                imgElement.src = fallbacks[1]; 
             };
             imgElement.src = fallbacks[0];
         }
 
-        // --- LA MODALE STILE APPLE CON SINOSSI E TRIAGE ---
         async function apriDettaglio(id, ean, titoloCodificato, pos, giacenti, alertCodificato) {
             const modal = document.getElementById('book-modal');
             const content = document.getElementById('book-modal-content');
             const titolo = decodeURIComponent(titoloCodificato);
             const alertHtml = decodeURIComponent(alertCodificato);
             const cleanEan = ean ? String(ean).replace(/\D/g, '') : '';
-            const imgUrl = `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`;
+            
+            // Usiamo la cover dell'Archivista se c'è, altrimenti Libraccio
+            let imgUrl = dbArchivista[cleanEan] ? dbArchivista[cleanEan] : `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`;
             
             modal.style.display = 'flex';
             
-            // Layout Base della Modale
             content.innerHTML = `
                 <div class="modal-book-header">
-                    <img src="${imgUrl}" class="modal-book-cover" onerror="this.src='https://covers.openlibrary.org/b/id/1-M.jpg'">
+                    <img src="${imgUrl}" class="modal-book-cover" onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%232c2c2e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E'">
                     <div>
                         <h2 class="modal-book-title">${titolo}</h2>
                         <div class="modal-book-meta"><b>EAN:</b> ${ean || 'N/D'}</div>
@@ -358,7 +363,6 @@
                 </div>
             `;
 
-            // Estrazione Google Books asincrona (Triplo Colpo)
             let data = null;
             try {
                 if (cleanEan && cleanEan.length >= 10) {
