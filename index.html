@@ -68,6 +68,10 @@
         .modal-header h2 { margin: 0; font-size: 16px; text-transform: uppercase; letter-spacing: 1px;}
         .close-btn { background: none; border: none; color: #fff; font-size: 28px; cursor: pointer; padding: 0; line-height: 1; box-shadow: none; min-width: auto;}
         .modal-content { padding: 20px; overflow-y: auto; background: #f8fafc;}
+        
+        .btn-google { background:#3b82f6; color:white; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:15px; box-shadow:0 4px 6px rgba(0,0,0,0.1); }
+        .btn-google:active { transform:scale(0.95); }
+        
         @keyframes slideUp { from { transform: translateY(30px); opacity: 0;} to { transform: translateY(0); opacity: 1;} }
     </style>
 </head>
@@ -334,7 +338,7 @@
             });
         }
 
-        // --- LA MAGIA DI GOOGLE BOOKS V2 (Doppio Colpo) ---
+        // --- LA MAGIA DI GOOGLE BOOKS V3 (IL TRIPLO COLPO) ---
         async function apriSinossi(ean, titoloCodificato) {
             const modal = document.getElementById('book-modal');
             const content = document.getElementById('book-modal-content');
@@ -347,7 +351,7 @@
             let data = null;
 
             try {
-                // TENTATIVO 1: Ricerca ISBN
+                // TENTATIVO 1: Ricerca ISBN pura (la più precisa)
                 if (cleanEan && cleanEan.length >= 10) {
                     let res1 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
                     let d1 = await res1.json();
@@ -356,15 +360,20 @@
                     }
                 }
 
-                // TENTATIVO 2: Ricerca per Titolo se il codice a barre fallisce
+                // TENTATIVO 2: Ricerca per Titolo Esatto
                 if (!data) {
                     let titoloPulito = titolo.replace(/vol\..*/i, '').replace(/n\..*/i, '').replace(/\(.*/, '').trim();
-                    let encodedTitolo = encodeURIComponent(titoloPulito);
-                    
-                    let res2 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodedTitolo}`);
+                    let res2 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titoloPulito)}`);
                     let d2 = await res2.json();
                     if (d2.items && d2.items.length > 0) {
                         data = d2;
+                    } else {
+                        // TENTATIVO 3: Ricerca Brutale (Niente intitle, cerca ovunque)
+                        let res3 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(titoloPulito)}`);
+                        let d3 = await res3.json();
+                        if (d3.items && d3.items.length > 0) {
+                            data = d3;
+                        }
                     }
                 }
 
@@ -393,10 +402,12 @@
                         </div>
                     `;
                 } else {
+                    // PIANO Z: Se Google Books fallisce, offriamo una scorciatoia a Google Web!
                     content.innerHTML = `
                         <div style="text-align:center; padding:30px 10px;">
                             <h3 style="margin-bottom:10px;">${titolo}</h3>
-                            <p style="color:#666;">Neanche con la ricerca di emergenza per titolo Google ha trovato questo volume. Probabilmente è un'edizione troppo specifica o indipendente.</p>
+                            <p style="color:#666; margin-bottom:20px;">I server globali di Google Books non hanno una scheda per questa specifica edizione (capita spesso con i manga italiani).</p>
+                            <a href="https://www.google.com/search?q=libro+${encodeURIComponent(titolo)}" target="_blank" class="btn-google">🔍 Cerca su Google Web</a>
                         </div>`;
                 }
             } catch (error) {
