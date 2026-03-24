@@ -1,413 +1,1357 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="referrer" content="no-referrer">
-    
-    <title>Cervellone - God Mode</title>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <style>
-        :root { --bg: #000000; --surface: #1c1c1e; --text: #f5f5f7; --subtext: #86868b; --blue: #0a84ff; --red: #ff453a; --yellow: #ffd60a; --green: #32d74b; --purple: #bf5af2;}
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
-        
-        .header { position: sticky; top: 0; background: rgba(28, 28, 30, 0.75); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 15px 20px; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1);}
-        h1 { font-size: 22px; margin: 0 0 15px 0; font-weight: 700; letter-spacing: -0.5px; display: flex; align-items: center; justify-content: space-between;}
-        
-        #search-box { width: 100%; padding: 12px 16px; font-size: 17px; border-radius: 12px; border: none; background: rgba(255,255,255,0.1); color: white; box-sizing: border-box; outline: none; transition: background 0.2s;}
-        #search-box:focus { background: rgba(255,255,255,0.15); box-shadow: 0 0 0 2px var(--blue); }
-        #search-box::placeholder { color: #86868b; }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Cervellone — Library</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #000000;
+      --bg-elevated: rgba(28, 28, 30, 0.82);
+      --surface: rgba(28, 28, 30, 0.94);
+      --surface-2: rgba(44, 44, 46, 0.72);
+      --surface-3: rgba(58, 58, 60, 0.55);
+      --stroke: rgba(255, 255, 255, 0.08);
+      --stroke-strong: rgba(255, 255, 255, 0.14);
+      --text: #f5f5f7;
+      --subtext: #98989d;
+      --subtle: #636366;
+      --blue: #0a84ff;
+      --green: #30d158;
+      --yellow: #ffd60a;
+      --orange: #ff9f0a;
+      --red: #ff453a;
+      --purple: #bf5af2;
+      --radius-xl: 24px;
+      --radius-lg: 18px;
+      --radius-md: 14px;
+      --shadow-lg: 0 20px 60px rgba(0,0,0,.38);
+      --shadow-md: 0 8px 24px rgba(0,0,0,.28);
+      --header-blur: saturate(180%) blur(22px);
+      --page-padding: clamp(14px, 2vw, 24px);
+      --card-min: 128px;
+    }
 
-        #radar-widget { margin-bottom: 15px; }
-        #radar-toggle { background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 15px; font-size: 13px; font-weight: 600; color: var(--blue); display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s;}
-        #radar-toggle:active { background: rgba(255,255,255,0.1); }
-        #radar-content { display: none; margin-top: 10px; background: var(--surface); border-radius: 12px; padding: 15px; font-size: 13px; max-height: 250px; overflow-y: auto;}
-        #radar-content.active { display: block; animation: fadeIn 0.3s ease;}
-        
-        .radar-section-title { font-size: 11px; text-transform: uppercase; color: var(--subtext); font-weight: 700; margin-bottom: 8px; margin-top: 15px; letter-spacing: 0.5px;}
-        .radar-section-title:first-child { margin-top: 0; }
-        .radar-item { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); line-height: 1.4; color: #ddd;}
-        .radar-item:last-child { border-bottom: none; }
-        .badge-data { padding: 3px 6px; border-radius: 4px; font-size: 10px; font-weight: 800; margin-right: 6px; color: #000;}
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background:
+        radial-gradient(circle at top center, rgba(10,132,255,0.14), transparent 32%),
+        radial-gradient(circle at 20% 0%, rgba(191,90,242,0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
 
-        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 16px; padding: 20px; }
-        
-        .book-card { display: flex; flex-direction: column; cursor: pointer; position: relative;}
-        .book-card:active .cover-wrapper { transform: scale(0.95); opacity: 0.8;}
-        
-        .cover-wrapper { width: 100%; aspect-ratio: 2 / 3; border-radius: 8px; overflow: hidden; background: var(--surface); position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.5); transition: transform 0.2s, opacity 0.2s; border: 1px solid rgba(255,255,255,0.05);}
-        .cover-img { width: 100%; height: 100%; object-fit: cover; }
-        
-        .qty-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); color: white; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.1);}
-        .pos-badge { position: absolute; bottom: 6px; left: 6px; background: rgba(255,255,255,0.9); color: black; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 800;}
-        
-        .ai-overlay-badge { position: absolute; top: 6px; right: 6px; padding: 4px 6px; border-radius: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.5); z-index: 2;}
-        .ai-banner-bottom { position: absolute; bottom: 0; left: 0; width: 100%; padding: 4px 0; font-size: 10px; font-weight: bold; text-align: center; text-transform: uppercase; z-index: 2; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
+    .app-shell {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
 
-        .book-title { margin-top: 8px; font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-        .book-ean { font-size: 11px; color: var(--subtext); margin-top: 2px; font-family: monospace;}
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: calc(10px + env(safe-area-inset-top, 0px)) var(--page-padding) 14px;
+      backdrop-filter: var(--header-blur);
+      -webkit-backdrop-filter: var(--header-blur);
+      background: linear-gradient(to bottom, rgba(0,0,0,0.84), rgba(0,0,0,0.54));
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
 
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 1000; justify-content: center; align-items: flex-end; }
-        .modal-box { background: var(--surface); width: 100%; max-width: 600px; max-height: 90vh; border-radius: 20px 20px 0 0; display: flex; flex-direction: column; animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); padding-bottom: constant(safe-area-inset-bottom); padding-bottom: env(safe-area-inset-bottom);}
-        
-        .modal-drag-handle { width: 40px; height: 5px; background: rgba(255,255,255,0.2); border-radius: 3px; margin: 10px auto; }
-        .modal-content { padding: 0 20px 20px 20px; overflow-y: auto; flex: 1;}
-        
-        .modal-book-header { display: flex; gap: 15px; margin-bottom: 20px; margin-top: 10px;}
-        .modal-book-cover { width: 100px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); object-fit: cover;}
-        .modal-book-title { font-size: 20px; font-weight: 700; margin: 0 0 5px 0; line-height: 1.2;}
-        .modal-book-meta { font-size: 13px; color: var(--subtext); margin-bottom: 3px;}
-        
-        .modal-synopsis { font-size: 14px; line-height: 1.5; color: #ddd; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 20px;}
-        .modal-ai-box { background: rgba(10, 132, 255, 0.1); border: 1px solid rgba(10, 132, 255, 0.3); padding: 15px; border-radius: 12px; margin-bottom: 20px;}
-        
-        .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto;}
-        .btn-action { padding: 14px; border-radius: 12px; border: none; font-size: 14px; font-weight: 700; color: white; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 6px;}
-        .btn-action:active { filter: brightness(0.8); }
-        .btn-tenere { background: var(--green); }
-        .btn-reso { background: var(--red); }
-        .btn-regalo { background: var(--purple); }
-        .btn-bundle { background: var(--blue); grid-column: span 2;}
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
 
-        .loading { text-align: center; color: var(--subtext); font-size: 14px; padding: 40px; font-weight: 600;}
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 0;
+    }
 
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        @keyframes slideUp { from { transform: translateY(100%);} to { transform: translateY(0);} }
+    .eyebrow {
+      color: var(--subtext);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
 
-        @media (min-width: 600px) {
-            .grid-container { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
-            .modal-box { border-radius: 20px; margin: 20px; align-self: center; height: auto; }
-            .modal-overlay { align-items: center; }
-        }
-    </style>
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 36px);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+      font-weight: 760;
+      min-width: 0;
+    }
+
+    .brand-sub {
+      color: var(--subtext);
+      font-size: 14px;
+      letter-spacing: -0.01em;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      height: 30px;
+      padding: 0 11px;
+      border-radius: 999px;
+      background: rgba(10,132,255,.14);
+      color: #cfe4ff;
+      border: 1px solid rgba(10,132,255,.22);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+      flex: 0 0 auto;
+    }
+
+    .search-card,
+    .toolbar-card,
+    .radar-card {
+      border: 1px solid var(--stroke);
+      background: linear-gradient(180deg, rgba(36,36,38,.88), rgba(24,24,26,.88));
+      box-shadow: var(--shadow-md);
+    }
+
+    .search-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-radius: 18px;
+      padding: 12px 14px;
+    }
+
+    .search-icon {
+      color: var(--subtext);
+      font-size: 16px;
+      flex: 0 0 auto;
+    }
+
+    #search-box {
+      appearance: none;
+      border: none;
+      background: transparent;
+      color: var(--text);
+      width: 100%;
+      font-size: 17px;
+      outline: none;
+      padding: 0;
+      letter-spacing: -0.01em;
+    }
+
+    #search-box::placeholder { color: var(--subtext); }
+
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+
+    .toolbar-card {
+      border-radius: 16px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 54px;
+    }
+
+    .toolbar-card.stats {
+      flex: 1 1 380px;
+      justify-content: flex-start;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .toolbar-card.stats::-webkit-scrollbar { display: none; }
+
+    .stat-chip {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 92px;
+      padding-right: 10px;
+    }
+
+    .stat-label {
+      font-size: 11px;
+      color: var(--subtext);
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      font-weight: 700;
+    }
+
+    .stat-value {
+      font-size: 17px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      font-weight: 760;
+    }
+
+    .segmented {
+      flex: 0 1 auto;
+      display: inline-flex;
+      align-items: center;
+      background: rgba(255,255,255,0.05);
+      padding: 4px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.05);
+      gap: 4px;
+    }
+
+    .seg-btn {
+      appearance: none;
+      border: none;
+      border-radius: 10px;
+      min-width: 44px;
+      height: 38px;
+      padding: 0 12px;
+      background: transparent;
+      color: var(--subtext);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: .18s ease;
+    }
+
+    .seg-btn.active {
+      background: #ffffff;
+      color: #000000;
+      box-shadow: 0 2px 10px rgba(0,0,0,.18);
+    }
+
+    .radar-wrap {
+      padding: 16px var(--page-padding) 4px;
+    }
+
+    .radar-card {
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .radar-toggle {
+      appearance: none;
+      width: 100%;
+      border: none;
+      background: transparent;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 18px;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .radar-title-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .radar-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .radar-subtitle {
+      font-size: 13px;
+      color: var(--subtext);
+    }
+
+    .radar-chevron {
+      color: var(--subtext);
+      font-size: 14px;
+      transition: transform .22s ease;
+      flex: 0 0 auto;
+    }
+
+    .radar-card.open .radar-chevron { transform: rotate(180deg); }
+
+    .radar-content {
+      display: none;
+      padding: 0 18px 18px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .radar-card.open .radar-content { display: block; }
+
+    .radar-section-title {
+      margin: 18px 0 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--subtext);
+      font-weight: 800;
+    }
+
+    .radar-row {
+      display: flex;
+      gap: 10px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      align-items: flex-start;
+    }
+
+    .radar-row:last-child { border-bottom: none; }
+
+    .radar-badge {
+      margin-top: 1px;
+      flex: 0 0 auto;
+      height: 22px;
+      padding: 0 8px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .02em;
+      color: #000;
+    }
+
+    .radar-text {
+      font-size: 13px;
+      line-height: 1.42;
+      color: #e7e7ea;
+    }
+
+    .library-section {
+      padding: 8px var(--page-padding) max(24px, env(safe-area-inset-bottom, 0px));
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      flex: 1;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 8px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: 760;
+      letter-spacing: -0.04em;
+      margin: 0;
+    }
+
+    .section-meta {
+      color: var(--subtext);
+      font-size: 14px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--card-min), 1fr));
+      gap: 18px 14px;
+      align-content: start;
+    }
+
+    body.density-compact { --card-min: 112px; }
+    body.density-comfy { --card-min: 144px; }
+
+    .book-card {
+      cursor: pointer;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .book-card:focus-visible .cover-shell,
+    .book-card:hover .cover-shell {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 34px rgba(0,0,0,.34);
+      border-color: rgba(255,255,255,.14);
+    }
+
+    .cover-shell {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      border-radius: 18px;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.015)),
+        #161618;
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: 0 10px 24px rgba(0,0,0,.28);
+      transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, opacity .22s ease;
+      isolation: isolate;
+    }
+
+    .book-card:active .cover-shell {
+      transform: scale(.98);
+      opacity: .92;
+    }
+
+    .cover-shell::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(255,255,255,.05), transparent 26%, transparent 72%, rgba(0,0,0,.2));
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .cover-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      background: #1a1a1c;
+    }
+
+    .card-overlay-top,
+    .card-overlay-bottom {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      pointer-events: none;
+    }
+    .card-overlay-top { top: 10px; }
+    .card-overlay-bottom { bottom: 10px; }
+
+    .glass-badge,
+    .signal-badge,
+    .stock-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 0 8px;
+      border-radius: 999px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(0,0,0,.42);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .01em;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .stock-chip {
+      font-variant-numeric: tabular-nums;
+      min-width: 34px;
+      justify-content: center;
+    }
+
+    .signal-badge.blue { background: rgba(10,132,255,.85); border-color: rgba(10,132,255,.32); }
+    .signal-badge.green { background: rgba(48,209,88,.85); border-color: rgba(48,209,88,.28); color: #051007; }
+    .signal-badge.red { background: rgba(255,69,58,.88); border-color: rgba(255,69,58,.28); }
+    .signal-badge.yellow { background: rgba(255,214,10,.9); border-color: rgba(255,214,10,.3); color: #0c0a00; }
+    .signal-badge.purple { background: rgba(191,90,242,.86); border-color: rgba(191,90,242,.28); }
+    .signal-badge.gray { background: rgba(99,99,102,.86); border-color: rgba(255,255,255,.08); }
+
+    .book-meta {
+      padding: 10px 2px 0;
+      display: grid;
+      gap: 4px;
+    }
+
+    .book-title {
+      font-size: 14px;
+      line-height: 1.24;
+      font-weight: 680;
+      letter-spacing: -0.015em;
+      color: var(--text);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 35px;
+    }
+
+    .book-subline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .book-pos,
+    .book-ean {
+      color: var(--subtext);
+      font-size: 11px;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .book-pos { font-weight: 650; }
+    .book-ean { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+    .loading-state,
+    .empty-state {
+      border-radius: 22px;
+      border: 1px solid var(--stroke);
+      background: linear-gradient(180deg, rgba(36,36,38,.82), rgba(18,18,20,.86));
+      box-shadow: var(--shadow-md);
+      padding: 24px;
+      text-align: center;
+      color: var(--subtext);
+      font-size: 15px;
+    }
+
+    .empty-state h3,
+    .loading-state h3 {
+      color: var(--text);
+      margin: 0 0 6px;
+      font-size: 18px;
+      letter-spacing: -0.03em;
+    }
+
+    .load-more-wrap {
+      display: flex;
+      justify-content: center;
+      padding: 4px 0 10px;
+    }
+
+    .load-more-btn {
+      appearance: none;
+      border: 1px solid rgba(255,255,255,.08);
+      background: linear-gradient(180deg, rgba(42,42,44,.9), rgba(24,24,26,.92));
+      color: var(--text);
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: var(--shadow-md);
+    }
+
+    #scroll-sentinel { height: 1px; }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+      background: rgba(0,0,0,.48);
+      backdrop-filter: blur(14px) saturate(140%);
+      -webkit-backdrop-filter: blur(14px) saturate(140%);
+      z-index: 100;
+      padding: 12px;
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal-box {
+      width: min(760px, 100%);
+      max-height: min(92vh, 980px);
+      overflow: hidden;
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(30,30,32,.96), rgba(18,18,20,.96));
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-drag-handle {
+      width: 42px;
+      height: 5px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.16);
+      margin: 10px auto 0;
+      flex: 0 0 auto;
+    }
+
+    .modal-content {
+      overflow: auto;
+      padding: 14px 18px 18px;
+    }
+
+    .modal-book-header {
+      display: grid;
+      grid-template-columns: 118px minmax(0,1fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .modal-book-cover {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      border-radius: 20px;
+      object-fit: cover;
+      background: #1b1b1d;
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 14px 36px rgba(0,0,0,.35);
+    }
+
+    .modal-book-title {
+      margin: 2px 0 8px;
+      font-size: clamp(24px, 3vw, 32px);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 760;
+    }
+
+    .modal-book-meta {
+      color: var(--subtext);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .meta-card,
+    .modal-box-card {
+      background: linear-gradient(180deg, rgba(41,41,43,.88), rgba(28,28,30,.82));
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: 18px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .meta-card {
+      padding: 12px 14px;
+    }
+
+    .meta-card-label {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--subtext);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      margin-bottom: 5px;
+    }
+
+    .meta-card-value {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .modal-box-card {
+      margin-top: 16px;
+      padding: 16px;
+    }
+
+    .box-title {
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--subtext);
+      margin-bottom: 10px;
+    }
+
+    .modal-alerts {
+      font-size: 14px;
+      line-height: 1.52;
+      color: #ececef;
+      display: grid;
+      gap: 8px;
+    }
+
+    .modal-synopsis {
+      font-size: 15px;
+      line-height: 1.62;
+      color: #e2e2e6;
+    }
+
+    .action-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .btn-action {
+      appearance: none;
+      border: 1px solid rgba(255,255,255,.06);
+      min-height: 48px;
+      padding: 0 14px;
+      border-radius: 16px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 760;
+      letter-spacing: -0.01em;
+      cursor: pointer;
+      transition: transform .16s ease, filter .16s ease;
+    }
+    .btn-action:active { transform: scale(.985); filter: brightness(.95); }
+    .btn-keep { background: linear-gradient(180deg, rgba(48,209,88,.95), rgba(33,176,65,.95)); color: #041007; }
+    .btn-return { background: linear-gradient(180deg, rgba(255,69,58,.95), rgba(214,49,40,.95)); }
+    .btn-discount { background: linear-gradient(180deg, rgba(255,159,10,.95), rgba(227,124,0,.95)); color: #160b00; }
+    .btn-missing { background: linear-gradient(180deg, rgba(99,99,102,.94), rgba(72,72,74,.94)); }
+    .btn-bundle { background: linear-gradient(180deg, rgba(10,132,255,.95), rgba(0,102,215,.95)); grid-column: span 2; }
+
+    .skeleton-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--card-min), 1fr));
+      gap: 18px 14px;
+    }
+
+    .skeleton-card {
+      display: grid;
+      gap: 10px;
+    }
+
+    .skeleton-cover,
+    .skeleton-line {
+      background: linear-gradient(90deg, rgba(255,255,255,.04), rgba(255,255,255,.09), rgba(255,255,255,.04));
+      background-size: 220% 100%;
+      animation: shimmer 1.5s linear infinite;
+      border-radius: 18px;
+    }
+
+    .skeleton-cover { aspect-ratio: 2 / 3; }
+    .skeleton-line { height: 12px; border-radius: 999px; }
+    .skeleton-line.short { width: 58%; }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -20% 0; }
+    }
+
+    @media (max-width: 840px) {
+      .toolbar { flex-direction: column; }
+      .toolbar-card.stats { width: 100%; }
+      .toolbar-card:not(.stats) { width: 100%; justify-content: center; }
+      .modal-book-header { grid-template-columns: 96px minmax(0,1fr); }
+    }
+
+    @media (max-width: 600px) {
+      body.density-comfy { --card-min: 130px; }
+      body.density-compact { --card-min: 104px; }
+      .header { padding-bottom: 12px; }
+      .brand h1 { font-size: 30px; }
+      .brand-sub { font-size: 13px; }
+      .section-title { font-size: 20px; }
+      .book-title { font-size: 13px; min-height: 33px; }
+      .modal-overlay { align-items: flex-end; padding: 0; }
+      .modal-box {
+        width: 100%;
+        max-height: 94vh;
+        border-radius: 28px 28px 0 0;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      .meta-grid,
+      .action-grid { grid-template-columns: 1fr; }
+      .btn-bundle { grid-column: auto; }
+    }
+  </style>
 </head>
-<body>
-
-    <div class="header">
-        <h1>👁️ God Mode <span style="font-size:10px; background:var(--blue); color:#fff; padding:3px 6px; border-radius:4px; font-weight:bold; margin-left:10px;">LUNIGIANA</span></h1>
-        
-        <div id="radar-widget">
-            <div id="radar-toggle" onclick="toggleRadar()">
-                <div class="radar-icon">📍 <span id="radar-summary">Intelligence...</span></div>
-                <div id="radar-chevron">▼</div>
-            </div>
-            <div id="radar-content">
-                <div id="radar-list"></div>
-            </div>
+<body class="density-compact">
+  <div class="app-shell">
+    <header class="header">
+      <div class="topbar">
+        <div class="brand">
+          <div class="eyebrow">Inventory intelligence</div>
+          <div class="brand-row">
+            <h1>Cervellone</h1>
+            <span class="pill">God Mode · Lunigiana</span>
+          </div>
+          <div class="brand-sub">Parete copertine più densa, stile più pulito, segnali più leggibili.</div>
         </div>
+      </div>
 
-        <input type="text" id="search-box" placeholder="Scansiona EAN o cerca titolo..." onkeyup="handleSearchInput()" autofocus>
+      <div class="search-card">
+        <div class="search-icon">⌕</div>
+        <input type="text" id="search-box" placeholder="Scansiona EAN o cerca titolo" autocomplete="off" autofocus />
+      </div>
+
+      <div class="toolbar">
+        <div class="toolbar-card stats" id="stats-row">
+          <div class="stat-chip"><div class="stat-label">Libreria</div><div class="stat-value" id="stat-total">—</div></div>
+          <div class="stat-chip"><div class="stat-label">Copertine</div><div class="stat-value" id="stat-covers">—</div></div>
+          <div class="stat-chip"><div class="stat-label">Trend</div><div class="stat-value" id="stat-trends">—</div></div>
+          <div class="stat-chip"><div class="stat-label">Uscite</div><div class="stat-value" id="stat-releases">—</div></div>
+          <div class="stat-chip"><div class="stat-label">Eventi</div><div class="stat-value" id="stat-events">—</div></div>
+        </div>
+        <div class="toolbar-card">
+          <div class="segmented" aria-label="Densità griglia">
+            <button class="seg-btn active" data-density="compact" type="button">Compatta</button>
+            <button class="seg-btn" data-density="comfy" type="button">Ampia</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="radar-wrap">
+      <div class="radar-card" id="radar-card">
+        <button class="radar-toggle" type="button" id="radar-toggle">
+          <div class="radar-title-wrap">
+            <div class="radar-title">Radar strategico</div>
+            <div class="radar-subtitle" id="radar-summary">Caricamento segnali…</div>
+          </div>
+          <div class="radar-chevron">⌃</div>
+        </button>
+        <div class="radar-content" id="radar-content">
+          <div id="radar-list"></div>
+        </div>
+      </div>
     </div>
 
-    <div id="loading" class="loading">Sincronizzazione Rete Neurale... 🧠</div>
-    <div class="grid-container" id="book-list"></div>
+    <main class="library-section">
+      <div class="section-head">
+        <h2 class="section-title">Library wall</h2>
+        <div class="section-meta" id="library-meta">Sto preparando la libreria…</div>
+      </div>
 
-    <div id="book-modal" class="modal-overlay" onclick="closeModalOutside(event)">
-        <div class="modal-box">
-            <div class="modal-drag-handle"></div>
-            <div id="book-modal-content" class="modal-content"></div>
-        </div>
+      <div id="loading" class="loading-state" style="display:none;">
+        <h3>Sto caricando la parete copertine</h3>
+        <div>Prima i dati, poi le immagini. Qui la differenza la fa la quantità visibile subito.</div>
+      </div>
+
+      <div id="skeleton" class="skeleton-grid" aria-hidden="true"></div>
+      <div class="grid-container" id="book-list"></div>
+      <div class="load-more-wrap" id="load-more-wrap" style="display:none;">
+        <button class="load-more-btn" type="button" id="load-more-btn">Carica altre copertine</button>
+      </div>
+      <div id="scroll-sentinel"></div>
+    </main>
+  </div>
+
+  <div id="book-modal" class="modal-overlay">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-drag-handle"></div>
+      <div id="book-modal-content" class="modal-content"></div>
     </div>
+  </div>
 
-    <script>
-        const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
-        const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
-        const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-        
-        let allBooks = [];
-        let searchTimeout = null;
-        let dbTrends = [];
-        let dbReleases = [];
-        let dbCharts = [];
-        let dbLocalEvents = [];
-        let dbArchivista = {}; // LA LIBRERIA SEGRETA DELLE COPERTINE DELL'ARCHIVISTA
+  <script>
+    const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
+    const SUPABASE_KEY = 'sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3';
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-        function toggleRadar() {
-            const content = document.getElementById('radar-content');
-            content.classList.toggle('active');
+    const PAGE_SIZE = 240;
+    const PLACEHOLDER_SVG = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='300' viewBox='0 0 200 300'%3E%3Crect width='200' height='300' fill='%23151517'/%3E%3Crect x='16' y='16' width='168' height='268' rx='20' fill='%23222226' stroke='%23343438'/%3E%3Cpath d='M62 95h76' stroke='%2355555a' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M62 130h76' stroke='%2355555a' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M62 165h52' stroke='%2355555a' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E";
+
+    let allBooks = [];
+    let searchTimeout = null;
+    let dbTrends = [];
+    let dbReleases = [];
+    let dbCharts = [];
+    let dbLocalEvents = [];
+    let dbArchivista = {};
+    let loadedCount = 0;
+    let totalCount = 0;
+    let currentQuery = '';
+    let isLoadingPage = false;
+    let fullyLoaded = false;
+    let coverResolvedCount = 0;
+    let observer = null;
+
+    const $ = (sel) => document.querySelector(sel);
+
+    function createSkeleton(count = 14) {
+      const skeleton = $('#skeleton');
+      skeleton.innerHTML = '';
+      for (let i = 0; i < count; i++) {
+        const item = document.createElement('div');
+        item.className = 'skeleton-card';
+        item.innerHTML = `<div class="skeleton-cover"></div><div class="skeleton-line"></div><div class="skeleton-line short"></div>`;
+        skeleton.appendChild(item);
+      }
+    }
+
+    function setLoadingState(active) {
+      $('#loading').style.display = active && allBooks.length === 0 ? 'block' : 'none';
+      $('#skeleton').style.display = active ? 'grid' : 'none';
+    }
+
+    function updateStats() {
+      $('#stat-total').textContent = totalCount || allBooks.length || '0';
+      $('#stat-covers').textContent = coverResolvedCount;
+      $('#stat-trends').textContent = dbTrends.length;
+      $('#stat-releases').textContent = dbReleases.length;
+      $('#stat-events').textContent = dbLocalEvents.length;
+
+      const shown = allBooks.length;
+      const totalLabel = totalCount ? `${shown} di ${totalCount}` : `${shown}`;
+      $('#library-meta').textContent = currentQuery ? `${totalLabel} risultati · filtro attivo` : `${totalLabel} copertine visibili`;
+    }
+
+    function setupDensityToggle() {
+      document.querySelectorAll('.seg-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.seg-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          document.body.classList.toggle('density-compact', btn.dataset.density === 'compact');
+          document.body.classList.toggle('density-comfy', btn.dataset.density === 'comfy');
+        });
+      });
+    }
+
+    function toggleRadar(force = null) {
+      const radarCard = $('#radar-card');
+      const shouldOpen = typeof force === 'boolean' ? force : !radarCard.classList.contains('open');
+      radarCard.classList.toggle('open', shouldOpen);
+    }
+
+    function escapeHtml(value = '') {
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function coverCandidates(cleanEan) {
+      if (!cleanEan || cleanEan.length < 10) return [PLACEHOLDER_SVG];
+      return [
+        dbArchivista[cleanEan],
+        `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`,
+        `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`,
+        `https://books.google.com/books/content?vid=ISBN${cleanEan}&printsec=frontcover&img=1&zoom=1&source=gbs_api`,
+        `https://covers.openlibrary.org/b/isbn/${cleanEan}-L.jpg?default=false`,
+        PLACEHOLDER_SVG
+      ].filter(Boolean);
+    }
+
+    function resolveCover(imgElement, cleanEan) {
+      const candidates = coverCandidates(cleanEan);
+      let idx = 0;
+      const next = () => {
+        const src = candidates[idx++];
+        if (!src) return;
+        imgElement.onerror = () => next();
+        imgElement.onload = () => {
+          if (imgElement.dataset.resolved !== '1' && src !== PLACEHOLDER_SVG) {
+            imgElement.dataset.resolved = '1';
+            coverResolvedCount += 1;
+            updateStats();
+          }
+        };
+        imgElement.src = src;
+      };
+      next();
+    }
+
+    function getSignalData(book) {
+      const title = (book.titolo || '').toLowerCase();
+      const giacenze = Number(book.giacenti || 0);
+      if (!title) return { badge: '', insight: '', modalAlerts: [] };
+
+      const isTrend = title.length > 5 && dbTrends.some(t => (t.signal_text || '').toLowerCase().includes(title));
+      const isChart = title.length > 5 && dbCharts.some(c => c.titolo && c.titolo.toLowerCase().includes(title));
+      const release = title.length > 5 ? dbReleases.find(r => (r.signal_text || '').toLowerCase().includes(title)) : null;
+      const isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
+
+      const modalAlerts = [];
+      let badge = '';
+      let insight = '';
+
+      if (release) {
+        badge = `<span class="signal-badge blue">In uscita</span>`;
+        insight = 'Appena in radar editoriale';
+        modalAlerts.push(`<div>📅 <b>Uscita rilevata:</b> ${escapeHtml((release.signal_text || '').replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim())}</div>`);
+      } else if (isTrend && isVol1) {
+        badge = `<span class="signal-badge yellow">Graal</span>`;
+        insight = 'Vol. 1 con trazione alta';
+        modalAlerts.push(`<div>👑 <b>Segnale forte:</b> volume 1 e trend attivo.</div>`);
+      } else if (isTrend && giacenze <= 2) {
+        badge = `<span class="signal-badge red">Stock</span>`;
+        insight = `Solo ${giacenze} copie`; 
+        modalAlerts.push(`<div>🚨 <b>Allerta stock:</b> hype attivo ma solo ${giacenze} copie disponibili.</div>`);
+      } else if (isChart) {
+        badge = `<span class="signal-badge green">Top</span>`;
+        insight = 'Spinta da classifica';
+        modalAlerts.push(`<div>📈 <b>Classifica:</b> titolo intercettato nei ranking.</div>`);
+      } else if (!isTrend && !isChart && !release && giacenze > 5) {
+        badge = `<span class="signal-badge gray">Lenta</span>`;
+        insight = `${giacenze} copie ferme`;
+        modalAlerts.push(`<div>⚠️ <b>Rotazione lenta:</b> ${giacenze} copie senza segnale esterno forte.</div>`);
+      }
+
+      const localKeywords = ['barocco', 'storia', 'lunigiana', 'trekking', 'mare', 'genitori', 'novara', 'arte', 'castello', 'appennino', 'guida'];
+      const localHit = localKeywords.find(word => new RegExp(`\\b${word}\\b`, 'i').test(title));
+      if (localHit) {
+        if (!badge) badge = `<span class="signal-badge purple">Local</span>`;
+        modalAlerts.push(`<div>📍 <b>Assist locale:</b> aggancio tematico con “${escapeHtml(localHit)}”.</div>`);
+      }
+
+      return { badge, insight, modalAlerts };
+    }
+
+    function renderRadarDashboard() {
+      const list = $('#radar-list');
+      const rows = [];
+
+      rows.push(`<div class="radar-section-title">Vetrina consigliata</div>`);
+      if (dbTrends.length > 0) {
+        dbTrends.slice(0, 3).forEach(item => {
+          rows.push(`<div class="radar-row"><span class="radar-badge" style="background:var(--red);">Trend</span><div class="radar-text">${escapeHtml(item.signal_text)}</div></div>`);
+        });
+      }
+      if (dbReleases.length > 0) {
+        dbReleases.slice(0, 3).forEach(item => {
+          const dateMatch = (item.signal_text || '').match(/\d{2}\/\d{2}\/\d{4}/);
+          const label = dateMatch ? dateMatch[0] : 'Uscita';
+          const cleanText = (item.signal_text || '').replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
+          rows.push(`<div class="radar-row"><span class="radar-badge" style="background:var(--blue); color:white;">${escapeHtml(label)}</span><div class="radar-text">${escapeHtml(cleanText)}</div></div>`);
+        });
+      }
+      if (dbTrends.length === 0 && dbReleases.length === 0) {
+        rows.push(`<div class="radar-row"><div class="radar-text" style="color:var(--subtext);">Nessun segnale nazionale fresco disponibile.</div></div>`);
+      }
+
+      rows.push(`<div class="radar-section-title">Eventi in Lunigiana</div>`);
+      if (dbLocalEvents.length === 0) {
+        rows.push(`<div class="radar-row"><div class="radar-text" style="color:var(--subtext);">Nessun evento confermato nel database.</div></div>`);
+      } else {
+        dbLocalEvents.slice(0, 4).forEach(item => {
+          const txt = item.signal_text || '';
+          const sourceMatch = txt.match(/\[(.*?)\]/);
+          const dateMatch = txt.match(/\d{2}\/\d{2}\/\d{4}/);
+          const label = dateMatch ? dateMatch[0] : ((sourceMatch ? sourceMatch[1] : 'Local').substring(0, 10));
+          const cleanText = txt.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
+          rows.push(`<div class="radar-row"><span class="radar-badge" style="background:var(--purple); color:white;">${escapeHtml(label)}</span><div class="radar-text">${escapeHtml(cleanText)}</div></div>`);
+        });
+      }
+
+      list.innerHTML = rows.join('');
+      $('#radar-summary').textContent = `${dbTrends.length} trend · ${dbReleases.length} uscite · ${dbLocalEvents.length} eventi`;
+    }
+
+    async function initSignals() {
+      try {
+        const [res1, res2, res3, res4, res5] = await Promise.all([
+          supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(120),
+          supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).order('created_at', { ascending: false }).limit(120),
+          supabaseClient.from('ranking_charts').select('titolo').limit(1200),
+          supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'local_event').order('created_at', { ascending: false }).limit(120),
+          supabaseClient.from('external_signal_staging').select('feed_key, signal_text').eq('signal_type', 'book_cover').limit(8000)
+        ]);
+
+        if (res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes('nessun evento'));
+        if (res2.data) dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes('titolo da monitorare') && !r.signal_text.toLowerCase().includes('nuova uscita'));
+        if (res3.data) dbCharts = res3.data;
+        if (res4.data) dbLocalEvents = res4.data.filter(e => e.signal_text && !e.signal_text.toLowerCase().includes('nessun evento') && e.signal_text.length > 10);
+        if (res5.data) {
+          res5.data.forEach(item => {
+            if (item.signal_text && item.signal_text !== 'NOT_FOUND') dbArchivista[item.feed_key] = item.signal_text;
+          });
+        }
+      } catch (err) {
+        console.error('Errore fetch segnali:', err);
+      }
+      renderRadarDashboard();
+      updateStats();
+    }
+
+    function bookCardTemplate(book) {
+      const cleanEan = book.ean ? String(book.ean).replace(/\D/g, '') : '';
+      const signal = getSignalData(book);
+      const title = escapeHtml(book.titolo || 'Senza titolo');
+      const pos = escapeHtml(book.posizione_scaffale || 'N/D');
+      const ean = escapeHtml(book.ean || '');
+      const giacenze = Number(book.giacenti || 0);
+      return `
+        <article class="book-card" data-book-id="${book.id}" tabindex="0" aria-label="${title}">
+          <div class="cover-shell">
+            <img class="cover-img" id="cover-${book.id}" src="${PLACEHOLDER_SVG}" alt="Copertina di ${title}">
+            <div class="card-overlay-top">
+              <span class="stock-chip">${giacenze}</span>
+              ${signal.badge || ''}
+            </div>
+            <div class="card-overlay-bottom">
+              <span class="glass-badge">${pos}</span>
+              ${signal.insight ? `<span class="glass-badge">${escapeHtml(signal.insight)}</span>` : ''}
+            </div>
+          </div>
+          <div class="book-meta">
+            <div class="book-title">${title}</div>
+            <div class="book-subline">
+              <div class="book-pos">${pos}</div>
+              <div class="book-ean">${ean}</div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function attachCardEvents(booksBatch) {
+      booksBatch.forEach(book => {
+        const card = document.querySelector(`[data-book-id="${book.id}"]`);
+        if (!card) return;
+        const open = () => openDetail(book);
+        card.addEventListener('click', open);
+        card.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            open();
+          }
+        });
+        resolveCover(document.getElementById(`cover-${book.id}`), book.ean ? String(book.ean).replace(/\D/g, '') : '');
+      });
+    }
+
+    function renderBooks(booksBatch, append = false) {
+      const container = $('#book-list');
+      if (!append) container.innerHTML = '';
+
+      if (!booksBatch.length && !append) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <h3>Nessun titolo trovato</h3>
+            <div>Prova con un EAN, una parola chiave più ampia o un’altra posizione scaffale.</div>
+          </div>`;
+        return;
+      }
+
+      const markup = booksBatch.map(bookCardTemplate).join('');
+      container.insertAdjacentHTML('beforeend', markup);
+      attachCardEvents(booksBatch);
+      updateStats();
+    }
+
+    async function loadBooks(searchQuery = '', reset = false) {
+      if (isLoadingPage) return;
+      isLoadingPage = true;
+
+      if (reset) {
+        currentQuery = searchQuery.trim();
+        loadedCount = 0;
+        totalCount = 0;
+        fullyLoaded = false;
+        allBooks = [];
+        coverResolvedCount = 0;
+        $('#book-list').innerHTML = '';
+        updateStats();
+      }
+
+      setLoadingState(true);
+
+      try {
+        let builder = supabaseClient
+          .from('assistant_triage_inventario')
+          .select('*', { count: 'exact' })
+          .range(loadedCount, loadedCount + PAGE_SIZE - 1);
+
+        if (currentQuery) {
+          builder = builder.or(`titolo.ilike.%${currentQuery}%,ean.ilike.%${currentQuery}%,posizione_scaffale.ilike.%${currentQuery}%`)
+            .order('titolo', { ascending: true });
+        } else {
+          builder = builder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
         }
 
-        async function initCervellone() {
-            try {
-                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(100);
-                if(res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
+        const { data, error, count } = await builder;
+        if (error) throw error;
 
-                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).order('created_at', { ascending: false }).limit(100);
-                if(res2.data) dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes("titolo da monitorare") && !r.signal_text.toLowerCase().includes("nuova uscita"));
+        const rows = data || [];
+        totalCount = typeof count === 'number' ? count : totalCount;
+        fullyLoaded = rows.length < PAGE_SIZE || (totalCount && loadedCount + rows.length >= totalCount);
+        loadedCount += rows.length;
+        allBooks = reset ? rows : allBooks.concat(rows);
+        renderBooks(rows, !reset);
+      } catch (err) {
+        console.error(err);
+        if (reset) {
+          $('#book-list').innerHTML = `<div class="empty-state"><h3>Errore di connessione</h3><div>${escapeHtml(err.message || 'Impossibile leggere l’inventario adesso.')}</div></div>`;
+        }
+      } finally {
+        isLoadingPage = false;
+        setLoadingState(false);
+        $('#load-more-wrap').style.display = !fullyLoaded && allBooks.length > 0 ? 'flex' : 'none';
+        updateStats();
+      }
+    }
 
-                const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
-                if(res3.data) dbCharts = res3.data;
+    async function handleSearchInput() {
+      const query = $('#search-box').value;
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => loadBooks(query, true), 220);
+    }
 
-                const res4 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'local_event').order('created_at', { ascending: false }).limit(100);
-                if(res4.data) dbLocalEvents = res4.data.filter(e => e.signal_text && !e.signal_text.toLowerCase().includes("nessun evento") && e.signal_text.length > 10);
+    function modalCoverUrl(cleanEan) {
+      return coverCandidates(cleanEan)[0] || PLACEHOLDER_SVG;
+    }
 
-                // CARICHIAMO LE COPERTINE DELL'ARCHIVISTA
-                const res5 = await supabaseClient.from('external_signal_staging').select('feed_key, signal_text').eq('signal_type', 'book_cover').limit(5000);
-                if (res5.data) {
-                    res5.data.forEach(c => {
-                        if(c.signal_text !== 'NOT_FOUND') {
-                            dbArchivista[c.feed_key] = c.signal_text;
-                        }
-                    });
-                }
+    async function openDetail(book) {
+      const modal = $('#book-modal');
+      const content = $('#book-modal-content');
+      const signal = getSignalData(book);
+      const cleanEan = book.ean ? String(book.ean).replace(/\D/g, '') : '';
+      const title = escapeHtml(book.titolo || 'Senza titolo');
+      const pos = escapeHtml(book.posizione_scaffale || 'N/D');
+      const ean = escapeHtml(book.ean || 'N/D');
+      const giacenze = Number(book.giacenti || 0);
+      const alertsHtml = signal.modalAlerts.length ? signal.modalAlerts.join('') : '<div>Nessun alert forte disponibile per questo titolo.</div>';
 
-            } catch (err) { console.error("Errore fetch silenziato:", err); }
-            
-            renderRadarDashboard();
-            loadBooks('');
+      content.innerHTML = `
+        <div class="modal-book-header">
+          <img class="modal-book-cover" id="modal-cover" src="${PLACEHOLDER_SVG}" alt="Copertina di ${title}">
+          <div>
+            <div class="eyebrow">Book detail</div>
+            <h2 class="modal-book-title" id="modal-title">${title}</h2>
+            <div class="modal-book-meta">Scheda rapida di controllo magazzino e decisione.</div>
+            <div class="meta-grid">
+              <div class="meta-card"><div class="meta-card-label">EAN</div><div class="meta-card-value">${ean}</div></div>
+              <div class="meta-card"><div class="meta-card-label">Giacenza</div><div class="meta-card-value">${giacenze}</div></div>
+              <div class="meta-card"><div class="meta-card-label">Scaffale</div><div class="meta-card-value">${pos}</div></div>
+              <div class="meta-card"><div class="meta-card-label">Segnale</div><div class="meta-card-value">${signal.insight ? escapeHtml(signal.insight) : 'Neutro'}</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-box-card">
+          <div class="box-title">Intelligence</div>
+          <div class="modal-alerts">${alertsHtml}</div>
+        </div>
+
+        <div class="modal-box-card">
+          <div class="box-title">Trama</div>
+          <div id="sinossi-container" class="modal-synopsis">Sto cercando la scheda Google Books…</div>
+        </div>
+
+        <div class="action-grid">
+          <button class="btn-action btn-keep" type="button" data-action="presente|tenere">Tieni</button>
+          <button class="btn-action btn-return" type="button" data-action="presente|reso_o_buttare">Reso</button>
+          <button class="btn-action btn-discount" type="button" data-action="presente|cestone_sconto">Sconta</button>
+          <button class="btn-action btn-missing" type="button" data-action="mancante|nessuna_azione">Perso</button>
+          <button class="btn-action btn-bundle" type="button" data-action="presente|crea_bundle">Crea bundle</button>
+        </div>
+      `;
+
+      resolveCover(document.getElementById('modal-cover'), cleanEan);
+
+      content.querySelectorAll('[data-action]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const [status, decision] = btn.dataset.action.split('|');
+          processBook(book.id, status, decision);
+        });
+      });
+
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        let data = null;
+        if (cleanEan && cleanEan.length >= 10) {
+          const res1 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
+          const d1 = await res1.json();
+          if (d1.items && d1.items.length > 0) data = d1;
         }
 
-        function renderRadarDashboard() {
-            const radarList = document.getElementById('radar-list');
-            let html = `<div class="radar-section-title" style="color:var(--yellow);">🏆 VETRINA CONSIGLIATA</div>`;
-            
-            if (dbTrends.length > 0) {
-                dbTrends.slice(0, 2).forEach(t => { html += `<div class="radar-item"><span class="badge-data" style="background:var(--red);">🔥 TREND</span> ${t.signal_text}</div>`; });
-            }
-            if (dbReleases.length > 0) {
-                dbReleases.slice(0, 2).forEach(r => {
-                    let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
-                    let dataStr = dataMatch ? dataMatch[0] : "USCITA";
-                    let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
-                    html += `<div class="radar-item"><span class="badge-data" style="background:var(--blue);">📅 ${dataStr}</span> ${testoPulito}</div>`;
-                });
-            }
-            if (dbTrends.length === 0 && dbReleases.length === 0) { html += `<div class="radar-item" style="color:var(--subtext);">Nessun dato nazionale fresco.</div>`; }
-
-            html += `<div class="radar-section-title" style="color:var(--purple);">📍 EVENTI IN LUNIGIANA</div>`;
-
-            if(dbLocalEvents.length === 0) {
-                html += `<div class="radar-item" style="color:var(--subtext);">Nessun evento confermato nel database.</div>`;
-            } else {
-                dbLocalEvents.slice(0, 3).forEach(e => {
-                    let testo = e.signal_text;
-                    let fonteMatch = testo.match(/\[(.*?)\]/);
-                    let fonte = fonteMatch ? fonteMatch[1].substring(0, 8).toUpperCase() : "LOCAL";
-                    let dataMatch = testo.match(/\d{2}\/\d{2}\/\d{4}/);
-                    if(dataMatch) fonte = dataMatch[0]; 
-                    let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
-                    html += `<div class="radar-item"><span class="badge-data" style="background:var(--purple); color:white;">${fonte}</span> ${testoPulito}</div>`;
-                });
-            }
-            
-            radarList.innerHTML = html;
-            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi attivi`;
+        if (!data) {
+          const cleanTitle = (book.titolo || '').replace(/vol\..*/i, '').replace(/n\..*/i, '').replace(/\(.*/, '').trim();
+          const res2 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(cleanTitle)}`);
+          const d2 = await res2.json();
+          if (d2.items && d2.items.length > 0) data = d2;
         }
 
-        function handleSearchInput() {
-            const query = document.getElementById('search-box').value.trim();
-            clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => { loadBooks(query); }, 300); 
+        const synopsisEl = $('#sinossi-container');
+        if (data && data.items && data.items[0]) {
+          const info = data.items[0].volumeInfo || {};
+          synopsisEl.innerHTML = info.description ? info.description : 'Nessuna trama fornita dall’editore.';
+        } else {
+          synopsisEl.innerHTML = `Nessuna scheda Google trovata. <br><br><a href="https://www.google.com/search?q=libro+${encodeURIComponent(book.titolo || '')}" target="_blank" rel="noopener" style="color:var(--blue); text-decoration:none; font-weight:700;">Apri ricerca web</a>`;
         }
+      } catch (error) {
+        $('#sinossi-container').textContent = 'Errore nel recupero della scheda Google.';
+      }
+    }
 
-        async function loadBooks(searchQuery = '') {
-            const loadingDiv = document.getElementById('loading');
-            loadingDiv.style.display = 'block';
-            document.getElementById('book-list').innerHTML = ''; 
+    function closeModal() {
+      $('#book-modal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
 
-            try {
-                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(100); 
-                if (searchQuery !== '') {
-                    queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
-                } else {
-                    queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
-                }
-                
-                const { data, error } = await queryBuilder;
-                if (error) throw error;
-                allBooks = data || [];
-            } catch (err) { console.error(err); allBooks = []; } 
-            finally { loadingDiv.style.display = 'none'; renderList(allBooks); }
+    async function processBook(id, status, decision) {
+      closeModal();
+      const card = document.querySelector(`[data-book-id="${id}"]`);
+      if (card) {
+        card.style.opacity = '.24';
+        card.style.pointerEvents = 'none';
+      }
+      try {
+        const { error } = await supabaseClient
+          .from('catalog_inventory')
+          .update({
+            audit_status: status,
+            azione_decisione: decision,
+            data_ultimo_audit: new Date().toISOString()
+          })
+          .eq('id', id);
+
+        if (error) throw error;
+        if (card) card.remove();
+      } catch (err) {
+        if (card) {
+          card.style.opacity = '';
+          card.style.pointerEvents = '';
         }
+        alert('Errore rete: ' + err.message);
+      }
+    }
 
-        function analyzeBook(book) {
-            let alerts = []; let localAlerts = [];
-            let title = book.titolo ? book.titolo.toLowerCase() : '';
-            if (!title) return { badgeHtml: '', alertHtml: '', color: '#ccc' }; 
-            
-            let isTrend = false; let isChart = false; let isReleaseImminent = null;
-            if (title.length > 5) {
-                isTrend = dbTrends.some(t => t.signal_text.toLowerCase().includes(title));
-                isChart = dbCharts.some(c => c.titolo && c.titolo.toLowerCase().includes(title));
-                isReleaseImminent = dbReleases.find(r => r.signal_text.toLowerCase().includes(title));
-            }
-            
-            let isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
-            let isVariant = title.includes('variant') || title.includes('limited') || title.includes('special');
-            let giacenze = book.giacenti || 0;
-
-            let badgeHtml = '';
-            let alertHtml = ''; 
-
-            if (isReleaseImminent) { 
-                badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(10, 132, 255, 0.9); color:white;">📅 USCITA</div>`;
-                alertHtml += `<div>📅 <b>USCITA IMMINENTE:</b> ${isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim()}</div>`;
-            } else if (isTrend && isVol1) { 
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--yellow); color:black;">👑 GRAAL</div>`;
-                alertHtml += `<div>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>`;
-            } else if (isTrend && giacenze <= 2) { 
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--red); color:white;">🚨 STOCK</div>`;
-                alertHtml += `<div>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie!</div>`;
-            } else if (isChart) { 
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--green); color:black;">📈 TOP</div>`;
-                alertHtml += `<div>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>`;
-            } else if (!isTrend && !isChart && !isReleaseImminent && giacenze > 5) { 
-                badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(142, 142, 147, 0.9); color:white;">⚰️ ZAVORRA</div>`;
-                alertHtml += `<div>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${giacenze} copie a poltrire.</div>`;
-            }
-
-            let paroleChiaveLocali = ["barocco", "storia", "lunigiana", "trekking", "mare", "genitori", "novara", "arte", "castello", "appennino", "guida"];
-            paroleChiaveLocali.forEach(parola => {
-                let regexParola = new RegExp(`\\b${parola}\\b`, 'i');
-                if (regexParola.test(title)) {
-                    if(!badgeHtml.includes('ai-overlay-badge')) badgeHtml += `<div class="ai-overlay-badge" style="background:var(--purple); color:white;">📍 LOCAL</div>`;
-                    alertHtml += `<div style="margin-top:8px; color:var(--purple);">📍 <b>ASSIST:</b> Tocca il tema "${parola.toUpperCase()}" del Radar Eventi!</div>`;
-                }
-            });
-
-            return { badgeHtml, alertHtml };
+    function initInfiniteScroll() {
+      if (observer) observer.disconnect();
+      observer = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting && !isLoadingPage && !fullyLoaded) {
+          loadBooks(currentQuery, false);
         }
+      }, { rootMargin: '900px 0px' });
+      observer.observe($('#scroll-sentinel'));
+    }
 
-        function renderList(books) {
-            const container = document.getElementById('book-list');
-            if(books.length === 0) { container.innerHTML = '<div class="loading">Nessun libro trovato in magazzino.</div>'; return; }
+    async function initCervellone() {
+      createSkeleton();
+      setupDensityToggle();
+      initInfiniteScroll();
+      $('#radar-toggle').addEventListener('click', () => toggleRadar());
+      $('#search-box').addEventListener('input', handleSearchInput);
+      $('#load-more-btn').addEventListener('click', () => loadBooks(currentQuery, false));
+      $('#book-modal').addEventListener('click', (event) => {
+        if (event.target.id === 'book-modal' || event.target.classList.contains('modal-drag-handle')) closeModal();
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeModal();
+      });
 
-            books.forEach(book => {
-                try {
-                    const div = document.createElement('div');
-                    div.id = 'card-' + book.id;
-                    div.className = 'book-card';
-                    
-                    const coverId = 'cover-' + book.id;
-                    const aiData = analyzeBook(book);
-                    const safeTitle = encodeURIComponent(book.titolo || '');
-                    const safeAlert = encodeURIComponent(aiData.alertHtml || '');
-                    
-                    div.onclick = () => apriDettaglio(book.id, book.ean, safeTitle, book.posizione_scaffale, book.giacenti, safeAlert);
+      await initSignals();
+      toggleRadar(false);
+      await loadBooks('', true);
+    }
 
-                    div.innerHTML = `
-                        <div class="cover-wrapper">
-                            <img class="cover-img" id="${coverId}" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%232c2c2e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E" alt="Cover">
-                            <div class="qty-badge">${book.giacenti || 0}</div>
-                            <div class="pos-badge">${book.posizione_scaffale || 'ND'}</div>
-                            ${aiData.badgeHtml}
-                        </div>
-                        <div class="book-title">${book.titolo || 'Senza Titolo'}</div>
-                        <div class="book-ean">${book.ean || ''}</div>
-                    `;
-                    container.appendChild(div);
-                    fetchCoverItaliana(book.ean, coverId);
-                } catch (e) { console.error("Errore render libro:", e); }
-            });
-        }
-
-        async function fetchCoverItaliana(ean, imgId) {
-            const imgElement = document.getElementById(imgId);
-            if (!imgElement) return;
-            const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
-            
-            // 1. PRIMA CHIEDIAMO ALL'ARCHIVISTA (Se l'ha trovata di notte)
-            if (cleanEan && dbArchivista[cleanEan]) {
-                imgElement.src = dbArchivista[cleanEan];
-                return;
-            }
-
-            // 2. SE L'ARCHIVISTA NON SA NULLA, PROVIAMO LIBRACCIO/IBS
-            if (!cleanEan || cleanEan.length < 10) return;
-            const fallbacks = [
-                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
-                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`
-            ];
-
-            imgElement.onerror = function() {
-                imgElement.onerror = null; 
-                imgElement.src = fallbacks[1]; 
-            };
-            imgElement.src = fallbacks[0];
-        }
-
-        async function apriDettaglio(id, ean, titoloCodificato, pos, giacenti, alertCodificato) {
-            const modal = document.getElementById('book-modal');
-            const content = document.getElementById('book-modal-content');
-            const titolo = decodeURIComponent(titoloCodificato);
-            const alertHtml = decodeURIComponent(alertCodificato);
-            const cleanEan = ean ? String(ean).replace(/\D/g, '') : '';
-            
-            // Usiamo la cover dell'Archivista se c'è, altrimenti Libraccio
-            let imgUrl = dbArchivista[cleanEan] ? dbArchivista[cleanEan] : `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`;
-            
-            modal.style.display = 'flex';
-            
-            content.innerHTML = `
-                <div class="modal-book-header">
-                    <img src="${imgUrl}" class="modal-book-cover" onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%232c2c2e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E'">
-                    <div>
-                        <h2 class="modal-book-title">${titolo}</h2>
-                        <div class="modal-book-meta"><b>EAN:</b> ${ean || 'N/D'}</div>
-                        <div class="modal-book-meta"><b>Posizione:</b> ${pos || 'ND'} | <b>Giacenza:</b> ${giacenti || 0}</div>
-                    </div>
-                </div>
-                
-                ${alertHtml ? `<div class="modal-ai-box">${alertHtml}</div>` : ''}
-                
-                <div id="sinossi-container" class="modal-synopsis">
-                    <span style="color:var(--subtext);">⏳ Ricerca trama nei server Google...</span>
-                </div>
-                
-                <div class="action-grid">
-                    <button class="btn-action btn-tenere" onclick="processBook('${id}', 'presente', 'tenere')">✅ Tieni</button>
-                    <button class="btn-action btn-reso" onclick="processBook('${id}', 'presente', 'reso_o_buttare')">🗑️ Reso</button>
-                    <button class="btn-action btn-regalo" onclick="processBook('${id}', 'presente', 'cestone_sconto')">🛒 Sconta</button>
-                    <button class="btn-action btn-mancante" onclick="processBook('${id}', 'mancante', 'nessuna_azione')">❌ Perso</button>
-                    <button class="btn-action btn-bundle" onclick="processBook('${id}', 'presente', 'crea_bundle')">🎀 Crea Bundle</button>
-                </div>
-            `;
-
-            let data = null;
-            try {
-                if (cleanEan && cleanEan.length >= 10) {
-                    let res1 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
-                    let d1 = await res1.json();
-                    if (d1.items && d1.items.length > 0) data = d1;
-                }
-                if (!data) {
-                    let titoloPulito = titolo.replace(/vol\..*/i, '').replace(/n\..*/i, '').replace(/\(.*/, '').trim();
-                    let res2 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titoloPulito)}`);
-                    let d2 = await res2.json();
-                    if (d2.items && d2.items.length > 0) data = d2;
-                    else {
-                        let res3 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(titoloPulito)}`);
-                        let d3 = await res3.json();
-                        if (d3.items && d3.items.length > 0) data = d3;
-                    }
-                }
-
-                const sinossiDiv = document.getElementById('sinossi-container');
-                if (data && data.items && data.items.length > 0) {
-                    const info = data.items[0].volumeInfo;
-                    const desc = info.description ? info.description : 'Nessuna trama fornita dall\'editore.';
-                    sinossiDiv.innerHTML = `<b>📖 TRAMA:</b><br>${desc}`;
-                } else {
-                    sinossiDiv.innerHTML = `<span style="color:var(--subtext);">Nessuna scheda Google trovata.</span> <br><br> <a href="https://www.google.com/search?q=libro+${encodeURIComponent(titolo)}" target="_blank" style="color:var(--blue); text-decoration:none; font-weight:bold;">🔍 Cerca su Google Web</a>`;
-                }
-            } catch (error) {
-                document.getElementById('sinossi-container').innerHTML = `<span style="color:var(--red);">Errore connessione server Google.</span>`;
-            }
-        }
-
-        function closeModalOutside(event) { if (event.target === document.getElementById('book-modal') || event.target.className === 'modal-drag-handle') document.getElementById('book-modal').style.display = 'none'; }
-
-        async function processBook(id, status, decision) {
-            document.getElementById('book-modal').style.display = 'none';
-            document.getElementById('card-' + id).style.opacity = '0.2';
-            document.getElementById('card-' + id).style.pointerEvents = 'none';
-            try {
-                const { error } = await supabaseClient.from('catalog_inventory').update({ audit_status: status, azione_decisione: decision, data_ultimo_audit: new Date().toISOString() }).eq('id', id);
-                if (!error) document.getElementById('card-' + id).style.display = 'none';
-            } catch(err) { alert("Errore rete: " + err.message); }
-        }
-
-        window.onload = initCervellone;
-    </script>
+    window.addEventListener('load', initCervellone);
+  </script>
 </body>
 </html>
