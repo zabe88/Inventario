@@ -34,7 +34,9 @@
         .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
         .book-header { display: flex; gap: 15px; align-items: stretch; }
         
-        .book-cover { width: 80px; height: 120px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 3px 6px rgba(0,0,0,0.15); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center;}
+        /* Modificata copertina per sembrare un pulsante cliccabile */
+        .book-cover { width: 80px; height: 120px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 3px 6px rgba(0,0,0,0.15); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center; cursor: pointer; transition: transform 0.2s;}
+        .book-cover:active { transform: scale(0.93); }
         
         .book-info { flex: 1; display: flex; flex-direction: column; justify-content: center;}
         .book-title { font-size: 17px; font-weight: bold; color: #111; margin-bottom: 8px; line-height: 1.2;}
@@ -59,6 +61,15 @@
         .btn-mancante { background-color: #ef4444; } 
         
         .loading { text-align: center; color: #666; font-size: 18px; padding: 30px; font-weight: bold;}
+
+        /* STILE DEL POP-UP DELLA SINOSSI */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 1000; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; backdrop-filter: blur(4px);}
+        .modal-box { background: #fff; width: 100%; max-width: 500px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); animation: slideUp 0.3s ease; display: flex; flex-direction: column; max-height: 85vh;}
+        .modal-header { background: #111; color: #fff; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid #3b82f6;}
+        .modal-header h2 { margin: 0; font-size: 16px; text-transform: uppercase; letter-spacing: 1px;}
+        .close-btn { background: none; border: none; color: #fff; font-size: 28px; cursor: pointer; padding: 0; line-height: 1; box-shadow: none; min-width: auto;}
+        .modal-content { padding: 20px; overflow-y: auto; background: #f8fafc;}
+        @keyframes slideUp { from { transform: translateY(30px); opacity: 0;} to { transform: translateY(0); opacity: 1;} }
     </style>
 </head>
 <body>
@@ -81,6 +92,17 @@
 
     <div id="loading" class="loading">Sincronizzazione Rete Neurale... 🧠</div>
     <div class="list-container" id="book-list"></div>
+
+    <div id="book-modal" class="modal-overlay" onclick="closeModalOutside(event)">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h2>🔎 Scheda Intelligence</h2>
+                <button class="close-btn" onclick="closeBookModal()">&times;</button>
+            </div>
+            <div id="book-modal-content" class="modal-content">
+                </div>
+        </div>
+    </div>
 
     <script>
         const SUPABASE_URL = 'https://aacqebirvnkrbewvgmvo.supabase.co';
@@ -106,36 +128,17 @@
 
         async function initCervellone() {
             try {
-                // CHIAMATE ORDINATE PER DATA (Le più fresche) E FILTRATE
-                const res1 = await supabaseClient.from('external_signal_staging')
-                    .select('signal_text')
-                    .in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok'])
-                    .order('created_at', { ascending: false }).limit(100);
-                if(res1.data) {
-                    // FILTRO SPAZZATURA: Via i "nessun evento" o testi troppo brevi
-                    dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
-                }
+                const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(100);
+                if(res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
 
-                const res2 = await supabaseClient.from('external_signal_staging')
-                    .select('signal_text')
-                    .in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori'])
-                    .order('created_at', { ascending: false }).limit(100);
-                if(res2.data) {
-                    // FILTRO SPAZZATURA
-                    dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes("titolo da monitorare") && !r.signal_text.toLowerCase().includes("nuova uscita"));
-                }
+                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).order('created_at', { ascending: false }).limit(100);
+                if(res2.data) dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes("titolo da monitorare") && !r.signal_text.toLowerCase().includes("nuova uscita"));
 
                 const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
                 if(res3.data) dbCharts = res3.data;
 
-                const res4 = await supabaseClient.from('external_signal_staging')
-                    .select('signal_text')
-                    .eq('signal_type', 'local_event')
-                    .order('created_at', { ascending: false }).limit(100);
-                if(res4.data) {
-                    // FILTRO SPAZZATURA LOCALE
-                    dbLocalEvents = res4.data.filter(e => e.signal_text && !e.signal_text.toLowerCase().includes("nessun evento") && e.signal_text.length > 10);
-                }
+                const res4 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'local_event').order('created_at', { ascending: false }).limit(100);
+                if(res4.data) dbLocalEvents = res4.data.filter(e => e.signal_text && !e.signal_text.toLowerCase().includes("nessun evento") && e.signal_text.length > 10);
 
             } catch (err) { console.error("Errore fetch silenziato:", err); }
             
@@ -145,29 +148,22 @@
 
         function renderRadarDashboard() {
             const radarList = document.getElementById('radar-list');
-            
             let html = `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-bottom: 8px;">
                             <span style="color: #eab308; font-weight: bold; font-size: 11px; letter-spacing: 1px;">🏆 VETRINA CONSIGLIATA OGGI</span>
                         </div>`;
             
             if (dbTrends.length > 0) {
-                dbTrends.slice(0, 3).forEach(t => {
-                    html += `<div class="radar-item"><span class="badge-data" style="background:#ef4444;">🔥 TREND</span> ${t.signal_text}</div>`;
-                });
+                dbTrends.slice(0, 3).forEach(t => { html += `<div class="radar-item"><span class="badge-data" style="background:#ef4444;">🔥 TREND</span> ${t.signal_text}</div>`; });
             }
             if (dbReleases.length > 0) {
                 dbReleases.slice(0, 3).forEach(r => {
-                    // Cerchiamo una data vera (gg/mm/aaaa) nel testo
                     let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
                     let dataStr = dataMatch ? dataMatch[0] : "USCITA";
                     let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
-                    
                     html += `<div class="radar-item"><span class="badge-data" style="background:#3b82f6;">📅 ${dataStr}</span> ${testoPulito}</div>`;
                 });
             }
-            if (dbTrends.length === 0 && dbReleases.length === 0) {
-                html += `<div class="radar-item" style="color:#888;">Nessun dato nazionale fresco.</div>`;
-            }
+            if (dbTrends.length === 0 && dbReleases.length === 0) { html += `<div class="radar-item" style="color:#888;">Nessun dato nazionale fresco.</div>`; }
 
             html += `<div style="padding: 5px 0; border-bottom: 1px solid #333; margin-top: 15px; margin-bottom: 8px;">
                         <span style="color: #a855f7; font-weight: bold; font-size: 11px; letter-spacing: 1px;">📍 EVENTI IN LUNIGIANA</span>
@@ -180,11 +176,8 @@
                     let testo = e.signal_text;
                     let fonteMatch = testo.match(/\[(.*?)\]/);
                     let fonte = fonteMatch ? fonteMatch[1].substring(0, 10).toUpperCase() : "LOCAL";
-                    
-                    // Cerchiamo una data anche qui se c'è
                     let dataMatch = testo.match(/\d{2}\/\d{2}\/\d{4}/);
-                    if(dataMatch) fonte = dataMatch[0]; // Se c'è la data, mostriamo quella invece di "LOCAL"
-                    
+                    if(dataMatch) fonte = dataMatch[0]; 
                     let testoPulito = testo.replace(/🗓️ EVENTO \[.*?\]: /, '').trim();
                     html += `<div class="radar-item"><span class="badge-data" style="background:#a855f7;">${fonte}</span> ${testoPulito}</div>`;
                 });
@@ -216,14 +209,8 @@
                 const { data, error } = await queryBuilder;
                 if (error) throw error;
                 allBooks = data || [];
-                
-            } catch (err) { 
-                console.error(err);
-                allBooks = []; 
-            } finally {
-                loadingDiv.style.display = 'none';
-                renderList(allBooks);
-            }
+            } catch (err) { console.error(err); allBooks = []; } 
+            finally { loadingDiv.style.display = 'none'; renderList(allBooks); }
         }
 
         function analyzeBook(book) {
@@ -232,12 +219,7 @@
             let title = book.titolo ? book.titolo.toLowerCase() : '';
             if (!title) return { html: '', color: '#ccc' }; 
             
-            // MATCH RIGOROSO PER EVITARE L'ALLUCINAZIONE "A CASA"
-            // Richiediamo che il titolo sia lungo almeno 5 caratteri per fare match di intelligenza
-            let isTrend = false;
-            let isChart = false;
-            let isReleaseImminent = null;
-            
+            let isTrend = false; let isChart = false; let isReleaseImminent = null;
             if (title.length > 5) {
                 isTrend = dbTrends.some(t => t.signal_text.toLowerCase().includes(title));
                 isChart = dbCharts.some(c => c.titolo && c.titolo.toLowerCase().includes(title));
@@ -251,13 +233,10 @@
             let cardBorderColor = "#ccc";
 
             if (isReleaseImminent) { 
-                // Puliamo la stringa prima di mostrarla
                 let testoPulito = isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
-                let infoUscita = testoPulito.substring(0, 60);
-                alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${infoUscita}...</div>`); 
+                alerts.push(`<div class='ai-alert' style='color:#60a5fa;'>📅 <b>USCITA IMMINENTE:</b> ${testoPulito.substring(0, 60)}...</div>`); 
                 cardBorderColor = "#3b82f6"; 
             }
-            
             if (isTrend && isVol1) { alerts.push("<div class='ai-alert'>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>"); cardBorderColor = "#eab308"; } 
             else if (isTrend && isVariant) { alerts.push("<div class='ai-alert'>💎 <b>VARIANT VIRALE:</b> Edizione da collezione. Tienila.</div>"); cardBorderColor = "#eab308"; }
             else if (isTrend && giacenze <= 2) { alerts.push(`<div class='ai-alert' style='color:#ef4444;'>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie! Ordina subito.</div>`); cardBorderColor = "#ef4444"; }
@@ -326,9 +305,12 @@
                     div.className = 'book-card';
                     div.style.borderLeftColor = aiData.color;
 
+                    // NOTA HACKER: Ho codificato il titolo per passarlo in sicurezza alla funzione della Sinossi
+                    const safeTitle = encodeURIComponent(book.titolo || '');
+
                     div.innerHTML = `
                         <div class="book-header">
-                            <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover">
+                            <img class="book-cover" id="${coverId}" src="${searchSvg}" alt="Cover" onclick="apriSinossi('${book.ean}', '${safeTitle}')" title="Clicca per leggere la trama!">
                             <div class="book-info">
                                 <div class="book-title">${book.titolo || 'Senza Titolo'}</div>
                                 <div class="book-meta">
@@ -349,11 +331,70 @@
                     `;
                     container.appendChild(div);
                     fetchCoverItaliana(book.ean, coverId);
-                } catch (e) {
-                    console.error("Errore saltato sul libro:", book.titolo, e);
-                }
+                } catch (e) { console.error("Errore saltato sul libro:", e); }
             });
         }
+
+        // --- LA MAGIA DI GOOGLE BOOKS ---
+        async function apriSinossi(ean, titoloCodificato) {
+            const modal = document.getElementById('book-modal');
+            const content = document.getElementById('book-modal-content');
+            const titolo = decodeURIComponent(titoloCodificato);
+            
+            modal.style.display = 'flex';
+            content.innerHTML = '<div class="loading">Recupero informazioni dai server mondiali... 🌍</div>';
+
+            let queryUrl = '';
+            const cleanEan = ean ? ean.replace(/\D/g, '') : '';
+            
+            // Cerchiamo prima per codice a barre, se non c'è cerchiamo per titolo
+            if (cleanEan && cleanEan.length >= 10) {
+                queryUrl = `https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}&langRestrict=it`;
+            } else {
+                queryUrl = `https://www.googleapis.com/books/v1/volumes?q=intitle:${titoloCodificato}&langRestrict=it`;
+            }
+
+            try {
+                const response = await fetch(queryUrl);
+                const data = await response.json();
+                
+                if (data.items && data.items.length > 0) {
+                    const info = data.items[0].volumeInfo;
+                    const desc = info.description ? info.description : '<i>Sinossi non fornita dall\'editore per questo volume.</i>';
+                    const autori = info.authors ? info.authors.join(', ') : 'Sconosciuto';
+                    const editore = info.publisher ? info.publisher : 'N/D';
+                    const pagine = info.pageCount ? `${info.pageCount} pagine` : '';
+                    const cover = info.imageLinks ? (info.imageLinks.thumbnail || info.imageLinks.smallThumbnail) : noCoverSvg;
+
+                    content.innerHTML = `
+                        <div style="display:flex; gap:15px; margin-bottom:15px;">
+                            <img src="${cover}" style="width:90px; height:130px; border-radius:6px; box-shadow:0 3px 10px rgba(0,0,0,0.15); object-fit:cover;">
+                            <div>
+                                <h3 style="margin:0 0 8px 0; font-size:18px; color:#111;">${info.title}</h3>
+                                <div style="font-size:14px; color:#444; margin-bottom:4px;"><b>✍️ Autore:</b> ${autori}</div>
+                                <div style="font-size:14px; color:#444; margin-bottom:4px;"><b>🏢 Editore:</b> ${editore}</div>
+                                <div style="font-size:14px; color:#666;"><b>📄 Formato:</b> ${pagine}</div>
+                            </div>
+                        </div>
+                        <div style="background:#fff; padding:15px; border-radius:8px; border:1px solid #e2e8f0; font-size:14px; line-height:1.6; color:#333;">
+                            <b style="color:#3b82f6;">📖 LA TRAMA:</b><br><br>
+                            ${desc}
+                        </div>
+                    `;
+                } else {
+                    content.innerHTML = `
+                        <div style="text-align:center; padding:30px 10px;">
+                            <h3 style="margin-bottom:10px;">${titolo}</h3>
+                            <p style="color:#666;">I server globali non hanno restituito una scheda per questo libro.</p>
+                        </div>`;
+                }
+            } catch (error) {
+                content.innerHTML = `<div style="text-align:center; padding:20px; color:#ef4444; font-weight:bold;">Errore di connessione ai database globali.</div>`;
+            }
+        }
+
+        function closeBookModal() { document.getElementById('book-modal').style.display = 'none'; }
+        function closeModalOutside(event) { if (event.target === document.getElementById('book-modal')) closeBookModal(); }
 
         async function processBook(id, status, decision) {
             document.getElementById('card-' + id).style.opacity = '0.2';
