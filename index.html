@@ -66,7 +66,6 @@
         .modal-synopsis { font-size: 14px; line-height: 1.5; color: #ddd; background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 15px;}
         .modal-ai-box { background: rgba(10, 132, 255, 0.1); border: 1px solid rgba(10, 132, 255, 0.3); padding: 15px; border-radius: 12px; margin-bottom: 15px;}
         
-        /* BOX STIMA PREZZO */
         .modal-price-box { background: rgba(255, 214, 10, 0.1); border: 1px solid rgba(255, 214, 10, 0.4); padding: 12px; border-radius: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;}
         .price-label { font-size: 12px; color: var(--subtext); text-transform: uppercase; font-weight: 700;}
         .price-value { font-size: 18px; font-weight: 800; color: var(--yellow);}
@@ -266,19 +265,22 @@
         }
 
         function analyzeBook(book) {
-            let alerts = []; let localAlerts = [];
             let title = book.titolo ? book.titolo.toLowerCase() : '';
-            if (!title) return { badgeHtml: '', alertHtml: '', color: '#ccc' }; 
+            if (!title) return { badgeHtml: '', alertHtml: '', isTrend: false, isReleaseImminent: null }; 
             
+            // FIX DEL CERVELLO: Troviamo il "Cuore" del titolo per non confondere l'IA
+            let coreTitle = title.replace(/new edition|variant|limited|ed\..*|vol\..*|n\..*|\(.*/gi, '').trim();
+            if(coreTitle.length < 3) coreTitle = title.split(' ')[0];
+
             let isTrend = false; let isChart = false; let isReleaseImminent = null;
-            if (title.length > 5) {
-                isTrend = dbTrends.some(t => t.signal_text.toLowerCase().includes(title));
-                isChart = dbCharts.some(c => c.titolo && c.titolo.toLowerCase().includes(title));
-                isReleaseImminent = dbReleases.find(r => r.signal_text.toLowerCase().includes(title));
+            
+            if (coreTitle.length > 2) {
+                isTrend = dbTrends.some(t => t.signal_text.toLowerCase().includes(coreTitle));
+                isChart = dbCharts.some(c => c.titolo && c.titolo.toLowerCase().includes(coreTitle));
+                isReleaseImminent = dbReleases.find(r => r.signal_text.toLowerCase().includes(coreTitle));
             }
             
             let isVol1 = /vol\.?\s*1\b|n\.?\s*1\b|numero 1\b/i.test(title);
-            let isVariant = title.includes('variant') || title.includes('limited') || title.includes('special');
             let giacenze = book.giacenti || 0;
 
             let badgeHtml = '';
@@ -313,36 +315,31 @@
                 }
             });
 
-            return { badgeHtml, alertHtml };
+            return { badgeHtml, alertHtml, isTrend, isReleaseImminent };
         }
 
         function renderList(books) {
             const container = document.getElementById('book-list');
             container.innerHTML = '';
             
-            const filteredBooks = books.filter(book => {
-                if (currentFilter === 'tutti') return true;
+            let hasMatches = false;
+
+            books.forEach(book => {
                 const aiData = analyzeBook(book);
-                if (currentFilter === 'trend' && (aiData.badgeHtml.includes('TREND') || aiData.badgeHtml.includes('GRAAL'))) return true;
-                if (currentFilter === 'uscite' && aiData.badgeHtml.includes('USCITA')) return true;
-                if (currentFilter === 'zavorre' && aiData.badgeHtml.includes('ZAVORRA')) return true;
-                if (currentFilter === 'local' && aiData.badgeHtml.includes('LOCAL')) return true;
-                return false;
-            });
+                let show = false;
+                
+                if (currentFilter === 'tutti') show = true;
+                else if (currentFilter === 'trend' && (aiData.isTrend || aiData.badgeHtml.includes('GRAAL'))) show = true;
+                else if (currentFilter === 'uscite' && aiData.isReleaseImminent) show = true;
+                else if (currentFilter === 'zavorre' && aiData.badgeHtml.includes('ZAVORRA')) show = true;
+                else if (currentFilter === 'local' && aiData.badgeHtml.includes('LOCAL')) show = true;
 
-            if(filteredBooks.length === 0) { 
-                container.innerHTML = `<div class="loading">Nessun libro trovato per il filtro "${currentFilter}".</div>`; 
-                return; 
-            }
-
-            filteredBooks.forEach(book => {
-                try {
+                if (show) {
+                    hasMatches = true;
                     const div = document.createElement('div');
                     div.id = 'card-' + book.id;
                     div.className = 'book-card';
-                    
                     const coverId = 'cover-' + book.id;
-                    const aiData = analyzeBook(book);
                     const safeTitle = encodeURIComponent(book.titolo || '');
                     const safeAlert = encodeURIComponent(aiData.alertHtml || '');
                     
@@ -360,8 +357,46 @@
                     `;
                     container.appendChild(div);
                     fetchCoverItaliana(book.ean, coverId);
-                } catch (e) { console.error("Errore render libro:", e); }
+                }
             });
+
+            // LE CARTE FANTASMA (Libri in Trend che NON hai in magazzino)
+            if (currentFilter === 'trend' || currentFilter === 'uscite') {
+                let dataList = currentFilter === 'trend' ? dbTrends : dbReleases;
+                
+                dataList.forEach(item => {
+                    let cleanSignal = item.signal_text.replace(/📱 TREND TIKTOK:|🔥 HYPE ANIME:|📺 NEWS ANIME:|🗣️ TREND \[.*?\]:|🌸 ALERT J-POP:|🌸 IN USCITA \[.*?\]:|⭐ IN USCITA:|🦸‍♂️ IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/gi, '').trim();
+                    if(cleanSignal.length < 3) return;
+
+                    let alreadyOwned = books.some(b => {
+                        let coreT = (b.titolo||'').toLowerCase().replace(/new edition|variant|limited|ed\..*|vol\..*|n\..*|\(.*/gi, '').trim();
+                        return coreT.length > 2 && cleanSignal.toLowerCase().includes(coreT);
+                    });
+
+                    if (!alreadyOwned) {
+                        hasMatches = true;
+                        const div = document.createElement('div');
+                        div.className = 'book-card';
+                        div.style.opacity = '0.8';
+                        div.innerHTML = `
+                            <div class="cover-wrapper" style="border: 2px dashed var(--blue); background: rgba(10, 132, 255, 0.1);">
+                                <div style="padding:20px; text-align:center; color:var(--blue); font-weight:bold; margin-top:30px; font-size:12px;">
+                                    🛒 DA<br>ORDINARE
+                                </div>
+                                <div class="ai-banner-bottom" style="background:var(--blue); color:white;">MANCANTE</div>
+                            </div>
+                            <div class="book-title" style="color:var(--blue);">${cleanSignal}</div>
+                            <div class="book-ean">Visto sul Radar</div>
+                        `;
+                        div.onclick = () => window.open(`https://www.google.com/search?q=${encodeURIComponent(cleanSignal + ' libro manga')}`, '_blank');
+                        container.appendChild(div);
+                    }
+                });
+            }
+
+            if(!hasMatches) { 
+                container.innerHTML = `<div class="loading">Nessun libro trovato per il filtro "${currentFilter}".</div>`; 
+            }
         }
 
         async function fetchCoverItaliana(ean, imgId) {
@@ -399,7 +434,6 @@
 
             modal.style.display = 'flex';
             
-            // Inseriamo un contenitore vuoto per il prezzo che l'IA riempirà dopo
             content.innerHTML = `
                 <div class="modal-book-header">
                     <img src="${imgUrl}" class="modal-book-cover" onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%232c2c2e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E'">
@@ -456,7 +490,6 @@
                     if (d2.items && d2.items.length > 0) data = d2;
                 }
 
-                // INIEZIONE SINOSSI E PREZZO
                 const sinossiDiv = document.getElementById('sinossi-container');
                 const priceContainer = document.getElementById('price-container');
                 
@@ -467,10 +500,9 @@
                     const desc = info.description ? info.description : 'Nessuna trama fornita dall\'editore.';
                     sinossiDiv.innerHTML = `<b>📖 TRAMA:</b><br>${desc}`;
 
-                    // Se Google ci fornisce il prezzo di listino, calcoliamo la svendita
                     if (saleInfo && saleInfo.listPrice && saleInfo.listPrice.amount) {
                         let prezzoReale = saleInfo.listPrice.amount;
-                        let svendita = (prezzoReale * 0.5).toFixed(2); // Sconto del 50%
+                        let svendita = (prezzoReale * 0.5).toFixed(2);
                         
                         document.getElementById('price-official').innerText = prezzoReale.toFixed(2).replace('.', ',') + ' €';
                         document.getElementById('price-discount').innerHTML = `🛒 ${svendita.replace('.', ',')} €`;
