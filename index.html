@@ -12,34 +12,38 @@
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
         
         .header { position: sticky; top: 0; background: rgba(28, 28, 30, 0.75); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 15px 20px; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1);}
-        h1 { font-size: 22px; margin: 0 0 15px 0; font-weight: 700; letter-spacing: -0.5px; display: flex; align-items: center; justify-content: space-between;}
+        h1 { font-size: 22px; margin: 0 0 10px 0; font-weight: 700; letter-spacing: -0.5px; display: flex; align-items: center; justify-content: space-between;}
         
+        /* TESORETTO WIDGET */
+        .tesoretto-badge { font-size: 14px; background: rgba(50, 215, 75, 0.2); color: var(--green); padding: 6px 12px; border-radius: 8px; font-weight: 800; border: 1px solid rgba(50, 215, 75, 0.5); display: flex; align-items: center; gap: 5px;}
+
         #search-box { width: 100%; padding: 12px 16px; font-size: 17px; border-radius: 12px; border: none; background: rgba(255,255,255,0.1); color: white; box-sizing: border-box; outline: none; transition: background 0.2s;}
         #search-box:focus { background: rgba(255,255,255,0.15); box-shadow: 0 0 0 2px var(--blue); }
-        #search-box::placeholder { color: #86868b; }
+        
+        /* CONTROLLI SECONDARI: Editori e Filtri */
+        .controls-row { display: flex; gap: 10px; margin-top: 10px; align-items: center; }
+        #publisher-filter { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 10px; border-radius: 10px; font-size: 14px; outline: none; font-weight: bold; flex: 1;}
 
         /* TASTIERA ALFABETICA SCORREVOLE */
         .alpha-bar { display: flex; gap: 6px; margin-top: 12px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: none; }
         .alpha-bar::-webkit-scrollbar { display: none; }
-        .alpha-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--subtext); padding: 6px 12px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; flex-shrink: 0; transition: all 0.2s;}
-        .alpha-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
+        .alpha-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--subtext); padding: 6px 12px; border-radius: 8px; font-size: 14px; font-weight: 800; cursor: pointer; flex-shrink: 0; transition: all 0.2s;}
+        .alpha-btn.active { background: var(--blue); color: white; border-color: var(--blue); transform: scale(1.1);}
 
         /* BARRA FILTRI PRINCIPALI */
-        .filter-bar { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; }
+        .filter-bar { display: flex; gap: 8px; margin-top: 5px; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; flex: 2;}
         .filter-bar::-webkit-scrollbar { display: none; }
         .filter-btn { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.05); color: var(--text); padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;}
         .filter-btn.active { background: white; color: black; border-color: white; }
 
         #radar-widget { margin-bottom: 15px; }
         #radar-toggle { background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 15px; font-size: 13px; font-weight: 600; color: var(--blue); display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s;}
-        #radar-toggle:active { background: rgba(255,255,255,0.1); }
         #radar-content { display: none; margin-top: 10px; background: var(--surface); border-radius: 12px; padding: 15px; font-size: 13px; max-height: 250px; overflow-y: auto;}
         #radar-content.active { display: block; animation: fadeIn 0.3s ease;}
         
-        .radar-section-title { font-size: 11px; text-transform: uppercase; color: var(--subtext); font-weight: 700; margin-bottom: 8px; margin-top: 15px; letter-spacing: 0.5px;}
+        .radar-section-title { font-size: 11px; text-transform: uppercase; color: var(--subtext); font-weight: 700; margin-bottom: 8px; margin-top: 15px;}
         .radar-section-title:first-child { margin-top: 0; }
         .radar-item { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); line-height: 1.4; color: #ddd;}
-        .radar-item:last-child { border-bottom: none; }
         .badge-data { padding: 3px 6px; border-radius: 4px; font-size: 10px; font-weight: 800; margin-right: 6px; color: #000;}
 
         .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 16px; padding: 20px; }
@@ -50,17 +54,18 @@
         .cover-wrapper { width: 100%; aspect-ratio: 2 / 3; border-radius: 8px; overflow: hidden; background: var(--surface); position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.5); transition: transform 0.2s, opacity 0.2s; border: 1px solid rgba(255,255,255,0.05);}
         .cover-img { width: 100%; height: 100%; object-fit: cover; }
         
-        .qty-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); color: white; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.1);}
+        .qty-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.8); backdrop-filter: blur(4px); color: white; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.2);}
         .pos-badge { position: absolute; bottom: 6px; left: 6px; background: rgba(255,255,255,0.9); color: black; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 800;}
-        .cat-badge { position: absolute; bottom: 26px; left: 6px; background: var(--purple); color: white; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 800; text-transform: uppercase;}
+        .cat-badge { position: absolute; bottom: 26px; left: 6px; background: var(--purple); color: white; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 800; text-transform: uppercase; max-width: 90%; overflow:hidden;}
         
         .ai-overlay-badge { position: absolute; top: 6px; right: 6px; padding: 4px 6px; border-radius: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.5); z-index: 2;}
-        .ai-banner-bottom { position: absolute; bottom: 0; left: 0; width: 100%; padding: 4px 0; font-size: 10px; font-weight: bold; text-align: center; text-transform: uppercase; z-index: 2; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
+        .ai-banner-bottom { position: absolute; bottom: 0; left: 0; width: 100%; padding: 4px 0; font-size: 10px; font-weight: bold; text-align: center; text-transform: uppercase; z-index: 2; backdrop-filter: blur(4px);}
 
         .book-title { margin-top: 8px; font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.2; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .book-ean { font-size: 11px; color: var(--subtext); margin-top: 2px; font-family: monospace;}
 
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 1000; justify-content: center; align-items: flex-end; }
+        /* MODALE SCHEDA LIBRO */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); z-index: 1000; justify-content: center; align-items: flex-end; }
         .modal-box { background: var(--surface); width: 100%; max-width: 600px; max-height: 90vh; border-radius: 20px 20px 0 0; display: flex; flex-direction: column; animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); padding-bottom: constant(safe-area-inset-bottom); padding-bottom: env(safe-area-inset-bottom);}
         
         .modal-drag-handle { width: 40px; height: 5px; background: rgba(255,255,255,0.2); border-radius: 3px; margin: 10px auto; }
@@ -109,7 +114,10 @@
 <body>
 
     <div class="header">
-        <h1>👁️ God Mode <span style="font-size:10px; background:var(--blue); color:#fff; padding:3px 6px; border-radius:4px; font-weight:bold; margin-left:10px;">LUNIGIANA</span></h1>
+        <h1>
+            <span>👁️ God Mode</span>
+            <div id="tesoretto" class="tesoretto-badge">💰 € 0.00</div>
+        </h1>
         
         <div id="radar-widget">
             <div id="radar-toggle" onclick="toggleRadar()">
@@ -125,12 +133,26 @@
         
         <div class="alpha-bar" id="alpha-keyboard"></div>
 
-        <div class="filter-bar">
-            <button class="filter-btn active" onclick="applicaFiltro('tutti', event)">Tutti</button>
-            <button class="filter-btn" onclick="applicaFiltro('trend', event)">🔥 Trend & Graal</button>
-            <button class="filter-btn" onclick="applicaFiltro('uscite', event)">📅 Uscite</button>
-            <button class="filter-btn" onclick="applicaFiltro('zavorre', event)">⚰️ Zavorre</button>
-            <button class="filter-btn" onclick="applicaFiltro('local', event)">📍 Local</button>
+        <div class="controls-row">
+            <select id="publisher-filter" onchange="applicaEditore(this.value)">
+                <option value="tutti">📚 Tutti gli Editori</option>
+                <option value="panini">Panini Comics</option>
+                <option value="star comics">Star Comics</option>
+                <option value="j-pop">J-Pop</option>
+                <option value="mondadori">Mondadori</option>
+                <option value="giunti">Giunti</option>
+                <option value="einaudi">Einaudi</option>
+                <option value="feltrinelli">Feltrinelli</option>
+                <option value="salani">Salani</option>
+            </select>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" onclick="applicaFiltro('tutti', event)">Tutti</button>
+                <button class="filter-btn" onclick="applicaFiltro('trend', event)">🔥 Trend/Graal</button>
+                <button class="filter-btn" onclick="applicaFiltro('uscite', event)">📅 Uscite</button>
+                <button class="filter-btn" onclick="applicaFiltro('zavorre', event)">⚰️ Zavorre</button>
+                <button class="filter-btn" onclick="applicaFiltro('local', event)">📍 Local</button>
+            </div>
         </div>
     </div>
 
@@ -156,15 +178,16 @@
         let dbCharts = [];
         let dbLocalEvents = [];
         let dbArchivista = {}; 
+        
         let currentFilter = 'tutti';
         let currentAlpha = '';
+        let currentPublisher = 'tutti';
 
         function toggleRadar() {
             const content = document.getElementById('radar-content');
             content.classList.toggle('active');
         }
 
-        // GENERATORE TASTIERA ALFABETICA
         function buildAlphaKeyboard() {
             const bar = document.getElementById('alpha-keyboard');
             const letters = ['#', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
@@ -184,11 +207,17 @@
             });
         }
 
+        // QUANDO TOCCHI UNA LETTERA, ORA CHIAMA IL DATABASE, NON FILTRA IN LOCALE!
         function filterByAlpha(letter, event) {
             currentAlpha = letter;
             document.querySelectorAll('.alpha-btn').forEach(b => b.classList.remove('active'));
             if(event) event.target.classList.add('active');
-            renderList(allBooks);
+            loadBooks(document.getElementById('search-box').value.trim());
+        }
+
+        function applicaEditore(pub) {
+            currentPublisher = pub;
+            loadBooks(document.getElementById('search-box').value.trim());
         }
 
         function applicaFiltro(filtro, event) {
@@ -201,12 +230,10 @@
         async function initCervellone() {
             buildAlphaKeyboard();
             try {
-                // TREND SOCIALI E CLASSIFICHE
                 const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(100);
                 if(res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
 
-                // FIX USCITE: Cerca per tipo di segnale per non perdere nulla (Giunti, Mondadori, Panini, ecc.)
-                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'publisher_release').order('created_at', { ascending: false }).limit(200);
+                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'publisher_release').order('created_at', { ascending: false }).limit(300);
                 if(res2.data) dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes("titolo da monitorare") && !r.signal_text.toLowerCase().includes("nuova uscita"));
 
                 const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
@@ -218,12 +245,10 @@
                 const res5 = await supabaseClient.from('external_signal_staging').select('feed_key, signal_text').eq('signal_type', 'book_cover').limit(5000);
                 if (res5.data) {
                     res5.data.forEach(c => {
-                        if(c.signal_text !== 'NOT_FOUND') {
-                            dbArchivista[c.feed_key] = c.signal_text;
-                        }
+                        if(c.signal_text !== 'NOT_FOUND') dbArchivista[c.feed_key] = c.signal_text;
                     });
                 }
-            } catch (err) { console.error("Errore fetch silenziato:", err); }
+            } catch (err) { console.error(err); }
             
             renderRadarDashboard();
             loadBooks('');
@@ -233,23 +258,17 @@
             const radarList = document.getElementById('radar-list');
             let html = `<div class="radar-section-title" style="color:var(--yellow);">🏆 VETRINA CONSIGLIATA</div>`;
             
-            if (dbTrends.length > 0) {
-                dbTrends.slice(0, 2).forEach(t => { html += `<div class="radar-item"><span class="badge-data" style="background:var(--red);">🔥 TREND</span> ${t.signal_text}</div>`; });
-            }
-            if (dbReleases.length > 0) {
-                dbReleases.slice(0, 2).forEach(r => {
-                    let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
-                    let dataStr = dataMatch ? dataMatch[0] : "USCITA";
-                    let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/g, '').trim();
-                    html += `<div class="radar-item"><span class="badge-data" style="background:var(--blue);">📅 ${dataStr}</span> ${testoPulito}</div>`;
-                });
-            }
-            if (dbTrends.length === 0 && dbReleases.length === 0) { html += `<div class="radar-item" style="color:var(--subtext);">Nessun dato nazionale fresco.</div>`; }
+            if (dbTrends.length > 0) dbTrends.slice(0, 2).forEach(t => { html += `<div class="radar-item"><span class="badge-data" style="background:var(--red);">🔥 TREND</span> ${t.signal_text}</div>`; });
+            if (dbReleases.length > 0) dbReleases.slice(0, 2).forEach(r => {
+                let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
+                let dataStr = dataMatch ? dataMatch[0] : "USCITA";
+                let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/g, '').trim();
+                html += `<div class="radar-item"><span class="badge-data" style="background:var(--blue);">📅 ${dataStr}</span> ${testoPulito}</div>`;
+            });
 
             html += `<div class="radar-section-title" style="color:var(--purple);">📍 EVENTI IN LUNIGIANA</div>`;
-
             if(dbLocalEvents.length === 0) {
-                html += `<div class="radar-item" style="color:var(--subtext);">Nessun evento confermato nel database.</div>`;
+                html += `<div class="radar-item" style="color:var(--subtext);">Nessun evento confermato.</div>`;
             } else {
                 dbLocalEvents.slice(0, 3).forEach(e => {
                     let testo = e.signal_text;
@@ -261,40 +280,49 @@
                     html += `<div class="radar-item"><span class="badge-data" style="background:var(--purple); color:white;">${fonte}</span> ${testoPulito}</div>`;
                 });
             }
-            
             radarList.innerHTML = html;
-            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi attivi`;
+            document.getElementById('radar-summary').innerText = `Radar: ${dbLocalEvents.length} Eventi`;
         }
 
         function handleSearchInput() {
             const query = document.getElementById('search-box').value.trim();
             clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => { loadBooks(query); }, 300); 
+            searchTimeout = setTimeout(() => { loadBooks(query); }, 400); 
         }
 
+        // IL NUOVO MOTORE DI RICERCA: Interroga il database con Lettere ed Editori!
         async function loadBooks(searchQuery = '') {
             const loadingDiv = document.getElementById('loading');
             loadingDiv.style.display = 'block';
             document.getElementById('book-list').innerHTML = ''; 
 
             try {
-                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(300); 
+                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(500); 
                 
                 if (searchQuery !== '') {
                     queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%,autore.ilike.%${searchQuery}%,editore.ilike.%${searchQuery}%`);
-                } else {
-                    queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
                 }
+                
+                // Filtro per Lettera direttamente sul Server!
+                if (currentAlpha && currentAlpha !== '#') {
+                    queryBuilder = queryBuilder.ilike('titolo', currentAlpha + '%');
+                }
+                
+                // Filtro per Editore direttamente sul Server!
+                if (currentPublisher !== 'tutti') {
+                    queryBuilder = queryBuilder.ilike('editore', '%' + currentPublisher + '%');
+                }
+
+                queryBuilder = queryBuilder.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
                 
                 let { data, error } = await queryBuilder;
                 
+                // Fallback se le colonne autore/editore non esistono
                 if (error) {
-                    let queryBase = supabaseClient.from('assistant_triage_inventario').select('*').limit(300);
-                    if (searchQuery !== '') {
-                        queryBase = queryBase.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
-                    } else {
-                        queryBase = queryBase.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
-                    }
+                    let queryBase = supabaseClient.from('assistant_triage_inventario').select('*').limit(500);
+                    if (searchQuery !== '') queryBase = queryBase.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
+                    if (currentAlpha && currentAlpha !== '#') queryBase = queryBase.ilike('titolo', currentAlpha + '%');
+                    queryBase = queryBase.order('posizione_scaffale', { ascending: true }).order('titolo', { ascending: true });
                     let baseData = await queryBase;
                     data = baseData.data;
                 }
@@ -325,10 +353,9 @@
             let badgeHtml = '';
             let alertHtml = ''; 
 
-            // CATEGORIE: Se il gestionale le ha, le mostriamo
-            let categoriaDB = book.categoria || book.reparto || '';
-            if (categoriaDB) {
-                badgeHtml += `<div class="cat-badge">${categoriaDB.substring(0, 10)}</div>`;
+            let editoreDB = book.editore || book.categoria || book.reparto || '';
+            if (editoreDB) {
+                badgeHtml += `<div class="cat-badge">${editoreDB.substring(0, 15)}</div>`;
             }
 
             if (isReleaseImminent) { 
@@ -379,15 +406,9 @@
             container.innerHTML = '';
             
             let hasMatches = false;
+            let totalValue = 0; // IL TESORETTO
 
             books.forEach(book => {
-                // FILTRO ALFABETICO
-                let bookTitle = (book.titolo || '').toUpperCase();
-                if (currentAlpha) {
-                    if (currentAlpha === '#' && !/^[0-9]/.test(bookTitle)) return;
-                    if (currentAlpha !== '#' && !bookTitle.startsWith(currentAlpha)) return;
-                }
-
                 const aiData = analyzeBook(book);
                 let show = false;
                 
@@ -399,19 +420,27 @@
 
                 if (show) {
                     hasMatches = true;
+                    
+                    // CALCOLO TESORETTO: Se hai il prezzo nel DB usalo, sennò stima conservativa 5€ a libro
+                    let prezzoStimato = book.prezzo || book.prezzo_copertina || book.prezzo_vendita || 5.00;
+                    let giacenza = book.giacenti || 1;
+                    totalValue += (prezzoStimato * giacenza);
+
                     const div = document.createElement('div');
                     div.id = 'card-' + book.id;
                     div.className = 'book-card';
                     const coverId = 'cover-' + book.id;
                     const safeTitle = encodeURIComponent(book.titolo || '');
                     const safeAlert = encodeURIComponent(aiData.alertHtml || '');
+                    // Passo anche il prezzo stimato alla modale
+                    const safePrice = encodeURIComponent(prezzoStimato.toString());
                     
-                    div.onclick = () => apriDettaglio(book.id, book.ean, safeTitle, book.posizione_scaffale, book.giacenti, safeAlert);
+                    div.onclick = () => apriDettaglio(book.id, book.ean, safeTitle, book.posizione_scaffale, book.giacenti, safeAlert, safePrice);
 
                     div.innerHTML = `
                         <div class="cover-wrapper">
                             <img class="cover-img" id="${coverId}" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%232c2c2e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E" alt="Cover">
-                            <div class="qty-badge">${book.giacenti || 0}</div>
+                            <div class="qty-badge">${giacenza}</div>
                             <div class="pos-badge">${book.posizione_scaffale || 'ND'}</div>
                             ${aiData.badgeHtml}
                         </div>
@@ -423,7 +452,10 @@
                 }
             });
 
-            // CARTE FANTASMA (Solo quando i filtri Trend o Uscite sono attivi)
+            // AGGIORNA IL BADGE DEL TESORETTO IN CIMA
+            document.getElementById('tesoretto').innerHTML = `💰 € ${totalValue.toFixed(2).replace('.', ',')}`;
+
+            // CARTE FANTASMA
             if (currentFilter === 'trend' || currentFilter === 'uscite') {
                 let dataList = currentFilter === 'trend' ? dbTrends : dbReleases;
                 let ghostCount = 0;
@@ -432,14 +464,11 @@
                     let cleanSignal = item.signal_text.replace(/📱 TREND TIKTOK:|🔥 HYPE ANIME:|📺 NEWS ANIME:|🗣️ TREND \[.*?\]:|🌸 ALERT J-POP:|🌸 IN USCITA \[.*?\]:|⭐ IN USCITA:|🦸‍♂️ IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/gi, '').trim();
                     if(cleanSignal.length < 3) return;
 
-                    // Filtro Alfabetico anche per i Fantasmi
                     let signalUp = cleanSignal.toUpperCase();
-                    if (currentAlpha) {
-                        if (currentAlpha === '#' && !/^[0-9]/.test(signalUp)) return;
-                        if (currentAlpha !== '#' && !signalUp.startsWith(currentAlpha)) return;
+                    if (currentAlpha && currentAlpha !== '#') {
+                        if (!signalUp.startsWith(currentAlpha)) return;
                     }
 
-                    // Se non lo hai già
                     let alreadyOwned = books.some(b => {
                         let coreT = (b.titolo||'').toLowerCase().replace(/new edition|variant|limited|ed\..*|vol\..*|n\..*|\(.*/gi, '').trim();
                         return coreT.length > 2 && cleanSignal.toLowerCase().includes(coreT);
@@ -465,15 +494,13 @@
                         `;
                         div.onclick = () => window.open(`https://www.google.com/search?q=${encodeURIComponent(cleanSignal + ' libro manga')}`, '_blank');
                         container.appendChild(div);
-                        
-                        // Il Mini-Ragno inietta la cover
                         fetchDynamicGhostCover(cleanSignal, ghostId);
                     }
                 });
             }
 
             if(!hasMatches) { 
-                container.innerHTML = `<div class="loading">Nessun libro trovato in questo settore.</div>`; 
+                container.innerHTML = `<div class="loading">Nessun libro trovato per questa selezione.</div>`; 
             }
         }
 
@@ -481,30 +508,19 @@
             const imgElement = document.getElementById(imgId);
             if (!imgElement) return;
             const cleanEan = ean ? ean.toString().replace(/\D/g, '') : '';
-            
-            if (cleanEan && dbArchivista[cleanEan]) {
-                imgElement.src = dbArchivista[cleanEan];
-                return;
-            }
-
+            if (cleanEan && dbArchivista[cleanEan]) { imgElement.src = dbArchivista[cleanEan]; return; }
             if (!cleanEan || cleanEan.length < 10) return;
-            const fallbacks = [
-                `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, 
-                `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`
-            ];
-
-            imgElement.onerror = function() {
-                imgElement.onerror = null; 
-                imgElement.src = fallbacks[1]; 
-            };
+            const fallbacks = [`https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`, `https://www.ibs.it/images/${cleanEan}_0_536_0_75.jpg`];
+            imgElement.onerror = function() { imgElement.onerror = null; imgElement.src = fallbacks[1]; };
             imgElement.src = fallbacks[0];
         }
 
-        async function apriDettaglio(id, ean, titoloCodificato, pos, giacenti, alertCodificato) {
+        async function apriDettaglio(id, ean, titoloCodificato, pos, giacenti, alertCodificato, prezzoCodificato) {
             const modal = document.getElementById('book-modal');
             const content = document.getElementById('book-modal-content');
             const titolo = decodeURIComponent(titoloCodificato);
             const alertHtml = decodeURIComponent(alertCodificato);
+            const prezzoDB = parseFloat(decodeURIComponent(prezzoCodificato));
             const cleanEan = ean ? String(ean).replace(/\D/g, '') : '';
             
             let imgUrl = dbArchivista[cleanEan] ? dbArchivista[cleanEan] : `https://img.libraccio.it/images/${cleanEan}_0_500_0_75.jpg`;
@@ -524,14 +540,15 @@
                 
                 ${alertHtml ? `<div class="modal-ai-box">${alertHtml}</div>` : ''}
                 
-                <div id="price-container" class="modal-price-box" style="display:none;">
+                <div id="price-container" class="modal-price-box">
                     <div>
-                        <div class="price-label">Prezzo Listino</div>
-                        <div id="price-official" class="price-value">-- €</div>
+                        <div class="price-label">Valore Base</div>
+                        <div id="price-official" class="price-value">~ ${prezzoDB.toFixed(2).replace('.',',')} €</div>
+                        <div style="font-size:9px; color:var(--subtext);">*Dal tuo database (o stima 5€)</div>
                     </div>
                     <div style="text-align:right;">
-                        <div class="price-label">Cestone / Svendita</div>
-                        <div id="price-discount" class="price-discount">⏳ Calcolo...</div>
+                        <div class="price-label">Svendita Rapida (-50%)</div>
+                        <div id="price-discount" class="price-discount">🛒 ${(prezzoDB * 0.5).toFixed(2).replace('.',',')} €</div>
                     </div>
                 </div>
 
@@ -569,24 +586,19 @@
                 }
 
                 const sinossiDiv = document.getElementById('sinossi-container');
-                const priceContainer = document.getElementById('price-container');
-                
                 if (data && data.items && data.items.length > 0) {
                     const info = data.items[0].volumeInfo;
                     const saleInfo = data.items[0].saleInfo;
-                    
                     const desc = info.description ? info.description : 'Nessuna trama fornita dall\'editore.';
                     sinossiDiv.innerHTML = `<b>📖 TRAMA:</b><br>${desc}`;
 
+                    // Se Google ha un prezzo vero e preciso, sovrascriviamo la stima!
                     if (saleInfo && saleInfo.listPrice && saleInfo.listPrice.amount) {
                         let prezzoReale = saleInfo.listPrice.amount;
                         let svendita = (prezzoReale * 0.5).toFixed(2);
-                        
-                        document.getElementById('price-official').innerText = prezzoReale.toFixed(2).replace('.', ',') + ' €';
+                        document.getElementById('price-official').innerHTML = `${prezzoReale.toFixed(2).replace('.', ',')} € <br><span style="font-size:9px; color:var(--subtext);">*Prezzo Ufficiale Google</span>`;
                         document.getElementById('price-discount').innerHTML = `🛒 ${svendita.replace('.', ',')} €`;
-                        priceContainer.style.display = 'flex';
                     }
-
                 } else {
                     sinossiDiv.innerHTML = `<span style="color:var(--subtext);">Nessuna scheda Google trovata.</span> <br><br> <a href="https://www.google.com/search?q=libro+${encodeURIComponent(titolo)}" target="_blank" style="color:var(--blue); text-decoration:none; font-weight:bold;">🔍 Cerca su Google Web</a>`;
                 }
