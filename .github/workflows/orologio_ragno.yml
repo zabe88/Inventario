@@ -8,44 +8,48 @@ on:
 jobs:
   scansiona_mondo:
     runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
     steps:
     - name: 📥 Scarica i file dal tuo repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: 🐍 Prepara l'ambiente Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.11'
 
     - name: 🛠️ Installa le armi dei Ragni
       run: |
         python -m pip install --upgrade pip
-        pip install supabase requests beautifulsoup4 lxml
-
-    - name: 🚀 Scatena lo Sciame Lunigiana (Eventi Locali)
-      run: python ragno_lunigiana.py
-
-    - name: 🌋 Scatena il Sismografo (Trend Anime Nazionali)
-      run: python ragno_anime.py
+        pip install supabase requests beautifulsoup4 lxml google-api-python-client
 
     - name: 🗣️ Scatena il Radar Passaparola (Reddit)
       run: python ragno_reddit.py
+      continue-on-error: true
 
     - name: 📱 Scatena il Radar BookTok (TikTok/Google)
       run: python ragno_booktok.py
+      continue-on-error: true
 
     - name: ⭐ Scatena l'Oracolo (Uscite Star Comics)
       run: python ragno_star.py
+      continue-on-error: true
 
     - name: 🦸‍♂️ Scatena l'Oracolo (Uscite Panini)
       run: python ragno_panini.py
+      continue-on-error: true
 
     - name: 📚 Scatena l'Oracolo (Uscite Giunti)
       run: python ragno_giunti.py
+      continue-on-error: true
 
     - name: 🌸 Scatena l'Oracolo (Uscite J-Pop)
       run: python ragno_jpop.py
+      continue-on-error: true
 
     - name: 🦅 Scatena l'Oracolo (Uscite Mondadori/Vault)
       run: python ragno_mondadori.py
+      continue-on-error: true
