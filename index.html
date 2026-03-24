@@ -34,7 +34,6 @@
         .book-card { background: white; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 15px; border-left: 5px solid #ccc; transition: transform 0.2s;}
         .book-header { display: flex; gap: 15px; align-items: stretch; }
         
-        /* Modificata copertina per sembrare un pulsante cliccabile */
         .book-cover { width: 80px; height: 120px; object-fit: cover; border-radius: 6px; background-color: #e2e8f0; box-shadow: 0 3px 6px rgba(0,0,0,0.15); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #666; text-align: center; cursor: pointer; transition: transform 0.2s;}
         .book-cover:active { transform: scale(0.93); }
         
@@ -128,6 +127,7 @@
 
         async function initCervellone() {
             try {
+                // Fetch ordinato per i segnali più recenti
                 const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(100);
                 if(res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
 
@@ -305,7 +305,6 @@
                     div.className = 'book-card';
                     div.style.borderLeftColor = aiData.color;
 
-                    // NOTA HACKER: Ho codificato il titolo per passarlo in sicurezza alla funzione della Sinossi
                     const safeTitle = encodeURIComponent(book.titolo || '');
 
                     div.innerHTML = `
@@ -335,7 +334,7 @@
             });
         }
 
-        // --- LA MAGIA DI GOOGLE BOOKS ---
+        // --- LA MAGIA DI GOOGLE BOOKS V2 (Doppio Colpo) ---
         async function apriSinossi(ean, titoloCodificato) {
             const modal = document.getElementById('book-modal');
             const content = document.getElementById('book-modal-content');
@@ -344,21 +343,33 @@
             modal.style.display = 'flex';
             content.innerHTML = '<div class="loading">Recupero informazioni dai server mondiali... 🌍</div>';
 
-            let queryUrl = '';
-            const cleanEan = ean ? ean.replace(/\D/g, '') : '';
-            
-            // Cerchiamo prima per codice a barre, se non c'è cerchiamo per titolo
-            if (cleanEan && cleanEan.length >= 10) {
-                queryUrl = `https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}&langRestrict=it`;
-            } else {
-                queryUrl = `https://www.googleapis.com/books/v1/volumes?q=intitle:${titoloCodificato}&langRestrict=it`;
-            }
+            const cleanEan = ean ? String(ean).replace(/\D/g, '') : '';
+            let data = null;
 
             try {
-                const response = await fetch(queryUrl);
-                const data = await response.json();
-                
-                if (data.items && data.items.length > 0) {
+                // TENTATIVO 1: Ricerca ISBN
+                if (cleanEan && cleanEan.length >= 10) {
+                    let res1 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${cleanEan}`);
+                    let d1 = await res1.json();
+                    if (d1.items && d1.items.length > 0) {
+                        data = d1;
+                    }
+                }
+
+                // TENTATIVO 2: Ricerca per Titolo se il codice a barre fallisce
+                if (!data) {
+                    let titoloPulito = titolo.replace(/vol\..*/i, '').replace(/n\..*/i, '').replace(/\(.*/, '').trim();
+                    let encodedTitolo = encodeURIComponent(titoloPulito);
+                    
+                    let res2 = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodedTitolo}`);
+                    let d2 = await res2.json();
+                    if (d2.items && d2.items.length > 0) {
+                        data = d2;
+                    }
+                }
+
+                // MOSTRA I RISULTATI
+                if (data && data.items && data.items.length > 0) {
                     const info = data.items[0].volumeInfo;
                     const desc = info.description ? info.description : '<i>Sinossi non fornita dall\'editore per questo volume.</i>';
                     const autori = info.authors ? info.authors.join(', ') : 'Sconosciuto';
@@ -385,7 +396,7 @@
                     content.innerHTML = `
                         <div style="text-align:center; padding:30px 10px;">
                             <h3 style="margin-bottom:10px;">${titolo}</h3>
-                            <p style="color:#666;">I server globali non hanno restituito una scheda per questo libro.</p>
+                            <p style="color:#666;">Neanche con la ricerca di emergenza per titolo Google ha trovato questo volume. Probabilmente è un'edizione troppo specifica o indipendente.</p>
                         </div>`;
                 }
             } catch (error) {
