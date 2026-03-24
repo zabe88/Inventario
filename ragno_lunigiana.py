@@ -1,13 +1,18 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
 import re
 
-# --- LE CHIAVI DEL TUO CERVELLONE ---
-SUPABASE_URL = "https://aacqebirvnkrbewvgmvo.supabase.co"
-SUPABASE_KEY = "sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3"
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    print("ERRORE: Chiavi Supabase mancanti! Impostale come variabili d'ambiente / GitHub Secrets.")
+    raise SystemExit(1)
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 segnali_raccolti = []
 calendario_eventi = [] 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, come Gecko) Chrome/91.0.4472.124 Safari/537.36'}

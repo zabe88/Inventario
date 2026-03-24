@@ -1,12 +1,16 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
 
-# --- LE CHIAVI DEL TUO CERVELLONE ---
-SUPABASE_URL = "https://aacqebirvnkrbewvgmvo.supabase.co"
-SUPABASE_KEY = "sb_publishable_opJ7oXwCxaT53ym88mSxOA_-iNxA1f3"
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
+if not SUPABASE_URL or not SUPABASE_KEY:
+    print("ERRORE: Chiavi Supabase mancanti! Impostale come variabili d'ambiente / GitHub Secrets.")
+    raise SystemExit(1)
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 tiktok_news = []
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) CervelloneBot/1.0'}
 
@@ -34,7 +38,7 @@ def scansiona_trend_tiktok():
                 if len(titolo_pulito) > 15 and trovati < 8:
                     tiktok_news.append({
                         "signal_text": f"📱 TREND TIKTOK: {titolo_pulito}",
-                        "source_key": "google-trends",
+                        "source_key": "booktok",
                         "feed_key": "booktok_trends",
                         "signal_type": "national_trend"
                     })

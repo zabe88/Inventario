@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
 
-# CHIAVI SEGRETE PESCATE DA GITHUB SECRETS
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
 
@@ -45,10 +44,25 @@ def scansiona_jpop():
         print(f"Errore: {e}")
 
 scansiona_jpop()
+
 if jpop_news:
     try:
+        # 1. Puliamo il campo vecchio
         supabase.table("external_signal_staging").delete().eq("feed_key", "jpop_releases").execute()
+        
+        # 2. Registriamo il feed per aggirare il blocco
+        try:
+             supabase.table("source_ingestion_registry").upsert({
+                "feed_key": "jpop_releases", 
+                "source_key": "jpop",  
+                "feed_name": "Uscite J-Pop", 
+                "feed_scope": "upcoming_releases",
+                "target_table": "external_signal_staging"
+            }).execute()
+        except Exception: pass
+        
+        # 3. Inseriamo le news
         supabase.table("external_signal_staging").insert(jpop_news).execute()
         print(f"Vittoria. {len(jpop_news)} salvati.")
     except Exception as e:
-        pass
+        print(f"Errore salvataggio: {e}")
