@@ -18,10 +18,17 @@
         #search-box:focus { background: rgba(255,255,255,0.15); box-shadow: 0 0 0 2px var(--blue); }
         #search-box::placeholder { color: #86868b; }
 
-        .filter-bar { display: flex; gap: 8px; margin-top: 15px; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; }
+        /* TASTIERA ALFABETICA SCORREVOLE */
+        .alpha-bar { display: flex; gap: 6px; margin-top: 12px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: none; }
+        .alpha-bar::-webkit-scrollbar { display: none; }
+        .alpha-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--subtext); padding: 6px 12px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; flex-shrink: 0; transition: all 0.2s;}
+        .alpha-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
+
+        /* BARRA FILTRI PRINCIPALI */
+        .filter-bar { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; }
         .filter-bar::-webkit-scrollbar { display: none; }
         .filter-btn { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.05); color: var(--text); padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;}
-        .filter-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
+        .filter-btn.active { background: white; color: black; border-color: white; }
 
         #radar-widget { margin-bottom: 15px; }
         #radar-toggle { background: rgba(255,255,255,0.05); border-radius: 10px; padding: 10px 15px; font-size: 13px; font-weight: 600; color: var(--blue); display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.2s;}
@@ -45,6 +52,7 @@
         
         .qty-badge { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); color: white; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; border: 1px solid rgba(255,255,255,0.1);}
         .pos-badge { position: absolute; bottom: 6px; left: 6px; background: rgba(255,255,255,0.9); color: black; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 800;}
+        .cat-badge { position: absolute; bottom: 26px; left: 6px; background: var(--purple); color: white; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 800; text-transform: uppercase;}
         
         .ai-overlay-badge { position: absolute; top: 6px; right: 6px; padding: 4px 6px; border-radius: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; box-shadow: 0 2px 4px rgba(0,0,0,0.5); z-index: 2;}
         .ai-banner-bottom { position: absolute; bottom: 0; left: 0; width: 100%; padding: 4px 0; font-size: 10px; font-weight: bold; text-align: center; text-transform: uppercase; z-index: 2; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
@@ -115,6 +123,8 @@
 
         <input type="text" id="search-box" placeholder="Cerca EAN, Titolo, Autore..." onkeyup="handleSearchInput()" autofocus>
         
+        <div class="alpha-bar" id="alpha-keyboard"></div>
+
         <div class="filter-bar">
             <button class="filter-btn active" onclick="applicaFiltro('tutti', event)">Tutti</button>
             <button class="filter-btn" onclick="applicaFiltro('trend', event)">🔥 Trend & Graal</button>
@@ -147,10 +157,38 @@
         let dbLocalEvents = [];
         let dbArchivista = {}; 
         let currentFilter = 'tutti';
+        let currentAlpha = '';
 
         function toggleRadar() {
             const content = document.getElementById('radar-content');
             content.classList.toggle('active');
+        }
+
+        // GENERATORE TASTIERA ALFABETICA
+        function buildAlphaKeyboard() {
+            const bar = document.getElementById('alpha-keyboard');
+            const letters = ['#', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+            
+            let btnTutti = document.createElement('button');
+            btnTutti.className = 'alpha-btn active';
+            btnTutti.innerText = 'TUTTI';
+            btnTutti.onclick = (e) => filterByAlpha('', e);
+            bar.appendChild(btnTutti);
+
+            letters.forEach(l => {
+                let btn = document.createElement('button');
+                btn.className = 'alpha-btn';
+                btn.innerText = l;
+                btn.onclick = (e) => filterByAlpha(l, e);
+                bar.appendChild(btn);
+            });
+        }
+
+        function filterByAlpha(letter, event) {
+            currentAlpha = letter;
+            document.querySelectorAll('.alpha-btn').forEach(b => b.classList.remove('active'));
+            if(event) event.target.classList.add('active');
+            renderList(allBooks);
         }
 
         function applicaFiltro(filtro, event) {
@@ -161,11 +199,14 @@
         }
 
         async function initCervellone() {
+            buildAlphaKeyboard();
             try {
+                // TREND SOCIALI E CLASSIFICHE
                 const res1 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['reddit', 'youtube', 'animeclick', 'tiktok', 'booktok']).order('created_at', { ascending: false }).limit(100);
                 if(res1.data) dbTrends = res1.data.filter(t => t.signal_text && t.signal_text.length > 10 && !t.signal_text.toLowerCase().includes("nessun evento"));
 
-                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').in('source_key', ['star-comics-site', 'panini-comics-site', 'giunti', 'jpop', 'mondadori']).order('created_at', { ascending: false }).limit(100);
+                // FIX USCITE: Cerca per tipo di segnale per non perdere nulla (Giunti, Mondadori, Panini, ecc.)
+                const res2 = await supabaseClient.from('external_signal_staging').select('signal_text').eq('signal_type', 'publisher_release').order('created_at', { ascending: false }).limit(200);
                 if(res2.data) dbReleases = res2.data.filter(r => r.signal_text && r.signal_text.length > 10 && !r.signal_text.toLowerCase().includes("titolo da monitorare") && !r.signal_text.toLowerCase().includes("nuova uscita"));
 
                 const res3 = await supabaseClient.from('ranking_charts').select('titolo').limit(1000);
@@ -182,7 +223,6 @@
                         }
                     });
                 }
-
             } catch (err) { console.error("Errore fetch silenziato:", err); }
             
             renderRadarDashboard();
@@ -200,7 +240,7 @@
                 dbReleases.slice(0, 2).forEach(r => {
                     let dataMatch = r.signal_text.match(/\d{2}\/\d{2}\/\d{4}/);
                     let dataStr = dataMatch ? dataMatch[0] : "USCITA";
-                    let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim();
+                    let testoPulito = r.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/g, '').trim();
                     html += `<div class="radar-item"><span class="badge-data" style="background:var(--blue);">📅 ${dataStr}</span> ${testoPulito}</div>`;
                 });
             }
@@ -238,7 +278,7 @@
             document.getElementById('book-list').innerHTML = ''; 
 
             try {
-                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(200); 
+                let queryBuilder = supabaseClient.from('assistant_triage_inventario').select('*').limit(300); 
                 
                 if (searchQuery !== '') {
                     queryBuilder = queryBuilder.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%,autore.ilike.%${searchQuery}%,editore.ilike.%${searchQuery}%`);
@@ -249,7 +289,7 @@
                 let { data, error } = await queryBuilder;
                 
                 if (error) {
-                    let queryBase = supabaseClient.from('assistant_triage_inventario').select('*').limit(200);
+                    let queryBase = supabaseClient.from('assistant_triage_inventario').select('*').limit(300);
                     if (searchQuery !== '') {
                         queryBase = queryBase.or(`titolo.ilike.%${searchQuery}%,ean.ilike.%${searchQuery}%,posizione_scaffale.ilike.%${searchQuery}%`);
                     } else {
@@ -268,7 +308,6 @@
             let title = book.titolo ? book.titolo.toLowerCase() : '';
             if (!title) return { badgeHtml: '', alertHtml: '', isTrend: false, isReleaseImminent: null }; 
             
-            // FIX DEL CERVELLO: Troviamo il "Cuore" del titolo per non confondere l'IA
             let coreTitle = title.replace(/new edition|variant|limited|ed\..*|vol\..*|n\..*|\(.*/gi, '').trim();
             if(coreTitle.length < 3) coreTitle = title.split(' ')[0];
 
@@ -286,23 +325,29 @@
             let badgeHtml = '';
             let alertHtml = ''; 
 
+            // CATEGORIE: Se il gestionale le ha, le mostriamo
+            let categoriaDB = book.categoria || book.reparto || '';
+            if (categoriaDB) {
+                badgeHtml += `<div class="cat-badge">${categoriaDB.substring(0, 10)}</div>`;
+            }
+
             if (isReleaseImminent) { 
-                badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(10, 132, 255, 0.9); color:white;">📅 USCITA</div>`;
-                alertHtml += `<div>📅 <b>USCITA IMMINENTE:</b> ${isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:/g, '').trim()}</div>`;
+                badgeHtml += `<div class="ai-banner-bottom" style="background:rgba(10, 132, 255, 0.9); color:white;">📅 USCITA</div>`;
+                alertHtml += `<div>📅 <b>USCITA IMMINENTE:</b> ${isReleaseImminent.signal_text.replace(/⭐ IN USCITA:|🦸‍♂️ IN USCITA:|🌸 IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/g, '').trim()}</div>`;
             } else if (isTrend && isVol1) { 
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--yellow); color:black;">👑 GRAAL</div>`;
+                badgeHtml += `<div class="ai-overlay-badge" style="background:var(--yellow); color:black;">👑 GRAAL</div>`;
                 alertHtml += `<div>👑 <b>IL SACRO GRAAL:</b> Numero 1 ed è Virale sui Social. VETRINA IMMEDIATA.</div>`;
             } else if (isTrend && giacenze <= 2) { 
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--red); color:white;">🚨 STOCK</div>`;
+                badgeHtml += `<div class="ai-overlay-badge" style="background:var(--red); color:white;">🚨 STOCK</div>`;
                 alertHtml += `<div>🚨 <b>ALLERTA STOCK:</b> Hype altissimo ma hai solo ${giacenze} copie!</div>`;
             } else if (isTrend) {
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--red); color:white;">🔥 TREND</div>`;
+                badgeHtml += `<div class="ai-overlay-badge" style="background:var(--red); color:white;">🔥 TREND</div>`;
                 alertHtml += `<div>🔥 <b>TREND SOCIAL:</b> Titolo molto discusso su Reddit/TikTok.</div>`;
             } else if (isChart) { 
-                badgeHtml = `<div class="ai-overlay-badge" style="background:var(--green); color:black;">📈 TOP</div>`;
+                badgeHtml += `<div class="ai-overlay-badge" style="background:var(--green); color:black;">📈 TOP</div>`;
                 alertHtml += `<div>📈 <b>TOP CLASSIFICA:</b> Esponi di piatto.</div>`;
             } else if (!isTrend && !isChart && !isReleaseImminent && giacenze > 5) { 
-                badgeHtml = `<div class="ai-banner-bottom" style="background:rgba(142, 142, 147, 0.9); color:white;">⚰️ ZAVORRA</div>`;
+                badgeHtml += `<div class="ai-banner-bottom" style="background:rgba(142, 142, 147, 0.9); color:white;">⚰️ ZAVORRA</div>`;
                 alertHtml += `<div>⚰️ <b>ZAVORRA:</b> Nessun hype rilevato. ${giacenze} copie a poltrire.</div>`;
             }
 
@@ -318,6 +363,17 @@
             return { badgeHtml, alertHtml, isTrend, isReleaseImminent };
         }
 
+        async function fetchDynamicGhostCover(title, imgId) {
+            try {
+                let res = await fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(title)}`);
+                let data = await res.json();
+                if (data.items && data.items.length > 0 && data.items[0].volumeInfo.imageLinks) {
+                    let thumb = data.items[0].volumeInfo.imageLinks.thumbnail.replace('http:', 'https:');
+                    document.getElementById(imgId).src = thumb;
+                }
+            } catch (e) {}
+        }
+
         function renderList(books) {
             const container = document.getElementById('book-list');
             container.innerHTML = '';
@@ -325,6 +381,13 @@
             let hasMatches = false;
 
             books.forEach(book => {
+                // FILTRO ALFABETICO
+                let bookTitle = (book.titolo || '').toUpperCase();
+                if (currentAlpha) {
+                    if (currentAlpha === '#' && !/^[0-9]/.test(bookTitle)) return;
+                    if (currentAlpha !== '#' && !bookTitle.startsWith(currentAlpha)) return;
+                }
+
                 const aiData = analyzeBook(book);
                 let show = false;
                 
@@ -360,14 +423,23 @@
                 }
             });
 
-            // LE CARTE FANTASMA (Libri in Trend che NON hai in magazzino)
+            // CARTE FANTASMA (Solo quando i filtri Trend o Uscite sono attivi)
             if (currentFilter === 'trend' || currentFilter === 'uscite') {
                 let dataList = currentFilter === 'trend' ? dbTrends : dbReleases;
-                
+                let ghostCount = 0;
+
                 dataList.forEach(item => {
                     let cleanSignal = item.signal_text.replace(/📱 TREND TIKTOK:|🔥 HYPE ANIME:|📺 NEWS ANIME:|🗣️ TREND \[.*?\]:|🌸 ALERT J-POP:|🌸 IN USCITA \[.*?\]:|⭐ IN USCITA:|🦸‍♂️ IN USCITA:|📚 IN USCITA:|🦅 IN USCITA:|🗡️ IN USCITA:/gi, '').trim();
                     if(cleanSignal.length < 3) return;
 
+                    // Filtro Alfabetico anche per i Fantasmi
+                    let signalUp = cleanSignal.toUpperCase();
+                    if (currentAlpha) {
+                        if (currentAlpha === '#' && !/^[0-9]/.test(signalUp)) return;
+                        if (currentAlpha !== '#' && !signalUp.startsWith(currentAlpha)) return;
+                    }
+
+                    // Se non lo hai già
                     let alreadyOwned = books.some(b => {
                         let coreT = (b.titolo||'').toLowerCase().replace(/new edition|variant|limited|ed\..*|vol\..*|n\..*|\(.*/gi, '').trim();
                         return coreT.length > 2 && cleanSignal.toLowerCase().includes(coreT);
@@ -375,13 +447,16 @@
 
                     if (!alreadyOwned) {
                         hasMatches = true;
+                        ghostCount++;
+                        const ghostId = 'ghost-cover-' + ghostCount;
                         const div = document.createElement('div');
                         div.className = 'book-card';
-                        div.style.opacity = '0.8';
+                        div.style.opacity = '0.9';
                         div.innerHTML = `
                             <div class="cover-wrapper" style="border: 2px dashed var(--blue); background: rgba(10, 132, 255, 0.1);">
-                                <div style="padding:20px; text-align:center; color:var(--blue); font-weight:bold; margin-top:30px; font-size:12px;">
-                                    🛒 DA<br>ORDINARE
+                                <img class="cover-img" id="${ghostId}" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2275%22%20height%3D%22110%22%20viewBox%3D%220%200%2075%20110%22%3E%3Crect%20fill%3D%22%231c1c1e%22%20width%3D%2275%22%20height%3D%22110%22%2F%3E%3C%2Fsvg%3E" style="opacity: 0.5;">
+                                <div style="position:absolute; top:40%; left:0; right:0; text-align:center; color:white; font-weight:bold; font-size:12px; text-shadow: 0px 2px 4px black;">
+                                    🛒 ORDINA
                                 </div>
                                 <div class="ai-banner-bottom" style="background:var(--blue); color:white;">MANCANTE</div>
                             </div>
@@ -390,12 +465,15 @@
                         `;
                         div.onclick = () => window.open(`https://www.google.com/search?q=${encodeURIComponent(cleanSignal + ' libro manga')}`, '_blank');
                         container.appendChild(div);
+                        
+                        // Il Mini-Ragno inietta la cover
+                        fetchDynamicGhostCover(cleanSignal, ghostId);
                     }
                 });
             }
 
             if(!hasMatches) { 
-                container.innerHTML = `<div class="loading">Nessun libro trovato per il filtro "${currentFilter}".</div>`; 
+                container.innerHTML = `<div class="loading">Nessun libro trovato in questo settore.</div>`; 
             }
         }
 
