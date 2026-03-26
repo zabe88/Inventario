@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-03-26T08:11:41.566677+00:00",
+  "updated_at": "2026-03-26T16:49:16.418688+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -59,16 +59,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788867908264",
+      "title": "Il gioco delle risate",
       "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788867908264",
-      "title": "Il gioco delle risate",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 9,
       "category": "generale",
@@ -99,8 +99,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788879849456",
-      "title": "La lampada della conoscenza non-duale",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -115,8 +115,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9789403212555",
+      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
       "author": "",
       "position": 15,
       "category": "generale",
@@ -131,32 +131,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9789403212555",
-      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
+      "ean": "9788879849456",
+      "title": "La lampada della conoscenza non-duale",
       "author": "",
       "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9791224200451",
+      "title": "L'amante perduta di Shakespeare",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
+      "ean": "9791224201168",
+      "title": "Mezzanotte a Parigi",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788848328487",
-      "title": "Alpha Test Professioni Sanitarie 2026-2027. Kit di preparazione. Per test di ammissione universitari. Con piattaforma e simulatore online",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -227,18 +227,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804093855",
-      "title": "Ulisse",
-      "author": "",
-      "position": 9,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804102342",
       "title": "Romanzi",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -246,13 +238,21 @@
       "ean": "9788804113065",
       "title": "Don Chisciotte della Mancia",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804117681",
       "title": "Le opere narrative. Vol. 1",
+      "author": "",
+      "position": 11,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804236061",
+      "title": "Il ritratto di Dorian Gray",
       "author": "",
       "position": 12,
       "category": "narrativa",
@@ -403,16 +403,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788820080914",
+      "title": "Ancora insieme. Love me love me. Vol. 4",
       "author": "",
       "position": 31,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788820080914",
-      "title": "Ancora insieme. Love me love me. Vol. 4",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 32,
       "category": "narrativa",
@@ -427,8 +427,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -523,10 +523,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9781474930796",
+      "title": "Cos'è la cacca? Ediz. illustrata",
+      "author": "",
+      "position": 12,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9781474938655",
       "title": "Cosa sono i microbi? Ediz. a colori",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -534,7 +542,7 @@
       "ean": "9788804387794",
       "title": "Piccoli brividi. La casa della morte",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,21 +550,13 @@
       "ean": "9788804413707",
       "title": "Il ritorno della mummia",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804423997",
       "title": "I prigionieri della torre",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804446255",
-      "title": "Diana, Cupìdo e il commendatore",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -755,16 +755,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788866567851",
-      "title": "La cura. Ediz. a colori",
+      "ean": "9788804688013",
+      "title": "Una capra sul tetto",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867145522",
-      "title": "La nuvola Olga e la bambina. Ediz. illus...",
+      "ean": "9788866567851",
+      "title": "La cura. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -1179,8 +1179,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804570820",
-      "title": "L'illusione di Dio. Le ragioni per non c...",
+      "ean": "9788804515944",
+      "title": "I grandi miti greci",
       "author": "",
       "position": 14,
       "category": "religione",
@@ -1355,16 +1355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817080521",
-      "title": "Non c'è dio all'infuori di Dio. Perché n...",
+      "ean": "9788885471276",
+      "title": "Insegnamenti Dzogchen Bonpo dallo Yetri ...",
       "author": "",
       "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788885471276",
-      "title": "Insegnamenti Dzogchen Bonpo dallo Yetri ...",
+      "ean": "9788817080521",
+      "title": "Non c'è dio all'infuori di Dio. Perché n...",
       "author": "",
       "position": 37,
       "category": "religione",
@@ -1395,16 +1395,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788852605086",
-      "title": "Marco Gallo. Anche i sassi si sarebbero ...",
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
+      "ean": "9788852605086",
+      "title": "Marco Gallo. Anche i sassi si sarebbero ...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3607,158 +3607,7 @@
       "source": "lunigianaworld"
     }
   ],
-  "manga_trends": [
-    {
-      "title": "Disastro Epic Games: la compagnia licenzia oltre 1000 dipendenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110133-disastro-epic-games-la-compagnia-licenzia-oltre-1000-dipendenti"
-    },
-    {
-      "title": "Anime al cinema: il 2026 inizia con alcuni dei peggiori incassi di sempre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109270-anime-al-cinema-il-2026-inizia-con-alcuni-dei-peggiori-incassi-di-sempre"
-    },
-    {
-      "title": "Granblue Fantasy Relink Endless Ragnarok- Anteprima dell'espansione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110052-granblue-fantasy-relink-endless-ragnarok-anteprima-dellespansione"
-    },
-    {
-      "title": "Oshi no Ko: annunciata la quarta e ultima stagione dell’anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110139-oshi-no-ko-annunciata-la-quarta-e-ultima-stagione-dell%25e2%2580%2599anime"
-    },
-    {
-      "title": "Anime Preview: novità per Oshi no Ko, Go for It, Nakamura-kun!! e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110093-anime-preview-novita-per-oshi-no-ko-go-for-it-nakamura-kun-e-molto-altro"
-    },
-    {
-      "title": "Anime Preview: novità per Liar Game, Patlabor EZY e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110111-anime-preview-novita-per-liar-game-patlabor-ezy-e-molto-altro"
-    },
-    {
-      "title": "Sekiro: Shadows Die Twice: trailer, novità e intervista al regista della serie tratta dal videogame",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110047-sekiro-shadows-die-twice-trailer-novita-e-intervista-al-regista-della-serie-tratta-dal-videogame"
-    },
-    {
-      "title": "Seiyū Awards: risultati della ventesima edizione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110038-seiyu-awards-risultati-della-ventesima-edizione"
-    },
-    {
-      "title": "Anime Preview: annunci e trailer per Hana-Kimi, Maebashi Witches e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110126-anime-preview-annunci-e-trailer-per-hana-kimi-maebashi-witches-e-molto-altro"
-    },
-    {
-      "title": "The One Piece: il CEO di WIT Studio rivela i motivi dietro il remake dell'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110091-the-one-piece-il-ceo-di-wit-studio-rivela-i-motivi-dietro-il-remake-dellanime"
-    },
-    {
-      "title": "Jaadugar: A Witch in Mongolia - nuovo trailer per l'anime storico di Science Saru",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110135-jaadugar-a-witch-in-mongolia-nuovo-trailer-per-lanime-storico-di-science-saru"
-    },
-    {
-      "title": "Etna Comics 2026: Yōichi Takahashi (Capitan Tsubasa) ospite d'onore della 14ª edizione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110119-etna-comics-2026-yoichi-takahashi-capitan-tsubasa-ospite-donore-della-14%25c2%25aa-edizione"
-    },
-    {
-      "title": "Gundam Wing e Endless Waltz arrivano su youtube sottotitolati in italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110120-gundam-wing-e-endless-waltz-arrivano-su-youtube-sottotitolati-in-italiano"
-    },
-    {
-      "title": "Un fan ricrea Resident Evil 3.5 Hookman: la demo cancellata torna in Unreal Engine",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110058-un-fan-ricrea-resident-evil-35-hookman-la-demo-cancellata-torna-in-unreal-engine"
-    },
-    {
-      "title": "The 100 Girlfriends Who Really Love You: nuovo video e data di uscita della terza stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110099-the-100-girlfriends-who-really-love-you-nuovo-video-e-data-di-uscita-della-terza-stagione"
-    },
-    {
-      "title": "Magic: The Gathering X Teenage Mutant Ninja Turtle disponibile e primo info su Segreti di Strixhaven",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109976-magic-the-gathering-x-teenage-mutant-ninja-turtle-disponibile-e-primo-info-su-segreti-di-strixhaven"
-    },
-    {
-      "title": "MARRIAGETOXIN: nuovo trailer e novità per l'anime primaverile",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110127-marriagetoxin-nuovo-trailer-e-novita-per-lanime-primaverile"
-    },
-    {
-      "title": "Crimson Desert: recensioni “non abbastanza” e titolo in caduta libera",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110081-crimson-desert-recensioni-%25e2%2580%259cnon-abbastanza%25e2%2580%259d-e-titolo-in-caduta-libera"
-    },
-    {
-      "title": "J-POP Manga: le novità dal Direct 140",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110095-j-pop-manga-le-novita-dal-direct-140"
-    },
-    {
-      "title": "Fate/Extra Record viene rimandato nuovamente e cambia publisher",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110041-fateextra-record-viene-rimandato-nuovamente-e-cambia-publisher"
-    },
-    {
-      "title": "Hayao Miyazaki torna a disegnare a 85 anni: le sue nuove opere originali arrivano al Ghibli Park",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110097-hayao-miyazaki-torna-a-disegnare-a-85-anni-le-sue-nuove-opere-originali-arrivano-al-ghibli-park"
-    },
-    {
-      "title": "One Piece: Verso la Rotta Maggiore - E' boom di visualizzazioni su Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110079-one-piece-verso-la-rotta-maggiore-e-boom-di-visualizzazioni-su-netflix"
-    },
-    {
-      "title": "Junket Bank: in arrivo l'anime tratto dal manga sul gioco d'azzardo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109989-junket-bank-in-arrivo-lanime-tratto-dal-manga-sul-gioco-dazzardo"
-    },
-    {
-      "title": "Killed again, Mr. Detective?: nuovo trailer e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110077-killed-again-mr-detective-nuovo-trailer-e-data-di-debutto-per-lanime"
-    },
-    {
-      "title": "Non solo anime: novità per Sonic e Spider-Man, Disney cambia guida",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110109-non-solo-anime-novita-per-sonic-e-spider-man-disney-cambia-guida"
-    },
-    {
-      "title": "News dal mondo gaming: Shadow Tactics, Dead as Disco e Ghost Master",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110110-news-dal-mondo-gaming-shadow-tactics-dead-as-disco-e-ghost-master"
-    },
-    {
-      "title": "Hirayasumi: trailer per l'anime che debutterà nel 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110051-hirayasumi-trailer-per-lanime-che-debuttera-nel-2027"
-    },
-    {
-      "title": "Rivoluzione DLSS: Nvidia integra l'IA nella nuova versione della sua tecnologia proprietaria",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110048-rivoluzione-dlss-nvidia-integra-lia-nella-nuova-versione-della-sua-tecnologia-proprietaria"
-    },
-    {
-      "title": "Anime Preview: annunci per Isekai Tensei Sōdōki e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110064-anime-preview-annunci-per-isekai-tensei-sodoki-e-molto-altro"
-    },
-    {
-      "title": "Though I Am an Inept Villainess: trailer e novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110092-though-i-am-an-inept-villainess-trailer-e-novita-per-lanime"
-    }
-  ],
+  "manga_trends": [],
   "youtube_trends": [
     {
       "title": "[LalibreriadiGiady📚] Io sempre✌️:     #Books #booktok #libricheamo #libri #romance #bibliomanzia #ilmaggiodeilibri",
@@ -3769,8 +3618,8 @@
       "url": "https://www.youtube.com/watch?v=BIkC6MQKHSo"
     },
     {
-      "title": "[Planet of Giulia] E TU QUANTO LEGGI IN 3 ORE? #books #booktok #libri #romance",
-      "url": "https://www.youtube.com/watch?v=PzR9oc1h7g8"
+      "title": "[Once upon a Vero] State leggendo Priceless?🤭 #booktok #booktubeitalia #booktokita #darkromance #romance #romanceita",
+      "url": "https://www.youtube.com/watch?v=sysxj2sJomE"
     },
     {
       "title": "[Valerie Root ] STELLE AVVERSE di Valerie Root 💗 #booktokitalia #booktok #wattpaditalia",
@@ -3783,10 +3632,6 @@
     {
       "title": "[il mistero del Cristo velato] un thriller tutto italiano #history #bibliomanzia #booktok #perte #Cristovelato",
       "url": "https://www.youtube.com/watch?v=uryW8cBdU1M"
-    },
-    {
-      "title": "[Ionela] #amazon #booktok #fantasy #motivation #premio #emblema #speed #scrittore #italiano #fyp",
-      "url": "https://www.youtube.com/watch?v=wro98VB4658"
     },
     {
       "title": "[Belle Knight - Romanzi Passionali e Misteriosi] ❤️ 📚 #booktokitalia, #booktokita , #romanzirosa, #heasa10",
@@ -3803,10 +3648,6 @@
     {
       "title": "[Kyokami] He Judged Her By Her Appearance… And Was Wrong",
       "url": "https://www.youtube.com/watch?v=b9bR89r9s_8"
-    },
-    {
-      "title": "[Kyokami] This Girl Made Him Cry",
-      "url": "https://www.youtube.com/watch?v=HN7YptqHkUU"
     },
     {
       "title": "[Kyokami] He Fell In Love At First Sight... And His Childhood Friend Doesn`t Like It",
@@ -3827,6 +3668,10 @@
     {
       "title": "[Comic Book Corner 2.0] DC Is Hogging The Spotlight On This Week&#39;s FOC! ",
       "url": "https://www.youtube.com/watch?v=xBtCwMI6laU"
+    },
+    {
+      "title": "[Yuhoo Comic Review] Absolute Batman Shirt!",
+      "url": "https://www.youtube.com/watch?v=rGnNcxc_Cuw"
     },
     {
       "title": "[Still Only 35c] Comic Book Review: Dracula&#39;s Art &amp; Wolf&#39;s Translation Chaos! #shorts",
@@ -3857,20 +3702,16 @@
       "url": "https://www.youtube.com/watch?v=kUEElsrGjFc"
     },
     {
-      "title": "[NickDeLarge92] 🔪😏 DIABOLIK SWISS 382 - Un&#39;altra Donna... #shorts",
-      "url": "https://www.youtube.com/watch?v=rOp5kTDvDTI"
-    },
-    {
       "title": "[Chris Chem] NEW LEVELS OF JJK LARP...",
       "url": "https://www.youtube.com/watch?v=gS5TFy2kaoI"
     },
     {
-      "title": "[Etra chan saw it!] The meeting planned by my irresponsible chief… [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=-_KEIoURPcw"
-    },
-    {
       "title": "[aricyo52] One of The Most Stunning New Anime Coming Out!",
       "url": "https://www.youtube.com/watch?v=BdsXY0gjnU8"
+    },
+    {
+      "title": "[Etra chan saw it!] A battle with the landlady. How the filthy girl ended up [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=5U191XfjaUc"
     },
     {
       "title": "[Shonen Ouji] My Hero Academia&#39;s Shocking Impact on New Manga",
