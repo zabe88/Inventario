@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-03-28T07:53:08.843226+00:00",
+  "updated_at": "2026-03-28T14:56:49.956970+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -19,16 +19,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806255145",
-      "title": "Il custode",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788806255145",
+      "title": "Il custode",
       "author": "",
       "position": 4,
       "category": "generale",
@@ -43,24 +43,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867908264",
-      "title": "Il gioco delle risate",
+      "ean": "9791255172086",
+      "title": "Heated rivalry. Ediz. italiana",
       "author": "",
       "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791255172086",
-      "title": "Heated rivalry. Ediz. italiana",
+      "ean": "9788820080914",
+      "title": "Ancora insieme. Love me love me. Vol. 4",
       "author": "",
       "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788820080914",
-      "title": "Ancora insieme. Love me love me. Vol. 4",
+      "ean": "9788867908264",
+      "title": "Il gioco delle risate",
       "author": "",
       "position": 8,
       "category": "generale",
@@ -75,16 +75,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788863114287",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114287",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -99,18 +99,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
+      "ean": "9789403206042",
+      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
       "author": "",
       "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
       "author": "",
       "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
+      "author": "",
+      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,21 +126,13 @@
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -155,8 +155,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788848328487",
-      "title": "Alpha Test Professioni Sanitarie 2026-2027. Kit di preparazione. Per test di ammissione universitari. Con piattaforma e simulatore online",
+      "ean": "9791224201168",
+      "title": "Mezzanotte a Parigi",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -723,24 +723,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9789403212555",
-      "title": "Viaggio attraverso i 5 continenti. Il mi...",
+      "ean": "9789463079433",
+      "title": "La terra. Impara & crea. Ediz. a colori",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9789463079433",
-      "title": "La terra. Impara & crea. Ediz. a colori",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9789403212555",
+      "title": "Viaggio attraverso i 5 continenti. Il mi...",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
@@ -763,8 +763,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788829601639",
-      "title": "L'eredità di Topone. Stampatello maiusco...",
+      "ean": "9788855380140",
+      "title": "Il meraviglioso mago di Oz",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -995,10 +995,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
+      "author": "",
+      "position": 29,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788828788386",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 5: I...",
       "author": "",
-      "position": 29,
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,7 +1014,7 @@
       "ean": "9788828788393",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 6: F...",
       "author": "",
-      "position": 30,
+      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1014,7 +1022,7 @@
       "ean": "9788828762942",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
       "author": "",
-      "position": 31,
+      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1022,23 +1030,7 @@
       "ean": "9788828785026",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 3: P...",
       "author": "",
-      "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
-      "author": "",
       "position": 33,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
-      "author": "",
-      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1046,7 +1038,7 @@
       "ean": "9788828781424",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
       "author": "",
-      "position": 35,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1054,7 +1046,7 @@
       "ean": "9788828785033",
       "title": "L'istituto di arti occulte. Jujutsu Kais...",
       "author": "",
-      "position": 36,
+      "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1062,13 +1054,21 @@
       "ean": "9788828754220",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 1: R...",
       "author": "",
-      "position": 37,
+      "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788828788409",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 7: P...",
+      "author": "",
+      "position": 37,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828788379",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 2: L...",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1339,8 +1339,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817080521",
-      "title": "Non c'è dio all'infuori di Dio. Perché n...",
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
       "author": "",
       "position": 34,
       "category": "religione",
@@ -1355,8 +1355,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788817080521",
+      "title": "Non c'è dio all'infuori di Dio. Perché n...",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1379,24 +1379,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788852605086",
-      "title": "Marco Gallo. Anche i sassi si sarebbero ...",
+      "ean": "9788892250208",
+      "title": "Il miele e le cipolle",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788854174603",
-      "title": "Il Corano. Ediz. integrale",
+      "ean": "9791259755384",
+      "title": "Io sono come guardo. Lo sguardo di Crist...",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788811016441",
-      "title": "Gesù e Cristo",
+      "ean": "9788852605086",
+      "title": "Marco Gallo. Anche i sassi si sarebbero ...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -3629,134 +3629,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Reborn as a Space Mercenary: trailer e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110130-reborn-as-a-space-mercenary-trailer-e-data-di-debutto-per-lanime"
-    },
-    {
       "title": "Digimon UP: annunciato il nuovo gioco mobile dei mostriciattoli digitali",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110117-digimon-up-annunciato-il-nuovo-gioco-mobile-dei-mostriciattoli-digitali"
-    },
-    {
-      "title": "Etna Comics 2026: Yōichi Takahashi (Capitan Tsubasa) ospite d'onore della 14ª edizione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110119-etna-comics-2026-yoichi-takahashi-capitan-tsubasa-ospite-donore-della-14%25c2%25aa-edizione"
-    },
-    {
-      "title": "Vertex Force: il nuovo anime del regista di Strike Witches arriva entro il 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110096-vertex-force-il-nuovo-anime-del-regista-di-strike-witches-arriva-entro-il-2026"
-    },
-    {
-      "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana: trailer e novità per l'anime in arrivo ad aprile",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109967-kamiina-botan-yoeru-sugata-wa-yuri-no-hana-trailer-e-novita-per-lanime-in-arrivo-ad-aprile"
-    },
-    {
-      "title": "The Frontier Lord Begins with Zero Subjects: nuovo trailer e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110060-the-frontier-lord-begins-with-zero-subjects-nuovo-trailer-e-data-di-debutto-per-lanime"
-    },
-    {
-      "title": "Gundam Wing e Endless Waltz arrivano su youtube sottotitolati in italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110120-gundam-wing-e-endless-waltz-arrivano-su-youtube-sottotitolati-in-italiano"
-    },
-    {
-      "title": "Box Office Giappone: Domina Doraemon, ma tallonato da Golden Kamuy",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110065-box-office-giappone-domina-doraemon-ma-tallonato-da-golden-kamuy"
-    },
-    {
-      "title": "Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants to be Loved: Recensione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109920-miss-kobayashis-dragon-maid-a-lonely-dragon-wants-to-be-loved-recensione"
-    },
-    {
-      "title": "One Piece: ritorna l'action game itinerante nei centri commerciali italiani",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110080-one-piece-ritorna-laction-game-itinerante-nei-centri-commerciali-italiani"
-    },
-    {
-      "title": "Neptunia Unlimited è il nuovo capitolo della serie RPG",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110098-neptunia-unlimited-e-il-nuovo-capitolo-della-serie-rpg"
-    },
-    {
-      "title": "Steel Ball Run: informazioni sul doppiaggio di Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110085-steel-ball-run-informazioni-sul-doppiaggio-di-netflix"
-    },
-    {
-      "title": "Genshin Impact presenta le novità della patch Luna VI",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110155-genshin-impact-presenta-le-novita-della-patch-luna-vi"
-    },
-    {
-      "title": "Star Comics: nuovo aggiornamento sui volumi che subiranno l'adeguamento di prezzo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110142-star-comics-nuovo-aggiornamento-volumi-che-subiranno-adeguamento-prezzo"
-    },
-    {
-      "title": "Planet Manga presenta la instant variant di Berserk Deluxe Edition volume 14",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110143-planet-manga-presenta-la-instant-variant-di-berserk-deluxe-edition-volume-14"
-    },
-    {
-      "title": "Xbox Partner Preview Marzo 2026 - Tutti gli annunci",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110150-xbox-partner-preview-marzo-2026-tutti-gli-annunci"
-    },
-    {
-      "title": "Anime al cinema: il 2026 inizia con alcuni dei peggiori incassi di sempre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109270-anime-al-cinema-il-2026-inizia-con-alcuni-dei-peggiori-incassi-di-sempre"
-    },
-    {
-      "title": "IA contro IA: la soluzione di Sony per le infrazioni di copyright dell'IA generativa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110072-ia-contro-ia-la-soluzione-di-sony-per-le-infrazioni-di-copyright-dellia-generativa"
-    },
-    {
-      "title": "Patlabor: The Case Files -  annunciato il nuovo videogioco del franchise",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110121-patlabor-the-case-files-annunciato-il-nuovo-videogioco-del-franchise"
-    },
-    {
-      "title": "Demon Slayer, Solo Leveling e Kaiju No. 8 diventano delle Trading Card",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110100-demon-slayer-solo-leveling-e-kaiju-no-8-diventano-delle-trading-card"
-    },
-    {
-      "title": "Il Sondaggione: votiamo le serie più attese della primavera 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110136-il-sondaggione-votiamo-le-serie-piu-attese-della-primavera-2026"
-    },
-    {
-      "title": "Oshi no Ko: annunciata la quarta e ultima stagione dell’anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110139-oshi-no-ko-annunciata-la-quarta-e-ultima-stagione-dell%25e2%2580%2599anime"
-    },
-    {
-      "title": "Anime Preview: annunci per Isekai Tensei Sōdōki e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110064-anime-preview-annunci-per-isekai-tensei-sodoki-e-molto-altro"
-    },
-    {
-      "title": "Ranma ½: stagione 3 in arrivo a ottobre per la nuova trasposizione animata",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110144-ranma-%25c2%25bd-stagione-3-in-arrivo-a-ottobre-per-la-nuova-trasposizione-animata"
-    },
-    {
-      "title": "#I'm Looking For Zombie: nuovo trailer e data di uscita per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110087-im-looking-for-zombie-nuovo-trailer-e-data-di-uscita-per-lanime"
-    },
-    {
-      "title": "Jaadugar: A Witch in Mongolia - nuovo trailer per l'anime storico di Science Saru",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110135-jaadugar-a-witch-in-mongolia-nuovo-trailer-per-lanime-storico-di-science-saru"
     },
     {
       "title": "È scomparso Yoshiharu Tsuge, pioniere del gekiga e maestro del manga d'autore",
@@ -3764,19 +3639,144 @@
       "url": "https://www.animeclick.it/news/110154-e-scomparso-yoshiharu-tsuge-pioniere-del-gekiga-e-maestro-del-manga-dautore"
     },
     {
-      "title": "Tank Chair: annunciato l'adattamento animato del manga per l'autunno 2026",
+      "title": "Killed again, Mr. Detective?: nuovo trailer e data di debutto per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110068-tank-chair-annunciato-ladattamento-animato-del-manga-per-lautunno-2026"
+      "url": "https://www.animeclick.it/news/110077-killed-again-mr-detective-nuovo-trailer-e-data-di-debutto-per-lanime"
     },
     {
-      "title": "IA nei videogiochi: Capcom e Square-Enix sembrano andare in direzioni opposte",
+      "title": "Demon's Crest: trailer svela novità e data di debutto",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110122-ia-nei-videogiochi-capcom-e-square-enix-sembrano-andare-in-direzioni-opposte"
+      "url": "https://www.animeclick.it/news/110118-demons-crest-trailer-svela-novita-e-data-di-debutto"
+    },
+    {
+      "title": "Perché un episodio anime può costare 300 milioni di yen? Parla il CEO di Graphinica",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110082-perche-un-episodio-anime-puo-costare-300-milioni-di-yen-parla-il-ceo-di-graphinica"
+    },
+    {
+      "title": "Crunchyroll: disponibile Vampire Knight, annunciato Black Torch",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110086-crunchyroll-disponibile-vampire-knight-annunciato-black-torch"
+    },
+    {
+      "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana: trailer e novità per l'anime in arrivo ad aprile",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/109967-kamiina-botan-yoeru-sugata-wa-yuri-no-hana-trailer-e-novita-per-lanime-in-arrivo-ad-aprile"
+    },
+    {
+      "title": "Exodus: il \"nuovo Mass Effect\" si mostra in un nuovo gameplay",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110129-exodus-il-nuovo-mass-effect-si-mostra-in-un-nuovo-gameplay"
+    },
+    {
+      "title": "Etna Comics 2026: Yōichi Takahashi (Capitan Tsubasa) ospite d'onore della 14ª edizione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110119-etna-comics-2026-yoichi-takahashi-capitan-tsubasa-ospite-donore-della-14%25c2%25aa-edizione"
+    },
+    {
+      "title": "J-POP Manga: le novità dal Direct 140",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110095-j-pop-manga-le-novita-dal-direct-140"
+    },
+    {
+      "title": "The 100 Girlfriends Who Really Love You: nuovo video e data di uscita della terza stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110099-the-100-girlfriends-who-really-love-you-nuovo-video-e-data-di-uscita-della-terza-stagione"
+    },
+    {
+      "title": "Though I Am an Inept Villainess: trailer e novità per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110092-though-i-am-an-inept-villainess-trailer-e-novita-per-lanime"
+    },
+    {
+      "title": "News dal mondo gaming: Shadow Tactics, Dead as Disco e Ghost Master",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110110-news-dal-mondo-gaming-shadow-tactics-dead-as-disco-e-ghost-master"
+    },
+    {
+      "title": "Reborn as a Space Mercenary: trailer e data di debutto per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110130-reborn-as-a-space-mercenary-trailer-e-data-di-debutto-per-lanime"
     },
     {
       "title": "Yowayowa Sensei: trailer e novità per l'anime comico ecchi",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110075-yowayowa-sensei-trailer-e-novita-per-lanime-comico-ecchi"
+    },
+    {
+      "title": "AnimeJapan e non solo: nuove serie per Sentenced to Be a Hero, Iseleve e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110169-anime-japan-e-non-solo-nuove-serie-per-sentenced-to-be-a-hero-iseleve-e-altre-novita"
+    },
+    {
+      "title": "Patlabor: The Case Files -  annunciato il nuovo videogioco del franchise",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110121-patlabor-the-case-files-annunciato-il-nuovo-videogioco-del-franchise"
+    },
+    {
+      "title": "Planet Manga presenta la instant variant di Berserk Deluxe Edition volume 14",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110143-planet-manga-presenta-la-instant-variant-di-berserk-deluxe-edition-volume-14"
+    },
+    {
+      "title": "Monster Hunter Stories 3 Twisted Reflection- Recensione del terzo monster collector di Capcom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110078-monster-hunter-stories-3-twisted-reflection-recensione-del-terzo-monster-collector-di-capcom"
+    },
+    {
+      "title": "Anime Preview: annunci e trailer per Hana-Kimi, Maebashi Witches e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110126-anime-preview-annunci-e-trailer-per-hana-kimi-maebashi-witches-e-molto-altro"
+    },
+    {
+      "title": "#I'm Looking For Zombie: nuovo trailer e data di uscita per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110087-im-looking-for-zombie-nuovo-trailer-e-data-di-uscita-per-lanime"
+    },
+    {
+      "title": "IA contro IA: la soluzione di Sony per le infrazioni di copyright dell'IA generativa",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110072-ia-contro-ia-la-soluzione-di-sony-per-le-infrazioni-di-copyright-dellia-generativa"
+    },
+    {
+      "title": "AnimeJapan: novità per Blue Box, Dandelion e SHIBOYUGI",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110162-animejapan-novita-per-blue-box-dandelion-e-shiboyugi"
+    },
+    {
+      "title": "Mushoku Tensei III: svelato l'Eris Training Arc e la data di uscita dell'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110163-mushoku-tensei-iii-svelato-leris-training-arc-e-la-data-di-uscita-dellanime"
+    },
+    {
+      "title": "Star Comics: nuovo aggiornamento sui volumi che subiranno l'adeguamento di prezzo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110142-star-comics-nuovo-aggiornamento-volumi-che-subiranno-adeguamento-prezzo"
+    },
+    {
+      "title": "Disastro Epic Games: la compagnia licenzia oltre 1000 dipendenti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110133-disastro-epic-games-la-compagnia-licenzia-oltre-1000-dipendenti"
+    },
+    {
+      "title": "One Piece: ritorna l'action game itinerante nei centri commerciali italiani",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110080-one-piece-ritorna-laction-game-itinerante-nei-centri-commerciali-italiani"
+    },
+    {
+      "title": "The World Is Dancing: trailer e altre novità per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110088-the-world-is-dancing-trailer-e-altre-novita-per-lanime"
+    },
+    {
+      "title": "Coconino Press: i nostri consigli di titoli da acquistare con lo sconto del 20%",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110071-coconino-press-i-nostri-consigli-di-titoli-da-acquistare-con-lo-sconto-del-20"
+    },
+    {
+      "title": "Anime al cinema: il 2026 inizia con alcuni dei peggiori incassi di sempre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/109270-anime-al-cinema-il-2026-inizia-con-alcuni-dei-peggiori-incassi-di-sempre"
     }
   ],
   "youtube_trends": [
@@ -3853,10 +3853,6 @@
       "url": "https://www.youtube.com/watch?v=vDa37tCm6Rw"
     },
     {
-      "title": "[TheComicBookReport] Captain Marvel Genis-Vell a Marvel Masterpiece? 📚💫 #marvel #marvelcomics #comics",
-      "url": "https://www.youtube.com/watch?v=jG2wXPTMnyc"
-    },
-    {
       "title": "[ProgressivePatriot] Superman &amp; Spider-Man Crossover 2026 #dc #marvel #superman #spiderman #comics #review",
       "url": "https://www.youtube.com/watch?v=MN7ingKYu9Y"
     },
@@ -3869,100 +3865,28 @@
       "url": "https://www.youtube.com/watch?v=R45P1G1_pmU"
     },
     {
-      "title": "[VIPER COMICS] Capitan Harlock Omnibus - Memorie Dell&#39;Arcadia Recensione Fumetto",
-      "url": "https://www.youtube.com/watch?v=JmJj9Ddvq_c"
-    },
-    {
-      "title": "[Sereno Con Nuvole] Toni Bellasalma, il fumetto che mancava in Italia",
-      "url": "https://www.youtube.com/watch?v=rLnAp0MxlS0"
-    },
-    {
       "title": "[Why So Sidious?] Absolute Flash Vol. 1 | DC Comic Book Review",
       "url": "https://www.youtube.com/watch?v=QB2S3-iwUfQ"
     },
     {
-      "title": "[Utnapìstim94] Recensione Skorpio n.2557- UNA GODURIA!",
-      "url": "https://www.youtube.com/watch?v=kUEElsrGjFc"
-    },
-    {
-      "title": "[NickDeLarge92] 🔪😏 DIABOLIK SWISS 382 - Un&#39;altra Donna... #shorts",
-      "url": "https://www.youtube.com/watch?v=rOp5kTDvDTI"
-    },
-    {
-      "title": "[ChubbyRay Comics] I Read Venditti’s Green Lantern… Here’s the Truth 👀",
-      "url": "https://www.youtube.com/watch?v=-XuPYyFpHQ0"
-    },
-    {
-      "title": "[TheComicBookReport] Murder Falcon Review | Daniel Warren Johnson | Deluxe Hardcover | Image Comics",
-      "url": "https://www.youtube.com/watch?v=J08o1Tyr-NY"
-    },
-    {
-      "title": "[Emerald Enthusiast] #Batman : In Darkest Knight #dccomics #elseworlds #greenlantern #brucewayne #comicbooks #review",
-      "url": "https://www.youtube.com/watch?v=zCgr0NMb2_E"
-    },
-    {
-      "title": "[Pix] REACTON AL VIDEO RECENSIONE DI MISTER HOTEL SUL MIO FUMETTO",
-      "url": "https://www.youtube.com/watch?v=n9CCaUYoJFQ"
-    },
-    {
-      "title": "[Captain Frugal] Amazing Spider-Man 24 Is Not Amazing Comic Review",
-      "url": "https://www.youtube.com/watch?v=IcGjd1vhSFg"
-    },
-    {
-      "title": "[Why So Sidious?] Ultimate Black Panther Vol 3 | Marvel Comic Book Review",
-      "url": "https://www.youtube.com/watch?v=jBj0ryGO-tU"
-    },
-    {
-      "title": "[Artsy Sister] Public library Hidden Gem Adulthood is a myth #comic #humor #review",
-      "url": "https://www.youtube.com/watch?v=d1e44XE_3G8"
-    },
-    {
-      "title": "[Captain Frugal] Planet She Hulk 5",
-      "url": "https://www.youtube.com/watch?v=3Cdswb_rZPY"
-    },
-    {
-      "title": "[Universi di Inchiostro] Tokyo Revengers Vol. 1 – Recensione  Viaggi nel Tempo, Gang e Colpi di Scena: Vale la Pena Leggerlo?",
-      "url": "https://www.youtube.com/watch?v=KgUjkdMgDMI"
-    },
-    {
-      "title": "[Chris Chem] NEW LEVELS OF JJK LARP...",
-      "url": "https://www.youtube.com/watch?v=gS5TFy2kaoI"
+      "title": "[Kanon's RomCom Mangas] [Manga Dub] My confession to the baseball team led to my kouhai claiming to be my girlfriend",
+      "url": "https://www.youtube.com/watch?v=ZQBtlABkEKo"
     },
     {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] She kissed me in my sleep and then showed up as my new classmate the next day",
       "url": "https://www.youtube.com/watch?v=WwcFsnkQsMo"
     },
     {
-      "title": "[aricyo52] One of The Most Stunning New Anime Coming Out!",
-      "url": "https://www.youtube.com/watch?v=BdsXY0gjnU8"
-    },
-    {
-      "title": "[Etra chan saw it!] A battle with the landlady. How the filthy girl ended up [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=5U191XfjaUc"
-    },
-    {
-      "title": "[Shonen Ouji] My Hero Academia&#39;s Shocking Impact on New Manga",
-      "url": "https://www.youtube.com/watch?v=6tv_3pnl5e8"
-    },
-    {
-      "title": "[Barracuda - Pokemon TCG Pocket] ISCRIVITI per nuovi video ogni giorno! 🫵🏻😎 #pokemon #rubino #meme #dandadan #momo #ayase #groudon",
-      "url": "https://www.youtube.com/watch?v=J0MTE96iTLQ"
-    },
-    {
       "title": "[Pelati e Fumetti] Novità MANGA Aprile 2026: con nuovi successi sicuri! (forse)",
       "url": "https://www.youtube.com/watch?v=kp0pzEJxahc"
-    },
-    {
-      "title": "[AniBreeze] Inosuke&#39;s Lost Mother #demonslayer #inosuke #demonslayermanga",
-      "url": "https://www.youtube.com/watch?v=5idWa6qkoqo"
     },
     {
       "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI COMICS. FINE MARZO 2026 TANTISSIMI MARVEL POCKET",
       "url": "https://www.youtube.com/watch?v=Qjwy49aV4Bs"
     },
     {
-      "title": "[Kyodai Yo!] Nuovi acquisti, quale ti ispira di più? #unboxing  #manga #haul #fumetti #mangacollection #comics",
-      "url": "https://www.youtube.com/watch?v=3NlDyam-V-8"
+      "title": "[Nerd Stuff Lovers] Manga Haul Marzo 📚 Tutti i nuovi manga entrati in collezione",
+      "url": "https://www.youtube.com/watch?v=JTvXQtB9AyQ"
     }
   ]
 }
