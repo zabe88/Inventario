@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-03-29T08:00:28.044400+00:00",
+  "updated_at": "2026-03-29T15:00:46.801094+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -75,34 +75,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867908264",
-      "title": "Il gioco delle risate",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788867908264",
+      "title": "Il gioco delle risate",
       "author": "",
       "position": 11,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114287",
-      "title": "Cime tempestose. Ediz. integrale",
-      "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
-      "author": "",
-      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,7 +94,15 @@
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
-      "position": 14,
+      "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114287",
+      "title": "Cime tempestose. Ediz. integrale",
+      "author": "",
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,7 +110,23 @@
       "ean": "9791224200451",
       "title": "L'amante perduta di Shakespeare",
       "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9789403206042",
+      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
+      "author": "",
       "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
+      "author": "",
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,23 +134,7 @@
       "ean": "9788861853768",
       "title": "La metamorfosi",
       "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791224201168",
-      "title": "Mezzanotte a Parigi",
-      "author": "",
       "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
-      "author": "",
-      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,13 +142,21 @@
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114126",
+      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9791224201168",
+      "title": "Mezzanotte a Parigi",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -531,10 +531,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804437031",
+      "title": "Principessa Laurentina",
+      "author": "",
+      "position": 13,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804516750",
       "title": "La baby-sitter 2",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,21 +550,13 @@
       "ean": "9788804522867",
       "title": "Gatto Tigrato e Miss Rondinella",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804528203",
       "title": "Ghiaccio mortale",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804530664",
-      "title": "Voglia di volare",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -835,34 +835,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804404835",
-      "title": "Tex l'implacabile",
-      "author": "",
-      "position": 9,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804464396",
       "title": "Tex. Sulle piste del Nord",
       "author": "",
-      "position": 10,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804477945",
-      "title": "Tex. La cella della morte",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804493112",
-      "title": "Tex. Nel regno dei maya",
-      "author": "",
-      "position": 12,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -870,7 +846,7 @@
       "ean": "9788804506706",
       "title": "Tex. Terra promessa",
       "author": "",
-      "position": 13,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -878,7 +854,7 @@
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 14,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -886,13 +862,37 @@
       "ean": "9788804680529",
       "title": "Monstress. Vol. 1: Risveglio",
       "author": "",
-      "position": 15,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
+      "author": "",
+      "position": 13,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804728818",
+      "title": "Heartstopper. Vol. 2",
+      "author": "",
+      "position": 14,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804734307",
+      "title": "Heartstopper. Vol. 3",
+      "author": "",
+      "position": 15,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804739425",
+      "title": "Heartstopper. Vol. 4",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1035,26 +1035,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
-      "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828722816",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 13: ...",
-      "author": "",
-      "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788828754220",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 1: R...",
       "author": "",
-      "position": 36,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1062,13 +1046,29 @@
       "ean": "9788828781424",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
       "author": "",
-      "position": 37,
+      "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788828788379",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 2: L...",
+      "author": "",
+      "position": 36,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
+      "author": "",
+      "position": 37,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828722816",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 13: ...",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1195,8 +1195,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804546368",
-      "title": "Consigli a un guerriero compassionevole....",
+      "ean": "9788804564003",
+      "title": "La calma",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1403,8 +1403,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788861762596",
-      "title": "Pensieri sull'esoterismo",
+      "ean": "9788811016441",
+      "title": "Gesù e Cristo",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3629,69 +3629,9 @@
   ],
   "manga_trends": [
     {
-      "title": "AnimeJapan e non solo: novità per Yaiba, Tenbin e altri anime",
+      "title": "AnimeJapan 2026: novità per Saga of Tanya the Evil, Tenken, il campagnolo stagionato e Bookworm",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110172-animejapan-e-non-solo-novita-per-yaiba-tenbin-e-altri-anime"
-    },
-    {
-      "title": "Resident Evil Requiem: il doppiatore di Leon è svenuto durante le registrazioni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110124-resident-evil-requiem-il-doppiatore-di-leon-e-svenuto-durante-le-registrazioni"
-    },
-    {
-      "title": "Coconino Press: i nostri consigli di titoli da acquistare con lo sconto del 20%",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110071-coconino-press-i-nostri-consigli-di-titoli-da-acquistare-con-lo-sconto-del-20"
-    },
-    {
-      "title": "Monster Hunter Stories 3 Twisted Reflection- Recensione del terzo monster collector di Capcom",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110078-monster-hunter-stories-3-twisted-reflection-recensione-del-terzo-monster-collector-di-capcom"
-    },
-    {
-      "title": "MARRIAGETOXIN: nuovo trailer e novità per l'anime primaverile",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110127-marriagetoxin-nuovo-trailer-e-novita-per-lanime-primaverile"
-    },
-    {
-      "title": "Star Comics: nuovo aggiornamento sui volumi che subiranno l'adeguamento di prezzo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110142-star-comics-nuovo-aggiornamento-volumi-che-subiranno-adeguamento-prezzo"
-    },
-    {
-      "title": "AnimeJapan: novità dal panel dedicato a One Piece",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110173-animejapan-novita-dal-panel-dedicato-a-one-piece"
-    },
-    {
-      "title": "Anime Preview: nuova stagione per Frieren, MF Ghost e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110158-anime-preview-nuova-stagione-per-frieren-mf-ghost-e-altre-novita"
-    },
-    {
-      "title": "IA nei videogiochi: Capcom e Square-Enix sembrano andare in direzioni opposte",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110122-ia-nei-videogiochi-capcom-e-square-enix-sembrano-andare-in-direzioni-opposte"
-    },
-    {
-      "title": "Il Sondaggione: votiamo le serie più attese della primavera 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110136-il-sondaggione-votiamo-le-serie-piu-attese-della-primavera-2026"
-    },
-    {
-      "title": "Exodus: il \"nuovo Mass Effect\" si mostra in un nuovo gameplay",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110129-exodus-il-nuovo-mass-effect-si-mostra-in-un-nuovo-gameplay"
-    },
-    {
-      "title": "Anime Preview: novità per Liar Game, Patlabor EZY e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110111-anime-preview-novita-per-liar-game-patlabor-ezy-e-molto-altro"
-    },
-    {
-      "title": "Anime Preview: novità per Oshi no Ko, Go for It, Nakamura-kun!! e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110093-anime-preview-novita-per-oshi-no-ko-go-for-it-nakamura-kun-e-molto-altro"
+      "url": "https://www.animeclick.it/news/110167-animejapan-2026-novita-per-saga-of-tanya-the-evil-tenken-il-campagnolo-stagionato-e-bookworm"
     },
     {
       "title": "J-POP Manga: le novità dal Direct 140",
@@ -3699,34 +3639,59 @@
       "url": "https://www.animeclick.it/news/110095-j-pop-manga-le-novita-dal-direct-140"
     },
     {
-      "title": "Yowayowa Sensei: trailer e novità per l'anime comico ecchi",
+      "title": "Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants to be Loved: Recensione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110075-yowayowa-sensei-trailer-e-novita-per-lanime-comico-ecchi"
+      "url": "https://www.animeclick.it/news/109920-miss-kobayashis-dragon-maid-a-lonely-dragon-wants-to-be-loved-recensione"
     },
     {
-      "title": "È scomparso Yoshiharu Tsuge, pioniere del gekiga e maestro del manga d'autore",
+      "title": "Sony ufficializza il grosso aumento di prezzo per tutta la lineup PlayStation 5",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110154-e-scomparso-yoshiharu-tsuge-pioniere-del-gekiga-e-maestro-del-manga-dautore"
+      "url": "https://www.animeclick.it/news/110157-sony-ufficializza-il-grosso-aumento-di-prezzo-per-tutta-la-lineup-playstation-5"
     },
     {
-      "title": "AnimeJapan: ecco l'opening di Ken il guerriero - Trailer per The Ghost in the Shell",
+      "title": "IA nei videogiochi: Capcom e Square-Enix sembrano andare in direzioni opposte",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110164-animejapan-ecco-lopening-di-ken-il-guerriero-trailer-per-the-ghost-in-the-shell"
+      "url": "https://www.animeclick.it/news/110122-ia-nei-videogiochi-capcom-e-square-enix-sembrano-andare-in-direzioni-opposte"
     },
     {
-      "title": "Chopper diventa Supporter Ufficiale di Medici Senza Frontiere",
+      "title": "Crunchyroll annuncia il palinsesto della primavera 2026 e nuovi doppiaggi",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110089-chopper-diventa-supporter-ufficiale-di-medici-senza-frontiere"
+      "url": "https://www.animeclick.it/news/110132-crunchyroll-annuncia-il-palinsesto-della-primavera-2026-e-nuovi-doppiaggi"
     },
     {
-      "title": "Genshin Impact presenta le novità della patch Luna VI",
+      "title": "AnimeJapan: novità per Blue Box, Dandelion e SHIBOYUGI",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110155-genshin-impact-presenta-le-novita-della-patch-luna-vi"
+      "url": "https://www.animeclick.it/news/110162-animejapan-novita-per-blue-box-dandelion-e-shiboyugi"
     },
     {
-      "title": "Anime al cinema: il 2026 inizia con alcuni dei peggiori incassi di sempre",
+      "title": "J-POP Manga annuncia il romanzo Oshi no Ko - Futari no Etude e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109270-anime-al-cinema-il-2026-inizia-con-alcuni-dei-peggiori-incassi-di-sempre"
+      "url": "https://www.animeclick.it/news/110147-j-pop-manga-annuncia-il-romanzo-oshi-no-ko-futari-no-etude-e-altre-novita"
+    },
+    {
+      "title": "Mushoku Tensei III: svelato l'Eris Training Arc e la data di uscita dell'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110163-mushoku-tensei-iii-svelato-leris-training-arc-e-la-data-di-uscita-dellanime"
+    },
+    {
+      "title": "AnimeJapan: novità per Sparks of Tomorrow, Baki-dou, Let’s go Kakigumi e Kindergarten Wars",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110182-animejapan-novita-per-sparks-of-tomorrow-baki-dou-let%25e2%2580%2599s-go-kakigumi-e-kindergarten-wars"
+    },
+    {
+      "title": "Le bizzarre avventure di JoJo: Steel Ball Run, la seconda parte debutterà nel 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110168-le-bizzarre-avventure-di-jojo-steel-ball-run-la-seconda-parte-debuttera-nel-2026"
+    },
+    {
+      "title": "Resident Evil Requiem: il doppiatore di Leon è svenuto durante le registrazioni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110124-resident-evil-requiem-il-doppiatore-di-leon-e-svenuto-durante-le-registrazioni"
+    },
+    {
+      "title": "Firefly Wedding: il teaser svela il cast principale dell'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110140-firefly-wedding-il-teaser-svela-il-cast-principale-dellanime"
     },
     {
       "title": "Reborn as a Space Mercenary: trailer e data di debutto per l'anime",
@@ -3734,9 +3699,44 @@
       "url": "https://www.animeclick.it/news/110130-reborn-as-a-space-mercenary-trailer-e-data-di-debutto-per-lanime"
     },
     {
-      "title": "AnimeJapan: trailer per Smoking Behind the Supermarket with You, Inherit the Winds e molto altro",
+      "title": "Digimon UP: annunciato il nuovo gioco mobile dei mostriciattoli digitali",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110166-animejapan-trailer-per-smoking-behind-the-supermarket-with-you-inherit-the-winds-e-molto-altro"
+      "url": "https://www.animeclick.it/news/110117-digimon-up-annunciato-il-nuovo-gioco-mobile-dei-mostriciattoli-digitali"
+    },
+    {
+      "title": "Hayao Miyazaki torna a disegnare a 85 anni: le sue nuove opere originali arrivano al Ghibli Park",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110097-hayao-miyazaki-torna-a-disegnare-a-85-anni-le-sue-nuove-opere-originali-arrivano-al-ghibli-park"
+    },
+    {
+      "title": "Ranma ½: stagione 3 in arrivo a ottobre per la nuova trasposizione animata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110144-ranma-%25c2%25bd-stagione-3-in-arrivo-a-ottobre-per-la-nuova-trasposizione-animata"
+    },
+    {
+      "title": "Il Sondaggione: votiamo le serie più attese della primavera 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110136-il-sondaggione-votiamo-le-serie-piu-attese-della-primavera-2026"
+    },
+    {
+      "title": "Gundam Wing e Endless Waltz arrivano su youtube sottotitolati in italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110120-gundam-wing-e-endless-waltz-arrivano-su-youtube-sottotitolati-in-italiano"
+    },
+    {
+      "title": "Yowayowa Sensei: trailer e novità per l'anime comico ecchi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110075-yowayowa-sensei-trailer-e-novita-per-lanime-comico-ecchi"
+    },
+    {
+      "title": "Magical Girl Raising Project restart: trailer per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110138-magical-girl-raising-project-restart-trailer-per-lanime"
+    },
+    {
+      "title": "AnimeJapan: ecco l'opening di Ken il guerriero - Trailer per The Ghost in the Shell",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110164-animejapan-ecco-lopening-di-ken-il-guerriero-trailer-per-the-ghost-in-the-shell"
     },
     {
       "title": "Planet Manga presenta la instant variant di Berserk Deluxe Edition volume 14",
@@ -3744,39 +3744,39 @@
       "url": "https://www.animeclick.it/news/110143-planet-manga-presenta-la-instant-variant-di-berserk-deluxe-edition-volume-14"
     },
     {
-      "title": "Starbites annunciato in Occidente: tutto quello che c'è da sapere sul nuovo RPG anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110101-starbites-annunciato-in-occidente-tutto-quello-che-ce-da-sapere-sul-nuovo-rpg-anime"
-    },
-    {
-      "title": "Anime Preview: annunci per Isekai Tensei Sōdōki e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110064-anime-preview-annunci-per-isekai-tensei-sodoki-e-molto-altro"
-    },
-    {
-      "title": "News dal mondo gaming: Shadow Tactics, Dead as Disco e Ghost Master",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110110-news-dal-mondo-gaming-shadow-tactics-dead-as-disco-e-ghost-master"
-    },
-    {
-      "title": "Perché un episodio anime può costare 300 milioni di yen? Parla il CEO di Graphinica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110082-perche-un-episodio-anime-puo-costare-300-milioni-di-yen-parla-il-ceo-di-graphinica"
-    },
-    {
-      "title": "One Piece: ritorna l'action game itinerante nei centri commerciali italiani",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110080-one-piece-ritorna-laction-game-itinerante-nei-centri-commerciali-italiani"
-    },
-    {
       "title": "Xbox Partner Preview Marzo 2026 - Tutti gli annunci",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110150-xbox-partner-preview-marzo-2026-tutti-gli-annunci"
     },
     {
-      "title": "Hayao Miyazaki torna a disegnare a 85 anni: le sue nuove opere originali arrivano al Ghibli Park",
+      "title": "Jaadugar: A Witch in Mongolia - nuovo trailer per l'anime storico di Science Saru",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110097-hayao-miyazaki-torna-a-disegnare-a-85-anni-le-sue-nuove-opere-originali-arrivano-al-ghibli-park"
+      "url": "https://www.animeclick.it/news/110135-jaadugar-a-witch-in-mongolia-nuovo-trailer-per-lanime-storico-di-science-saru"
+    },
+    {
+      "title": "Though I Am an Inept Villainess: trailer e novità per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110092-though-i-am-an-inept-villainess-trailer-e-novita-per-lanime"
+    },
+    {
+      "title": "Non solo anime: novità per Sonic e Spider-Man, Disney cambia guida",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110109-non-solo-anime-novita-per-sonic-e-spider-man-disney-cambia-guida"
+    },
+    {
+      "title": "Monster Hunter Stories 3 Twisted Reflection- Recensione del terzo monster collector di Capcom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110078-monster-hunter-stories-3-twisted-reflection-recensione-del-terzo-monster-collector-di-capcom"
+    },
+    {
+      "title": "Demon Slayer, Solo Leveling e Kaiju No. 8 diventano delle Trading Card",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110100-demon-slayer-solo-leveling-e-kaiju-no-8-diventano-delle-trading-card"
+    },
+    {
+      "title": "Oshi no Ko: annunciata la quarta e ultima stagione dell’anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110139-oshi-no-ko-annunciata-la-quarta-e-ultima-stagione-dell%25e2%2580%2599anime"
     }
   ],
   "youtube_trends": [
@@ -3791,10 +3791,6 @@
     {
       "title": "[il mistero del Cristo velato] un thriller tutto italiano #history #bibliomanzia #booktok #perte #Cristovelato",
       "url": "https://www.youtube.com/watch?v=uryW8cBdU1M"
-    },
-    {
-      "title": "[Belle Knight - Romanzi Passionali e Misteriosi] ❤️ 📚 #booktokitalia, #booktokita , #romanzirosa, #heasa10",
-      "url": "https://www.youtube.com/watch?v=3PsvDw0CcGg"
     },
     {
       "title": "[Ana Isabel] Otoño pero siento que es verano aún #libros#diomas#italiano#aprenderidiomas#booktok#themarias#fyp",
@@ -3817,10 +3813,6 @@
       "url": "https://www.youtube.com/watch?v=EEIeU8gxuPM"
     },
     {
-      "title": "[Kyokami] Everyone Found Love Over Summer… Except Him",
-      "url": "https://www.youtube.com/watch?v=gcr8NqwDU6M"
-    },
-    {
       "title": "[Kyokami] He Helped Her Fall In Love… With Himself",
       "url": "https://www.youtube.com/watch?v=zwDxgT8BVNs"
     },
@@ -3837,8 +3829,20 @@
       "url": "https://www.youtube.com/watch?v=7ChnCFvkl2w"
     },
     {
+      "title": "[Kyokami] He Accidentally Married A Princess From A Shooting Star",
+      "url": "https://www.youtube.com/watch?v=2rE1SpZFTvY"
+    },
+    {
+      "title": "[TG Comics] I fumetti consigliati della settimana (dal 23 al 29 marzo 2026) 🗯️🗨️💭",
+      "url": "https://www.youtube.com/watch?v=kHToGGrYFVo"
+    },
+    {
       "title": "[PerspectiveEnd] Comic Edition Straxus: Review-A-Mans #transformers #marvel #comics #review #marvelcomics",
       "url": "https://www.youtube.com/watch?v=C8kInxih05k"
+    },
+    {
+      "title": "[Comic Book Corner 2.0] Are These Actually Worthy? Punisher, DC Next Level &amp; Mark Spears’ MidKnight Man",
+      "url": "https://www.youtube.com/watch?v=pAauIOvUAEw"
     },
     {
       "title": "[Kody Collects] 📚 NEW COMIC BOOK DAY #73",
@@ -3873,14 +3877,6 @@
       "url": "https://www.youtube.com/watch?v=QB2S3-iwUfQ"
     },
     {
-      "title": "[Collectors Confessions] Batman Superman Team-Up Gets INSANE in #50 #dccomics",
-      "url": "https://www.youtube.com/watch?v=qpzbnYgQLbY"
-    },
-    {
-      "title": "[Kanon's RomCom Mangas] [Manga Dub] My confession to the baseball team led to my kouhai claiming to be my girlfriend",
-      "url": "https://www.youtube.com/watch?v=ZQBtlABkEKo"
-    },
-    {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] She kissed me in my sleep and then showed up as my new classmate the next day",
       "url": "https://www.youtube.com/watch?v=WwcFsnkQsMo"
     },
@@ -3913,12 +3909,12 @@
       "url": "https://www.youtube.com/watch?v=3NlDyam-V-8"
     },
     {
-      "title": "[Nerd Stuff Lovers] Manga Haul Marzo 📚 Tutti i nuovi manga entrati in collezione",
-      "url": "https://www.youtube.com/watch?v=JTvXQtB9AyQ"
-    },
-    {
       "title": "[landberry] We need new readers #robomonkey #anime #manga #mangaart",
       "url": "https://www.youtube.com/watch?v=903TrU1I1ds"
+    },
+    {
+      "title": "[Nerd Stuff Lovers] Manga Haul Marzo 📚 Tutti i nuovi manga entrati in collezione",
+      "url": "https://www.youtube.com/watch?v=JTvXQtB9AyQ"
     }
   ]
 }
