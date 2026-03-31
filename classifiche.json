@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-03-31T08:43:34.948575+00:00",
+  "updated_at": "2026-03-31T16:39:54.730439+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -91,16 +91,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224200451",
-      "title": "L'amante perduta di Shakespeare",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9791224200451",
+      "title": "L'amante perduta di Shakespeare",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -115,26 +115,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114287",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788863114126",
+      "title": "Memorie del sottosuolo. Ediz. integrale",
       "author": "",
       "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "ean": "9788863114287",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
-      "author": "",
-      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,21 +134,29 @@
       "ean": "9788848328487",
       "title": "Alpha Test Professioni Sanitarie 2026-2027. Kit di preparazione. Per test di ammissione universitari. Con piattaforma e simulatore online",
       "author": "",
-      "position": 18,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788838949272",
-      "title": "L'idiota di famiglia",
-      "author": "",
-      "position": 19,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788842935636",
       "title": "L'alba dei leoni. La saga dei Florio",
+      "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791224201168",
+      "title": "Mezzanotte a Parigi",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788838949272",
+      "title": "L'idiota di famiglia",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -267,16 +267,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224200574",
-      "title": "Love song",
+      "ean": "9788820081157",
+      "title": "Game of lust. Tentazione",
       "author": "",
       "position": 14,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788820081157",
-      "title": "Game of lust. Tentazione",
+      "ean": "9791224200574",
+      "title": "Love song",
       "author": "",
       "position": 15,
       "category": "narrativa",
@@ -299,16 +299,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804794097",
-      "title": "Il cerchio dei giorni",
+      "ean": "9788829713998",
+      "title": "Il segreto della montagna",
       "author": "",
       "position": 18,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788829713998",
-      "title": "Il segreto della montagna",
+      "ean": "9788804794097",
+      "title": "Il cerchio dei giorni",
       "author": "",
       "position": 19,
       "category": "narrativa",
@@ -427,8 +427,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224200451",
-      "title": "L'amante perduta di Shakespeare",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -523,18 +523,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781474916301",
-      "title": "Facciamo un quiz! Piccoli passatempi. Ed...",
-      "author": "",
-      "position": 12,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9781474938655",
       "title": "Cosa sono i microbi? Ediz. a colori",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,7 +534,7 @@
       "ean": "9788804396192",
       "title": "Piccoli brividi. La maschera maledetta",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -550,13 +542,21 @@
       "ean": "9788804437031",
       "title": "Principessa Laurentina",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804516750",
       "title": "La baby-sitter 2",
+      "author": "",
+      "position": 15,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804522867",
+      "title": "Gatto Tigrato e Miss Rondinella",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -747,24 +747,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788829601639",
+      "title": "L'eredità di Topone. Stampatello maiusco...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9789463079433",
-      "title": "La terra. Impara & crea. Ediz. a colori",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788829601639",
-      "title": "L'eredità di Topone. Stampatello maiusco...",
+      "ean": "9789463079433",
+      "title": "La terra. Impara & crea. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -835,10 +835,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788467473599",
+      "title": "Superman/Batman. Seconda serie. Vol. 18",
+      "author": "",
+      "position": 9,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804429296",
       "title": "Diabolik. Le rivali di Eva",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,7 +854,7 @@
       "ean": "9788804506706",
       "title": "Tex. Terra promessa",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -854,7 +862,7 @@
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -862,7 +870,7 @@
       "ean": "9788804680529",
       "title": "Monstress. Vol. 1: Risveglio",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -870,7 +878,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -878,21 +886,13 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804739425",
-      "title": "Heartstopper. Vol. 4",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1019,10 +1019,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788828762942",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
+      "author": "",
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788828785026",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 3: P...",
       "author": "",
-      "position": 32,
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1030,15 +1038,23 @@
       "ean": "9788828781424",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
       "author": "",
-      "position": 33,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828762942",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
+      "ean": "9788828754220",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 1: R...",
       "author": "",
-      "position": 34,
+      "position": 35,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828788409",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 7: P...",
+      "author": "",
+      "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1046,29 +1062,13 @@
       "ean": "9788822762610",
       "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
-      "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788891297372",
-      "title": "Berserk collection. Serie nera. Vol. 12",
-      "author": "",
-      "position": 36,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788891297273",
-      "title": "Homunculus. L'occhio dell'anima. Vol. 1",
-      "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788891287465",
-      "title": "Berserk collection. Serie nera. Vol. 14",
+      "ean": "9788828719809",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 16: ...",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1155,10 +1155,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788801041453",
+      "title": "Vangeli e Atti degli apostoli. Nuovo tes...",
+      "author": "",
+      "position": 11,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804453925",
       "title": "Tantra. La via dell'estasi sessuale",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1166,7 +1174,7 @@
       "ean": "9788804486848",
       "title": "L' arte della felicità",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1174,7 +1182,7 @@
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1182,21 +1190,13 @@
       "ean": "9788804551737",
       "title": "Con te e senza di te",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804564003",
       "title": "La calma",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804571322",
-      "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1395,8 +1395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791280132529",
-      "title": "La minaccia di Allah. Islam politico, si...",
+      "ean": "9788860996541",
+      "title": "Le verità nascoste. Vangeli apocrifi e c...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -3637,94 +3637,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Anime Preview: The Salty Koharu, The Forsaken Saintess e non solo...",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/29561-anime-preview-the-salty-koharu-the-forsaken-saintess-e-non-solo"
-    },
-    {
-      "title": "AnimeJapan e non solo: novità per The Eminence in Shadow, Rascal Does Not Dream e altri film",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110186-animejapan-e-non-solo-novita-per-the-eminence-in-shadow-rascal-does-not-dream-e-altri-film"
-    },
-    {
-      "title": "Non solo anime: novità per Sonic e Spider-Man, Disney cambia guida",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110109-non-solo-anime-novita-per-sonic-e-spider-man-disney-cambia-guida"
-    },
-    {
-      "title": "Project Motor Racing arriva alla versione 2.0 per mettere un freno alle critiche",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110141-project-motor-racing-arriva-alla-versione-20-per-mettere-un-freno-alle-critiche"
-    },
-    {
-      "title": "AnimeJapan e non solo: nuove serie per Sentenced to Be a Hero, Iseleve e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110169-anime-japan-e-non-solo-nuove-serie-per-sentenced-to-be-a-hero-iseleve-e-altre-novita"
-    },
-    {
-      "title": "The Food Diary of Miss Maid: novità e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110108-the-food-diary-of-miss-maid-novita-e-data-di-debutto-per-lanime"
-    },
-    {
-      "title": "Though I Am an Inept Villainess: trailer e novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110092-though-i-am-an-inept-villainess-trailer-e-novita-per-lanime"
-    },
-    {
-      "title": "AnimeJapan: novità per Sparks of Tomorrow, Baki-dou, Let’s go Kakigumi e Kindergarten Wars",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110182-animejapan-novita-per-sparks-of-tomorrow-baki-dou-let%25e2%2580%2599s-go-kakigumi-e-kindergarten-wars"
-    },
-    {
-      "title": "Il Sondaggione: votiamo le serie più attese della primavera 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110136-il-sondaggione-votiamo-le-serie-piu-attese-della-primavera-2026"
-    },
-    {
-      "title": "Demon Slayer, Solo Leveling e Kaiju No. 8 diventano delle Trading Card",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110100-demon-slayer-solo-leveling-e-kaiju-no-8-diventano-delle-trading-card"
-    },
-    {
-      "title": "Demon's Crest: trailer svela novità e data di debutto",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110118-demons-crest-trailer-svela-novita-e-data-di-debutto"
-    },
-    {
-      "title": "AnimeJapan: trailer e seconda stagione in arrivo per You and I are polar opposites",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110180-anime-japan-trailer-e-seconda-stagione-in-arrivo-per-you-and-i-are-polar-opposites"
-    },
-    {
-      "title": "AnimeJapan: trailer per Smoking Behind the Supermarket with You, Inherit the Winds e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110166-animejapan-trailer-per-smoking-behind-the-supermarket-with-you-inherit-the-winds-e-molto-altro"
-    },
-    {
-      "title": "AnimeJapan: novità per Blue Box, Dandelion e SHIBOYUGI",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110162-animejapan-novita-per-blue-box-dandelion-e-shiboyugi"
-    },
-    {
       "title": "Sony ufficializza il grosso aumento di prezzo per tutta la lineup PlayStation 5",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110157-sony-ufficializza-il-grosso-aumento-di-prezzo-per-tutta-la-lineup-playstation-5"
-    },
-    {
-      "title": "Jaadugar: A Witch in Mongolia - nuovo trailer per l'anime storico di Science Saru",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110135-jaadugar-a-witch-in-mongolia-nuovo-trailer-per-lanime-storico-di-science-saru"
-    },
-    {
-      "title": "Starbites annunciato in Occidente: tutto quello che c'è da sapere sul nuovo RPG anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110101-starbites-annunciato-in-occidente-tutto-quello-che-ce-da-sapere-sul-nuovo-rpg-anime"
-    },
-    {
-      "title": "Disastro Epic Games: la compagnia licenzia oltre 1000 dipendenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110133-disastro-epic-games-la-compagnia-licenzia-oltre-1000-dipendenti"
     },
     {
       "title": "Anime Preview: annunci e trailer per Hana-Kimi, Maebashi Witches e molto altro",
@@ -3732,34 +3647,14 @@
       "url": "https://www.animeclick.it/news/110126-anime-preview-annunci-e-trailer-per-hana-kimi-maebashi-witches-e-molto-altro"
     },
     {
-      "title": "Magical Girl Raising Project restart: trailer per l'anime",
+      "title": "Etna Comics 2026: Yōichi Takahashi (Capitan Tsubasa) ospite d'onore della 14ª edizione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110138-magical-girl-raising-project-restart-trailer-per-lanime"
+      "url": "https://www.animeclick.it/news/110119-etna-comics-2026-yoichi-takahashi-capitan-tsubasa-ospite-donore-della-14%25c2%25aa-edizione"
     },
     {
-      "title": "AnimeJapan: Novità per Tokyo Revengers e Dr. Stone",
+      "title": "AnimeJapan: novità per Sparks of Tomorrow, Baki-dou, Let’s go Kakigumi e Kindergarten Wars",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110183-animejapan-novita-per-tokyo-revengers-e-dr-stone"
-    },
-    {
-      "title": "Resident Evil Requiem: il doppiatore di Leon è svenuto durante le registrazioni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110124-resident-evil-requiem-il-doppiatore-di-leon-e-svenuto-durante-le-registrazioni"
-    },
-    {
-      "title": "AnimeJapan 2026: novità per Saga of Tanya the Evil, Tenken, il campagnolo stagionato e Bookworm",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110167-animejapan-2026-novita-per-saga-of-tanya-the-evil-tenken-il-campagnolo-stagionato-e-bookworm"
-    },
-    {
-      "title": "Anime Preview: novità per Oshi no Ko, Go for It, Nakamura-kun!! e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110093-anime-preview-novita-per-oshi-no-ko-go-for-it-nakamura-kun-e-molto-altro"
-    },
-    {
-      "title": "Manga Taisho Awards 2026: il vincitore è Hon Nara Uru Hodo di Ao Kojima",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110145-manga-taisho-awards-2026-il-vincitore-e-hon-nara-uru-hodo-di-ao-kojima"
+      "url": "https://www.animeclick.it/news/110182-animejapan-novita-per-sparks-of-tomorrow-baki-dou-let%25e2%2580%2599s-go-kakigumi-e-kindergarten-wars"
     },
     {
       "title": "Ranma ½: stagione 3 in arrivo a ottobre per la nuova trasposizione animata",
@@ -3767,14 +3662,39 @@
       "url": "https://www.animeclick.it/news/110144-ranma-%25c2%25bd-stagione-3-in-arrivo-a-ottobre-per-la-nuova-trasposizione-animata"
     },
     {
-      "title": "AnimeJapan e non solo: novità per Yaiba, Tenbin e altri anime",
+      "title": "Monster Hunter Stories 3 Twisted Reflection- Recensione del terzo monster collector di Capcom",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110172-animejapan-e-non-solo-novita-per-yaiba-tenbin-e-altri-anime"
+      "url": "https://www.animeclick.it/news/110078-monster-hunter-stories-3-twisted-reflection-recensione-del-terzo-monster-collector-di-capcom"
     },
     {
-      "title": "Killed again, Mr. Detective?: nuovo trailer e data di debutto per l'anime",
+      "title": "Mushoku Tensei III: svelato l'Eris Training Arc e la data di uscita dell'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110077-killed-again-mr-detective-nuovo-trailer-e-data-di-debutto-per-lanime"
+      "url": "https://www.animeclick.it/news/110163-mushoku-tensei-iii-svelato-leris-training-arc-e-la-data-di-uscita-dellanime"
+    },
+    {
+      "title": "IA nei videogiochi: Capcom e Square-Enix sembrano andare in direzioni opposte",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110122-ia-nei-videogiochi-capcom-e-square-enix-sembrano-andare-in-direzioni-opposte"
+    },
+    {
+      "title": "Jaadugar: A Witch in Mongolia - nuovo trailer per l'anime storico di Science Saru",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110135-jaadugar-a-witch-in-mongolia-nuovo-trailer-per-lanime-storico-di-science-saru"
+    },
+    {
+      "title": "AnimeJapan e non solo: novità per Nanoha, The Elusive Samurai e altri anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110176-animejapan-e-non-solo-novita-per-nanoha-the-elusive-samurai-e-altri-anime"
+    },
+    {
+      "title": "Anime Preview: nuova stagione per Frieren, MF Ghost e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110158-anime-preview-nuova-stagione-per-frieren-mf-ghost-e-altre-novita"
+    },
+    {
+      "title": "Starbites annunciato in Occidente: tutto quello che c'è da sapere sul nuovo RPG anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110101-starbites-annunciato-in-occidente-tutto-quello-che-ce-da-sapere-sul-nuovo-rpg-anime"
     },
     {
       "title": "Anime Factory presenta gli anime in simuldub e simulcast della stagione primaverile",
@@ -3782,9 +3702,89 @@
       "url": "https://www.animeclick.it/news/110192-anime-factory-presenta-gli-anime-in-simuldub-e-simulcast-della-stagione-primaverile"
     },
     {
-      "title": "Patlabor: The Case Files -  annunciato il nuovo videogioco del franchise",
+      "title": "AnimeJapan: Novità per Tokyo Revengers e Dr. Stone",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110121-patlabor-the-case-files-annunciato-il-nuovo-videogioco-del-franchise"
+      "url": "https://www.animeclick.it/news/110183-animejapan-novita-per-tokyo-revengers-e-dr-stone"
+    },
+    {
+      "title": "Genshin Impact presenta le novità della patch Luna VI",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110155-genshin-impact-presenta-le-novita-della-patch-luna-vi"
+    },
+    {
+      "title": "Gachiakuta: The Game - mostrato il primo gameplay con Rudo, Enjin, Riyo e Zanka",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110194-gachiakuta-the-game-mostrato-il-primo-gameplay-con-rudo-enjin-riyo-e-zanka"
+    },
+    {
+      "title": "The Food Diary of Miss Maid: novità e data di debutto per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110108-the-food-diary-of-miss-maid-novita-e-data-di-debutto-per-lanime"
+    },
+    {
+      "title": "Le bizzarre avventure di JoJo: Steel Ball Run, la seconda parte debutterà nel 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110168-le-bizzarre-avventure-di-jojo-steel-ball-run-la-seconda-parte-debuttera-nel-2026"
+    },
+    {
+      "title": "Planet Manga presenta la instant variant di Berserk Deluxe Edition volume 14",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110143-planet-manga-presenta-la-instant-variant-di-berserk-deluxe-edition-volume-14"
+    },
+    {
+      "title": "AnimeJapan 2026: novità per Saga of Tanya the Evil, Tenken, il campagnolo stagionato e Bookworm",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110167-animejapan-2026-novita-per-saga-of-tanya-the-evil-tenken-il-campagnolo-stagionato-e-bookworm"
+    },
+    {
+      "title": "Amv: la compilation a tutta musica di febbraio e marzo 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110074-amv-la-compilation-a-tutta-musica-di-febbraio-e-marzo-2026"
+    },
+    {
+      "title": "AnimeJapan: novità dal panel dedicato a One Piece",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110173-animejapan-novita-dal-panel-dedicato-a-one-piece"
+    },
+    {
+      "title": "È scomparso Yoshiharu Tsuge, pioniere del gekiga e maestro del manga d'autore",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110154-e-scomparso-yoshiharu-tsuge-pioniere-del-gekiga-e-maestro-del-manga-dautore"
+    },
+    {
+      "title": "Disastro Epic Games: la compagnia licenzia oltre 1000 dipendenti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110133-disastro-epic-games-la-compagnia-licenzia-oltre-1000-dipendenti"
+    },
+    {
+      "title": "Crimson Desert: le azioni rimbalzano e tornano a volare dopo i dati di vendita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110198-crimson-desert-le-azioni-rimbalzano-e-tornano-a-volare-dopo-i-dati-di-vendite"
+    },
+    {
+      "title": "Lucca Collezionando 2026: la mostra dedicata a I Cavalieri dello Zodiaco tra mito e nostalgia",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110185-lucca-collezionando-2026-la-mostra-dedicata-a-i-cavalieri-dello-zodiaco-tra-mito-e-nostalgia"
+    },
+    {
+      "title": "AnimeJapan: trailer e seconda stagione in arrivo per You and I are polar opposites",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110180-anime-japan-trailer-e-seconda-stagione-in-arrivo-per-you-and-i-are-polar-opposites"
+    },
+    {
+      "title": "AnimeJapan: trailer e novità per Isekai Farming 2, The barbarian's bride e altro.",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110181-anime-japan-nuovi-trailer-per-isekai-farming-2-the-barbarians-bride-e-altro"
+    },
+    {
+      "title": "AnimeJapan e non solo: novità per Yaiba, Tenbin e altri anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110172-animejapan-e-non-solo-novita-per-yaiba-tenbin-e-altri-anime"
+    },
+    {
+      "title": "Gundam Wing e Endless Waltz arrivano su youtube sottotitolati in italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110120-gundam-wing-e-endless-waltz-arrivano-su-youtube-sottotitolati-in-italiano"
     }
   ],
   "youtube_trends": [
@@ -3817,20 +3817,16 @@
       "url": "https://www.youtube.com/watch?v=2rE1SpZFTvY"
     },
     {
-      "title": "[Kyokami] He Judged Her By Her Appearance… And Was Wrong",
-      "url": "https://www.youtube.com/watch?v=b9bR89r9s_8"
-    },
-    {
       "title": "[Kyokami] He Helped Her Fall In Love… With Himself",
       "url": "https://www.youtube.com/watch?v=zwDxgT8BVNs"
     },
     {
-      "title": "[Kyokami] They Pretended Not To Like Him… But Loved Him In Secret",
-      "url": "https://www.youtube.com/watch?v=PQYvooa8iNw"
+      "title": "[Kyokami] He Judged Her By Her Appearance… And Was Wrong",
+      "url": "https://www.youtube.com/watch?v=b9bR89r9s_8"
     },
     {
-      "title": "[Kyokami] She Always Fell For Bad Boys… Until An Otaku Asked Her Out",
-      "url": "https://www.youtube.com/watch?v=CgU2cI07wc4"
+      "title": "[Kyokami] They Pretended Not To Like Him… But Loved Him In Secret",
+      "url": "https://www.youtube.com/watch?v=PQYvooa8iNw"
     },
     {
       "title": "[TG Comics] I fumetti consigliati della settimana (dal 23 al 29 marzo 2026) 🗯️🗨️💭",
@@ -3853,10 +3849,6 @@
       "url": "https://www.youtube.com/watch?v=rGnNcxc_Cuw"
     },
     {
-      "title": "[TG Comics] LE NOVITA&#39; A FUMETTI DI QUESTA SETTIMANA - TG COMICS DEL 24/3/2026",
-      "url": "https://www.youtube.com/watch?v=nzXvN0JdGm0"
-    },
-    {
       "title": "[Collectors Confessions] Batman Superman Team-Up Gets INSANE in #50 #dccomics",
       "url": "https://www.youtube.com/watch?v=qpzbnYgQLbY"
     },
@@ -3871,6 +3863,10 @@
     {
       "title": "[Why So Sidious?] Absolute Flash Vol. 1 | DC Comic Book Review",
       "url": "https://www.youtube.com/watch?v=QB2S3-iwUfQ"
+    },
+    {
+      "title": "[Aly From The Block (AFTB Channel)] DYLAN DOG #475 - IL RITRATTO DELLA FOLLIA 🖼️💢💥🖌️🔥",
+      "url": "https://www.youtube.com/watch?v=Rya6mILsbXg"
     },
     {
       "title": "[TheComicBookReport] Murder Falcon Review | Daniel Warren Johnson | Deluxe Hardcover | Image Comics",
@@ -3897,16 +3893,12 @@
       "url": "https://www.youtube.com/watch?v=VCkH5HdQ8Pc"
     },
     {
-      "title": "[Pelati e Fumetti] Novità MANGA Aprile 2026: con nuovi successi sicuri! (forse)",
-      "url": "https://www.youtube.com/watch?v=kp0pzEJxahc"
+      "title": "[Kirio1984] Nuovi MANGA annunciati in ITALIA: cosa vale davvero la pena?",
+      "url": "https://www.youtube.com/watch?v=TXQzazmneZc"
     },
     {
       "title": "[Kyodai Yo!] Nuovi acquisti, quale ti ispira di più? #unboxing  #manga #haul #fumetti #mangacollection #comics",
       "url": "https://www.youtube.com/watch?v=3NlDyam-V-8"
-    },
-    {
-      "title": "[Kirio1984] Nuovi MANGA annunciati in ITALIA: cosa vale davvero la pena?",
-      "url": "https://www.youtube.com/watch?v=TXQzazmneZc"
     },
     {
       "title": "[landberry] We need new readers #robomonkey #anime #manga #mangaart",
