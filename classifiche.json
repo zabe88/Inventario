@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-04-05T14:02:30.253304+00:00",
+  "updated_at": "2026-04-06T07:04:15.079525+00:00",
   "rankings": [
     {
       "ean": "9788855441858",
@@ -43,16 +43,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788824978767",
+      "title": "L'altra storia",
       "author": "",
       "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788824978767",
-      "title": "L'altra storia",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 7,
       "category": "generale",
@@ -83,18 +83,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788897095835",
-      "title": "Codice civile 2025 Student Edition. Aggiornato al D.L. 8 agosto 2025, n. 117 e alla L. 8 agosto 2025, n. 118 di conversione del «Decreto Economia» D.L. n. 95/2025",
+      "ean": "9791224200451",
+      "title": "L'amante perduta di Shakespeare",
       "author": "",
       "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791224200451",
-      "title": "L'amante perduta di Shakespeare",
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
       "author": "",
       "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788897095835",
+      "title": "Codice civile 2025 Student Edition. Aggiornato al D.L. 8 agosto 2025, n. 117 e alla L. 8 agosto 2025, n. 118 di conversione del «Decreto Economia» D.L. n. 95/2025",
+      "author": "",
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -102,21 +110,13 @@
       "ean": "9788818031522",
       "title": "Cime tempestose. Ediz. integrale",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788820080914",
       "title": "Ancora insieme. Love me love me. Vol. 4",
-      "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788855441865",
-      "title": "Amore senza fine. Love me love me. Vol. 3",
       "author": "",
       "position": 15,
       "category": "generale",
@@ -131,32 +131,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9788855441865",
+      "title": "Amore senza fine. Love me love me. Vol. 3",
       "author": "",
       "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788867908264",
-      "title": "Il gioco delle risate",
+      "ean": "9791224201168",
+      "title": "Mezzanotte a Parigi",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788842935636",
+      "title": "L'alba dei leoni. La saga dei Florio",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788828402602",
-      "title": "L'osservazione dei processi d'apprendimento. Nuova ediz.",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -467,10 +467,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9780746083383",
+      "title": "Che cosa mi succede? (Ragazze). Ediz. il...",
+      "author": "",
+      "position": 9,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9781409590088",
       "title": "Il grande libro della Bibbia. Ediz. illu...",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -478,7 +486,7 @@
       "ean": "9781409592518",
       "title": "Il nostro mondo. Ediz. illustrata",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -486,7 +494,7 @@
       "ean": "9781474938655",
       "title": "Cosa sono i microbi? Ediz. a colori",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -494,7 +502,7 @@
       "ean": "9788804323327",
       "title": "Il piccolo bruco Maisazio. Ediz. illustrata",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,7 +510,7 @@
       "ean": "9788804396154",
       "title": "Piccoli brividi. Il pupazzo parlante",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -510,21 +518,13 @@
       "ean": "9788804396192",
       "title": "Piccoli brividi. La maschera maledetta",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804437031",
       "title": "Principessa Laurentina",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804516750",
-      "title": "La baby-sitter 2",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -683,34 +683,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114287",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasco...",
-      "author": "",
-      "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
-      "author": "",
-      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,7 +702,15 @@
       "ean": "9788899842154",
       "title": "Come un albero. Ediz. a colori",
       "author": "",
-      "position": 40,
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9789403206042",
+      "title": "Gli animali della fattoria. Chi si nasco...",
+      "author": "",
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,13 +718,21 @@
       "ean": "9788829602353",
       "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
-      "position": 41,
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9789403212555",
       "title": "Viaggio attraverso i 5 continenti. Il mi...",
+      "author": "",
+      "position": 41,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114287",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -811,10 +811,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804518099",
+      "title": "Dimmi che non vuoi morire",
+      "author": "",
+      "position": 10,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -822,7 +830,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -830,7 +838,7 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +846,7 @@
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,21 +854,13 @@
       "ean": "9788804767084",
       "title": "Heartstopper. Vol. 5",
       "author": "",
-      "position": 14,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806261382",
-      "title": "Zeroventi. Nadine e Davide. Vol. 1",
-      "author": "",
       "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788807550225",
-      "title": "Storiemigranti",
+      "ean": "9788806154950",
+      "title": "MAUS",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -963,58 +963,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788864201924",
-      "title": "One piece. New edition. Vol. 6",
-      "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221941463",
-      "title": "Chainsaw Man. Vol. 22: Gustiamoci il cibo",
-      "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221924848",
-      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
-      "author": "",
-      "position": 31,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221924855",
-      "title": "Jujutsu Kaisen. Vol. 30: D'ora in poi",
-      "author": "",
-      "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221921250",
-      "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
-      "author": "",
-      "position": 33,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788864201979",
-      "title": "One piece. New edition. Vol. 11",
-      "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788834908853",
       "title": "Kingdom. Vol. 50",
       "author": "",
-      "position": 35,
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1022,23 +974,63 @@
       "ean": "9788834935811",
       "title": "Kingdom. Vol. 70",
       "author": "",
+      "position": 30,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221941463",
+      "title": "Chainsaw Man. Vol. 22: Gustiamoci il cibo",
+      "author": "",
+      "position": 31,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221924848",
+      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
+      "author": "",
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221924855",
+      "title": "Jujutsu Kaisen. Vol. 30: D'ora in poi",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221921250",
+      "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
+      "author": "",
+      "position": 34,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788868837822",
+      "title": "Kingdom. Vol. 28",
+      "author": "",
+      "position": 35,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788868838706",
+      "title": "Kingdom. Vol. 29",
+      "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828762942",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
+      "ean": "9788868839529",
+      "title": "Kingdom. Vol. 30",
       "author": "",
       "position": 37,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828788386",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 5: I...",
-      "author": "",
-      "position": 38,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1315,24 +1307,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791280132529",
-      "title": "La minaccia di Allah. Islam politico, si...",
+      "ean": "9788867920754",
+      "title": "La storia di Gesù",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788867920754",
-      "title": "La storia di Gesù",
+      "ean": "9791280132529",
+      "title": "La minaccia di Allah. Islam politico, si...",
       "author": "",
       "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
       "author": "",
       "position": 37,
       "category": "religione",
@@ -1355,8 +1347,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
       "author": "",
       "position": 40,
       "category": "religione",
@@ -1371,8 +1363,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845938672",
-      "title": "Attesa di Dio",
+      "ean": "9788811016441",
+      "title": "Gesù e Cristo",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1571,10 +1563,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9788806256999",
+      "title": "Notturni hollywoodiani",
+      "author": "",
+      "position": 4,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9788850271955",
       "title": "L'ultimo traghetto",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1582,7 @@
       "ean": "9788804806165",
       "title": "Le macellaie di Rouen",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1590,7 @@
       "ean": "9788804804116",
       "title": "Il grande vuoto",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1598,7 @@
       "ean": "9791224202554",
       "title": "La torre segreta delle aquile",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1606,7 @@
       "ean": "9791224202219",
       "title": "Una mente assassina",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,7 +1614,7 @@
       "ean": "9788833211800",
       "title": "Piccoli crimini tra vicini. I casi di Hamish Macbeth",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1622,7 +1622,7 @@
       "ean": "9788833211800",
       "title": "Piccoli crimini tra vicini. I casi di H...",
       "author": "M. C. Beaton",
-      "position": 10,
+      "position": 11,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1630,7 +1630,7 @@
       "ean": "9788822796974",
       "title": "La cripta di Venezia",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1638,7 +1638,7 @@
       "ean": "9788833222332",
       "title": "L'elmo di Scipio",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1646,7 +1646,7 @@
       "ean": "9791259678256",
       "title": "Dalla stessa parte",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1654,7 +1654,7 @@
       "ean": "9788893907552",
       "title": "L'ombra dentro",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1662,7 +1662,15 @@
       "ean": "9788804816980",
       "title": "Intrigo alle Baleari e altre storie",
       "author": "",
-      "position": 15,
+      "position": 16,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791223206072",
+      "title": "Scomparsa. La spiaggia",
+      "author": "",
+      "position": 17,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1670,7 +1678,7 @@
       "ean": "9788877078254",
       "title": "I racconti del maggiore. Le prime indagini di Aldo Morosini nell’Africa Orientale Italiana",
       "author": "",
-      "position": 16,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1678,7 +1686,7 @@
       "ean": "9788877078254",
       "title": "I racconti del maggiore. Le prime indag...",
       "author": "Giorgio Ballario",
-      "position": 17,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1686,7 +1694,15 @@
       "ean": "9791223616185",
       "title": "Il sorriso beffardo della morte",
       "author": "",
-      "position": 18,
+      "position": 20,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791223282083",
+      "title": "L'Altra mamma",
+      "author": "",
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1694,7 +1710,7 @@
       "ean": "9788829795444",
       "title": "La donna della palude",
       "author": "",
-      "position": 19,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1702,7 +1718,7 @@
       "ean": "9788850274352",
       "title": "Il destino del faraone",
       "author": "",
-      "position": 20,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1710,37 +1726,13 @@
       "ean": "9788866887102",
       "title": "Lucky Supreme. La trilogia",
       "author": "",
-      "position": 21,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
     {
       "ean": "9788866887096",
       "title": "La coinquilina",
-      "author": "",
-      "position": 22,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791281777798",
-      "title": "Fiori in soffitta",
-      "author": "",
-      "position": 23,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788850274819",
-      "title": "Figlia della cenere",
-      "author": "",
-      "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788850274796",
-      "title": "Un nuovo papa",
       "author": "",
       "position": 25,
       "category": "gialli_thriller",
@@ -1915,74 +1907,50 @@
       "source": "giunti"
     },
     {
-      "ean": "9791223200810",
-      "title": "Quante cose nuove, Peppa!",
+      "ean": "9791223279533",
+      "title": "Felice come un agnellino",
       "author": "",
       "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
-      "ean": "9788855232821",
-      "title": "Evoluzione. Dall'origine della Terra a oggi",
+      "ean": "9791223208373",
+      "title": "Iago il drago. Storia di fuoco",
       "author": "",
       "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
-      "ean": "9788855232821",
-      "title": "Evoluzione. Dall'origine della Terra a ...",
-      "author": "Sarah Darwin, Eva-Maria Sadowski, Eva-...",
+      "ean": "9791223208397",
+      "title": "Poldo il polpo. Storia di acqua",
+      "author": "",
       "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
-      "ean": "9788855232760",
-      "title": "Ecologia della felicità. Perché vivere meglio aiuta il pianeta. Ediz. per ragazzi",
+      "ean": "9791223208380",
+      "title": "Lella la farfalla",
       "author": "",
       "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
-      "ean": "9788855232760",
-      "title": "Ecologia della felicità. Perché vivere ...",
-      "author": "Stefano Bartolini",
+      "ean": "9791223208403",
+      "title": "Ughetta la tartaruga. Storia di terra",
+      "author": "",
       "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
-      "ean": "9788855233149",
-      "title": "La vita segreta degli alberi",
+      "ean": "9791223284827",
+      "title": "Il mio primo libro a pancia in giù",
       "author": "",
       "position": 27,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788836122592",
-      "title": "L'incredibile missione impollinazione. Per scoprire come i fiori diventano cibo",
-      "author": "",
-      "position": 28,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788836122592",
-      "title": "L'incredibile missione impollinazione. ...",
-      "author": "Deborah Hocking",
-      "position": 29,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9781836067375",
-      "title": "Unicorni. Con adesivi",
-      "author": "",
-      "position": 30,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -2131,10 +2099,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9788804768111",
+      "title": "Labirinto di morte",
+      "author": "",
+      "position": 4,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
       "ean": "9788897153061",
       "title": "Una casa che sanguina. The September house",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2142,7 +2118,7 @@
       "ean": "9788820079307",
       "title": "L'anima delle ombre",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2150,7 +2126,7 @@
       "ean": "9791281026513",
       "title": "Wendigo",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2158,7 +2134,7 @@
       "ean": "9788822791344",
       "title": "Il gioco degli dei. Cruel seduction",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2166,7 +2142,7 @@
       "ean": "9788804743170",
       "title": "Le donne che gli uomini non vedono",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2174,7 +2150,7 @@
       "ean": "9788804792772",
       "title": "Un regno di fuoco e ombra. The nightfire quartet. Vol. 1",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2182,7 +2158,7 @@
       "ean": "9788804792772",
       "title": "Un regno di fuoco e ombra. The nightfir...",
       "author": "Nisha J. Tuli",
-      "position": 10,
+      "position": 11,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2190,7 +2166,7 @@
       "ean": "9788804794530",
       "title": "Come conquistare la regina delle streghe. Queens of villainy. Vol. 1",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2198,7 +2174,7 @@
       "ean": "9788804794530",
       "title": "Come conquistare la regina delle stregh...",
       "author": "Stephanie Burgis",
-      "position": 12,
+      "position": 13,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2206,7 +2182,7 @@
       "ean": "9788822797001",
       "title": "Lascialo entrare",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2214,7 +2190,7 @@
       "ean": "9791224202110",
       "title": "Il santuario della montagna silenziosa",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2222,7 +2198,7 @@
       "ean": "9788804813057",
       "title": "La croce di fuoco. Outlander. Vol. 5",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2230,7 +2206,7 @@
       "ean": "9788834442104",
       "title": "Il labirinto dei draghi. Le memorie di Lady Trent",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2238,7 +2214,7 @@
       "ean": "9788834442104",
       "title": "Il labirinto dei draghi. Le memorie di ...",
       "author": "Marie Brennan",
-      "position": 17,
+      "position": 18,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2246,7 +2222,7 @@
       "ean": "9788804776260",
       "title": "L'esecutore. Il guardiano delle anime. Vol. 2",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2254,7 +2230,7 @@
       "ean": "9788804776260",
       "title": "L'esecutore. Il guardiano delle anime. ...",
       "author": "Priest",
-      "position": 19,
+      "position": 20,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2262,7 +2238,7 @@
       "ean": "9788820084158",
       "title": "Heir of illusion. Ediz. italiana",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2270,7 +2246,7 @@
       "ean": "9791281777811",
       "title": "Le cronache di Gilda",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2278,7 +2254,7 @@
       "ean": "9788804767831",
       "title": "Mary e il gigante",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2286,7 +2262,7 @@
       "ean": "9791254802489",
       "title": "Canzone per il disfarsi del mondo",
       "author": "",
-      "position": 23,
+      "position": 24,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2294,7 +2270,7 @@
       "ean": "9788855443951",
       "title": "A tutto gas",
       "author": "",
-      "position": 24,
+      "position": 25,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2302,7 +2278,7 @@
       "ean": "9788820075330",
       "title": "Figlia della notte",
       "author": "",
-      "position": 25,
+      "position": 26,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2310,7 +2286,7 @@
       "ean": "9791222111193",
       "title": "L'ombra delle belledonne. Rosenholm. Vol. 2",
       "author": "",
-      "position": 26,
+      "position": 27,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2318,23 +2294,7 @@
       "ean": "9791222111193",
       "title": "L'ombra delle belledonne. Rosenholm. Vo...",
       "author": "Gry Kappel Jensen",
-      "position": 27,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791281656567",
-      "title": "Il giorno del giudizio. Dungeon Crawler Carl",
-      "author": "",
       "position": 28,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791281656567",
-      "title": "Il giorno del giudizio. Dungeon Crawler...",
-      "author": "Matt Dinniman",
-      "position": 29,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -3617,84 +3577,14 @@
   ],
   "manga_trends": [
     {
-      "title": "AnimeJapan e non solo: nuove serie per Sentenced to Be a Hero, Iseleve e altre novità",
+      "title": "Box Office Giappone: il film di Doraemon ancora primo dopo 5 week end",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110169-anime-japan-e-non-solo-nuove-serie-per-sentenced-to-be-a-hero-iseleve-e-altre-novita"
+      "url": "https://www.animeclick.it/news/110217-box-office-giappone-il-film-di-doraemon-ancora-primo-dopo-5-week-end"
     },
     {
-      "title": "L'animatore Eisaku Inoue (Saint Seiya e One, Piece) ospite al Cosenza Comics and Games",
+      "title": "Lucca Collezionando 2026: la mostra dedicata a I Cavalieri dello Zodiaco tra mito e nostalgia",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110203-eisaku-inoue-animatore-di-saint-seiya-one-piece-e-molti-altri-ospite-al-cosenza-comics-and-games"
-    },
-    {
-      "title": "Box Office Giappone: il film di Assassination Classroom debutta in settima posizione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110125-box-office-giappone-il-film-di-assassination-classroom-debutta-in-settima-posizione"
-    },
-    {
-      "title": "AnimeJapan e non solo: novità per Nanoha, The Elusive Samurai e altri anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110176-animejapan-e-non-solo-novita-per-nanoha-the-elusive-samurai-e-altri-anime"
-    },
-    {
-      "title": "Anime Preview: novità per Golden Kamuy, Goodbye, Lara e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110202-anime-preview-novita-per-golden-kamuy-goodbye-lara-e-molto-altro"
-    },
-    {
-      "title": "AnimeJapan: novità dal panel dedicato a One Piece",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110173-animejapan-novita-dal-panel-dedicato-a-one-piece"
-    },
-    {
-      "title": "Candy Color Paradox: si conclude il manga di Isaku Natsume",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110209-candy-color-paradox-si-conclude-il-manga-di-isaku-natsume"
-    },
-    {
-      "title": "Non solo anime: Super Mario Galaxy Movie sbanca al botteghino e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110240-non-solo-anime-super-mario-galaxy-movie-sbanca-al-botteghino-e-molto-altro"
-    },
-    {
-      "title": "Magic Press: le uscite di aprile 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110215-magic-press-le-uscite-di-aprile-2026"
-    },
-    {
-      "title": "Haruhi Suzumiya e la malinconia dei vent'anni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109395-haruhi-suzumiya-e-la-malinconia-dei-ventanni"
-    },
-    {
-      "title": "AnimeJapan: trailer per Smoking Behind the Supermarket with You, Inherit the Winds e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110166-animejapan-trailer-per-smoking-behind-the-supermarket-with-you-inherit-the-winds-e-molto-altro"
-    },
-    {
-      "title": "Music Legends: The World of Gaming arriva a Milano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110226-music-legends-the-world-of-gaming-arriva-a-milano"
-    },
-    {
-      "title": "Koji Yakusho di Perfect Days ospite d'onore al Far East Film Festival di Udine",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110225-koji-yakusho-di-perfect-days-ospite-donore-al-far-east-film-festival-di-udine"
-    },
-    {
-      "title": "Yamato Video: in arrivo il simulcast di Lulu & Lilly - Le sorelle della magia su ANiME Generation",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110212-yamato-video-in-arrivo-simulcast-di-lulu-lilly-le-sorelle-della-magia-su-anime-generation"
-    },
-    {
-      "title": "Gintama: vent'anni per l'adattamento dello studio Sunrise",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110084-gintama-ventanni-per-ladattamento-dello-studio-sunrise"
-    },
-    {
-      "title": "Anime Preview: novità per Fate/strange Fake, Tune in to the Midnight Heart e altre serie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110189-anime-preview-novita-per-fate-strange-fake-tune-in-to-the-midnight-heart-e-altre-serie"
+      "url": "https://www.animeclick.it/news/110185-lucca-collezionando-2026-la-mostra-dedicata-a-i-cavalieri-dello-zodiaco-tra-mito-e-nostalgia"
     },
     {
       "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Tutti al Parco Bellabel: la Recensione",
@@ -3702,24 +3592,49 @@
       "url": "https://www.animeclick.it/news/110218-super-mario-bros-wonder-nintendo-switch-2-edition-tutti-al-parco-bellabel-la-recensione"
     },
     {
-      "title": "Comicon Napoli 2026: Kotteri! (Veil) e Yudori (La conquista del cielo) ospiti per J-POP Manga",
+      "title": "AnimeJapan: Novità per Tokyo Revengers e Dr. Stone",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110204-comicon-napoli-2026-kotteri-veil-e-yudori-la-conquista-del-cielo-ospiti-per-j-pop-manga"
+      "url": "https://www.animeclick.it/news/110183-animejapan-novita-per-tokyo-revengers-e-dr-stone"
     },
     {
-      "title": "Anime Factory presenta gli anime in simuldub e simulcast della stagione primaverile",
+      "title": "Non solo anime: Super Mario Galaxy Movie sbanca al botteghino e molto altro",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110192-anime-factory-presenta-gli-anime-in-simuldub-e-simulcast-della-stagione-primaverile"
+      "url": "https://www.animeclick.it/news/110240-non-solo-anime-super-mario-galaxy-movie-sbanca-al-botteghino-e-molto-altro"
     },
     {
-      "title": "Mushoku Tensei III: svelato l'Eris Training Arc e la data di uscita dell'anime",
+      "title": "AnimeJapan e non solo: novità per The Eminence in Shadow, Rascal Does Not Dream e altri film",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110163-mushoku-tensei-iii-svelato-leris-training-arc-e-la-data-di-uscita-dellanime"
+      "url": "https://www.animeclick.it/news/110186-animejapan-e-non-solo-novita-per-the-eminence-in-shadow-rascal-does-not-dream-e-altri-film"
     },
     {
-      "title": "AnimeJapan: novità per Blue Box, Dandelion e SHIBOYUGI",
+      "title": "Boichi avverte: l'ossessione per Shonen Jump sta distruggendo la creatività del manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110162-animejapan-novita-per-blue-box-dandelion-e-shiboyugi"
+      "url": "https://www.animeclick.it/news/110220-boichi-avverte-lossessione-per-shonen-jump-sta-distruggendo-la-creativita-del-manga"
+    },
+    {
+      "title": "Industria anime: ascesa del mercato estero, costi in aumento e carenza di personale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/109253-industria-anime-ascesa-del-mercato-estero-costi-in-aumento-e-carenza-di-personale"
+    },
+    {
+      "title": "Anime Preview: The Salty Koharu, The Forsaken Saintess e non solo...",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/29561-anime-preview-the-salty-koharu-the-forsaken-saintess-e-non-solo"
+    },
+    {
+      "title": "The Last of Us Online: \"ho saputo della cancellazione solo 24 ore prima dell’annuncio\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110224-the-last-of-us-online-ho-saputo-della-cancellazione-solo-24-ore-prima-dell%25e2%2580%2599annuncio"
+    },
+    {
+      "title": "The Ramparts of Ice: informazioni sul doppiaggio di Netflix",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110241-the-ramparts-of-ice-informazioni-sul-doppiaggio-di-netflix"
+    },
+    {
+      "title": "Eventi e fiere di aprile 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110205-eventi-e-fiere-di-aprile-2026"
     },
     {
       "title": "AnimeJapan e non solo: novità per Yaiba, Tenbin e altri anime",
@@ -3727,29 +3642,19 @@
       "url": "https://www.animeclick.it/news/110172-animejapan-e-non-solo-novita-per-yaiba-tenbin-e-altri-anime"
     },
     {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di marzo 2026",
+      "title": "Il viale del tramonto di un genio: Will Wright e l'azzardo di Proxi",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110196-zipaki-tutte-le-uscite-digitali-e-cartacee-di-marzo-2026"
+      "url": "https://www.animeclick.it/news/110221-il-viale-del-tramonto-di-un-genio-will-wright-e-lazzardo-di-proxi"
     },
     {
-      "title": "Gachiakuta: The Game - mostrato il primo gameplay con Rudo, Enjin, Riyo e Zanka",
+      "title": "Comicon Napoli 2026: Kotteri! (Veil) e Yudori (La conquista del cielo) ospiti per J-POP Manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110194-gachiakuta-the-game-mostrato-il-primo-gameplay-con-rudo-enjin-riyo-e-zanka"
+      "url": "https://www.animeclick.it/news/110204-comicon-napoli-2026-kotteri-veil-e-yudori-la-conquista-del-cielo-ospiti-per-j-pop-manga"
     },
     {
-      "title": "AnimeJapan 2026: novità per Saga of Tanya the Evil, Tenken, il campagnolo stagionato e Bookworm",
+      "title": "AnimeJapan: trailer e seconda stagione in arrivo per You and I are polar opposites",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110167-animejapan-2026-novita-per-saga-of-tanya-the-evil-tenken-il-campagnolo-stagionato-e-bookworm"
-    },
-    {
-      "title": "Anime Preview: nuova stagione per Frieren, MF Ghost e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110158-anime-preview-nuova-stagione-per-frieren-mf-ghost-e-altre-novita"
-    },
-    {
-      "title": "JoJo Diamond is Unbreakable: 10 anni per la quarta parte del franchise anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110184-jojo-diamond-is-unbreakable-10-anni-per-la-quarta-parte-del-franchise-anime"
+      "url": "https://www.animeclick.it/news/110180-anime-japan-trailer-e-seconda-stagione-in-arrivo-per-you-and-i-are-polar-opposites"
     },
     {
       "title": "Marathon- Recensione dell'attesissimo extraction shooter",
@@ -3757,24 +3662,75 @@
       "url": "https://www.animeclick.it/news/110116-marathon-recensione-dellattesissimo-extraction-shooter"
     },
     {
-      "title": "Sailor Moon alla NASA: il gatto Artemis veglia sulla missione che riporta l'uomo verso la Luna",
+      "title": "AnimeJapan: novità per Blue Box, Dandelion e SHIBOYUGI",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110231-sailor-moon-alla-nasa-il-gatto-artemis-veglia-sulla-missione-che-riporta-luomo-verso-la-luna"
+      "url": "https://www.animeclick.it/news/110162-animejapan-novita-per-blue-box-dandelion-e-shiboyugi"
+    },
+    {
+      "title": "Addio a Tsutomu Shibayama, Satoshi Mori, Masako Ikeda, Yukie Maeda, Yonehiko Kitagawa, Manjuro Kaname",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110151-addio-a-tsutomu-shibayama-satoshi-mori-masako-ikeda-yukie-maeda-yonehiko-kitagawa-manjuro-kaname"
+    },
+    {
+      "title": "AnimeJapan: trailer e novità per Isekai Farming 2, The barbarian's bride e altro.",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110181-anime-japan-nuovi-trailer-per-isekai-farming-2-the-barbarians-bride-e-altro"
+    },
+    {
+      "title": "Gachiakuta: The Game - mostrato il primo gameplay con Rudo, Enjin, Riyo e Zanka",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110194-gachiakuta-the-game-mostrato-il-primo-gameplay-con-rudo-enjin-riyo-e-zanka"
+    },
+    {
+      "title": "Yamato Video: in arrivo il simulcast di Lulu & Lilly - Le sorelle della magia su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110212-yamato-video-in-arrivo-simulcast-di-lulu-lilly-le-sorelle-della-magia-su-anime-generation"
+    },
+    {
+      "title": "Yu-Gi-Oh! DUEL LINKS! arriva la nuova modalità PvP Character Deck Duel",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110200-yu-gi-oh-duel-links-arriva-la-nuova-modalita-pvp-character-deck-duel"
+    },
+    {
+      "title": "Xbox Game Pass: ResidentEvil 7 e Clair Obscure arrivano ad Aprile",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110223-xbox-game-pass-residentevil-7-e-clair-obscure-arrivano-ad-aprile"
     },
     {
       "title": "Anime Preview: novità per Yoroi Shin Den Samurai Troopers, Mobius Dust e molto altro",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110149-anime-preview-novita-per-yoroi-shin-den-samurai-troopers-mobius-dust-e-molto-altro"
+    },
+    {
+      "title": "Grow Up Show: Sunflower Circus: trailer e novità per l'anime sul circo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110131-grow-up-show-sunflower-circus-trailer-e-novita-per-lanime-sul-circo"
+    },
+    {
+      "title": "Amv: la compilation a tutta musica di febbraio e marzo 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110074-amv-la-compilation-a-tutta-musica-di-febbraio-e-marzo-2026"
+    },
+    {
+      "title": "AnimeJapan: novità per Sparks of Tomorrow, Baki-dou, Let’s go Kakigumi e Kindergarten Wars",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110182-animejapan-novita-per-sparks-of-tomorrow-baki-dou-let%25e2%2580%2599s-go-kakigumi-e-kindergarten-wars"
+    },
+    {
+      "title": "Digimon Savers: vent'anni per la quinta serie dei Digimon",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110190-digimon-savers-ventanni-per-la-quinta-serie-dei-digimon"
+    },
+    {
+      "title": "AnimeJapan: novità dal panel dedicato a One Piece",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110173-animejapan-novita-dal-panel-dedicato-a-one-piece"
     }
   ],
   "youtube_trends": [
     {
       "title": "[mjrage] #booktube #darkromance #wattpadstories #booktok #enemiestolovers #booklover #libri #wattpad #perte",
       "url": "https://www.youtube.com/watch?v=oxFfmv4ApTc"
-    },
-    {
-      "title": "[Angelika Morgenstern] E adesso? #darkromance #booktok #booktokitalia #booktube #wattpad #wattpaditalia #wattpadstorie",
-      "url": "https://www.youtube.com/watch?v=o7LKWl2lPn0"
     },
     {
       "title": "[Valerie Root ] STELLE AVVERSE di Valerie Root #booktokitalia #booktok #wattpaditalia",
@@ -3813,10 +3769,6 @@
       "url": "https://www.youtube.com/watch?v=P5FZDdtfdI4"
     },
     {
-      "title": "[Comic Book Corner 2.0] &quot;So-many-comics... so LITTLE time!&quot; 😵‍💫",
-      "url": "https://www.youtube.com/watch?v=Z43iSBSZlew"
-    },
-    {
       "title": "[Yuhoo Comic Review] The DEFINITIVE Batman Book!",
       "url": "https://www.youtube.com/watch?v=QqDe1aJJ-o8"
     },
@@ -3827,6 +3779,10 @@
     {
       "title": "[Swarm of Comics] Check out the fun secret this comic holds! #comics #comicbooks #comicbook",
       "url": "https://www.youtube.com/watch?v=7tZ5lq90JfI"
+    },
+    {
+      "title": "[Yuhoo Comic Review] Batman by James Tynion!",
+      "url": "https://www.youtube.com/watch?v=BAI7zcDu8iE"
     },
     {
       "title": "[Pelati e Fumetti] Superboy è tornato sulle pagine di Action Comics! - Colazione a Fumetti",
@@ -3857,6 +3813,10 @@
       "url": "https://www.youtube.com/watch?v=SXER8aViX8U"
     },
     {
+      "title": "[TheMangaSloth] I Spent $1000 On This Manga Haul.  Im Cooked",
+      "url": "https://www.youtube.com/watch?v=qMl9qL7CW1Y"
+    },
+    {
       "title": "[Kirio1984] Nuovi MANGA annunciati in ITALIA: cosa vale davvero la pena?",
       "url": "https://www.youtube.com/watch?v=TXQzazmneZc"
     },
@@ -3865,20 +3825,16 @@
       "url": "https://www.youtube.com/watch?v=sdJD4wxUE14"
     },
     {
-      "title": "[TheMangaSloth] I Spent $1000 On This Manga Haul.  Im Cooked",
-      "url": "https://www.youtube.com/watch?v=qMl9qL7CW1Y"
-    },
-    {
       "title": "[MANGA GEEKDOM] NEW MANGA APRIL 2026!",
       "url": "https://www.youtube.com/watch?v=tFBThInP5lM"
     },
     {
-      "title": "[Lusy💖] Seguitemi o iscrivetevi per vedere nuovi contenuti!!!#mangaart #drawingtutorial #mangagirl #artshort",
-      "url": "https://www.youtube.com/watch?v=qI1wALo3a34"
-    },
-    {
       "title": "[hanamoon] manga shopping haul 🌙✨ | un po’ di nuovi arrivi in libreria",
       "url": "https://www.youtube.com/watch?v=BBoxabbSMhk"
+    },
+    {
+      "title": "[Slice of Anime] Anime Collection Additions! (March 2026)",
+      "url": "https://www.youtube.com/watch?v=oX90wHMhJY8"
     },
     {
       "title": "[ Recensioni manga di Ferdinando-sailormoonfans] NUOVI ARRIVI IN COLLEZIONE! | SAILORMOONFANS",
