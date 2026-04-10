@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-04-09T15:02:58.215128+00:00",
+  "updated_at": "2026-04-10T07:03:47.579742+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -27,26 +27,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806256197",
-      "title": "Figli per i Bastardi di Pizzofalcone",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 4,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806255145",
-      "title": "Il custode",
-      "author": "",
-      "position": 5,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
-      "author": "",
-      "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
@@ -54,7 +38,7 @@
       "ean": "9788863114126",
       "title": "Memorie del sottosuolo. Ediz. integrale",
       "author": "",
-      "position": 7,
+      "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,21 +46,37 @@
       "ean": "9788855447362",
       "title": "Una nuova indagine dell'avvocato Ligas. La mantide",
       "author": "",
+      "position": 6,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806256197",
+      "title": "Figli per i Bastardi di Pizzofalcone",
+      "author": "",
+      "position": 7,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
+      "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788806255145",
+      "title": "Il custode",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791224200451",
-      "title": "L'amante perduta di Shakespeare",
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
       "author": "",
       "position": 10,
       "category": "generale",
@@ -91,42 +91,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9791224200451",
+      "title": "L'amante perduta di Shakespeare",
       "author": "",
       "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788897095835",
-      "title": "Codice civile 2025 Student Edition. Aggiornato al D.L. 8 agosto 2025, n. 117 e alla L. 8 agosto 2025, n. 118 di conversione del «Decreto Economia» D.L. n. 95/2025",
+      "ean": "9788867920754",
+      "title": "La storia di Gesù",
       "author": "",
       "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788842935636",
-      "title": "L'alba dei leoni. La saga dei Florio",
-      "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788848328760",
-      "title": "Alpha Test Psicologia TOLC-PSI 2026-2027. Manuale di preparazione. Per test di ammissione universitari. Con piattaforma digitale",
-      "author": "",
-      "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
-      "author": "",
-      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,13 +110,37 @@
       "ean": "9788863114201",
       "title": "Uno, nessuno e centomila. Ediz. integrale",
       "author": "",
-      "position": 17,
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788842935636",
+      "title": "L'alba dei leoni. La saga dei Florio",
+      "author": "",
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788869800641",
       "title": "L'educazione delle farfalle",
+      "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 18,
       "category": "generale",
@@ -347,8 +347,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806256197",
-      "title": "Figli per i Bastardi di Pizzofalcone",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 24,
       "category": "narrativa",
@@ -371,16 +371,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806255145",
-      "title": "Il custode",
+      "ean": "9788806256197",
+      "title": "Figli per i Bastardi di Pizzofalcone",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788806255145",
+      "title": "Il custode",
       "author": "",
       "position": 28,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224200451",
-      "title": "L'amante perduta di Shakespeare",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -475,10 +475,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9781409578444",
+      "title": "Il corpo umano. Il libro dei perché. Edi...",
+      "author": "",
+      "position": 10,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9781409590088",
       "title": "Il grande libro della Bibbia. Ediz. illu...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -486,7 +494,7 @@
       "ean": "9781409592518",
       "title": "Il nostro mondo. Ediz. illustrata",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -494,7 +502,7 @@
       "ean": "9781474938655",
       "title": "Cosa sono i microbi? Ediz. a colori",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,7 +510,7 @@
       "ean": "9788804387794",
       "title": "Piccoli brividi. La casa della morte",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -510,21 +518,13 @@
       "ean": "9788804387824",
       "title": "Piccoli brividi. Foto dal futuro",
       "author": "",
-      "position": 14,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804396154",
-      "title": "Piccoli brividi. Il pupazzo parlante",
-      "author": "",
       "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804413691",
-      "title": "La spiaggia degli spettri",
+      "ean": "9788804396185",
+      "title": "Piccoli brividi. Il fantasma della porta...",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -667,42 +667,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasco...",
+      "ean": "9788829602353",
+      "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9789403206042",
+      "title": "Gli animali della fattoria. Chi si nasco...",
       "author": "",
       "position": 35,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788829602353",
-      "title": "Estate con la nuvola Olga. Ediz. a colori",
-      "author": "",
-      "position": 36,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788829601639",
-      "title": "L'eredità di Topone. Stampatello maiusco...",
-      "author": "",
-      "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804607731",
-      "title": "La tela di Carlotta",
-      "author": "",
-      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,15 +686,7 @@
       "ean": "9788899842154",
       "title": "Come un albero. Ediz. a colori",
       "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
-      "author": "",
-      "position": 40,
+      "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,13 +694,45 @@
       "ean": "9788845199417",
       "title": "Gli strumenti del mondo. I miei piccoli ...",
       "author": "",
-      "position": 41,
+      "position": 37,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "author": "",
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788829601639",
+      "title": "L'eredità di Topone. Stampatello maiusco...",
+      "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804607731",
+      "title": "La tela di Carlotta",
+      "author": "",
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788854039513",
       "title": "Amici animali. Libro sonoro. Ediz. a colori",
+      "author": "",
+      "position": 41,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -803,26 +803,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788467495737",
-      "title": "Spirale crescente. Batman",
+      "ean": "9788467473599",
+      "title": "Superman/Batman. Seconda serie. Vol. 18",
       "author": "",
       "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788804464396",
-      "title": "Tex. Sulle piste del Nord",
+      "ean": "9788467495737",
+      "title": "Spirale crescente. Batman",
       "author": "",
       "position": 10,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804493112",
-      "title": "Tex. Nel regno dei maya",
-      "author": "",
-      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -830,7 +822,7 @@
       "ean": "9788804518099",
       "title": "Dimmi che non vuoi morire",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +830,7 @@
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,7 +838,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -854,13 +846,21 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
+      "author": "",
+      "position": 15,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804739425",
+      "title": "Heartstopper. Vol. 4",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -963,10 +963,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
+      "author": "",
+      "position": 29,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788864201924",
       "title": "One piece. New edition. Vol. 6",
       "author": "",
-      "position": 29,
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -974,61 +982,53 @@
       "ean": "9788865279106",
       "title": "L'uomo della legione-L'uomo del New England",
       "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
-      "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9791221941050",
+      "title": "Blue lock. Vol. 31",
       "author": "",
       "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828729235",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 17: ...",
+      "ean": "9791221941463",
+      "title": "Chainsaw Man. Vol. 22: Gustiamoci il cibo",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828741503",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 18: ...",
+      "ean": "9788834941652",
+      "title": "I diari della speziale. Vol. 16",
       "author": "",
       "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221921243",
-      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
+      "ean": "9788834935811",
+      "title": "Kingdom. Vol. 70",
       "author": "",
       "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221924848",
-      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
+      "ean": "9788834913253",
+      "title": "Tokyo revengers. Vol. 31",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221924855",
-      "title": "Jujutsu Kaisen. Vol. 30: D'ora in poi",
+      "ean": "9788834922392",
+      "title": "Tokyo revengers. Vol. 30",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1123,10 +1123,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788802077895",
+      "title": "Antologia diabolica. Raccolta di testi s...",
+      "author": "",
+      "position": 12,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804453925",
       "title": "Tantra. La via dell'estasi sessuale",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1134,7 +1142,7 @@
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1142,21 +1150,13 @@
       "ean": "9788804564003",
       "title": "La calma",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804571322",
       "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804581642",
-      "title": "L'illusione di Dio. Le ragioni per non c...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1299,18 +1299,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788879849456",
-      "title": "La lampada della conoscenza non-duale",
-      "author": "",
-      "position": 34,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9791280132529",
       "title": "La minaccia di Allah. Islam politico, si...",
       "author": "",
-      "position": 35,
+      "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,39 +1310,15 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
+      "position": 35,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788879849456",
+      "title": "La lampada della conoscenza non-duale",
+      "author": "",
       "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788885471276",
-      "title": "Insegnamenti Dzogchen Bonpo dallo Yetri ...",
-      "author": "",
-      "position": 37,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892981690",
-      "title": "Inchiesta sul Cristianesimo. Sulle tracc...",
-      "author": "",
-      "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858155325",
-      "title": "San Francesco",
-      "author": "",
-      "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
-      "author": "",
-      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1358,13 +1326,45 @@
       "ean": "9788854174603",
       "title": "Il Corano. Ediz. integrale",
       "author": "",
-      "position": 41,
+      "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
+      "author": "",
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845280580",
+      "title": "Diario di preghiera",
+      "author": "",
+      "position": 39,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788848603836",
+      "title": "Gesù di Nazaret",
+      "author": "",
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804613657",
       "title": "Perché avete paura? Una lettura del Vang...",
+      "author": "",
+      "position": 41,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845938672",
+      "title": "Attesa di Dio",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1571,10 +1571,26 @@
       "source": "giunti"
     },
     {
+      "ean": "9791255022862",
+      "title": "Madame le commissaire e la morte in convento",
+      "author": "",
+      "position": 4,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791255022862",
+      "title": "Madame le commissaire e la morte in con...",
+      "author": "Pierre Martin",
+      "position": 5,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9791224200802",
       "title": "Non cercate in questo luogo",
       "author": "",
-      "position": 4,
+      "position": 6,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1598,7 @@
       "ean": "9788806256999",
       "title": "Notturni hollywoodiani",
       "author": "",
-      "position": 5,
+      "position": 7,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1606,7 @@
       "ean": "9788850271955",
       "title": "L'ultimo traghetto",
       "author": "",
-      "position": 6,
+      "position": 8,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1614,7 @@
       "ean": "9788804806165",
       "title": "Le macellaie di Rouen",
       "author": "",
-      "position": 7,
+      "position": 9,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1622,7 @@
       "ean": "9788804804116",
       "title": "Il grande vuoto",
       "author": "",
-      "position": 8,
+      "position": 10,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,7 +1630,7 @@
       "ean": "9791224202554",
       "title": "La torre segreta delle aquile",
       "author": "",
-      "position": 9,
+      "position": 11,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1622,7 +1638,7 @@
       "ean": "9791224202219",
       "title": "Una mente assassina",
       "author": "",
-      "position": 10,
+      "position": 12,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1630,7 +1646,7 @@
       "ean": "9788833211800",
       "title": "Piccoli crimini tra vicini. I casi di Hamish Macbeth",
       "author": "",
-      "position": 11,
+      "position": 13,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1638,7 +1654,7 @@
       "ean": "9788833211800",
       "title": "Piccoli crimini tra vicini. I casi di H...",
       "author": "M. C. Beaton",
-      "position": 12,
+      "position": 14,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1646,7 +1662,7 @@
       "ean": "9788822796974",
       "title": "La cripta di Venezia",
       "author": "",
-      "position": 13,
+      "position": 15,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1654,7 +1670,7 @@
       "ean": "9788833222332",
       "title": "L'elmo di Scipio",
       "author": "",
-      "position": 14,
+      "position": 16,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1662,7 +1678,7 @@
       "ean": "9791259678256",
       "title": "Dalla stessa parte",
       "author": "",
-      "position": 15,
+      "position": 17,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1670,7 +1686,7 @@
       "ean": "9788893907552",
       "title": "L'ombra dentro",
       "author": "",
-      "position": 16,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1678,7 +1694,7 @@
       "ean": "9788804816980",
       "title": "Intrigo alle Baleari e altre storie",
       "author": "",
-      "position": 17,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1686,7 +1702,7 @@
       "ean": "9791223206072",
       "title": "Scomparsa. La spiaggia",
       "author": "",
-      "position": 18,
+      "position": 20,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1694,7 +1710,7 @@
       "ean": "9788877078254",
       "title": "I racconti del maggiore. Le prime indagini di Aldo Morosini nell’Africa Orientale Italiana",
       "author": "",
-      "position": 19,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1702,7 +1718,7 @@
       "ean": "9788877078254",
       "title": "I racconti del maggiore. Le prime indag...",
       "author": "Giorgio Ballario",
-      "position": 20,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1710,7 +1726,7 @@
       "ean": "9791223616185",
       "title": "Il sorriso beffardo della morte",
       "author": "",
-      "position": 21,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1718,7 +1734,7 @@
       "ean": "9791223282083",
       "title": "L'Altra mamma",
       "author": "",
-      "position": 22,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1726,7 +1742,7 @@
       "ean": "9788829795444",
       "title": "La donna della palude",
       "author": "",
-      "position": 23,
+      "position": 25,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1734,15 +1750,7 @@
       "ean": "9788850274352",
       "title": "Il destino del faraone",
       "author": "",
-      "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788866887102",
-      "title": "Lucky Supreme. La trilogia",
-      "author": "",
-      "position": 25,
+      "position": 26,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1771,10 +1779,42 @@
       "source": "giunti"
     },
     {
+      "ean": "9788891589668",
+      "title": "Cucù, orsetto! I miei primi libri specchio",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791222105550",
+      "title": "Oplà, piccolo canguro! Scorri le storie",
+      "author": "",
+      "position": 5,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788891589200",
+      "title": "L'asilo. I miei piccoli libri sonori",
+      "author": "",
+      "position": 6,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788867229215",
+      "title": "Ali. Tocca e senti",
+      "author": "",
+      "position": 7,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9781837290802",
       "title": "Il mondo dell'arte per ragazzi",
       "author": "",
-      "position": 4,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1822,7 @@
       "ean": "9788855381369",
       "title": "30 calciatori che sono entrati nella storia",
       "author": "",
-      "position": 5,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1830,7 @@
       "ean": "9788855381369",
       "title": "30 calciatori che sono entrati nella st...",
       "author": "Paolo Mancini, Luca De Leone, Luca De ...",
-      "position": 6,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1838,7 @@
       "ean": "9791281475236",
       "title": "Gli insetti",
       "author": "",
-      "position": 7,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1846,7 @@
       "ean": "9791281475250",
       "title": "Serpenti e rettili",
       "author": "",
-      "position": 8,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1854,7 @@
       "ean": "9791281475267",
       "title": "Dinosauri",
       "author": "",
-      "position": 9,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1862,7 @@
       "ean": "9791256482146",
       "title": "La fattoria. Un libro con alette e pop-up",
       "author": "",
-      "position": 10,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1870,7 @@
       "ean": "9791256482153",
       "title": "Buonanotte. Un libro con alette e pop-up",
       "author": "",
-      "position": 11,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,7 +1878,7 @@
       "ean": "9791256730902",
       "title": "Sottacqua. Sottoterra",
       "author": "",
-      "position": 12,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1846,7 +1886,7 @@
       "ean": "9788830382978",
       "title": "Unicorni-Unicorns-Les licornes. Let's colour",
       "author": "",
-      "position": 13,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1854,7 +1894,7 @@
       "ean": "9788830382978",
       "title": "Unicorni-Unicorns-Les licornes. Let's c...",
       "author": "",
-      "position": 14,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1862,7 +1902,7 @@
       "ean": "9781836067436",
       "title": "Gli unicorni delle principesse. Con adesivi",
       "author": "",
-      "position": 15,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1870,7 +1910,7 @@
       "ean": "9781836067436",
       "title": "Gli unicorni delle principesse. Con ade...",
       "author": "Fiona Watt",
-      "position": 16,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1878,7 +1918,7 @@
       "ean": "9788807899942",
       "title": "La più bella del mondo. La Costituzione raccontata a ragazze e ragazzi",
       "author": "",
-      "position": 17,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1886,7 +1926,7 @@
       "ean": "9788807899942",
       "title": "La più bella del mondo. La Costituzione...",
       "author": "Walter Veltroni, Francesco Clementi, F...",
-      "position": 18,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1894,7 +1934,7 @@
       "ean": "9788847743571",
       "title": "Unicorni. Il mio primo diario",
       "author": "",
-      "position": 19,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1902,7 +1942,7 @@
       "ean": "9788829608317",
       "title": "Unicorni. Gratta e colora",
       "author": "",
-      "position": 20,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1910,7 +1950,7 @@
       "ean": "9788858058657",
       "title": "Facciamo le facce",
       "author": "",
-      "position": 21,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1918,7 +1958,7 @@
       "ean": "9788832070484",
       "title": "Gli invincibili",
       "author": "",
-      "position": 22,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1926,47 +1966,7 @@
       "ean": "9782889758524",
       "title": "Camion. Super pop up",
       "author": "",
-      "position": 23,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791259964502",
-      "title": "Tutti sullo scivolo!",
-      "author": "",
-      "position": 24,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791221939781",
-      "title": "L'avventura nell'End. Lego minecraft",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788892250048",
-      "title": "Il manuale (pratico) che stavi cercando per scegliere che cosa fare dopo le superiori",
-      "author": "",
-      "position": 26,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788892250048",
-      "title": "Il manuale (pratico) che stavi cercando...",
-      "author": "Luigi Ballerini, Marco Ferrari, Marco ...",
       "position": 27,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791223279533",
-      "title": "Felice come un agnellino",
-      "author": "",
-      "position": 28,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -2755,6 +2755,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Convegno “Le Statue Stele dell’eta’ del rame”",
+      "date": "2026-04-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-09_13-38-02_441.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Museo Archivio della Memoria di Bagnone",
       "date": "2026-04-05",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-25_21-14-03_151.jpeg",
@@ -2836,16 +2842,8 @@
       "url": "https://www.youtube.com/watch?v=iWzPgWyQqVA"
     },
     {
-      "title": "[Kaila Stovall] #booktok",
-      "url": "https://www.youtube.com/watch?v=1Uol35uFaNw"
-    },
-    {
       "title": "[Kyokami] She Read His Fortune And Lied About Herself",
       "url": "https://www.youtube.com/watch?v=zpiLCVTEmL4"
-    },
-    {
-      "title": "[Kyokami] She Wanted A Childhood Friend… So He Became One",
-      "url": "https://www.youtube.com/watch?v=C5MbzPj0o1o"
     },
     {
       "title": "[Kyokami] She Confessed—And Got Bro-Zoned",
@@ -2868,16 +2866,8 @@
       "url": "https://www.youtube.com/watch?v=u-j-myb52q8"
     },
     {
-      "title": "[Comic Book Corner 2.0] Plenty Of New Issue Ones Including Daredevil! Are These Comics Worthy?",
-      "url": "https://www.youtube.com/watch?v=P5FZDdtfdI4"
-    },
-    {
       "title": "[Comic Book Corner 2.0] Pre-order Those Mask Issue 1 Blind Bags Before it&#39;s to Late! (FOC) ",
       "url": "https://www.youtube.com/watch?v=Tr-w-4lpil8"
-    },
-    {
-      "title": "[Comic Book Couples Counseling Podcast] &quot;The most influential comic being published right now - - ABSOLUTE BATMAN.&quot; Justin Jordan",
-      "url": "https://www.youtube.com/watch?v=hdE8fqQm2Hg"
     },
     {
       "title": "[Yuhoo Comic Review] Batwoman, Ultimate Spider-Man, X-Men, and Teen Titans Omnibus!",
@@ -2896,16 +2886,28 @@
       "url": "https://www.youtube.com/watch?v=h3FWGIkjQDY"
     },
     {
-      "title": "[Sergio Vinci TV] [Fumetti] TONI BELLASALMA 5 &quot;Una succube per amico&quot; (Recensione)",
-      "url": "https://www.youtube.com/watch?v=2RBtwUjpijs"
-    },
-    {
       "title": "[TEX WILLER...e non solo!] IL VANGELO SECONDO TEX WILLER: LA MIA RECENSIONE ",
       "url": "https://www.youtube.com/watch?v=cM5x_Wp_SEI"
     },
     {
       "title": "[Comic Book Couples Counseling Podcast] &quot;My favorite comic!&quot; Justin Jordan on THE POWER FANTASY by Kieron Gillen &amp; Caspar Wijngaard",
       "url": "https://www.youtube.com/watch?v=MIjszFimBEg"
+    },
+    {
+      "title": "[DANI DARK COMICS] KINGSMAN SECRET SERVICE: PANINI POCKET RECENSIONE",
+      "url": "https://www.youtube.com/watch?v=SsZpFV5yQio"
+    },
+    {
+      "title": "[Why So Sidious?] Top 5 Lex Luthor Comic Books #dccomics",
+      "url": "https://www.youtube.com/watch?v=sJSMylei3Xk"
+    },
+    {
+      "title": "[Masters of The Review] Questo Albo è un&#39;Opera d&#39;Arte! &quot;IL RITRATTO DELLA FOLLIA&quot; Recensione Dylan Dog n.475 Aprile 26.",
+      "url": "https://www.youtube.com/watch?v=n08ctMTfJHc"
+    },
+    {
+      "title": "[Etra chan saw it!] Part time females keep quitting. The secret of the workplace… [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=P4peB5MiOCo"
     },
     {
       "title": "[TheMangaSloth] I Spent $1000 On This Manga Haul.  Im Cooked",
@@ -2916,8 +2918,8 @@
       "url": "https://www.youtube.com/watch?v=BBoxabbSMhk"
     },
     {
-      "title": "[Slice of Anime] Anime Collection Additions! (March 2026)",
-      "url": "https://www.youtube.com/watch?v=oX90wHMhJY8"
+      "title": "[Project Kaizen] Xenoverse 3 Reveal + Manga Return? Dragon Ball Games Battle Hour 2026 Wishlist/Expectations!",
+      "url": "https://www.youtube.com/watch?v=H__T8MRQSAs"
     },
     {
       "title": "[ShinoBeenTrill] Asta&#39;s New Powers Are going to Be NUTZ",
@@ -2928,8 +2930,8 @@
       "url": "https://www.youtube.com/watch?v=EcjGTxqsCsQ"
     },
     {
-      "title": "[Project Kaizen] Xenoverse 3 Reveal + Manga Return? Dragon Ball Games Battle Hour 2026 Wishlist/Expectations!",
-      "url": "https://www.youtube.com/watch?v=H__T8MRQSAs"
+      "title": "[RivalRias] Where is all the new “mainstream” anime/manga?🫩 #anime #manga",
+      "url": "https://www.youtube.com/watch?v=4EM1ifOL9Fc"
     },
     {
       "title": "[SonGoshuaku] Why Dragon Ball Super: Superhero Manga Moments NEED To Be Animated",
@@ -2942,10 +2944,6 @@
     {
       "title": "[RavenDagmar] nuovi arrivi manga e funko",
       "url": "https://www.youtube.com/watch?v=wHXjXNr_wes"
-    },
-    {
-      "title": "[RivalRias] Where is all the new “mainstream” anime/manga?🫩 #anime #manga",
-      "url": "https://www.youtube.com/watch?v=4EM1ifOL9Fc"
     }
   ]
 }
