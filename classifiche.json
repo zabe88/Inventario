@@ -1,18 +1,18 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-04-18T06:21:27.458247+00:00",
+  "updated_at": "2026-04-18T14:07:48.704602+00:00",
   "rankings": [
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788867920754",
+      "title": "La storia di Gesù",
       "author": "",
       "position": 1,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788867920754",
-      "title": "La storia di Gesù",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 2,
       "category": "generale",
@@ -27,18 +27,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
-      "author": "",
-      "position": 4,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863116243",
       "title": "La montagna incantata. Ediz. integrale",
       "author": "",
-      "position": 5,
+      "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
@@ -46,13 +38,21 @@
       "ean": "9788818031522",
       "title": "Cime tempestose. Ediz. integrale",
       "author": "",
+      "position": 5,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
+      "author": "",
       "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 7,
       "category": "generale",
@@ -67,18 +67,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 9,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
-      "author": "",
-      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,7 +78,7 @@
       "ean": "9788822797612",
       "title": "L'inquilina",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,31 +86,15 @@
       "ean": "9788806255145",
       "title": "Il custode",
       "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9789403212555",
+      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
+      "author": "",
       "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788855447362",
-      "title": "Una nuova indagine dell'avvocato Ligas. La mantide",
-      "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114201",
-      "title": "Uno, nessuno e centomila. Ediz. integrale",
-      "author": "",
-      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,15 +102,15 @@
       "ean": "9788804607731",
       "title": "La tela di Carlotta",
       "author": "",
-      "position": 16,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
+      "ean": "9788863114126",
+      "title": "Memorie del sottosuolo. Ediz. integrale",
       "author": "",
-      "position": 17,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,21 +118,45 @@
       "ean": "9788866567738",
       "title": "La luna di Kiev. Ediz. illustrata",
       "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114683",
+      "title": "Al di là del bene e del male. Ediz. integrale",
+      "author": "",
+      "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788855447362",
+      "title": "Una nuova indagine dell'avvocato Ligas. La mantide",
+      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasconde qui? Ediz. a colori",
+      "ean": "9788863114201",
+      "title": "Uno, nessuno e centomila. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9789403212555",
-      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
+      "ean": "9788863113594",
+      "title": "Il Maestro e Margherita. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -371,24 +371,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788863116243",
+      "title": "La montagna incantata. Ediz. integrale",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863116243",
-      "title": "La montagna incantata. Ediz. integrale",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 29,
       "category": "narrativa",
@@ -403,32 +403,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822797612",
-      "title": "L'inquilina",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 31,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "ean": "9788822797612",
+      "title": "L'inquilina",
       "author": "",
       "position": 32,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788806255145",
+      "title": "Il custode",
       "author": "",
       "position": 33,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806255145",
-      "title": "Il custode",
+      "ean": "9788863114126",
+      "title": "Memorie del sottosuolo. Ediz. integrale",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -699,8 +699,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804607731",
-      "title": "La tela di Carlotta",
+      "ean": "9789403212555",
+      "title": "Viaggio attraverso i 5 continenti. Il mi...",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
@@ -715,18 +715,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9789403206042",
-      "title": "Gli animali della fattoria. Chi si nasco...",
+      "ean": "9788804607731",
+      "title": "La tela di Carlotta",
       "author": "",
       "position": 36,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9789403212555",
-      "title": "Viaggio attraverso i 5 continenti. Il mi...",
-      "author": "",
-      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -734,21 +726,29 @@
       "ean": "9788867908264",
       "title": "Il gioco delle risate",
       "author": "",
-      "position": 38,
+      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788899842154",
-      "title": "Come un albero. Ediz. a colori",
+      "ean": "9789403206042",
+      "title": "Gli animali della fattoria. Chi si nasco...",
       "author": "",
-      "position": 39,
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788854039513",
       "title": "Amici animali. Libro sonoro. Ediz. a colori",
+      "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845199417",
+      "title": "Gli strumenti del mondo. I miei piccoli ...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -763,8 +763,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845199417",
-      "title": "Gli strumenti del mondo. I miei piccoli ...",
+      "ean": "9788899842154",
+      "title": "Come un albero. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -835,18 +835,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788467473599",
-      "title": "Superman/Batman. Seconda serie. Vol. 18",
-      "author": "",
-      "position": 9,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788467476064",
       "title": "Doomsday. Superman",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -854,7 +846,7 @@
       "ean": "9788804518099",
       "title": "Dimmi che non vuoi morire",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -862,7 +854,7 @@
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -870,7 +862,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -878,7 +870,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -886,13 +878,21 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
+      "author": "",
+      "position": 15,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804767084",
+      "title": "Heartstopper. Vol. 5",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1019,34 +1019,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788865279212",
-      "title": "Sherlock Holmes",
+      "ean": "9791221924848",
+      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
       "author": "",
       "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788864208398",
-      "title": "One piece. Vol. 3",
+      "ean": "9791221924855",
+      "title": "Jujutsu Kaisen. Vol. 30: D'ora in poi",
       "author": "",
       "position": 33,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834935811",
-      "title": "Kingdom. Vol. 70",
-      "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834908853",
-      "title": "Kingdom. Vol. 50",
-      "author": "",
-      "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1054,13 +1038,29 @@
       "ean": "9788868839482",
       "title": "L'età della convivenza. Dosei Jidai. Vol. 2",
       "author": "",
+      "position": 34,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788865279212",
+      "title": "Sherlock Holmes",
+      "author": "",
+      "position": 35,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788864208398",
+      "title": "One piece. Vol. 3",
+      "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221924848",
-      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
+      "ean": "9788834935811",
+      "title": "Kingdom. Vol. 70",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1187,8 +1187,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804558194",
-      "title": "Il vangelo segreto di Tommaso. Indagine ...",
+      "ean": "9788804551737",
+      "title": "Con te e senza di te",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1379,16 +1379,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788892981690",
-      "title": "Inchiesta sul Cristianesimo. Sulle tracc...",
+      "ean": "9788894611779",
+      "title": "Gli dèi della Bibbia. Sulle tracce degli...",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788894611779",
-      "title": "Gli dèi della Bibbia. Sulle tracce degli...",
+      "ean": "9788892981690",
+      "title": "Inchiesta sul Cristianesimo. Sulle tracc...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -3718,10 +3718,6 @@
       "url": "https://www.youtube.com/watch?v=DjGbCUpPYRc"
     },
     {
-      "title": "[Comic Book Corner 2.0] I am So Excited That This Comic Book Gets PICK OF THE WEEK! ",
-      "url": "https://www.youtube.com/watch?v=MTRYkAWB-KY"
-    },
-    {
       "title": "[TheComicBookReport] I need to talk about Avengers No Surrender / No Road Home Omnibus 🤔😱 #comics #avengers #marvel",
       "url": "https://www.youtube.com/watch?v=aZ43mqDGcJc"
     },
@@ -3746,16 +3742,16 @@
       "url": "https://www.youtube.com/watch?v=u_d8GABAtfY"
     },
     {
-      "title": "[Collectors Confessions] My comic collection is OUT OF CONTROL #collector #comics",
-      "url": "https://www.youtube.com/watch?v=7bSpAenGaw0"
+      "title": "[Marvel Legend Master] Dceased comic book review #comicbooks #dccomics #dcmultiverse #vampire #batman",
+      "url": "https://www.youtube.com/watch?v=IxljwHHSP-U"
+    },
+    {
+      "title": "[VIPER COMICS] Ronin di Frank Miller Recensione - Cosa Funziona, Cosa Meno",
+      "url": "https://www.youtube.com/watch?v=9Ymk_SCW_B0"
     },
     {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] I was assigned to train two new employees, the office beauty, and my ex-girlfriend",
       "url": "https://www.youtube.com/watch?v=rdCbh6HHUU0"
-    },
-    {
-      "title": "[Manhua Expert] Is He Hero Or Villain? Top 3 New Manhwa🔥 #manhwa #newmanhwa #manhwareccomendation #opmc",
-      "url": "https://www.youtube.com/watch?v=oIi5qu26ZsY"
     },
     {
       "title": "[AniBreeze] How Asa Cost Yoru the Victory #chainsawman #yoru #asa",
@@ -3770,12 +3766,16 @@
       "url": "https://www.youtube.com/watch?v=WqR3fgD-tj8"
     },
     {
-      "title": "[RadioKaioh] Scopriamo nuovi manga: Alien Headbutt #anime #manga #alienheadbutt #mangaplus",
-      "url": "https://www.youtube.com/watch?v=Z0bmItcrDdM"
+      "title": "[Rash Plays] MÄR The Forgotten Shonen Gem You Need to Read",
+      "url": "https://www.youtube.com/watch?v=BFTbK6Y9p7Y"
     },
     {
       "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI APRILE 2026: ANCORA POCKET",
       "url": "https://www.youtube.com/watch?v=hHbFexQ48cA"
+    },
+    {
+      "title": "[RadioKaioh] Scopriamo nuovi manga: Alien Headbutt #anime #manga #alienheadbutt #mangaplus",
+      "url": "https://www.youtube.com/watch?v=Z0bmItcrDdM"
     },
     {
       "title": "[Comics Mojo] Anteprima Panini 416: novità a fumetti e manga in uscita a giugno 2026",
