@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-04-19T06:56:09.971094+00:00",
+  "updated_at": "2026-04-19T14:07:10.516060+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -59,42 +59,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788866567738",
-      "title": "La luna di Kiev. Ediz. illustrata",
-      "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788806255145",
       "title": "Il custode",
       "author": "",
-      "position": 9,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
-      "author": "",
-      "position": 10,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822797612",
-      "title": "L'inquilina",
-      "author": "",
-      "position": 11,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9789403212555",
-      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
-      "author": "",
-      "position": 12,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -102,7 +70,15 @@
       "ean": "9788804607731",
       "title": "La tela di Carlotta",
       "author": "",
-      "position": 13,
+      "position": 9,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822797612",
+      "title": "L'inquilina",
+      "author": "",
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,31 +86,39 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788866567738",
+      "title": "La luna di Kiev. Ediz. illustrata",
+      "author": "",
+      "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
+      "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9789403212555",
+      "title": "Viaggio attraverso i 5 continenti. Il mio primo atlante. Ediz. a colori",
+      "author": "",
       "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114683",
-      "title": "Al di là del bene e del male. Ediz. integrale",
+      "ean": "9788834733769",
+      "title": "2001 odissea nello spazio",
       "author": "",
       "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788855447362",
-      "title": "Una nuova indagine dell'avvocato Ligas. La mantide",
-      "author": "",
-      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,13 +126,29 @@
       "ean": "9788806271978",
       "title": "I convitati di pietra",
       "author": "",
+      "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114683",
+      "title": "Al di là del bene e del male. Ediz. integrale",
+      "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114126",
+      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788834733769",
-      "title": "2001 odissea nello spazio",
+      "ean": "9788855447362",
+      "title": "Una nuova indagine dell'avvocato Ligas. La mantide",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788806255145",
+      "title": "Il custode",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -411,24 +411,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806255145",
-      "title": "Il custode",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 32,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 33,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "ean": "9788834733769",
+      "title": "2001 odissea nello spazio",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -523,18 +523,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781409590088",
-      "title": "Il grande libro della Bibbia. Ediz. illu...",
-      "author": "",
-      "position": 12,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804444978",
       "title": "Ascolta il mio cuore",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,7 +534,7 @@
       "ean": "9788804454861",
       "title": "Foto dal futuro N.2. Vol. 2",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -550,13 +542,21 @@
       "ean": "9788804530237",
       "title": "Coraline. Ediz. illustrata",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804547105",
       "title": "Stardust",
+      "author": "",
+      "position": 15,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804550471",
+      "title": "La prima grammatica d'inglese. Illustrat...",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -699,10 +699,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804607731",
+      "title": "La tela di Carlotta",
+      "author": "",
+      "position": 34,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788866567738",
       "title": "La luna di Kiev. Ediz. illustrata",
       "author": "",
-      "position": 34,
+      "position": 35,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,15 +718,15 @@
       "ean": "9789403212555",
       "title": "Viaggio attraverso i 5 continenti. Il mi...",
       "author": "",
-      "position": 35,
+      "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804607731",
-      "title": "La tela di Carlotta",
+      "ean": "9788867908264",
+      "title": "Il gioco delle risate",
       "author": "",
-      "position": 36,
+      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,7 +734,7 @@
       "ean": "9788845199417",
       "title": "Gli strumenti del mondo. I miei piccoli ...",
       "author": "",
-      "position": 37,
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -734,7 +742,7 @@
       "ean": "9788854039513",
       "title": "Amici animali. Libro sonoro. Ediz. a colori",
       "author": "",
-      "position": 38,
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -742,21 +750,13 @@
       "ean": "9788829602353",
       "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9789403206042",
       "title": "Gli animali della fattoria. Chi si nasco...",
-      "author": "",
-      "position": 40,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867908264",
-      "title": "Il gioco delle risate",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
@@ -995,16 +995,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9788865279106",
+      "title": "L'uomo della legione-L'uomo del New England",
       "author": "",
       "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788865279106",
-      "title": "L'uomo della legione-L'uomo del New England",
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
       "position": 30,
       "category": "fumetti",
@@ -1355,18 +1355,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822746528",
-      "title": "Le parole che salveranno il mondo",
-      "author": "",
-      "position": 37,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788883371103",
       "title": "Le confessioni. Ediz. integrale. Con Seg...",
       "author": "",
-      "position": 38,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1374,29 +1366,37 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822746528",
+      "title": "Le parole che salveranno il mondo",
+      "author": "",
       "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788894611779",
-      "title": "Gli dèi della Bibbia. Sulle tracce degli...",
-      "author": "",
-      "position": 40,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892981690",
-      "title": "Inchiesta sul Cristianesimo. Sulle tracc...",
-      "author": "",
-      "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788828218869",
       "title": "Papi, dollari e guerre. Il potere dell'A...",
+      "author": "",
+      "position": 40,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
+      "author": "",
+      "position": 41,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788894611779",
+      "title": "Gli dèi della Bibbia. Sulle tracce degli...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -2878,10 +2878,6 @@
   "manga_trends": [],
   "youtube_trends": [
     {
-      "title": "[Francelovebooks] QUAL’È IL VOSTRO MOOD?📚 #booktok #bookstagram #perte #books #romance #fantasy",
-      "url": "https://www.youtube.com/watch?v=CJjtxiDweo8"
-    },
-    {
       "title": "[Selvaggia Stark ] Una corso un incontro indimenticabile #booktokitalia #kindleunlimited #booktok #travel #fyp #romance",
       "url": "https://www.youtube.com/watch?v=ZYeCNgGNJoQ"
     },
@@ -2896,10 +2892,6 @@
     {
       "title": "[Kyokami] She Didn’t Like Sharing Him With Anyone",
       "url": "https://www.youtube.com/watch?v=sr_FH6g07dM"
-    },
-    {
-      "title": "[Kyokami] He Helped His Divorced Neighbor Once… And It Changed Everything",
-      "url": "https://www.youtube.com/watch?v=ShBHHVKigg8"
     },
     {
       "title": "[Kyokami] He Wants To Get Close To This Girl… But Another One Always Interrupts Him",
@@ -2938,12 +2930,12 @@
       "url": "https://www.youtube.com/watch?v=MTRYkAWB-KY"
     },
     {
-      "title": "[Yuhoo Comic Review] Do YOU Like Batman Black Mirror?",
-      "url": "https://www.youtube.com/watch?v=O5hoET3cqN4"
-    },
-    {
       "title": "[Yuhoo Comic Review] DC New Frontier is PERFECT",
       "url": "https://www.youtube.com/watch?v=sD-t-EAGbYM"
+    },
+    {
+      "title": "[Yuhoo Comic Review] Do YOU Like Batman Black Mirror?",
+      "url": "https://www.youtube.com/watch?v=O5hoET3cqN4"
     },
     {
       "title": "[The Comic Patrol] Battle Beast 8 Review #comicbooks #imagecomics #skybound #battlebeast #invincible",
@@ -2954,16 +2946,16 @@
       "url": "https://www.youtube.com/watch?v=alILYFU3pxU"
     },
     {
-      "title": "[Collectors Confessions] My comic collection is OUT OF CONTROL #collector #comics",
-      "url": "https://www.youtube.com/watch?v=7bSpAenGaw0"
-    },
-    {
-      "title": "[Collectors Confessions] This Comic&#39;s Plot Twist is Insane #comicshorst #review",
-      "url": "https://www.youtube.com/watch?v=oJhWZy84ZS8"
+      "title": "[TheComicBookReport] Happy SUPERMAN Day 💪🎉 #superman #dccomics #comics",
+      "url": "https://www.youtube.com/watch?v=DfyR9fWt_kM"
     },
     {
       "title": "[I fumetti di loris] Recensione tex 785-786 “ rapina a Wislow”",
       "url": "https://www.youtube.com/watch?v=u_d8GABAtfY"
+    },
+    {
+      "title": "[Collectors Confessions] My comic collection is OUT OF CONTROL #collector #comics",
+      "url": "https://www.youtube.com/watch?v=7bSpAenGaw0"
     },
     {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] I was assigned to train two new employees, the office beauty, and my ex-girlfriend",
@@ -2978,16 +2970,16 @@
       "url": "https://www.youtube.com/watch?v=uR37nzwZ8xs"
     },
     {
+      "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI APRILE 2026: ANCORA POCKET",
+      "url": "https://www.youtube.com/watch?v=hHbFexQ48cA"
+    },
+    {
       "title": "[SonGoshuaku] No Super Saiyan Blue Evolution Vegeta In The Manga? | Dragon Ball Super",
       "url": "https://www.youtube.com/watch?v=xzh1yQVRJbg"
     },
     {
       "title": "[Matty] Nuovi Acquisti Comics e Manga! #shorts #panini #manga #comics #2026 ,#aprile",
       "url": "https://www.youtube.com/watch?v=WqR3fgD-tj8"
-    },
-    {
-      "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI APRILE 2026: ANCORA POCKET",
-      "url": "https://www.youtube.com/watch?v=hHbFexQ48cA"
     },
     {
       "title": "[SonGoshuaku] Toriyama&#39;s Dragon Ball Action Manga Panels Were TOP TIER",
