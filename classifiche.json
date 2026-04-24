@@ -1,28 +1,12 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-04-23T15:22:54.331133+00:00",
+  "updated_at": "2026-04-24T07:12:12.601142+00:00",
   "rankings": [
-    {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
-      "author": "",
-      "position": 1,
-      "category": "generale",
-      "source": "libraccio"
-    },
     {
       "ean": "9788834733769",
       "title": "2001 odissea nello spazio",
       "author": "",
-      "position": 2,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
-      "author": "",
-      "position": 3,
+      "position": 1,
       "category": "generale",
       "source": "libraccio"
     },
@@ -30,13 +14,29 @@
       "ean": "9788804607731",
       "title": "La tela di Carlotta",
       "author": "",
+      "position": 2,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822772572",
+      "title": "Tre insoliti delitti",
+      "author": "",
+      "position": 3,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
+      "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863116243",
-      "title": "La montagna incantata. Ediz. integrale",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -51,8 +51,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822772572",
-      "title": "Tre insoliti delitti",
+      "ean": "9788863116243",
+      "title": "La montagna incantata. Ediz. integrale",
       "author": "",
       "position": 7,
       "category": "generale",
@@ -67,24 +67,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867920754",
-      "title": "La storia di Gesù",
+      "ean": "9788822756312",
+      "title": "Leonardo da Vinci. Il mistero di un genio",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788822728647",
+      "title": "Sfida per la vittoria. La straordinaria storia del calcio italiano durante la guerra e il fascismo",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822728647",
-      "title": "Sfida per la vittoria. La straordinaria storia del calcio italiano durante la guerra e il fascismo",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -99,26 +99,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822756312",
-      "title": "Leonardo da Vinci. Il mistero di un genio",
+      "ean": "9782889750337",
+      "title": "Racconti del grande Nord. Storie tradizionali di Norvegia, Svezia, Finlandia, Islanda e Danimarca",
       "author": "",
       "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788867920754",
+      "title": "La storia di Gesù",
       "author": "",
       "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822793805",
-      "title": "Nella casa dei segreti",
-      "author": "",
-      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,13 +118,21 @@
       "ean": "9788804632023",
       "title": "Magarìa",
       "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822793805",
+      "title": "Nella casa dei segreti",
+      "author": "",
       "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9782889750337",
-      "title": "Racconti del grande Nord. Storie tradizionali di Norvegia, Svezia, Finlandia, Islanda e Danimarca",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -147,16 +147,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788822766199",
+      "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -195,10 +195,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9783740803698",
+      "title": "Miele amaro. La cuoca Katharina e l'ered...",
+      "author": "",
+      "position": 5,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804102311",
       "title": "Tutti i romanzi. Vol. 1",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,7 +214,7 @@
       "ean": "9788804212935",
       "title": "Storia della mia vita. Vol. 2",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,7 +222,7 @@
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -222,7 +230,7 @@
       "ean": "9788804239932",
       "title": "I Malavoglia",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -230,7 +238,7 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -238,21 +246,13 @@
       "ean": "9788804258193",
       "title": "Il sosia",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804259299",
       "title": "Il giorno dello sciacallo",
-      "author": "",
-      "position": 11,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804284284",
-      "title": "Il quarto protocollo",
       "author": "",
       "position": 12,
       "category": "narrativa",
@@ -355,16 +355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788834733769",
+      "title": "2001 odissea nello spazio",
       "author": "",
       "position": 25,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788834733769",
-      "title": "2001 odissea nello spazio",
+      "ean": "9788822772572",
+      "title": "Tre insoliti delitti",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -379,24 +379,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863116243",
-      "title": "La montagna incantata. Ediz. integrale",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822772572",
-      "title": "Tre insoliti delitti",
+      "ean": "9788863116243",
+      "title": "La montagna incantata. Ediz. integrale",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788822756312",
+      "title": "Leonardo da Vinci. Il mistero di un genio",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -411,24 +411,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822756312",
-      "title": "Leonardo da Vinci. Il mistero di un genio",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 32,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822793805",
-      "title": "Nella casa dei segreti",
+      "ean": "9782889750337",
+      "title": "Racconti del grande Nord. Storie tradizi...",
       "author": "",
       "position": 33,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822793850",
-      "title": "Finché morte non ci separi",
+      "ean": "9788822793805",
+      "title": "Nella casa dei segreti",
       "author": "",
       "position": 34,
       "category": "narrativa",
@@ -707,18 +707,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788804632023",
+      "title": "Magarìa",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804632023",
-      "title": "Magarìa",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 36,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804717461",
+      "title": "La maledizione del titano. Percy Jackson...",
+      "author": "",
+      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,15 +734,15 @@
       "ean": "9788867908264",
       "title": "Il gioco delle risate",
       "author": "",
-      "position": 37,
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
+      "ean": "9788810752111",
+      "title": "La guerra dei mondi. Ediz. integrale",
       "author": "",
-      "position": 38,
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -742,7 +750,7 @@
       "ean": "9788829602353",
       "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -750,21 +758,13 @@
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
-      "position": 40,
+      "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788845941061",
       "title": "La scatola delle lacrime",
-      "author": "",
-      "position": 41,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788810752111",
-      "title": "La guerra dei mondi. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -883,16 +883,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804767091",
-      "title": "The Heartstopper yearbook",
+      "ean": "9788804767084",
+      "title": "Heartstopper. Vol. 5",
       "author": "",
       "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788806247133",
-      "title": "Una zanzara nell'orecchio. Storia di Sar...",
+      "ean": "9788804767091",
+      "title": "The Heartstopper yearbook",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1011,24 +1011,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791221921243",
-      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
+      "ean": "9791221904673",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221921250",
-      "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
+      "ean": "9791221921243",
+      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
       "author": "",
       "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221904673",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
+      "ean": "9791221921250",
+      "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
       "author": "",
       "position": 33,
       "category": "fumetti",
@@ -1043,24 +1043,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9788868839499",
+      "title": "L'età della convivenza. Dosei Jidai. Vol. 3",
       "author": "",
       "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788868839499",
-      "title": "L'età della convivenza. Dosei Jidai. Vol. 3",
+      "ean": "9788864208398",
+      "title": "One piece. Vol. 3",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788864208398",
-      "title": "One piece. Vol. 3",
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1131,16 +1131,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788776884901",
-      "title": "Dianetics. La forza del pensiero sul corpo",
+      "ean": "9788801023725",
+      "title": "I cinque linguaggi dell'amore. Come dire...",
       "author": "",
       "position": 9,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788801023725",
-      "title": "I cinque linguaggi dell'amore. Come dire...",
+      "ean": "9788801041453",
+      "title": "Vangeli e Atti degli apostoli. Nuovo tes...",
       "author": "",
       "position": 10,
       "category": "religione",
@@ -1179,16 +1179,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804534280",
-      "title": "Varcare la soglia della speranza",
+      "ean": "9788804551737",
+      "title": "Con te e senza di te",
       "author": "",
       "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804551737",
-      "title": "Con te e senza di te",
+      "ean": "9788804558194",
+      "title": "Il vangelo segreto di Tommaso. Indagine ...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1331,24 +1331,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804613657",
-      "title": "Perché avete paura? Una lettura del Vang...",
+      "ean": "9788822746528",
+      "title": "Le parole che salveranno il mondo",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788817081894",
-      "title": "La logica dell'amore",
+      "ean": "9788804613657",
+      "title": "Perché avete paura? Una lettura del Vang...",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788817081894",
+      "title": "La logica dell'amore",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1363,8 +1363,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788848603836",
-      "title": "Gesù di Nazaret",
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
       "author": "",
       "position": 38,
       "category": "religione",
@@ -1379,16 +1379,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788826610641",
-      "title": "La pratica della presenza di Dio",
+      "ean": "9788848603836",
+      "title": "Gesù di Nazaret",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788894611779",
-      "title": "Gli dèi della Bibbia. Sulle tracce degli...",
+      "ean": "9788826610641",
+      "title": "La pratica della presenza di Dio",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -1875,10 +1875,42 @@
       "source": "giunti"
     },
     {
+      "ean": "9791256482351",
+      "title": "Una giornata con Riccio",
+      "author": "",
+      "position": 17,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9791256482160",
       "title": "Animali del mare",
       "author": "",
-      "position": 17,
+      "position": 18,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791259746115",
+      "title": "Mondi Magici",
+      "author": "",
+      "position": 19,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791259746412",
+      "title": "Indovina chi c'è - Mondi Magici",
+      "author": "",
+      "position": 20,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791259746429",
+      "title": "Indovina chi c'è - Animali del mondo",
+      "author": "",
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1886,7 +1918,7 @@
       "ean": "9788854037779",
       "title": "Lupi. Livello 3",
       "author": "",
-      "position": 18,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1894,7 +1926,7 @@
       "ean": "9791281054202",
       "title": "La gara di canto",
       "author": "",
-      "position": 19,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1902,7 +1934,7 @@
       "ean": "9781806071272",
       "title": "Calmabimbi",
       "author": "",
-      "position": 20,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1910,7 +1942,7 @@
       "ean": "9788847743564",
       "title": "Gli unicorni. Coloro e ritaglio",
       "author": "",
-      "position": 21,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1918,7 +1950,7 @@
       "ean": "9791221221879",
       "title": "Unicorni. Il mio libro morbidoso da colorare",
       "author": "",
-      "position": 22,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1926,47 +1958,7 @@
       "ean": "9791221221879",
       "title": "Unicorni. Il mio libro morbidoso da col...",
       "author": "",
-      "position": 23,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788847743793",
-      "title": "Calcio. 555 adesivi divertenti",
-      "author": "",
-      "position": 24,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791221221886",
-      "title": "Dinosauri. Il mio libro morbidoso da colorare",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791221221886",
-      "title": "Dinosauri. Il mio libro morbidoso da co...",
-      "author": "",
-      "position": 26,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788858057643",
-      "title": "Coniglietto scopre l'estate",
-      "author": "",
       "position": 27,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788858057650",
-      "title": "Anatroccolo scopre la primavera",
-      "author": "",
-      "position": 28,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -2379,10 +2371,26 @@
       "source": "giunti"
     },
     {
+      "ean": "9791223208694",
+      "title": "The Fear",
+      "author": "",
+      "position": 4,
+      "category": "young_adult",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791223201046",
+      "title": "Manslaughter Park",
+      "author": "",
+      "position": 5,
+      "category": "young_adult",
+      "source": "giunti"
+    },
+    {
       "ean": "9788852255274",
       "title": "Oltre l'orizzonte - Disney A twisted tale",
       "author": "",
-      "position": 4,
+      "position": 6,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2390,7 +2398,7 @@
       "ean": "9791223207918",
       "title": "The Agency for Scandal. Edizione Italiana",
       "author": "",
-      "position": 5,
+      "position": 7,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2398,7 +2406,7 @@
       "ean": "9791223270059",
       "title": "L'ora dei dannati. La montagna",
       "author": "",
-      "position": 6,
+      "position": 8,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2406,7 +2414,7 @@
       "ean": "9791223270042",
       "title": "L'ora dei dannati. L'abisso",
       "author": "",
-      "position": 7,
+      "position": 9,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2414,7 +2422,7 @@
       "ean": "9791223282502",
       "title": "The Afterdark",
       "author": "",
-      "position": 8,
+      "position": 10,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2422,7 +2430,7 @@
       "ean": "9791223204863",
       "title": "Yuzuru. Il volo del Samurai",
       "author": "",
-      "position": 9,
+      "position": 11,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2430,7 +2438,7 @@
       "ean": "9791223283097",
       "title": "The Other Girl",
       "author": "",
-      "position": 10,
+      "position": 12,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2438,7 +2446,7 @@
       "ean": "9791223210673",
       "title": "Odiarsi a Parigi",
       "author": "",
-      "position": 11,
+      "position": 13,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2446,7 +2454,7 @@
       "ean": "9788809930537",
       "title": "Orfeo. Carne e anima",
       "author": "",
-      "position": 12,
+      "position": 14,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2454,7 +2462,7 @@
       "ean": "9788852254093",
       "title": "Twisted-Wonderland. Il tiranno scarlatto. Il romanzo. Con Segnalibro",
       "author": "",
-      "position": 13,
+      "position": 15,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2462,7 +2470,7 @@
       "ean": "9788852254093",
       "title": "Twisted-Wonderland. Il tiranno scarlatt...",
       "author": "Walt Disney, Jun Hioki",
-      "position": 14,
+      "position": 16,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2470,7 +2478,7 @@
       "ean": "9791223279069",
       "title": "L'ordine dei Senzasonno. Il risveglio di Victoria Ignis",
       "author": "",
-      "position": 15,
+      "position": 17,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2478,7 +2486,7 @@
       "ean": "9791223279069",
       "title": "L'ordine dei Senzasonno. Il risveglio d...",
       "author": "Isaak Friedl",
-      "position": 16,
+      "position": 18,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2486,7 +2494,7 @@
       "ean": "9788852251108",
       "title": "Disney Villains Il Grimorio",
       "author": "",
-      "position": 17,
+      "position": 19,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2494,7 +2502,7 @@
       "ean": "9788809929180",
       "title": "Little Monsters",
       "author": "",
-      "position": 18,
+      "position": 20,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2502,7 +2510,7 @@
       "ean": "9791223203224",
       "title": "Woven from Clay",
       "author": "",
-      "position": 19,
+      "position": 21,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2510,7 +2518,7 @@
       "ean": "9791223200704",
       "title": "The Knight and the Moth",
       "author": "",
-      "position": 20,
+      "position": 22,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2518,7 +2526,7 @@
       "ean": "9791223200780",
       "title": "Ragione e omicidio di secondo grado",
       "author": "",
-      "position": 21,
+      "position": 23,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2526,29 +2534,13 @@
       "ean": "9791223200865",
       "title": "Tenere belve",
       "author": "",
-      "position": 22,
+      "position": 24,
       "category": "young_adult",
       "source": "giunti"
     },
     {
       "ean": "9791223201114",
       "title": "Dillo come Jane Austen",
-      "author": "",
-      "position": 23,
-      "category": "young_adult",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788809981355",
-      "title": "Ora tocca a me",
-      "author": "",
-      "position": 24,
-      "category": "young_adult",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788809905481",
-      "title": "Tutto fa curriculum",
       "author": "",
       "position": 25,
       "category": "young_adult",
@@ -3757,6 +3749,24 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Vintage Car Pallerone",
+      "date": "2026-05-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-11-13_923.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Tra boschi montani e praterie fiorite",
+      "date": "2026-05-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-08-33_966.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro / Come invecchiare in salute",
+      "date": "2026-05-09",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-12-01_747.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Viaggi e fotografie nel mondo sommerso con Marcello Di Francesco",
       "date": "2026-05-08",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-20_12-25-47_880.jpeg",
@@ -3781,9 +3791,33 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Processione della Santa Croce a Bagnone",
+      "date": "2026-05-03",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-11-40_431.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mercatino dell’antiquariato di Fivizzano",
+      "date": "2026-05-03",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-09-24_530.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Spettacolo teatrale a Officine Tok / Testa a Testa",
       "date": "2026-05-02",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-20_12-25-31_388.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro / Alessandra Mantovani “La Soffitta”",
+      "date": "2026-05-02",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-09-57_356.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Concerto di Primavera",
+      "date": "2026-05-02",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-09-19_612.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3814,6 +3848,18 @@
       "title": "CantaMaggio di Corlaga",
       "date": "2026-05-01",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-22_21-03-35_000.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Spettacoli teatrali e circensi di Teatro nelle Foglie",
+      "date": "2026-05-01",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-09-36_233.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Garden Sunset Party",
+      "date": "2026-05-01",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-08-17_817.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3877,6 +3923,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Mercatino nel borgo di Bagnone",
+      "date": "2026-04-26",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-07-11_398.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Fino al cuore della rivolta / Pranzo sociale e concerto",
       "date": "2026-04-25",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-13_11-02-15_324.jpeg",
@@ -3886,6 +3938,24 @@
       "title": "Fiera di San Marco a Soliera",
       "date": "2026-04-25",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-13_13-20-42_758-2026-04-13T11_24_11.150.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra d’arte “Affiora”",
+      "date": "2026-04-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-09-00_606.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Merenda Rustica al Circolo Paradiso di Mulazzo",
+      "date": "2026-04-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-08-06_555.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Concerto live alla Fornace 3.0",
+      "date": "2026-04-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-06-58_486.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3904,6 +3974,18 @@
       "title": "Convegno sul referendum Repubblica/Monarchia",
       "date": "2026-04-24",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-20_13-25-44_000.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro del prof. Michele Cometa",
+      "date": "2026-04-24",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-08-27_478.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro di Giacomo Pinelli",
+      "date": "2026-04-24",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-23_23-07-06_754.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3997,178 +4079,27 @@
       "source": "lunigianaworld"
     }
   ],
-  "manga_trends": [
-    {
-      "title": "Far East Film Festival 28, il Sol Levante illumina Udine: tutti i film in programma",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110219-far-east-film-festival-28-il-sol-levante-illumina-udine-tutti-i-film-in-programma"
-    },
-    {
-      "title": "Neverness to Everness: il nuovo gacha open world rivela i dettagli del lancio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110411-neverness-to-everness-il-nuovo-gacha-open-world-rivela-i-dettagli-del-lancio"
-    },
-    {
-      "title": "Novità per Dragon Ball Xenoverse 2, Sparking! Zero e FighterZ",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110391-novita-per-dragon-ball-xenoverse-2-sparking-zero-e-fighterz"
-    },
-    {
-      "title": "Gundam live action: cast, trama e tutto quello che sappiamo sul film Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110401-gundam-live-action-cast-trama-e-tutto-quello-che-sappiamo-sul-film-netflix"
-    },
-    {
-      "title": "Mumei no Jinsei: il film di Ryūya Suzuki debutta fuori dal Giappone a giugno",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110415-mumei-no-jinsei-il-film-di-ryuya-suzuki-debutta-fuori-dal-giappone-a-giugno"
-    },
-    {
-      "title": "Granblue Fantasy: Relink - Endless Ragnarok apre la beta pubblica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110383-granblue-fantasy-relink-endless-ragnarok-apre-la-beta-pubblica"
-    },
-    {
-      "title": "Crisi demografica in Giappone: la prefettura di Kochi lancia i sussidi per le app di incontri",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110368-crisi-demografica-in-giappone-la-prefettura-di-kochi-lancia-i-sussidi-per-le-app-di-incontri"
-    },
-    {
-      "title": "Coconino Press: modalità per gli autografi di Usamaru Furuya al COMICON Napoli 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110358-coconino-press-modalita-per-gli-autografi-di-usamaru-furuya-al-comicon-napoli-2026"
-    },
-    {
-      "title": "Box Office Giappone: il film di Detective Conan  al primo posto con un incasso record",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110346-box-office-giappone-il-film-di-detective-conan-al-primo-posto-con-un-incasso-record"
-    },
-    {
-      "title": "Fatti forza Nakamura: l'autrice del manga lascia X dopo le molestie dei fan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110337-fatti-forza-nakamura-lautrice-del-manga-lascia-x-dopo-le-molestie-dei-fan"
-    },
-    {
-      "title": "Games Workshop lancia su Steam la collana Warhammer Classics",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110334-games-workshop-lancia-su-steam-la-collana-warhammer-classics"
-    },
-    {
-      "title": "Square Enix usa l'AI per eliminare 3.000 ore di lavoro manuale: una risorsa per il mondo del manga?",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110374-square-enix-usa-lai-per-eliminare-3000-ore-di-lavoro-manuale-una-risorsa-per-il-mondo-del-manga"
-    },
-    {
-      "title": "Il Giappone punta ad aumentare il mercato estero degli anime (e non solo) con obiettivi ambiziosi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110338-il-giappone-punta-ad-aumentare-il-mercato-estero-degli-anime-e-non-solo-con-obiettivi-ambiziosi"
-    },
-    {
-      "title": "Lacoste lancia una nuova collezione dedicata a Godzilla",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110412-lacoste-lancia-una-nuova-collezione-dedicata-a-godzilla"
-    },
-    {
-      "title": "BiM Distribuzione porta al cinema i primi capolavori di Hirokazu Kore'eda",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110348-bim-distribuzione-porta-al-cinema-i-primi-capolavori-di-hirokazu-koreeda"
-    },
-    {
-      "title": "Jundo: modalità per gli autografi degli ospiti al COMICON Napoli 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110341-jundo-modalita-per-gli-autografi-degli-ospiti-al-comicon-napoli-2026"
-    },
-    {
-      "title": "Anime Preview: nuovi trailer e data per Mononoke, Beyblade X e altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110323-anime-preview-nuovi-trailer-e-data-per-mononoke-beyblade-x-e-altro"
-    },
-    {
-      "title": "Xbox Game Pass: Microsoft fa marcia indietro e abbassa i prezzi di tutti gli abbonamenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110410-xbox-game-pass-microsoft-fa-marcia-indietro-e-abbassa-i-prezzi-di-tutti-gli-abbonamenti"
-    },
-    {
-      "title": "J-POP Manga: modalità per gli autografi di Kotteri! e Yudori al COMICON Napoli 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110397-j-pop-manga-modalita-per-gli-autografi-di-kotteri-e-yudori-al-comicon-napoli-2026"
-    },
-    {
-      "title": "Dragon Ball Super: Beerus svela il trailer ufficiale con una sorpresa finale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110388-dragon-ball-super-beerus-svela-il-trailer-ufficiale-con-una-sorpresa-finale"
-    },
-    {
-      "title": "Berserk: ART OF WAR svela la riproduzione della Dragon Slayer in edizione limitatissima",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110382-berserk-art-of-war-svela-la-riproduzione-della-dragon-slayer-in-edizione-limitatissima"
-    },
-    {
-      "title": "Wim Wenders di Perfect Days, Gamera e 5 Cm al Secondo al Far East Film Festival di Udine",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110379-wim-wenders-di-perfect-days-gamera-e-5-cm-al-secondo-al-far-east-film-festival-di-udine"
-    },
-    {
-      "title": "Anche quest'anno puoi donare il tuo 5 per mille alla nostra Associazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110363-anche-questanno-puoi-donare-il-tuo-5-per-mille-alla-nostra-associazione"
-    },
-    {
-      "title": "One Piece: pubblicate le nuove sigle senza crediti dell'arco di Elbaph",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110339-one-piece-pubblicate-le-nuove-sigle-senza-crediti-dellarco-di-elbaph"
-    },
-    {
-      "title": "Porco Rosso di Hayao Miyazaki torna al cinema solo il 25 aprile",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110369-porco-rosso-di-hayao-miyazaki-torna-al-cinema-per-il-25-aprile"
-    },
-    {
-      "title": "COMICON Napoli 2026: tutte le info per i ritratti di Shintaro Kago e gli shikishi di Usamaru Furuya",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110418-comicon-napoli-2026-tutte-le-info-per-i-ritratti-di-shintaro-kago-e-gli-shikishi-di-usamaru-furuya"
-    },
-    {
-      "title": "Street Fighter: nuovo trailer per il film live action",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110360-street-fighter-nuovo-trailer-per-il-film-live-action"
-    },
-    {
-      "title": "Splatoon Raiders: lo spin-off dello sparatutto Nintendo ha finalmente una data di uscita",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110409-splatoon-raiders-lo-spin-off-dello-sparatutto-nintendo-ha-finalmente-una-data-di-uscita"
-    },
-    {
-      "title": "Dragon Ball Xenoverse 3 annunciato ufficialmente",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110390-dragon-ball-xenoverse-3-annunciato-ufficialmente"
-    },
-    {
-      "title": "Miho Shimogasa, animatrice di Sailor Moon, sarà ospite al Casale Comics and Games",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110345-miho-shimogasa-animatrice-di-sailor-moon-sara-ospite-al-casale-comics-and-games"
-    }
-  ],
+  "manga_trends": [],
   "youtube_trends": [
     {
       "title": "[Elly Book Nerd] Nessun libro è stato danneggiato per realizzare questo video 🥲 #booktok #booktube #romance #humor",
       "url": "https://www.youtube.com/watch?v=QrfXCNtK4pQ"
     },
     {
-      "title": "[mmarti nao] Forse dovrei fare un altro scaffale per gli edges… #booktube #booktok #lettura #books #booktube",
-      "url": "https://www.youtube.com/watch?v=b6u72APS4yg"
+      "title": "[LalibreriadiGiady📚] Raga vi voglio bene,ma ci sono età e età 😐#Books #booktok #libricheamo #libri #romance #libricheamo",
+      "url": "https://www.youtube.com/watch?v=UC719bKkDkc"
     },
     {
-      "title": "[Grazia Pieruzzi ] 5 Libri brevi che lasciano il segno !! #booktok #booktubetbr #booktube #books #libri",
-      "url": "https://www.youtube.com/watch?v=9CjbRV2Qgm8"
+      "title": "[mmarti nao] Forse dovrei fare un altro scaffale per gli edges… #booktube #booktok #lettura #books #booktube",
+      "url": "https://www.youtube.com/watch?v=b6u72APS4yg"
     },
     {
       "title": "[𝑵𝒐𝒚𝒍𝒂𝒏𝒊 𝑩𝒂𝒔𝒔𝒊 ] Italy haul!!! #booktok #books #bookish #bookgirl #books #booktube #fyp #italy #bookgirlie",
       "url": "https://www.youtube.com/watch?v=TuEA5CE31VM"
     },
     {
-      "title": "[Maina Lilac] #vtuber is a #fujoshi ?! #senseiilikeyousomuch #sensuki #narusasu #envtuber #twitch #vtuberclips",
-      "url": "https://www.youtube.com/watch?v=DQqptkcu4Pg"
+      "title": "[Sara Dalla Palma] Dopo un giro in libreria ho la galleria piena! #booktok #booktokitalia #perte #booktube #libreria",
+      "url": "https://www.youtube.com/watch?v=-DLcxKOhNaI"
     },
     {
       "title": "[Kyokami] She Was Worshipped At School… But Wanted Him To Teach Her About Manga",
@@ -4195,10 +4126,6 @@
       "url": "https://www.youtube.com/watch?v=57_V6VFbHUI"
     },
     {
-      "title": "[The Comic Patrol] Battle Beast 8 Review #comicbooks #imagecomics #skybound #battlebeast #invincible",
-      "url": "https://www.youtube.com/watch?v=EOn9osLIz8o"
-    },
-    {
       "title": "[Captain Diesel's Dojo] This Underground Comic Is Criminally Underrated… Fumes",
       "url": "https://www.youtube.com/watch?v=2_d7nsPyaTM"
     },
@@ -4207,16 +4134,28 @@
       "url": "https://www.youtube.com/watch?v=p1Lq2CJBPMU"
     },
     {
+      "title": "[BK's Bullets] Spider-Man / Superman Review #dccomics #comicbooks #marvel #superman #spiderman #crossover #comics",
+      "url": "https://www.youtube.com/watch?v=m7p5ny1oC9Y"
+    },
+    {
+      "title": "[The Comic Patrol] Corpses Knight 1 Review #comicbooks #imagecomics #corpseknight #revenge #france #joanofarc",
+      "url": "https://www.youtube.com/watch?v=vjQLhCt_64k"
+    },
+    {
       "title": "[Collectors Confessions] My comic collection is OUT OF CONTROL #collector #comics",
       "url": "https://www.youtube.com/watch?v=7bSpAenGaw0"
     },
     {
-      "title": "[The Comic Patrol] Wolverine 18 Review #comicbooks #marvel #wolverine #silversable #morlocks #comics #Hercules",
-      "url": "https://www.youtube.com/watch?v=6FARVWftut0"
+      "title": "[Kanon's RomCom Mangas] [Manga Dub] My client&#39;s beautiful receptionist lives next door",
+      "url": "https://www.youtube.com/watch?v=BEAdr_cuFRk"
     },
     {
       "title": "[Animaxx] Oda Just BROKE One Piece with 6 New Awakenings! 🔥",
       "url": "https://www.youtube.com/watch?v=B7z61HWO3q4"
+    },
+    {
+      "title": "[Etra chan saw it!] A stranger suddenly kneels down on the street and begs me! [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=M-QJAlk8Pvs"
     },
     {
       "title": "[Rash Plays] MÄR The Forgotten Shonen Gem You Need to Read",
@@ -4241,14 +4180,6 @@
     {
       "title": "[Matty] Nuovi Acquisti Comics e Manga! #shorts #panini #manga #comics #2026 ,#aprile",
       "url": "https://www.youtube.com/watch?v=WqR3fgD-tj8"
-    },
-    {
-      "title": "[SonGoshuaku] Toriyama&#39;s Dragon Ball Action Manga Panels Were TOP TIER",
-      "url": "https://www.youtube.com/watch?v=3PGevFKA4o0"
-    },
-    {
-      "title": "[Amazing world of Archee] Captain Underpants The First Epic Manga by Dav Pikey and Artwork by Motojiro",
-      "url": "https://www.youtube.com/watch?v=otsglezfUxE"
     },
     {
       "title": "[AniBreeze] Fujimoto Is Going To Kill Everyone In Chainsaw Man Finale #chainsawman #denji",
