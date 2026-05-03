@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-05-03T07:27:27.126781+00:00",
+  "updated_at": "2026-05-03T14:15:34.425748+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -51,10 +51,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
+      "author": "",
+      "position": 7,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788822728647",
       "title": "Sfida per la vittoria. La straordinaria storia del calcio italiano durante la guerra e il fascismo",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,21 +70,13 @@
       "ean": "9788822756312",
       "title": "Leonardo da Vinci. Il mistero di un genio",
       "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
-      "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788866567738",
-      "title": "La luna di Kiev. Ediz. illustrata",
+      "ean": "9788806272715",
+      "title": "Una cosa spirituale. Non fare niente e altre forme d’arte",
       "author": "",
       "position": 10,
       "category": "generale",
@@ -91,8 +91,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806272715",
-      "title": "Una cosa spirituale. Non fare niente e altre forme d’arte",
+      "ean": "9788866567738",
+      "title": "La luna di Kiev. Ediz. illustrata",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -131,18 +131,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804632023",
-      "title": "Magarìa",
-      "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 18,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,87 +142,31 @@
       "ean": "9788845941061",
       "title": "La scatola delle lacrime",
       "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822796257",
+      "title": "Non mentire",
+      "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788817198448",
-      "title": "Un'ottima famiglia",
+      "ean": "9788804632023",
+      "title": "Magarìa",
       "author": "",
       "position": 20,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804093855",
-      "title": "Ulisse",
-      "author": "",
-      "position": 1,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804212928",
-      "title": "Storia della mia vita. Vol. 1",
-      "author": "",
-      "position": 2,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804212935",
-      "title": "Storia della mia vita. Vol. 2",
-      "author": "",
-      "position": 3,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804237518",
-      "title": "Il codice Rebecca",
-      "author": "",
-      "position": 4,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804239932",
-      "title": "I Malavoglia",
-      "author": "",
-      "position": 5,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804247821",
-      "title": "L'uomo di Pietroburgo",
-      "author": "",
-      "position": 6,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804259299",
-      "title": "Il giorno dello sciacallo",
-      "author": "",
-      "position": 7,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804276913",
-      "title": "Sulle ali delle aquile",
-      "author": "",
-      "position": 8,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822795687",
       "title": "L'amore al posto giusto, al momento giusto",
       "author": "",
-      "position": 9,
+      "position": 1,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -238,7 +174,7 @@
       "ean": "9788820081157",
       "title": "Game of lust. Tentazione",
       "author": "",
-      "position": 10,
+      "position": 2,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -246,7 +182,7 @@
       "ean": "9788807970078",
       "title": "La volta giusta. Libro con calendario",
       "author": "",
-      "position": 11,
+      "position": 3,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -254,7 +190,7 @@
       "ean": "9788867029051",
       "title": "Prova a uccidermi",
       "author": "",
-      "position": 12,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -262,7 +198,7 @@
       "ean": "9788804794097",
       "title": "Il cerchio dei giorni",
       "author": "",
-      "position": 13,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -270,7 +206,7 @@
       "ean": "9788830463561",
       "title": "La più bella del mondo",
       "author": "",
-      "position": 14,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -278,7 +214,7 @@
       "ean": "9788822796431",
       "title": "Mistero al profumo di cannella",
       "author": "",
-      "position": 15,
+      "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -286,7 +222,7 @@
       "ean": "9788817190527",
       "title": "Ossa e fiamme",
       "author": "",
-      "position": 16,
+      "position": 8,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -294,7 +230,7 @@
       "ean": "9788832966824",
       "title": "La bambina di Odessa. La battaglia di un...",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -302,7 +238,7 @@
       "ean": "9791259854377",
       "title": "Dopo quella notte",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -310,7 +246,7 @@
       "ean": "9791259854445",
       "title": "Il collezionista",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -318,7 +254,7 @@
       "ean": "9788832966886",
       "title": "I delitti di via Margutta",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -326,7 +262,7 @@
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -334,7 +270,7 @@
       "ean": "9788863113853",
       "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -342,7 +278,7 @@
       "ean": "9788834733769",
       "title": "2001 odissea nello spazio",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -350,15 +286,7 @@
       "ean": "9788822772572",
       "title": "Tre insoliti delitti",
       "author": "",
-      "position": 24,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822756312",
-      "title": "Leonardo da Vinci. Il mistero di un genio",
-      "author": "",
-      "position": 25,
+      "position": 16,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -366,7 +294,15 @@
       "ean": "9788822788351",
       "title": "Una di famiglia",
       "author": "",
-      "position": 26,
+      "position": 17,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822756312",
+      "title": "Leonardo da Vinci. Il mistero di un genio",
+      "author": "",
+      "position": 18,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -374,7 +310,7 @@
       "ean": "9788863116243",
       "title": "La montagna incantata. Ediz. integrale",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -382,7 +318,7 @@
       "ean": "9788806255145",
       "title": "Il custode",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -390,7 +326,7 @@
       "ean": "9782889750337",
       "title": "Racconti del grande Nord. Storie tradizi...",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -398,7 +334,7 @@
       "ean": "9788822766199",
       "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -467,74 +403,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9780746083376",
-      "title": "Che cosa mi succede? (Ragazzi). Ediz. il...",
-      "author": "",
-      "position": 9,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409542544",
-      "title": "Il corpo umano. Ediz. illustrata",
-      "author": "",
-      "position": 10,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409561057",
-      "title": "Racconti illustrati per le bimbe. Ediz. ...",
-      "author": "",
-      "position": 11,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409561712",
-      "title": "Storie illustrate dai miti greci. Ediz. ...",
-      "author": "",
-      "position": 12,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781474930956",
-      "title": "Miti illustrati da tutto il mondo. Ediz....",
-      "author": "",
-      "position": 13,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804387794",
-      "title": "Piccoli brividi. La casa della morte",
-      "author": "",
-      "position": 14,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804387800",
-      "title": "Piccoli brividi. Il mistero dello scienz...",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804396161",
-      "title": "Piccoli brividi. Al mostro! Al mostro!",
-      "author": "",
-      "position": 16,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788817198066",
       "title": "La piccola fiammiferaia",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,7 +414,7 @@
       "ean": "9788858054703",
       "title": "Non aprire questo libro... puzza. Ediz. ...",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -550,7 +422,7 @@
       "ean": "9791221219999",
       "title": "On wings of blood. Un'accademia di sangu...",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -558,7 +430,7 @@
       "ean": "9788830315211",
       "title": "Carnevale nel bosco. Cerca e trova. Ediz...",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -566,7 +438,7 @@
       "ean": "9788858049006",
       "title": "So this is ever after. Per sempre felici...",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -574,7 +446,7 @@
       "ean": "9788883627217",
       "title": "Il favoloso club del libro del bus 65. E...",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -582,7 +454,7 @@
       "ean": "9791259963758",
       "title": "Tobia. L'ombra delle cime",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -590,7 +462,7 @@
       "ean": "9791259746160",
       "title": "Al tempo dei dinosauri. Ediz. a colori",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -598,7 +470,7 @@
       "ean": "9788804812425",
       "title": "Il furore della dea. Percy Jackson e gli...",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -606,7 +478,7 @@
       "ean": "9791223270035",
       "title": "Wonder",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -614,7 +486,7 @@
       "ean": "9788804812630",
       "title": "Principessa Laurentina",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -622,7 +494,7 @@
       "ean": "9788855443609",
       "title": "Al di là dello specchio",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -630,7 +502,7 @@
       "ean": "9788817197465",
       "title": "A cosa servono le persone?",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -638,7 +510,7 @@
       "ean": "9791255334606",
       "title": "Storie di calzini e altri oggetti chiacc...",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -646,7 +518,7 @@
       "ean": "9791221221190",
       "title": "Chimica, cheppàlle! Finalmente un manual...",
       "author": "",
-      "position": 31,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -654,7 +526,7 @@
       "ean": "9788817197472",
       "title": "La bottiglia dei desideri",
       "author": "",
-      "position": 32,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -662,7 +534,7 @@
       "ean": "9788804607731",
       "title": "La tela di Carlotta",
       "author": "",
-      "position": 33,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -670,15 +542,7 @@
       "ean": "9788866567738",
       "title": "La luna di Kiev. Ediz. illustrata",
       "author": "",
-      "position": 34,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804632023",
-      "title": "Magarìa",
-      "author": "",
-      "position": 35,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -686,7 +550,15 @@
       "ean": "9788845941061",
       "title": "La scatola delle lacrime",
       "author": "",
-      "position": 36,
+      "position": 27,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804632023",
+      "title": "Magarìa",
+      "author": "",
+      "position": 28,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -694,7 +566,7 @@
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
-      "position": 37,
+      "position": 29,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -702,7 +574,7 @@
       "ean": "9788818031522",
       "title": "Cime tempestose. Ediz. integrale",
       "author": "",
-      "position": 38,
+      "position": 30,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,23 +582,7 @@
       "ean": "9788829602353",
       "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788810752111",
-      "title": "La guerra dei mondi. Ediz. integrale",
-      "author": "",
-      "position": 40,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221924848",
-      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
-      "author": "",
-      "position": 41,
+      "position": 31,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -734,7 +590,23 @@
       "ean": "9791259577085",
       "title": "Rebeldes. L'amore brucia",
       "author": "",
-      "position": 42,
+      "position": 32,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221924848",
+      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
+      "author": "",
+      "position": 33,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804717485",
+      "title": "Lo scontro finale. Percy Jackson e gli d...",
+      "author": "",
+      "position": 34,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -803,74 +675,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804400080",
-      "title": "I mille volti di Diabolik",
-      "author": "",
-      "position": 9,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804493112",
-      "title": "Tex. Nel regno dei maya",
-      "author": "",
-      "position": 10,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804723967",
-      "title": "Heartstopper. Vol. 1",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804728818",
-      "title": "Heartstopper. Vol. 2",
-      "author": "",
-      "position": 12,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804734307",
-      "title": "Heartstopper. Vol. 3",
-      "author": "",
-      "position": 13,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804739425",
-      "title": "Heartstopper. Vol. 4",
-      "author": "",
-      "position": 14,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804767084",
-      "title": "Heartstopper. Vol. 5",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804767091",
-      "title": "The Heartstopper yearbook",
-      "author": "",
-      "position": 16,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804771883",
       "title": "Il gran maestro della scuola demoniaca. ...",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -878,7 +686,7 @@
       "ean": "9791221921243",
       "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -886,7 +694,7 @@
       "ean": "9791221926088",
       "title": "Batman. Cavaliere bianco",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -894,7 +702,7 @@
       "ean": "9788822662408",
       "title": "One piece. Vol. 111",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -902,7 +710,7 @@
       "ean": "9791256211784",
       "title": "Il figlio di Taiwan. Vita di Tsai Kunlin...",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -910,7 +718,7 @@
       "ean": "9791221926170",
       "title": "DC vs. Vampires. Un morso letale",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -918,7 +726,7 @@
       "ean": "9788822659163",
       "title": "My love story with Yamada-kun at lv999. ...",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -926,7 +734,7 @@
       "ean": "9791221927160",
       "title": "The nightmare before Christmas. Il manga...",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -934,7 +742,7 @@
       "ean": "9788817147712",
       "title": "Come capire se il tuo gatto sta cercando...",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -942,7 +750,7 @@
       "ean": "9788817144834",
       "title": "Cavolini. Con adesivi",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -950,7 +758,7 @@
       "ean": "9788804714637",
       "title": "Zenobia. Storia di una bambina",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -958,7 +766,7 @@
       "ean": "9788804707301",
       "title": "L'abbraccio",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -966,7 +774,7 @@
       "ean": "9791221924848",
       "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -974,7 +782,7 @@
       "ean": "9791221924855",
       "title": "Jujutsu Kaisen. Vol. 30: D'ora in poi",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -982,7 +790,7 @@
       "ean": "9791221904673",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
       "author": "",
-      "position": 31,
+      "position": 23,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,7 +798,7 @@
       "ean": "9791221921243",
       "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
       "author": "",
-      "position": 32,
+      "position": 24,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,7 +806,7 @@
       "ean": "9791221921250",
       "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
       "author": "",
-      "position": 33,
+      "position": 25,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,7 +814,7 @@
       "ean": "9788828762942",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
       "author": "",
-      "position": 34,
+      "position": 26,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1014,15 +822,7 @@
       "ean": "9788828749318",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 20: ...",
       "author": "",
-      "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788897349099",
-      "title": "Tyr chronicles. Ediz. limitata. Vol. 1",
-      "author": "",
-      "position": 36,
+      "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1030,7 +830,15 @@
       "ean": "9788828775126",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 23: ...",
       "author": "",
-      "position": 37,
+      "position": 28,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828789505",
+      "title": "Jujutsu Kaisen. Vol. 25: Resa dei conti ...",
+      "author": "",
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1099,74 +907,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788776884901",
-      "title": "Dianetics. La forza del pensiero sul corpo",
-      "author": "",
-      "position": 9,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788800864251",
-      "title": "Gli studi di storia delle religioni. Pro...",
-      "author": "",
-      "position": 10,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788801023725",
-      "title": "I cinque linguaggi dell'amore. Come dire...",
-      "author": "",
-      "position": 11,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804453925",
-      "title": "Tantra. La via dell'estasi sessuale",
-      "author": "",
-      "position": 12,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804470618",
-      "title": "Il principe Siddharta. Fuga dalla reggia",
-      "author": "",
-      "position": 13,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804515944",
-      "title": "I grandi miti greci",
-      "author": "",
-      "position": 14,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804551737",
-      "title": "Con te e senza di te",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804558194",
-      "title": "Il vangelo segreto di Tommaso. Indagine ...",
-      "author": "",
-      "position": 16,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788856692143",
       "title": "Cammina, vivi, amati. Pillole per ripart...",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1174,7 +918,7 @@
       "ean": "9788865129562",
       "title": "La luce dell'amore",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1182,7 +926,7 @@
       "ean": "9788817184854",
       "title": "Francesco d'Assisi. Una vita inquieta",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1190,7 +934,7 @@
       "ean": "9788862623513",
       "title": "Le più belle storie zen. Le 100 storie z...",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1198,7 +942,7 @@
       "ean": "9791259753434",
       "title": "12 respiri dell'anima",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1206,7 +950,7 @@
       "ean": "9791259624598",
       "title": "Joseph Ratzinger Benedetto XVI. La ragio...",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1214,7 +958,7 @@
       "ean": "9788892243552",
       "title": "Il Cristo totale. La vita di Gesù incisa...",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1222,7 +966,7 @@
       "ean": "9788868209926",
       "title": "Yogi e santi dell'India",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1230,7 +974,7 @@
       "ean": "9788804736721",
       "title": "Francesco il ribelle. Il linguaggio, i g...",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1238,7 +982,7 @@
       "ean": "9788823528031",
       "title": "Del buon uso della religione. Una guida ...",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1246,7 +990,7 @@
       "ean": "9788858144008",
       "title": "Maometto papa e imperatore",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1254,7 +998,7 @@
       "ean": "9788817155632",
       "title": "Io credo, noi crediamo. Una riflessione ...",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1262,7 +1006,7 @@
       "ean": "9788811817758",
       "title": "Di questi tempi. Un inno alla vita per r...",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1270,7 +1014,7 @@
       "ean": "9788845298516",
       "title": "La casta dei casti. I preti, il sesso e ...",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1278,7 +1022,7 @@
       "ean": "9788823524590",
       "title": "Il Ramayana",
       "author": "",
-      "position": 31,
+      "position": 23,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1286,7 +1030,7 @@
       "ean": "9788806248253",
       "title": "Il grande romanzo dei Vangeli",
       "author": "",
-      "position": 32,
+      "position": 24,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1294,7 +1038,7 @@
       "ean": "9788822746528",
       "title": "Le parole che salveranno il mondo",
       "author": "",
-      "position": 33,
+      "position": 25,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1302,7 +1046,7 @@
       "ean": "9788817081894",
       "title": "La logica dell'amore",
       "author": "",
-      "position": 34,
+      "position": 26,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1054,7 @@
       "ean": "9788867920754",
       "title": "La storia di Gesù",
       "author": "",
-      "position": 35,
+      "position": 27,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,7 +1062,7 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
-      "position": 36,
+      "position": 28,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,7 +1070,7 @@
       "ean": "9788858155325",
       "title": "San Francesco",
       "author": "",
-      "position": 37,
+      "position": 29,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,7 +1078,7 @@
       "ean": "9788804613657",
       "title": "Perché avete paura? Una lettura del Vang...",
       "author": "",
-      "position": 38,
+      "position": 30,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1342,7 +1086,7 @@
       "ean": "9788817065894",
       "title": "Inchiesta su Maria. La storia vera della...",
       "author": "",
-      "position": 39,
+      "position": 31,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1350,7 +1094,7 @@
       "ean": "9788826610641",
       "title": "La pratica della presenza di Dio",
       "author": "",
-      "position": 40,
+      "position": 32,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1358,7 +1102,7 @@
       "ean": "9788885471184",
       "title": "A Khrid. Le istruzioni sulla «A» primord...",
       "author": "",
-      "position": 41,
+      "position": 33,
       "category": "religione",
       "source": "libraccio"
     },
@@ -2533,6 +2277,1128 @@
   ],
   "local_events": [
     {
+      "title": "Bagnone River Trekking",
+      "date": null,
+      "url": "https://www.sigeric.it/bagnone-river-trekking/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Stretti di Giaredo – I segreti della Valle del Gordana in Lunigiana",
+      "date": null,
+      "url": "https://www.sigeric.it/stretti-di-giaredo-segreti/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Stretti di Giaredo Adventure, un canyon in Lunigiana",
+      "date": null,
+      "url": "https://www.sigeric.it/stretti-di-giaredo-adventure1/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Canoa Adventure nel Golfo dei Poeti a Lerici",
+      "date": null,
+      "url": "https://www.sigeric.it/in-canoa-nel-golfo-poeti/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Pedala e Gusta Lunigiana",
+      "date": null,
+      "url": "https://www.sigeric.it/pedala-gusta-in-lunigiana/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Pedala e Gusta Cinque Terre – Tour in e-bike",
+      "date": null,
+      "url": "https://www.sigeric.it/pedala-gusta-nel-parco-nazionale-delle-cinque-terre/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Giardini e Parchi di Londra – Dal 16 al 19 luglio 2026",
+      "date": "2026-07-19",
+      "url": "https://www.sigeric.it/giardini-e-parchi-di-londra-dal-16-al-19-luglio-2026/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Palermo e Sicilia orientale con Addiopizzo – Dal 7 all’11 ottobre 2026",
+      "date": "2026-10-11",
+      "url": "https://www.sigeric.it/palermo-e-sicilia-con-addiopizzo-dal-7-all11-ottobre-2026/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Lanzarote tra vulcani, oceano e arte – Dal 22 al 29 novembre 2026",
+      "date": "2026-11-29",
+      "url": "https://www.sigeric.it/lanzarote-vulcani-oceano-arte-dal-22-al-29-novembre-2026/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Scopri Bagnone 2026 – Visite guidate ed escursioni",
+      "date": null,
+      "url": "https://www.sigeric.it/visite-guidate-escursioni-bagnone-bandiera-arancione/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Genova Barocca, da Palazzo Lomellino alla mostra di Van Dyck – 16 maggio 2026",
+      "date": "2026-05-16",
+      "url": "https://www.sigeric.it/genova-barocca-van-dyck-16-maggio-2026/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Laboratori didattici “Eco-Campus: Missione Natura”",
+      "date": null,
+      "url": "https://www.sigeric.it/arriva-il-calendario-eco-campus-missione-natura/",
+      "source": "sigeric"
+    },
+    {
+      "title": "Mostra fotografica “Lunigiana: appunti di luce e racconti”",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Mercatino produttori di Aulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Mercato d’Puntremal",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Sagra d’la Cigola Unta",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-dla-cigola-unta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura straordinaria e visita guidata a Villa Dosi-Delfini",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-e-visita-guidata-a-villa-dosi-delfini/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura straordinaria Museo Diocesano di Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-museo-diocesano-di-pontremoli-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura Castello di Lusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-festivi-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Il Risveglio della Vigna",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/il-risveglio-della-vigna/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Sagra della Cipolla di Treschietto 2026",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-della-cipolla-di-treschietto-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Sagra d’la Cigola Unta",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-dla-cigola-unta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura straordinaria e visite guidate alla Fortezza della Brunella",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-e-visite-guidate-alla-fortezza-della-brunella/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura e visita guidata a Villa Dosi-Delfini",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori FivizzanoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori di AullaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:30 - 13:30Mercato d’PuntremalPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Nessun evento",
+      "date": null,
+      "url": "",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Nessun evento",
+      "date": null,
+      "url": "",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoVisita al Castello di Castiglione del TerziereCastiglione del Terziere",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-al-castello-di-castiglione-del-terziere-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino del VintageAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-del-vintage/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata “Pontremoli Barocca”Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata alla mieleriaBoceda",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-alla-mieleria-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00Caccia alle uova di Pasqua a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/caccia-alle-uova-di-pasqua-a-villa-dosi-delfini-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:30 - 12:00Visita guidata al caseificio del Parmigiano Reggiano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-al-caseificio-del-parmigiano-reggiano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoVisita al Castello di Castiglione del TerziereCastiglione del Terziere",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-al-castello-di-castiglione-del-terziere-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 18:00Mercatino dell’AntiquariatoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-dellantiquariato/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 18:00MERCATI DELLA TERRA- LunigianaPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercati-della-terra-lunigiana-pasquetta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 18:00Mercatino della CreativitàPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-della-creativita-pasquetta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura straordinaria Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-museo-diocesano-di-pontremoli-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-festivi-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "11:00 - 19:00Pasquetta in CantinaMonzone",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/pasquetta-in-cantina-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura straordinaria e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-e-visite-guidate-alla-fortezza-della-brunella/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura straordinaria Castello di Monti 2026Monti",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-monti-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori FivizzanoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori di AullaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:30 - 13:30Mercato d’PuntremalPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Nessun evento",
+      "date": null,
+      "url": "",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 0:00Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoPontremoli Barocca 2026Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/pontremoli-barocca-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino del VintageAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-del-vintage/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 12:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata “Pontremoli Barocca”Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "14:30Vivere la CampagnaScorcetoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/vivere-la-campagna/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoPontremoli Barocca 2026Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/pontremoli-barocca-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 12:00Apertura straordinaria Castello di Bastia 2026Bastia",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-bastia-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 20:00Fiera del Cucù 2026Casola in Lunigiana",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/fiera-del-cucu-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino dell’Antiquariato di FilettoFiletto",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-dellantiquariato-di-filetto/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 18:00Mercati della Terra di LunigianaPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercati-della-terra-di-lunigiana-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 18:00Concerto di Musica BaroccaPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/concerto-di-musica-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:30 - 12:00Visita guidata al caseificio del Parmigiano Reggiano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-al-caseificio-del-parmigiano-reggiano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:30Premio Torta d’ErbiScorcetoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/premio-torta-derbi-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 12:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori FivizzanoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori di AullaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:30 - 13:30Mercato d’PuntremalPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il Giorno“La Scintilla nel Cuore”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/la-scintilla-nel-cuore/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoVisita al Castello di Castiglione del TerziereCastiglione del Terziere",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-al-castello-di-castiglione-del-terziere-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il Giorno“La Scintilla nel Cuore”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/la-scintilla-nel-cuore/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino del VintageAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-del-vintage/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 12:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata “Pontremoli Barocca”Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata alla mieleriaBoceda",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-alla-mieleria-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il Giorno“La Scintilla nel Cuore”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/la-scintilla-nel-cuore/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30Il Mondo delle ErbeRegnano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/il-mondo-delle-erbe-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:30 - 12:00Visita guidata al caseificio del Parmigiano Reggiano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-al-caseificio-del-parmigiano-reggiano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura straordinaria Castello di Monti 2026Monti",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-monti-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 18:00Le giunchiglie di Camporaghena e le Sorgenti del TaveroneSassalbo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/le-giunchiglie-di-camporaghena-e-le-sorgenti-del-taverone/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00 - 17:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 12:30Mostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori FivizzanoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori di AullaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:30 - 13:30Mercato d’PuntremalPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "20:00Cena a base di trotaApella",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/cena-a-base-di-trota-montagna-verde/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 12:00Apertura straordinaria Castello di Bastia 2026Bastia",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-bastia-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoVisita al Castello di Castiglione del TerziereCastiglione del Terziere",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-al-castello-di-castiglione-del-terziere-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino del VintageAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-del-vintage/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata “Pontremoli Barocca”Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:30Fino al Cuore della RivoltaFosdinovo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/fino-al-cuore-della-rivolta-25-aprile-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura straordinaria Castello di Monti 2026Monti",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-monti-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 12:00Apertura straordinaria Castello di Bastia 2026Bastia",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-bastia-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino dell’Antiquariato di FilettoFiletto",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-dellantiquariato-di-filetto/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mangialonga FivizzanoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mangialonga-fivizzano-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 19:00Capodanno dell’AnnunciazioneCorneda",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/capodanno-dellannunciazione-corneda-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00Scopri Mulazzo 2026Mulazzo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/scopri-mulazzo-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:30 - 12:00Visita guidata al caseificio del Parmigiano Reggiano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-al-caseificio-del-parmigiano-reggiano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:30Fino al Cuore della RivoltaFosdinovo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/fino-al-cuore-della-rivolta-25-aprile-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura straordinaria Castello di Monti 2026Monti",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-monti-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori FivizzanoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 13:00Mercatino produttori di AullaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:30 - 13:30Mercato d’PuntremalPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "19:00Sagra d’la Cigola UntaMoncigoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-dla-cigola-unta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura straordinaria e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-e-visita-guidata-a-villa-dosi-delfini/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura straordinaria Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-museo-diocesano-di-pontremoli-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-festivi-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "11:00Il Risveglio della VignaMonzone",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/il-risveglio-della-vigna/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:00 - 22:00Sagra della Cipolla di Treschietto 2026Treschietto",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-della-cipolla-di-treschietto-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:00Sagra d’la Cigola UntaMoncigoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-dla-cigola-unta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura straordinaria e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-straordinaria-e-visite-guidate-alla-fortezza-della-brunella/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:00Mercatino del VintageAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-del-vintage/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata “Pontremoli Barocca”Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:00 - 12:00Visita guidata alla mieleriaBoceda",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-alla-mieleria-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "11:00 - 12:00SCOPRI BAGNONE 2026- Giardini del Castello e Chiesa di San NicolòBagnone",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/scopri-bagnone-2026-giardini-castello/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:00 - 22:00Sagra della Cipolla di Treschietto 2026Treschietto",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-della-cipolla-di-treschietto-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "17:00 - 19:00Concerto di PrimaveraPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/concerto-di-primavera-pontremoli-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "19:00Sagra d’la Cigola UntaMoncigoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-dla-cigola-unta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoApertura e visita guidata a Villa Dosi-DelfiniPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "8:00 - 18:00Mercatino dell’AntiquariatoFivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-dellantiquariato-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Tutto il GiornoMostra fotografica “Lunigiana: appunti di luce e racconti”Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mostra-fotografica-lunigiana-appunti-di-luce-e-racconti/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30 - 17:30Apertura Museo Diocesano di PontremoliPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-inverno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "9:30SCOPRI AULLA 2026- Olivola, sulla Via del Volto SantoOlivola",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/scopri-aulla-2026-olivola-sulla-via-del-volto-santo/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "10:30 - 12:00Visita guidata al caseificio del Parmigiano Reggiano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-al-caseificio-del-parmigiano-reggiano/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:00 - 18:00Sagra della Cipolla di Treschietto 2026Treschietto",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-della-cipolla-di-treschietto-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:00Sagra d’la Cigola UntaMoncigoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/sagra-dla-cigola-unta-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
       "title": "Eventi in Lunigiana",
       "date": "2026-10-17",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/02/2026-02-22_19-34-27_836.jpeg",
@@ -2919,139 +3785,24 @@
   ],
   "manga_trends": [
     {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di aprile 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110464-zipaki-tutte-le-uscite-digitali-e-cartacee-di-aprile-2026"
-    },
-    {
-      "title": "Amv: la compilation a tutta musica di aprile 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110476-amv-la-compilation-a-tutta-musica-di-aprile-2026"
-    },
-    {
-      "title": "Top Sakuga: le migliori animazioni del mese di aprile",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110259-top-sakuga-le-migliori-animazioni-del-mese-di-aprile"
-    },
-    {
-      "title": "Medalist stagione 2: informazioni sul doppiaggio di Disney+",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110454-medalist-stagione-2-informazioni-sul-doppiaggio-di-disney"
-    },
-    {
-      "title": "COMICON Napoli 2026: gli annunci di Jundo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110495-comicon-napoli-2026-gli-annunci-jundo"
-    },
-    {
-      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di maggio 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110477-netflix-amazon-prime-e-disney-i-palinsesti-di-maggio-2026"
-    },
-    {
-      "title": "COMICON Napoli 2026: Sensei Manga annuncia Colori Colore Creare",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110470-comicon-napoli-2026-sensei-manga-annuncia-colori-colore-creare"
-    },
-    {
-      "title": "Eventi e fiere di maggio 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110469-eventi-e-fiere-di-maggio-2026"
-    },
-    {
       "title": "Susumu Hirasawa: chi è il compositore che fa risuonare molti dei film di Satoshi Kon",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110378-susumu-hirasawa-chi-e-il-compositore-che-fa-risuonare-molti-dei-film-di-satoshi-kon"
     },
     {
-      "title": "The Promised Neverland: annunciato un nuovo capitolo one-shot in arrivo in estate",
+      "title": "Super Mario Galaxy Movie: Miyamoto spiega perché i film potevano limitare le IP Nintendo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110461-the-promised-neverland-annunciato-un-nuovo-capitolo-one-shot-in-arrivo-in-estate"
+      "url": "https://www.animeclick.it/news/110431-super-mario-galaxy-movie-miyamoto-spiega-perche-i-film-potevano-limitare-le-ip-nintendo"
     },
     {
-      "title": "Nuvole a nord-ovest: annunciato l'adattamento animato",
+      "title": "Love Unseen Beneath the Clear Night Sky: nuovo trailer per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110468-nuvole-a-nord-ovest-annunciato-adattamento-animato"
+      "url": "https://www.animeclick.it/news/110424-love-unseen-beneath-the-clear-night-sky-nuovo-trailer-per-lanime"
     },
     {
-      "title": "Toshokan: tutti gli ospiti, i firmacopie e gli eventi al COMICON Napoli 2026",
+      "title": "Non solo anime: Resident Evil torna al cinema, Casper diventa una serie su Disney+",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110347-toshokan-tutti-gli-ospiti-i-firmacopie-e-gli-eventi-al-comicon-napoli-2026"
-    },
-    {
-      "title": "High School of the Dead torna dopo 15 anni, ma come videogioco",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110447-high-school-of-the-dead-torna-dopo-15-anni-ma-come-videogioco"
-    },
-    {
-      "title": "Il segreto di Witch Hat Atelier: un manga nato già per il pubblico internazionale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110429-il-segreto-di-witch-hat-atelier-un-manga-nato-gia-per-il-pubblico-internazionale"
-    },
-    {
-      "title": "SEGA lancia No Old, Stay Gold: il passato senza nostalgia",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110426-sega-lancia-no-old-stay-gold-il-passato-senza-nostalgia"
-    },
-    {
-      "title": "Millennium Actress: clip esclusiva per il film in sala dall'11 maggio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110478-millennium-actress-clip-esclusiva-per-il-film-in-sala-dall-11-maggio"
-    },
-    {
-      "title": "COMICON Napoli 2026: gli annunci di J-POP Manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110496-comicon-napoli-2026-gli-annunci-di-j-pop-manga"
-    },
-    {
-      "title": "Sword Art Online: un nuovo film anime original è in cantiere",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110481-sword-art-online-un-nuovo-film-anime-original-e-in-cantiere"
-    },
-    {
-      "title": "Music Legends annuncia Akira Yamaoka come nuovo grande ospite",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110479-music-legends-annuncia-noriyuki-iwadare-tra-gli-ospiti-del-festival-di-milano"
-    },
-    {
-      "title": "News dal mondo gaming: Zenless Zone Zero, Professor Layton e Until Then",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110448-news-dal-mondo-gaming-zenless-zone-zero-professor-layton-e-until-then"
-    },
-    {
-      "title": "Crunchyroll annuncia altre serie per le prossime stagioni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110445-crunchyroll-annuncia-altre-serie-per-le-prossime-stagioni"
-    },
-    {
-      "title": "Xbox ammette le difficoltà e cambia strategia: la lettera interna ai dipendenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110432-xbox-ammette-le-difficolta-e-cambia-strategia-la-nuova-visione-globale-tra-cloud-game-pass-e-creator"
-    },
-    {
-      "title": "GTO: annunciato il sequel del live-action con il ritorno di Sorimachi nei panni di Onizuka",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110488-gto-annunciato-il-sequel-del-live-action-con-il-ritorno-di-sorimachi-nei-panni-di-onizuka"
-    },
-    {
-      "title": "Akane Banashi: informazioni sul doppiaggio di Yamato Video",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110472-akane-banashi-informazioni-sul-doppiaggio-di-yamato-video"
-    },
-    {
-      "title": "Dungeons & Dragons: Dungeon Masters - serie tv per le partite del gdr da tavolo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110413-dungeons-dragons-dungeon-masters-serie-tv-per-le-partite-del-gdr-da-tavolo"
-    },
-    {
-      "title": "COMICON Napoli 2026: gli annunci di Magic Press",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110492-comicon-napoli-2026-gli-annunci-di-magic-press"
-    },
-    {
-      "title": "The Blood of Dawnwalker: approfondimenti e data di uscita",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110487-the-blood-of-dawnwalker-approfondimenti-e-data-di-uscita"
+      "url": "https://www.animeclick.it/news/110491-non-solo-anime-resident-evil-torna-al-cinema-casper-diventa-una-serie-su-disney"
     },
     {
       "title": "Il Giappone studia nuove tutele contro l'uso non autorizzato delle voci da parte dell’AI",
@@ -3059,21 +3810,132 @@
       "url": "https://www.animeclick.it/news/110474-il-giappone-studia-nuove-tutele-contro-luso-non-autorizzato-delle-voci-da-parte-dell%25e2%2580%2599ai"
     },
     {
-      "title": "Isayama si confessa: \"Nel finale de L'attacco dei giganti rimane una sensazione di insincerità\"",
+      "title": "Il finale del manga “Jujutsu Kaisen Modulo” celebrato da un trailer animato da MAPPA",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110456-isayama-si-confessa-nel-finale-de-lattacco-dei-giganti-rimane-una-sensazione-di-insincerita"
+      "url": "https://www.animeclick.it/news/110490-il-finale-del-manga-%25e2%2580%259cjujutsu-kaisen-modulo%25e2%2580%259d-celebrato-da-un-trailer-animato-da-mappa"
+    },
+    {
+      "title": "Anime Preview: seconda stagione per Berserk of Gluttony, e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110444-anime-preview-seconda-stagione-per-berserk-of-gluttony-e-altre-novita"
+    },
+    {
+      "title": "UNO x Anime di McDonald's: Il gioco di carte più famoso al mondo incontra i personaggi anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110434-uno-x-anime-di-mcdonalds-il-gioco-di-carte-piu-famoso-al-mondo-incontra-i-personaggi-anime"
+    },
+    {
+      "title": "Anime Preview: trailer per Clevatess, Mobseka e altri anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110484-anime-preview-trailer-per-clevatess-mobseka-e-altri-anime"
+    },
+    {
+      "title": "Dokusho Edizioni presenta i suoi prossimi volumi in uscita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110471-dokusho-edizioni-presenta-i-suoi-prossimi-volumi-in-uscita"
+    },
+    {
+      "title": "The Blood of Dawnwalker: approfondimenti e data di uscita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110487-the-blood-of-dawnwalker-approfondimenti-e-data-di-uscita"
+    },
+    {
+      "title": "Top Sakuga: le migliori animazioni del mese di aprile",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110259-top-sakuga-le-migliori-animazioni-del-mese-di-aprile"
+    },
+    {
+      "title": "FINAL FANTASY XIV annuncia la nuova espansione Evercold",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110435-final-fantasy-xiv-annuncia-la-nuova-espansione-evercold"
+    },
+    {
+      "title": "COMICON Napoli 2026: nuovi annunci di J-POP Manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110505-comicon-napoli-2026-nuovi-annunci-di-j-pop-manga"
+    },
+    {
+      "title": "The Promised Neverland: annunciato un nuovo capitolo one-shot in arrivo in estate",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110461-the-promised-neverland-annunciato-un-nuovo-capitolo-one-shot-in-arrivo-in-estate"
+    },
+    {
+      "title": "Anime Preview: trailer per il film di Madoka Magica, e altri anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110493-anime-preview-trailer-per-il-film-di-madoka-magica-e-altri-anime"
+    },
+    {
+      "title": "Crunchyroll: novità per Chainsaw Man il film, gli speciali di The Quintessential Quintuplets, e altro ancora",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110422-crunchyroll-novita-per-chainsaw-man-il-film-gli-speciali-di-the-quintessential-quintuplets-e-altro-ancora"
+    },
+    {
+      "title": "MagicCon Las Vegas: svelate le nuove espansioni di Magic, da Lo Hobbit a Marvel",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110486-magiccon-las-vegas-svelate-le-nuove-espansioni-di-magic-da-lo-hobbit-a-marvel"
+    },
+    {
+      "title": "Zipaki: tutte le uscite digitali e cartacee di aprile 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110464-zipaki-tutte-le-uscite-digitali-e-cartacee-di-aprile-2026"
     },
     {
       "title": "My Hero Academia: svelato il trailer dell’episodio speciale “More”",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110439-my-hero-academia-svelato-il-trailer-dell%25e2%2580%2599episodio-speciale-%25e2%2580%259cmore%25e2%2580%259d"
+    },
+    {
+      "title": "Logan Paul si butta nel collezionismo manga e scoppiano le polemiche",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110433-logan-paul-si-butta-nel-collezionismo-manga-e-scoppiano-le-polemiche"
+    },
+    {
+      "title": "Live dal Far East Film Festival 28: le nostre prime impressioni sui film in concorso",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110389-live-dal-far-east-film-festival-28-le-nostre-prime-impressioni-sui-film-in-concorso"
+    },
+    {
+      "title": "Xbox Game Pass: maggio ricchissimo con Forza Horizon 6 e non solo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110462-xbox-game-pass-maggio-ricchissimo-con-forza-horizon-6-e-non-solo"
+    },
+    {
+      "title": "Black Clover: termina il manga di Yuki Tabata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110494-black-clover-termina-il-manga-di-yuki-tabata"
+    },
+    {
+      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di maggio 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110477-netflix-amazon-prime-e-disney-i-palinsesti-di-maggio-2026"
+    },
+    {
+      "title": "UNDERTALE The Determination Symphony: il concerto arriva in Italia",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110473-undertale-the-determination-symphony-il-concerto-arriva-in-italia"
+    },
+    {
+      "title": "Sword Art Online: un nuovo film anime original è in cantiere",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110481-sword-art-online-un-nuovo-film-anime-original-e-in-cantiere"
+    },
+    {
+      "title": "COMICON Napoli 2026: gli annunci di Jundo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110495-comicon-napoli-2026-gli-annunci-jundo"
+    },
+    {
+      "title": "Millennium Actress: clip esclusiva per il film in sala dall'11 maggio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110478-millennium-actress-clip-esclusiva-per-il-film-in-sala-dall-11-maggio"
+    },
+    {
+      "title": "Kagurabachi: annunciata la trasposizione animata per il 2027 del manga di Takeru Hokazono",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110457-kagurabachi-annunciata-la-trasposizione-animata-per-il-2027-del-manga-di-takeru-hokazono"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[mmarti nao] Sì, lo so, sono una bugiarda… #booktube #booktok #lettura #books #bibliomanzia #perte #booktubetbr",
-      "url": "https://www.youtube.com/watch?v=62w-5N3H9R8"
-    },
     {
       "title": "[Angelika Morgenstern] #booktokitalia #wattpaditalia #darkromance #booktok #wattpadstorie #wattpad #books #booktube",
       "url": "https://www.youtube.com/watch?v=jcSUkI_Dp84"
@@ -3085,10 +3947,6 @@
     {
       "title": "[Kyokami] He Just Wanted To Watch Anime… But She Was There Again",
       "url": "https://www.youtube.com/watch?v=hcM5XBqiU7Q"
-    },
-    {
-      "title": "[Kyokami] He Woke Her Up And She Hugged Him.",
-      "url": "https://www.youtube.com/watch?v=HsC8NmBDrwg"
     },
     {
       "title": "[Kyokami] He Promised Marriage To 4 Girls",
@@ -3135,16 +3993,16 @@
       "url": "https://www.youtube.com/watch?v=l-39L8_VU0o"
     },
     {
-      "title": "[The Comic Patrol] Murder Hobo 1 Review #comicbooks #midnightfactory #murderhobo #raunchy #d&amp;d #fantasy #funny #indie",
-      "url": "https://www.youtube.com/watch?v=itrAisOy7cc"
-    },
-    {
       "title": "[The Comic Patrol] Hellboy In Love Black Eyes Review #comicbooks #darkhorsecomics #hellboy #ghoststory #blackeyes",
       "url": "https://www.youtube.com/watch?v=ZCrfX6bXjhA"
     },
     {
-      "title": "[The Comic Patrol] Red Roots 1 Review #comicbooks #imagecomics #horror #action #thriller #redroots",
-      "url": "https://www.youtube.com/watch?v=mZHMyL9rHyk"
+      "title": "[The Comic Patrol] Murder Hobo 1 Review #comicbooks #midnightfactory #murderhobo #raunchy #d&amp;d #fantasy #funny #indie",
+      "url": "https://www.youtube.com/watch?v=itrAisOy7cc"
+    },
+    {
+      "title": "[The Comic Patrol] Is Ted Ok? 3 Review #comicbooks #madcave #davechisholm #istedok #indie #weird #conspiracy #scifi",
+      "url": "https://www.youtube.com/watch?v=8rm6-P0x7pI"
     },
     {
       "title": "[RuchoManga] Nuovi Arrivi da Mangaverse #suppliedby #manga #mangaita #mangacollection #anime",
@@ -3163,16 +4021,20 @@
       "url": "https://www.youtube.com/watch?v=3X_gqJZczmk"
     },
     {
+      "title": "[Paul Soles] anime shopping for new manga &amp; figures ",
+      "url": "https://www.youtube.com/watch?v=MPUobhIl370"
+    },
+    {
       "title": "[Pocket Expo] Jujutsu kaisan New Mangas",
       "url": "https://www.youtube.com/watch?v=a72ux-w0KBI"
     },
     {
-      "title": "[SonGoshuaku] Dragon Ball 40th Anniversary Special Put The Manga In BEAST Mode?",
-      "url": "https://www.youtube.com/watch?v=UPP_WmQDcY8"
-    },
-    {
       "title": "[MANGA GEEKDOM] EVERY NEW MANGA SERIES – MAY 2026! 📚",
       "url": "https://www.youtube.com/watch?v=UrLhf-4HcDs"
+    },
+    {
+      "title": "[SonGoshuaku] Dragon Ball 40th Anniversary Special Put The Manga In BEAST Mode?",
+      "url": "https://www.youtube.com/watch?v=UPP_WmQDcY8"
     },
     {
       "title": "[SonGoshuaku] The Wait  Is TOO LONG For Dragon Ball Super&#39;s Manga Return?",
@@ -3181,10 +4043,6 @@
     {
       "title": "[Graphic Policy] New manga coming this May from Square Enix Manga! #comics #graphicnovels #manga",
       "url": "https://www.youtube.com/watch?v=_nA0c_hBiDE"
-    },
-    {
-      "title": "[Paul Soles] anime shopping for new manga &amp; figures ",
-      "url": "https://www.youtube.com/watch?v=MPUobhIl370"
     }
   ]
 }
