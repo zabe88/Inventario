@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-05-04T08:04:01.475568+00:00",
+  "updated_at": "2026-05-04T15:20:50.712694+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -19,16 +19,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804607731",
-      "title": "La tela di Carlotta",
+      "ean": "9788834733769",
+      "title": "2001 odissea nello spazio",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788834733769",
-      "title": "2001 odissea nello spazio",
+      "ean": "9788804607731",
+      "title": "La tela di Carlotta",
       "author": "",
       "position": 4,
       "category": "generale",
@@ -99,26 +99,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806255145",
-      "title": "Il custode",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9782889750337",
-      "title": "Racconti del grande Nord. Storie tradizionali di Norvegia, Svezia, Finlandia, Islanda e Danimarca",
-      "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822766199",
       "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
-      "position": 15,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,7 +110,31 @@
       "ean": "9788806268657",
       "title": "Il cuore non va a dormire",
       "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806255145",
+      "title": "Il custode",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9782889750337",
+      "title": "Racconti del grande Nord. Storie tradizionali di Norvegia, Svezia, Finlandia, Islanda e Danimarca",
+      "author": "",
       "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817198448",
+      "title": "Un'ottima famiglia",
+      "author": "",
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,21 +142,13 @@
       "ean": "9788822796257",
       "title": "Non mentire",
       "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788845941061",
-      "title": "La scatola delle lacrime",
-      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788804761648",
+      "title": "Il tempo del la la la",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -163,10 +163,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9783740803698",
+      "title": "Miele amaro. La cuoca Katharina e l'ered...",
+      "author": "",
+      "position": 1,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804093855",
       "title": "Ulisse",
       "author": "",
-      "position": 1,
+      "position": 2,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -174,7 +182,7 @@
       "ean": "9788804212928",
       "title": "Storia della mia vita. Vol. 1",
       "author": "",
-      "position": 2,
+      "position": 3,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -182,7 +190,7 @@
       "ean": "9788804212935",
       "title": "Storia della mia vita. Vol. 2",
       "author": "",
-      "position": 3,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -190,7 +198,7 @@
       "ean": "9788804239932",
       "title": "I Malavoglia",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -198,7 +206,7 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,21 +214,13 @@
       "ean": "9788804259299",
       "title": "Il giorno dello sciacallo",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804259329",
       "title": "La cruna dell'ago",
-      "author": "",
-      "position": 7,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804276913",
-      "title": "Sulle ali delle aquile",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -379,8 +379,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806255145",
-      "title": "Il custode",
+      "ean": "9788822766199",
+      "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
       "position": 28,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822766199",
-      "title": "Il piccolo negozio dei tesori perduti",
+      "ean": "9788806255145",
+      "title": "Il custode",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -707,32 +707,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804717485",
-      "title": "Lo scontro finale. Percy Jackson e gli d...",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788804717485",
+      "title": "Lo scontro finale. Percy Jackson e gli d...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788810752111",
-      "title": "La guerra dei mondi. Ediz. integrale",
+      "ean": "9791221924848",
+      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9791221924848",
-      "title": "Jujutsu Kaisen. Vol. 29: Resa dei conti ...",
+      "ean": "9788804806134",
+      "title": "Accendere i fuochi. Manuale di lotta e g...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -979,16 +979,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791221904673",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
+      "ean": "9791221921243",
+      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221921243",
-      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
+      "ean": "9791221904673",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
       "author": "",
       "position": 32,
       "category": "fumetti",
@@ -1019,16 +1019,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788897349099",
-      "title": "Tyr chronicles. Ediz. limitata. Vol. 1",
+      "ean": "9788828775126",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 23: ...",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788891287557",
-      "title": "Monster deluxe. Vol. 8",
+      "ean": "9788832753738",
+      "title": "Il club delle divorziate. Vol. 1",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1131,10 +1131,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804499800",
+      "title": "Lourdes",
+      "author": "",
+      "position": 13,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1142,21 +1150,13 @@
       "ean": "9788804551737",
       "title": "Con te e senza di te",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804558194",
       "title": "Il vangelo segreto di Tommaso. Indagine ...",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804571322",
-      "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1355,8 +1355,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788885471184",
-      "title": "A Khrid. Le istruzioni sulla «A» primord...",
+      "ean": "9791256393107",
+      "title": "Sulla tua parola. Messalino. Santa messa...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -4074,12 +4074,12 @@
       "url": "https://www.youtube.com/watch?v=gcK37TnyjxQ"
     },
     {
-      "title": "[Comic Book Corner 2.0] This Comic Book Was So Good It Could Get Pick Of The Year! ",
-      "url": "https://www.youtube.com/watch?v=8UwQ8T423fM"
-    },
-    {
       "title": "[Yuhoo Comic Review] Every Comic I Read In April!",
       "url": "https://www.youtube.com/watch?v=L_iK2O0FvPs"
+    },
+    {
+      "title": "[Noisy Nerd] ELTINGVILLE CLUB ESTÁ DE REGRESO!!! #comic #review",
+      "url": "https://www.youtube.com/watch?v=prvohJxYHWw"
     },
     {
       "title": "[Yuhoo Comic Review] Batman vs Detective Comics?",
@@ -4094,10 +4094,6 @@
       "url": "https://www.youtube.com/watch?v=_9BwwLj4kI4"
     },
     {
-      "title": "[TheComicBookReport] The Amazing Spider-Man by Zeb Wells Omnibus Vol. 1 Review | MARVEL COMICS",
-      "url": "https://www.youtube.com/watch?v=b6a08p5iYNM"
-    },
-    {
       "title": "[DANI DARK COMICS] CAMBIAMENTI SULLE RECENSIONI DEI FUMETTI",
       "url": "https://www.youtube.com/watch?v=1n1UitIQ1xU"
     },
@@ -4106,8 +4102,12 @@
       "url": "https://www.youtube.com/watch?v=ZCrfX6bXjhA"
     },
     {
-      "title": "[Captain Frugal] Green Lantern #34 - Better Than Expected? 🟢 #comics",
-      "url": "https://www.youtube.com/watch?v=l-39L8_VU0o"
+      "title": "[Sergio Vinci TV] [Fumetti] DYLAN DOG 476 &quot;L&#39;imitazione della vita&quot; (Recensione)",
+      "url": "https://www.youtube.com/watch?v=4MNvYdhVIko"
+    },
+    {
+      "title": "[The Comic Patrol] Is Ted Ok? 3 Review #comicbooks #madcave #davechisholm #istedok #indie #weird #conspiracy #scifi",
+      "url": "https://www.youtube.com/watch?v=8rm6-P0x7pI"
     },
     {
       "title": "[RuchoManga] Nuovi Arrivi da Mangaverse #suppliedby #manga #mangaita #mangacollection #anime",
@@ -4122,10 +4122,6 @@
       "url": "https://www.youtube.com/watch?v=MPUobhIl370"
     },
     {
-      "title": "[Pocket Expo] Jujutsu kaisan New Mangas",
-      "url": "https://www.youtube.com/watch?v=a72ux-w0KBI"
-    },
-    {
       "title": "[MANGA GEEKDOM] EVERY NEW MANGA SERIES – MAY 2026! 📚",
       "url": "https://www.youtube.com/watch?v=UrLhf-4HcDs"
     },
@@ -4136,6 +4132,10 @@
     {
       "title": "[Graphic Policy] New manga coming this May from Square Enix Manga! #comics #graphicnovels #manga",
       "url": "https://www.youtube.com/watch?v=_nA0c_hBiDE"
+    },
+    {
+      "title": "[Mizz Manga] The Good, The Bad, and The New Favs 🥰 #mangareader #readingwrapup #mangareview",
+      "url": "https://www.youtube.com/watch?v=qHwHsySLv08"
     },
     {
       "title": "[HERMSAUR] DISCOVERING NEW MANGA AT THE NEW MANGA LOUNGE IN LOS ANGELES",
