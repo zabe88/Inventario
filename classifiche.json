@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-05-10T14:23:29.842118+00:00",
+  "updated_at": "2026-05-11T08:36:06.359581+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -27,16 +27,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9791259853608",
+      "title": "La gang dei sogni",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -51,26 +51,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259853608",
-      "title": "La gang dei sogni",
+      "ean": "9788817042024",
+      "title": "Pomodori verdi fritti",
       "author": "",
       "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817042024",
-      "title": "Pomodori verdi fritti",
-      "author": "",
-      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,21 +70,29 @@
       "ean": "9788817198448",
       "title": "Un'ottima famiglia",
       "author": "",
+      "position": 9,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804761648",
-      "title": "Il tempo del la la la",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788804761648",
+      "title": "Il tempo del la la la",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -123,10 +123,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
+      "author": "",
+      "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788828211051",
       "title": "I vinti. Il corpo nella storia dell'arte",
       "author": "",
-      "position": 16,
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788807200212",
+      "title": "La continuità del male. Perché la destra italiana è ancora fascista",
+      "author": "",
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,29 +150,13 @@
       "ean": "9788806268657",
       "title": "Il cuore non va a dormire",
       "author": "",
-      "position": 17,
+      "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788817108454",
       "title": "Vinology essential. Guida visuale ai vin",
-      "author": "",
-      "position": 18,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817183499",
-      "title": "Tutta la vita che resta",
-      "author": "",
-      "position": 19,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806272715",
-      "title": "Una cosa spirituale. Non fare niente e altre forme d’arte",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -363,8 +363,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -467,24 +467,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781409561057",
-      "title": "Racconti illustrati per le bimbe. Ediz. ...",
+      "ean": "9781409558910",
+      "title": "Le mille e una notte. Ediz. illustrata",
       "author": "",
       "position": 9,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9781409561712",
-      "title": "Storie illustrate dai miti greci. Ediz. ...",
+      "ean": "9781409561057",
+      "title": "Racconti illustrati per le bimbe. Ediz. ...",
       "author": "",
       "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9781409571698",
-      "title": "Racconti d'avventura illustrati. Ediz. i...",
+      "ean": "9781409561712",
+      "title": "Storie illustrate dai miti greci. Ediz. ...",
       "author": "",
       "position": 11,
       "category": "bambini_ragazzi",
@@ -523,8 +523,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804444978",
-      "title": "Ascolta il mio cuore",
+      "ean": "9788804396154",
+      "title": "Piccoli brividi. Il pupazzo parlante",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -675,8 +675,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845199417",
-      "title": "Gli strumenti del mondo. I miei piccoli ...",
+      "ean": "9788829602353",
+      "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
@@ -691,10 +691,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788829602353",
-      "title": "Estate con la nuvola Olga. Ediz. a colori",
+      "ean": "9788854039513",
+      "title": "Amici animali. Libro sonoro. Ediz. a colori",
       "author": "",
       "position": 37,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845199417",
+      "title": "Gli strumenti del mondo. I miei piccoli ...",
+      "author": "",
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -702,21 +710,13 @@
       "ean": "9788867145065",
       "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
-      "position": 38,
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9791259577085",
       "title": "Rebeldes. L'amore brucia",
-      "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788854039513",
-      "title": "Amici animali. Libro sonoro. Ediz. a colori",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867148608",
-      "title": "Cane & gatto. Ediz. a colori",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -859,8 +859,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788807492099",
-      "title": "Le entusiasmanti avventure di Max Middle...",
+      "ean": "9788806271114",
+      "title": "Manga Stories. Ediz. italiana",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -971,10 +971,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788897349099",
+      "title": "Tyr chronicles. Ediz. limitata. Vol. 1",
+      "author": "",
+      "position": 30,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9791221904673",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
       "author": "",
-      "position": 30,
+      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -982,7 +990,23 @@
       "ean": "9788822666284",
       "title": "Vinland saga. Vol. 29",
       "author": "",
-      "position": 31,
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828762942",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
+      "author": "",
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,15 +1014,7 @@
       "ean": "9788828775126",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 23: ...",
       "author": "",
-      "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828786207",
-      "title": "Batman. Anno uno",
-      "author": "",
-      "position": 33,
+      "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,7 +1022,15 @@
       "ean": "9788834941973",
       "title": "L'estate in cui Hikaru è morto. Vol. 8",
       "author": "",
-      "position": 34,
+      "position": 36,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788866919667",
+      "title": "Jack Cross",
+      "author": "",
+      "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1014,23 +1038,7 @@
       "ean": "9791221924855",
       "title": "Jujutsu Kaisen. Vol. 30: D'ora in poi",
       "author": "",
-      "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221921243",
-      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
-      "author": "",
-      "position": 36,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221921250",
-      "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
-      "author": "",
-      "position": 37,
+      "position": 38,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1099,10 +1107,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788776884901",
+      "title": "Dianetics. La forza del pensiero sul corpo",
+      "author": "",
+      "position": 9,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788801023725",
+      "title": "I cinque linguaggi dell'amore. Come dire...",
+      "author": "",
+      "position": 10,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804453925",
       "title": "Tantra. La via dell'estasi sessuale",
       "author": "",
-      "position": 9,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1110,7 +1134,7 @@
       "ean": "9788804470618",
       "title": "Il principe Siddharta. Fuga dalla reggia",
       "author": "",
-      "position": 10,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1118,7 +1142,7 @@
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 11,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1126,15 +1150,7 @@
       "ean": "9788804551737",
       "title": "Con te e senza di te",
       "author": "",
-      "position": 12,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804572008",
-      "title": "Breviario laico. 366 riflessioni giorno ...",
-      "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1142,21 +1158,13 @@
       "ean": "9788804581642",
       "title": "L'illusione di Dio. Le ragioni per non c...",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804583912",
       "title": "Conversazioni notturne a Gerusalemme. Su...",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804585442",
-      "title": "Nutri i tuoi demoni. Risolvere i conflit...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1299,16 +1307,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817081894",
-      "title": "La logica dell'amore",
+      "ean": "9788858155325",
+      "title": "San Francesco",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788858155325",
-      "title": "San Francesco",
+      "ean": "9788817081894",
+      "title": "La logica dell'amore",
       "author": "",
       "position": 35,
       "category": "religione",
@@ -1339,24 +1347,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788879620857",
-      "title": "Francesco d'Assisi: il potere in questio...",
+      "ean": "9788883191619",
+      "title": "Politeismo. Vol. 1: Mesopotamia, Roma, G...",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788883191619",
-      "title": "Politeismo. Vol. 1: Mesopotamia, Roma, G...",
+      "ean": "9788879620857",
+      "title": "Francesco d'Assisi: il potere in questio...",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804667834",
-      "title": "Yoga: l'energia che trasforma",
+      "ean": "9788817165624",
+      "title": "Timore e tremore. Aut-Aut (Diapsalmata)",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -3818,56 +3826,60 @@
       "url": "https://www.youtube.com/watch?v=UcdJFtIqefc"
     },
     {
+      "title": "[Chiacchiere Tra Le Righe] #booktubeitalia #consiglidilettura #libridaleggere #bookrecs",
+      "url": "https://www.youtube.com/watch?v=WRbe-UWTZsU"
+    },
+    {
       "title": "[NonnoItech] ANIME ROMANCE CONSIGLIATI #ANIME #ROMANCEANIME #animelist #ROMANCE #CLANNAD #animeita",
       "url": "https://www.youtube.com/watch?v=WCQa9uJoeKQ"
     },
     {
-      "title": "[TG Comics] I fumetti consigliati della settimana (dal 27 aprile al 3 maggio 2026) 🗨️💭🗯️",
-      "url": "https://www.youtube.com/watch?v=cjnpvdsw0TM"
+      "title": "[POTTER TWINS TELEVISION PARTS] Uncanny X-Men #181 🔥 This Defect Kills the Grade?! (Direct Edition Grading)",
+      "url": "https://www.youtube.com/watch?v=jdIuE1Hwhw0"
     },
     {
-      "title": "[Noisy Nerd] ELTINGVILLE CLUB ESTÁ DE REGRESO!!! #comic #review",
-      "url": "https://www.youtube.com/watch?v=prvohJxYHWw"
+      "title": "[D.C. Network] Dynamite&#39;s Ben 10 Comic Is Phenomenal | Issue 1 Review",
+      "url": "https://www.youtube.com/watch?v=PN8ghmB1eXg"
     },
     {
       "title": "[CapedUp] What a great NCBD! #comic #comics #comicbook #comicbooks #ncbd @ashcanpresscomicscorp.8082",
       "url": "https://www.youtube.com/watch?v=nTnuZKl_C30"
     },
     {
-      "title": "[OcelotMDB | Extra] NEL SEGNO DI PAZ (LaRepubblica) | Recensione e Confronto",
-      "url": "https://www.youtube.com/watch?v=h2Is3pag994"
-    },
-    {
       "title": "[Yuhoo Comic Review] The MOST IMPORTANT X-Men Comics!",
       "url": "https://www.youtube.com/watch?v=xmUJChj73Mk"
+    },
+    {
+      "title": "[The Stoked Nerd] Top 5 ongoing comic books!! #comics #marvel #dccomics #imagecomics #absolutebatman",
+      "url": "https://www.youtube.com/watch?v=LkgCBkgFSzo"
+    },
+    {
+      "title": "[TheComicBookReport] ABSOLUTE BATMAN HUSH 😱🦇 Jeph Loeb | Jim Lee #batman #dccomics #comics",
+      "url": "https://www.youtube.com/watch?v=Iy1fINIXnkY"
     },
     {
       "title": "[Yuhoo Comic Review] Grant Morrison Comings Are CONFUSING!",
       "url": "https://www.youtube.com/watch?v=a2kUDDAnIv0"
     },
     {
-      "title": "[NickDeLarge92] 🤔🔪 Diabolik fa un altro anniversario... un po&#39; problematico (Diabolik n.951)",
-      "url": "https://www.youtube.com/watch?v=KQsmpaQJVMs"
-    },
-    {
       "title": "[Yuhoo Comic Review] How to Read Krakoa X-Men?",
       "url": "https://www.youtube.com/watch?v=jYLVJUr6WoM"
     },
     {
-      "title": "[Captain Frugal] The story is good but the art though Wonder Man 2 #comics",
-      "url": "https://www.youtube.com/watch?v=kXpTOqNqyl8"
+      "title": "[NickDeLarge92] 🤔🔪 Diabolik fa un altro anniversario... un po&#39; problematico (Diabolik n.951)",
+      "url": "https://www.youtube.com/watch?v=KQsmpaQJVMs"
     },
     {
-      "title": "[Isola di Carta] Recensione Alan Ford dal n.237 al n.249: &quot; La Stirpe dei Mangia&quot;",
-      "url": "https://www.youtube.com/watch?v=KxTM3aZS5Ro"
-    },
-    {
-      "title": "[DANI DARK COMICS] LOBO: L&#39;ULTIMO CZARNIANO-  DC POCKET RECENSIONE",
-      "url": "https://www.youtube.com/watch?v=bV-xocsVvgY"
+      "title": "[ChubbyRay Comics] Trade Paperback Tuesday: Wonder Woman Wins Big! | JLU, Carnage, Speed Racer Reviews",
+      "url": "https://www.youtube.com/watch?v=TeX02AU2vVU"
     },
     {
       "title": "[Zenith Recaps] Isekaid Mage Uses Crafting Skill To Live Peaceful Camping Life",
       "url": "https://www.youtube.com/watch?v=6BDFwz5hwq8"
+    },
+    {
+      "title": "[Etra chan saw it!] Uninvited Santa Claus vs Furious Reindeer [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=gQPgWPE2dXA"
     },
     {
       "title": "[Zenith Recaps] She Is The Most SKILLED Maid I&#39;ve Ever Seen",
@@ -3882,12 +3894,12 @@
       "url": "https://www.youtube.com/watch?v=noFTf30bqtw"
     },
     {
-      "title": "[ATTACK on MIKA] A father kicks out his wife and son but keeps the daughter... [Manga dub]",
-      "url": "https://www.youtube.com/watch?v=f2JR_xj9JSo"
-    },
-    {
       "title": "[Trade Shop] LOGAN PAUL PAID $550,000 ?? 🤯🔥 #manga #dragonball",
       "url": "https://www.youtube.com/watch?v=-0Hyzv9ZB_4"
+    },
+    {
+      "title": "[ZARAR-KUN] New Romance Anime Are Taking Over This Season 😭🌸 #anime",
+      "url": "https://www.youtube.com/watch?v=erpMb7IBYPI"
     },
     {
       "title": "[Kirio1984] ANNUNCI MANGA COMICON 2026: roba assurda (e una BOMBA totale)",
@@ -3900,10 +3912,6 @@
     {
       "title": "[Mizz Manga] All My Pick Ups From April!! ",
       "url": "https://www.youtube.com/watch?v=avlE1RUntAI"
-    },
-    {
-      "title": "[Fanfare Kzoo] New Comics [5/5/2026]",
-      "url": "https://www.youtube.com/watch?v=2xkaMNAMS_w"
     }
   ]
 }
