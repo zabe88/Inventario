@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-05-18T08:52:56.883749+00:00",
+  "updated_at": "2026-05-18T16:33:41.503334+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -75,18 +75,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
-      "author": "",
-      "position": 10,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804761648",
       "title": "Il tempo del la la la",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,13 +86,21 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "author": "",
       "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822772572",
-      "title": "Tre insoliti delitti",
+      "ean": "9788892880047",
+      "title": "Moonwalk. L'unica e sola autobiografia, la sua vita nelle sue parole",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -115,26 +115,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "ean": "9788822772572",
+      "title": "Tre insoliti delitti",
       "author": "",
       "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817042024",
-      "title": "Pomodori verdi fritti",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892880047",
-      "title": "Moonwalk. L'unica e sola autobiografia, la sua vita nelle sue parole",
-      "author": "",
-      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,21 +126,37 @@
       "ean": "9788863115666",
       "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
-      "position": 18,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788863114126",
+      "title": "Memorie del sottosuolo. Ediz. integrale",
       "author": "",
-      "position": 19,
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822772732",
+      "title": "Il contratto. The deal",
+      "author": "",
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822766199",
       "title": "Il piccolo negozio dei tesori perduti",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817042024",
+      "title": "Pomodori verdi fritti",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -675,26 +675,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845941061",
-      "title": "La scatola delle lacrime",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788845941061",
+      "title": "La scatola delle lacrime",
       "author": "",
       "position": 36,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788862464291",
-      "title": "Mamma, dove vai quando non sei con me? E...",
-      "author": "",
-      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -702,13 +694,21 @@
       "ean": "9788867148974",
       "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
-      "position": 38,
+      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788867148608",
       "title": "Cane & gatto. Ediz. a colori",
+      "author": "",
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788862464291",
+      "title": "Mamma, dove vai quando non sei con me? E...",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
@@ -819,18 +819,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804739425",
-      "title": "Heartstopper. Vol. 4",
+      "ean": "9788804723967",
+      "title": "Heartstopper. Vol. 1",
       "author": "",
       "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804734307",
-      "title": "Heartstopper. Vol. 3",
-      "author": "",
-      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,13 +830,21 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
+      "position": 12,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804734307",
+      "title": "Heartstopper. Vol. 3",
+      "author": "",
       "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788804723967",
-      "title": "Heartstopper. Vol. 1",
+      "ean": "9788804739425",
+      "title": "Heartstopper. Vol. 4",
       "author": "",
       "position": 14,
       "category": "fumetti",
@@ -995,26 +995,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828756323",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 21: ...",
-      "author": "",
-      "position": 33,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
-      "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788828770572",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 22: ...",
       "author": "",
-      "position": 35,
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1022,13 +1006,29 @@
       "ean": "9788828775126",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 23: ...",
       "author": "",
-      "position": 36,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788828781462",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 24: ...",
+      "author": "",
+      "position": 35,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
+      "author": "",
+      "position": 36,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828756323",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 21: ...",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1123,15 +1123,15 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804454311",
-      "title": "I grandi miti greci",
+      "ean": "9788804401308",
+      "title": "Il corano",
       "author": "",
       "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804515944",
+      "ean": "9788804454311",
       "title": "I grandi miti greci",
       "author": "",
       "position": 12,
@@ -1139,10 +1139,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804515944",
+      "title": "I grandi miti greci",
+      "author": "",
+      "position": 13,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804551737",
       "title": "Con te e senza di te",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1150,21 +1158,13 @@
       "ean": "9788804583912",
       "title": "Conversazioni notturne a Gerusalemme. Su...",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804586494",
       "title": "L'arte della felicità sul lavoro",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804605508",
-      "title": "Così in terra, come in cielo",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1315,16 +1315,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817081894",
-      "title": "La logica dell'amore",
+      "ean": "9788892244078",
+      "title": "L'origine del sublime",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892244078",
-      "title": "L'origine del sublime",
+      "ean": "9788817081894",
+      "title": "La logica dell'amore",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1339,24 +1339,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845934360",
-      "title": "L'insegnamento del Buddha",
+      "ean": "9788861762596",
+      "title": "Pensieri sull'esoterismo",
       "author": "",
       "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804667834",
-      "title": "Yoga: l'energia che trasforma",
+      "ean": "9788862448871",
+      "title": "«Farsi santi con ciò che c'è». L'amore f...",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788806273002",
-      "title": "San Francesco prima del mito",
+      "ean": "9788845934360",
+      "title": "L'insegnamento del Buddha",
       "author": "",
       "position": 40,
       "category": "religione",
@@ -2637,6 +2637,12 @@
       "source": "sigeric"
     },
     {
+      "title": "Mercatino produttori Fivizzano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/mercatino-produttori-fivizzano/",
+      "source": "visitlunigiana"
+    },
+    {
       "title": "Mercatino produttori di Aulla",
       "date": null,
       "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
@@ -2649,33 +2655,27 @@
       "source": "visitlunigiana"
     },
     {
+      "title": "Cavalli e Natura",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/cavalli-e-natura-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Panigacci alla Rocca",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/panigacci-alla-rocca-maggio-2026/",
+      "source": "visitlunigiana"
+    },
+    {
       "title": "Apertura e visita guidata a Villa Dosi-Delfini",
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-primavera-2026/",
       "source": "visitlunigiana"
     },
     {
-      "title": "Calendimaggio Fivizzano",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/calendimaggio-fivizzano-2026/",
-      "source": "visitlunigiana"
-    },
-    {
-      "title": "Visita al Castello di Castiglione del Terziere",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/visita-al-castello-di-castiglione-del-terziere-2026/",
-      "source": "visitlunigiana"
-    },
-    {
       "title": "Mercatino del Vintage",
       "date": null,
       "url": "https://visitlunigiana.it/events/mercatino-del-vintage/",
-      "source": "visitlunigiana"
-    },
-    {
-      "title": "Inaugurazione Bagnone Villaggio Montano CAI",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/inaugurazione-bagnone-villaggio-montano-cai/",
       "source": "visitlunigiana"
     },
     {
@@ -2697,15 +2697,15 @@
       "source": "visitlunigiana"
     },
     {
-      "title": "Apertura e visite guidate alla Fortezza della Brunella",
+      "title": "SCOPRI BAGNONE 2026- Nel Bosco delle Meraviglie di Iera",
       "date": null,
-      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "url": "https://visitlunigiana.it/events/scopri-bagnone-2026-nel-bosco-delle-meraviglie-di-iera/",
       "source": "visitlunigiana"
     },
     {
-      "title": "SCOPRI BAGNONE 2026-  Festa dei Villaggi Montani",
+      "title": "Apertura e visite guidate alla Fortezza della Brunella",
       "date": null,
-      "url": "https://visitlunigiana.it/events/scopri-bagnone-2026-festa-dei-villaggi-montani/",
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
       "source": "visitlunigiana"
     },
     {
@@ -3387,6 +3387,12 @@
       "source": "visitlunigiana"
     },
     {
+      "title": "9:30 - 18:00Cantamaggio di ZeriChiesa di Rossano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/cantamaggio-di-zeri-2026/",
+      "source": "visitlunigiana"
+    },
+    {
       "title": "10:15 - 12:30Apertura Castello di LusuoloLusuolo",
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-castello-di-lusuolo-primavera-2026/",
@@ -3498,6 +3504,12 @@
       "title": "15:00 - 18:00Apertura e visite guidate alla Fortezza della BrunellaAulla",
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-primavera-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "17:00 - 19:00Inaugurazione biblioteca diffusaSassalbo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/inaugurazione-biblioteca-diffusa/",
       "source": "visitlunigiana"
     },
     {
@@ -3953,9 +3965,19 @@
   ],
   "manga_trends": [
     {
-      "title": "Wandance: informazioni sul doppiaggio di Disney+",
+      "title": "COMICON Napoli 2026: intervista (e showcase) a Katarina e Ryōsuke Fuji (Shangri-La Frontier)",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110624-wandance-informazioni-sul-doppiaggio-di-disney"
+      "url": "https://www.animeclick.it/news/110503-comicon-napoli-2026-intervista-e-showcase-a-katarina-e-ryosuke-fuji-shangri-la-frontier"
+    },
+    {
+      "title": "I Cavalieri dello Zodiaco invadono McDonald's Japan: burger limited e uno spot da non perdere",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110616-i-cavalieri-dello-zodiaco-invadono-mcdonalds-japan-burger-limited-e-uno-spot-da-non-perdere"
+    },
+    {
+      "title": "J-POP Manga annuncia HoriMiya - A Piece of Memories",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110573-j-pop-manga-annuncia-horimiya-a-piece-of-memories"
     },
     {
       "title": "Storico brand di cosmetici giapponese sotto accusa per aver plagiato Sailor Moon con l'IA",
@@ -3963,94 +3985,19 @@
       "url": "https://www.animeclick.it/news/110570-il-principale-marchio-di-cosmetici-giapponese-e-finito-sotto-accusa-per-una-pubblicita-generata-dallintelligenza-artificiale-dopo-i-paragoni-con-sailor-moon"
     },
     {
-      "title": "Addio al Gundam Unicorn di Odaiba: la statua lascerà Tokyo ad agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110644-addio-al-gundam-unicorn-di-odaiba-la-statua-lascera-tokyo-ad-agosto-2026"
-    },
-    {
-      "title": "The Insipid Prince's Furtive Grab for The Throne: trailer per l'anime in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110602-the-insipid-princes-furtive-grab-for-the-throne-trailer-per-lanime-in-arrivo"
-    },
-    {
-      "title": "The Forsaken Saintess and Her Foodie Roadtrip in Another World: trailer per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110645-the-forsaken-saintess-and-her-foodie-roadtrip-in-another-world-trailer-per-lanime"
-    },
-    {
-      "title": "Vota i tuoi annunci manga preferiti del Napoli Comicon 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110549-vota-i-tuoi-annunci-manga-preferiti-del-napoli-comicon-2026"
-    },
-    {
-      "title": "SiNiSistar 2: le suore sexy cacciatrici di demoni sbarcano su Steam",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110561-sinisistar-2-le-suore-sexy-cacciatrici-di-demoni-sbarcano-su-steam"
-    },
-    {
-      "title": "Box Office Giappone: debutta in quarta posizione il live action di Sakamoto Days",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110545-box-office-giappone-debutta-in-quarta-posizione-il-live-action-di-sakamoto-days"
-    },
-    {
-      "title": "Studio Khara: 20 anni fa Hideaki Anno lasciava Gainax per un nuovo Evangelion",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110244-studio-khara-20-anni-fa-hideaki-anno-lasciava-gainax-per-un-nuovo-evangelion"
-    },
-    {
-      "title": "PlayStation positiva sul futuro: “I prossimi anni saranno incredibili”",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110607-playstation-positiva-sul-futuro-%25e2%2580%259ci-prossimi-anni-saranno-incredibili%25e2%2580%259d"
-    },
-    {
-      "title": "Yebisu Beer x Ai Yazawa: la seconda edizione delle lattine limited edition arriva per il Tanabata",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110612-yebisu-beer-x-ai-yazawa-la-seconda-edizione-delle-lattine-limited-edition-arriva-per-il-tanabata"
-    },
-    {
-      "title": "Mebius Dust: anteprima video per l'anime di Doga Kobo in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110631-mebius-dust-anteprima-video-per-anime-di-doga-kobo-in-arrivo-a-luglio"
-    },
-    {
-      "title": "Patlabor EZY: nuovo trailer per l'anime in arrivo nei cinema",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110618-patlabor-ezy-nuovo-trailer-per-il-primo-film-del-progetto"
-    },
-    {
-      "title": "Iron Wok Jan: trailer per l'anime in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110641-iron-wok-jan-trailer-per-lanime-in-arrivo-a-luglio"
-    },
-    {
       "title": "COMICON Napoli 2026: Grand Blue è l'annuncio preferito dell'utenza",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110629-comicon-napoli-2026-grand-blue-e-annuncio-preferito-dell-utenza"
     },
     {
-      "title": "Japan Days: il 23 e 24 maggio torna a Roma la magia del Giappone",
+      "title": "Box Office Giappone: Detective Conan ancora sul podio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110615-japan-days-il-23-e-24-maggio-torna-a-roma-la-magia-del-giappone"
+      "url": "https://www.animeclick.it/news/110596-box-office-giappone-detective-conan-ancora-sul-podio"
     },
     {
-      "title": "Anime Preview: trailer per Akane Banashi, Wistoria e molto altro",
+      "title": "Kodansha Manga Awards 2026: annunciati i vincitori",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110585-anime-preview-trailer-per-akane-banashi-wistoria-e-molto-altro"
-    },
-    {
-      "title": "Ishi Publishing: sconti del 20% dal 15 maggio al 15 giugno",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110614-ishi-publishing-sconti-del-20-dal-15-maggio-al-15-giugno"
-    },
-    {
-      "title": "Blue Lock: la Japan Football Association lancia un talent camp ispirato all'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110604-blue-lock-la-japan-football-association-lancia-un-talent-camp-ispirato-allanime"
-    },
-    {
-      "title": "Kadokawa taglia i costi: prepensionamento per i dipendenti over 45 nel piano di espansione globale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110619-kadokawa-taglia-i-costi-prepensionamento-per-i-dipendenti-over-45-nel-piano-di-espansione-globale"
+      "url": "https://www.animeclick.it/news/110599-kodansha-manga-awards-2026-annunciati-i-vincitori"
     },
     {
       "title": "Addio a Wakana Yamazaki, la voce di Ran Mori di \"Detective Conan\"",
@@ -4058,29 +4005,39 @@
       "url": "https://www.animeclick.it/news/110633-addio-a-wakana-yamazaki-la-voce-di-ran-mori-di-detective-conan"
     },
     {
-      "title": "News dal mondo gaming: Kingdom Come Deliverance II, Over Requiemz e Dead as Disco",
+      "title": "Neverness to Everness omaggia Initial D con negozio di tofu, Toyota AE86 e strade di montagna",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110568-news-dal-mondo-gaming-kingdom-come-deliverance-ii-over-requiemz-e-dead-as-disco"
+      "url": "https://www.animeclick.it/news/110563-neverness-to-everness-e-ricco-di-riferimenti-a-diversi-anime-soprattutto-a-initial-d"
     },
     {
-      "title": "Annunciati i giochi gratuiti di PlayStation Plus di maggio 2026",
+      "title": "\"Nessuna IP globale è nata dallo streaming\": Sony sfida Netflix e rilancia sugli anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110626-annunciati-i-giochi-gratuiti-di-playstation-plus-di-maggio-2026"
+      "url": "https://www.animeclick.it/news/110625-nessuna-ip-globale-e-nata-dallo-streaming-sony-sfida-netflix-e-rilancia-sugli-anime"
     },
     {
-      "title": "Captain Tsubasa 2: World Fighters si mostra nello Story Trailer",
+      "title": "Una seconda tappa italiana per il concerto di Undertale",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110609-captain-tsubasa-2-world-fighters-si-mostra-nello-story-trailer"
+      "url": "https://www.animeclick.it/news/110622-una-seconda-tappa-italiana-per-il-concerto-di-undertale"
     },
     {
-      "title": "COMICON Napoli 2026: intervista (e showcase) a Katarina e Ryōsuke Fuji (Shangri-La Frontier)",
+      "title": "Draw This, Then Die!: trailer e novità per l'anime in uscita a luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110503-comicon-napoli-2026-intervista-e-showcase-a-katarina-e-ryosuke-fuji-shangri-la-frontier"
+      "url": "https://www.animeclick.it/news/110558-draw-this-then-die-trailer-e-novita-per-lanime-in-uscita-a-luglio"
     },
     {
-      "title": "COMICON Napoli 2026: showcase e talk show di Makoto Yukimura (Star Comics)",
+      "title": "Attack on Titan: le nuove figure di Eren Jeager e Reiner Braun di Prime1Studio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110533-comicon-napoli-2026-showcase-e-talk-show-di-makoto-yukimura-star-comics"
+      "url": "https://www.animeclick.it/news/110627-attack-on-titan-le-nuove-figure-di-eren-yeager-e-reiner-braun-di-prime1studio"
+    },
+    {
+      "title": "Millennium Actress: la poetica di Satoshi Kon attraverso la telecamera",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110519-millennium-actress-la-poetica-di-satoshi-kon-attraverso-la-telecamera"
+    },
+    {
+      "title": "SEGA cancella il misterioso “Super Game”: il progetto non vedrà più la luce",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110606-sega-cancella-il-misterioso-%25e2%2580%259csuper-game%25e2%2580%259d-il-progetto-non-vedra-piu-la-luce"
     },
     {
       "title": "Principessa Mononoke torna al cinema in un’inedita versione restaurata in 4K",
@@ -4088,25 +4045,84 @@
       "url": "https://www.animeclick.it/news/110590-principessa-mononoke-torna-al-cinema-in-un%25e2%2580%2599inedita-versione-restaurata-in-4k"
     },
     {
-      "title": "Genshin Impact presenta le novità della versione Luna VII",
+      "title": "Armored Trooper Votoms: il nuovo progetto sarà composto da due film",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110557-genshin-impact-presenta-le-novita-della-versione-luna-vii"
+      "url": "https://www.animeclick.it/news/110601-armored-trooper-votoms-il-nuovo-progetto-sara-composto-da-due-film"
     },
     {
-      "title": "Gundam: nuovo progetto per Wing, SEED FREEDOM ZERO si prepara al debutto cinematografico",
+      "title": "Demon Slayer, 21 milioni di abbonati e summit a New York: l'impero anime di Sony non si ferma più",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110632-gundam-nuovo-progetto-per-wing-seed-freedom-zero-si-prepara-al-debutto-cinematografico"
+      "url": "https://www.animeclick.it/news/110560-demon-slayer-21-milioni-di-abbonati-e-summit-a-new-york-limpero-anime-di-sony-non-si-ferma-piu"
     },
     {
-      "title": "Sony ammette il flop Bungie: perdite per 765 milioni per Marathon e Destiny 2",
+      "title": "One Piece: Uniqlo presenta la nuova linea di T-shirt dedicata all'arco di Elbaph",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110559-sony-ammette-il-flop-bungie-perdite-per-765-milioni-per-marathon-e-destiny-2"
+      "url": "https://www.animeclick.it/news/110489-uniqlo-presenta-la-nuova-linea-di-t-shirt-dedicata-a-one-piece"
+    },
+    {
+      "title": "COMICON Napoli 2026: intervista e showcase di Kotteri! (J-Pop Manga)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110528-comicon-napoli-2026-intervista-e-showcase-di-kotteri-j-pop-manga"
+    },
+    {
+      "title": "Katsuhiro Harada ed SNK fondano un nuovo studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110608-katsuhiro-harada-ed-snk-fondano-un-nuovo-studio"
+    },
+    {
+      "title": "Annunciati i giochi gratuiti di PlayStation Plus di maggio 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110626-annunciati-i-giochi-gratuiti-di-playstation-plus-di-maggio-2026"
+    },
+    {
+      "title": "Festival Cannes 2026: K2 Pictures annuncia i film anime GIGANT e La cronaca degli insetti umani",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110652-festival-cannes-2026-k2-pictures-annuncia-i-film-anime-gigant-e-la-cronaca-degli-insetti-umani"
+    },
+    {
+      "title": "The Ghost in the Shell: trailer e visual per l'adattamento in arrivo il 7 luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110587-the-ghost-in-the-shell-trailer-e-visual-per-ladattamento-in-arrivo-il-7-luglio"
+    },
+    {
+      "title": "Addio al doppiatore Gianni Quillico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110603-addio-al-doppiatore-gianni-quillico"
+    },
+    {
+      "title": "Mebius Dust: anteprima video per l'anime di Doga Kobo in arrivo a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110631-mebius-dust-anteprima-video-per-anime-di-doga-kobo-in-arrivo-a-luglio"
+    },
+    {
+      "title": "Yebisu Beer x Ai Yazawa: la seconda edizione delle lattine limited edition arriva per il Tanabata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110612-yebisu-beer-x-ai-yazawa-la-seconda-edizione-delle-lattine-limited-edition-arriva-per-il-tanabata"
+    },
+    {
+      "title": "Medaka Kuroiwa Is Impervious to My Charms: teaser trailer per la seconda stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110628-medaka-kuroiwa-is-impervious-to-my-charms-teaser-trailer-per-la-seconda-stagione"
+    },
+    {
+      "title": "Milet contro gli stalker: la cantante di tante sigle anime  denuncia i fan ossessivi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110595-milet-contro-gli-stalker-la-cantante-di-tante-sigle-anime-denuncia-i-fan-ossessivi"
+    },
+    {
+      "title": "Kadokawa taglia i costi: prepensionamento per i dipendenti over 45 nel piano di espansione globale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110619-kadokawa-taglia-i-costi-prepensionamento-per-i-dipendenti-over-45-nel-piano-di-espansione-globale"
     }
   ],
   "youtube_trends": [
     {
       "title": "[Faded Verse ] #romance #booktokitalia #librispicy #enemiestolovers #darkromance #wattpaditalia  #libriditiktok",
       "url": "https://www.youtube.com/watch?v=FmHBBtDFlcA"
+    },
+    {
+      "title": "[Once upon a Vero] Chi era al Salone?📚 #booktok #booktubeitalia #salonedellibro #salto #salonedellibrotorino #romance",
+      "url": "https://www.youtube.com/watch?v=3hx9U-OJfLg"
     },
     {
       "title": "[JoyRead Romanzi] Vuoi sapere come continua? Lascia un commento!! ♥️ #booktok  #youtubeitalia #perte #wattpad",
@@ -4125,10 +4141,6 @@
       "url": "https://www.youtube.com/watch?v=sJ-jDgNs-C4"
     },
     {
-      "title": "[Once upon a Vero] Chi era al Salone?📚 #booktok #booktubeitalia #salonedellibro #salto #salonedellibrotorino #romance",
-      "url": "https://www.youtube.com/watch?v=3hx9U-OJfLg"
-    },
-    {
       "title": "[JoyRead Romanzi] #youtubeitalia #booktok #bibliomanzia #wattpad #ilmaggiodeilibri",
       "url": "https://www.youtube.com/watch?v=-6agXzsZj20"
     },
@@ -4141,12 +4153,16 @@
       "url": "https://www.youtube.com/watch?v=FK_efl4Svxo"
     },
     {
+      "title": "[RuchoManga] Le novità manga della settimana #suppliedby #manga #fumetti #collection #mangaita",
+      "url": "https://www.youtube.com/watch?v=_KbGabcru5s"
+    },
+    {
       "title": "[TG Comics] I fumetti consigliati della settimana (dall&#39;11 al 17 maggio 2026) 🗯️🗨️💭",
       "url": "https://www.youtube.com/watch?v=h23xxwz7TQg"
     },
     {
-      "title": "[RuchoManga] Le novità manga della settimana #suppliedby #manga #fumetti #collection #mangaita",
-      "url": "https://www.youtube.com/watch?v=_KbGabcru5s"
+      "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 417, i migliori FUMETTI e MANGA di LUGLIO 2026 | Polvere &amp; Fumetti",
+      "url": "https://www.youtube.com/watch?v=GVMoFrqFmnk"
     },
     {
       "title": "[Automatic Comics] This Comic’s Price is Skyrocketing 🚀",
@@ -4161,8 +4177,12 @@
       "url": "https://www.youtube.com/watch?v=ZEZnG-SFPIE"
     },
     {
-      "title": "[L'altro fumetto] DEFLAGRAZIONE di Miguel Vila",
-      "url": "https://www.youtube.com/watch?v=RAA8rOMr_IA"
+      "title": "[The Comic Patrol] Absolute Batman 20 Review #dccomics ##comicbooks #Batman #absolutebatman #absoluteuniverse",
+      "url": "https://www.youtube.com/watch?v=1OQvxI97etI"
+    },
+    {
+      "title": "[DC TV Podcasts] DC/Marvel: Spider-Man/Superman (2026-) #1 | Comic Book Review",
+      "url": "https://www.youtube.com/watch?v=HsxB6SdD3og"
     },
     {
       "title": "[The Comic Patrol] Wolverine 20 Review #comicbooks #marvel #Wolverine",
@@ -4177,16 +4197,12 @@
       "url": "https://www.youtube.com/watch?v=YP3SKcjz8BU"
     },
     {
-      "title": "[The Comic Patrol] Destination Kill 1 Review #comicbooks #onipress destinationkill #joepalmer #classwar",
-      "url": "https://www.youtube.com/watch?v=NDYwutNDfwI"
-    },
-    {
       "title": "[The Comic Patrol] Transformers 32 Review #comicbooks #skybound #imagecomics #energonuniverse #transformers",
       "url": "https://www.youtube.com/watch?v=a1WuMnjmPlY"
     },
     {
-      "title": "[Letture Metropolitane] GENERAZIONE FUMETTO - Recensione del documentario scritto e diretto da Omar Rashid",
-      "url": "https://www.youtube.com/watch?v=CuMfpO1K9vE"
+      "title": "[The Comic Patrol] Destination Kill 1 Review #comicbooks #onipress destinationkill #joepalmer #classwar",
+      "url": "https://www.youtube.com/watch?v=NDYwutNDfwI"
     },
     {
       "title": "[Ayasaki-san] [Manga Dub] My classmates try to make me interested in them after overhearing me say...",
