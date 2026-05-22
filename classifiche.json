@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-05-21T16:23:45.817125+00:00",
+  "updated_at": "2026-05-22T08:32:10.777013+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -27,24 +27,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788822772732",
+      "title": "Il contratto. The deal",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791259853608",
-      "title": "La gang dei sogni",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822772732",
-      "title": "Il contratto. The deal",
+      "ean": "9791259853608",
+      "title": "La gang dei sogni",
       "author": "",
       "position": 6,
       "category": "generale",
@@ -67,16 +67,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863116243",
-      "title": "La montagna incantata. Ediz. integrale",
+      "ean": "9788892880047",
+      "title": "Moonwalk. L'unica e sola autobiografia, la sua vita nelle sue parole",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788892880047",
-      "title": "Moonwalk. L'unica e sola autobiografia, la sua vita nelle sue parole",
+      "ean": "9788863116243",
+      "title": "La montagna incantata. Ediz. integrale",
       "author": "",
       "position": 10,
       "category": "generale",
@@ -99,34 +99,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804761648",
-      "title": "Il tempo del la la la",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822788252",
       "title": "Il mio rischio sei tu. The risk",
       "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863115666",
-      "title": "La morte di Ivan Il'ic. Ediz. integrale",
-      "author": "",
-      "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114201",
-      "title": "Uno, nessuno e centomila. Ediz. integrale",
-      "author": "",
-      "position": 16,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,7 +110,23 @@
       "ean": "9788822788276",
       "title": "Resta con me per sempre. The chase",
       "author": "",
-      "position": 17,
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804761648",
+      "title": "Il tempo del la la la",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
+      "author": "",
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,13 +134,21 @@
       "ean": "9788854529724",
       "title": "L'amuleto",
       "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806255145",
+      "title": "Il custode",
+      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114126",
-      "title": "Memorie del sottosuolo. Ediz. integrale",
+      "ean": "9788824978767",
+      "title": "L'altra storia",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -347,16 +347,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788822772732",
+      "title": "Il contratto. The deal",
       "author": "",
       "position": 24,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822772732",
-      "title": "Il contratto. The deal",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 25,
       "category": "narrativa",
@@ -475,8 +475,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781474930956",
-      "title": "Miti illustrati da tutto il mondo. Ediz....",
+      "ean": "9781409561712",
+      "title": "Storie illustrate dai miti greci. Ediz. ...",
       "author": "",
       "position": 10,
       "category": "bambini_ragazzi",
@@ -491,10 +491,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804484448",
+      "title": "Le avventure di Pinocchio",
+      "author": "",
+      "position": 12,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804507390",
       "title": "Il mago",
       "author": "",
-      "position": 12,
+      "position": 13,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804530237",
+      "title": "Coraline. Ediz. illustrata",
+      "author": "",
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,29 +518,13 @@
       "ean": "9788804530305",
       "title": "Stargirl",
       "author": "",
-      "position": 13,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788804543282",
       "title": "La schiappa",
-      "author": "",
-      "position": 14,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804544562",
-      "title": "Nihal della terra del vento. Cronache de...",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804554745",
-      "title": "La bambinaia francese",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -667,18 +667,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788829602353",
+      "title": "Estate con la nuvola Olga. Ediz. a colori",
       "author": "",
       "position": 34,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788845941061",
-      "title": "La scatola delle lacrime",
-      "author": "",
-      "position": 35,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -686,15 +678,31 @@
       "ean": "9788804607731",
       "title": "La tela di Carlotta",
       "author": "",
+      "position": 35,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845941061",
+      "title": "La scatola delle lacrime",
+      "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788829602353",
-      "title": "Estate con la nuvola Olga. Ediz. a colori",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 37,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788867148608",
+      "title": "Cane & gatto. Ediz. a colori",
+      "author": "",
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -702,21 +710,13 @@
       "ean": "9788818031522",
       "title": "Cime tempestose. Ediz. integrale",
       "author": "",
-      "position": 38,
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788862464291",
       "title": "Mamma, dove vai quando non sei con me? E...",
-      "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867148608",
-      "title": "Cane & gatto. Ediz. a colori",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854050631",
-      "title": "Frida Kahlo e la sua vita a colori. I mi...",
+      "ean": "9788866567578",
+      "title": "L'incredibile storia di Lavinia. Pocket....",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -1011,32 +1011,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9788833040721",
+      "title": "Trillium",
       "author": "",
       "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828756323",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 21: ...",
+      "ean": "9788855055321",
+      "title": "Come godo. Guida avventurosa al piacere ...",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828762942",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 8: D...",
+      "ean": "9788834941973",
+      "title": "L'estate in cui Hikaru è morto. Vol. 8",
       "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828770572",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 22: ...",
+      "ean": "9788864202143",
+      "title": "One piece. New edition. Vol. 28",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1163,8 +1163,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804581642",
-      "title": "L'illusione di Dio. Le ragioni per non c...",
+      "ean": "9788804583912",
+      "title": "Conversazioni notturne a Gerusalemme. Su...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1323,24 +1323,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788887028690",
-      "title": "Un bicchiere di veleno. Jonestown e il p...",
+      "ean": "9788884171092",
+      "title": "L'opera del movimento. La Fraternità di ...",
       "author": "",
       "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788884171092",
-      "title": "L'opera del movimento. La Fraternità di ...",
+      "ean": "9788887028690",
+      "title": "Un bicchiere di veleno. Jonestown e il p...",
       "author": "",
       "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259755384",
-      "title": "Io sono come guardo. Lo sguardo di Crist...",
+      "ean": "9788826610641",
+      "title": "La pratica della presenza di Dio",
       "author": "",
       "position": 38,
       "category": "religione",
@@ -1355,16 +1355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804745440",
-      "title": "Profondo come il mare, leggero come il c...",
+      "ean": "9788801069877",
+      "title": "L'eresia di Francesco. Storia di un sant...",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788845934360",
-      "title": "L'insegnamento del Buddha",
+      "ean": "9788804745440",
+      "title": "Profondo come il mare, leggero come il c...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -1683,10 +1683,26 @@
       "source": "giunti"
     },
     {
+      "ean": "9788809914469",
+      "title": "Teresa Papavero e le verità nascoste",
+      "author": "",
+      "position": 19,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791223211380",
+      "title": "L'inferno che è dentro di me",
+      "author": "",
+      "position": 20,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9788804814726",
       "title": "L'ombra delle due colonne",
       "author": "",
-      "position": 19,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1694,7 +1710,7 @@
       "ean": "9788850275243",
       "title": "Segnale assente. Un'indagine per i Cinque di Monteverde",
       "author": "",
-      "position": 20,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1702,7 +1718,7 @@
       "ean": "9788850275243",
       "title": "Segnale assente. Un'indagine per i Cinq...",
       "author": "François Morlupi",
-      "position": 21,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1710,7 +1726,7 @@
       "ean": "9788850276622",
       "title": "Le conseguenze dell'odio",
       "author": "",
-      "position": 22,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1718,29 +1734,13 @@
       "ean": "9791259678522",
       "title": "L'internato",
       "author": "",
-      "position": 23,
+      "position": 25,
       "category": "gialli_thriller",
       "source": "giunti"
     },
     {
       "ean": "9788817198981",
       "title": "La controra del Barolo",
-      "author": "",
-      "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788855448888",
-      "title": "La prova",
-      "author": "",
-      "position": 25,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788842937630",
-      "title": "Killer instinct. L'istinto di uccidere",
       "author": "",
       "position": 26,
       "category": "gialli_thriller",
@@ -1883,10 +1883,42 @@
       "source": "giunti"
     },
     {
+      "ean": "9788852247125",
+      "title": "Pluto at the vet's - Pluto va dal veterinario - L'inglese con Disney Prime letture con QR Code",
+      "author": "",
+      "position": 18,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788852247125",
+      "title": "Pluto at the vet's - Pluto va dal veter...",
+      "author": "Walt Disney",
+      "position": 19,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788852247118",
+      "title": "A fun weekend Un divertente fine settimana - L'inglese con Disney Prime letture con QR Code",
+      "author": "",
+      "position": 20,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788852247118",
+      "title": "A fun weekend Un divertente fine settim...",
+      "author": "Walt Disney",
+      "position": 21,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9788830330979",
       "title": "Faccio colazione. Scorri e scopri",
       "author": "",
-      "position": 18,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1894,7 +1926,7 @@
       "ean": "9781836067788",
       "title": "Gatti e micini. Con adesivi",
       "author": "",
-      "position": 19,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1902,7 +1934,7 @@
       "ean": "9781836067887",
       "title": "Il calcio. Con adesivi",
       "author": "",
-      "position": 20,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1910,7 +1942,7 @@
       "ean": "9788833701943",
       "title": "In alto mare. Guida pratica per piccoli navigatori lungo le rotte dei giganti marini",
       "author": "",
-      "position": 21,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1918,45 +1950,13 @@
       "ean": "9788833701943",
       "title": "In alto mare. Guida pratica per piccoli...",
       "author": "Elisabetta Mitrovic",
-      "position": 22,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788854061859",
-      "title": "Alla scoperta di Venezia. Piccoli esploratori",
-      "author": "",
-      "position": 23,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788854061859",
-      "title": "Alla scoperta di Venezia. Piccoli esplo...",
-      "author": "Daniela Celli",
-      "position": 24,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791255335184",
-      "title": "Warhammer 40.000. L'enciclopedia dei personaggi",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791255335184",
-      "title": "Warhammer 40.000. L'enciclopedia dei pe...",
-      "author": "Wade Pryce",
       "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
-      "ean": "9788847743816",
-      "title": "Esercizi in vacanza! 6 minuti al giorno",
+      "ean": "9791223201091",
+      "title": "Meraviglie della natura",
       "author": "",
       "position": 27,
       "category": "bambini_ragazzi",
@@ -3971,114 +3971,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Demon Slayer: Star Comics annuncia una nuova edizione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110663-demon-slayer-star-comics-annuncia-una-nuova-edizione"
-    },
-    {
-      "title": "Addio a Yuji Ono, compositore delle musiche di Lupin III",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110605-addio-a-yuji-ono-compositore-delle-musiche-di-lupin-iii"
-    },
-    {
       "title": "Kadokawa e la crisi degli isekai: quando puntare sempre sullo stesso genere diventa un boomerang",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110653-kadokawa-e-la-crisi-degli-isekai-quando-puntare-sempre-sullo-stesso-genere-diventa-un-boomerang"
-    },
-    {
-      "title": "Pokémon: In Giappone arriva l'aereoporto a tema",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110651-pokemon-in-giappone-arriva-laereoporto-a-tema"
-    },
-    {
-      "title": "Annunciati i giochi gratuiti di PlayStation Plus di maggio 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110626-annunciati-i-giochi-gratuiti-di-playstation-plus-di-maggio-2026"
-    },
-    {
-      "title": "Captain Tsubasa 2: World Fighters si mostra nello Story Trailer",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110609-captain-tsubasa-2-world-fighters-si-mostra-nello-story-trailer"
-    },
-    {
-      "title": "Addio a Wakana Yamazaki, la voce di Ran Mori di \"Detective Conan\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110633-addio-a-wakana-yamazaki-la-voce-di-ran-mori-di-detective-conan"
-    },
-    {
-      "title": "Gundam: nuovo progetto per Wing, SEED FREEDOM ZERO si prepara al debutto cinematografico",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110632-gundam-nuovo-progetto-per-wing-seed-freedom-zero-si-prepara-al-debutto-cinematografico"
-    },
-    {
-      "title": "Box Office Giappone: Detective Conan ancora sul podio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110596-box-office-giappone-detective-conan-ancora-sul-podio"
-    },
-    {
-      "title": "Epic Games: \"L'IA non vi ruberà il lavoro\" (dopo aver licenziato 1000 persone)",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110597-epic-games-lia-non-vi-rubera-il-lavoro-dopo-aver-licenziato-1000-persone"
-    },
-    {
-      "title": "Omae, Tanuki ni Narane-ka?: annunciato l'adattamento animato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110673-omae-tanuki-ni-narane-ka-annunciato-ladattamento-animato"
-    },
-    {
-      "title": "Una seconda tappa italiana per il concerto di Undertale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110622-una-seconda-tappa-italiana-per-il-concerto-di-undertale"
-    },
-    {
-      "title": "PlayStation aumenta il prezzo del Plus e cancella le esclusive su PC",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110667-playstation-aumenta-il-prezzo-del-plus-e-cancella-le-esclusive-su-pc"
-    },
-    {
-      "title": "Capcom accelera sui videogiochi: ricavi record e prospettive in crescita per il 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110610-capcom-accelera-sui-videogiochi-ricavi-record-e-prospettive-in-crescita-per-il-2026"
-    },
-    {
-      "title": "Un uomo su tre preferisce giocare ai videogiochi con personaggi femminili",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110668-un-uomo-su-tre-preferisce-giocare-ai-videogiochi-con-personaggi-femminili"
-    },
-    {
-      "title": "One Piece: la ciurma sbarca a Milano con un imperdibile pop-up store",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110675-one-piece-la-ciurma-sbarca-a-milano-con-un-imperdibile-pop-up-store"
-    },
-    {
-      "title": "Anteprima 417: annunci e altre novità per Planet Manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110636-anteprima-417-annunci-e-altre-novita-per-planet-manga"
-    },
-    {
-      "title": "Forza Horizon 6 in accesso anticipato è già record di utenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110655-forza-horizon-6-in-accesso-anticipato-e-gia-record-di-utenti"
-    },
-    {
-      "title": "Alberto Angela porta la cultura pop del Giappone su Rai 1: un'occasione a metà?",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110598-alberto-angela-porta-la-cultura-pop-del-giappone-su-rai-1-unoccasione-a-meta"
-    },
-    {
-      "title": "PlayStation positiva sul futuro: “I prossimi anni saranno incredibili”",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110607-playstation-positiva-sul-futuro-%25e2%2580%259ci-prossimi-anni-saranno-incredibili%25e2%2580%259d"
-    },
-    {
-      "title": "Il creatore di Final Fantasy elogia un fake trailer IA di FF6 e scoppia la polemica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110672-il-creatore-di-final-fantasy-elogia-un-fake-trailer-ia-di-ff6-e-scoppia-la-polemica"
-    },
-    {
-      "title": "Yebisu Beer x Ai Yazawa: la seconda edizione delle lattine limited edition arriva per il Tanabata",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110612-yebisu-beer-x-ai-yazawa-la-seconda-edizione-delle-lattine-limited-edition-arriva-per-il-tanabata"
     },
     {
       "title": "J-POP Manga: le novità dal Direct 142",
@@ -4086,9 +3981,84 @@
       "url": "https://www.animeclick.it/news/110674-j-pop-manga-le-novita-dal-direct-142"
     },
     {
-      "title": "SEGA cancella il misterioso “Super Game”: il progetto non vedrà più la luce",
+      "title": "Forza Horizon 6 in accesso anticipato è già record di utenti",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110606-sega-cancella-il-misterioso-%25e2%2580%259csuper-game%25e2%2580%259d-il-progetto-non-vedra-piu-la-luce"
+      "url": "https://www.animeclick.it/news/110655-forza-horizon-6-in-accesso-anticipato-e-gia-record-di-utenti"
+    },
+    {
+      "title": "PlayStation aumenta il prezzo del Plus e cancella le esclusive su PC",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110667-playstation-aumenta-il-prezzo-del-plus-e-cancella-le-esclusive-su-pc"
+    },
+    {
+      "title": "Black Clover: informazioni sul doppiaggio di Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110679-black-clover-informazioni-sul-doppiaggio-di-crunchyroll"
+    },
+    {
+      "title": "Patlabor EZY: nuovo trailer per l'anime in arrivo nei cinema",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110618-patlabor-ezy-nuovo-trailer-per-il-primo-film-del-progetto"
+    },
+    {
+      "title": "Gundam: nuovo progetto per Wing, SEED FREEDOM ZERO si prepara al debutto cinematografico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110632-gundam-nuovo-progetto-per-wing-seed-freedom-zero-si-prepara-al-debutto-cinematografico"
+    },
+    {
+      "title": "Armored Trooper Votoms: il nuovo progetto sarà composto da due film",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110601-armored-trooper-votoms-il-nuovo-progetto-sara-composto-da-due-film"
+    },
+    {
+      "title": "COMICON Napoli 2026: showcase e talk show di Makoto Yukimura (Star Comics)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110533-comicon-napoli-2026-showcase-e-talk-show-di-makoto-yukimura-star-comics"
+    },
+    {
+      "title": "Alberto Angela porta la cultura pop del Giappone su Rai 1: un'occasione a metà?",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110598-alberto-angela-porta-la-cultura-pop-del-giappone-su-rai-1-unoccasione-a-meta"
+    },
+    {
+      "title": "One-Punch Man nella vita reale: uno youtuber completa il Saitama Challenge in tre anni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110680-one-punch-man-nella-vita-reale-uno-youtuber-completa-il-saitama-challenge-in-tre-anni"
+    },
+    {
+      "title": "Wandance: informazioni sul doppiaggio di Disney+",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110624-wandance-informazioni-sul-doppiaggio-di-disney"
+    },
+    {
+      "title": "Ishi Publishing: sconti del 20% dal 15 maggio al 15 giugno",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110614-ishi-publishing-sconti-del-20-dal-15-maggio-al-15-giugno"
+    },
+    {
+      "title": "Yamato Video e Nexo Studios portano nelle sale Arion, film di Yoshikazu Yasuhiko",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110682-yamato-video-e-nexo-studios-portano-nelle-sale-arion-film-di-yoshikazu-yasuhiko"
+    },
+    {
+      "title": "Un uomo su tre preferisce giocare ai videogiochi con personaggi femminili",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110668-un-uomo-su-tre-preferisce-giocare-ai-videogiochi-con-personaggi-femminili"
+    },
+    {
+      "title": "The Forsaken Saintess and Her Foodie Roadtrip in Another World: trailer per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110645-the-forsaken-saintess-and-her-foodie-roadtrip-in-another-world-trailer-per-lanime"
+    },
+    {
+      "title": "Attack on Titan: le nuove figure di Eren Jeager e Reiner Braun di Prime1Studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110627-attack-on-titan-le-nuove-figure-di-eren-yeager-e-reiner-braun-di-prime1studio"
+    },
+    {
+      "title": "Anime e musica: torna per la quarta edizione la rassegna anime a Torino",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110613-anime-al-cinema-torna-per-la-quarta-edizione-la-rassegna-anime-a-torino"
     },
     {
       "title": "The Insipid Prince's Furtive Grab for The Throne: trailer per l'anime in arrivo",
@@ -4096,29 +4066,59 @@
       "url": "https://www.animeclick.it/news/110602-the-insipid-princes-furtive-grab-for-the-throne-trailer-per-lanime-in-arrivo"
     },
     {
-      "title": "Bocchi the Rock!: riprende il manga dopo la pausa dell'autrice",
+      "title": "Pokémon: In Giappone arriva l'aereoporto a tema",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110664-bocchi-the-rock-riprende-il-manga-dopo-la-pausa-dellautrice"
+      "url": "https://www.animeclick.it/news/110651-pokemon-in-giappone-arriva-laereoporto-a-tema"
     },
     {
-      "title": "Nessun nuovo PC da gioco per il 60% dei gamer nei prossimi due anni",
+      "title": "Bleach: Thousand-Year Blood War: diffuso il trailer del nuovo arco in arrivo a luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110657-nessun-nuovo-pc-da-gioco-per-il-60-dei-gamer-nei-prossimi-due-anni"
+      "url": "https://www.animeclick.it/news/110665-bleach-thousand-year-blood-war-diffuso-il-trailer-del-nuovo-arco-in-arrivo-a-luglio"
     },
     {
-      "title": "Stranger Than Heaven: il gioco unisce Snoop Dogg e Ado sotto la stessa bandiera",
+      "title": "Il creatore di Final Fantasy elogia un fake trailer IA di FF6 e scoppia la polemica",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110591-stranger-than-heaven-il-gioco-unisce-snoop-dogg-e-ado-sotto-la-stessa-bandiera"
+      "url": "https://www.animeclick.it/news/110672-il-creatore-di-final-fantasy-elogia-un-fake-trailer-ia-di-ff6-e-scoppia-la-polemica"
     },
     {
-      "title": "Umineko: When They Cry – Saku: le storie brevi della visual novel arrivano in occidente",
+      "title": "COMICON Napoli 2026: Grand Blue è l'annuncio preferito dell'utenza",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110656-umineko-when-they-cry-%25e2%2580%2593-saku-le-storie-brevi-della-visual-novel-arrivano-in-occidente"
+      "url": "https://www.animeclick.it/news/110629-comicon-napoli-2026-grand-blue-e-annuncio-preferito-dell-utenza"
     },
     {
-      "title": "Il Monte Fuji non è un parco giochi: il sindaco stanco di salvare turisti che ignorano i divieti",
+      "title": "Shonen Jump e il fanservice imposto: un autore rompe il silenzio dopo dieci anni",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110637-fuji"
+      "url": "https://www.animeclick.it/news/110670-shonen-jump-e-il-fanservice-imposto-un-autore-rompe-il-silenzio-dopo-dieci-anni"
+    },
+    {
+      "title": "Box Office Giappone: Detective Conan ancora sul podio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110596-box-office-giappone-detective-conan-ancora-sul-podio"
+    },
+    {
+      "title": "I Cavalieri dello Zodiaco invadono McDonald's Japan: burger limited e uno spot da non perdere",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110616-i-cavalieri-dello-zodiaco-invadono-mcdonalds-japan-burger-limited-e-uno-spot-da-non-perdere"
+    },
+    {
+      "title": "Addio al Gundam Unicorn di Odaiba: la statua lascerà Tokyo ad agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110644-addio-al-gundam-unicorn-di-odaiba-la-statua-lascera-tokyo-ad-agosto-2026"
+    },
+    {
+      "title": "\"Nessuna IP globale è nata dallo streaming\": Sony sfida Netflix e rilancia sugli anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110625-nessuna-ip-globale-e-nata-dallo-streaming-sony-sfida-netflix-e-rilancia-sugli-anime"
+    },
+    {
+      "title": "Addio a Wakana Yamazaki, la voce di Ran Mori di \"Detective Conan\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110633-addio-a-wakana-yamazaki-la-voce-di-ran-mori-di-detective-conan"
+    },
+    {
+      "title": "Addio al doppiatore Gianni Quillico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110603-addio-al-doppiatore-gianni-quillico"
     }
   ],
   "youtube_trends": [
@@ -4141,10 +4141,6 @@
     {
       "title": "[JoyRead Romanzi] Curioso di questa storia? Commenta qui sotto!! ♥️  #youtubeitalia #booktok #wattpad #books",
       "url": "https://www.youtube.com/watch?v=H0jVCZFBGqE"
-    },
-    {
-      "title": "[JoyRead Romanzi] #youtubeitalia #booktok #bibliomanzia #wattpad #ilmaggiodeilibri",
-      "url": "https://www.youtube.com/watch?v=-6agXzsZj20"
     },
     {
       "title": "[Nate from Michigan] shadowing en inglés con traducción a español #inglesrapido #inglesencasa #ingles #booktok",
@@ -4171,6 +4167,10 @@
       "url": "https://www.youtube.com/watch?v=GVMoFrqFmnk"
     },
     {
+      "title": "[Kyokami] She Left Him Behind… And Left Him A Daughter",
+      "url": "https://www.youtube.com/watch?v=olCvC2zo7I4"
+    },
+    {
       "title": "[Yuhoo Comic Review] X-Men by Guggenheim",
       "url": "https://www.youtube.com/watch?v=ZEZnG-SFPIE"
     },
@@ -4187,6 +4187,10 @@
       "url": "https://www.youtube.com/watch?v=1OQvxI97etI"
     },
     {
+      "title": "[TheComicBookReport] DAKEN DARK WOLVERINE OMNIBUS 📚 #wolverine #comics #marvel",
+      "url": "https://www.youtube.com/watch?v=FS4ZptRE08A"
+    },
+    {
       "title": "[DANI DARK COMICS] DC E MARVEL POCKET TRA LETTURE E FUTURE RECENSIONI:#fumetti #dc #marvel #comics #lettura #recensione",
       "url": "https://www.youtube.com/watch?v=Sf6iQtWFQ2s"
     },
@@ -4195,20 +4199,16 @@
       "url": "https://www.youtube.com/watch?v=zjrkCrWQvhU"
     },
     {
+      "title": "[Isola di Carta] Recensione:&quot;La Divina Congrega&quot;",
+      "url": "https://www.youtube.com/watch?v=Ix-H5G6VRyQ"
+    },
+    {
       "title": "[The Comic Patrol] Transformers 32 Review #comicbooks #skybound #imagecomics #energonuniverse #transformers",
       "url": "https://www.youtube.com/watch?v=a1WuMnjmPlY"
     },
     {
-      "title": "[The Comic Patrol] Wolverine 20 Review #comicbooks #marvel #Wolverine",
-      "url": "https://www.youtube.com/watch?v=vRiNu4tsuOg"
-    },
-    {
       "title": "[The Comic Patrol] Spawn 375 Review #imagecomics #Spawn #comicbooks",
       "url": "https://www.youtube.com/watch?v=Cczgx2rlkUY"
-    },
-    {
-      "title": "[L'angolo del Mauretton] Il fumetto di LOBO: vi presento e vi recensisco il 1^omnibus!",
-      "url": "https://www.youtube.com/watch?v=2r3JOvW57lY"
     },
     {
       "title": "[Arkantos] MASHLE 3 nel 2027, MY HERO ACADEMIA FINISCE ad AGOSTO e NUOVI ANIME DOPPIATI! Anime &amp; Manga News🔥",
@@ -4235,16 +4235,8 @@
       "url": "https://www.youtube.com/watch?v=B_AGOO3Pykg"
     },
     {
-      "title": "[Thinking Critical] Comic Shops vs New Readers… Pick a Side",
-      "url": "https://www.youtube.com/watch?v=VUrhZFIZN14"
-    },
-    {
       "title": "[IL SAWI] Ci saranno mai dei nuovi big three?",
       "url": "https://www.youtube.com/watch?v=6r3iQ4BsNzg"
-    },
-    {
-      "title": "[Danny The Creator] BEST WAY TO READ MANGA &amp; MANHWA | NO ADS &amp; DOWNLOAD OPTION AVAILABLE || 100% LEGAL",
-      "url": "https://www.youtube.com/watch?v=a8gBDXpCAvo"
     },
     {
       "title": "[Nero Megaman ] Okaron About To Lose His New Powers -Dandadan Chapter 234",
