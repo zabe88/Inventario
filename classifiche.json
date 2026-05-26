@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-05-26T08:43:02.726543+00:00",
+  "updated_at": "2026-05-26T16:52:49.778755+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -59,18 +59,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788892880047",
-      "title": "Moonwalk. L'unica e sola autobiografia, la sua vita nelle sue parole",
-      "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822788252",
       "title": "Il mio rischio sei tu. The risk",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,15 +70,15 @@
       "ean": "9788822788276",
       "title": "Resta con me per sempre. The chase",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804761648",
-      "title": "Il tempo del la la la",
+      "ean": "9788892880047",
+      "title": "Moonwalk. L'unica e sola autobiografia, la sua vita nelle sue parole",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,13 +86,21 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788863116243",
       "title": "La montagna incantata. Ediz. integrale",
+      "author": "",
+      "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804761648",
+      "title": "Il tempo del la la la",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -147,16 +147,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788807037375",
-      "title": "Il tempo dell'orologiaio",
+      "ean": "9788822788283",
+      "title": "Sei l'amore che cercavo. The play",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9788822788290",
+      "title": "Ti ho trovato quasi per caso. The dare",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804761648",
-      "title": "Il tempo del la la la",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -563,24 +563,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858049006",
-      "title": "So this is ever after. Per sempre felici...",
+      "ean": "9791255334842",
+      "title": "The ballad of falling dragons. L'ultima ...",
       "author": "",
       "position": 21,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883627217",
-      "title": "Il favoloso club del libro del bus 65. E...",
+      "ean": "9788858049006",
+      "title": "So this is ever after. Per sempre felici...",
       "author": "",
       "position": 22,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9791255334842",
-      "title": "The ballad of falling dragons. L'ultima ...",
+      "ean": "9788883627217",
+      "title": "Il favoloso club del libro del bus 65. E...",
       "author": "",
       "position": 23,
       "category": "bambini_ragazzi",
@@ -683,24 +683,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788845941061",
+      "title": "La scatola delle lacrime",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867148608",
-      "title": "Cane & gatto. Ediz. a colori",
+      "ean": "9788847737211",
+      "title": "Orso Pasticcio e Balenottera. Ediz. illu...",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788845941061",
-      "title": "La scatola delle lacrime",
+      "ean": "9788854050631",
+      "title": "Frida Kahlo e la sua vita a colori. I mi...",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867147335",
-      "title": "Amici amici. Ediz. a colori",
+      "ean": "9788867148608",
+      "title": "Cane & gatto. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -819,18 +819,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804687528",
-      "title": "Ma io che ne so? Sette strane storie per...",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804721512",
       "title": "Io sono One Piece. Vol. 3",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +830,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,7 +838,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -854,13 +846,21 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
+      "author": "",
+      "position": 15,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804767091",
+      "title": "The Heartstopper yearbook",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -995,16 +995,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817200769",
-      "title": "Weekly. Blacksad stories",
+      "ean": "9788467491586",
+      "title": "Hellblazer",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788467491586",
-      "title": "Hellblazer",
+      "ean": "9788817200769",
+      "title": "Weekly. Blacksad stories",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1299,10 +1299,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788826610931",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "author": "",
+      "position": 33,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
-      "position": 33,
+      "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1318,7 @@
       "ean": "9788885539143",
       "title": "Il mistero della donna",
       "author": "",
-      "position": 34,
+      "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,7 +1326,7 @@
       "ean": "9788892244078",
       "title": "L'origine del sublime",
       "author": "",
-      "position": 35,
+      "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,7 +1334,7 @@
       "ean": "9788826610641",
       "title": "La pratica della presenza di Dio",
       "author": "",
-      "position": 36,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,7 +1342,7 @@
       "ean": "9788822711342",
       "title": "L'arte buddhista di riparare i cuori inf...",
       "author": "",
-      "position": 37,
+      "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1342,7 +1350,15 @@
       "ean": "9788817075930",
       "title": "Tornare a Gesù",
       "author": "",
-      "position": 38,
+      "position": 39,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828207573",
+      "title": "Unorthodox. Lo scandaloso rifiuto delle ...",
+      "author": "",
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1350,31 +1366,7 @@
       "ean": "9788825061598",
       "title": "Ricordati che devi morire. Prepararsi al...",
       "author": "",
-      "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804745440",
-      "title": "Profondo come il mare, leggero come il c...",
-      "author": "",
-      "position": 40,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788801069877",
-      "title": "L'eresia di Francesco. Storia di un sant...",
-      "author": "",
       "position": 41,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788837240813",
-      "title": "Humanitas (2025). Vol. 4: Apocalisse e f...",
-      "author": "",
-      "position": 42,
       "category": "religione",
       "source": "libraccio"
     },
@@ -4059,129 +4051,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Hollywood guarda al Giappone: sempre più adattamenti da anime, manga e videogiochi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110707-hollywood-guarda-al-giappone-sempre-piu-adattamenti-da-anime-manga-e-videogiochi"
-    },
-    {
-      "title": "Addio a Wakana Yamazaki, la voce di Ran Mori di \"Detective Conan\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110633-addio-a-wakana-yamazaki-la-voce-di-ran-mori-di-detective-conan"
-    },
-    {
-      "title": "PlayStation aumenta il prezzo del Plus e cancella le esclusive su PC",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110667-playstation-aumenta-il-prezzo-del-plus-e-cancella-le-esclusive-su-pc"
-    },
-    {
-      "title": "Made in Abyss Awakening Mystery: nuovo trailer per il primo film sequel della serie animata",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110690-made-in-abyss-awakening-mystery-nuovo-trailer-per-il-primo-film-sequel-della-serie-animata"
-    },
-    {
       "title": "One Piece: la ciurma sbarca a Milano con un imperdibile pop-up store",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110675-one-piece-la-ciurma-sbarca-a-milano-con-un-imperdibile-pop-up-store"
-    },
-    {
-      "title": "Detective Conan e Star Detective Precure!: annunciati gli episodi crossover",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110724-detective-conan-e-star-detective-precure-annunciati-gli-episodi-crossover"
-    },
-    {
-      "title": "Forza Horizon 6 in accesso anticipato è già record di utenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110655-forza-horizon-6-in-accesso-anticipato-e-gia-record-di-utenti"
-    },
-    {
-      "title": "Stop al bagarinaggio delle carte Pokémon? La soluzione arriva dal Giappone",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110685-stop-al-bagarinaggio-delle-carte-pokemon-la-soluzione-arriva-dal-giappone"
-    },
-    {
-      "title": "Takopi's Original Sin: la serie riceverà un film animato con scene extra",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110715-takopis-original-sin-la-serie-ricevera-un-film-animato-con-scene-extra"
-    },
-    {
-      "title": "Deadman Wonderland: informazioni sul doppiaggio di Dynit",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110722-deadman-wonderland-informazioni-sul-doppiaggio-di-dynit"
-    },
-    {
-      "title": "Salaryman Z: termina il manga di NUMBER 8 e Ten Ishida",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110705-salaryman-z-termina-il-manga-di-number-8-e-ten-ishida"
-    },
-    {
-      "title": "Honkai: Star Rail presenta le novità della patch 4.3",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110692-honkai-star-rail-presenta-le-novita-della-patch-43"
-    },
-    {
-      "title": "Black Clover: informazioni sul doppiaggio di Crunchyroll",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110679-black-clover-informazioni-sul-doppiaggio-di-crunchyroll"
-    },
-    {
-      "title": "Japan Days: il 23 e 24 maggio torna a Roma la magia del Giappone",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110615-japan-days-il-23-e-24-maggio-torna-a-roma-la-magia-del-giappone"
-    },
-    {
-      "title": "Coconino Fest a Ravenna: programma e firmacopie con Miki Yamamoto",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110678-coconino-fest-a-ravenna-programma-e-firmacopie-con-miki-yamamoto"
-    },
-    {
-      "title": "Addio al doppiatore Gianni Quillico",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110603-addio-al-doppiatore-gianni-quillico"
-    },
-    {
-      "title": "Katsuhiro Harada ed SNK fondano un nuovo studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110608-katsuhiro-harada-ed-snk-fondano-un-nuovo-studio"
-    },
-    {
-      "title": "Scooby-Doo diventa un anime giapponese: arriva Yokoso Scooby-Doo!",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110699-scooby-doo-diventa-un-anime-giapponese-arriva-yokoso-scooby-doo"
-    },
-    {
-      "title": "Studio Khara: 20 anni fa Hideaki Anno lasciava Gainax per un nuovo Evangelion",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110244-studio-khara-20-anni-fa-hideaki-anno-lasciava-gainax-per-un-nuovo-evangelion"
-    },
-    {
-      "title": "Shonen Jump e il fanservice imposto: un autore rompe il silenzio dopo dieci anni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110670-shonen-jump-e-il-fanservice-imposto-un-autore-rompe-il-silenzio-dopo-dieci-anni"
-    },
-    {
-      "title": "Demon Slayer: Star Comics annuncia una nuova edizione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110663-demon-slayer-star-comics-annuncia-una-nuova-edizione"
-    },
-    {
-      "title": "Attack on Titan: le nuove figure di Eren Jeager e Reiner Braun di Prime1Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110627-attack-on-titan-le-nuove-figure-di-eren-yeager-e-reiner-braun-di-prime1studio"
-    },
-    {
-      "title": "Crunchyroll Anime Awards 2026: ecco i vincitori",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110706-crunchyroll-anime-awards-2026-ecco-i-vincitori"
-    },
-    {
-      "title": "Iron Wok Jan: trailer per l'anime in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110641-iron-wok-jan-trailer-per-lanime-in-arrivo-a-luglio"
-    },
-    {
-      "title": "Addio al Gundam Unicorn di Odaiba: la statua lascerà Tokyo ad agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110644-addio-al-gundam-unicorn-di-odaiba-la-statua-lascera-tokyo-ad-agosto-2026"
     },
     {
       "title": "F1 26 è stato annunciato e come previsto, sarà solo un'espansione di F1 25",
@@ -4189,38 +4061,154 @@
       "url": "https://www.animeclick.it/news/110693-f1-26-e-stato-annunciato-e-come-previsto-sara-solo-unespansione-di-f1-25"
     },
     {
-      "title": "The Forsaken Saintess and Her Foodie Roadtrip in Another World: trailer per l'anime",
+      "title": "Il creatore di Final Fantasy elogia un fake trailer IA di FF6 e scoppia la polemica",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110645-the-forsaken-saintess-and-her-foodie-roadtrip-in-another-world-trailer-per-lanime"
+      "url": "https://www.animeclick.it/news/110672-il-creatore-di-final-fantasy-elogia-un-fake-trailer-ia-di-ff6-e-scoppia-la-polemica"
     },
     {
-      "title": "Anime Preview: trailer per Mononoke Snake God e Kimi-Hana",
+      "title": "Berserk torna dopo otto mesi di silenzio: il capitolo 384 ha una data",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110698-anime-preview-trailer-per-mononoke-snake-god-e-kimi-hana"
+      "url": "https://www.animeclick.it/news/110691-berserk-torna-dopo-otto-mesi-di-silenzio-il-capitolo-384-ha-una-data"
     },
     {
-      "title": "Medaka Kuroiwa Is Impervious to My Charms: teaser trailer per la seconda stagione",
+      "title": "Made in Abyss Awakening Mystery: nuovo trailer per il primo film sequel della serie animata",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110628-medaka-kuroiwa-is-impervious-to-my-charms-teaser-trailer-per-la-seconda-stagione"
+      "url": "https://www.animeclick.it/news/110690-made-in-abyss-awakening-mystery-nuovo-trailer-per-il-primo-film-sequel-della-serie-animata"
     },
     {
-      "title": "Hana-Kimi: trailer per la seconda stagione in arrivo a luglio",
+      "title": "Honkai: Star Rail presenta le novità della patch 4.3",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110708-hana-kimi-trailer-per-la-seconda-stagione-in-arrivo-a-luglio"
+      "url": "https://www.animeclick.it/news/110692-honkai-star-rail-presenta-le-novita-della-patch-43"
+    },
+    {
+      "title": "Addio al Gundam Unicorn di Odaiba: la statua lascerà Tokyo ad agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110644-addio-al-gundam-unicorn-di-odaiba-la-statua-lascera-tokyo-ad-agosto-2026"
+    },
+    {
+      "title": "Bleach: Thousand-Year Blood War: diffuso il trailer del nuovo arco in arrivo a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110665-bleach-thousand-year-blood-war-diffuso-il-trailer-del-nuovo-arco-in-arrivo-a-luglio"
+    },
+    {
+      "title": "Box Office Giappone: Detective Conan terzo, debutta Kimi no Quiz, dal romanzo di Satoshi Ogawa",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110661-box-office-giappone-detective-conan-terzo-debutta-kimi-no-quiz-dal-romanzo-di-satoshi-ogawa"
+    },
+    {
+      "title": "Annunciati i giochi gratuiti di PlayStation Plus di maggio 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110626-annunciati-i-giochi-gratuiti-di-playstation-plus-di-maggio-2026"
+    },
+    {
+      "title": "Gachiakuta, insulti e polemiche: la mangaka Kei Urana abbandona X",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110729-gachiakuta-insulti-e-polemiche-la-mangaka-kei-urana-abbandona-x"
+    },
+    {
+      "title": "Anteprima 417: annunci e altre novità per Planet Manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110636-anteprima-417-annunci-e-altre-novita-per-planet-manga"
+    },
+    {
+      "title": "Stop al bagarinaggio delle carte Pokémon? La soluzione arriva dal Giappone",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110685-stop-al-bagarinaggio-delle-carte-pokemon-la-soluzione-arriva-dal-giappone"
+    },
+    {
+      "title": "Studio Khara: 20 anni fa Hideaki Anno lasciava Gainax per un nuovo Evangelion",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110244-studio-khara-20-anni-fa-hideaki-anno-lasciava-gainax-per-un-nuovo-evangelion"
+    },
+    {
+      "title": "Nessun nuovo PC da gioco per il 60% dei gamer nei prossimi due anni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110657-nessun-nuovo-pc-da-gioco-per-il-60-dei-gamer-nei-prossimi-due-anni"
+    },
+    {
+      "title": "Salaryman Z: termina il manga di NUMBER 8 e Ten Ishida",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110705-salaryman-z-termina-il-manga-di-number-8-e-ten-ishida"
+    },
+    {
+      "title": "Forza Horizon 6 in accesso anticipato è già record di utenti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110655-forza-horizon-6-in-accesso-anticipato-e-gia-record-di-utenti"
+    },
+    {
+      "title": "PlayStation aumenta il prezzo del Plus e cancella le esclusive su PC",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110667-playstation-aumenta-il-prezzo-del-plus-e-cancella-le-esclusive-su-pc"
+    },
+    {
+      "title": "Omae, Tanuki ni Narane-ka?: annunciato l'adattamento animato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110673-omae-tanuki-ni-narane-ka-annunciato-ladattamento-animato"
+    },
+    {
+      "title": "ChaO: il film arriverà nelle sale tra il 25 giugno e l'1 luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110725-chao-il-film-arrivera-nelle-sale-tra-il-25-giugno-e-l1-luglio"
+    },
+    {
+      "title": "Black Clover: informazioni sul doppiaggio di Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110679-black-clover-informazioni-sul-doppiaggio-di-crunchyroll"
+    },
+    {
+      "title": "Victoria of Many Faces: primo video promozionale per l'anime in uscita a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110710-victoria-of-many-faces-primo-video-promozionale-per-lanime-in-uscita-a-luglio"
+    },
+    {
+      "title": "Japan Days: il 23 e 24 maggio torna a Roma la magia del Giappone",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110615-japan-days-il-23-e-24-maggio-torna-a-roma-la-magia-del-giappone"
+    },
+    {
+      "title": "Top 100 fumetti più venduti in Italia ad aprile 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110658-top-100-fumetti-piu-venduti-in-italia-ad-aprile-2026"
+    },
+    {
+      "title": "Takopi's Original Sin: la serie riceverà un film animato con scene extra",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110715-takopis-original-sin-la-serie-ricevera-un-film-animato-con-scene-extra"
+    },
+    {
+      "title": "\"NieR Automata continuerà\" trova una spiegazione dalle parole di Yoko Taro e il produttore Yosuke Saito",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110700-nier-automata-continuera-trova-una-spiegazione-dalle-parole-di-yoko-taro-e-il-produttore-yosuke-saito"
+    },
+    {
+      "title": "The Eccentric Doctor of the Moon Flower Kingdom: annunciato l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110701-the-eccentric-doctor-of-the-moon-flower-kingdom-annunciato-lanime"
+    },
+    {
+      "title": "Netflix lancia in segreto INKubator, il nuovo studio di animazione basato sull'IA generativa",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110660-netflix-lancia-in-segreto-inkubator-il-nuovo-studio-di-animazione-basato-sullia-generativa"
+    },
+    {
+      "title": "Scooby-Doo diventa un anime giapponese: arriva Yokoso Scooby-Doo!",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110699-scooby-doo-diventa-un-anime-giapponese-arriva-yokoso-scooby-doo"
+    },
+    {
+      "title": "Addio al doppiatore Gianni Quillico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110603-addio-al-doppiatore-gianni-quillico"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[Once upon a Vero] Come siamo andate? 💗 #booktok #booktubeitalia #salonedellibro #salonedellibrotorino #romance",
-      "url": "https://www.youtube.com/watch?v=1GXumdCy-L0"
-    },
     {
       "title": "[Angelika Morgenstern] #booktokitalia #wattpaditalia #booktok #wattpad #wattpadstorie #darkromance #books #booktube #libri",
       "url": "https://www.youtube.com/watch?v=DSd4zVgK6Eg"
     },
     {
-      "title": "[Angelika Morgenstern] #booktokitalia #wattpaditalia #booktok #darkromance #wattpad #wattpadstorie #booktube #books #libri",
-      "url": "https://www.youtube.com/watch?v=G-rLKf5TvAA"
+      "title": "[Zemelda] #storiadamore 🔥💗💓💖su #wattpaditalia #booklover #booktok #enemiestolovers #story #booktube #love",
+      "url": "https://www.youtube.com/watch?v=7XAoFcBZUVE"
     },
     {
       "title": "[Me and Books] blocco del lettore #booktube #booktok #booktubeitalia #books #bookclub",
@@ -4229,10 +4217,6 @@
     {
       "title": "[ℙ𝕁𝕆_𝑂𝐵𝑆𝐸𝑆𝑆𝐸𝐷♡] #NICO//#italiano #percyjacksonedits #edit #pjo #booktok #riordanverse",
       "url": "https://www.youtube.com/watch?v=eKZQb2_fSic"
-    },
-    {
-      "title": "[Sofia D'Amici] #author #booktok #books #salonedellibro #salonedellibroditorino  #mysteryromance #autriceitaliana",
-      "url": "https://www.youtube.com/watch?v=yIh1QyzQRgQ"
     },
     {
       "title": "[Madame_1Stories.] #booktubeitalia # #booktok ##wattpadstory #wattpaditalia",
@@ -4251,8 +4235,16 @@
       "url": "https://www.youtube.com/watch?v=Bx-QmX28kx0"
     },
     {
+      "title": "[Booklovers] È uscito colpa vostra in lingua italiana 🤩🥳😱 #booktok #bookbites #culpables",
+      "url": "https://www.youtube.com/watch?v=UcGfuaB9xiw"
+    },
+    {
       "title": "[Kyokami] She Left Him Behind… And Left Him A Daughter",
       "url": "https://www.youtube.com/watch?v=olCvC2zo7I4"
+    },
+    {
+      "title": "[Yuhoo Comic Review] Tynion&#39;s Batman is CRAZY",
+      "url": "https://www.youtube.com/watch?v=kW-figz8Ea4"
     },
     {
       "title": "[D Adams (The D A Experience)] X-men United is Not Good #xmen #comics #marvelcomics #marvel #review",
@@ -4263,20 +4255,12 @@
       "url": "https://www.youtube.com/watch?v=6PbSsMMLzhU"
     },
     {
-      "title": "[Yuhoo Comic Review] Tynion&#39;s Batman is CRAZY",
-      "url": "https://www.youtube.com/watch?v=kW-figz8Ea4"
-    },
-    {
       "title": "[Mojo Cinema] Paz! è il film del 2002 basato sui fumetti di Andrea Pazienza. #filmreview #andreapazienza #film",
       "url": "https://www.youtube.com/watch?v=0WyiogCpD98"
     },
     {
       "title": "[The Comic Patrol] Lobo 3 Review #comicbooks #dccomics #lobo #dcnextlevel",
       "url": "https://www.youtube.com/watch?v=cwzSfR847m0"
-    },
-    {
-      "title": "[Comic Drops!] This Comic Took 8 Years to Finish…",
-      "url": "https://www.youtube.com/watch?v=fWWaFVQEVVg"
     },
     {
       "title": "[La Soffitta di Camera mia] SCAR (Disney Villains): Il fumetto sulle ORIGINI del cattivo de Il Re Leone",
@@ -4293,6 +4277,10 @@
     {
       "title": "[Next Issue Podcast] DID YOU HEAR ABOUT MIMI GREEN? a  new comic book  #ComicBook #Comics #DarkHorseComics",
       "url": "https://www.youtube.com/watch?v=46zio8zg0Yc"
+    },
+    {
+      "title": "[Dennis from The DNA Show] how is the NEW Comic Odin #1 Image?",
+      "url": "https://www.youtube.com/watch?v=CptHvQRpz0o"
     },
     {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] The Ice Queen who saves me every day won&#39;t stop walking me to school",
