@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-06-05T08:52:34.239165+00:00",
+  "updated_at": "2026-06-05T16:08:57.309796+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -51,10 +51,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788822788276",
+      "title": "Resta con me per sempre. The chase",
+      "author": "",
+      "position": 7,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9791259853608",
       "title": "La gang dei sogni",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,29 +70,21 @@
       "ean": "9788822788252",
       "title": "Il mio rischio sei tu. The risk",
       "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788276",
-      "title": "Resta con me per sempre. The chase",
-      "author": "",
       "position": 9,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806260316",
-      "title": "Le terme dell'Indirizzo",
-      "author": "",
-      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822788290",
       "title": "Ti ho trovato quasi per caso. The dare",
+      "author": "",
+      "position": 10,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806260316",
+      "title": "Le terme dell'Indirizzo",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -99,10 +99,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788822788283",
+      "title": "Sei l'amore che cercavo. The play",
+      "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,23 +118,7 @@
       "ean": "9788863116243",
       "title": "La montagna incantata. Ediz. integrale",
       "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788283",
-      "title": "Sei l'amore che cercavo. The play",
-      "author": "",
       "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804761648",
-      "title": "Il tempo del la la la",
-      "author": "",
-      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,7 +126,7 @@
       "ean": "9788822788351",
       "title": "Una di famiglia",
       "author": "",
-      "position": 17,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,13 +134,21 @@
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
       "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804761648",
+      "title": "Il tempo del la la la",
+      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9791224204855",
+      "title": "Il contratto. Ediz. speciale",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -363,8 +363,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259853608",
-      "title": "La gang dei sogni",
+      "ean": "9788822788276",
+      "title": "Resta con me per sempre. The chase",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -379,24 +379,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788276",
-      "title": "Resta con me per sempre. The chase",
+      "ean": "9791259853608",
+      "title": "La gang dei sogni",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806260316",
-      "title": "Le terme dell'Indirizzo",
+      "ean": "9788822788290",
+      "title": "Ti ho trovato quasi per caso. The dare",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822788290",
-      "title": "Ti ho trovato quasi per caso. The dare",
+      "ean": "9788806260316",
+      "title": "Le terme dell'Indirizzo",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -699,10 +699,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788847735750",
+      "title": "Le più belle storie di Boscodirovo. Ediz...",
+      "author": "",
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,7 +718,7 @@
       "ean": "9788855380157",
       "title": "Moby Dick",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,21 +726,13 @@
       "ean": "9788859020165",
       "title": "I misteri matematici di villa Tenebra: 1...",
       "author": "",
-      "position": 40,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788862463942",
-      "title": "Gli animali. Le mie prime paroline. Ediz...",
-      "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788858015049",
-      "title": "Ti regalo la luna. Ediz. illustrata",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -979,18 +979,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256211890",
-      "title": "Un polpo alla gola",
+      "ean": "9788817087544",
+      "title": "Pollo alle prugne",
       "author": "",
       "position": 31,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791256210091",
-      "title": "Quando muori resta a me",
-      "author": "",
-      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,31 +990,23 @@
       "ean": "9791256210848",
       "title": "La profezia dell'armadillo",
       "author": "",
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791256211890",
+      "title": "Un polpo alla gola",
+      "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788865439760",
-      "title": "Macerie prime",
+      "ean": "9791256210091",
+      "title": "Quando muori resta a me",
       "author": "",
       "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828729235",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 17: ...",
-      "author": "",
-      "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828741565",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 15: ...",
-      "author": "",
-      "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1030,13 +1014,29 @@
       "ean": "9788822762610",
       "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
+      "position": 35,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828729235",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 17: ...",
+      "author": "",
+      "position": 36,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828741565",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 15: ...",
+      "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828741503",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 18: ...",
+      "ean": "9788865439760",
+      "title": "Macerie prime",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1307,16 +1307,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788892245211",
+      "title": "La piccola farmacia delle cose che conso...",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892245211",
-      "title": "La piccola farmacia delle cose che conso...",
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
       "author": "",
       "position": 35,
       "category": "religione",
@@ -1331,26 +1331,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788826610641",
-      "title": "La pratica della presenza di Dio",
-      "author": "",
-      "position": 37,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788826610948",
       "title": "«Tornarono a Gerusalemme con grande gioi...",
       "author": "",
-      "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817080521",
-      "title": "Non c'è dio all'infuori di Dio. Perché n...",
-      "author": "",
-      "position": 39,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1358,7 +1342,15 @@
       "ean": "9788822711342",
       "title": "L'arte buddhista di riparare i cuori inf...",
       "author": "",
-      "position": 40,
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788826610641",
+      "title": "La pratica della presenza di Dio",
+      "author": "",
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1366,13 +1358,21 @@
       "ean": "9788811016410",
       "title": "I quattro maestri",
       "author": "",
+      "position": 40,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788815394965",
+      "title": "Il mondo secondo Francesco d'Assisi",
+      "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788810820360",
-      "title": "La Sacra Bibbia. UELCI. Versione ufficia...",
+      "ean": "9788817080521",
+      "title": "Non c'è dio all'infuori di Dio. Perché n...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -4027,24 +4027,29 @@
   ],
   "manga_trends": [
     {
-      "title": "Square Enix presenta Dragon Quest XII e il nuovo Dragon Quest Monsters",
+      "title": "State of Play Giugno 2026 - Tutti gli annunci da Wolverine a God of War Laufey",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110741-square-enix-presenta-dragon-quest-xii-e-il-nuovo-dragon-quest-monsters"
+      "url": "https://www.animeclick.it/news/110795-state-of-play-giugno-2026-tutti-gli-annunci-da-wolverine-a-god-of-war-laufey"
     },
     {
-      "title": "Yowaki MAX: trailer per l'anime sulla \"antagonista\" super timida",
+      "title": "Steins;Gate RE:BOOT: annunciate le date di uscita occidentali",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110791-yowaki-max-trailer-per-lanime-sulla-antagonista-super-timida"
+      "url": "https://www.animeclick.it/news/110752-steinsgate-reboot-annunciate-le-date-di-uscita-occidentali"
     },
     {
-      "title": "COMICON Napoli 2026: roundtable di Paskim (Jundo)",
+      "title": "Non solo anime: addio a Marjane Satrapi, autrice di Persepolis - In arrivo nuovo film de L'Era Glaciale",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110562-comicon-napoli-2026-roundtable-di-paskim-jundo"
+      "url": "https://www.animeclick.it/news/110813-non-solo-anime-addio-a-marjane-satrapi-autrice-di-persepolis-in-arrivo-nuovo-film-de-lera-glaciale"
     },
     {
-      "title": "Takopi's Original Sin: la serie riceverà un film animato con scene extra",
+      "title": "Magic Press: le uscite di giugno 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110715-takopis-original-sin-la-serie-ricevera-un-film-animato-con-scene-extra"
+      "url": "https://www.animeclick.it/news/110798-magic-press-le-uscite-di-giugno-2026"
+    },
+    {
+      "title": "Coconino Fest: la nostra intervista a Miki Yamamoto",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110778-coconino-fest-la-nostra-intervista-a-miki-yamamoto"
     },
     {
       "title": "Yamato Video: le novità di maggio del catalogo di ANiME GENERATION",
@@ -4052,84 +4057,24 @@
       "url": "https://www.animeclick.it/news/110794-yamato-video-le-novita-di-maggio-del-catalogo-di-anime-generation"
     },
     {
-      "title": "Il manga Quartieri Lontani di Jiro Taniguchi diventa un film live-action",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110465-il-manga-quartieri-lontani-di-jiro-taniguchi-diventa-un-film-live-action"
-    },
-    {
       "title": "Mina The Hollower è già il titolo con il Metascore più alto del 2026",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110756-mina-the-hollower-e-gia-il-titolo-con-il-metascore-piu-alto-del-2026"
     },
     {
-      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di giugno 2026",
+      "title": "Crunchyroll annuncia diverse serie per le prossime stagioni",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110742-netflix-amazon-prime-e-disney-i-palinsesti-di-giugno-2026"
+      "url": "https://www.animeclick.it/news/110803-crunchyroll-annuncia-diverse-serie-per-le-prossime-stagioni"
     },
     {
-      "title": "Box Office Giappone: Detective Conan ancora quarto, settimo posto per il thriller Nanashi",
+      "title": "Jaadugar - A Witch in Mongolia: trailer per l'anime in arrivo a luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110727-box-office-giappone-detective-conan-ancora-quarto-settimo-posto-per-il-thriller-nanashi"
+      "url": "https://www.animeclick.it/news/110744-jaadugar-a-witch-in-mongolia-trailer-per-lanime-in-arrivo-a-luglio"
     },
     {
-      "title": "Milky☆Subway - The Galactic Limited Express: informazioni sul doppiaggio di Netflix",
+      "title": "Gachiakuta, insulti e polemiche: la mangaka Kei Urana abbandona X",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110780-milky-subway-the-galactic-limited-express-informazioni-sul-doppiaggio-di-netflix"
-    },
-    {
-      "title": "Music Legends: la nostra intervista a Noriyuki Iwadare",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110783-music-legends-la-nostra-intervista-a-noriyuki-iwadare"
-    },
-    {
-      "title": "Toy Story mania: Atari annuncia le remastered di diversi titoli",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110796-toy-story-mania-atari-annuncia-le-remastered-di-diversi-titoli"
-    },
-    {
-      "title": "I film dello Studio Ghibli sono su Netflix in 190 paesi ma non in Giappone: ecco perché",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110770-studio-ghibli"
-    },
-    {
-      "title": "MAO sparita da Prime Video? Arriva la spiegazione ufficiale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110743-mao-sparita-da-prime-video-arriva-la-spiegazione-ufficiale"
-    },
-    {
-      "title": "Il monologo della Speziale: l'autrice svela che l'ambientazione non è quella che tutti credono",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110758-il-monologo-della-speziale-lautrice-svela-che-lambientazione-non-e-quella-che-tutti-credono"
-    },
-    {
-      "title": "I Metallica suonano a sorpresa la sigla di Ken il Guerriero a Bologna",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110805-i-metallica-suonano-a-sorpresa-la-sigla-di-ken-il-guerriero-a-bologna"
-    },
-    {
-      "title": "TikTok e voci clonate dall'IA? Il doppiatore Kenjirō Tsuda apre un caso storico in Giappone",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110736-tiktok-e-voci-clonate-dallia-il-doppiatore-kenjiro-tsuda-apre-un-caso-storico-in-giappone"
-    },
-    {
-      "title": "Historie: rilasciato il primo video promozionale e svelato il periodo di uscita",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110723-historie-rilasciato-il-primo-video-promozionale-e-svelato-il-periodo-di-uscita"
-    },
-    {
-      "title": "Box Office Giappone: debutta in top 5 il nuovo film di Hirokazu Kore'eda, Sheep in the Box",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110790-box-office-giappone-debutta-in-top-5-il-nuovo-film-di-hirokazu-koreeda-sheep-in-the-box"
-    },
-    {
-      "title": "Anime e manga usati per addestrare l'IA senza permesso: la CODA dice basta e chiede tutele urgenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110762-anime-e-manga-usati-per-addestrare-lia-senza-permesso-la-coda-dice-basta-e-chiede-tutele-urgenti"
-    },
-    {
-      "title": "Far East Film Festival: intervista al team di Fujiko, l'esplosivo film vincitore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110621-far-east-film-festival-intervista-al-team-di-fujiko-lesplosivo-film-vincitore"
+      "url": "https://www.animeclick.it/news/110729-gachiakuta-insulti-e-polemiche-la-mangaka-kei-urana-abbandona-x"
     },
     {
       "title": "Il cappello di paglia diventa blu: One Piece supporta il Giappone ai Mondiali FIFA 2026",
@@ -4137,24 +4082,84 @@
       "url": "https://www.animeclick.it/news/110776-il-cappello-di-paglia-diventa-blu-one-piece-supporta-il-giappone-ai-mondiali-fifa-2026"
     },
     {
+      "title": "Mecha Design Ep. 1— Il controverso design di Gundam Wing: quando il marketing prende il sopravvento",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110714-mecha-design-%25e2%2580%2594-il-controverso-design-di-gundam-wing-quando-il-marketing-prende-il-sopravvento"
+    },
+    {
+      "title": "Witch Hat Atelier: il regista Ayumu Watanabe racconta le sfide di un adattamento \"avventato\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110733-witch-hat-atelier-il-regista-ayumu-watanabe-racconta-le-sfide-di-un-adattamento-%25c2%25abavventato%25c2%25bb"
+    },
+    {
+      "title": "I Metallica suonano a sorpresa la sigla di Ken il Guerriero a Bologna",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110805-i-metallica-suonano-a-sorpresa-la-sigla-di-ken-il-guerriero-a-bologna"
+    },
+    {
+      "title": "Chainsmoker Cat: trailer per la gatta col vizio del fumo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/34546-chainsmoker-cat-trailer-per-la-gatta-col-vizio-del-fumo"
+    },
+    {
+      "title": "Yowaki MAX: trailer per l'anime sulla \"antagonista\" super timida",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110791-yowaki-max-trailer-per-lanime-sulla-antagonista-super-timida"
+    },
+    {
+      "title": "Il manga Quartieri Lontani di Jiro Taniguchi diventa un film live-action",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110465-il-manga-quartieri-lontani-di-jiro-taniguchi-diventa-un-film-live-action"
+    },
+    {
+      "title": "Amv: la compilation a tutta musica di maggio 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110754-amv-la-compilation-a-tutta-musica-di-maggio-2026"
+    },
+    {
       "title": "Kill Bill: The Whole Bloody Affair nei cinema italiani - Tutti gli omaggi alla pop culture giapponese",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110757-kill-bill-the-whole-bloody-affair-nei-cinema-italiani-tutti-gli-omaggi-alla-pop-culture-giapponese"
     },
     {
-      "title": "The Witcher 3 avrà una terza espansione: annunciato Songs of the Past",
+      "title": "I film dello Studio Ghibli sono su Netflix in 190 paesi ma non in Giappone: ecco perché",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110737-the-witcher-3-avra-una-terza-espansione-annunciato-songs-of-the-past"
+      "url": "https://www.animeclick.it/news/110770-studio-ghibli"
     },
     {
-      "title": "La VTuber giapponese Hatsuka Neru denuncia stalking e diffamazione: Rakuten pronta a reagire",
+      "title": "Anime e manga usati per addestrare l'IA senza permesso: la CODA dice basta e chiede tutele urgenti",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110793-la-vtuber-giapponese-hatsuka-neru-denuncia-stalking-e-diffamazione-rakuten-pronta-a-reagire"
+      "url": "https://www.animeclick.it/news/110762-anime-e-manga-usati-per-addestrare-lia-senza-permesso-la-coda-dice-basta-e-chiede-tutele-urgenti"
     },
     {
-      "title": "Anime Preview: nuove stagioni per Dorohedoro e per The Iceblade Sorcerer, e altre novità",
+      "title": "Magilumiere: trailer e novità per la seconda stagione in arrivo il 4 luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110746-anime-preview-nuove-stagioni-per-dorohedoro-e-per-the-iceblade-sorcerer-e-altre-novita"
+      "url": "https://www.animeclick.it/news/110740-magilumiere-trailer-e-novita-per-la-seconda-stagione-in-arrivo-il-4-luglio"
+    },
+    {
+      "title": "Da Vinci: la rivista sulla letteratura termina la pubblicazione dopo 32 anni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110735-da-vinci-la-rivista-sulla-letteratura-termina-la-pubblicazione-dopo-32-anni"
+    },
+    {
+      "title": "Star Comics: in arrivo in autunno il KAGURABACHI X MY HERO ACADEMIA TRIBUTE BUNDLE",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110765-star-comics"
+    },
+    {
+      "title": "Perfect Crown: le polemiche di un'incoronazione non proprio perfetta",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110728-perfect-crown-le-polemiche-di-unincoronazione-non-proprio-perfetta"
+    },
+    {
+      "title": "Anime Preview: annunci per Paradox Live The Animation e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110785-anime-preview-annunci-per-paradox-live-the-animation-e-molto-altro"
+    },
+    {
+      "title": "Rich Girl Caretaker: trailer per l'anime in arrivo a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110760-rich-girl-caretaker-trailer-per-anime-in-arrivo-a-luglio"
     },
     {
       "title": "Batosta handheld: Steam Deck aumenta vertiginosamente il suo prezzo",
@@ -4162,26 +4167,17 @@
       "url": "https://www.animeclick.it/news/110755-batosta-handheld-steam-deck-aumenta-vertiginosamente-il-suo-prezzo"
     },
     {
-      "title": "Il Truck-kun degli isekai protagonista di un videogioco in uscita a luglio",
+      "title": "Il monologo della Speziale: l'autrice svela che l'ambientazione non è quella che tutti credono",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110797-truck-kun"
+      "url": "https://www.animeclick.it/news/110758-il-monologo-della-speziale-lautrice-svela-che-lambientazione-non-e-quella-che-tutti-credono"
     },
     {
-      "title": "Amazon MGM punta sull'IA per creare serie e film: nasce il GenAI Creators' Fund",
+      "title": "The Ribbon Hero: Zaffiro torna in un lungometraggio anime dall'8 agosto su Netflix",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110748-amazon-mgm-punta-sullia-per-creare-serie-e-film-nasce-il-genai-creators-fund"
-    },
-    {
-      "title": "Da Vinci: la rivista sulla letteratura termina la pubblicazione dopo 32 anni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110735-da-vinci-la-rivista-sulla-letteratura-termina-la-pubblicazione-dopo-32-anni"
+      "url": "https://www.animeclick.it/news/110732-the-ribbon-hero-zaffiro-torna-in-un-lungometraggio-anime-dall8-agosto-su-netflix"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[LalibreriadiGiady📚] Raga leggere d’estate è tutta un’altra storia 🤩#booktok #libri #romance #books #libricheamo #perte",
-      "url": "https://www.youtube.com/watch?v=JvB9lmu_8VM"
-    },
     {
       "title": "[LalibreriadiGiady📚] Perché si danno i crediti ai video?🧐#booktok #libri #romance #books #libricheamo #booktok #perte",
       "url": "https://www.youtube.com/watch?v=zFXJe1jAmu8"
@@ -4201,6 +4197,10 @@
     {
       "title": "[JoyRead Romanzi] Curioso di questa storia? Commenta qui sotto!! ♥️  #youtubeitalia #booktok #bibliomanzia",
       "url": "https://www.youtube.com/watch?v=nCME4Py59g8"
+    },
+    {
+      "title": "[Once upon a Vero] avete capito qualcosa? 😂 #booktok #booktubeitalia #romance #wrapup #wrapupbooks #booktokitalia",
+      "url": "https://www.youtube.com/watch?v=icFH0OAIo5w"
     },
     {
       "title": "[IlDebitoDellAnima] un emozione incredibile e surreale. #booktok #ildebitodellanima #andrea feralo",
@@ -4231,12 +4231,12 @@
       "url": "https://www.youtube.com/watch?v=IfUMA5uxCGk"
     },
     {
-      "title": "[Yuhoo Comic Review] 40% Comic Sale!",
-      "url": "https://www.youtube.com/watch?v=4TeDvO2xjc0"
-    },
-    {
       "title": "[Yuhoo Comic Review] Batman Urban Legends Omnibus!",
       "url": "https://www.youtube.com/watch?v=bcM6Ra3Mi9c"
+    },
+    {
+      "title": "[Yuhoo Comic Review] 40% Comic Sale!",
+      "url": "https://www.youtube.com/watch?v=4TeDvO2xjc0"
     },
     {
       "title": "[The Legacy of Nerd] New Power Rangers Comic Book REBOOT! Mighty Morphin Power Rangers (2026) Issue 1 Review",
@@ -4251,16 +4251,16 @@
       "url": "https://www.youtube.com/watch?v=CRaLTd0NcNc"
     },
     {
-      "title": "[Isola di Carta] Recensione Martin Mystere pocket Bonelli",
-      "url": "https://www.youtube.com/watch?v=VQrb1MUNKhA"
-    },
-    {
       "title": "[Marco a Fumetti] Due spicci di Zerocalcare - Recensione",
       "url": "https://www.youtube.com/watch?v=8TtU_wJciZ4"
     },
     {
-      "title": "[VIPER COMICS] 1629 Jakarta Recensione - Dorison colpisce ancora!",
-      "url": "https://www.youtube.com/watch?v=1dZCmicnQxU"
+      "title": "[Isola di Carta] Recensione Martin Mystere pocket Bonelli",
+      "url": "https://www.youtube.com/watch?v=VQrb1MUNKhA"
+    },
+    {
+      "title": "[NickDeLarge92] 💎🔪 DIABOLIK 952 - In un Posto Sbagliato #shorts",
+      "url": "https://www.youtube.com/watch?v=gZhdhTI0OZo"
     },
     {
       "title": "[Ruxin34] Konami Is Reprinting ORIGINAL Structure Decks With MANGA RARES!",
@@ -4273,6 +4273,10 @@
     {
       "title": "[Fuji Recap] He Reincarnated, Saved the World, Then Came Back to Rewrite His Tragic Future! | Manga Recap",
       "url": "https://www.youtube.com/watch?v=wRA2Bp8SoFw"
+    },
+    {
+      "title": "[Fuji Recap] Reincarnated With Black Flame Magic, He Builds a New Life With a Tsundere Witch!",
+      "url": "https://www.youtube.com/watch?v=se9r17RbASk"
     },
     {
       "title": "[Termynater] NEW Clash Manga in Clash Of Clans! (Day 1)",
@@ -4297,10 +4301,6 @@
     {
       "title": "[Ian Bologna] VIDEO ACQUISTI MANGA e FUMETTI | MAGGIO 2026",
       "url": "https://www.youtube.com/watch?v=Bd5y2UlGs-M"
-    },
-    {
-      "title": "[Maltality] Nuove serie, CAPOLAVORI e qualche RECUPERO! | ACQUISTI MANGA degli ULTIMI MESI",
-      "url": "https://www.youtube.com/watch?v=90cYPr2v0zU"
     }
   ]
 }
