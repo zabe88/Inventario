@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-06-10T16:45:41.797414+00:00",
+  "updated_at": "2026-06-11T09:20:28.025702+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -99,10 +99,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788822788283",
+      "title": "Sei l'amore che cercavo. The play",
+      "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788806260316",
       "title": "Le terme dell'Indirizzo",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,7 +118,7 @@
       "ean": "9788863116243",
       "title": "La montagna incantata. Ediz. integrale",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,31 +126,7 @@
       "ean": "9788845941009",
       "title": "Kolchoz",
       "author": "",
-      "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788283",
-      "title": "Sei l'amore che cercavo. The play",
-      "author": "",
       "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822766199",
-      "title": "Il piccolo negozio dei tesori perduti",
-      "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788842935759",
-      "title": "Gli anni in bianco e nero",
-      "author": "",
-      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,13 +134,29 @@
       "ean": "9788847239944",
       "title": "You and me on holiday. Per la Scuola elementare. Vol. 4",
       "author": "",
-      "position": 19,
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822766199",
+      "title": "Il piccolo negozio dei tesori perduti",
+      "author": "",
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806222642",
+      "title": "L'isola di Arturo",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -195,18 +195,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804226666",
-      "title": "Opere. Romanzi, prose, novelle, saggi",
-      "author": "",
-      "position": 5,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 6,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,13 +206,21 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
+      "author": "",
+      "position": 7,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804259329",
+      "title": "La cruna dell'ago",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -707,24 +707,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788862464291",
-      "title": "Mamma, dove vai quando non sei con me? E...",
+      "ean": "9788807893483",
+      "title": "Il buio oltre la siepe",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
+      "ean": "9788862464291",
+      "title": "Mamma, dove vai quando non sei con me? E...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788807893483",
-      "title": "Il buio oltre la siepe",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
@@ -819,10 +819,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804590514",
+      "title": "Tex. Congiura contro Custer",
+      "author": "",
+      "position": 11,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804671749",
       "title": "Peanuts",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -830,7 +838,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +846,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,21 +854,13 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806176754",
-      "title": "Corto Maltese. Corte Sconta detta Arcana",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -979,16 +979,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817034777",
-      "title": "Persepolis. Ediz. integrale",
+      "ean": "9791256211890",
+      "title": "Un polpo alla gola",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791256211890",
-      "title": "Un polpo alla gola",
+      "ean": "9788817087544",
+      "title": "Pollo alle prugne",
       "author": "",
       "position": 32,
       "category": "fumetti",
@@ -1019,24 +1019,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788865439760",
-      "title": "Macerie prime",
+      "ean": "9788832730760",
+      "title": "Macerie prime. Sei mesi dopo",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788865438534",
-      "title": "La profezia dell'armadillo. Artist edition",
+      "ean": "9788865439760",
+      "title": "Macerie prime",
       "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788817029193",
-      "title": "Taglia e cuci",
+      "ean": "9788865438534",
+      "title": "La profezia dell'armadillo. Artist edition",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1307,18 +1307,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788815394965",
-      "title": "Il mondo secondo Francesco d'Assisi",
+      "ean": "9788831559638",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788831559638",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "ean": "9788815394965",
+      "title": "Il mondo secondo Francesco d'Assisi",
       "author": "",
       "position": 35,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788868948955",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "author": "",
+      "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,7 +1334,7 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
-      "position": 36,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,21 +1342,13 @@
       "ean": "9788899863289",
       "title": "Il romanticismo del Graal. Magia e miste...",
       "author": "",
-      "position": 37,
+      "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788826610412",
       "title": "Liberi sotto la grazia. Alla scuola di S...",
-      "author": "",
-      "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788857519098",
-      "title": "La sophia eterna",
       "author": "",
       "position": 39,
       "category": "religione",
@@ -1363,16 +1363,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828203636",
-      "title": "Gesù. Il processo",
+      "ean": "9788833320540",
+      "title": "Vivere l'autobiografia di uno yogi. 108 ...",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788811689072",
-      "title": "Il dono del silenzio",
+      "ean": "9788828203636",
+      "title": "Gesù. Il processo",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -4061,14 +4061,19 @@
   ],
   "manga_trends": [
     {
-      "title": "Kamui: He's Behind You: trailer e novità per l'anime ecchi",
+      "title": "Annunciata la data d'uscita di Elden Ring Tarnished Edition su Nintendo Switch 2",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110822-kamui-hes-behind-you-trailer-e-novita-per-lanime-ecchi"
+      "url": "https://www.animeclick.it/news/110820-annunciata-la-data-duscita-di-elden-ring-tarnished-edition-su-nintendo-switch-2"
     },
     {
-      "title": "Pokémon Champions: annunciata la data d'uscita sui dispositivi mobile",
+      "title": "Zipaki: tutte le uscite digitali e cartacee di maggio 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110802-pokemon-champions-annunciata-la-data-duscita-sui-dispositivi-mobile"
+      "url": "https://www.animeclick.it/news/110751-zipaki-tutte-le-uscite-digitali-e-cartacee-di-maggio-2026"
+    },
+    {
+      "title": "The Duke's Son Claims He Won't Love Me Yet Showers Me with Adoration: trailer e novità per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110807-the-dukes-son-claims-he-wont-love-me-yet-showers-me-with-adoration-trailer-e-novita-per-lanime"
     },
     {
       "title": "Coconino Fest: la nostra intervista a Miki Yamamoto",
@@ -4076,84 +4081,9 @@
       "url": "https://www.animeclick.it/news/110778-coconino-fest-la-nostra-intervista-a-miki-yamamoto"
     },
     {
-      "title": "Ghost in the Shell e Berserk: una nuova figure e cofanetto di Prime 1 Studio",
+      "title": "Music Legends: la nostra intervista a Michiru Yamane",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110828-ghost-in-the-shell-e-berserk-una-nuova-figure-e-cofanetto-di-prime-1-studio"
-    },
-    {
-      "title": "Milky☆Subway - The Galactic Limited Express: informazioni sul doppiaggio di Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110780-milky-subway-the-galactic-limited-express-informazioni-sul-doppiaggio-di-netflix"
-    },
-    {
-      "title": "My Classmate's a Sexy Actress and Now We Live Together: trailer e data di uscita per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110832-my-classmates-a-sexy-actress-and-now-we-live-together-trailer-e-data-di-uscita-per-lanime"
-    },
-    {
-      "title": "Look Back: trailer, cast, poster e data di uscita per il live action diretto da Kore'eda",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110860-look-back-trailer-cast-poster-e-data-di-uscita-per-il-live-action-diretto-da-koreeda"
-    },
-    {
-      "title": "Jundo: dall'1 al 30 giugno celebra il Pride Month con due grandi iniziative, tra sconti e omaggi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110784-jundo-dall1-al-30-giugno-celebra-il-pride-month-con-due-grandi-iniziative-tra-sconti-e-omaggi"
-    },
-    {
-      "title": "Heroine? Saint? No, I'm an All-Works Maid: trailer per l'anime in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110801-heroine-saint-no-i-am-an-all-works-maid-trailer-per-anime-in-arrivo"
-    },
-    {
-      "title": "Mushoku Tensei III: promo video per la nuova stagione in arrivo il 5 luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110808-mushoku-tensei-iii-promo-video-per-la-nuova-stagione-in-arrivo-il-5-luglio"
-    },
-    {
-      "title": "Anime Preview: annunci per Paradox Live The Animation e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110785-anime-preview-annunci-per-paradox-live-the-animation-e-molto-altro"
-    },
-    {
-      "title": "A Livid Lady's Guide to Getting Even: trailer per l'anime in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110846-a-livid-ladys-guide-to-getting-even-trailer-per-lanime-in-arrivo-a-luglio"
-    },
-    {
-      "title": "Beast King War God Dandivine: annunciato il nuovo anime di Good Smile Company",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110816-beast-king-war-god-dandivine-annunciato-il-nuovo-anime-di-good-smile-company"
-    },
-    {
-      "title": "Apocalypse Hotel: trionfo dell'anime originale ai Seiun Awards",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110804-apocalypse-hotel-trionfo-dellanime-originale-ai-seiun-awards"
-    },
-    {
-      "title": "XBOX Showcase 2026: tutti gli annunci dell'evento",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110844-xbox-showcase-2026-tutti-gli-annunci-dellevento"
-    },
-    {
-      "title": "Box Office Giappone: debutta in top 5 il nuovo film di Hirokazu Kore'eda, Sheep in the Box",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110790-box-office-giappone-debutta-in-top-5-il-nuovo-film-di-hirokazu-koreeda-sheep-in-the-box"
-    },
-    {
-      "title": "Il Truck-kun degli isekai protagonista di un videogioco in uscita a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110797-truck-kun"
-    },
-    {
-      "title": "Ishi Publishing annuncia Ascendance of a Bookworm",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110858-ishi-publishing-annuncia-ascendance-of-a-bookworm"
-    },
-    {
-      "title": "Annunciata la data d'uscita di Elden Ring Tarnished Edition su Nintendo Switch 2",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110820-annunciata-la-data-duscita-di-elden-ring-tarnished-edition-su-nintendo-switch-2"
+      "url": "https://www.animeclick.it/news/110782-music-legends-la-nostra-intervista-a-michiru-yamane"
     },
     {
       "title": "Toy Story mania: Atari annuncia le remastered di diversi titoli",
@@ -4161,14 +4091,34 @@
       "url": "https://www.animeclick.it/news/110796-toy-story-mania-atari-annuncia-le-remastered-di-diversi-titoli"
     },
     {
-      "title": "Magic Press: le uscite di giugno 2026",
+      "title": "Yamato Video: le novità di maggio del catalogo di ANiME GENERATION",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110798-magic-press-le-uscite-di-giugno-2026"
+      "url": "https://www.animeclick.it/news/110794-yamato-video-le-novita-di-maggio-del-catalogo-di-anime-generation"
     },
     {
-      "title": "Hell Mode: trailer e novità per la seconda stagione",
+      "title": "Samurai Troopers: trailer e novità per il secondo cour della serie, in onda dal 7 luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110837-hell-mode-trailer-e-novita-per-la-seconda-stagione"
+      "url": "https://www.animeclick.it/news/110789-samurai-troopers-trailer-e-novita-per-il-secondo-cour-della-serie-in-onda-dal-7-luglio"
+    },
+    {
+      "title": "Non solo anime: addio a Marjane Satrapi, autrice di Persepolis - In arrivo nuovo film de L'Era Glaciale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110813-non-solo-anime-addio-a-marjane-satrapi-autrice-di-persepolis-in-arrivo-nuovo-film-de-lera-glaciale"
+    },
+    {
+      "title": "Mushoku Tensei III: promo video per la nuova stagione in arrivo il 5 luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110808-mushoku-tensei-iii-promo-video-per-la-nuova-stagione-in-arrivo-il-5-luglio"
+    },
+    {
+      "title": "XBOX Showcase 2026: tutti gli annunci dell'evento",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110844-xbox-showcase-2026-tutti-gli-annunci-dellevento"
+    },
+    {
+      "title": "Ace Combat 8: primo deep dive su rinnovato gameplay e nuove meccaniche",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110812-ace-combat-8-primo-deep-dive-su-rinnovato-gameplay-e-nuove-meccaniche"
     },
     {
       "title": "Yamato Video: Inferno e Paradiso in arrivo su ANiME Generation",
@@ -4176,14 +4126,49 @@
       "url": "https://www.animeclick.it/news/110851-yamato-video-inferno-e-paradiso-in-arrivo-su-anime-generation"
     },
     {
-      "title": "Frieren - Oltre la Fine del Viaggio: unboxing della Limited Edition parte 2 Blu-Ray",
+      "title": "My Classmate's a Sexy Actress and Now We Live Together: trailer e data di uscita per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110799-frieren-oltre-la-fine-del-viaggio-unboxing-della-limited-edition-parte-2-blu-ray"
+      "url": "https://www.animeclick.it/news/110832-my-classmates-a-sexy-actress-and-now-we-live-together-trailer-e-data-di-uscita-per-lanime"
     },
     {
-      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di giugno 2026",
+      "title": "Future Games Show Giugno 2026 - Gli annunci più importanti dell'evento",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110742-netflix-amazon-prime-e-disney-i-palinsesti-di-giugno-2026"
+      "url": "https://www.animeclick.it/news/110838-future-games-show-giugno-2026-gli-annunci-piu-importanti-dellevento"
+    },
+    {
+      "title": "Box Office Giappone: debutta in top 5 il nuovo film di Hirokazu Kore'eda, Sheep in the Box",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110790-box-office-giappone-debutta-in-top-5-il-nuovo-film-di-hirokazu-koreeda-sheep-in-the-box"
+    },
+    {
+      "title": "Ishi Publishing annuncia Ascendance of a Bookworm",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110858-ishi-publishing-annuncia-ascendance-of-a-bookworm"
+    },
+    {
+      "title": "Summer Game Fest 2026 - Tutti gli annunci da Resident Evil Veronica a Final Fantasy 7 Revelation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110825-summer-game-fest-2026-tutti-gli-annunci-da-resident-evil-veronica-a-final-fantasy-7-revelation"
+    },
+    {
+      "title": "XBOX: Matt Booty spiega la strategia sulle esclusive",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110861-xbox-matt-booty-spiega-la-strategia-sulle-esclusive"
+    },
+    {
+      "title": "Clutch è il nuovo racing game dai veterani di Forza Horizon",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110792-clutch-e-il-nuovo-racing-game-dai-veterani-di-forza-horizon"
+    },
+    {
+      "title": "Vuoi Kenshiro in casa? Una statua d'oro a grandezza naturale costa solo 260.000 euro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110831-vuoi-kenshiro-in-casa-una-statua-doro-a-grandezza-naturale-costa-solo-260000-euro"
+    },
+    {
+      "title": "La VTuber giapponese Hatsuka Neru denuncia stalking e diffamazione: Rakuten pronta a reagire",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110793-la-vtuber-giapponese-hatsuka-neru-denuncia-stalking-e-diffamazione-rakuten-pronta-a-reagire"
     },
     {
       "title": "Magic the Gathering X Marvel Super Heroes - Prodotti e date di uscita del nuovo crossover",
@@ -4191,24 +4176,39 @@
       "url": "https://www.animeclick.it/news/110839-magic-the-gathering-x-marvel-super-heroes-prodotti-e-date-di-uscita-del-nuovo-crossover"
     },
     {
-      "title": "Crunchyroll annuncia diverse serie per le prossime stagioni",
+      "title": "Il Truck-kun degli isekai protagonista di un videogioco in uscita a luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110803-crunchyroll-annuncia-diverse-serie-per-le-prossime-stagioni"
+      "url": "https://www.animeclick.it/news/110797-truck-kun"
     },
     {
-      "title": "Anime Preview: novità per il secondo capitolo di Sound! Euphonium - The Final Movie e molto altro",
+      "title": "Far East Film Festival: intervista al team di Fujiko, l'esplosivo film vincitore",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110857-anime-preview-novita-per-il-secondo-capitolo-di-sound-euphonium-the-final-movie-e-molto-altro"
+      "url": "https://www.animeclick.it/news/110621-far-east-film-festival-intervista-al-team-di-fujiko-lesplosivo-film-vincitore"
     },
     {
-      "title": "Il cappello di paglia diventa blu: One Piece supporta il Giappone ai Mondiali FIFA 2026",
+      "title": "The Cat and the Dragon: nuovo trailer, data e nuovi membri del cast per il fantasy estivo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110776-il-cappello-di-paglia-diventa-blu-one-piece-supporta-il-giappone-ai-mondiali-fifa-2026"
+      "url": "https://www.animeclick.it/news/110855-the-cat-and-the-dragon-nuovo-trailer-data-e-nuovi-membri-del-cast-per-il-fantasy-estivo"
     },
     {
-      "title": "Vuoi Kenshiro in casa? Una statua d'oro a grandezza naturale costa solo 260.000 euro",
+      "title": "I Metallica suonano a sorpresa la sigla di Ken il Guerriero a Bologna",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110831-vuoi-kenshiro-in-casa-una-statua-doro-a-grandezza-naturale-costa-solo-260000-euro"
+      "url": "https://www.animeclick.it/news/110805-i-metallica-suonano-a-sorpresa-la-sigla-di-ken-il-guerriero-a-bologna"
+    },
+    {
+      "title": "Jundo: dall'1 al 30 giugno celebra il Pride Month con due grandi iniziative, tra sconti e omaggi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110784-jundo-dall1-al-30-giugno-celebra-il-pride-month-con-due-grandi-iniziative-tra-sconti-e-omaggi"
+    },
+    {
+      "title": "Beast King War God Dandivine: annunciato il nuovo anime di Good Smile Company",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110816-beast-king-war-god-dandivine-annunciato-il-nuovo-anime-di-good-smile-company"
+    },
+    {
+      "title": "Milky☆Subway - The Galactic Limited Express: informazioni sul doppiaggio di Netflix",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110780-milky-subway-the-galactic-limited-express-informazioni-sul-doppiaggio-di-netflix"
     }
   ],
   "youtube_trends": [
@@ -4229,6 +4229,14 @@
       "url": "https://www.youtube.com/watch?v=E85p1A_EbnM"
     },
     {
+      "title": "[dris] #humor #relatable #tiktokitalia #ouz_the_best #booktok #fyp #virale #viralshort #popular #frasi",
+      "url": "https://www.youtube.com/watch?v=c39gNMMGjA4"
+    },
+    {
+      "title": "[Madame_1Stories.] fuori su Wattpad! #booktubeitalia #perte #wattpadstory #booktok",
+      "url": "https://www.youtube.com/watch?v=h4R9mrhU4R4"
+    },
+    {
       "title": "[Voltare Pagina] 📚 Storie di ITALIANI a PARIGI #instabook #booktok #parigi",
       "url": "https://www.youtube.com/watch?v=_fqj4MNbrb0"
     },
@@ -4241,16 +4249,8 @@
       "url": "https://www.youtube.com/watch?v=B7EY5ZiEst4"
     },
     {
-      "title": "[JoyRead Romanzi] Curioso di questa storia? Commenta qui sotto!! ♥️ #youtubeitalia #booktok #bibliomanzia",
-      "url": "https://www.youtube.com/watch?v=wV9rgtcrBDA"
-    },
-    {
-      "title": "[JoyRead Romanzi] #youtubeitalia #wattpad #bibliomanzia #booktok #ilmaggiodeilibri #perte #books",
-      "url": "https://www.youtube.com/watch?v=RRtzL7BzLUA"
-    },
-    {
-      "title": "[Zemelda] #love💓💔🔥 #wattpad #booklover #booktok #shorts #romance #books #enemiestolovers #darkromance #amore",
-      "url": "https://www.youtube.com/watch?v=JjB7uGljMWo"
+      "title": "[BodaliaBooks] I loved Cinque Terre (Italy)!! #BookTok #writer #author #lotr #cinqueterre",
+      "url": "https://www.youtube.com/watch?v=rwy97Rv3WSs"
     },
     {
       "title": "[Raining Souls ASMR] The Next Big Manga? 10 Hidden Gems You Need To Read | ASMR",
@@ -4265,24 +4265,36 @@
       "url": "https://www.youtube.com/watch?v=BkgSPD9wX3g"
     },
     {
-      "title": "[Hawkilles] Power Rangers Comic Relaunch Review #tokusatsu #mmpr",
-      "url": "https://www.youtube.com/watch?v=IfUMA5uxCGk"
-    },
-    {
-      "title": "[NickDeLarge92] ZAGOR FA UN ANNIVERSARIO MEDIOCRE... PER COLPA DEI SUOI FAN??? (Zagor 731 - Il Passato Ritorna)",
-      "url": "https://www.youtube.com/watch?v=o0YQbYKDBdo"
+      "title": "[Yuhoo Comic Review] RIP Alfred Pennyworth",
+      "url": "https://www.youtube.com/watch?v=Uq_nw9a2kvE"
     },
     {
       "title": "[Yuhoo Comic Review] You DON&#39;T Understand Kingdom Come",
       "url": "https://www.youtube.com/watch?v=ffS95TSzxZk"
     },
     {
-      "title": "[Yuhoo Comic Review] RIP Alfred Pennyworth",
-      "url": "https://www.youtube.com/watch?v=Uq_nw9a2kvE"
+      "title": "[TheComicBookReport] Is this the best Spider-Man omnibus? It’s SPECTACULAR! 🕷️ #spiderman #marvel #comics ￼",
+      "url": "https://www.youtube.com/watch?v=zVZcBKSTQ4Y"
+    },
+    {
+      "title": "[TheComicBookReport] I have to talk about Batman Urban Legends 😱🦇 #batman #dccomics #comicbooks",
+      "url": "https://www.youtube.com/watch?v=8gbej7js9K8"
+    },
+    {
+      "title": "[TheComicBookReport] WEB OF SPIDER-MAN OMNIBUS VOL. 2 🕷️ #spiderman #comics #marvel #marvelcomics",
+      "url": "https://www.youtube.com/watch?v=cdminLs06g4"
     },
     {
       "title": "[The Legacy of Nerd] Issue 1 of the New ‘Mighty Morphin Power Rangers’ Reboot Comic Book Review",
       "url": "https://www.youtube.com/watch?v=CRaLTd0NcNc"
+    },
+    {
+      "title": "[Kody Collects] 📚 FIVE GEARS IN REVERSE REVIEW",
+      "url": "https://www.youtube.com/watch?v=77oWo0raBXw"
+    },
+    {
+      "title": "[N1 from the N-Zone] Random Comic Book Movie!!! #comics #movies #shorts #review",
+      "url": "https://www.youtube.com/watch?v=eAJZi0sH6z4"
     },
     {
       "title": "[Marco a Fumetti] Due spicci di Zerocalcare - Recensione",
@@ -4291,22 +4303,6 @@
     {
       "title": "[Marco a Fumetti] SUPERMAN/SPIDER-MAN: IL NUOVO CROSSOVER #fumetti #superman #spiderman #dc #marvel #recensione",
       "url": "https://www.youtube.com/watch?v=q5pommBRFxM"
-    },
-    {
-      "title": "[Arex9921] DUE SPICCI [Recensione Flash]",
-      "url": "https://www.youtube.com/watch?v=VyRNbfujUaw"
-    },
-    {
-      "title": "[Isola di Carta] Recensione Martin Mystere pocket Bonelli",
-      "url": "https://www.youtube.com/watch?v=VQrb1MUNKhA"
-    },
-    {
-      "title": "[Marco a Fumetti] È ARRIVATO ULTIMATE EXORCIST KIYOSHI!",
-      "url": "https://www.youtube.com/watch?v=rv6EGS5J578"
-    },
-    {
-      "title": "[Fuji Recap] Reincarnated With Black Flame Magic, He Builds a New Life With a Tsundere Witch!",
-      "url": "https://www.youtube.com/watch?v=se9r17RbASk"
     },
     {
       "title": "[Termynater] TWO NEW Troops and Spell TEASED By Supercell in the Anime Season!",
@@ -4325,10 +4321,6 @@
       "url": "https://www.youtube.com/watch?v=wTbAzG51HPw"
     },
     {
-      "title": "[Kirio1984] Le NUOVE USCITE MANGA di giugno sono davvero così belle? Unboxing completo!",
-      "url": "https://www.youtube.com/watch?v=YzcSWXNIm-w"
-    },
-    {
       "title": "[Shibuya Café] ACQUISTI FUMETTERIA GIUGNO 2026 📚💥 MANGA, FUMETTI E GRANDI SORPRESE! 😱",
       "url": "https://www.youtube.com/watch?v=cPV6o8jPWz4"
     },
@@ -4337,12 +4329,12 @@
       "url": "https://www.youtube.com/watch?v=BLayBazxNCA"
     },
     {
-      "title": "[Petronio Monstter Rony] Demonic evolution manga gratis completo",
-      "url": "https://www.youtube.com/watch?v=4UoK_Zxvzms"
-    },
-    {
       "title": "[Kryptinite] DreamHack Haul: D&amp;D Dice, Manga, and More! #shorts",
       "url": "https://www.youtube.com/watch?v=AY1zJwYoLM0"
+    },
+    {
+      "title": "[DropThisBox] Animal Signal Reminds Me Of My Hero Academia And I&#39;m Not Complaining",
+      "url": "https://www.youtube.com/watch?v=qHKdk9Jpjno"
     }
   ]
 }
