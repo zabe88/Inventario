@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-06-11T17:01:57.972321+00:00",
+  "updated_at": "2026-06-12T09:10:53.527133+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -83,34 +83,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788252",
-      "title": "Il mio rischio sei tu. The risk",
-      "author": "",
-      "position": 11,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788806260316",
       "title": "Le terme dell'Indirizzo",
       "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863116243",
-      "title": "La montagna incantata. Ediz. integrale",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788290",
-      "title": "Ti ho trovato quasi per caso. The dare",
-      "author": "",
-      "position": 14,
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,13 +94,37 @@
       "ean": "9788822766199",
       "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
-      "position": 15,
+      "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788252",
+      "title": "Il mio rischio sei tu. The risk",
+      "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863116243",
+      "title": "La montagna incantata. Ediz. integrale",
+      "author": "",
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788847239944",
       "title": "You and me on holiday. Per la Scuola elementare. Vol. 4",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788290",
+      "title": "Ti ho trovato quasi per caso. The dare",
       "author": "",
       "position": 16,
       "category": "generale",
@@ -147,16 +147,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788283",
-      "title": "Sei l'amore che cercavo. The play",
+      "ean": "9788806222642",
+      "title": "L'isola di Arturo",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788842935759",
-      "title": "Gli anni in bianco e nero",
+      "ean": "9788822788283",
+      "title": "Sei l'amore che cercavo. The play",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -187,10 +187,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804113867",
+      "title": "L'avventura di un povero cristiano",
+      "author": "",
+      "position": 4,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804211082",
       "title": "Romanzi, racconti e saggi",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -198,7 +206,7 @@
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,21 +214,13 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
-      "author": "",
-      "position": 7,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804259329",
-      "title": "La cruna dell'ago",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -387,16 +387,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788252",
-      "title": "Il mio rischio sei tu. The risk",
+      "ean": "9788806260316",
+      "title": "Le terme dell'Indirizzo",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806260316",
-      "title": "Le terme dell'Indirizzo",
+      "ean": "9788822766199",
+      "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -467,10 +467,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9780746083376",
+      "title": "Che cosa mi succede? (Ragazzi). Ediz. il...",
+      "author": "",
+      "position": 9,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9781409542544",
       "title": "Il corpo umano. Ediz. illustrata",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -478,7 +486,7 @@
       "ean": "9781409561712",
       "title": "Storie illustrate dai miti greci. Ediz. ...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -486,7 +494,7 @@
       "ean": "9781474907835",
       "title": "Il manuale dell'astronauta. Ediz. illust...",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -494,7 +502,7 @@
       "ean": "9781474962841",
       "title": "Il mio taccuino di scienza. Ediz. a colori",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,29 +510,21 @@
       "ean": "9788413433998",
       "title": "E cento altri tesori",
       "author": "",
-      "position": 13,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804387848",
-      "title": "1,2,3. .. Invisibile!",
-      "author": "",
       "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804433545",
-      "title": "Un mostro in vacanza",
+      "ean": "9788804396192",
+      "title": "Piccoli brividi. La maschera maledetta",
       "author": "",
       "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804444978",
-      "title": "Ascolta il mio cuore",
+      "ean": "9788804396208",
+      "title": "La sfera di cristallo",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -683,32 +683,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804607731",
-      "title": "La tela di Carlotta",
+      "ean": "9788807893483",
+      "title": "Il buio oltre la siepe",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788807893483",
-      "title": "Il buio oltre la siepe",
+      "ean": "9788804607731",
+      "title": "La tela di Carlotta",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788831028752",
-      "title": "È colpa vostra",
+      "ean": "9788847239937",
+      "title": "You and me on holiday. Per la Scuola ele...",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788847239937",
-      "title": "You and me on holiday. Per la Scuola ele...",
+      "ean": "9788831028752",
+      "title": "È colpa vostra",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867147335",
-      "title": "Amici amici. Ediz. a colori",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -827,10 +827,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804721512",
+      "title": "Io sono One Piece. Vol. 3",
+      "author": "",
+      "position": 12,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +846,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,21 +854,13 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806176754",
-      "title": "Corto Maltese. Corte Sconta detta Arcana",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -979,10 +979,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788817034777",
+      "title": "Persepolis. Ediz. integrale",
+      "author": "",
+      "position": 31,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9791256211890",
       "title": "Un polpo alla gola",
       "author": "",
-      "position": 31,
+      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,21 +998,13 @@
       "ean": "9788817087544",
       "title": "Pollo alle prugne",
       "author": "",
-      "position": 32,
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788822762610",
       "title": "50 manga da leggere almeno una volta nel...",
-      "author": "",
-      "position": 33,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817182614",
-      "title": "Favole persiane. L'irriverente saggezza ...",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1019,24 +1019,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788865438534",
-      "title": "La profezia dell'armadillo. Artist edition",
+      "ean": "9788817182614",
+      "title": "Favole persiane. L'irriverente saggezza ...",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788865439760",
-      "title": "Macerie prime",
+      "ean": "9788865438534",
+      "title": "La profezia dell'armadillo. Artist edition",
       "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788832730760",
-      "title": "Macerie prime. Sei mesi dopo",
+      "ean": "9788865439760",
+      "title": "Macerie prime",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1123,18 +1123,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804515944",
-      "title": "I grandi miti greci",
-      "author": "",
-      "position": 11,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804551737",
       "title": "Con te e senza di te",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1142,7 +1134,7 @@
       "ean": "9788804571322",
       "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1150,7 +1142,7 @@
       "ean": "9788804581642",
       "title": "L'illusione di Dio. Le ragioni per non c...",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1158,13 +1150,21 @@
       "ean": "9788804583912",
       "title": "Conversazioni notturne a Gerusalemme. Su...",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804589105",
       "title": "L'arte della felicità",
+      "author": "",
+      "position": 15,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804597186",
+      "title": "Conosci te stesso",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1307,24 +1307,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788815394965",
-      "title": "Il mondo secondo Francesco d'Assisi",
+      "ean": "9788831559638",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788831559638",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "ean": "9788815394965",
+      "title": "Il mondo secondo Francesco d'Assisi",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788868948955",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1339,26 +1339,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788866205777",
-      "title": "Io cammino con gli ultimi",
+      "ean": "9788826610412",
+      "title": "Liberi sotto la grazia. Alla scuola di S...",
       "author": "",
       "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788857519098",
-      "title": "La sophia eterna",
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
       "author": "",
       "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788826610412",
-      "title": "Liberi sotto la grazia. Alla scuola di S...",
-      "author": "",
-      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1366,13 +1358,21 @@
       "ean": "9788811016410",
       "title": "I quattro maestri",
       "author": "",
-      "position": 41,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788811689072",
       "title": "Il dono del silenzio",
+      "author": "",
+      "position": 41,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828203636",
+      "title": "Gesù. Il processo",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -2517,24 +2517,6 @@
       "source": "sigeric"
     },
     {
-      "title": "Mercatino produttori di Aulla",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/mercatino-produttori-di-aulla/",
-      "source": "visitlunigiana"
-    },
-    {
-      "title": "Mercato d’Puntremal",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/mercato-dpuntremal/",
-      "source": "visitlunigiana"
-    },
-    {
-      "title": "Francigena River Trekking",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/francigena-river-trekking-2026/",
-      "source": "visitlunigiana"
-    },
-    {
       "title": "Francigena River Trekking",
       "date": null,
       "url": "https://visitlunigiana.it/events/francigena-river-trekking-2026/",
@@ -2586,6 +2568,24 @@
       "title": "Visita guidata “Pontremoli Barocca”",
       "date": null,
       "url": "https://visitlunigiana.it/events/visita-guidata-pontremoli-barocca/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura e visite guidate alla Fortezza della Brunella",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-e-visite-guidate-alla-fortezza-della-brunella-giugno-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Apertura Museo Diocesano di Pontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-estate-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Visita guidata alla mieleria",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/visita-guidata-alla-mieleria-2026/",
       "source": "visitlunigiana"
     },
     {
@@ -3711,6 +3711,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Incontro con Riccardo Boggi",
+      "date": "2026-07-20",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_23-49-37_284.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Vibes 900  Storia e musica del xx secolo",
       "date": "2026-07-18",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-01_09-36-29_497.jpeg",
@@ -3720,6 +3726,12 @@
       "title": "Fosdinovo Street Festival / Musica Teatro Arte",
       "date": "2026-07-17",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-19_23-22-10_597.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa della Birra di Monti",
+      "date": "2026-07-17",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_22-29-06_563.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3738,6 +3750,12 @@
       "title": "Serata tecno-house / Locura",
       "date": "2026-07-11",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_23-22-47_000.jpg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festival Suono Ribelle",
+      "date": "2026-07-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_22-29-48_267.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3815,7 +3833,7 @@
     {
       "title": "Lunigiana Cinema Festival",
       "date": "2026-06-26",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-11-41_340.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_22-29-41_325.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3857,7 +3875,7 @@
     {
       "title": "Filetto Summer Fest Edition V edizione",
       "date": "2026-06-19",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-29_11-54-52_834.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-06-11_23-41-15_000.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3870,6 +3888,12 @@
       "title": "Cover Band dei Pink Floyd",
       "date": "2026-06-19",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-22_13-58-12_267.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Concerto di beneficenza degli Alter Ego",
+      "date": "2026-06-19",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_23-49-37_194.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3918,6 +3942,12 @@
       "title": "Concorso artistico-letterario “L’olivo argentato”",
       "date": "2026-06-14",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-48-47_139.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "XVII Mini Mito Meeting",
+      "date": "2026-06-14",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_22-28-45_945.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -4061,14 +4091,9 @@
   ],
   "manga_trends": [
     {
-      "title": "XBOX Showcase 2026: tutti gli annunci dell'evento",
+      "title": "Milky☆Subway - The Galactic Limited Express: informazioni sul doppiaggio di Netflix",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110844-xbox-showcase-2026-tutti-gli-annunci-dellevento"
-    },
-    {
-      "title": "Non solo anime: addio a Marjane Satrapi, autrice di Persepolis - In arrivo nuovo film de L'Era Glaciale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110813-non-solo-anime-addio-a-marjane-satrapi-autrice-di-persepolis-in-arrivo-nuovo-film-de-lera-glaciale"
+      "url": "https://www.animeclick.it/news/110780-milky-subway-the-galactic-limited-express-informazioni-sul-doppiaggio-di-netflix"
     },
     {
       "title": "Crunchyroll annuncia diverse serie per le prossime stagioni",
@@ -4076,104 +4101,14 @@
       "url": "https://www.animeclick.it/news/110803-crunchyroll-annuncia-diverse-serie-per-le-prossime-stagioni"
     },
     {
-      "title": "Pokémon TGC: annunciata l'espansione 30° Anniversario",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110821-pokemon-tgc-annunciata-lespansione-30%25c2%25b0-anniversario"
-    },
-    {
-      "title": "Heroine? Saint? No, I'm an All-Works Maid: trailer per l'anime in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110801-heroine-saint-no-i-am-an-all-works-maid-trailer-per-anime-in-arrivo"
-    },
-    {
-      "title": "Future Games Show Giugno 2026 - Gli annunci più importanti dell'evento",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110838-future-games-show-giugno-2026-gli-annunci-piu-importanti-dellevento"
-    },
-    {
-      "title": "Magic the Gathering X Marvel Super Heroes - Prodotti e date di uscita del nuovo crossover",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110839-magic-the-gathering-x-marvel-super-heroes-prodotti-e-date-di-uscita-del-nuovo-crossover"
-    },
-    {
-      "title": "Jundo: dall'1 al 30 giugno celebra il Pride Month con due grandi iniziative, tra sconti e omaggi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110784-jundo-dall1-al-30-giugno-celebra-il-pride-month-con-due-grandi-iniziative-tra-sconti-e-omaggi"
-    },
-    {
-      "title": "MAN WITH A MISSION: intervista alla band, in vista del loro concerto a Milano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110814-man-with-a-mission-intervista-alla-band-in-vista-del-loro-concerto-a-milano"
-    },
-    {
-      "title": "My Classmate's a Sexy Actress and Now We Live Together: trailer e data di uscita per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110832-my-classmates-a-sexy-actress-and-now-we-live-together-trailer-e-data-di-uscita-per-lanime"
-    },
-    {
-      "title": "Box Office Giappone: debutta in top 5 il nuovo film di Hirokazu Kore'eda, Sheep in the Box",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110790-box-office-giappone-debutta-in-top-5-il-nuovo-film-di-hirokazu-koreeda-sheep-in-the-box"
-    },
-    {
-      "title": "XBOX: Matt Booty spiega la strategia sulle esclusive",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110861-xbox-matt-booty-spiega-la-strategia-sulle-esclusive"
-    },
-    {
-      "title": "Annunciata la data d'uscita di Elden Ring Tarnished Edition su Nintendo Switch 2",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110820-annunciata-la-data-duscita-di-elden-ring-tarnished-edition-su-nintendo-switch-2"
-    },
-    {
-      "title": "Samurai Troopers: trailer e novità per il secondo cour della serie, in onda dal 7 luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110789-samurai-troopers-trailer-e-novita-per-il-secondo-cour-della-serie-in-onda-dal-7-luglio"
-    },
-    {
-      "title": "Crunchyroll: due nuove serie in arrivo, e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110786-crunchyroll-due-nuove-serie-in-arrivo-e-altre-novita"
-    },
-    {
-      "title": "Mushoku Tensei III: promo video per la nuova stagione in arrivo il 5 luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110808-mushoku-tensei-iii-promo-video-per-la-nuova-stagione-in-arrivo-il-5-luglio"
-    },
-    {
       "title": "Persona 4 Revival: aperti i preordini per le varie edizioni del titolo",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/110871-persona-4-revival-aperti-i-preordini-per-le-varie-edizioni-del-titolo"
     },
     {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di maggio 2026",
+      "title": "Kamui: He's Behind You: trailer e novità per l'anime ecchi",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110751-zipaki-tutte-le-uscite-digitali-e-cartacee-di-maggio-2026"
-    },
-    {
-      "title": "Ghost in the Shell e Berserk: una nuova figure e cofanetto di Prime 1 Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110828-ghost-in-the-shell-e-berserk-una-nuova-figure-e-cofanetto-di-prime-1-studio"
-    },
-    {
-      "title": "A Livid Lady's Guide to Getting Even: trailer per l'anime in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110846-a-livid-ladys-guide-to-getting-even-trailer-per-lanime-in-arrivo-a-luglio"
-    },
-    {
-      "title": "Kaiju Girl Caramelise: trailer per l'anime in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110842-kaiju-girl-caramelise-rilasciato-un-nuovo-video-e-annunciata-la-data-di-uscita"
-    },
-    {
-      "title": "Vuoi Kenshiro in casa? Una statua d'oro a grandezza naturale costa solo 260.000 euro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110831-vuoi-kenshiro-in-casa-una-statua-doro-a-grandezza-naturale-costa-solo-260000-euro"
-    },
-    {
-      "title": "Kaiju No.8: unboxing della Limited Edition Blu Ray della 1°stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110800-kaiju-no8-unboxing-della-limited-edition-blu-ray-della-1%25c2%25b0stagione"
+      "url": "https://www.animeclick.it/news/110822-kamui-hes-behind-you-trailer-e-novita-per-lanime-ecchi"
     },
     {
       "title": "The Duke's Son Claims He Won't Love Me Yet Showers Me with Adoration: trailer e novità per l'anime",
@@ -4181,9 +4116,84 @@
       "url": "https://www.animeclick.it/news/110807-the-dukes-son-claims-he-wont-love-me-yet-showers-me-with-adoration-trailer-e-novita-per-lanime"
     },
     {
-      "title": "Magic Press: le uscite di giugno 2026",
+      "title": "Fall in Love, You False Angels: annunciato l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110798-magic-press-le-uscite-di-giugno-2026"
+      "url": "https://www.animeclick.it/news/110880-fall-in-love-you-false-angels-annunciato-lanime"
+    },
+    {
+      "title": "Box Office Giappone: debutta in top 5 il nuovo film di Hirokazu Kore'eda, Sheep in the Box",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110790-box-office-giappone-debutta-in-top-5-il-nuovo-film-di-hirokazu-koreeda-sheep-in-the-box"
+    },
+    {
+      "title": "The Cat and the Dragon: nuovo trailer, data e nuovi membri del cast per il fantasy estivo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110855-the-cat-and-the-dragon-nuovo-trailer-data-e-nuovi-membri-del-cast-per-il-fantasy-estivo"
+    },
+    {
+      "title": "Yamato Video: Inferno e Paradiso in arrivo su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110851-yamato-video-inferno-e-paradiso-in-arrivo-su-anime-generation"
+    },
+    {
+      "title": "Dragon's Dogma 2: arriveranno due importanti aggiornamenti prima dell'espansione Dark Arisen",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110872-dragons-dogma-2-arriveranno-due-importanti-aggiornamenti-prima-dellespansione-dark-arisen"
+    },
+    {
+      "title": "Anime Preview: annunci per Overgeared, per Fired? But I Maintain All the Software! e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110824-anime-preview-annunci-per-overgeared-fired-but-i-maintain-all-the-software-e-altre-novita"
+    },
+    {
+      "title": "Heroine? Saint? No, I'm an All-Works Maid: trailer per l'anime in arrivo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110801-heroine-saint-no-i-am-an-all-works-maid-trailer-per-anime-in-arrivo"
+    },
+    {
+      "title": "XBOX: Matt Booty spiega la strategia sulle esclusive",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110861-xbox-matt-booty-spiega-la-strategia-sulle-esclusive"
+    },
+    {
+      "title": "Frieren - Oltre la Fine del Viaggio: unboxing della Limited Edition parte 2 Blu-Ray",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110799-frieren-oltre-la-fine-del-viaggio-unboxing-della-limited-edition-parte-2-blu-ray"
+    },
+    {
+      "title": "Elettroshock Daisy: annunciata la trasposizione anime del manga shojo di Kyousuke Motomi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110856-elettroshock-daisy-annunciata-la-trasposizione-anime-del-manga-shojo-di-kyousuke-motomi"
+    },
+    {
+      "title": "Milan Games Week & Cartoomics 2026: Posuka Demizu ospite della manifestazione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110817-milan-games-week-cartoomics-2026-posuka-demizu-ospite-della-manifestazione"
+    },
+    {
+      "title": "Dara-san of Reiwa: trailer per l'anime soprannaturale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110865-dara-san-of-reiwa-trailer-per-lanime-soprannaturale"
+    },
+    {
+      "title": "Kaiju No.8: unboxing della Limited Edition Blu Ray della 1°stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110800-kaiju-no8-unboxing-della-limited-edition-blu-ray-della-1%25c2%25b0stagione"
+    },
+    {
+      "title": "Coconino Fest: la nostra intervista a Miki Yamamoto",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110778-coconino-fest-la-nostra-intervista-a-miki-yamamoto"
+    },
+    {
+      "title": "Hell Mode: trailer e novità per la seconda stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110837-hell-mode-trailer-e-novita-per-la-seconda-stagione"
+    },
+    {
+      "title": "Final Fantasy VII Revelation: un'intervista al producer rivela moltissimi dettagli",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110848-final-fantasy-vii-revelation-unintervista-al-producer-rivela-moltissimi-dettagli"
     },
     {
       "title": "Far East Film Festival: intervista al team di Fujiko, l'esplosivo film vincitore",
@@ -4191,24 +4201,44 @@
       "url": "https://www.animeclick.it/news/110621-far-east-film-festival-intervista-al-team-di-fujiko-lesplosivo-film-vincitore"
     },
     {
-      "title": "Ishi Publishing annuncia Ascendance of a Bookworm",
+      "title": "Kill la Kill e Street Fighter: due nuove figure di Prime 1 Studio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110858-ishi-publishing-annuncia-ascendance-of-a-bookworm"
+      "url": "https://www.animeclick.it/news/110827-kill-la-kill-e-street-fighter-due-nuove-figure-di-prime-1-studio"
     },
     {
-      "title": "Anime Preview: annunci per Paradox Live The Animation e molto altro",
+      "title": "From Overshadowed to Overpowered: trailer per l'anime in arrivo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110785-anime-preview-annunci-per-paradox-live-the-animation-e-molto-altro"
+      "url": "https://www.animeclick.it/news/110841-from-overshadowed-to-overpowered-trailer-per-lanime-in-arrivo"
     },
     {
-      "title": "Yamato Video: le novità di maggio del catalogo di ANiME GENERATION",
+      "title": "Quando l'eccellenza italiana incontra il Giappone: ecco Jujutsu Kaisen Rumble: Survivaton",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110794-yamato-video-le-novita-di-maggio-del-catalogo-di-anime-generation"
+      "url": "https://www.animeclick.it/news/110882-quando-leccellenza-italiana-incontra-il-giappone-ecco-jujutsu-kaisen-rumble-survivaton"
     },
     {
-      "title": "Anime Preview: annunci per Overgeared, per Fired? But I Maintain All the Software! e altre novità",
+      "title": "Clutch è il nuovo racing game dai veterani di Forza Horizon",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110824-anime-preview-annunci-per-overgeared-fired-but-i-maintain-all-the-software-e-altre-novita"
+      "url": "https://www.animeclick.it/news/110792-clutch-e-il-nuovo-racing-game-dai-veterani-di-forza-horizon"
+    },
+    {
+      "title": "Il Truck-kun degli isekai protagonista di un videogioco in uscita a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110797-truck-kun"
+    },
+    {
+      "title": "Look Back: trailer, cast, poster e data di uscita per il live action diretto da Kore'eda",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110860-look-back-trailer-cast-poster-e-data-di-uscita-per-il-live-action-diretto-da-koreeda"
+    },
+    {
+      "title": "XBOX Showcase 2026: tutti gli annunci dell'evento",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110844-xbox-showcase-2026-tutti-gli-annunci-dellevento"
+    },
+    {
+      "title": "Vuoi Kenshiro in casa? Una statua d'oro a grandezza naturale costa solo 260.000 euro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110831-vuoi-kenshiro-in-casa-una-statua-doro-a-grandezza-naturale-costa-solo-260000-euro"
     }
   ],
   "youtube_trends": [
@@ -4233,12 +4263,12 @@
       "url": "https://www.youtube.com/watch?v=h4R9mrhU4R4"
     },
     {
-      "title": "[JoyRead Romanzi] Curioso di questa storia? Commenta qui sotto!! ♥️  #youtubeitalia #bibliomanzia #booktok #perte",
-      "url": "https://www.youtube.com/watch?v=aVYMfTiLhMQ"
-    },
-    {
       "title": "[Gaia B Amman] 90s Italy + Nonbinary Enemies to Lovers? 🇮🇹 #Shorts #BookTok",
       "url": "https://www.youtube.com/watch?v=B7EY5ZiEst4"
+    },
+    {
+      "title": "[JoyRead Romanzi] Curioso di questa storia? Commenta qui sotto!! ♥️  #youtubeitalia #bibliomanzia #booktok #perte",
+      "url": "https://www.youtube.com/watch?v=aVYMfTiLhMQ"
     },
     {
       "title": "[BodaliaBooks] I loved Cinque Terre (Italy)!! #BookTok #writer #author #lotr #cinqueterre",
@@ -4249,12 +4279,12 @@
       "url": "https://www.youtube.com/watch?v=JjB7uGljMWo"
     },
     {
-      "title": "[JoyRead Romanzi] #youtubeitalia #wattpad #bibliomanzia #booktok #ilmaggiodeilibri #perte #books",
-      "url": "https://www.youtube.com/watch?v=RRtzL7BzLUA"
-    },
-    {
       "title": "[Raining Souls ASMR] The Next Big Manga? 10 Hidden Gems You Need To Read | ASMR",
       "url": "https://www.youtube.com/watch?v=4H6MudvUTvk"
+    },
+    {
+      "title": "[Yurikuki] Ado Recommends These Manga 🔥",
+      "url": "https://www.youtube.com/watch?v=V6o1iR_JpMU"
     },
     {
       "title": "[Impero Nerd] Cosa sono i Manga Meisaku?😮🇯🇵 #manga #mangaitalia #mangacommunity #consigliati #otakuita",
@@ -4265,20 +4295,20 @@
       "url": "https://www.youtube.com/watch?v=BkgSPD9wX3g"
     },
     {
-      "title": "[Yurikuki] Ado Recommends These Manga 🔥",
-      "url": "https://www.youtube.com/watch?v=V6o1iR_JpMU"
+      "title": "[Maina Lilac] bakudeku mention 👀 game: #toxicyuri #vtuber #twitch #envtuber #vtuberclips #yuri #visualnovel",
+      "url": "https://www.youtube.com/watch?v=Ewg-ofVMo18"
     },
     {
       "title": "[Yuhoo Comic Review] RIP Alfred Pennyworth",
       "url": "https://www.youtube.com/watch?v=Uq_nw9a2kvE"
     },
     {
-      "title": "[Yuhoo Comic Review] You DON&#39;T Understand Kingdom Come",
-      "url": "https://www.youtube.com/watch?v=ffS95TSzxZk"
-    },
-    {
       "title": "[Hawkilles] BEN 10 ISSUE 2 REVIEW #comics #Ben10",
       "url": "https://www.youtube.com/watch?v=d6nLBhnDL-s"
+    },
+    {
+      "title": "[Yuhoo Comic Review] You DON&#39;T Understand Kingdom Come",
+      "url": "https://www.youtube.com/watch?v=ffS95TSzxZk"
     },
     {
       "title": "[TheComicBookReport] Is this the best Spider-Man omnibus? It’s SPECTACULAR! 🕷️ #spiderman #marvel #comics ￼",
@@ -4293,6 +4323,10 @@
       "url": "https://www.youtube.com/watch?v=cdminLs06g4"
     },
     {
+      "title": "[Madefamus] $50,000 Comic Books",
+      "url": "https://www.youtube.com/watch?v=VFtG6AxyuMA"
+    },
+    {
       "title": "[Kody Collects] 📚 FIVE GEARS IN REVERSE REVIEW",
       "url": "https://www.youtube.com/watch?v=77oWo0raBXw"
     },
@@ -4305,8 +4339,8 @@
       "url": "https://www.youtube.com/watch?v=q5pommBRFxM"
     },
     {
-      "title": "[Arex9921] DUE SPICCI [Recensione Flash]",
-      "url": "https://www.youtube.com/watch?v=VyRNbfujUaw"
+      "title": "[Etra chan saw it!] The pride of the coach [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=S733aIxV6f0"
     },
     {
       "title": "[Termynater] TWO NEW Troops and Spell TEASED By Supercell in the Anime Season!",
@@ -4317,16 +4351,16 @@
       "url": "https://www.youtube.com/watch?v=WwX9AqDzEKc"
     },
     {
+      "title": "[MANGA CHRONOS] This Manga Hits Like Early Berserk Except The Main Character Is Just A Farmer Who Cannot Turn Back",
+      "url": "https://www.youtube.com/watch?v=SK-aaYxW7eY"
+    },
+    {
       "title": "[Fanfare Kzoo] New Comics [6/10/2026]",
       "url": "https://www.youtube.com/watch?v=wTbAzG51HPw"
     },
     {
-      "title": "[Shibuya Café] ACQUISTI FUMETTERIA GIUGNO 2026 📚💥 MANGA, FUMETTI E GRANDI SORPRESE! 😱",
-      "url": "https://www.youtube.com/watch?v=cPV6o8jPWz4"
-    },
-    {
-      "title": "[LovePlot Stories] 【RomCom】I went drinking with my new colleagues when suddenly…【Manga Dub】",
-      "url": "https://www.youtube.com/watch?v=BLayBazxNCA"
+      "title": "[Stibazzi] L&#39;imbarazzante LOTTERIA di Yukimura al Comicon di Napoli",
+      "url": "https://www.youtube.com/watch?v=yLux4pmaWjc"
     },
     {
       "title": "[Kryptinite] DreamHack Haul: D&amp;D Dice, Manga, and More! #shorts",
@@ -4337,8 +4371,12 @@
       "url": "https://www.youtube.com/watch?v=qHKdk9Jpjno"
     },
     {
-      "title": "[Stibazzi] L&#39;imbarazzante LOTTERIA di Yukimura al Comicon di Napoli",
-      "url": "https://www.youtube.com/watch?v=yLux4pmaWjc"
+      "title": "[Nero Megaman ] New Manga Twilight Blade Is Giving Me Spy X Family / JJK Vibes",
+      "url": "https://www.youtube.com/watch?v=hklgP-Lt6DA"
+    },
+    {
+      "title": "[SonGoshuaku] The DBS Manga Will Be ALL Toyotaro Moving Forward? | Dragon Ball Super",
+      "url": "https://www.youtube.com/watch?v=GKffFNp6Uv4"
     }
   ]
 }
