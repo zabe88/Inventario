@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-06-15T18:02:25.703844+00:00",
+  "updated_at": "2026-06-16T10:20:52.292266+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -107,26 +107,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845941009",
-      "title": "Kolchoz",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788845941009",
+      "title": "Kolchoz",
       "author": "",
       "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788842935759",
-      "title": "Gli anni in bianco e nero",
-      "author": "",
-      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,7 +126,23 @@
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
+      "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788842935759",
+      "title": "Gli anni in bianco e nero",
+      "author": "",
       "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "author": "",
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,21 +150,13 @@
       "ean": "9788863116243",
       "title": "La montagna incantata. Ediz. integrale",
       "author": "",
-      "position": 18,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806260316",
-      "title": "Le terme dell'Indirizzo",
-      "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806222642",
-      "title": "L'isola di Arturo",
+      "ean": "9788804783497",
+      "title": "Fahrenheit 451. Nuova ediz.",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -203,24 +203,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804211082",
-      "title": "Romanzi, racconti e saggi",
+      "ean": "9788804113867",
+      "title": "L'avventura di un povero cristiano",
       "author": "",
       "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788804236061",
-      "title": "Il ritratto di Dorian Gray",
+      "ean": "9788804211082",
+      "title": "Romanzi, racconti e saggi",
       "author": "",
       "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788804237518",
-      "title": "Il codice Rebecca",
+      "ean": "9788804226666",
+      "title": "Opere. Romanzi, prose, novelle, saggi",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845941009",
-      "title": "Kolchoz",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -699,24 +699,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788836575671",
-      "title": "Il linguaggio dell'universo. Viaggio ill...",
+      "ean": "9788862464291",
+      "title": "Mamma, dove vai quando non sei con me? E...",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788862464291",
-      "title": "Mamma, dove vai quando non sei con me? E...",
+      "ean": "9788836575671",
+      "title": "Il linguaggio dell'universo. Viaggio ill...",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788831028752",
+      "title": "È colpa vostra",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831028752",
-      "title": "È colpa vostra",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -1315,42 +1315,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788832858747",
-      "title": "Cattivo maestro. Bertrand Russell: logic...",
-      "author": "",
-      "position": 35,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788866205777",
-      "title": "Io cammino con gli ultimi",
-      "author": "",
-      "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867951154",
-      "title": "Alla scoperta del buddismo della Soka Ga...",
-      "author": "",
-      "position": 37,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788868948955",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
-      "author": "",
-      "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788828203636",
       "title": "Gesù. Il processo",
       "author": "",
-      "position": 39,
+      "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1358,7 +1326,7 @@
       "ean": "9788826610412",
       "title": "Liberi sotto la grazia. Alla scuola di S...",
       "author": "",
-      "position": 40,
+      "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1366,13 +1334,45 @@
       "ean": "9788806273002",
       "title": "San Francesco prima del mito",
       "author": "",
-      "position": 41,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788815394965",
       "title": "Il mondo secondo Francesco d'Assisi",
+      "author": "",
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788832858747",
+      "title": "Cattivo maestro. Bertrand Russell: logic...",
+      "author": "",
+      "position": 39,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788867951154",
+      "title": "Alla scoperta del buddismo della Soka Ga...",
+      "author": "",
+      "position": 40,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788868948955",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "author": "",
+      "position": 41,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788899863289",
+      "title": "Il romanticismo del Graal. Magia e miste...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3933,6 +3933,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Focaccette e sgabei a San Giovanni a Villafranca",
+      "date": "2026-06-20",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-16_09-50-06_075-2026-06-16T08_02_39.342.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Filetto Summer Fest Edition V edizione",
       "date": "2026-06-19",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-06-11_23-41-15_000.jpeg",
@@ -3954,114 +3960,6 @@
       "title": "Concerto di beneficenza degli Alter Ego",
       "date": "2026-06-19",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_23-49-37_194.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Zeri Bike Mtb/trail/bike kids",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-16_22-29-36_358.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Pugilato olimpico",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-19_22-57-41_000.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Corri Caniparola",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-22_13-58-58_905.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "1a Cendronata 2026",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-28_13-22-07_988.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Paese che vieni,Paese che vai / Visite guidate con degustazioni",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-15-45_588.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Vintage Car",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-13-06_164.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Serata Focaccette e Ravioli a Olivola",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-46-55_345.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Concorso artistico-letterario “L’olivo argentato”",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-48-47_139.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "XVII Mini Mito Meeting",
-      "date": "2026-06-14",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-11_22-28-45_945.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Trippata Moncigolese",
-      "date": "2026-06-13",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-28_13-20-50_461.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Presentazione libro – Vita Contadina",
-      "date": "2026-06-13",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-13-44_629.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Workshop sul Sapone",
-      "date": "2026-06-13",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-50-30_347.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Memorial Davide Bertolini",
-      "date": "2026-06-13",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-51-14_712.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Sasi di Rock/roll",
-      "date": "2026-06-12",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-28_13-23-24_838.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Serata dedicata ai Fotoamatori Tresana",
-      "date": "2026-06-12",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-18-23_483.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Il potere delle parole / spettacolo teatrale",
-      "date": "2026-06-12",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-12-06_499.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Presentazione libro di Riccardo Boggi",
-      "date": "2026-06-12",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-49-55_859.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Convento in Fermento",
-      "date": "2026-06-12",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_22-50-45_255.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -4151,104 +4049,14 @@
   ],
   "manga_trends": [
     {
-      "title": "Clutch è il nuovo racing game dai veterani di Forza Horizon",
+      "title": "Orsi nelle città giapponesi: record di attacchi e un'emergenza nazionale senza precedenti",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110792-clutch-e-il-nuovo-racing-game-dai-veterani-di-forza-horizon"
+      "url": "https://www.animeclick.it/news/110899-orsi-nelle-citta-giapponesi-record-di-attacchi-e-unemergenza-nazionale-senza-precedenti"
     },
     {
-      "title": "Clevatess II: l'imminente dark fantasy ha un nuovo trailer",
+      "title": "Fall in Love, You False Angels: annunciato l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/41532-clevatess-ii-limminente-dark-fantasy-ha-un-nuovo-trailer"
-    },
-    {
-      "title": "XBOX: Matt Booty spiega la strategia sulle esclusive",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110861-xbox-matt-booty-spiega-la-strategia-sulle-esclusive"
-    },
-    {
-      "title": "Anime Preview: trailer per il campagnolo stagionato, The Villager of Level 999 e altri anime in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110888-anime-preview-trailer-per-il-campagnolo-stagionato-villager-999-e-altri-anime-in-arrivo"
-    },
-    {
-      "title": "La voce di Eren Yeager interpreta 4 scarafaggi romantici nel dating game più assurdo del 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110868-la-voce-di-eren-yeager-interpreta-4-scarafaggi-romantici-nel-dating-game-piu-assurdo-del-2026"
-    },
-    {
-      "title": "Planet Manga annuncia Blue Heaven di Tsutomu Takahashi, e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110884-planet-manga-annuncia-blue-heaven-di-tsutomu-takahashi-e-altre-novita"
-    },
-    {
-      "title": "Smoking Behind the Supermarket with You: nuovo trailer per l'anime in arrivo il 9 luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110881-smoking-behind-the-supermarket-with-you-nuovo-trailer-per-anime-in-arrivo-il-9-luglio"
-    },
-    {
-      "title": "Future Games Show Giugno 2026 - Gli annunci più importanti dell'evento",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110838-future-games-show-giugno-2026-gli-annunci-piu-importanti-dellevento"
-    },
-    {
-      "title": "Beast King War God Dandivine: annunciato il nuovo anime di Good Smile Company",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110816-beast-king-war-god-dandivine-annunciato-il-nuovo-anime-di-good-smile-company"
-    },
-    {
-      "title": "Tokyo Revengers: trailer e data di debutto per la nuova stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110906-tokyo-revengers-trailer-e-data-di-debutto-per-la-nuova-stagione"
-    },
-    {
-      "title": "Look Back: trailer, cast, poster e data di uscita per il live action diretto da Kore'eda",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110860-look-back-trailer-cast-poster-e-data-di-uscita-per-il-live-action-diretto-da-koreeda"
-    },
-    {
-      "title": "Vuoi Kenshiro in casa? Una statua d'oro a grandezza naturale costa solo 260.000 euro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110831-vuoi-kenshiro-in-casa-una-statua-doro-a-grandezza-naturale-costa-solo-260000-euro"
-    },
-    {
-      "title": "Kill la Kill e Street Fighter: due nuove figure di Prime 1 Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110827-kill-la-kill-e-street-fighter-due-nuove-figure-di-prime-1-studio"
-    },
-    {
-      "title": "Heroine? Saint? No, I'm an All-Works Maid: trailer per l'anime in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110801-heroine-saint-no-i-am-an-all-works-maid-trailer-per-anime-in-arrivo"
-    },
-    {
-      "title": "Kaiju No.8: unboxing della Limited Edition Blu Ray della 1°stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110800-kaiju-no8-unboxing-della-limited-edition-blu-ray-della-1%25c2%25b0stagione"
-    },
-    {
-      "title": "Pokémon TGC: annunciata l'espansione 30° Anniversario",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110821-pokemon-tgc-annunciata-lespansione-30%25c2%25b0-anniversario"
-    },
-    {
-      "title": "Anime Preview: trailer per Love Unseen Beneath the Clear Night Sky, e altre serie in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110904-anime-preview-trailer-per-love-unseen-beneath-the-clear-night-sky-e-altre-serie-in-arrivo"
-    },
-    {
-      "title": "Black Torch: trailer e novità per l'anime in arrivo il 4 luglio su Crunchyroll",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110819-tsuyoshi-takaki-trailer-e-novita-per-lanime-in-arrivo-il-4-luglio-su-crunchyroll"
-    },
-    {
-      "title": "Kamui: He's Behind You: trailer e novità per l'anime ecchi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110822-kamui-hes-behind-you-trailer-e-novita-per-lanime-ecchi"
-    },
-    {
-      "title": "Dara-san of Reiwa: trailer per l'anime soprannaturale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110865-dara-san-of-reiwa-trailer-per-lanime-soprannaturale"
+      "url": "https://www.animeclick.it/news/110880-fall-in-love-you-false-angels-annunciato-lanime"
     },
     {
       "title": "Persona 4 Revival: aperti i preordini per le varie edizioni del titolo",
@@ -4256,29 +4064,29 @@
       "url": "https://www.animeclick.it/news/110871-persona-4-revival-aperti-i-preordini-per-le-varie-edizioni-del-titolo"
     },
     {
-      "title": "Disponibile la demo su Nintendo Switch 2 di Digimon Story: Time Stranger",
+      "title": "Kamui: He's Behind You: trailer e novità per l'anime ecchi",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110893-disponibile-la-demo-su-nintendo-switch-2-di-digimon-story-time-stranger"
+      "url": "https://www.animeclick.it/news/110822-kamui-hes-behind-you-trailer-e-novita-per-lanime-ecchi"
     },
     {
-      "title": "Non solo anime: nuovi trailer per Gatto, il film della Pixar ambientato a Venezia, e molto altro",
+      "title": "Anime Preview: annunci per Overgeared, per Fired? But I Maintain All the Software! e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110891-non-solo-anime-nuovi-trailer-per-gatto-il-film-della-pixar-ambientato-a-venezia-e-molto-altro"
+      "url": "https://www.animeclick.it/news/110824-anime-preview-annunci-per-overgeared-fired-but-i-maintain-all-the-software-e-altre-novita"
     },
     {
-      "title": "The Cat and the Dragon: nuovo trailer, data e nuovi membri del cast per il fantasy estivo",
+      "title": "Anteprima 418: annunci e altre novità per Planet Manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110855-the-cat-and-the-dragon-nuovo-trailer-data-e-nuovi-membri-del-cast-per-il-fantasy-estivo"
+      "url": "https://www.animeclick.it/news/110915-anteprima-418-annunci-e-altre-novita-per-planet-manga"
     },
     {
-      "title": "News dal mondo gaming: S.T.A.L.K.E.R. 2, Cyberpunk 2077 e My Time at Evershine",
+      "title": "Planet Manga annuncia Blue Heaven di Tsutomu Takahashi, e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110907-news-dal-mondo-gaming-stalker-2-cyberpunk-2077-e-my-time-at-evershine"
+      "url": "https://www.animeclick.it/news/110884-planet-manga-annuncia-blue-heaven-di-tsutomu-takahashi-e-altre-novita"
     },
     {
-      "title": "Gundam Rogue Orbit: i produttori ci spiegano di cosa si tratta",
+      "title": "Clevatess II: l'imminente dark fantasy ha un nuovo trailer",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110886-gundam-rogue-orbit-i-produttori-ci-spiegano-di-cosa-si-tratta"
+      "url": "https://www.animeclick.it/news/41532-clevatess-ii-limminente-dark-fantasy-ha-un-nuovo-trailer"
     },
     {
       "title": "Kaiju Girl Caramelise: trailer per l'anime in arrivo a luglio",
@@ -4286,9 +4094,24 @@
       "url": "https://www.animeclick.it/news/110842-kaiju-girl-caramelise-rilasciato-un-nuovo-video-e-annunciata-la-data-di-uscita"
     },
     {
-      "title": "Atelier Karia è il nuovo capitolo della serie RPG alchemica",
+      "title": "Dragon's Dogma 2: arriveranno due importanti aggiornamenti prima dell'espansione Dark Arisen",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110863-atelier-karia-e-il-nuovo-capitolo-della-serie-rpg-alchemica"
+      "url": "https://www.animeclick.it/news/110872-dragons-dogma-2-arriveranno-due-importanti-aggiornamenti-prima-dellespansione-dark-arisen"
+    },
+    {
+      "title": "Ghost in the Shell e Berserk: una nuova figure e cofanetto di Prime 1 Studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110828-ghost-in-the-shell-e-berserk-una-nuova-figure-e-cofanetto-di-prime-1-studio"
+    },
+    {
+      "title": "Clutch è il nuovo racing game dai veterani di Forza Horizon",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110792-clutch-e-il-nuovo-racing-game-dai-veterani-di-forza-horizon"
+    },
+    {
+      "title": "Vuoi Kenshiro in casa? Una statua d'oro a grandezza naturale costa solo 260.000 euro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110831-vuoi-kenshiro-in-casa-una-statua-doro-a-grandezza-naturale-costa-solo-260000-euro"
     },
     {
       "title": "Rooster Fighter: cosa succede quando il salvatore dell'umanità è un gallo da combattimento?",
@@ -4296,16 +4119,87 @@
       "url": "https://www.animeclick.it/news/110850-rooster-fighter-cosa-succede-quando-il-salvatore-dellumanita-e-un-gallo-da-combattimento"
     },
     {
-      "title": "XBOX Showcase 2026: tutti gli annunci dell'evento",
+      "title": "Beast of Reincarnation: nuovi dettagli dal nuovo action RPG di Game Freak",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110844-xbox-showcase-2026-tutti-gli-annunci-dellevento"
+      "url": "https://www.animeclick.it/news/110869-beast-of-reincarnation-nuovi-dettagli-dal-nuovo-action-rpg-di-game-freak"
+    },
+    {
+      "title": "Final Fantasy VII Revelation: un'intervista al producer rivela moltissimi dettagli",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110848-final-fantasy-vii-revelation-unintervista-al-producer-rivela-moltissimi-dettagli"
+    },
+    {
+      "title": "Thunder 3: nuovo trailer rivela data di messa in onda ed ending",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110878-thunder-3-nuovo-trailer-rivela-data-di-messa-in-onda-ed-ending"
+    },
+    {
+      "title": "Inseguendo un sogno, i Samurai Blu ai Mondiali di Calcio 2026: Olanda - Giappone 2-2",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110914-inseguendo-un-sogno-i-samurai-blu-ai-mondiali-di-calcio-2026-olanda-giappone-2-2"
+    },
+    {
+      "title": "Nuova ondata di tagli in casa Ubisoft",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110876-nuova-ondata-di-tagli-in-casa-ubisoft"
+    },
+    {
+      "title": "Stupid Never Dies: periodo d'uscita e tante nuove informazioni sul folle progetto di Itsuno",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110870-stupid-never-dies-periodo-duscita-e-tante-nuove-informazioni-sul-folle-progetto-di-itsuno"
+    },
+    {
+      "title": "Ace Combat 8: primo deep dive su rinnovato gameplay e nuove meccaniche",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110812-ace-combat-8-primo-deep-dive-su-rinnovato-gameplay-e-nuove-meccaniche"
+    },
+    {
+      "title": "Look Back: trailer, cast, poster e data di uscita per il live action diretto da Kore'eda",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110860-look-back-trailer-cast-poster-e-data-di-uscita-per-il-live-action-diretto-da-koreeda"
+    },
+    {
+      "title": "Final Fantasy Resonance: il nuovo HD-2D di Square Enix è più di un semplice omaggio al passato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110913-final-fantasy-resonance-il-nuovo-hd-2d-di-square-enix-e-piu-di-un-semplice-omaggio-al-passato"
+    },
+    {
+      "title": "Bungo Stray Dogs Wan!: nuovo trailer per la seconda stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110887-bungo-stray-dogs-wan-nuovo-trailer-per-la-seconda-stagione"
+    },
+    {
+      "title": "Nintendo Directgiugno 2026: ecco gli annunci principali",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110859-nintendo-direct-giugno-2026-ecco-gli-annunci-principali"
+    },
+    {
+      "title": "Elettroshock Daisy: annunciata la trasposizione anime del manga shojo di Kyousuke Motomi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110856-elettroshock-daisy-annunciata-la-trasposizione-anime-del-manga-shojo-di-kyousuke-motomi"
+    },
+    {
+      "title": "Pokémon TGC: annunciata l'espansione 30° Anniversario",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110821-pokemon-tgc-annunciata-lespansione-30%25c2%25b0-anniversario"
+    },
+    {
+      "title": "Frieren - Oltre la Fine del Viaggio: unboxing della Limited Edition parte 2 Blu-Ray",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110799-frieren-oltre-la-fine-del-viaggio-unboxing-della-limited-edition-parte-2-blu-ray"
+    },
+    {
+      "title": "Kill la Kill e Street Fighter: due nuove figure di Prime 1 Studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110827-kill-la-kill-e-street-fighter-due-nuove-figure-di-prime-1-studio"
+    },
+    {
+      "title": "The Laid-Off Cheat-Granting Mage Enjoys a New Life: nuovo trailer svela data debutto, cast e staff",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110866-the-laid-off-cheat-granting-mage-enjoys-a-new-life-nuovo-trailer-svela-cast-staff-e-debutto-autunnale"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[LalibreriadiGiady📚] Vi prego il blocco estivo nooo😭 #libri #libritiktok #booktok #books #libricheamo #perte #bookish",
-      "url": "https://www.youtube.com/watch?v=rxDsiroAwC8"
-    },
     {
       "title": "[Madame Natalie_Stories.] fuori su Wattpad! #booktubeitalia #perte #wattpadstory #booktok",
       "url": "https://www.youtube.com/watch?v=h4R9mrhU4R4"
@@ -4335,16 +4229,16 @@
       "url": "https://www.youtube.com/watch?v=Ewg-ofVMo18"
     },
     {
+      "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 418, i migliori FUMETTI e MANGA di AGOSTO 2026 | Polvere &amp; Fumetti",
+      "url": "https://www.youtube.com/watch?v=24BVzL9v2iE"
+    },
+    {
       "title": "[Maina Lilac] #vtuber and her sausage #aweirdgameaboutsausage #twitch  #envtuber #vtuberclips #ragebait #yapping",
       "url": "https://www.youtube.com/watch?v=t0MxYpx0vX0"
     },
     {
       "title": "[Maina Lilac] my boyfriend is a COCKROACH? #vtuber #gokigenlovelydays #gokilove #ごきげんラブリーデイズ #visualnovel #twitch",
       "url": "https://www.youtube.com/watch?v=RsKMOMfM0tc"
-    },
-    {
-      "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 418, i migliori FUMETTI e MANGA di AGOSTO 2026 | Polvere &amp; Fumetti",
-      "url": "https://www.youtube.com/watch?v=24BVzL9v2iE"
     },
     {
       "title": "[Yuhoo Comic Review] RIP Alfred Pennyworth",
@@ -4371,6 +4265,14 @@
       "url": "https://www.youtube.com/watch?v=UPfMkfrhVrE"
     },
     {
+      "title": "[The Comic Patrol] Absolute Catwoman 1 Review #comicbooks #dccomics #absoluteuniverse #absolutecatwoman #catwoman",
+      "url": "https://www.youtube.com/watch?v=lzV71QDCRRc"
+    },
+    {
+      "title": "[Isola di Carta] Recensione Pocket Nik Raider",
+      "url": "https://www.youtube.com/watch?v=uDu8hyi3fMo"
+    },
+    {
       "title": "[Isola di Carta] Recensione Zagor Zenith Gigante n.782:&quot;Il Passato Ritorna&quot;",
       "url": "https://www.youtube.com/watch?v=4AKUrr9_WrQ"
     },
@@ -4379,20 +4281,12 @@
       "url": "https://www.youtube.com/watch?v=WVLBGnrwbVI"
     },
     {
-      "title": "[Shady Mob Productions] Random Comic Book Movie!!! #podcast #review #movie #shorts",
-      "url": "https://www.youtube.com/watch?v=PkkHcq85FAY"
-    },
-    {
-      "title": "[Isola di Carta] Recensione Pocket Nik Raider",
-      "url": "https://www.youtube.com/watch?v=uDu8hyi3fMo"
-    },
-    {
       "title": "[Mariopanda3] ROMANCE ANIME KEEPSBREAKING NEW RECORDS #smokingbehindthesupermarketwithyou #romanceanime  #manga",
       "url": "https://www.youtube.com/watch?v=eoCH5ilNorc"
     },
     {
-      "title": "[Fandom] I NUOVI RE di Shonen Jump",
-      "url": "https://www.youtube.com/watch?v=WwX9AqDzEKc"
+      "title": "[ThePromG] These 5 NEW Viz Manga Announcements are INSANE!",
+      "url": "https://www.youtube.com/watch?v=dAqWuAQ53zA"
     },
     {
       "title": "[Pelati e Fumetti] Nuovi Eventi, Ospriti, Annunci e Manga Marvel a Pelati Saturday News!",
@@ -4407,6 +4301,10 @@
       "url": "https://www.youtube.com/watch?v=QsILX15Toig"
     },
     {
+      "title": "[Dark Horse Comics] The Art of Star Wars: A New Hope--The Manga Volume 1 - Dark Horse Comics",
+      "url": "https://www.youtube.com/watch?v=VR0pYedIlMI"
+    },
+    {
       "title": "[Fanfare Kzoo] New Comics [6/10/2026]",
       "url": "https://www.youtube.com/watch?v=wTbAzG51HPw"
     },
@@ -4417,14 +4315,6 @@
     {
       "title": "[SunnSET] Kagurabachi New Character designs just dropped 🔥 #kagurabachi #shonenjump #animeedit #batman",
       "url": "https://www.youtube.com/watch?v=9Yc0EQD3fRk"
-    },
-    {
-      "title": "[ThePromG] These 5 NEW Viz Manga Announcements are INSANE!",
-      "url": "https://www.youtube.com/watch?v=dAqWuAQ53zA"
-    },
-    {
-      "title": "[Kryptinite] DreamHack Haul: D&amp;D Dice, Manga, and More! #shorts",
-      "url": "https://www.youtube.com/watch?v=AY1zJwYoLM0"
     }
   ]
 }
