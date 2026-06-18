@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-06-17T16:43:53.467905+00:00",
+  "updated_at": "2026-06-18T09:44:29.023555+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -59,16 +59,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788838949951",
-      "title": "I tramezzini di Rocco Schiavone",
+      "ean": "9788826610931",
+      "title": "Magnifica humanitas. Lettera Enciclica sulla custodia della persona umana nel tempo dell’intelligenza artificiale",
       "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788826610931",
-      "title": "Magnifica humanitas. Lettera Enciclica sulla custodia della persona umana nel tempo dell’intelligenza artificiale",
+      "ean": "9788838949951",
+      "title": "I tramezzini di Rocco Schiavone",
       "author": "",
       "position": 9,
       "category": "generale",
@@ -107,8 +107,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788276",
-      "title": "Resta con me per sempre. The chase",
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
       "author": "",
       "position": 14,
       "category": "generale",
@@ -123,10 +123,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9788806253103",
+      "title": "Una questione privata",
       "author": "",
       "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788276",
+      "title": "Resta con me per sempre. The chase",
+      "author": "",
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,29 +142,21 @@
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
       "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788845941009",
-      "title": "Kolchoz",
-      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806253103",
-      "title": "Una questione privata",
+      "ean": "9788854165380",
+      "title": "Il fu Mattia Pascal. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788845941009",
+      "title": "Kolchoz",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -171,16 +171,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788467451528",
-      "title": "L' ira dello spettro",
+      "ean": "9788467477993",
+      "title": "John Constantine. Hellblazer. Vol. 1",
       "author": "",
       "position": 2,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788467477993",
-      "title": "John Constantine. Hellblazer. Vol. 1",
+      "ean": "9788802072272",
+      "title": "I viceré e altre opere",
       "author": "",
       "position": 3,
       "category": "narrativa",
@@ -195,18 +195,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804113867",
-      "title": "L'avventura di un povero cristiano",
-      "author": "",
-      "position": 5,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804211082",
       "title": "Romanzi, racconti e saggi",
       "author": "",
-      "position": 6,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,13 +206,21 @@
       "ean": "9788804226666",
       "title": "Opere. Romanzi, prose, novelle, saggi",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804236061",
       "title": "Il ritratto di Dorian Gray",
+      "author": "",
+      "position": 7,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804237518",
+      "title": "Il codice Rebecca",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788276",
-      "title": "Resta con me per sempre. The chase",
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -715,24 +715,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788862464291",
-      "title": "Mamma, dove vai quando non sei con me? E...",
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788862464291",
+      "title": "Mamma, dove vai quando non sei con me? E...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -803,18 +803,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788467451528",
-      "title": "L' ira dello spettro",
-      "author": "",
-      "position": 9,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788467477993",
       "title": "John Constantine. Hellblazer. Vol. 1",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -822,7 +814,7 @@
       "ean": "9788804679202",
       "title": "March. Libro uno",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -830,7 +822,7 @@
       "ean": "9788804707554",
       "title": "Il trono di spade. Libro primo delle Cro...",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +830,7 @@
       "ean": "9788804721512",
       "title": "Io sono One Piece. Vol. 3",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,7 +838,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -854,13 +846,21 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
+      "author": "",
+      "position": 15,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804739425",
+      "title": "Heartstopper. Vol. 4",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1139,32 +1139,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804551737",
-      "title": "Con te e senza di te",
+      "ean": "9788804538806",
+      "title": "I vangeli gnostici",
       "author": "",
       "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804571322",
-      "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
+      "ean": "9788804551737",
+      "title": "Con te e senza di te",
       "author": "",
       "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804581642",
-      "title": "L'illusione di Dio. Le ragioni per non c...",
+      "ean": "9788804560012",
+      "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
       "author": "",
       "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804583912",
-      "title": "Conversazioni notturne a Gerusalemme. Su...",
+      "ean": "9788804571322",
+      "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1315,18 +1315,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828203636",
-      "title": "Gesù. Il processo",
-      "author": "",
-      "position": 35,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788806273002",
       "title": "San Francesco prima del mito",
       "author": "",
-      "position": 36,
+      "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,13 +1326,21 @@
       "ean": "9788815394965",
       "title": "Il mondo secondo Francesco d'Assisi",
       "author": "",
+      "position": 36,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828203636",
+      "title": "Gesù. Il processo",
+      "author": "",
       "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788832858747",
-      "title": "Cattivo maestro. Bertrand Russell: logic...",
+      "ean": "9788861762619",
+      "title": "I tre mondi dello spirito",
       "author": "",
       "position": 38,
       "category": "religione",
@@ -1355,24 +1355,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788897688549",
-      "title": "Sante dee martiri tra paganesimo e crist...",
+      "ean": "9788892250468",
+      "title": "Manuale di autodifesa spirituale. Guida ...",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791256260935",
-      "title": "Un momento di verità: la fede in tempo d...",
+      "ean": "9788897688549",
+      "title": "Sante dee martiri tra paganesimo e crist...",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788888819853",
-      "title": "Fare pace con se stessi. Guarire le feri...",
+      "ean": "9791256260935",
+      "title": "Un momento di verità: la fede in tempo d...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1515,10 +1515,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9788829795581",
+      "title": "I luoghi a cui appartieni",
+      "author": "",
+      "position": 4,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9788804816379",
       "title": "Sento i pollici che prudono",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1526,7 +1534,7 @@
       "ean": "9788892912427",
       "title": "Trappole",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1534,7 +1542,7 @@
       "ean": "9788817192019",
       "title": "La malinconia del tartufo",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1542,7 +1550,7 @@
       "ean": "9791282636001",
       "title": "Il ragno e la corona",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1550,7 +1558,7 @@
       "ean": "9791282636049",
       "title": "Il tempo delle spie",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1558,7 +1566,7 @@
       "ean": "9788833579917",
       "title": "Gangnam",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1566,7 +1574,7 @@
       "ean": "9788817199070",
       "title": "Non chiamatemi Jessica Fletcher",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1574,7 +1582,7 @@
       "ean": "9788817195201",
       "title": "Il re delle ceneri",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1590,7 @@
       "ean": "9791223801550",
       "title": "Il gioco",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1598,7 @@
       "ean": "9788804809456",
       "title": "L'isola degli inganni",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1606,7 @@
       "ean": "9788892922938",
       "title": "I mercanti di anime",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1614,7 @@
       "ean": "9788804815488",
       "title": "L'assassinio di Roger Ackroyd",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,7 +1622,7 @@
       "ean": "9788850275212",
       "title": "Sepolcro in agguato. Un'indagine di Cormoran Strike",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1622,7 +1630,7 @@
       "ean": "9788850275212",
       "title": "Sepolcro in agguato. Un'indagine di Cor...",
       "author": "Robert Galbraith",
-      "position": 17,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1630,7 +1638,7 @@
       "ean": "9788834624111",
       "title": "Un animale selvaggio",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1638,7 +1646,7 @@
       "ean": "9788823535947",
       "title": "L'incertezza del domani",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1646,7 +1654,7 @@
       "ean": "9788830463417",
       "title": "La danza del lupo",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1654,7 +1662,7 @@
       "ean": "9791224203889",
       "title": "Il gatto che risolveva delitti impossibili",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1662,7 +1670,7 @@
       "ean": "9788834442524",
       "title": "Il codice delle ombre",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1670,23 +1678,7 @@
       "ean": "9788892764620",
       "title": "Le buone intenzioni",
       "author": "",
-      "position": 23,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791254943540",
-      "title": "Morte e miracoli del numero 3. La nuova indagine di Steno Molteni",
-      "author": "",
       "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791254943540",
-      "title": "Morte e miracoli del numero 3. La nuova...",
-      "author": "Franco Vanni",
-      "position": 25,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1715,10 +1707,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9788893085915",
+      "title": "Pokémon. Crea il tuo Pikachu",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9781836068020",
       "title": "Evviva l'estate! Con adesivi",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1726,7 +1726,7 @@
       "ean": "9781836068518",
       "title": "Nel mare",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1734,7 +1734,7 @@
       "ean": "9791223400340",
       "title": "Gioca e impara con Aurora e Ludovica",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1742,7 +1742,7 @@
       "ean": "9788857022840",
       "title": "Giulio Coniglio e la lumaca Laura",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1750,7 +1750,7 @@
       "ean": "9788857022833",
       "title": "Giulio Coniglio e il piccolo Max",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1758,7 +1758,7 @@
       "ean": "9781836067955",
       "title": "Principesse. Con adesivi",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1766,7 +1766,7 @@
       "ean": "9791259746535",
       "title": "Cani",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1774,7 @@
       "ean": "9791259746542",
       "title": "Gatti",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1782,7 @@
       "ean": "9788855645881",
       "title": "Il grande libro stickers degli unicorni",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1790,7 @@
       "ean": "9791255190158",
       "title": "Attilio. Le mini fiabe box 4 (rosso)",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1798,7 @@
       "ean": "9788855645232",
       "title": "Unicorni. Scratch fantastic!",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1806,7 @@
       "ean": "9788852254956",
       "title": "Toy Story 5 Amici giocattoli Primo album da colorare",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1814,7 @@
       "ean": "9788852254956",
       "title": "Toy Story 5 Amici giocattoli Primo albu...",
       "author": "Walt Disney",
-      "position": 16,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1822,7 @@
       "ean": "9788852254987",
       "title": "Toy Story 5 I Librottini",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1830,7 @@
       "ean": "9788852254963",
       "title": "Toy Story 5 Staccattacca&colora",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,7 +1838,7 @@
       "ean": "9791259746306",
       "title": "Animali della foresta",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1846,7 +1846,7 @@
       "ean": "9791259746290",
       "title": "Mondi Magici",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1854,7 +1854,7 @@
       "ean": "9791256731503",
       "title": "Che cantiere!",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1862,7 +1862,7 @@
       "ean": "9791256731480",
       "title": "Brum! Brum!",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1870,23 +1870,7 @@
       "ean": "9791221221428",
       "title": "Il mare. Cerca e trova pop-up",
       "author": "",
-      "position": 23,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791221224337",
-      "title": "A casa con la famiglia Moon! Isadora Moon. Activity book",
-      "author": "",
       "position": 24,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791221224337",
-      "title": "A casa con la famiglia Moon! Isadora Mo...",
-      "author": "",
-      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -4145,69 +4129,14 @@
   ],
   "manga_trends": [
     {
-      "title": "Ghost in the Shell e Berserk: una nuova figure e cofanetto di Prime 1 Studio",
+      "title": "The Laid-Off Cheat-Granting Mage Enjoys a New Life: nuovo trailer svela data debutto, cast e staff",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110828-ghost-in-the-shell-e-berserk-una-nuova-figure-e-cofanetto-di-prime-1-studio"
+      "url": "https://www.animeclick.it/news/110866-the-laid-off-cheat-granting-mage-enjoys-a-new-life-nuovo-trailer-svela-cast-staff-e-debutto-autunnale"
     },
     {
-      "title": "Look Back: trailer, cast, poster e data di uscita per il live action diretto da Kore'eda",
+      "title": "Sasaki and Peeps: trailer per la seconda stagione, in arrivo a ottobre",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110860-look-back-trailer-cast-poster-e-data-di-uscita-per-il-live-action-diretto-da-koreeda"
-    },
-    {
-      "title": "Elettroshock Daisy: annunciata la trasposizione anime del manga shojo di Kyousuke Motomi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110856-elettroshock-daisy-annunciata-la-trasposizione-anime-del-manga-shojo-di-kyousuke-motomi"
-    },
-    {
-      "title": "The Adventures of Elliot: The Millennium Tales- La recensione del nuovo titolo HD-2D di Square Enix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110929-the-adventures-of-elliot-the-millennium-tales-la-recensione-del-nuovo-titolo-hd-2d-di-square-enix"
-    },
-    {
-      "title": "Box Office Giappone: debutta Yamaguchi-kun wa warukunai, tratto dal manga di Yū Saiki",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110890-box-office-giappone-debutta-yamaguchi-kun-wa-warukunai-tratto-dal-manga-di-yu-saiki"
-    },
-    {
-      "title": "Kill la Kill e Street Fighter: due nuove figure di Prime 1 Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110827-kill-la-kill-e-street-fighter-due-nuove-figure-di-prime-1-studio"
-    },
-    {
-      "title": "Summer Movies: la rassegna estiva gratuita del cinema giapponese a Roma",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110806-summer-movies-la-rassegna-estiva-gratuita-del-cinema-giapponese-a-roma"
-    },
-    {
-      "title": "Non solo anime: nuovi trailer per Gatto, il film della Pixar ambientato a Venezia, e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110891-non-solo-anime-nuovi-trailer-per-gatto-il-film-della-pixar-ambientato-a-venezia-e-molto-altro"
-    },
-    {
-      "title": "Persona 4 Revival: aperti i preordini per le varie edizioni del titolo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110871-persona-4-revival-aperti-i-preordini-per-le-varie-edizioni-del-titolo"
-    },
-    {
-      "title": "Magic the Gathering X Marvel Super Heroes - Prodotti e date di uscita del nuovo crossover",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110839-magic-the-gathering-x-marvel-super-heroes-prodotti-e-date-di-uscita-del-nuovo-crossover"
-    },
-    {
-      "title": "Clevatess II: l'imminente dark fantasy ha un nuovo trailer",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/41532-clevatess-ii-limminente-dark-fantasy-ha-un-nuovo-trailer"
-    },
-    {
-      "title": "Thunder 3: nuovo trailer rivela data di messa in onda ed ending",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110878-thunder-3-nuovo-trailer-rivela-data-di-messa-in-onda-ed-ending"
-    },
-    {
-      "title": "Anime Preview: trailer per Draw This, Then Die e altre serie in uscita a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110852-anime-preview-trailer-per-draw-this-then-die-e-altre-serie-in-uscita-a-luglio"
+      "url": "https://www.animeclick.it/news/110918-sasaki-and-peeps-rilasciato-un-nuovo-trailer-e-annunciata-la-data-di-uscita-della-seconda-stagione"
     },
     {
       "title": "Tokyo Revengers: trailer e data di debutto per la nuova stagione",
@@ -4215,34 +4144,64 @@
       "url": "https://www.animeclick.it/news/110906-tokyo-revengers-trailer-e-data-di-debutto-per-la-nuova-stagione"
     },
     {
-      "title": "Bungo Stray Dogs Wan!: nuovo trailer per la seconda stagione",
+      "title": "Thunder 3: nuovo trailer rivela data di messa in onda ed ending",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110887-bungo-stray-dogs-wan-nuovo-trailer-per-la-seconda-stagione"
+      "url": "https://www.animeclick.it/news/110878-thunder-3-nuovo-trailer-rivela-data-di-messa-in-onda-ed-ending"
     },
     {
-      "title": "Fall in Love, You False Angels: annunciato l'anime",
+      "title": "Planet Manga annuncia Blue Heaven di Tsutomu Takahashi, e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110880-fall-in-love-you-false-angels-annunciato-lanime"
+      "url": "https://www.animeclick.it/news/110884-planet-manga-annuncia-blue-heaven-di-tsutomu-takahashi-e-altre-novita"
     },
     {
-      "title": "A Livid Lady's Guide to Getting Even: trailer per l'anime in arrivo a luglio",
+      "title": "Anime Preview: trailer per Love Unseen Beneath the Clear Night Sky, e altre serie in arrivo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110846-a-livid-ladys-guide-to-getting-even-trailer-per-lanime-in-arrivo-a-luglio"
+      "url": "https://www.animeclick.it/news/110904-anime-preview-trailer-per-love-unseen-beneath-the-clear-night-sky-e-altre-serie-in-arrivo"
     },
     {
-      "title": "Sparks of Tomorrow: trailer e altre novità per il nuovo anime KyoAni",
+      "title": "Gundam Rogue Orbit: i produttori ci spiegano di cosa si tratta",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110919-sparks-of-tomorrow-trailer-e-altre-novita-per-il-nuovo-anime-kyoani"
+      "url": "https://www.animeclick.it/news/110886-gundam-rogue-orbit-i-produttori-ci-spiegano-di-cosa-si-tratta"
     },
     {
-      "title": "Recommendation from Mr. Iwamoto: trailer per l'anime storico soprannaturale",
+      "title": "Bao Publishing propone il 20% di sconto fino al 10 luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110912-recommendation-from-mr-iwamoto-trailer-per-anime-storico-soprannaturale"
+      "url": "https://www.animeclick.it/news/110877-bao-publishing-propone-il-20-di-sconto-fino-al-10-luglio"
     },
     {
-      "title": "My Stepmother and Stepsisters Aren't Wicked: trailer e novità per l'anime in arrivo a luglio",
+      "title": "Box Office Giappone: debutta Yamaguchi-kun wa warukunai, tratto dal manga di Yū Saiki",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110898-my-stepmother-and-stepsisters-arent-wicked-trailer-e-novita-per-lanime-in-arrivo-a-luglio"
+      "url": "https://www.animeclick.it/news/110890-box-office-giappone-debutta-yamaguchi-kun-wa-warukunai-tratto-dal-manga-di-yu-saiki"
+    },
+    {
+      "title": "Clevatess II: l'imminente dark fantasy ha un nuovo trailer",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/41532-clevatess-ii-limminente-dark-fantasy-ha-un-nuovo-trailer"
+    },
+    {
+      "title": "Disponibile la demo su Nintendo Switch 2 di Digimon Story: Time Stranger",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110893-disponibile-la-demo-su-nintendo-switch-2-di-digimon-story-time-stranger"
+    },
+    {
+      "title": "Naoki Urasawa: annunciato un nuovo manga dell’autore di 20th Century Boys e Monster",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110883-naoki-urasawa-annunciato-un-nuovo-manga-dell%25e2%2580%2599autore-di-20th-century-boys-e-monster"
+    },
+    {
+      "title": "Berserk: Kouji Mori rompe il silenzio sulle difficoltà del nuovo capitolo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110885-berserk-kouji-mori-rompe-il-silenzio-sulle-difficolta-del-nuovo-capitolo"
+    },
+    {
+      "title": "Anime Preview: trailer per Draw This, Then Die e altre serie in uscita a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110852-anime-preview-trailer-per-draw-this-then-die-e-altre-serie-in-uscita-a-luglio"
+    },
+    {
+      "title": "Beast of Reincarnation: nuovi dettagli dal nuovo action RPG di Game Freak",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110869-beast-of-reincarnation-nuovi-dettagli-dal-nuovo-action-rpg-di-game-freak"
     },
     {
       "title": "Dragon's Dogma 2: arriveranno due importanti aggiornamenti prima dell'espansione Dark Arisen",
@@ -4255,9 +4214,14 @@
       "url": "https://www.animeclick.it/news/110800-kaiju-no8-unboxing-della-limited-edition-blu-ray-della-1%25c2%25b0stagione"
     },
     {
-      "title": "Final Fantasy VII Revelation, Kingdom Hearts IV e non solo: tutti gli annunci Square Enix di giugno",
+      "title": "Dara-san of Reiwa: trailer per l'anime soprannaturale",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110862-annunciati-final-fantasy-resonance-dragon-quest-monster-e-novita-su-kingdom-hearts"
+      "url": "https://www.animeclick.it/news/110865-dara-san-of-reiwa-trailer-per-lanime-soprannaturale"
+    },
+    {
+      "title": "Crunchyroll annuncia il palinsesto dell'estate 2026 e nuovi doppiaggi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110943-crunchyroll-annuncia-palinsesto-estate-2026-e-nuovi-doppiaggi"
     },
     {
       "title": "Smoking Behind the Supermarket with You: nuovo trailer per l'anime in arrivo il 9 luglio",
@@ -4265,45 +4229,57 @@
       "url": "https://www.animeclick.it/news/110881-smoking-behind-the-supermarket-with-you-nuovo-trailer-per-anime-in-arrivo-il-9-luglio"
     },
     {
-      "title": "Naoki Urasawa: annunciato un nuovo manga dell’autore di 20th Century Boys e Monster",
+      "title": "Look Back: trailer, cast, poster e data di uscita per il live action diretto da Kore'eda",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110883-naoki-urasawa-annunciato-un-nuovo-manga-dell%25e2%2580%2599autore-di-20th-century-boys-e-monster"
+      "url": "https://www.animeclick.it/news/110860-look-back-trailer-cast-poster-e-data-di-uscita-per-il-live-action-diretto-da-koreeda"
     },
     {
-      "title": "Quando l'eccellenza italiana incontra il Giappone: ecco Jujutsu Kaisen Rumble: Survivaton",
+      "title": "My Stepmother and Stepsisters Aren't Wicked: trailer e novità per l'anime in arrivo a luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110882-quando-leccellenza-italiana-incontra-il-giappone-ecco-jujutsu-kaisen-rumble-survivaton"
+      "url": "https://www.animeclick.it/news/110898-my-stepmother-and-stepsisters-arent-wicked-trailer-e-novita-per-lanime-in-arrivo-a-luglio"
     },
     {
-      "title": "Rooster Fighter: cosa succede quando il salvatore dell'umanità è un gallo da combattimento?",
+      "title": "Star Comics: le novità previste per settembre dall'anteprima dell'editore",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110850-rooster-fighter-cosa-succede-quando-il-salvatore-dellumanita-e-un-gallo-da-combattimento"
+      "url": "https://www.animeclick.it/news/110924-star-comics-le-novita-previste-per-settembre-da-anteprima-editore"
     },
     {
-      "title": "Bao Publishing propone il 20% di sconto fino al 10 luglio",
+      "title": "Summer Movies: la rassegna estiva gratuita del cinema giapponese a Roma",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110877-bao-publishing-propone-il-20-di-sconto-fino-al-10-luglio"
+      "url": "https://www.animeclick.it/news/110806-summer-movies-la-rassegna-estiva-gratuita-del-cinema-giapponese-a-roma"
     },
     {
-      "title": "The Laid-Off Cheat-Granting Mage Enjoys a New Life: nuovo trailer svela data debutto, cast e staff",
+      "title": "Non solo anime: trailer per Hexed, il nuovo classico Disney - Novità per Shrek 5 e molto altro",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110866-the-laid-off-cheat-granting-mage-enjoys-a-new-life-nuovo-trailer-svela-cast-staff-e-debutto-autunnale"
+      "url": "https://www.animeclick.it/news/110933-non-solo-anime-trailer-per-hexed-il-nuovo-classico-disney-novita-per-shrek-5-e-molto-altro"
     },
     {
-      "title": "Orsi nelle città giapponesi: record di attacchi e un'emergenza nazionale senza precedenti",
+      "title": "News dal mondo gaming: S.T.A.L.K.E.R. 2, Cyberpunk 2077 e My Time at Evershine",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110899-orsi-nelle-citta-giapponesi-record-di-attacchi-e-unemergenza-nazionale-senza-precedenti"
+      "url": "https://www.animeclick.it/news/110907-news-dal-mondo-gaming-stalker-2-cyberpunk-2077-e-my-time-at-evershine"
+    },
+    {
+      "title": "L'italiano Francesco Pio Pero trionfa ai campionati nordamericani di Pokémon",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110921-litaliano-francesco-pio-pero-trionfa-ai-campionati-nordamericani-di-pokemon"
+    },
+    {
+      "title": "Elettroshock Daisy: annunciata la trasposizione anime del manga shojo di Kyousuke Motomi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110856-elettroshock-daisy-annunciata-la-trasposizione-anime-del-manga-shojo-di-kyousuke-motomi"
+    },
+    {
+      "title": "Non solo anime: nuovi trailer per Gatto, il film della Pixar ambientato a Venezia, e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110891-non-solo-anime-nuovi-trailer-per-gatto-il-film-della-pixar-ambientato-a-venezia-e-molto-altro"
+    },
+    {
+      "title": "Il Giappone chiede il rispetto del copyright dopo il video di Trump vestito da Naruto grazie all'IA",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110895-trump"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[Madame Natalie_Stories.] fuori su Wattpad! #booktubeitalia #perte #wattpadstory #booktok",
-      "url": "https://www.youtube.com/watch?v=h4R9mrhU4R4"
-    },
-    {
-      "title": "[BodaliaBooks] I loved Cinque Terre (Italy)!! #BookTok #writer #author #lotr #cinqueterre",
-      "url": "https://www.youtube.com/watch?v=rwy97Rv3WSs"
-    },
     {
       "title": "[Essiejk] #romancebooks #booktok #wattpaditalia #bibliomanzia #wattpad #enemiestolovers",
       "url": "https://www.youtube.com/watch?v=3DBslB930es"
@@ -4321,12 +4297,12 @@
       "url": "https://www.youtube.com/watch?v=Ewg-ofVMo18"
     },
     {
-      "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 418, i migliori FUMETTI e MANGA di AGOSTO 2026 | Polvere &amp; Fumetti",
-      "url": "https://www.youtube.com/watch?v=24BVzL9v2iE"
-    },
-    {
       "title": "[Maina Lilac] #vtuber reads books and is a nerd #vtuberclips #envtuber #twitch #twitchstreamer #vtuberen #booktok",
       "url": "https://www.youtube.com/watch?v=zUVCVChohDw"
+    },
+    {
+      "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 418, i migliori FUMETTI e MANGA di AGOSTO 2026 | Polvere &amp; Fumetti",
+      "url": "https://www.youtube.com/watch?v=24BVzL9v2iE"
     },
     {
       "title": "[Maina Lilac] #vtuber and her sausage #aweirdgameaboutsausage #twitch  #envtuber #vtuberclips #ragebait #yapping",
@@ -4337,24 +4313,12 @@
       "url": "https://www.youtube.com/watch?v=RsKMOMfM0tc"
     },
     {
-      "title": "[Hawkilles] BEN 10 ISSUE 2 REVIEW #comics #Ben10",
-      "url": "https://www.youtube.com/watch?v=d6nLBhnDL-s"
-    },
-    {
       "title": "[Madefamus] $50,000 Comic Books",
       "url": "https://www.youtube.com/watch?v=VFtG6AxyuMA"
     },
     {
-      "title": "[The Comic Patrol] MASK 1 review #comicbooks #skybound #energonuniverse #imagecomics #Mask #firstissue",
-      "url": "https://www.youtube.com/watch?v=Rm5nV9ZbzZs"
-    },
-    {
       "title": "[Read Your Comics] REVIEW: Classic Spider-Man Newspaper Comic vol 1-4 from Clover Press #comics #spiderman",
       "url": "https://www.youtube.com/watch?v=WVLBGnrwbVI"
-    },
-    {
-      "title": "[N1 from the N-Zone] Random Comic Book Movie!! #podcast #movies #shorts #review",
-      "url": "https://www.youtube.com/watch?v=UPfMkfrhVrE"
     },
     {
       "title": "[Isola di Carta] Recensione Pocket Nik Raider",
@@ -4365,56 +4329,68 @@
       "url": "https://www.youtube.com/watch?v=lzV71QDCRRc"
     },
     {
-      "title": "[Shady Mob Productions] Random Comic Book Movie!!! #podcast #review #movie #shorts",
-      "url": "https://www.youtube.com/watch?v=PkkHcq85FAY"
+      "title": "[Wilhelm Carver] What&#39;s the best Wolverine cover??? #comics #comicbooks #Wolverine",
+      "url": "https://www.youtube.com/watch?v=QcI9s_YdZsw"
     },
     {
-      "title": "[Next Issue Podcast] AVENGERS ARMAGGEDON #1 | Comic Review | Marvel’s Next Big Event Begins! The Future will CHANGE",
-      "url": "https://www.youtube.com/watch?v=SdYB_EIMgEY"
+      "title": "[Dylan Dog Fan Page] Recensione: Dylan Dog Nuovo Oldboy 8 &quot;Il patto di sabbia&quot;",
+      "url": "https://www.youtube.com/watch?v=4RFaplEWats"
     },
     {
       "title": "[The Comic Patrol] Bishop 1 Review #comicbooks #Marvel #Bishop #storm #xmen",
       "url": "https://www.youtube.com/watch?v=T82ONhxlse4"
     },
     {
-      "title": "[Etra chan saw it!] A chaotic scene in the hotel area [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=XCMXVdD_8Uo"
+      "title": "[The CodeX Cantina] Wonder Woman: Spirit of Truth - Paul Dini and Alex Ross Comic Summary, Analysis, Review",
+      "url": "https://www.youtube.com/watch?v=J0nBQc5ocgQ"
     },
     {
-      "title": "[Mariopanda3] ROMANCE ANIME KEEPSBREAKING NEW RECORDS #smokingbehindthesupermarketwithyou #romanceanime  #manga",
-      "url": "https://www.youtube.com/watch?v=eoCH5ilNorc"
+      "title": "[Comics From The Multiverse] Forget Me Not | Batgirl #20 | 2026 Comic Book Review",
+      "url": "https://www.youtube.com/watch?v=XVIVfE-fqkA"
+    },
+    {
+      "title": "[Next Issue Podcast] BISHOP #1 | Comic Review | The X-Men’s Time-Lost Hero Returns | Marvel Comics",
+      "url": "https://www.youtube.com/watch?v=4D3yrlIy7Js"
+    },
+    {
+      "title": "[Etra chan saw it!] A chaotic scene in the hotel area [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=XCMXVdD_8Uo"
     },
     {
       "title": "[ThePromG] These 5 NEW Viz Manga Announcements are INSANE!",
       "url": "https://www.youtube.com/watch?v=dAqWuAQ53zA"
     },
     {
-      "title": "[Pelati e Fumetti] Nuovi Eventi, Ospriti, Annunci e Manga Marvel a Pelati Saturday News!",
-      "url": "https://www.youtube.com/watch?v=hlTC6hRsdWE"
+      "title": "[Mariopanda3] ROMANCE ANIME KEEPSBREAKING NEW RECORDS #smokingbehindthesupermarketwithyou #romanceanime  #manga",
+      "url": "https://www.youtube.com/watch?v=eoCH5ilNorc"
+    },
+    {
+      "title": "[ATTACK on MIKA] Here&#39;s what happened when the CEO&#39;s daughter went to a party full of celebrities... [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=j7kBgbX9-HQ"
+    },
+    {
+      "title": "[manganimist] NEW HUNTER x HUNTER UPDATES‼️",
+      "url": "https://www.youtube.com/watch?v=tcJOZ75dCAs"
     },
     {
       "title": "[Stibazzi] L&#39;imbarazzante LOTTERIA di Yukimura al Comicon di Napoli",
       "url": "https://www.youtube.com/watch?v=yLux4pmaWjc"
     },
     {
+      "title": "[Pelati e Fumetti] Nuovi Eventi, Ospriti, Annunci e Manga Marvel a Pelati Saturday News!",
+      "url": "https://www.youtube.com/watch?v=hlTC6hRsdWE"
+    },
+    {
       "title": "[Mas] NEW Fairy Tail Manga CONFIRMED #fairytail #manga",
       "url": "https://www.youtube.com/watch?v=QsILX15Toig"
     },
     {
+      "title": "[Krine] KOMI CAN’T COMMUNICATE IS GETTING MORE CONTENT #komicantcommunicate #anime #romanceanime",
+      "url": "https://www.youtube.com/watch?v=k9ucQ-jhZPs"
+    },
+    {
       "title": "[Dark Horse Comics] The Art of Star Wars: A New Hope--The Manga Volume 1 - Dark Horse Comics",
       "url": "https://www.youtube.com/watch?v=VR0pYedIlMI"
-    },
-    {
-      "title": "[Fanfare Kzoo] New Comics [6/17/2026]",
-      "url": "https://www.youtube.com/watch?v=vyI05I4srjU"
-    },
-    {
-      "title": "[SunnSET] Kagurabachi New Character designs just dropped 🔥 #kagurabachi #shonenjump #animeedit #batman",
-      "url": "https://www.youtube.com/watch?v=9Yc0EQD3fRk"
-    },
-    {
-      "title": "[One Nation Manga] Advice For New Indie Creators 👀 #indiecreator #illustrationservices #onenationmanga #comicart",
-      "url": "https://www.youtube.com/watch?v=zW9m5EvTLw0"
     }
   ]
 }
