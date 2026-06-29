@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-06-29T09:58:03.874079+00:00",
+  "updated_at": "2026-06-29T16:41:51.848477+00:00",
   "rankings": [
     {
       "ean": "9788822783974",
@@ -35,16 +35,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854165380",
-      "title": "Il fu Mattia Pascal. Ediz. integrale",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788854165380",
+      "title": "Il fu Mattia Pascal. Ediz. integrale",
       "author": "",
       "position": 6,
       "category": "generale",
@@ -59,26 +59,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
       "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 9,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791256210848",
-      "title": "La profezia dell'armadillo",
-      "author": "",
-      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,15 +78,15 @@
       "ean": "9788804801818",
       "title": "Alzarsi all'alba",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788838949951",
-      "title": "I tramezzini di Rocco Schiavone",
+      "ean": "9788804776352",
+      "title": "Il barone rampante",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
@@ -102,23 +94,7 @@
       "ean": "9788806253103",
       "title": "Una questione privata",
       "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
-      "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
-      "author": "",
-      "position": 15,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,13 +102,37 @@
       "ean": "9788863114201",
       "title": "Uno, nessuno e centomila. Ediz. integrale",
       "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788838949951",
+      "title": "I tramezzini di Rocco Schiavone",
+      "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
+      "author": "",
       "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804776352",
-      "title": "Il barone rampante",
+      "ean": "9788845941009",
+      "title": "Kolchoz",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -147,16 +147,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845941009",
-      "title": "Kolchoz",
+      "ean": "9788806247973",
+      "title": "Oliva Denaro",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788807893483",
+      "title": "Il buio oltre la siepe",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -355,16 +355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854165380",
-      "title": "Il fu Mattia Pascal. Ediz. integrale",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 25,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788854165380",
+      "title": "Il fu Mattia Pascal. Ediz. integrale",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788838949951",
-      "title": "I tramezzini di Rocco Schiavone",
+      "ean": "9788863114201",
+      "title": "Uno, nessuno e centomila. Ediz. integrale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -675,8 +675,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804587637",
-      "title": "Peter Pan. Ediz. illustrata",
+      "ean": "9788804774808",
+      "title": "Il signore delle mosche",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
@@ -691,8 +691,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804774808",
-      "title": "Il signore delle mosche",
+      "ean": "9788804587637",
+      "title": "Peter Pan. Ediz. illustrata",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
@@ -707,24 +707,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788836575671",
-      "title": "Il linguaggio dell'universo. Viaggio ill...",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
+      "ean": "9788804680680",
+      "title": "Il rinomato catalogo Walker & Dawn",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
@@ -963,18 +963,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256210848",
-      "title": "La profezia dell'armadillo",
-      "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788817180696",
       "title": "Persepolis. Ediz. integrale",
       "author": "",
-      "position": 30,
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -982,13 +974,21 @@
       "ean": "9791256211890",
       "title": "Un polpo alla gola",
       "author": "",
-      "position": 31,
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788865439760",
       "title": "Macerie prime",
+      "author": "",
+      "position": 31,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791256212439",
+      "title": "Nel nido dei serpenti",
       "author": "",
       "position": 32,
       "category": "fumetti",
@@ -1019,24 +1019,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256212439",
-      "title": "Nel nido dei serpenti",
+      "ean": "9788822666598",
+      "title": "One piece. Vol. 113",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788822666598",
-      "title": "One piece. Vol. 113",
+      "ean": "9788865438534",
+      "title": "La profezia dell'armadillo. Artist edition",
       "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788865438534",
-      "title": "La profezia dell'armadillo. Artist edition",
+      "ean": "9791256210091",
+      "title": "Quando muori resta a me",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1131,8 +1131,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804558194",
-      "title": "Il vangelo segreto di Tommaso. Indagine ...",
+      "ean": "9788804534457",
+      "title": "OM. 365 meditazioni quotidiane del Dalai...",
       "author": "",
       "position": 12,
       "category": "religione",
@@ -1307,16 +1307,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831559638",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "ean": "9788829702725",
+      "title": "Olympos. Vizi, amori e avventure degli a...",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788829702725",
-      "title": "Olympos. Vizi, amori e avventure degli a...",
+      "ean": "9788831559638",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 35,
       "category": "religione",
@@ -1363,8 +1363,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788826610948",
-      "title": "«Tornarono a Gerusalemme con grande gioi...",
+      "ean": "9788831967792",
+      "title": "L'icona del Natale. Contesto ecumenico e...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -4279,134 +4279,29 @@
   ],
   "manga_trends": [
     {
-      "title": "J-POP Manga: gli annunci dal COMICON Bergamo 2026",
+      "title": "Anime Preview: trailer per Samurai Troopers, Goodbye Lara, e altre serie in arrivo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111043-j-pop-manga-gli-annunci-dal-comicon-bergamo-2026"
+      "url": "https://www.animeclick.it/news/110992-anime-preview-trailer-per-samurai-troopers-goodbye-lara-e-altre-serie-in-arrivo"
     },
     {
-      "title": "Inseguendo un sogno, i Samurai Blu ai Mondiali di Calcio 2026: Giappone - Svezia 1-1",
+      "title": "Anime Preview: annunci per Classroom of the Elite e altri anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111028-inseguendo-un-sogno-i-samurai-blu-ai-mondiali-di-calcio-2026-giappone-svezia-1-1"
+      "url": "https://www.animeclick.it/news/111033-anime-preview-annunci-per-classroom-of-the-elite-e-altri-anime"
     },
     {
-      "title": "Sette anni di sviluppo, poi la chiusura: Kwalee Labs dice addio dopo Luna Abyss",
+      "title": "Claude Guillemot scomparso in un incidente aereo: era uno dei fondatori di Ubisoft",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110936-sette-anni-di-sviluppo-poi-la-chiusura-kwalee-labs-dice-addio-dopo-luna-abyss"
+      "url": "https://www.animeclick.it/news/111003-claude-guillemot-scomparso-in-un-incidente-aereo-era-uno-dei-fondatori-di-ubisoft"
     },
     {
-      "title": "Anime Preview: trailer per The 100 Girlfriends Who Really Love You e altre serie in arrivo",
+      "title": "Lucca Comics & Games 2026: il resoconto della prima conferenza stampa",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111047-anime-preview-trailer-per-the-100-girlfriends-who-really-love-you-e-altre-serie-in-arrivo"
+      "url": "https://www.animeclick.it/news/111001-lucca-comics-games-2026-il-resoconto-della-prima-conferenza-stampa"
     },
     {
-      "title": "Boruto: doppiaggio in arrivo su Amazon Prime Video dal 15 luglio",
+      "title": "Yumiko Igarashi sarà ospite al Japan Matsuri di Bellinzona a settembre",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111011-boruto-doppiaggio-in-arrivo-su-amazon-prime-video-dal-15-luglio"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: Go Nagai sarà tra gli ospiti dell'evento",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110999-lucca-comics-games-2026-go-nagai-sara-tra-gli-ospiti-dell-evento"
-    },
-    {
-      "title": "Anime Preview: trailer per One Piece Heroines e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111022-anime-preview-trailer-per-one-piece-heroines-e-altre-novita"
-    },
-    {
-      "title": "Box Office Giappone: debutto per il nuovo live action di Mr. Osomatsu",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110937-box-office-giappone-debutto-per-il-nuovo-live-action-di-mr-osomatsu"
-    },
-    {
-      "title": "Cyborg 009: Nemesis - Trailer per l'anime in arrivo a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111023-cyborg-009-nemesis-trailer-per-lanime-in-arrivo-a-luglio"
-    },
-    {
-      "title": "Trapped in a Dating Sim: trailer per la seconda stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110942-trapped-in-a-dating-sim-trailer-per-la-seconda-stagione"
-    },
-    {
-      "title": "Non solo anime: trailer per i nuovi film Illumination e DreamWorks e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110996-non-solo-anime-trailer-per-i-nuovi-film-illumination-e-dreamworks-e-molto-altro"
-    },
-    {
-      "title": "Anatolia Story: trailer per l'anime in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110965-anatolia-story-trailer-per-lanime-in-arrivo"
-    },
-    {
-      "title": "News dal mondo gaming: Echoes of Aincrad, Sonic the Hedgehog e Silent Hill f",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111045-news-dal-mondo-gaming-sonic-the-hedgehog-echoes-of-aincrad-e-silent-hill-f"
-    },
-    {
-      "title": "Il regista di Code Geass spiega perché gli anime rischiano di perdere i loro autori ambiziosi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111025-il-regista-di-code-geass-spiega-perche-gli-anime-rischiano-di-perdere-i-loro-autori-ambiziosi"
-    },
-    {
-      "title": "BanG Dream! Yume∞Mita: svelata la opening in un nuovo trailer",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110989-bang-dream-yumemita-svelata-la-opening-in-un-nuovo-trailer"
-    },
-    {
-      "title": "Sakamoto Days: teaser trailer e data d'uscita su Netflix per la 2° stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111008-sakamoto-days-teaser-trailer-e-data-duscita-su-netflix-per-la-2%25c2%25b0-stagione"
-    },
-    {
-      "title": "Anime Factory annuncia L'étoile de Paris en fleur, e Ghost - Yoru no Hate",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111002-anime-factory-annuncia-l-etoile-de-paris-en-fleur-e-ghost-yoru-no-hate"
-    },
-    {
-      "title": "Anime Preview: nuovi trailer per i film di Madoka Magica, Girls und Panzer e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111057-anime-preview-nuovi-trailer-per-i-film-di-madoka-magica-girls-und-panzer-e-altre-novita"
-    },
-    {
-      "title": "Non solo anime: Studio Khara lavorerà ad un colossal animato indiano e molte altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111024-non-solo-anime-studio-khara-lavorera-ad-un-colossal-animato-indiano-e-molte-altre-novita"
-    },
-    {
-      "title": "La ragazza che saltava nel tempo: unboxing della nuova edizione steelbook  4K Ultra HD + Blu-ray",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110909-la-ragazza-che-saltava-nel-tempo-unboxing-della-nuova-edizione-steelbook-4k-ultra-hd-blu-ray"
-    },
-    {
-      "title": "Nana: Panini pronta a lanciare una nuova edizione DELUXE 3 in 1 in due versioni differenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111021-nana-panini-pronta-a-lanciare-una-nuova-edizione-deluxe-3-in-1-in-due-versioni-differenti"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: Yoko Kanno sarà tra gli ospiti dell'evento",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110995-lucca-comics-games-2026-yoko-kanno-sara-tra-gli-ospiti-dell-evento"
-    },
-    {
-      "title": "Kagurabachi: l'anime arriverà su Crunchyroll dal prossimo aprile",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111036-kagurabachi-l-anime-arrivera-su-crunchyroll-dal-prossimo-aprile"
-    },
-    {
-      "title": "L'eredità di Arion, il colossal mitologico tra i pionieri del fantasy",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110945-leredita-di-arion-il-colossal-mitologico-tra-i-pionieri-del-fantasy"
-    },
-    {
-      "title": "Anime Preview: trailer per MAO, Ascendance of a Bookworm e altre serie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111046-anime-preview-trailer-per-mao-ascendance-of-a-bookworm-e-altre-serie"
-    },
-    {
-      "title": "After War Gundam X arriva su Youtube sottotitolata in italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110994-after-war-gundam-x-arriva-su-youtube-sottotitolata-in-italiano"
+      "url": "https://www.animeclick.it/news/111037-yumiko-igarashi-sara-ospite-al-japan-matsuri-di-bellinzona-a-settembre"
     },
     {
       "title": "ChaO: clip esclusiva per il film in sala dal 25 giugno",
@@ -4414,9 +4309,99 @@
       "url": "https://www.animeclick.it/news/110973-chao-clip-esclusiva-per-il-film-in-sala-dal-25-giugno"
     },
     {
-      "title": "Kochikame: 30 anni per l'anime del poliziotto più strampalato che ci sia",
+      "title": "After War Gundam X arriva su Youtube sottotitolata in italiano",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110901-kochikame-30-anni-per-lanime-del-poliziotto-piu-strampalato-che-ci-sia"
+      "url": "https://www.animeclick.it/news/110994-after-war-gundam-x-arriva-su-youtube-sottotitolata-in-italiano"
+    },
+    {
+      "title": "Anime Factory annuncia L'étoile de Paris en fleur, e Ghost - Yoru no Hate",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111002-anime-factory-annuncia-l-etoile-de-paris-en-fleur-e-ghost-yoru-no-hate"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: Go Nagai sarà tra gli ospiti dell'evento",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110999-lucca-comics-games-2026-go-nagai-sara-tra-gli-ospiti-dell-evento"
+    },
+    {
+      "title": "Non solo anime: Studio Khara lavorerà ad un colossal animato indiano e molte altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111024-non-solo-anime-studio-khara-lavorera-ad-un-colossal-animato-indiano-e-molte-altre-novita"
+    },
+    {
+      "title": "Oh Boy, Was I Wrong About Her: trailer e novità per l'anime estivo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110971-oh-boy-was-i-wrong-about-her-trailer-e-novita-per-l-anime-estivo"
+    },
+    {
+      "title": "Il Sondaggione: votiamo le serie più attese dell'estate 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110991-il-sondaggione-votiamo-le-serie-piu-attese-dellestate-2026"
+    },
+    {
+      "title": "Kagurabachi: l'anime arriverà su Crunchyroll dal prossimo aprile",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111036-kagurabachi-l-anime-arrivera-su-crunchyroll-dal-prossimo-aprile"
+    },
+    {
+      "title": "Anime Preview: trailer per MAO, Ascendance of a Bookworm e altre serie",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111046-anime-preview-trailer-per-mao-ascendance-of-a-bookworm-e-altre-serie"
+    },
+    {
+      "title": "Cyborg 009: Nemesis - Trailer per l'anime in arrivo a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111023-cyborg-009-nemesis-trailer-per-lanime-in-arrivo-a-luglio"
+    },
+    {
+      "title": "Kadokawa: azionisti scontenti del CEO per la cattiva gestione post Elden Ring",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111014-kadokawa-azionisti-scontenti-del-ceo-per-la-cattiva-gestione-post-elden-ring"
+    },
+    {
+      "title": "Non solo anime: trailer per i nuovi film Illumination e DreamWorks e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110996-non-solo-anime-trailer-per-i-nuovi-film-illumination-e-dreamworks-e-molto-altro"
+    },
+    {
+      "title": "Steam Machine: via ai preordini dell'hardware di Valve",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110998-steam-machine-via-ai-preordini-dellhardware-di-valve"
+    },
+    {
+      "title": "BanG Dream! Yume∞Mita: svelata la opening in un nuovo trailer",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110989-bang-dream-yumemita-svelata-la-opening-in-un-nuovo-trailer"
+    },
+    {
+      "title": "Sonic Frontiers: Definitive Edition disponibile da subito su Nintendo Switch 2",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111013-sonic-frontiers-definitive-edition-disponibile-da-subito-su-nintendo-switch-2"
+    },
+    {
+      "title": "Devil May Cry 5 Devil Hunter Edition- La recensione del porting per Nintendo Switch 2",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110953-devil-may-cry-5-devil-hunter-edition-la-recensione-del-porting-per-nintendo-switch-2"
+    },
+    {
+      "title": "La ragazza che saltava nel tempo: unboxing della nuova edizione steelbook  4K Ultra HD + Blu-ray",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110909-la-ragazza-che-saltava-nel-tempo-unboxing-della-nuova-edizione-steelbook-4k-ultra-hd-blu-ray"
+    },
+    {
+      "title": "Anime Preview: trailer per One Piece Heroines e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111022-anime-preview-trailer-per-one-piece-heroines-e-altre-novita"
+    },
+    {
+      "title": "Anime Preview: nuovi trailer per i film di Madoka Magica, Girls und Panzer e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111057-anime-preview-nuovi-trailer-per-i-film-di-madoka-magica-girls-und-panzer-e-altre-novita"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: Yoko Kanno sarà tra gli ospiti dell'evento",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110995-lucca-comics-games-2026-yoko-kanno-sara-tra-gli-ospiti-dell-evento"
     },
     {
       "title": "Higurashi no naku koro ni: annunciata una nuova serie animata",
@@ -4424,9 +4409,24 @@
       "url": "https://www.animeclick.it/news/110985-higurashi-no-naku-koro-ni-annunciata-una-nuova-serie-animata"
     },
     {
-      "title": "Sonic Frontiers: Definitive Edition disponibile da subito su Nintendo Switch 2",
+      "title": "Top 100 fumetti più venduti in Italia a maggio 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111013-sonic-frontiers-definitive-edition-disponibile-da-subito-su-nintendo-switch-2"
+      "url": "https://www.animeclick.it/news/110961-top-100-fumetti-piu-venduti-in-italia-a-maggio-2026"
+    },
+    {
+      "title": "Boruto: doppiaggio in arrivo su Amazon Prime Video dal 15 luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111011-boruto-doppiaggio-in-arrivo-su-amazon-prime-video-dal-15-luglio"
+    },
+    {
+      "title": "Anime Preview: nuove stagioni per Wistoria e Kill Blue, e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111050-anime-preview-nuove-stagioni-per-wistoria-e-kill-blue-e-altre-novita"
+    },
+    {
+      "title": "News dal mondo gaming: Pokémon Pokopia, Dave The Diver e Muramasa Revenant Blades",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110980-news-dal-mondo-gaming-pokemon-pokopia-dave-the-diver-e-muramasa-revenant-blades"
     }
   ],
   "youtube_trends": [
@@ -4439,16 +4439,12 @@
       "url": "https://www.youtube.com/watch?v=UgGpAXiUH8A"
     },
     {
+      "title": "[Curly Reader] i miei ✨legendary lovers✨ #booktok #booktokitalia #romance #books #booktube #bookstagram #booklover",
+      "url": "https://www.youtube.com/watch?v=4zoL6yd24p4"
+    },
+    {
       "title": "[Me and Books] 5 romance estivi #consiglidilettura #booktube #books #bookstagram #booktubeitalia #booktok",
       "url": "https://www.youtube.com/watch?v=NkitoOayKpU"
-    },
-    {
-      "title": "[MASHA LEGGE 📚] подборка книг 📖🇮🇹 #книги #books #booktok #lifestyle",
-      "url": "https://www.youtube.com/watch?v=lWmJHlxI0-E"
-    },
-    {
-      "title": "[withlovesiara] Day 11 of being accountable 🇮🇹✨ #learningitalian #italiana1 #booktok #learninglanguage",
-      "url": "https://www.youtube.com/watch?v=v96tFkBUBmE"
     },
     {
       "title": "[Maina Lilac] #vtuber names 100 women/men/#pokemon challenge #vtuberclips #envtuber #anime #twitch #twitchstreamer",
@@ -4459,44 +4455,24 @@
       "url": "https://www.youtube.com/watch?v=W4wDSGiRY4Y"
     },
     {
-      "title": "[TheComicBookReport] X-MEN ELSEWHEN ❌😱 Buy This Book!!! #xmen #marvel #abrams",
-      "url": "https://www.youtube.com/watch?v=SeLn6Hp4Ihg"
-    },
-    {
-      "title": "[TheComicBookReport] Spider-Man Brand New Day Omnibus Vol. 3 🕷️ #spiderman #marvel #comics #marvelcomics",
-      "url": "https://www.youtube.com/watch?v=rv2oODF3IMo"
-    },
-    {
       "title": "[Marco a Fumetti] SPIDER-MAN E SUPERMAN SONO TORNATI!",
       "url": "https://www.youtube.com/watch?v=C_WvABwLfWE"
-    },
-    {
-      "title": "[CapedUp] Which cover are you most excited for? #comic #comics #comicbook #comicbooks #comiccover",
-      "url": "https://www.youtube.com/watch?v=EXnlwxOFZgE"
-    },
-    {
-      "title": "[TheComicBookReport] Captain Marvel Highest, Furthest, Fastest Omnibus #marvelcomics #marvel #captainmarvel",
-      "url": "https://www.youtube.com/watch?v=SzhWnbxlJIc"
     },
     {
       "title": "[NickDeLarge92] 👨🏾🔪 DIABOLIK SWISS 385 - L&#39;isola delle Perle #shorts",
       "url": "https://www.youtube.com/watch?v=8psEJHH-8O4"
     },
     {
-      "title": "[DANI DARK COMICS] CAPITAN AMERICA: LA PATRIA DEI CORAGGIOSI MARVEL POCKET RECENSIONE",
-      "url": "https://www.youtube.com/watch?v=qAsEmfjKH5o"
-    },
-    {
-      "title": "[Manhwa Recap Vault] Despised as a Live-In Son-in-Law, He Awoke as a Hidden Miracle Doctor",
-      "url": "https://www.youtube.com/watch?v=Ns_fGw7CbBs"
-    },
-    {
-      "title": "[KING SPYKE ] X-MEN 97 SEASON 2 | PRELUDE COMIC ISSUE # 1 | X-MEN 97 PRELUDE REVIEW 👀",
-      "url": "https://www.youtube.com/watch?v=SFt-Al0ndoY"
+      "title": "[Artsy Sister] Public library Gem Batman The Brave and bold myth and mysteries #batman #comics #review",
+      "url": "https://www.youtube.com/watch?v=OwFuGWo9wHQ"
     },
     {
       "title": "[Kamikants] SUPERGIRL La Donna del DOMANI #recensione #shorts",
       "url": "https://www.youtube.com/watch?v=HWWc4iTdAvY"
+    },
+    {
+      "title": "[Broke Horror Fan] GODZILLA&#39;S THE ODYSSEY Comic Review",
+      "url": "https://www.youtube.com/watch?v=h8FoeyNYrtk"
     },
     {
       "title": "[Ani Amanda] Reborn, I No Longer Saved a Seat for My Genius Deskmate—I Chose My Future, But He Went Crazy",
@@ -4505,10 +4481,6 @@
     {
       "title": "[BoogieSnacks] 25 NEW Manga Worth Your Time 2026",
       "url": "https://www.youtube.com/watch?v=eS9zp56S2qI"
-    },
-    {
-      "title": "[Ani Amanda] After Rebirth, I Let Her Take the RA Job—Never Told Her She&#39;d Answer for the Contraband",
-      "url": "https://www.youtube.com/watch?v=Icynea333LI"
     },
     {
       "title": "[Ricky the New Guy] Il segreto dietro i NUOVI CAPELLI di Nico Robin! 😭🏴‍☠️ #Shorts #OnePiece",
@@ -4535,8 +4507,12 @@
       "url": "https://www.youtube.com/watch?v=Wk2Vkt2FtTE"
     },
     {
-      "title": "[Mize Kurosaki] Kakegurui Season 2: Loved Prequel, Hated New Characters! #shorts #anime #manga #vtuber",
-      "url": "https://www.youtube.com/watch?v=X2ik4sfFhIA"
+      "title": "[That Manga Dude] 60+ VOLUME MASSIVE MANGA HAUL! - June 2026 Pickups",
+      "url": "https://www.youtube.com/watch?v=nN7s2E3V5Ig"
+    },
+    {
+      "title": "[MiZU] 2026 Romance Mangas To Read",
+      "url": "https://www.youtube.com/watch?v=XPmw4tl5Em0"
     }
   ]
 }
