@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-07-17T07:29:16.628252+00:00",
+  "updated_at": "2026-07-17T14:53:03.961390+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -43,18 +43,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822783387",
+      "title": "Lo sbaglio. The mistake",
       "author": "",
       "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783387",
-      "title": "Lo sbaglio. The mistake",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 7,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806253103",
+      "title": "Una questione privata",
+      "author": "",
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,21 +70,13 @@
       "ean": "9788822783967",
       "title": "L'imprevisto. The goal",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822786333",
       "title": "L'eredità. The legacy. The campus series",
-      "author": "",
-      "position": 9,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806253103",
-      "title": "Una questione privata",
       "author": "",
       "position": 10,
       "category": "generale",
@@ -123,16 +123,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858333037",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9788868364748",
+      "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
       "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804772132",
-      "title": "Il sentiero dei nidi di ragno",
+      "ean": "9788858333037",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -147,16 +147,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788868364748",
-      "title": "Il giorno in cui ho imparato a volermi bene",
+      "ean": "9788804772132",
+      "title": "Il sentiero dei nidi di ragno",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806242329",
-      "title": "Il treno dei bambini",
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -371,24 +371,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788806253103",
+      "title": "Una questione privata",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822786333",
-      "title": "L'eredità. The legacy. The campus series",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806253103",
-      "title": "Una questione privata",
+      "ean": "9788822786333",
+      "title": "L'eredità. The legacy. The campus series",
       "author": "",
       "position": 29,
       "category": "narrativa",
@@ -683,8 +683,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804776352",
-      "title": "Il barone rampante",
+      "ean": "9788867148608",
+      "title": "Cane & gatto. Ediz. a colori",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
@@ -699,8 +699,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867148608",
-      "title": "Cane & gatto. Ediz. a colori",
+      "ean": "9788804776352",
+      "title": "Il barone rampante",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
@@ -723,16 +723,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804627227",
-      "title": "Lo scudo di Talos",
+      "ean": "9788862463942",
+      "title": "Gli animali. Le mie prime paroline. Ediz...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804776406",
-      "title": "Il sentiero dei nidi di ragno",
+      "ean": "9788804627227",
+      "title": "Lo scudo di Talos",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -803,10 +803,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788467440805",
+      "title": "La ragazza ha il potere. Supergirl",
+      "author": "",
+      "position": 9,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804428039",
       "title": "Tex. I figli della notte",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -814,7 +822,7 @@
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -822,7 +830,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -830,7 +838,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +846,7 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,21 +854,13 @@
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788806202347",
       "title": "MAUS",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806233761",
-      "title": "Anne Frank. Diario",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -1027,8 +1027,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9788834927694",
+      "title": "Good night world. Vol. 1-5",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1355,16 +1355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845938672",
-      "title": "Attesa di Dio",
+      "ean": "9788854174603",
+      "title": "Il Corano. Ediz. integrale",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788854174603",
-      "title": "Il Corano. Ediz. integrale",
+      "ean": "9788845938672",
+      "title": "Attesa di Dio",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -5011,54 +5011,9 @@
   ],
   "manga_trends": [
     {
-      "title": "COMICON Bergamo 2026: roundtable di Yasumi Matsuno (Final Fantasy Tactics, Vagrant Story)",
+      "title": "Kadokawa: caporedattore svela i cinque elementi fondamentali per creare un manga di successo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111160-comicon-bergamo-2026-roundtable-di-yasumi-matsuno-final-fantasy-tactics-vagrant-story"
-    },
-    {
-      "title": "Anime Preview: trailer per Shangri-La Frontier, e altre serie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111179-anime-preview-trailer-per-shangri-la-frontier-e-altre-serie"
-    },
-    {
-      "title": "Sword Art Online -Integral Domain-: annunciato un nuovo film originale in arrivo nel 2028",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111144-sword-art-online-integral-domain-annunciato-un-nuovo-film-originale-in-arrivo-nel-2028"
-    },
-    {
-      "title": "Dynit Manga annuncia Handsome Girl and Sheltered Girl",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111212-dynit-manga-annuncia-handsome-girl-and-sheltered-girl"
-    },
-    {
-      "title": "Gen Sato, animatore veterano di Galaxy Express, Pokémon e molto altro, ospite alla Palermo Comic Convention",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111153-gen-sato-animatore-veterano-di-galaxy-express-pokemon-e-molto-altro-ospite-al-palermo-comic-convention"
-    },
-    {
-      "title": "Thunder 3: informazioni sul doppiaggio di Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111174-thunder-3-informazioni-sul-doppiaggio-di-netflix"
-    },
-    {
-      "title": "Echoes of Aincradla recensione: l'incubo di Aincrad diventa una lunga corsa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111135-echoes-of-aincrad-la-recensione-lincubo-di-aincrad-diventa-una-lunga-corsa"
-    },
-    {
-      "title": "Crunchyroll annuncia PSYREN e altre novità in arrivo prossimamente",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111190-crunchyroll-annuncia-psyren-e-altre-novita-in-arrivo-prossimamente"
-    },
-    {
-      "title": "Yamato Video: The Forsaken Saintess and Her Foodie Roadtrip in Another World in arrivo su ANiME Generation",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111145-yamato-video-the-forsaken-saintess-and-her-foodie-roadtrip-in-another-world-in-arrivo-su-anime-generation"
-    },
-    {
-      "title": "Persona 4 Revival: tutte le novità dell'atteso remake Atlus",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111134-persona-4-revival-tutte-le-novita-dellatteso-remake-atlus"
+      "url": "https://www.animeclick.it/news/111201-kadokawa-caporedattore-svela-i-cinque-elementi-fondamentali-per-creare-un-manga-di-successo"
     },
     {
       "title": "A New Dawn: svelata la prima clip italiana per il film, in arrivo nelle sale dal 23 al 29 luglio",
@@ -5066,54 +5021,114 @@
       "url": "https://www.animeclick.it/news/111202-a-new-dawn-svelata-la-prima-clip-italiana-per-il-film-in-arrivo-nelle-sale-dal-23-al-29-luglio"
     },
     {
+      "title": "COMICON Bergamo 2026: roundtable di Yuji Horii (Dragon Quest)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/106677-comicon-bergamo-2026-roundtable-di-yuji-horii-dragon-quest"
+    },
+    {
+      "title": "Anime al cinema: Hayao Miyazaki e Satoshi Kon guidano il 2026, faticano le novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110105-anime-al-cinema-hayao-miyazaki-e-satoshi-kon-guidano-il-2026-faticano-le-novita"
+    },
+    {
+      "title": "Nuovi set Lego dedicati ai Pokémon ricreano l'iconica prima scelta e non solo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111156-nuovi-set-lego-dedicati-ai-pokemon-ricreano-liconica-prima-scelta-e-non-solo"
+    },
+    {
+      "title": "Xbox: comincia la pesante ristrutturazione con 1600 licenziamenti e quattro studi che lasciano la compagnia",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111141-xbox-comincia-la-pesante-ristrutturazione-con-1600-licenziamenti-e-quattro-studi-che-lasciano-la-compagnia"
+    },
+    {
+      "title": "PlayStation sempre più digitale: ex dirigente Sony spiega il futuro del fisico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111208-playstation-sempre-piu-digitale-ex-dirigente-sony-spiega-il-futuro-del-fisico"
+    },
+    {
+      "title": "Black Torch / Sentenced to Be a Hero: informazioni sui doppiaggi di Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111225-black-torch-sentenced-to-be-a-hero-informazioni-su-doppiaggi-di-crunchyroll"
+    },
+    {
+      "title": "Yamato Video: The Forsaken Saintess and Her Foodie Roadtrip in Another World in arrivo su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111145-yamato-video-the-forsaken-saintess-and-her-foodie-roadtrip-in-another-world-in-arrivo-su-anime-generation"
+    },
+    {
+      "title": "Anime Preview: novità per Witch on the Holy Night, Re:bel Robotica e altro ancora",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111161-anime-preview-novita-per-witch-on-the-holy-night-rebel-robotica-e-altro-ancora"
+    },
+    {
       "title": "Zipaki: tutte le uscite di giugno 2026 e l'arrivo in digitale di Jujutsu Kaisen",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111069-zipaki-tutte-le-uscite-di-giugno-2026-e-larrivo-in-digitale-di-jujutsu-kaisen"
     },
     {
-      "title": "Anime Preview: novità per Star Wars Visions, ghost (Madhouse) e non solo...",
+      "title": "I due Octopath Traveler arrivano ottimizzati per Nintendo Switch 2",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/39356-anime-preview-novita-per-star-wars-visions-ghost-madhouse-e-non-solo"
+      "url": "https://www.animeclick.it/news/111203-i-due-octopath-traveler-arrivano-ottimizzati-per-nintendo-switch-2"
     },
     {
-      "title": "Godzilla Minus Zero arriva dal 5 novembre nelle sale italiane",
+      "title": "Anime Preview: nuovi trailer per Bleach, Ghost in the Shell e molto altro",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111168-godzilla-minus-zero-arriva-dal-5-novembre-nelle-sale-italiane"
+      "url": "https://www.animeclick.it/news/111146-anime-preview-nuovi-trailer-per-bleach-ghost-in-the-shell-e-molto-altro"
     },
     {
-      "title": "WayForward guarda al futuro: il settimo Shantae ufficiale debutterà nel 2027",
+      "title": "Dynit Manga annuncia My Obsessed Demon King",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111157-wayforward-guarda-al-futuro-il-settimo-shantae-ufficiale-debuttera-nel-2027"
+      "url": "https://www.animeclick.it/news/111170-dynit-manga-annuncia-my-obsessed-demon-king"
     },
     {
-      "title": "Star Comics: le novità previste per ottobre dall'anteprima dell'editore",
+      "title": "Le avventure di Sung Jin-Woo si fanno roguelite: arriva Solo Leveling Karma",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111206-star-comics-le-novita-previste-per-ottobre-dallanteprima-delleditore"
+      "url": "https://www.animeclick.it/news/111169-le-avventure-di-sung-jin-woo-si-fanno-roguelite-arriva-solo-leveling-karma"
     },
     {
-      "title": "Intervista a Matteo Mezzetti dello studio videoludico italiano Green Flamingo",
+      "title": "Sparks of Tomorrow: informazioni sul doppiaggio di Netflix",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111122-intervista-a-matteo-mezzetti-dello-studio-videoludico-italiano-green-flamingo"
+      "url": "https://www.animeclick.it/news/111132-sparks-of-tomorrow-informazioni-sul-doppiaggio-di-netflix"
     },
     {
-      "title": "Anteprima 419: annunci e altre novità per Planet Manga",
+      "title": "COMICON Bergamo 2026: roundtable di Yasumi Matsuno (Final Fantasy Tactics, Vagrant Story)",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111214-anteprima-419-annunci-e-altre-novita-per-planet-manga"
+      "url": "https://www.animeclick.it/news/111160-comicon-bergamo-2026-roundtable-di-yasumi-matsuno-final-fantasy-tactics-vagrant-story"
     },
     {
-      "title": "Japan Expo 2026: i 35 anni di Baki in una mostra che celebra il manga di Keisuke Itagaki",
+      "title": "Licenziamenti in id Software: il commento di John Romero sul futuro e la memoria dello studio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111200-japan-expo-2026-i-35-anni-di-baki-in-una-mostra-che-celebra-il-manga-di-keisuke-itagaki"
+      "url": "https://www.animeclick.it/news/111181-licenziamenti-in-id-software-il-commento-di-john-romero-sul-futuro-e-la-memoria-dello-studio"
     },
     {
-      "title": "La carta One Piece rende introvabile Shonen Jump: i fan di Blue Box senza il numero finale",
+      "title": "School Days Remastered arriverà in occidente con il doppiaggio in inglese",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111211-la-carta-one-piece-rende-introvabile-shonen-jump-i-fan-di-blue-box-senza-il-numero-finale"
+      "url": "https://www.animeclick.it/news/111136-school-days-remastered-arrivera-in-occidente-con-il-doppiaggio-in-inglese"
     },
     {
-      "title": "That Time I Got Reincarnated as a (stop-motionish) slime: la bella ending di dwarf",
+      "title": "Echoes of Aincradla recensione: l'incubo di Aincrad diventa una lunga corsa",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111143-that-time-i-got-reincarnated-as-a-stop-motionish-slime-la-bella-ending-di-dwarf"
+      "url": "https://www.animeclick.it/news/111135-echoes-of-aincrad-la-recensione-lincubo-di-aincrad-diventa-una-lunga-corsa"
+    },
+    {
+      "title": "My Girlfriend's Friend: teaser trailer e periodo di uscita per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111147-my-girlfriends-friend-teaser-trailer-e-periodo-di-uscita-per-l-anime"
+    },
+    {
+      "title": "Gen Sato, animatore veterano di Galaxy Express, Pokémon e molto altro, ospite alla Palermo Comic Convention",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111153-gen-sato-animatore-veterano-di-galaxy-express-pokemon-e-molto-altro-ospite-al-palermo-comic-convention"
+    },
+    {
+      "title": "Eleceed: trailer e altre novità per l'anime in arrivo nel 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111104-eleceed-trailer-e-altre-novita-per-lanime-in-arrivo-nel-2027"
+    },
+    {
+      "title": "Anime Preview: annunci per IsekaiBocchi, Chillin' in Another World e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111139-anime-preview-annunci-per-isekaibocchi-chillin-in-another-world-e-altre-novita"
     },
     {
       "title": "Far East Film Festival: intervista a Sang-Il Lee, regista di Kokuho - Il maestro di Kabuki",
@@ -5121,14 +5136,14 @@
       "url": "https://www.animeclick.it/news/110501-far-east-film-festival-intervista-a-sang-il-lee-regista-di-kokuho-il-maestro-di-kabuki"
     },
     {
-      "title": "Box Office Giappone: terzo posto per il nuovo film horror del regista di Ju-on, torna in top ten Kiki Consegne a Domicilio",
+      "title": "Star Comics: le novità previste per ottobre dall'anteprima dell'editore",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111155-box-office-giappone-terzo-posto-per-il-nuovo-film-horror-del-regista-di-ju-on-torna-in-top-ten-kiki-consegne-a-domicilio"
+      "url": "https://www.animeclick.it/news/111206-star-comics-le-novita-previste-per-ottobre-dallanteprima-delleditore"
     },
     {
-      "title": "Chitose Is in the Ramune Bottle: trailer per il secondo cour in arrivo a ottobre",
+      "title": "Giappone: nuovo caso di stalking e molestie online a una mangaka",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111177-chitose-is-in-the-ramune-bottle-trailer-per-il-secondo-cour-in-arrivo-a-ottobre"
+      "url": "https://www.animeclick.it/news/111229-giappone-nuovo-caso-di-stalking-e-molestie-online-a-una-mangaka"
     },
     {
       "title": "The Ghost in the Shell: il regista del nuovo adattamento animato spiega il suo approccio",
@@ -5136,47 +5151,20 @@
       "url": "https://www.animeclick.it/news/111223-the-ghost-in-the-shell-il-regista-del-nuovo-adattamento-animato-spiega-il-suo-approccio"
     },
     {
-      "title": "Studio Trigger: novità per Dungeon Food, e nuovo progetto per Imaishi",
+      "title": "WayForward guarda al futuro: il settimo Shantae ufficiale debutterà nel 2027",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111142-studio-trigger-novita-per-dungeon-food-e-nuovo-progetto-per-imaishi"
+      "url": "https://www.animeclick.it/news/111157-wayforward-guarda-al-futuro-il-settimo-shantae-ufficiale-debuttera-nel-2027"
     },
     {
-      "title": "34BigThings ritrova la propria libertà: lo studio torinese torna indipendente da Embracer Group",
+      "title": "Arriva la collaborazione tra Apex Legends e Cyberpunk 2077",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111218-34bigthings-ritrova-la-propria-liberta-lo-studio-torinese-torna-indipendente-da-embracer-group"
-    },
-    {
-      "title": "Addio a Ryōichirō Kezuka: ci lascia a soli 36 anni l'autore di Otomachi Record",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111221-addio-a-ryoichiro-kezuka-ci-lascia-a-soli-36-anni-lautore-di-otomachi-record"
-    },
-    {
-      "title": "Tsugumi Project: annunciato l'anime del manga di Ippatu",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111205-tsugumi-project-annunciato-lanime-del-manga-di-ippatu"
-    },
-    {
-      "title": "Anime Preview: nuovi trailer per Bleach, Ghost in the Shell e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111146-anime-preview-nuovi-trailer-per-bleach-ghost-in-the-shell-e-molto-altro"
+      "url": "https://www.animeclick.it/news/111197-arriva-la-collaborazione-tra-apex-legends-e-cyberpunk-2077"
     }
   ],
   "youtube_trends": [
     {
       "title": "[i Mazzegaro] Quali mi consigliate voi? 📚🌶️ #booktok #romance #libri",
       "url": "https://www.youtube.com/watch?v=5qUlMWVHmeE"
-    },
-    {
-      "title": "[Victoria📚🎀] Libri senza permessooo #booktokitalia #booktok #bookstagram #books #libriromantici #romancebooks",
-      "url": "https://www.youtube.com/watch?v=9tbQaAE1inQ"
-    },
-    {
-      "title": "[mmarti nao] E io sono la prima che fa queste cose! #booktok #booktube #bookcreator #lettura #memelibri #libro",
-      "url": "https://www.youtube.com/watch?v=FneF08dEEFs"
-    },
-    {
-      "title": "[mjrage] #wattpad #wattpadstories #booktok #booktokitalia #libri #darkromance #enemiestolovers #books",
-      "url": "https://www.youtube.com/watch?v=nKauk1u_tzM"
     },
     {
       "title": "[LalibreriadiGiady📚] Un giorno all’inferno ma sei me🥲✌️ #booktok #libri #books #bibliomanzia #libricheamo #humor #perte",
@@ -5191,16 +5179,28 @@
       "url": "https://www.youtube.com/watch?v=bbIWKM7pL20"
     },
     {
-      "title": "[Once upon a Vero] sto piena credetemi #booktok #booktubeitalia #romance #books #booktokitalia",
-      "url": "https://www.youtube.com/watch?v=s5C3ybQHDSc"
-    },
-    {
       "title": "[DafneBlack] #Wattpad #booktok #booktokitalia #books #romance #darkromance  #slowburn​ #enemies2lovers",
       "url": "https://www.youtube.com/watch?v=HMK68DQkpdg"
     },
     {
+      "title": "[Sundaytoorealᴼᴿ🤍🌹] (Labentia Signa and Daylight are Italian books) #booktok #fypシ  #books #booktube #trending #fyp",
+      "url": "https://www.youtube.com/watch?v=YSF6CrMwI04"
+    },
+    {
       "title": "[Layla] Festa Italiana #fypシ #booktok #fypシ゚viral #nicodiangelo #fyp #percyjacksonedits",
       "url": "https://www.youtube.com/watch?v=UtJ7CG6fhOQ"
+    },
+    {
+      "title": "[Impara l'italiano da zero con Malak🇮🇹] #italiaonline #اكسبلور #تعلم #bac #تيك_توك #ielts #booktok #قصص #تعليم  اختبر نفسك وحدد مستواك يبطل",
+      "url": "https://www.youtube.com/watch?v=HJ6h184aISI"
+    },
+    {
+      "title": "[il mistero del Cristo velato ] un thriller tutto italiano aiutateci a crescere #booktok#esoterismo #il cristovelato",
+      "url": "https://www.youtube.com/watch?v=ImTfhtrxUJI"
+    },
+    {
+      "title": "[Kyokami] He Proposed to a Military Woman",
+      "url": "https://www.youtube.com/watch?v=EW5TGu9b1_k"
     },
     {
       "title": "[Kyokami] She Rented An Entire Train To Make Him Fall For Her",
@@ -5209,10 +5209,6 @@
     {
       "title": "[Kyokami] He Finally Met His Online Friend In Real Life... And She Was Beautiful",
       "url": "https://www.youtube.com/watch?v=Wm7MekqMCXk"
-    },
-    {
-      "title": "[Kyokami] He Proposed to a Military Woman",
-      "url": "https://www.youtube.com/watch?v=EW5TGu9b1_k"
     },
     {
       "title": "[Aokira] People Are Already Dropping This NEW Anime!",
@@ -5243,16 +5239,12 @@
       "url": "https://www.youtube.com/watch?v=bKnN4WujZ-Q"
     },
     {
-      "title": "[Comic Drops!] Let’s bring back READ-A-LONG records for comic books!",
-      "url": "https://www.youtube.com/watch?v=8OC9tigMWqQ"
-    },
-    {
       "title": "[VIPER COMICS] Tutto Tintin - Recensione di Tutta La Serie Iconica della Bande Dessinee",
       "url": "https://www.youtube.com/watch?v=ef91QvqiwfE"
     },
     {
-      "title": "[Dennis from The DNA Show] NEW!!! 100 Bullets The US of Anger #1 Comic",
-      "url": "https://www.youtube.com/watch?v=uqMF_B7039s"
+      "title": "[Comic Drops!] Let’s bring back READ-A-LONG records for comic books!",
+      "url": "https://www.youtube.com/watch?v=8OC9tigMWqQ"
     },
     {
       "title": "[Il Covo del Tao] Recensione del Nuovo Alan Ford: sono deluso",
@@ -5263,10 +5255,6 @@
       "url": "https://www.youtube.com/watch?v=f7QTbygya3Q"
     },
     {
-      "title": "[Dennis from The DNA Show] NEW!!! Of the Earth #1 Comic!",
-      "url": "https://www.youtube.com/watch?v=SJPFCb9uIFQ"
-    },
-    {
       "title": "[smerdp] Ben 10 Issue #3 Comic Book Review! | Author: Joe Casey | Published by Dynamite Entertainment",
       "url": "https://www.youtube.com/watch?v=f-eVggK6tPo"
     },
@@ -5275,8 +5263,12 @@
       "url": "https://www.youtube.com/watch?v=U1YCFqea7S8"
     },
     {
-      "title": "[Kanon's RomCom Mangas] [Manga Dub] This cute tomboy really likes me...",
-      "url": "https://www.youtube.com/watch?v=TlckGpsBEHQ"
+      "title": "[gokusondbz] Street Fighter Omega #1 Comic Book Reviews ",
+      "url": "https://www.youtube.com/watch?v=oBVJOnzm9B8"
+    },
+    {
+      "title": "[cyberexboyfriend] Idk this was chill pick it up if you can #comics #books #reading #booktok #review",
+      "url": "https://www.youtube.com/watch?v=8JAt8DUDeQk"
     },
     {
       "title": "[Teniz] I Bought New Manga For My Manga Collection",
@@ -5311,8 +5303,8 @@
       "url": "https://www.youtube.com/watch?v=1sOKNTlR2rk"
     },
     {
-      "title": "[Fanfare Kzoo] New Comics [7/15/2026]",
-      "url": "https://www.youtube.com/watch?v=rrWCZIslccI"
+      "title": "[Passato e tela: viaggio nella storia e nell'arte.] Il manga storico che ogni appassionato di Roma dovrebbe leggere ⚔️📖 | Ad Astra",
+      "url": "https://www.youtube.com/watch?v=P4FYXEeEuUc"
     }
   ]
 }
