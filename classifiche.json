@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-07-26T14:44:26.134124+00:00",
+  "updated_at": "2026-07-27T08:46:06.756151+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -11,26 +11,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 2,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 3,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
-      "author": "",
-      "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
@@ -38,13 +30,21 @@
       "ean": "9788845934018",
       "title": "La vegetariana",
       "author": "",
+      "position": 4,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
+      "author": "",
       "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788858333037",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 6,
       "category": "generale",
@@ -59,24 +59,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845925023",
-      "title": "Un giorno questo dolore ti sarà utile",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858333037",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788845925023",
+      "title": "Un giorno questo dolore ti sarà utile",
       "author": "",
       "position": 10,
       "category": "generale",
@@ -91,26 +91,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854165380",
-      "title": "Il fu Mattia Pascal. Ediz. integrale",
-      "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788868364748",
       "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
-      "author": "",
-      "position": 14,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,7 +102,31 @@
       "ean": "9788806253103",
       "title": "Una questione privata",
       "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788854165380",
+      "title": "Il fu Mattia Pascal. Ediz. integrale",
+      "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
+      "author": "",
       "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788854165472",
+      "title": "La coscienza di Zeno. Ediz. integrale",
+      "author": "",
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,7 +134,7 @@
       "ean": "9788806222642",
       "title": "L'isola di Arturo",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,21 +142,13 @@
       "ean": "9788806266448",
       "title": "Lo sbilico",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
-      "author": "",
-      "position": 18,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788854165472",
-      "title": "La coscienza di Zeno. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -179,18 +179,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804113867",
-      "title": "L'avventura di un povero cristiano",
-      "author": "",
-      "position": 3,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 4,
+      "position": 3,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -198,7 +190,7 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 5,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,7 +198,7 @@
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
       "author": "",
-      "position": 6,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,13 +206,21 @@
       "ean": "9788804259329",
       "title": "La cruna dell'ago",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804303008",
       "title": "A che punto è la notte",
+      "author": "",
+      "position": 7,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804307730",
+      "title": "Candido ovvero l'ottimismo",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -331,26 +331,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 22,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 23,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
-      "author": "",
-      "position": 24,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -358,7 +350,23 @@
       "ean": "9788845934018",
       "title": "La vegetariana",
       "author": "",
+      "position": 24,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
+      "author": "",
       "position": 25,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
+      "author": "",
+      "position": 26,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -366,21 +374,13 @@
       "ean": "9788869800825",
       "title": "Il racconto dell'ancella",
       "author": "",
-      "position": 26,
+      "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788845925023",
       "title": "Un giorno questo dolore ti sarà utile",
-      "author": "",
-      "position": 27,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 28,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854165380",
-      "title": "Il fu Mattia Pascal. Ediz. integrale",
+      "ean": "9788868364748",
+      "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -691,26 +691,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
       "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788866567578",
-      "title": "L'incredibile storia di Lavinia. Pocket....",
-      "author": "",
-      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,21 +710,29 @@
       "ean": "9788869461118",
       "title": "Disegno & mi diverto. 100 giochi. Ediz. ...",
       "author": "",
-      "position": 40,
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788862463942",
-      "title": "Gli animali. Le mie prime paroline. Ediz...",
+      "ean": "9788866567578",
+      "title": "L'incredibile storia di Lavinia. Pocket....",
       "author": "",
-      "position": 41,
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788847737228",
       "title": "Orso pasticcio va in vacanza",
+      "author": "",
+      "position": 41,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834733097",
+      "title": "Cuore. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -859,8 +859,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804739425",
-      "title": "Heartstopper. Vol. 4",
+      "ean": "9788804767091",
+      "title": "The Heartstopper yearbook",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -979,26 +979,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256210848",
-      "title": "La profezia dell'armadillo",
+      "ean": "9791256212439",
+      "title": "Nel nido dei serpenti",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788896275757",
-      "title": "Dante. La Divina Commedia a fumetti",
+      "ean": "9791256210848",
+      "title": "La profezia dell'armadillo",
       "author": "",
       "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791256212439",
-      "title": "Nel nido dei serpenti",
-      "author": "",
-      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,7 +998,7 @@
       "ean": "9788804820963",
       "title": "Heartstopper. Ediz. deluxe. Con Carte. V...",
       "author": "",
-      "position": 34,
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1014,7 +1006,7 @@
       "ean": "9788822762610",
       "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
-      "position": 35,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1022,7 +1014,7 @@
       "ean": "9788836271924",
       "title": "My way",
       "author": "",
-      "position": 36,
+      "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1030,13 +1022,21 @@
       "ean": "9788866567479",
       "title": "La caduta del patriarcato. La storia del...",
       "author": "",
-      "position": 37,
+      "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788828782988",
       "title": "Watchmen",
+      "author": "",
+      "position": 37,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788832737929",
+      "title": "La mia vita postuma",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1323,16 +1323,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788830809024",
-      "title": "Il racconto di Marco",
+      "ean": "9788804745440",
+      "title": "Profondo come il mare, leggero come il c...",
       "author": "",
       "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804745440",
-      "title": "Profondo come il mare, leggero come il c...",
+      "ean": "9788830809024",
+      "title": "Il racconto di Marco",
       "author": "",
       "position": 37,
       "category": "religione",
@@ -1347,10 +1347,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788892251717",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "author": "",
+      "position": 39,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788829702725",
       "title": "Olympos. Vizi, amori e avventure degli a...",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1358,21 +1366,13 @@
       "ean": "9788885227231",
       "title": "Sotto la guida dello Spirito",
       "author": "",
-      "position": 40,
+      "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788892243606",
       "title": "Camminando verso la Pasqua. Meditazioni ...",
-      "author": "",
-      "position": 41,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892251717",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -5133,54 +5133,14 @@
   ],
   "manga_trends": [
     {
-      "title": "The Sims 4: arriva la collaborazione gratuita con Coach e il nuovo kit Angolo della Musica",
+      "title": "Addio alla professoressa Maria Roberta Novielli, esperta di cinema giapponese",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111254-the-sims-4-arriva-la-collaborazione-gratuita-con-coach-e-il-nuovo-kit-angolo-della-musica"
+      "url": "https://www.animeclick.it/news/111276-addio-alla-professoressa-maria-roberta-novielli-esperta-di-cinema-giapponese"
     },
     {
-      "title": "34BigThings ritrova la propria libertà: lo studio torinese torna indipendente da Embracer Group",
+      "title": "Dynit Manga annuncia Stella Next to Me",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111218-34bigthings-ritrova-la-propria-liberta-lo-studio-torinese-torna-indipendente-da-embracer-group"
-    },
-    {
-      "title": "Xbox Game Pass: Halo Campaign Evolved e Beast of Reincarnation in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111258-xbox-game-pass-halo-campaign-evolved-e-beast-of-reincarnation-in-arrivo"
-    },
-    {
-      "title": "Lego One Piece: il cast del live-action torna in versione mattoncini nel nuovo speciale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111253-lego-one-piece-il-cast-del-live-action-torna-in-versione-mattoncini-nel-nuovo-speciale"
-    },
-    {
-      "title": "Annunciata la data d'uscita di God of War Laufey",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111311-annunciata-la-data-duscita-di-god-of-war-laufey"
-    },
-    {
-      "title": "Addio a Ryōichirō Kezuka: ci lascia a soli 36 anni l'autore di Otomachi Record",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111221-addio-a-ryoichiro-kezuka-ci-lascia-a-soli-36-anni-lautore-di-otomachi-record"
-    },
-    {
-      "title": "J-POP Manga: le novità dal Direct 144",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111251-j-pop-manga-le-novita-dal-direct-144"
-    },
-    {
-      "title": "Mercedes and the Waning Moon: primo trailer e altre novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111220-mercedes-and-the-waning-moon-primo-trailer-e-altre-novita-per-lanime"
-    },
-    {
-      "title": "Dynit Manga annuncia Handsome Girl and Sheltered Girl",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111212-dynit-manga-annuncia-handsome-girl-and-sheltered-girl"
-    },
-    {
-      "title": "La crisi dell'industria anime tocca anche due noti studi di animazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111165-la-crisi-dellindustria-anime-tocca-anche-due-noti-studi-di-animazione"
+      "url": "https://www.animeclick.it/news/111252-dynit-manga-annuncia-stella-next-to-me"
     },
     {
       "title": "Shonen Jump e ritmi insostenibili: il racconto del mangaka Kazumata Oguri",
@@ -5188,44 +5148,24 @@
       "url": "https://www.animeclick.it/news/111250-shonen-jump-e-ritmi-insostenibili-il-racconto-del-mangaka-kazumata-oguri"
     },
     {
-      "title": "Dynit presenta le sue prossime uscite Home Video",
+      "title": "WayForward guarda al futuro: il settimo Shantae ufficiale debutterà nel 2027",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111282-dynit-presenta-le-sue-prossime-uscite-home-video"
+      "url": "https://www.animeclick.it/news/111157-wayforward-guarda-al-futuro-il-settimo-shantae-ufficiale-debuttera-nel-2027"
     },
     {
-      "title": "La voce di Asuka in Evangelion: \"Gli otaku venivano derisi e i doppiatori anime non rispettati\"",
+      "title": "Kingdom Hearts Missing Link: trapela online il filmato di apertura del titolo mobile cancellato",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111230-la-voce-di-asuka-in-evangelion-gli-otaku-venivano-derisi-e-i-doppiatori-anime-non-rispettati"
+      "url": "https://www.animeclick.it/news/111267-kingdom-hearts-missing-link-trapela-online-il-filmato-di-apertura-del-titolo-mobile-cancellato"
     },
     {
-      "title": "Magic: The Gathering, tutte le novità dal MagicCon Amsterdam 2026: espansioni 2027, Reality Fracture e Lo Hobbit",
+      "title": "Il regista di Black Lagoon: \"Nell'industria anime ho visto troppi colleghi morire a 50 anni\"",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111213-magiccon-amsterdam-2026-tutte-le-novita-di-magic-the-gathering-per-il-2027"
+      "url": "https://www.animeclick.it/news/111316-il-regista-di-black-lagoon-nellindustria-anime-ho-visto-troppi-colleghi-morire-a-50-anni"
     },
     {
-      "title": "Wuthering Waves Elysium: il gacha open world riceverà una serie anime",
+      "title": "The Duskbloods: annunciati finalmente dettagli e date del network test",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111242-wuthering-waves-elysium-il-gacha-open-world-ricevera-una-serie-anime"
-    },
-    {
-      "title": "Turismo in Giappone: la nazione che spende di più pro capite non è quella che ti aspetti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111288-turismo-in-giappone-la-nazione-che-spende-di-piu-pro-capite-non-e-quella-che-ti-aspetti"
-    },
-    {
-      "title": "Aoashi: l'autore Yugo Kobayashi celebra la vittoria della Spagna con un'illustrazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111280-aoashi-lautore-yugo-kobayashi-celebra-la-vittoria-della-spagna-con-unillustrazione"
-    },
-    {
-      "title": "Minky Momo torna dopo 32 anni: svelati trailer, cast e trama del nuovo OVA in arrivo a novembre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111271-minky-momo-torna-dopo-32-anni-svelati-trailer-cast-e-trama-del-nuovo-ova-in-arrivo-a-novembre"
-    },
-    {
-      "title": "Dragon Ball Daima sbarca su Italia 2: in arrivo il doppiaggio italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/110530-dragon-ball-daima-sbarca-su-italia-2-in-arrivo-il-doppiaggio-italiano"
+      "url": "https://www.animeclick.it/news/111228-the-duskbloods-annunciati-finalmente-dettagli-e-date-del-network-test"
     },
     {
       "title": "Project A-ko: 40 anni per il folle film d'animazione",
@@ -5233,39 +5173,19 @@
       "url": "https://www.animeclick.it/news/110941-project-a-ko-40-anni-per-il-folle-film-danimazione"
     },
     {
-      "title": "Mobile Suit Gundam RG XARX-ZERO è la nuova serie dello storico franchise",
+      "title": "Studio Cabana: annunciato l'anime tratto dal manga di Agri Uma",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111285-mobile-suit-gundam-rg-xarx-zero-e-la-nuova-serie-dello-storico-franchise"
+      "url": "https://www.animeclick.it/news/111274-studio-cabana-annunciato-lanime-tratto-dal-manga-di-agri-uma"
     },
     {
-      "title": "Final Fantasy VII Ever Crisis chiude: Square Enix annuncia la data di fine del servizio",
+      "title": "Minky Momo torna dopo 32 anni: svelati trailer, cast e trama del nuovo OVA in arrivo a novembre",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111159-final-fantasy-vii-ever-crisis-chiude-square-enix-annuncia-la-data-di-fine-del-servizio"
+      "url": "https://www.animeclick.it/news/111271-minky-momo-torna-dopo-32-anni-svelati-trailer-cast-e-trama-del-nuovo-ova-in-arrivo-a-novembre"
     },
     {
-      "title": "Jundo: annunciati gli ospiti del Lucca Comics and Games 2026",
+      "title": "34BigThings ritrova la propria libertà: lo studio torinese torna indipendente da Embracer Group",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111269-jundo-annunciati-gli-ospiti-del-lucca-comics-and-games-2026"
-    },
-    {
-      "title": "Final Fantasy X compie 25 anni: Square Enix celebra con un video speciale e tante novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111245-final-fantasy-x-compie-25-anni-square-enix-celebra-con-un-video-speciale-e-tante-novita"
-    },
-    {
-      "title": "Dungeons & Dragons Forgotten Realms: Eroi di Faerûn e Avventure nel Faerûn arrivano in italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111255-dungeons-dragons-forgotten-realms-eroi-di-faerun-e-avventure-nel-faerun-arrivano-in-italiano"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: Paru Itagaki sarà tra gli ospiti dell'evento",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111286-lucca-comics-games-2026-paru-itagaki-sara-tra-gli-ospiti-dellevento"
-    },
-    {
-      "title": "Galaxy Express 999 torna al cinema: nuovo film anime annunciato su storia originale di Rintarō",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111304-galaxy-express-999-torna-al-cinema-nuovo-film-anime-annunciato-su-storia-originale-di-rintaro"
+      "url": "https://www.animeclick.it/news/111218-34bigthings-ritrova-la-propria-liberta-lo-studio-torinese-torna-indipendente-da-embracer-group"
     },
     {
       "title": "From Far Away: trailer e novità per l'anime in arrivo a ottobre",
@@ -5273,17 +5193,101 @@
       "url": "https://www.animeclick.it/news/111216-from-far-away-trailer-e-novita-per-lanime-in-arrivo-a-ottobre"
     },
     {
-      "title": "Studio Cabana: annunciato l'anime tratto dal manga di Agri Uma",
+      "title": "Dokusho Edizioni apre i preordini suoi prossimi volumi e limited in uscita",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111274-studio-cabana-annunciato-lanime-tratto-dal-manga-di-agri-uma"
+      "url": "https://www.animeclick.it/news/111226-dokusho-edizioni-apre-i-i-preordini-suoi-prossimi-volumi-e-limited-in-uscita"
     },
     {
-      "title": "Orbitals: il puzzle-adventure ispirato agli anime annuncia i doppiatori",
+      "title": "Lego One Piece: il cast del live-action torna in versione mattoncini nel nuovo speciale",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111198-orbitals-il-puzzle-adventure-ispirato-agli-anime-annuncia-i-doppiatori"
+      "url": "https://www.animeclick.it/news/111253-lego-one-piece-il-cast-del-live-action-torna-in-versione-mattoncini-nel-nuovo-speciale"
+    },
+    {
+      "title": "Rebelle Edizioni annuncia La strega del castello dei cardi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111257-rebelle-edizioni-annuncia-la-strega-del-castello-dei-cardi"
+    },
+    {
+      "title": "Anime Preview: annunciato un nuovo film di Doraemon in arrivo nella primavera 2027 e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111299-anime-preview-annunciato-un-nuovo-film-di-doraemon-in-arrivo-nella-primavera-2027-e-altre-novita"
+    },
+    {
+      "title": "Nippon Shock Edizioni annuncia una nuova raccolta di Kaoru Tada",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111310-nippon-shock-edizioni-annuncia-una-nuova-raccolta-di-kaoru-tada"
+    },
+    {
+      "title": "Aoashi: l'autore Yugo Kobayashi celebra la vittoria della Spagna con un'illustrazione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111280-aoashi-lautore-yugo-kobayashi-celebra-la-vittoria-della-spagna-con-unillustrazione"
+    },
+    {
+      "title": "Anime Preview: novità per Tune In to the Midnight Heart, annunci per Yurayura Q e altro ancora",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111277-anime-preview-novita-per-tune-in-to-the-midnight-heart-annunci-per-yurayura-q-e-altro-ancora"
+    },
+    {
+      "title": "Nippon Shock Edizioni annuncia la sospensione di Tsugumomo e Ancient Warrior Haniwatt",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111292-nippon-shock-edizioni-annuncia-la-sospensione-di-tsugumomo-e-ancient-warrior-haniwatt"
+    },
+    {
+      "title": "Box Office Giappone: debutta subito al primo posto il nuovo film di Kingdom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111270-box-office-giappone-debutta-subito-al-primo-posto-il-nuovo-film-di-kingdom"
+    },
+    {
+      "title": "Licenziamenti in id Software: il commento di John Romero sul futuro e la memoria dello studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111181-licenziamenti-in-id-software-il-commento-di-john-romero-sul-futuro-e-la-memoria-dello-studio"
+    },
+    {
+      "title": "Box Office Giappone: ancora sul podio il nuovo horror del regista di Ju-on",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111210-box-office-giappone-ancora-sul-podio-il-nuovo-horror-del-regista-di-ju-on"
+    },
+    {
+      "title": "Black Torch / Sentenced to Be a Hero: informazioni sui doppiaggi di Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111225-black-torch-sentenced-to-be-a-hero-informazioni-su-doppiaggi-di-crunchyroll"
+    },
+    {
+      "title": "Agent Kim Reactivated: la serie action su Netflix svela un intero segmento creato con la IA",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111207-agent-kim-reactivated-la-serie-action-su-netflix-svela-un-intero-segmento-creato-con-la-ia"
+    },
+    {
+      "title": "Inio Asano mette in pausa il suo manga fino al 2027: \"Aspetto che l'industria sblocchi l'IA\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111237-inio-asano-mette-in-pausa-il-suo-manga-fino-al-2027-aspetto-che-lindustria-sblocchi-lia"
+    },
+    {
+      "title": "Wuthering Waves Elysium: il gacha open world riceverà una serie anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111242-wuthering-waves-elysium-il-gacha-open-world-ricevera-una-serie-anime"
+    },
+    {
+      "title": "Dragon Ball Daima sbarca su Italia 2: in arrivo il doppiaggio italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/110530-dragon-ball-daima-sbarca-su-italia-2-in-arrivo-il-doppiaggio-italiano"
+    },
+    {
+      "title": "Assassination Classroom: il nuovo film arriva nei cinema italiani a settembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111231-assassination-classroom-il-nuovo-film-arriva-nei-cinema-italiani-a-settembre"
+    },
+    {
+      "title": "Marvel’s Wolverine: un nuovo trailer svela l'oscura storia di Logan",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111291-marvel%25e2%2580%2599s-wolverine-un-nuovo-trailer-svela-la-storia-piu-oscura-di-logan"
     }
   ],
   "youtube_trends": [
+    {
+      "title": "[Il Lettore Che Cammina] Come &quot;Leggono&quot; le BOOKTOKER #booktubeitalia #booktok #letteratura",
+      "url": "https://www.youtube.com/watch?v=DVk9zPedcjA"
+    },
     {
       "title": "[DafneBlack] Spoiler🔥#Wattpaditalia #booktok #booktokitalia  #darkromance   #slowburn​ #enemies2lovers ​",
       "url": "https://www.youtube.com/watch?v=2ovt6vpm7YM"
@@ -5309,6 +5313,10 @@
       "url": "https://www.youtube.com/watch?v=3kwKdvLQKqw"
     },
     {
+      "title": "[Kyokami] His Girlfriend Said He Was Just Her Wallet",
+      "url": "https://www.youtube.com/watch?v=eAYR6srMBao"
+    },
+    {
       "title": "[Kyokami] The Prince Dumped Her For Being Ugly... So He Married Her",
       "url": "https://www.youtube.com/watch?v=YGnI1B2hecE"
     },
@@ -5329,12 +5337,16 @@
       "url": "https://www.youtube.com/watch?v=uc6J2TI1yYY"
     },
     {
-      "title": "[Yuhoo Comic Review] How Do You Organize Your Comics?",
-      "url": "https://www.youtube.com/watch?v=vyVSrmyfjf8"
+      "title": "[Unsung Black History] This comic book character&#39;s glow up from orphan to hero #blacksuperheroes #shorts",
+      "url": "https://www.youtube.com/watch?v=pxjefqO6ebg"
     },
     {
       "title": "[TheComicBookReport] Na na na na na na na BATMAN 🦇",
       "url": "https://www.youtube.com/watch?v=oB2ZafkwMH8"
+    },
+    {
+      "title": "[Next Issue Podcast] TERMINAL #1 Comic Review | Image Comics’ Biggest New Superhero Series? | Image Skybound",
+      "url": "https://www.youtube.com/watch?v=pIduFmWQ58M"
     },
     {
       "title": "[Angi - NERDS PLUG] La NUOVA Collana di LUCKY LUKE: Sfoglio il primo numero a 1€! - Recensione &amp; Analisi",
@@ -5345,20 +5357,16 @@
       "url": "https://www.youtube.com/watch?v=QKI8iB2Xrdk"
     },
     {
-      "title": "[That Metro Mania] I Needed This BAD...SooSoo Toys X-23 (X-Men Comic Ver.) Review",
-      "url": "https://www.youtube.com/watch?v=syM2DvBakAo"
-    },
-    {
       "title": "[The Comic Patrol] Terminal 1 review #comicbooks #Skybound #imagecomics #Terminal",
       "url": "https://www.youtube.com/watch?v=EOL8lB7h77Q"
     },
     {
-      "title": "[THESNEAKERADDICT] Air Jordan 4 Comic Retro Review + Max B &amp; French Montana Live backstage at Hot97 Summer Jam  ",
-      "url": "https://www.youtube.com/watch?v=Ej8X-wJDQlI"
+      "title": "[Marco a Fumetti] IL FUMETTO PIÙ BELLO DI SPIDER- MAN (SETTIMANA SPIDER-MAN: PARTE 7)",
+      "url": "https://www.youtube.com/watch?v=1V6_FC-ELdI"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem Green Arrow Year 1 #comic #review #greenarrow",
-      "url": "https://www.youtube.com/watch?v=Elrp7F4-9C0"
+      "title": "[The Comic Patrol] The Flash 35 Review #comicbooks #theflash #dccomics #flash",
+      "url": "https://www.youtube.com/watch?v=1kCT41FmgTY"
     },
     {
       "title": "[Artsy Sister] Public library Hidden Gem Night Fever #comic #review #crimestory",
@@ -5385,24 +5393,24 @@
       "url": "https://www.youtube.com/watch?v=qxtm_ametFE"
     },
     {
-      "title": "[Ayasaki-san] [Manga Dub] A transfer student as cute as a celebrity claimed that I was her boyfriend",
-      "url": "https://www.youtube.com/watch?v=VB46YqOnZNA"
+      "title": "[Misu Recap] (1-2) My Yandere Girlfriend Wants Too Much Attention",
+      "url": "https://www.youtube.com/watch?v=eCtGaU0agg0"
     },
     {
-      "title": "[Stebonf] ARRIVA UN NUOVO EDITORE! ANNUNCI MANGA DI LUGLIO 2026",
-      "url": "https://www.youtube.com/watch?v=lIXC6S_IsZM"
+      "title": "[Velvet Recaps] REINCARNATED As The HATED Villainess, She Has 5 Years To Escape Elimination | Part 1",
+      "url": "https://www.youtube.com/watch?v=WHm4ta-kNNI"
     },
     {
       "title": "[MisoPaprika] ₹600 Fake Manga vs ₹600 Original Manga | Is Meesho Manga Worth It? #anime #manga #chainsawman",
       "url": "https://www.youtube.com/watch?v=6IVeqbiF1aw"
     },
     {
-      "title": "[RuchoManga] PACCO MANGA VERSE: I VOTI DEI NUOVI MANGA!",
-      "url": "https://www.youtube.com/watch?v=Jjpvg37HJFk"
+      "title": "[Stebonf] ARRIVA UN NUOVO EDITORE! ANNUNCI MANGA DI LUGLIO 2026",
+      "url": "https://www.youtube.com/watch?v=lIXC6S_IsZM"
     },
     {
-      "title": "[Misu Recap] (1-2) My Yandere Girlfriend Wants Too Much Attention",
-      "url": "https://www.youtube.com/watch?v=eCtGaU0agg0"
+      "title": "[RuchoManga] PACCO MANGA VERSE: I VOTI DEI NUOVI MANGA!",
+      "url": "https://www.youtube.com/watch?v=Jjpvg37HJFk"
     }
   ]
 }
