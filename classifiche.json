@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-07-28T07:47:08.041589+00:00",
+  "updated_at": "2026-07-28T15:32:56.024648+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -51,8 +51,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858333037",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 7,
       "category": "generale",
@@ -67,18 +67,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
+      "ean": "9788858333037",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
       "author": "",
       "position": 10,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845925023",
+      "title": "Un giorno questo dolore ti sarà utile",
+      "author": "",
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,21 +94,13 @@
       "ean": "9788868364748",
       "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
-      "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788845925023",
-      "title": "Un giorno questo dolore ti sarà utile",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -115,10 +115,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804807278",
+      "title": "Ci basterà mangiare il vento",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788831743006",
+      "title": "Odissea",
+      "author": "",
+      "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788806222642",
       "title": "L'isola di Arturo",
       "author": "",
-      "position": 15,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,37 +142,21 @@
       "ean": "9788806239848",
       "title": "L'Arminuta",
       "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804807278",
-      "title": "Ci basterà mangiare il vento",
-      "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
-      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788854165380",
-      "title": "Il fu Mattia Pascal. Ediz. integrale",
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788854165472",
-      "title": "La coscienza di Zeno. Ediz. integrale",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -371,32 +371,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788861853768",
-      "title": "La metamorfosi",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788845925023",
+      "title": "Un giorno questo dolore ti sarà utile",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788868364748",
-      "title": "Il giorno in cui ho imparato a volermi bene",
+      "ean": "9788861853768",
+      "title": "La metamorfosi",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788845925023",
-      "title": "Un giorno questo dolore ti sarà utile",
+      "ean": "9788868364748",
+      "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -523,8 +523,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781474929264",
-      "title": "Micio micetto, dove sei stato? Londra. E...",
+      "ean": "9781409578437",
+      "title": "Le tabelline. Sollevo e scopro. Ediz. il...",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -675,16 +675,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804776352",
-      "title": "Il barone rampante",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788852225789",
-      "title": "Zootropolis. Il libro delle barzellette....",
+      "ean": "9788804776352",
+      "title": "Il barone rampante",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
@@ -715,24 +715,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869461118",
-      "title": "Disegno & mi diverto. 100 giochi. Ediz. ...",
+      "ean": "9788862463942",
+      "title": "Gli animali. Le mie prime paroline. Ediz...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788862463942",
-      "title": "Gli animali. Le mie prime paroline. Ediz...",
+      "ean": "9788869461118",
+      "title": "Disegno & mi diverto. 100 giochi. Ediz. ...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788847737228",
-      "title": "Orso pasticcio va in vacanza",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -859,8 +859,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806202347",
-      "title": "MAUS",
+      "ean": "9788806233761",
+      "title": "Anne Frank. Diario",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -979,8 +979,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256210848",
-      "title": "La profezia dell'armadillo",
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
       "position": 31,
       "category": "fumetti",
@@ -995,8 +995,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9791256210848",
+      "title": "La profezia dell'armadillo",
       "author": "",
       "position": 33,
       "category": "fumetti",
@@ -1019,16 +1019,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822666727",
-      "title": "Minecraft. Viaggio ai confini del mondo....",
+      "ean": "9788828782988",
+      "title": "Watchmen",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828782988",
-      "title": "Watchmen",
+      "ean": "9788822666727",
+      "title": "Minecraft. Viaggio ai confini del mondo....",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1323,18 +1323,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788830809024",
-      "title": "Il racconto di Marco",
-      "author": "",
-      "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804745440",
       "title": "Profondo come il mare, leggero come il c...",
       "author": "",
-      "position": 37,
+      "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1342,37 +1334,45 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
+      "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788830809024",
+      "title": "Il racconto di Marco",
+      "author": "",
       "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788829702725",
-      "title": "Olympos. Vizi, amori e avventure degli a...",
+      "ean": "9788856659887",
+      "title": "Maometto e il suo Allah «ovvero», L'inve...",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788885227231",
-      "title": "Sotto la guida dello Spirito",
+      "ean": "9788806221645",
+      "title": "Ogni cosa alla sua stagione",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892243606",
-      "title": "Camminando verso la Pasqua. Meditazioni ...",
+      "ean": "9788806273002",
+      "title": "San Francesco prima del mito",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892251717",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "ean": "9788829702725",
+      "title": "Olympos. Vizi, amori e avventure degli a...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -5177,49 +5177,14 @@
   ],
   "manga_trends": [
     {
-      "title": "Mostra del Cinema di Venezia: in concorso anche Look Back di Hirokazu Kore'eda",
+      "title": "Anime Preview: annunciato un nuovo film di Doraemon in arrivo nella primavera 2027 e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111284-mostra-del-cinema-di-venezia-in-concorso-anche-look-back-di-hirokazu-koreeda"
+      "url": "https://www.animeclick.it/news/111299-anime-preview-annunciato-un-nuovo-film-di-doraemon-in-arrivo-nella-primavera-2027-e-altre-novita"
     },
     {
-      "title": "Mobile Suit Gundam RG XARX-ZERO è la nuova serie dello storico franchise",
+      "title": "Netflix: i film e le serie anime in scadenza a luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111285-mobile-suit-gundam-rg-xarx-zero-e-la-nuova-serie-dello-storico-franchise"
-    },
-    {
-      "title": "Studio Cabana: annunciato l'anime tratto dal manga di Agri Uma",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111274-studio-cabana-annunciato-lanime-tratto-dal-manga-di-agri-uma"
-    },
-    {
-      "title": "Final Fantasy XIV: tante novità sull'espansione Evercold e le future collaborazioni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111313-final-fantasy-xiv-tante-novita-sullespansione-evercold-e-le-future-collaborazioni"
-    },
-    {
-      "title": "Orbitals: il puzzle-adventure ispirato agli anime annuncia i doppiatori",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111198-orbitals-il-puzzle-adventure-ispirato-agli-anime-annuncia-i-doppiatori"
-    },
-    {
-      "title": "J-POP Manga: le novità dal Direct 144",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111251-j-pop-manga-le-novita-dal-direct-144"
-    },
-    {
-      "title": "Final Fantasy X compie 25 anni: Square Enix celebra con un video speciale e tante novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111245-final-fantasy-x-compie-25-anni-square-enix-celebra-con-un-video-speciale-e-tante-novita"
-    },
-    {
-      "title": "Aoashi: l'autore Yugo Kobayashi celebra la vittoria della Spagna con un'illustrazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111280-aoashi-lautore-yugo-kobayashi-celebra-la-vittoria-della-spagna-con-unillustrazione"
-    },
-    {
-      "title": "Turismo in Giappone: la nazione che spende di più pro capite non è quella che ti aspetti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111288-turismo-in-giappone-la-nazione-che-spende-di-piu-pro-capite-non-e-quella-che-ti-aspetti"
+      "url": "https://www.animeclick.it/news/111326-netflix-i-film-e-le-serie-anime-in-scadenza-a-luglio"
     },
     {
       "title": "Nippon Shock Edizioni annuncia una nuova raccolta di Kaoru Tada",
@@ -5227,89 +5192,9 @@
       "url": "https://www.animeclick.it/news/111310-nippon-shock-edizioni-annuncia-una-nuova-raccolta-di-kaoru-tada"
     },
     {
-      "title": "Nippon Shock Edizioni annuncia la sospensione di Tsugumomo e Ancient Warrior Haniwatt",
+      "title": "Il manga Summer Time Rendering di Yasuki Tanaka avrà un adattamento live action nel 2027",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111292-nippon-shock-edizioni-annuncia-la-sospensione-di-tsugumomo-e-ancient-warrior-haniwatt"
-    },
-    {
-      "title": "Vertex Force: trailer e novità per l'anime originale, in arrivo a ottobre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111305-vertex-force-trailer-e-novita-per-lanime-originale-in-arrivo-a-ottobre"
-    },
-    {
-      "title": "Xbox Game Pass: Halo Campaign Evolved e Beast of Reincarnation in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111258-xbox-game-pass-halo-campaign-evolved-e-beast-of-reincarnation-in-arrivo"
-    },
-    {
-      "title": "Bethesda fa il punto sul futuro: Fallout 5, The Elder Scrolls VI, Starfield e nuovi progetti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111235-bethesda-fa-il-punto-sul-futuro-fallout-5-the-elder-scrolls-vi-starfield-e-nuovi-progetti"
-    },
-    {
-      "title": "Box Office Giappone: debutta subito al primo posto il nuovo film di Kingdom",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111270-box-office-giappone-debutta-subito-al-primo-posto-il-nuovo-film-di-kingdom"
-    },
-    {
-      "title": "Dungeons & Dragons Forgotten Realms: Eroi di Faerûn e Avventure nel Faerûn arrivano in italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111255-dungeons-dragons-forgotten-realms-eroi-di-faerun-e-avventure-nel-faerun-arrivano-in-italiano"
-    },
-    {
-      "title": "Il monologo della speziale traina lo Studio OLM ad utili record",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111238-il-monologo-della-speziale-traina-lo-studio-olm-ad-utili-record"
-    },
-    {
-      "title": "Marvel’s Wolverine: un nuovo trailer svela l'oscura storia di Logan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111291-marvel%25e2%2580%2599s-wolverine-un-nuovo-trailer-svela-la-storia-piu-oscura-di-logan"
-    },
-    {
-      "title": "Shonen Jump e ritmi insostenibili: il racconto del mangaka Kazumata Oguri",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111250-shonen-jump-e-ritmi-insostenibili-il-racconto-del-mangaka-kazumata-oguri"
-    },
-    {
-      "title": "Black Torch / Sentenced to Be a Hero: informazioni sui doppiaggi di Crunchyroll",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111225-black-torch-sentenced-to-be-a-hero-informazioni-su-doppiaggi-di-crunchyroll"
-    },
-    {
-      "title": "Il presidente di Sega: \"Il digitale è fondamentale ma non abbandoneremo il supporto fisico\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111301-il-presidente-di-sega-il-digitale-e-fondamentale-ma-non-abbandoneremo-il-supporto-fisico"
-    },
-    {
-      "title": "Chainsmoker Cat / My Love Story with Yamada-kun at Lv999: informazioni sui doppiaggi di Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111243-chainsmoker-cat-my-love-story-with-yamada-kun-at-lv999-informazioni-sui-doppiaggi-di-netflix"
-    },
-    {
-      "title": "The Duskbloods: annunciati finalmente dettagli e date del network test",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111228-the-duskbloods-annunciati-finalmente-dettagli-e-date-del-network-test"
-    },
-    {
-      "title": "Fate/kaleid liner Prisma Illya: annunciata una nuova serie come capitolo conclusivo del franchise",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111249-fatekaleid-liner-prisma-illya-annunciata-una-nuova-serie-come-capitolo-conclusivo-del-franchise"
-    },
-    {
-      "title": "Anime Preview: annunciato un nuovo film di Doraemon in arrivo nella primavera 2027 e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111299-anime-preview-annunciato-un-nuovo-film-di-doraemon-in-arrivo-nella-primavera-2027-e-altre-novita"
-    },
-    {
-      "title": "Resident Evil: il successo della saga sostiene i progetti di nuove IP",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111325-resident-evil-il-successo-della-saga-sostiene-i-progetti-di-nuove-ip"
-    },
-    {
-      "title": "GTO: su Netflix la nuova serie sequel live-action con Onizuka cinquantenne",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111272-gto-su-netflix-la-nuova-serie-sequel-live-action-con-onizuka-cinquantenne"
+      "url": "https://www.animeclick.it/news/111273-summertime"
     },
     {
       "title": "Dragon Ball Daima sbarca su Italia 2: in arrivo il doppiaggio italiano",
@@ -5317,14 +5202,129 @@
       "url": "https://www.animeclick.it/news/110530-dragon-ball-daima-sbarca-su-italia-2-in-arrivo-il-doppiaggio-italiano"
     },
     {
-      "title": "Box Office Giappone: ancora sul podio il nuovo horror del regista di Ju-on",
+      "title": "Dynit Manga annuncia Stella Next to Me",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111210-box-office-giappone-ancora-sul-podio-il-nuovo-horror-del-regista-di-ju-on"
+      "url": "https://www.animeclick.it/news/111252-dynit-manga-annuncia-stella-next-to-me"
     },
     {
-      "title": "I 5 migliori titoli di Double Fine: quando i Videogiochi diventano Arte e divertimento",
+      "title": "Mecha Design Ep. 2– Il Teatrale Code Geass: il design come propaganda",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111219-i-5-migliori-titoli-di-double-fine-quando-i-videogiochi-diventano-arte-e-divertimento"
+      "url": "https://www.animeclick.it/news/111204-mecha-design-ep-2-%25e2%2580%2593-il-teatrale-code-geass"
+    },
+    {
+      "title": "The Duskbloods: annunciati finalmente dettagli e date del network test",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111228-the-duskbloods-annunciati-finalmente-dettagli-e-date-del-network-test"
+    },
+    {
+      "title": "Resident Evil: il successo della saga sostiene i progetti di nuove IP",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111325-resident-evil-il-successo-della-saga-sostiene-i-progetti-di-nuove-ip"
+    },
+    {
+      "title": "Il monologo della speziale traina lo Studio OLM ad utili record",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111238-il-monologo-della-speziale-traina-lo-studio-olm-ad-utili-record"
+    },
+    {
+      "title": "Star Ocean: The Second Story R arriva ottimizzato per Nintendo Switch 2",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111233-star-ocean-the-second-story-r-arriva-otimizzato-per-nintendo-switch-2"
+    },
+    {
+      "title": "Il presidente di Sega: \"Il digitale è fondamentale ma non abbandoneremo il supporto fisico\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111301-il-presidente-di-sega-il-digitale-e-fondamentale-ma-non-abbandoneremo-il-supporto-fisico"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: Paru Itagaki sarà tra gli ospiti dell'evento",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111286-lucca-comics-games-2026-paru-itagaki-sara-tra-gli-ospiti-dellevento"
+    },
+    {
+      "title": "Aoashi: l'autore Yugo Kobayashi celebra la vittoria della Spagna con un'illustrazione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111280-aoashi-lautore-yugo-kobayashi-celebra-la-vittoria-della-spagna-con-unillustrazione"
+    },
+    {
+      "title": "Anime Preview: novità per Tune In to the Midnight Heart, annunci per Yurayura Q e altro ancora",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111277-anime-preview-novita-per-tune-in-to-the-midnight-heart-annunci-per-yurayura-q-e-altro-ancora"
+    },
+    {
+      "title": "Mostra del Cinema di Venezia: in concorso anche Look Back di Hirokazu Kore'eda",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111284-mostra-del-cinema-di-venezia-in-concorso-anche-look-back-di-hirokazu-koreeda"
+    },
+    {
+      "title": "Marvel stringe una partnership con Kadokawa per i futuri progetti manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111321-marvel-stringe-una-partnership-con-kadokawa-per-i-futuri-progetti-manga"
+    },
+    {
+      "title": "Dynit presenta le sue prossime uscite Home Video",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111282-dynit-presenta-le-sue-prossime-uscite-home-video"
+    },
+    {
+      "title": "Addio alla professoressa Maria Roberta Novielli, esperta di cinema giapponese",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111276-addio-alla-professoressa-maria-roberta-novielli-esperta-di-cinema-giapponese"
+    },
+    {
+      "title": "Xbox Game Pass: Halo Campaign Evolved e Beast of Reincarnation in arrivo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111258-xbox-game-pass-halo-campaign-evolved-e-beast-of-reincarnation-in-arrivo"
+    },
+    {
+      "title": "Assassination Classroom: il nuovo film arriva nei cinema italiani a settembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111231-assassination-classroom-il-nuovo-film-arriva-nei-cinema-italiani-a-settembre"
+    },
+    {
+      "title": "Xbox Network torna operativo dopo un blackout globale: disservizi durati circa 20 ore",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111331-xbox-network-torna-operativo-dopo-un-blackout-globale-disservizi-durati-circa-20-ore"
+    },
+    {
+      "title": "Inio Asano mette in pausa il suo manga fino al 2027: \"Aspetto che l'industria sblocchi l'IA\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111237-inio-asano-mette-in-pausa-il-suo-manga-fino-al-2027-aspetto-che-lindustria-sblocchi-lia"
+    },
+    {
+      "title": "Giappone: nuovo caso di stalking e molestie online a una mangaka",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111229-giappone-nuovo-caso-di-stalking-e-molestie-online-a-una-mangaka"
+    },
+    {
+      "title": "Lego One Piece: il cast del live-action torna in versione mattoncini nel nuovo speciale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111253-lego-one-piece-il-cast-del-live-action-torna-in-versione-mattoncini-nel-nuovo-speciale"
+    },
+    {
+      "title": "Chainsmoker Cat / My Love Story with Yamada-kun at Lv999: informazioni sui doppiaggi di Netflix",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111243-chainsmoker-cat-my-love-story-with-yamada-kun-at-lv999-informazioni-sui-doppiaggi-di-netflix"
+    },
+    {
+      "title": "Box Office Giappone: debutta subito al primo posto il nuovo film di Kingdom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111270-box-office-giappone-debutta-subito-al-primo-posto-il-nuovo-film-di-kingdom"
+    },
+    {
+      "title": "Minky Momo torna dopo 32 anni: svelati trailer, cast e trama del nuovo OVA in arrivo a novembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111271-minky-momo-torna-dopo-32-anni-svelati-trailer-cast-e-trama-del-nuovo-ova-in-arrivo-a-novembre"
+    },
+    {
+      "title": "Kingdom Hearts Missing Link: trapela online il filmato di apertura del titolo mobile cancellato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111267-kingdom-hearts-missing-link-trapela-online-il-filmato-di-apertura-del-titolo-mobile-cancellato"
+    },
+    {
+      "title": "Bethesda fa il punto sul futuro: Fallout 5, The Elder Scrolls VI, Starfield e nuovi progetti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111235-bethesda-fa-il-punto-sul-futuro-fallout-5-the-elder-scrolls-vi-starfield-e-nuovi-progetti"
     }
   ],
   "youtube_trends": [
@@ -5341,10 +5341,6 @@
       "url": "https://www.youtube.com/watch?v=3iPHthLvJ9Y"
     },
     {
-      "title": "[DafneBlack] #Wattpaditalia #booktok #booktokitalia  #darkromance #darkromancebooks  #slowburn​ #enemies2lovers ​",
-      "url": "https://www.youtube.com/watch?v=3NERU3XuK3M"
-    },
-    {
       "title": "[Smiley Girl] Loving myself #smileygirl #booktok #lifeisbutadream #travel #gaeta #italy",
       "url": "https://www.youtube.com/watch?v=hqkclL_adoI"
     },
@@ -5353,20 +5349,12 @@
       "url": "https://www.youtube.com/watch?v=S8UocC2hrjo"
     },
     {
-      "title": "[Kyokami] The Prince Dumped Her For Being Ugly... So He Married Her",
-      "url": "https://www.youtube.com/watch?v=YGnI1B2hecE"
-    },
-    {
       "title": "[Kyokami] His Sister Made Him Chase The Most Popular Girl",
       "url": "https://www.youtube.com/watch?v=x10RYNyPcb4"
     },
     {
       "title": "[Rise] Vi consiglio (altri) 5 Seinen manga dalla mia libreria",
       "url": "https://www.youtube.com/watch?v=XzyyEzUoi8w"
-    },
-    {
-      "title": "[Zefirot] I MANGA che non venderò mai",
-      "url": "https://www.youtube.com/watch?v=7Ws9z9lHiWQ"
     },
     {
       "title": "[La Gata Otaku y Fujoshi] Nana 7.8 🔥😍  #manga #otaku #recommended #books #booktube #nana",
@@ -5405,6 +5393,10 @@
       "url": "https://www.youtube.com/watch?v=QJ7Kv2zZvVY"
     },
     {
+      "title": "[Sono Cose Serie] La sovrastruttura mitologica del volemose bene: il caso Supergirl #shorts #Recensione #Film #Fumetto",
+      "url": "https://www.youtube.com/watch?v=CJRT0XKYjQ0"
+    },
+    {
       "title": "[Marco a Fumetti] IL FUMETTO PIÙ BELLO DI SPIDER- MAN (SETTIMANA SPIDER-MAN: PARTE 7)",
       "url": "https://www.youtube.com/watch?v=1V6_FC-ELdI"
     },
@@ -5417,20 +5409,8 @@
       "url": "https://www.youtube.com/watch?v=1kCT41FmgTY"
     },
     {
-      "title": "[Serginius84] Recensione Alan Ford N683 Gran Gourmet #fumetti #recensione #collection ",
-      "url": "https://www.youtube.com/watch?v=ls6e8Uhqe2A"
-    },
-    {
-      "title": "[Kanon's RomCom Mangas] [Manga Dub] My new roommate drew a line on the floor... Then crossed it herself at midnight!?",
-      "url": "https://www.youtube.com/watch?v=Kado9hX2dVc"
-    },
-    {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] My new roommate turned out to be my senpai&#39;s little sister",
       "url": "https://www.youtube.com/watch?v=sbo_W6AIAAg"
-    },
-    {
-      "title": "[Sarubedo RomCom Mangas] [Manga dub] My band members quit right before our gig so I was looking for new members and...",
-      "url": "https://www.youtube.com/watch?v=1D4uaj2DmuI"
     },
     {
       "title": "[Misu Recap] My Pet Cat Turns Into a Yandere",
@@ -5455,6 +5435,14 @@
     {
       "title": "[RuchoManga] PACCO MANGA VERSE: I VOTI DEI NUOVI MANGA!",
       "url": "https://www.youtube.com/watch?v=Jjpvg37HJFk"
+    },
+    {
+      "title": "[Dragonballzowie] New and Used Manga, Manhwa &amp; Light Novel Haul [50+ volumes] ",
+      "url": "https://www.youtube.com/watch?v=k73nR5tWJMk"
+    },
+    {
+      "title": "[Fanfare Kzoo] New Comics [7/22/2026]",
+      "url": "https://www.youtube.com/watch?v=-RzXmiuMKL0"
     }
   ]
 }
