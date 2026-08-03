@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-08-03T08:41:35.594638+00:00",
+  "updated_at": "2026-08-03T15:52:03.782160+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -59,24 +59,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788845934018",
-      "title": "La vegetariana",
+      "ean": "9788822766199",
+      "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
       "position": 10,
       "category": "generale",
@@ -91,8 +91,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822766199",
-      "title": "Il piccolo negozio dei tesori perduti",
+      "ean": "9788845934018",
+      "title": "La vegetariana",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -107,10 +107,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
+      "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788858333037",
       "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,31 +126,7 @@
       "ean": "9788863115666",
       "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
-      "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
-      "author": "",
       "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
-      "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804807278",
-      "title": "Ci basterà mangiare il vento",
-      "author": "",
-      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,87 +134,39 @@
       "ean": "9788869800658",
       "title": "I Leoni di Sicilia. La saga dei Florio",
       "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
+      "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804807278",
+      "title": "Ci basterà mangiare il vento",
+      "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800719",
-      "title": "Domani, domani",
+      "ean": "9788869800856",
+      "title": "La levatrice",
       "author": "",
       "position": 20,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9783954514939",
-      "title": "Delitto al pepe rosa. Il primo caso dell...",
-      "author": "",
-      "position": 1,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9783954519392",
-      "title": "Il caso Ildegarda",
-      "author": "",
-      "position": 2,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804076483",
-      "title": "Il quartiere",
-      "author": "",
-      "position": 3,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804185420",
-      "title": "Alla ricerca del tempo perduto. Vol. 1",
-      "author": "",
-      "position": 4,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804237518",
-      "title": "Il codice Rebecca",
-      "author": "",
-      "position": 5,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804239932",
-      "title": "I Malavoglia",
-      "author": "",
-      "position": 6,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804247821",
-      "title": "L'uomo di Pietroburgo",
-      "author": "",
-      "position": 7,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804248118",
-      "title": "Tutte le opere. Vol. 1",
-      "author": "",
-      "position": 8,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822795687",
       "title": "L'amore al posto giusto, al momento giusto",
       "author": "",
-      "position": 9,
+      "position": 1,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -238,7 +174,7 @@
       "ean": "9788820081157",
       "title": "Game of lust. Tentazione",
       "author": "",
-      "position": 10,
+      "position": 2,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -246,7 +182,7 @@
       "ean": "9788807970078",
       "title": "La volta giusta. Libro con calendario",
       "author": "",
-      "position": 11,
+      "position": 3,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -254,7 +190,7 @@
       "ean": "9788867029051",
       "title": "Prova a uccidermi",
       "author": "",
-      "position": 12,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -262,7 +198,7 @@
       "ean": "9788804794097",
       "title": "Il cerchio dei giorni",
       "author": "",
-      "position": 13,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -270,7 +206,7 @@
       "ean": "9788807970207",
       "title": "Il ragno nella tela. Le indagini della g...",
       "author": "",
-      "position": 14,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -278,7 +214,7 @@
       "ean": "9788830463561",
       "title": "La più bella del mondo",
       "author": "",
-      "position": 15,
+      "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -286,7 +222,7 @@
       "ean": "9788822796431",
       "title": "Mistero al profumo di cannella. I segret...",
       "author": "",
-      "position": 16,
+      "position": 8,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -294,7 +230,7 @@
       "ean": "9788832966824",
       "title": "La bambina di Odessa. La battaglia di un...",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -302,7 +238,7 @@
       "ean": "9791259854377",
       "title": "Dopo quella notte",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -310,7 +246,7 @@
       "ean": "9791259854445",
       "title": "Il collezionista",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -318,7 +254,7 @@
       "ean": "9788832966886",
       "title": "I delitti di via Margutta",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -326,7 +262,7 @@
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -334,7 +270,7 @@
       "ean": "9788806271978",
       "title": "I convitati di pietra",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -342,7 +278,7 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -350,7 +286,7 @@
       "ean": "9788822783387",
       "title": "Lo sbaglio. The mistake",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -358,7 +294,7 @@
       "ean": "9788822783974",
       "title": "Il tradimento. The campus series. The score",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -366,7 +302,7 @@
       "ean": "9788868364748",
       "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -374,7 +310,7 @@
       "ean": "9788869800825",
       "title": "Il racconto dell'ancella",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -382,15 +318,7 @@
       "ean": "9788822783967",
       "title": "L'imprevisto. The goal",
       "author": "",
-      "position": 28,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788845934018",
-      "title": "La vegetariana",
-      "author": "",
-      "position": 29,
+      "position": 20,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -398,7 +326,15 @@
       "ean": "9788822766199",
       "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
-      "position": 30,
+      "position": 21,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822786333",
+      "title": "L'eredità. The legacy. The campus series",
+      "author": "",
+      "position": 22,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -467,74 +403,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9780746083383",
-      "title": "Che cosa mi succede? (Ragazze). Ediz. il...",
-      "author": "",
-      "position": 9,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781108349093",
-      "title": "Compact. Preliminary for schools. B1. St...",
-      "author": "",
-      "position": 10,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781108954815",
-      "title": "Open up. Level 2. Student's Book-Workboo...",
-      "author": "",
-      "position": 11,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781108954860",
-      "title": "Open up. Level 3. Student's Book-Workboo...",
-      "author": "",
-      "position": 12,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409530046",
-      "title": "Le fiabe dei fratelli Grimm. Ediz. illus...",
-      "author": "",
-      "position": 13,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409561712",
-      "title": "Storie illustrate dai miti greci. Ediz. ...",
-      "author": "",
-      "position": 14,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409578437",
-      "title": "Le tabelline. Sollevo e scopro. Ediz. il...",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409578888",
-      "title": "365 esperimenti per piccoli scienziati. ...",
-      "author": "",
-      "position": 16,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788817198066",
       "title": "La piccola fiammiferaia",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -542,7 +414,7 @@
       "ean": "9788858054703",
       "title": "Non aprire questo libro... puzza. Ediz. ...",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -550,7 +422,7 @@
       "ean": "9791221219999",
       "title": "On wings of blood. Un'accademia di sangu...",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -558,7 +430,7 @@
       "ean": "9788830315211",
       "title": "Carnevale nel bosco. Cerca e trova. Ediz...",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -566,7 +438,7 @@
       "ean": "9788858049006",
       "title": "So this is ever after. Per sempre felici...",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -574,7 +446,7 @@
       "ean": "9788883627217",
       "title": "Il favoloso club del libro del bus 65. E...",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -582,7 +454,7 @@
       "ean": "9791259963758",
       "title": "Tobia. L'ombra delle cime",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -590,7 +462,7 @@
       "ean": "9791259746160",
       "title": "Al tempo dei dinosauri. Ediz. a colori",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -598,7 +470,7 @@
       "ean": "9788804812425",
       "title": "Il furore della dea. Percy Jackson e gli...",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -606,7 +478,7 @@
       "ean": "9791223270035",
       "title": "Wonder",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -614,7 +486,7 @@
       "ean": "9788804812630",
       "title": "Principessa Laurentina",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -622,7 +494,7 @@
       "ean": "9788855443609",
       "title": "Al di là dello specchio",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -630,7 +502,7 @@
       "ean": "9788817197465",
       "title": "A cosa servono le persone?",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -638,7 +510,7 @@
       "ean": "9791255334606",
       "title": "Storie di calzini e altri oggetti chiacc...",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -646,7 +518,7 @@
       "ean": "9791221221190",
       "title": "Chimica, cheppàlle! Finalmente un manual...",
       "author": "",
-      "position": 31,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -654,7 +526,7 @@
       "ean": "9788817197472",
       "title": "La bottiglia dei desideri",
       "author": "",
-      "position": 32,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -662,7 +534,7 @@
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
-      "position": 33,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -670,7 +542,7 @@
       "ean": "9788852225789",
       "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
-      "position": 34,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -678,7 +550,7 @@
       "ean": "9788867908325",
       "title": "Pera Toons. Diario scolastico 2026-2027",
       "author": "",
-      "position": 35,
+      "position": 27,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -686,7 +558,7 @@
       "ean": "9788862464291",
       "title": "Mamma, dove vai quando non sei con me? E...",
       "author": "",
-      "position": 36,
+      "position": 28,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -694,23 +566,7 @@
       "ean": "9788862463942",
       "title": "Gli animali. Le mie prime paroline. Ediz...",
       "author": "",
-      "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
-      "author": "",
-      "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
-      "author": "",
-      "position": 39,
+      "position": 29,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,7 +574,7 @@
       "ean": "9788867145065",
       "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
-      "position": 40,
+      "position": 30,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,7 +582,23 @@
       "ean": "9788869461118",
       "title": "Disegno & mi diverto. 100 giochi. Ediz. ...",
       "author": "",
-      "position": 41,
+      "position": 31,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
+      "author": "",
+      "position": 32,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788818031522",
+      "title": "Cime tempestose. Ediz. integrale",
+      "author": "",
+      "position": 33,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -734,7 +606,7 @@
       "ean": "9788867148608",
       "title": "Cane & gatto. Ediz. a colori",
       "author": "",
-      "position": 42,
+      "position": 34,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -803,74 +675,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788467489132",
-      "title": "La morte di Clark Kent. Superman",
-      "author": "",
-      "position": 9,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804415886",
-      "title": "Tex. Sangue navajo",
-      "author": "",
-      "position": 10,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804428039",
-      "title": "Tex. I figli della notte",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804544104",
-      "title": "XXX Manga. Il meglio del fumetto erotico...",
-      "author": "",
-      "position": 12,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804548454",
-      "title": "Tex. Nascita di un eroe",
-      "author": "",
-      "position": 13,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804723967",
-      "title": "Heartstopper. Vol. 1",
-      "author": "",
-      "position": 14,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804728818",
-      "title": "Heartstopper. Vol. 2",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804734307",
-      "title": "Heartstopper. Vol. 3",
-      "author": "",
-      "position": 16,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804771883",
       "title": "Il gran maestro della scuola demoniaca. ...",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -878,7 +686,7 @@
       "ean": "9791221921243",
       "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -886,7 +694,7 @@
       "ean": "9791221926088",
       "title": "Batman. Cavaliere bianco",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -894,7 +702,7 @@
       "ean": "9788822662408",
       "title": "One piece. Vol. 111",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -902,7 +710,7 @@
       "ean": "9791256211784",
       "title": "Il figlio di Taiwan. Vita di Tsai Kunlin...",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -910,7 +718,7 @@
       "ean": "9791221926170",
       "title": "DC vs. Vampires. Un morso letale",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -918,7 +726,7 @@
       "ean": "9788822659163",
       "title": "My love story with Yamada-kun at lv999. ...",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -926,7 +734,7 @@
       "ean": "9791221927160",
       "title": "The nightmare before Christmas. Il manga...",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -934,7 +742,7 @@
       "ean": "9788817147712",
       "title": "Come capire se il tuo gatto sta cercando...",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -942,7 +750,7 @@
       "ean": "9788817144834",
       "title": "Cavolini. Con adesivi",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -950,7 +758,7 @@
       "ean": "9788804714637",
       "title": "Zenobia. Storia di una bambina",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -958,7 +766,7 @@
       "ean": "9788804707301",
       "title": "L'abbraccio",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -966,7 +774,7 @@
       "ean": "9788817180696",
       "title": "Persepolis. Ediz. integrale",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -974,7 +782,7 @@
       "ean": "9788896275757",
       "title": "Dante. La Divina Commedia a fumetti",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -982,7 +790,7 @@
       "ean": "9791256210848",
       "title": "La profezia dell'armadillo",
       "author": "",
-      "position": 31,
+      "position": 23,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,7 +798,7 @@
       "ean": "9791221948561",
       "title": "Atelier of witch hat. Grimoire edition. ...",
       "author": "",
-      "position": 32,
+      "position": 24,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,7 +806,7 @@
       "ean": "9788891201041",
       "title": "I tre guerrieri. Thor",
       "author": "",
-      "position": 33,
+      "position": 25,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,7 +814,7 @@
       "ean": "9788804793014",
       "title": "Heartstopper. Vol. 6",
       "author": "",
-      "position": 34,
+      "position": 26,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1014,23 +822,23 @@
       "ean": "9791221946116",
       "title": "Back in black. Amazing Spider-Man. Vol. 7",
       "author": "",
-      "position": 35,
+      "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788834905685",
-      "title": "Vampires. Vol. 2",
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
-      "position": 36,
+      "position": 28,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788834921708",
-      "title": "L'estate in cui Hikaru è morto. Vol. 2",
+      "ean": "9788832736243",
+      "title": "Dien Bien Phu. Vol. 6",
       "author": "",
-      "position": 37,
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1099,74 +907,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804433859",
-      "title": "La visione di Dio",
-      "author": "",
-      "position": 9,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804489856",
-      "title": "Eretico e profeta. Ernesto Buonaiuti, un...",
-      "author": "",
-      "position": 10,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804515944",
-      "title": "I grandi miti greci",
-      "author": "",
-      "position": 11,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804571322",
-      "title": "Inchiesta su Gesù. Chi era l'uomo che ha...",
-      "author": "",
-      "position": 12,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804579939",
-      "title": "Rifondazione della fede",
-      "author": "",
-      "position": 13,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804586463",
-      "title": "La strada che porta al vero. Come pratic...",
-      "author": "",
-      "position": 14,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804586500",
-      "title": "Emozioni distruttive. Liberarsi dai tre ...",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804589105",
-      "title": "L'arte della felicità",
-      "author": "",
-      "position": 16,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788856692143",
       "title": "Cammina, vivi, amati. Pillole per ripart...",
       "author": "",
-      "position": 17,
+      "position": 9,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1174,7 +918,7 @@
       "ean": "9788865129562",
       "title": "La luce dell'amore",
       "author": "",
-      "position": 18,
+      "position": 10,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1182,7 +926,7 @@
       "ean": "9788817184854",
       "title": "Francesco d'Assisi. Una vita inquieta",
       "author": "",
-      "position": 19,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1190,7 +934,7 @@
       "ean": "9788862623513",
       "title": "Le più belle storie zen. Le 100 storie z...",
       "author": "",
-      "position": 20,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1198,7 +942,7 @@
       "ean": "9791259753434",
       "title": "12 respiri dell'anima",
       "author": "",
-      "position": 21,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1206,7 +950,7 @@
       "ean": "9791259624598",
       "title": "Joseph Ratzinger Benedetto XVI. La ragio...",
       "author": "",
-      "position": 22,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1214,7 +958,7 @@
       "ean": "9788892243552",
       "title": "Il Cristo totale. La vita di Gesù incisa...",
       "author": "",
-      "position": 23,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1222,7 +966,7 @@
       "ean": "9788868209926",
       "title": "Yogi e santi dell'India",
       "author": "",
-      "position": 24,
+      "position": 16,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1230,7 +974,7 @@
       "ean": "9788804736721",
       "title": "Francesco il ribelle. Il linguaggio, i g...",
       "author": "",
-      "position": 25,
+      "position": 17,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1238,7 +982,7 @@
       "ean": "9788823528031",
       "title": "Del buon uso della religione. Una guida ...",
       "author": "",
-      "position": 26,
+      "position": 18,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1246,7 +990,7 @@
       "ean": "9788858144008",
       "title": "Maometto papa e imperatore",
       "author": "",
-      "position": 27,
+      "position": 19,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1254,7 +998,7 @@
       "ean": "9788817155632",
       "title": "Io credo, noi crediamo. Una riflessione ...",
       "author": "",
-      "position": 28,
+      "position": 20,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1262,7 +1006,7 @@
       "ean": "9788811817758",
       "title": "Di questi tempi. Un inno alla vita per r...",
       "author": "",
-      "position": 29,
+      "position": 21,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1270,7 +1014,7 @@
       "ean": "9788845298516",
       "title": "La casta dei casti. I preti, il sesso e ...",
       "author": "",
-      "position": 30,
+      "position": 22,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1278,7 +1022,7 @@
       "ean": "9788823524590",
       "title": "Il Ramayana",
       "author": "",
-      "position": 31,
+      "position": 23,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1286,7 +1030,7 @@
       "ean": "9788806248253",
       "title": "Il grande romanzo dei Vangeli",
       "author": "",
-      "position": 32,
+      "position": 24,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1294,7 +1038,7 @@
       "ean": "9788826610931",
       "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
-      "position": 33,
+      "position": 25,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1302,7 +1046,7 @@
       "ean": "9788829702732",
       "title": "Eroi. Le grandi saghe della mitologia greca",
       "author": "",
-      "position": 34,
+      "position": 26,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1054,7 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
-      "position": 35,
+      "position": 27,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,15 +1062,7 @@
       "ean": "9788804745440",
       "title": "Profondo come il mare, leggero come il c...",
       "author": "",
-      "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858155325",
-      "title": "San Francesco",
-      "author": "",
-      "position": 37,
+      "position": 28,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,39 +1070,47 @@
       "ean": "9788854171671",
       "title": "Il ramo d'oro. Studio della magia e dell...",
       "author": "",
-      "position": 38,
+      "position": 29,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892251717",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "ean": "9788858155325",
+      "title": "San Francesco",
       "author": "",
-      "position": 39,
+      "position": 30,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892325289",
-      "title": "L' invenzione del cristianesimo. La trip...",
+      "ean": "9788885227187",
+      "title": "Il cammino dell'uomo secondo l'insegname...",
       "author": "",
-      "position": 40,
+      "position": 31,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892250208",
-      "title": "Il miele e le cipolle",
+      "ean": "9788885227231",
+      "title": "Sotto la guida dello Spirito",
       "author": "",
-      "position": 41,
+      "position": 32,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788892981249",
-      "title": "Il fumo nel tempio",
+      "ean": "9788845917882",
+      "title": "Il mulino di Amleto. Saggio sul mito e s...",
       "author": "",
-      "position": 42,
+      "position": 33,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788885223714",
+      "title": "L'Anticristo. L'uomo più fatale della st...",
+      "author": "",
+      "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
@@ -5253,64 +4997,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Voci clonate dall'IA: la seiyu di Shinji chiede regole urgenti al governo giapponese",
+      "title": "Crunchyroll: arriva il nuovo film di That Time I Got Reincarnated as a Slime, e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111353-voci-clonate-dallia-la-seiyu-di-shinji-chiede-regole-urgenti-al-governo-giapponese"
-    },
-    {
-      "title": "Aoashi: l'autore Yugo Kobayashi celebra la vittoria della Spagna con un'illustrazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111280-aoashi-lautore-yugo-kobayashi-celebra-la-vittoria-della-spagna-con-unillustrazione"
-    },
-    {
-      "title": "Anime Preview: novità per Tune In to the Midnight Heart, annunci per Yurayura Q e altro ancora",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111277-anime-preview-novita-per-tune-in-to-the-midnight-heart-annunci-per-yurayura-q-e-altro-ancora"
-    },
-    {
-      "title": "Netflix: i film e le serie anime in scadenza a luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111326-netflix-i-film-e-le-serie-anime-in-scadenza-a-luglio"
-    },
-    {
-      "title": "Top Sakuga: le migliori animazioni del mese di luglio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111112-top-sakuga-le-migliori-animazioni-del-mese-di-luglio"
-    },
-    {
-      "title": "Keigo Higashino, scompare a 68 anni il pilastro del mystery giapponese moderno",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111323-keigo-higashino-scompare-a-68-anni-il-pilastro-del-mystery-giapponese-moderno"
-    },
-    {
-      "title": "Resident Evil: il successo della saga sostiene i progetti di nuove IP",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111325-resident-evil-il-successo-della-saga-sostiene-i-progetti-di-nuove-ip"
-    },
-    {
-      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111357-netflix-amazon-prime-e-disney-i-palinsesti-di-agosto-2026"
-    },
-    {
-      "title": "Shigeru Miyamoto guarda al futuro: meno regia nei videogiochi e niente pensione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/105037-shigeru-miyamoto-guarda-al-futuro-meno-regia-nei-videogiochi-e-niente-pensione"
-    },
-    {
-      "title": "Anime Preview: annunciato un nuovo film di Doraemon in arrivo nella primavera 2027 e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111299-anime-preview-annunciato-un-nuovo-film-di-doraemon-in-arrivo-nella-primavera-2027-e-altre-novita"
-    },
-    {
-      "title": "Annunciata la data d'uscita di God of War Laufey",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111311-annunciata-la-data-duscita-di-god-of-war-laufey"
-    },
-    {
-      "title": "Nuovo atto nella lotta alla pirateria in Giappone: arrestato uno dei seeder di Nyaa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111350-nuovo-atto-nella-lotta-alla-pirateria-in-giappone-arrestato-uno-dei-seeder-di-nyaa"
+      "url": "https://www.animeclick.it/news/111370-crunchyroll-arriva-il-nuovo-film-di-that-time-i-got-reincarnated-as-a-slime-e-altre-novita"
     },
     {
       "title": "We Are Aliens: nuovo trailer e visual per il film franco-nipponico",
@@ -5318,54 +5007,14 @@
       "url": "https://www.animeclick.it/news/111335-we-are-aliens-nuovo-trailer-e-visual-per-il-film-franco-nipponico"
     },
     {
-      "title": "Marvel’s Wolverine: un nuovo trailer svela l'oscura storia di Logan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111291-marvel%25e2%2580%2599s-wolverine-un-nuovo-trailer-svela-la-storia-piu-oscura-di-logan"
-    },
-    {
-      "title": "Amv: la compilation a tutta musica di luglio 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111289-amv-la-compilation-a-tutta-musica-di-luglio-2026"
-    },
-    {
       "title": "Gachiakuta: rilasciato un \"First Look\" video della seconda stagione dell’anime",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111341-gachiakuta-rilasciato-un-first-look-video-della-seconda-stagione-dell%25e2%2580%2599anime"
     },
     {
-      "title": "Studio Cabana: annunciato l'anime tratto dal manga di Agri Uma",
+      "title": "Resident Evil: il successo della saga sostiene i progetti di nuove IP",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111274-studio-cabana-annunciato-lanime-tratto-dal-manga-di-agri-uma"
-    },
-    {
-      "title": "Nia Liston: The Merciless Maiden: trailer e cast per l'isekai in arrivo in autunno",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111338-nia-liston-the-merciless-maiden-trailer-e-cast-per-lisekai-in-arrivo-in-autunno"
-    },
-    {
-      "title": "Magic Press: le uscite di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111368-magic-press-le-uscite-di-agosto-2026"
-    },
-    {
-      "title": "Naruto Card Game: svelate le regole e le prime carte, demo anche a Lucca Comics 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111348-naruto-card-game-svelate-le-regole-e-le-prime-carte-demo-anche-a-lucca-comics-2026"
-    },
-    {
-      "title": "Giappone: calo demografico record ma aumentano gli stranieri residenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111363-giappone-calo-demografico-record-ma-aumentano-gli-stranieri-residenti"
-    },
-    {
-      "title": "Crunchyroll: arriva il nuovo film di That Time I Got Reincarnated as a Slime, e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111370-crunchyroll-arriva-il-nuovo-film-di-that-time-i-got-reincarnated-as-a-slime-e-altre-novita"
-    },
-    {
-      "title": "Pokémon Pocket, arriva Sovrano dei Cieli: Mega Rayquaza ex, QR Code e tutte le novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111329-pokemon-pocket-arriva-sovrano-dei-cieli-mega-rayquaza-ex-qr-code-e-tutte-le-novita"
+      "url": "https://www.animeclick.it/news/111325-resident-evil-il-successo-della-saga-sostiene-i-progetti-di-nuove-ip"
     },
     {
       "title": "Magical Explorer: trailer e visual per l'harem isekai",
@@ -5373,24 +5022,74 @@
       "url": "https://www.animeclick.it/news/111364-magical-explorer-trailer-e-visual-per-l-harem-isekai"
     },
     {
-      "title": "Box Office Giappone: debutta subito al primo posto il nuovo film di Kingdom",
+      "title": "Giappone: calo demografico record ma aumentano gli stranieri residenti",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111270-box-office-giappone-debutta-subito-al-primo-posto-il-nuovo-film-di-kingdom"
+      "url": "https://www.animeclick.it/news/111363-giappone-calo-demografico-record-ma-aumentano-gli-stranieri-residenti"
     },
     {
-      "title": "Final Fantasy XIV: tante novità sull'espansione Evercold e le future collaborazioni",
+      "title": "Demon Slayer Il Castello dell'Infinito e Rent a Girlfiend 4 ora doppiati su Crunchyroll",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111313-final-fantasy-xiv-tante-novita-sullespansione-evercold-e-le-future-collaborazioni"
+      "url": "https://www.animeclick.it/news/111345-demon-slayer-il-castello-dellinfinito-e-rent-a-girlfiend-4-ora-doppiati-su-crunchyroll"
     },
     {
-      "title": "The Sims 4: arriva la collaborazione gratuita con Coach e il nuovo kit Angolo della Musica",
+      "title": "Wuchang Fallen Feathers: il criticato soulslike cinese avrà un seguito",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111254-the-sims-4-arriva-la-collaborazione-gratuita-con-coach-e-il-nuovo-kit-angolo-della-musica"
+      "url": "https://www.animeclick.it/news/111347-wuchang-fallen-feathers-il-criticato-soulslike-cinese-avra-un-seguito"
     },
     {
-      "title": "Nippon Shock Edizioni annuncia una nuova raccolta di Kaoru Tada",
+      "title": "Mii-chan and Miss Yamada, l'annuncio dell'anime scatena polemiche in Giappone",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111310-nippon-shock-edizioni-annuncia-una-nuova-raccolta-di-kaoru-tada"
+      "url": "https://www.animeclick.it/news/111333-mii-chan-and-miss-yamada-lannuncio-dellanime-scatena-polemiche-in-giappone"
+    },
+    {
+      "title": "Anime Preview: novità per Tune In to the Midnight Heart, annunci per Yurayura Q e altro ancora",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111277-anime-preview-novita-per-tune-in-to-the-midnight-heart-annunci-per-yurayura-q-e-altro-ancora"
+    },
+    {
+      "title": "Dynit presenta le sue prossime uscite Home Video",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111282-dynit-presenta-le-sue-prossime-uscite-home-video"
+    },
+    {
+      "title": "Turismo in Giappone: la nazione che spende di più pro capite non è quella che ti aspetti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111288-turismo-in-giappone-la-nazione-che-spende-di-piu-pro-capite-non-e-quella-che-ti-aspetti"
+    },
+    {
+      "title": "La crisi dell'industria anime tocca anche due noti studi di animazione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111165-la-crisi-dellindustria-anime-tocca-anche-due-noti-studi-di-animazione"
+    },
+    {
+      "title": "Naruto Card Game: svelate le regole e le prime carte, demo anche a Lucca Comics 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111348-naruto-card-game-svelate-le-regole-e-le-prime-carte-demo-anche-a-lucca-comics-2026"
+    },
+    {
+      "title": "Mobile Suit Gundam RG XARX-ZERO è la nuova serie dello storico franchise",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111285-mobile-suit-gundam-rg-xarx-zero-e-la-nuova-serie-dello-storico-franchise"
+    },
+    {
+      "title": "Annunciati i giochi gratuiti di PlayStation Plus di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111342-annunciati-i-giochi-gratuiti-di-playstation-plus-di-agosto-2026"
+    },
+    {
+      "title": "Keigo Higashino, scompare a 68 anni il pilastro del mystery giapponese moderno",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111323-keigo-higashino-scompare-a-68-anni-il-pilastro-del-mystery-giapponese-moderno"
+    },
+    {
+      "title": "Dance in the Vampire Bund e Block Blockade Battlefront: informazioni sui doppiaggi di Dynit",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111351-dance-in-the-vampire-bund-e-block-blockade-battlefront-informazioni-sui-doppiaggi-di-dynit"
+    },
+    {
+      "title": "Konosuba: rivelate informazioni sullo staff e la data di uscita della quarta stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111317-konosuba-rivelate-informazioni-sullo-staff-e-la-data-di-uscita-della-quarta-stagione"
     },
     {
       "title": "Galaxy Express 999 torna al cinema: nuovo film anime annunciato su storia originale di Rintarō",
@@ -5398,9 +5097,54 @@
       "url": "https://www.animeclick.it/news/111304-galaxy-express-999-torna-al-cinema-nuovo-film-anime-annunciato-su-storia-originale-di-rintaro"
     },
     {
-      "title": "Mostra del Cinema di Venezia: in concorso anche Look Back di Hirokazu Kore'eda",
+      "title": "Akira Toriyama e Gō Nagai da oggi sono nella Eisner Hall of Fame",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111284-mostra-del-cinema-di-venezia-in-concorso-anche-look-back-di-hirokazu-koreeda"
+      "url": "https://www.animeclick.it/news/111293-akira-toriyama-e-go-nagai-da-oggi-sono-nella-eisner-hall-of-fame"
+    },
+    {
+      "title": "Genshin Impact presenta le novità della versione 7.0",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111360-genshin-impact-presenta-le-novita-della-versione-70"
+    },
+    {
+      "title": "Annunciata la data d'uscita di God of War Laufey",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111311-annunciata-la-data-duscita-di-god-of-war-laufey"
+    },
+    {
+      "title": "Eventi e fiere di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111344-eventi-e-fiere-di-agosto-2026"
+    },
+    {
+      "title": "Anime Preview: annunciato un nuovo film di Doraemon in arrivo nella primavera 2027 e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111299-anime-preview-annunciato-un-nuovo-film-di-doraemon-in-arrivo-nella-primavera-2027-e-altre-novita"
+    },
+    {
+      "title": "Pokémon Pocket, arriva Sovrano dei Cieli: Mega Rayquaza ex, QR Code e tutte le novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111329-pokemon-pocket-arriva-sovrano-dei-cieli-mega-rayquaza-ex-qr-code-e-tutte-le-novita"
+    },
+    {
+      "title": "Amv: la compilation a tutta musica di luglio 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111289-amv-la-compilation-a-tutta-musica-di-luglio-2026"
+    },
+    {
+      "title": "Voci clonate dall'IA: la seiyu di Shinji chiede regole urgenti al governo giapponese",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111353-voci-clonate-dallia-la-seiyu-di-shinji-chiede-regole-urgenti-al-governo-giapponese"
+    },
+    {
+      "title": "Vertex Force: trailer e novità per l'anime originale, in arrivo a ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111305-vertex-force-trailer-e-novita-per-lanime-originale-in-arrivo-a-ottobre"
+    },
+    {
+      "title": "Il regista di Black Lagoon: \"Nell'industria anime ho visto troppi colleghi morire a 50 anni\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111316-il-regista-di-black-lagoon-nellindustria-anime-ho-visto-troppi-colleghi-morire-a-50-anni"
     }
   ],
   "youtube_trends": [
@@ -5417,12 +5161,20 @@
       "url": "https://www.youtube.com/watch?v=g6jmyXlI1Wo"
     },
     {
+      "title": "[Martina Skia] Fourth Wing è follia! #booktokitalia #booktubeitalia #fourthwing #short",
+      "url": "https://www.youtube.com/watch?v=OQGzrEqY4xI"
+    },
+    {
       "title": "[Ag's Book Ita] ✨CoN lA cAnNuCcIa GiAlLa TuTtO è PiÙ bUoNo✨ 🤣🤣 #Gameofgods #booktok",
       "url": "https://www.youtube.com/watch?v=RqgNpEnxEBo"
     },
     {
       "title": "[baliness ] 발리너스  그라치에 #travel #가족스타그램 #가족돌봄 #booktok #부모님지킴이",
       "url": "https://www.youtube.com/watch?v=RngyLrmTJng"
+    },
+    {
+      "title": "[Storyline Studio] #books #booktube #booktok #bookrecs #literature #bookworm #reading #italianliterature #libros",
+      "url": "https://www.youtube.com/watch?v=HsGg9pbSIEA"
     },
     {
       "title": "[Sara Dalla Palma] 👀 #booktok #booktokitalia #books #booktube #perte #harrypotter #albusdumbledore #severussnape",
@@ -5437,14 +5189,6 @@
       "url": "https://www.youtube.com/watch?v=UTNpPgm_83w"
     },
     {
-      "title": "[IlSognatoreDiMondi] POV: He searched for you... (Italian version) #booktok #fantasy",
-      "url": "https://www.youtube.com/watch?v=r19Q7Yl3BGU"
-    },
-    {
-      "title": "[IlSognatoreDiMondi] Stay a little longer... (Italian version) #booktok",
-      "url": "https://www.youtube.com/watch?v=AhEFcsWICGk"
-    },
-    {
       "title": "[Maina Lilac] #vtuber wants chat to WHAT?? #envtuber #twitch #vtuberclips #fruitmountain #vtuberen #twitchstreamer",
       "url": "https://www.youtube.com/watch?v=32eXD92XTlY"
     },
@@ -5453,28 +5197,20 @@
       "url": "https://www.youtube.com/watch?v=32Mg61S1UCs"
     },
     {
-      "title": "[Spydey ] I’m really hoping for an ASM 129 homage🙏 #marvel #comics #spiderman #spidermanbrandnewday #comic",
-      "url": "https://www.youtube.com/watch?v=jaZoPZGvcBQ"
-    },
-    {
       "title": "[CapedUp] Who chose the better covers? #comic #comics #comicbook #comicbooks #spiderman",
       "url": "https://www.youtube.com/watch?v=rOCdqvF7c6k"
     },
     {
-      "title": "[Key Comics Explained] The Ultimate Warrior Battle Begins 😲 Wonder Woman Vs Red Sonja! 😲 #dccomics #shorts",
-      "url": "https://www.youtube.com/watch?v=3DUd6AB7mYM"
+      "title": "[Spydey ] I’m really hoping for an ASM 129 homage🙏 #marvel #comics #spiderman #spidermanbrandnewday #comic",
+      "url": "https://www.youtube.com/watch?v=jaZoPZGvcBQ"
     },
     {
       "title": "[Sloan Tempest] @DualAnimal Anthology Review #comics #manga #scifi #cartoon #indiecomics",
       "url": "https://www.youtube.com/watch?v=ny_4EIqJObA"
     },
     {
-      "title": "[Sono Cose Serie] La sovrastruttura mitologica del volemose bene: il caso Supergirl #shorts #Recensione #Film #Fumetto",
-      "url": "https://www.youtube.com/watch?v=CJRT0XKYjQ0"
-    },
-    {
-      "title": "[James] If you loved Absolute Batman, read these!",
-      "url": "https://www.youtube.com/watch?v=frJeXYjXQ0M"
+      "title": "[FlyingOverTr0ut] Goddamn This War! Comic Review",
+      "url": "https://www.youtube.com/watch?v=ZtsCAYKBR0o"
     },
     {
       "title": "[Marco a Fumetti] È ARRIVATA LA SERIE TV PIÙ ATTESA DELL&#39;ANNO! - RECENSIONE",
@@ -5485,12 +5221,24 @@
       "url": "https://www.youtube.com/watch?v=xIx9bxo2K2Q"
     },
     {
-      "title": "[FlyingOverTr0ut] Goddamn This War! Comic Review",
-      "url": "https://www.youtube.com/watch?v=ZtsCAYKBR0o"
-    },
-    {
       "title": "[BK's Bullets] Terminal #1 Review #robertkirkman #terminal #andykubery #comics #comicbooks",
       "url": "https://www.youtube.com/watch?v=kTjRY9Zv47E"
+    },
+    {
+      "title": "[Swarm of Comics] Quick review of my new favorite comic book! #comics #comicbooks #killswitch #ampcomics #comicreview",
+      "url": "https://www.youtube.com/watch?v=udWYDrrWqEk"
+    },
+    {
+      "title": "[Sergio Vinci TV] [Fumetti retrò&#39;] DYLAN DOG  N.44: &quot;Riflessi di morte&quot; (Recensione)",
+      "url": "https://www.youtube.com/watch?v=ozptXt21p-A"
+    },
+    {
+      "title": "[Artsy Sister] Public library Hidden Gem Tank Girl #comic #review #tankgirl",
+      "url": "https://www.youtube.com/watch?v=_GwWFm5OiTw"
+    },
+    {
+      "title": "[Ani Amanda] Reborn, I Shocked Them All by Signing the General&#39;s Divorce Papers First—Left Him and His Name",
+      "url": "https://www.youtube.com/watch?v=Ufe_OnbP4t4"
     },
     {
       "title": "[mochibz] Horikoshi&#39;s New Manga Draws Parallels To Deku.. And Denji?",
@@ -5517,16 +5265,16 @@
       "url": "https://www.youtube.com/watch?v=v9WcesjePMA"
     },
     {
+      "title": "[Screen Explain TV] Hunter x Hunter Returns in 2026 | OFFICIAL UPDATE — Gon &amp; Killua&#39;s Long-Awaited Comeback Begins!",
+      "url": "https://www.youtube.com/watch?v=e2JAAFduLJs"
+    },
+    {
       "title": "[JobyFunko] new anime clothing i got! #anime #animeclothing #mangacollection #jobyfunko #fyp",
       "url": "https://www.youtube.com/watch?v=UE-3-2x0Sx8"
     },
     {
       "title": "[AbsoluteDuelist!] New Crew Mangas And Baki Kaido!!! || OPTCG NEWS || #onepiece #optcg #onepiecetcg #op17 #altart",
       "url": "https://www.youtube.com/watch?v=059Hr9CmuDI"
-    },
-    {
-      "title": "[VEMAZZO] ACQUISTI MANGA 30 LUGLIO 2026",
-      "url": "https://www.youtube.com/watch?v=r-aBXymgk6o"
     }
   ]
 }
