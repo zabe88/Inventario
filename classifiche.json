@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-08-06T15:26:48.918867+00:00",
+  "updated_at": "2026-08-07T06:17:47.228447+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -51,16 +51,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
       "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 8,
       "category": "generale",
@@ -75,26 +75,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831743006",
-      "title": "Odissea",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 11,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
-      "author": "",
-      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
@@ -102,15 +94,15 @@
       "ean": "9788822786333",
       "title": "L'eredità. The legacy. The campus series",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804807278",
-      "title": "Ci basterà mangiare il vento",
+      "ean": "9788831743006",
+      "title": "Odissea",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,7 +110,7 @@
       "ean": "9788863113853",
       "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,7 +118,7 @@
       "ean": "9788863115666",
       "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
-      "position": 16,
+      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,21 +126,29 @@
       "ean": "9788858333037",
       "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
+      "position": 16,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804807278",
+      "title": "Ci basterà mangiare il vento",
+      "author": "",
       "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788822756350",
+      "title": "Il segreto della libraia di Parigi",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788845934018",
-      "title": "La vegetariana",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -379,24 +379,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822786333",
-      "title": "L'eredità. The legacy. The campus series",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -467,10 +467,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9780746083376",
+      "title": "Che cosa mi succede? (Ragazzi). Ediz. il...",
+      "author": "",
+      "position": 9,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9780746083383",
       "title": "Che cosa mi succede? (Ragazze). Ediz. il...",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -478,7 +486,7 @@
       "ean": "9781108349093",
       "title": "Compact. Preliminary for schools. B1. St...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -486,7 +494,7 @@
       "ean": "9781108954815",
       "title": "Open up. Level 2. Student's Book-Workboo...",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -494,7 +502,7 @@
       "ean": "9781108954860",
       "title": "Open up. Level 3. Student's Book-Workboo...",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,7 +510,7 @@
       "ean": "9781409530046",
       "title": "Le fiabe dei fratelli Grimm. Ediz. illus...",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -510,21 +518,13 @@
       "ean": "9781409578888",
       "title": "365 esperimenti per piccoli scienziati. ...",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9781409589877",
       "title": "L'era glaciale. Libri con adesivi. Ediz....",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409592518",
-      "title": "Il nostro mondo. Ediz. illustrata",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -979,26 +979,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804793014",
-      "title": "Heartstopper. Vol. 6",
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9788804793014",
+      "title": "Heartstopper. Vol. 6",
       "author": "",
       "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788891201041",
-      "title": "I tre guerrieri. Thor",
-      "author": "",
-      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,7 +998,7 @@
       "ean": "9791221948561",
       "title": "Atelier of witch hat. Grimoire edition. ...",
       "author": "",
-      "position": 34,
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1014,21 +1006,29 @@
       "ean": "9791256210848",
       "title": "La profezia dell'armadillo",
       "author": "",
-      "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791256211890",
-      "title": "Un polpo alla gola",
-      "author": "",
-      "position": 36,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9791221941234",
       "title": "Berserk collection. Vol. 43",
+      "author": "",
+      "position": 35,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788891201041",
+      "title": "I tre guerrieri. Thor",
+      "author": "",
+      "position": 36,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788893366366",
+      "title": "Francis",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1107,18 +1107,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804433859",
-      "title": "La visione di Dio",
-      "author": "",
-      "position": 10,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804477648",
       "title": "Tantra per due. Una guida per la felicit...",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1126,7 +1118,7 @@
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1134,7 +1126,7 @@
       "ean": "9788804579939",
       "title": "Rifondazione della fede",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1142,7 +1134,7 @@
       "ean": "9788804586463",
       "title": "La strada che porta al vero. Come pratic...",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1150,13 +1142,21 @@
       "ean": "9788804586500",
       "title": "Emozioni distruttive. Liberarsi dai tre ...",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804586531",
       "title": "Il dito e la luna. Racconti zen, haiku, ...",
+      "author": "",
+      "position": 15,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804589105",
+      "title": "L'arte della felicità",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1307,26 +1307,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854171671",
-      "title": "Il ramo d'oro. Studio della magia e dell...",
+      "ean": "9788858155325",
+      "title": "San Francesco",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788858155325",
-      "title": "San Francesco",
+      "ean": "9788854171671",
+      "title": "Il ramo d'oro. Studio della magia e dell...",
       "author": "",
       "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
-      "author": "",
-      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,7 +1326,7 @@
       "ean": "9788860996596",
       "title": "Coscienza, conoscenza e informazione qua...",
       "author": "",
-      "position": 38,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1342,29 +1334,37 @@
       "ean": "9788892251717",
       "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788829706914",
+      "title": "Demoni, mostri e prodigi. L'irrazionale ...",
+      "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259626462",
-      "title": "La fede del futuro. Il futuro della Chiesa",
+      "ean": "9788834004128",
+      "title": "La quarta via. Discorsi e dialoghi secon...",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791280546777",
-      "title": "Manuel. Il piccolo guerriero della luce",
+      "ean": "9788828203636",
+      "title": "Gesù. Il processo",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -4921,6 +4921,18 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Festival della Rosa",
+      "date": "2026-08-22",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-03-31_012.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Il Circo delle Olimpiadi",
+      "date": "2026-08-22",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_14-07-47_000-1.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Agnino on the rock",
       "date": "2026-08-21",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-24_14-27-07_870.jpeg",
@@ -4930,6 +4942,12 @@
       "title": "Sagra della Pattona di Agnino",
       "date": "2026-08-21",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_23-01-22_485.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Viano Torre in festa",
+      "date": "2026-08-21",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_10-59-29_304.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -4969,6 +4987,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "La marcia delle 4 contrade di Vico",
+      "date": "2026-08-14",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-03-24_837.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "I Mestieri nel borgo Ponticello",
       "date": "2026-08-13",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_23-01-03_605-1.jpeg",
@@ -4990,6 +5014,24 @@
       "title": "X° Memorial Giuseppe Bertino",
       "date": "2026-08-12",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_10-51-56_519.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Aperispettacolo in piazza a Coloretta",
+      "date": "2026-08-12",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_10-59-22_318.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Racconti al tramonto",
+      "date": "2026-08-12",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-01-41_747.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa del rugby",
+      "date": "2026-08-12",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-02-10_017.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5032,6 +5074,18 @@
       "title": "Burraco sotto le stelle",
       "date": "2026-08-10",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_10-55-07_947.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Paella mista e sangria a Caprigliola",
+      "date": "2026-08-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_10-59-53_252.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mangialonga delle Valli di Zeri",
+      "date": "2026-08-09",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-28_13-23-07_022.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5107,6 +5161,24 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Concerto in piazza a Filetto",
+      "date": "2026-08-08",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_09-37-50_784.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Sagra della Focaccina di Amola",
+      "date": "2026-08-08",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_13-47-50_897.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Lunigiana d’ a Mare",
+      "date": "2026-08-08",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_14-07-23_000.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Tre Sere Nel Passato a Gragnola",
       "date": "2026-08-07",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/2026-01-30_01-07-20_000.jpeg",
@@ -5149,6 +5221,48 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Edouard Manet Incisioni",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-00-13_908.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "E la luna canto’ / Concerto di beneficenza",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-01-54_931.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Piotta in concerto",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-03-38_610.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Sagra della polenta fritta",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-09-02_357.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_09-37-53_967.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Ho perso l’Hammond in concerto",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_09-38-10_592.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa del cacciatore",
+      "date": "2026-08-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-06_14-07-38_000.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Spettacoli teatrali / Nickulele show",
       "date": "2026-08-06",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-16_09-53-13_704.jpeg",
@@ -5158,6 +5272,12 @@
       "title": "La partita del cuore",
       "date": "2026-08-06",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-21_23-51-51_293.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Sagra di San Lorenzo Malgrate",
+      "date": "2026-08-06",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_11-02-18_240.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5185,213 +5305,15 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Trofeo del panigaccio gara ciclistica",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-07_21-50-09_878.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Belle Bolle bollicine",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-21_23-46-48_445.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Concerto di Fisarmonica a Tendola",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-21_23-55-46_688.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Festa della Madonna della Neve",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-42-40_413.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Chiacchierata intorno alla Casa Rossa",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-49-50_559.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "La strada e’ anche nostra / Camminata non competitiva",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0511.JPG-1-1.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "I mercati della terra di slow Food",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0513.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Serate lunigianesi a Fornoli",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0517.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Spettacolo teatrale di Elisabetta Dini",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0514.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mercatino della Creativita’",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0519.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Laboratori nel bosco delle meraviglie di Iera",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0520.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Concerto di mezza estate",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0523.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mercatino dell’Antiquariato",
-      "date": "2026-08-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0527.JPG-1.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "50 anni di radio A",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-12-30_723.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Montereggio e Dante",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_22-58-03_316.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Apuane da scoprire e da assaggiare",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-44-49_712.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Sagra della torta di Canepari",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-45-03_171-2026-07-27T12_01_54.373.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Ritorno dell’arte in Lunigiana",
       "date": "2026-08-01",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-49-38_345.jpeg",
       "source": "lunigianaworld"
     },
     {
-      "title": "James Band in concerto",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0512.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Estate a Tendola",
       "date": "2026-08-01",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0515.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Nel bosco di lotte con Vinicio Capossela",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0516.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Dancing the night",
-      "date": "2026-08-01",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0526.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Palaron Fan Festival",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-05_00-18-01_855.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Tassonart / Mostra d’arte diffusa",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-09_23-21-26_000.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Serata Panigacci al Centro Giovanile di Arpiola",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_22-57-51_683.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Di Ventura Peccini prete e poeta",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-21_23-49-19_754.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Giochi senza campanile",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-43-11_096.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Cena in piazzetta a Folegnano",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-43-28_362.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Festival della Scienza della Lunigiana",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-45-14_878.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Corrado Caruana band",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0522.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "47a Frascata del Donatore",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0524.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Presentazione libro di Walter Massari",
-      "date": "2026-07-31",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/IMG_0525.JPG.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Stranotturna Fivizzanese",
-      "date": "2026-07-30",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_23-00-48_337.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Il Disegno piu’ lungo",
-      "date": "2026-07-30",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_23-02-02_307.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Parole liberate / La notte della Taranta pugliese",
-      "date": "2026-07-30",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-27_13-07-29_000.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5413,21 +5335,9 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Mangialonga delle Valli di Zeri",
-      "date": "2026-07-26",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/05/2026-05-28_13-23-07_022.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "La Leggenda del Lupo Mannaro",
       "date": "2026-07-24",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-07_21-45-23_491.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "26a Sagra della Focaccetta di Soliera",
-      "date": "2026-07-24",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-23_10-02-12_000.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5443,12 +5353,6 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Mostra di Paolino Rossi",
-      "date": "2026-07-22",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-21_23-53-37_798.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Mostra su San Francesco",
       "date": "2026-07-18",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-14_23-45-23_440.jpeg",
@@ -5458,12 +5362,6 @@
       "title": "Virgoletta Gran Gala’ del Liscio e non solo…",
       "date": "2026-07-18",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-16_09-30-56_482.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Racconti dall’antichita’",
-      "date": "2026-07-17",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-02_15-42-42_896.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5485,21 +5383,9 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Mostra personale di Luciano Donini",
-      "date": "2026-07-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-02_15-37-19_580.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Coltivare semi di parole",
       "date": "2026-06-27",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-06-24_14-28-46_815.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Filetto Summer Fest Edition V edizione",
-      "date": "2026-06-19",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-06-11_23-41-15_000.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -5595,114 +5481,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Marvel stringe una partnership con Kadokawa per i futuri progetti manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111321-marvel-stringe-una-partnership-con-kadokawa-per-i-futuri-progetti-manga"
-    },
-    {
-      "title": "Weekly Shonen Jump per la prima volta sotto il milione di copie: la fine di un'era per il manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111417-jump"
-    },
-    {
-      "title": "Black Clover: pubblicato uno speciale trailer per celebrare l'uscita del volume finale del manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111412-black-clover-pubblicato-uno-speciale-trailer-per-celebrare-luscita-del-volume-finale-del-manga"
-    },
-    {
-      "title": "Anime Preview: trailer e novità per The Ribbon Hero, Witch on the Holy Night e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111375-anime-preview-trailer-e-novita-per-the-ribbon-hero-witch-on-the-holy-night-e-molto-altro"
-    },
-    {
-      "title": "Gachiakuta: rilasciato un \"First Look\" video della seconda stagione dell’anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111341-gachiakuta-rilasciato-un-first-look-video-della-seconda-stagione-dell%25e2%2580%2599anime"
-    },
-    {
-      "title": "Box Office Giappone: debutta subito al primo posto il nuovo film di Kingdom",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111270-box-office-giappone-debutta-subito-al-primo-posto-il-nuovo-film-di-kingdom"
-    },
-    {
       "title": "Just Like Mona Lisa: trailer e staff per la serie queer animata da SHAFT",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111369-just-like-mona-lisa-trailer-e-staff-per-la-serie-queer-animata-da-shaft"
-    },
-    {
-      "title": "Xbox Game Pass: i giochi confermati in arrivo ad agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111377-xbox-game-pass-i-giochi-confermati-in-arrivo-ad-agosto-2026"
-    },
-    {
-      "title": "Mii-chan and Miss Yamada, l'annuncio dell'anime scatena polemiche in Giappone",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111333-mii-chan-and-miss-yamada-lannuncio-dellanime-scatena-polemiche-in-giappone"
-    },
-    {
-      "title": "Naruto Card Game: svelate le regole e le prime carte, demo anche a Lucca Comics 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111348-naruto-card-game-svelate-le-regole-e-le-prime-carte-demo-anche-a-lucca-comics-2026"
-    },
-    {
-      "title": "Annunciati i giochi gratuiti di PlayStation Plus di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111342-annunciati-i-giochi-gratuiti-di-playstation-plus-di-agosto-2026"
-    },
-    {
-      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111357-netflix-amazon-prime-e-disney-i-palinsesti-di-agosto-2026"
-    },
-    {
-      "title": "Shigeru Miyamoto guarda al futuro: meno regia nei videogiochi e niente pensione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/105037-shigeru-miyamoto-guarda-al-futuro-meno-regia-nei-videogiochi-e-niente-pensione"
-    },
-    {
-      "title": "Xbox Network torna operativo dopo un blackout globale: disservizi durati circa 20 ore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111331-xbox-network-torna-operativo-dopo-un-blackout-globale-disservizi-durati-circa-20-ore"
-    },
-    {
-      "title": "Japan Expo 2026: intervista agli autori di Akane-Banashi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111361-japan-expo-2026-intervista-agli-autori-di-akane-banashi"
-    },
-    {
-      "title": "Nuovo atto nella lotta alla pirateria in Giappone: arrestato uno dei seeder di Nyaa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111350-nuovo-atto-nella-lotta-alla-pirateria-in-giappone-arrestato-uno-dei-seeder-di-nyaa"
-    },
-    {
-      "title": "Magic Press: le uscite di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111368-magic-press-le-uscite-di-agosto-2026"
-    },
-    {
-      "title": "Shueisha lancia a livello globale la piattaforma digitale Manga Million in 100 lingue diverse",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111419-shueisha-lancia-a-livello-globale-la-piattaforma-digitale-manga-million-in-100-lingue-diverse"
-    },
-    {
-      "title": "Anime Preview: anime per Mii-chan to Yamada-san, Senren * Banka e Odoru Sennen Kazoku",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111328-anime-preview-anime-per-mii-chan-to-yamada-san-senren-banka-e-odoru-sennen-kazoku"
-    },
-    {
-      "title": "Da Xbox 360 al PC: arriva la svolta per la retrocompatibilità e il passaggio al digitale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111392-da-xbox-360-al-pc-arriva-la-svolta-per-la-retrocompatibilita-e-il-passaggio-al-digitale"
-    },
-    {
-      "title": "Eventi e fiere di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111344-eventi-e-fiere-di-agosto-2026"
-    },
-    {
-      "title": "Super Robot Wars Y: aggiornamenti e DLC per il 35° anniversario",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111404-super-robot-wars-y-aggiornamenti-e-dlc-per-il-35%25c2%25b0-anniversario"
     },
     {
       "title": "Anime Preview: annunci per Demon Slave 3, Reincarnated in a Mafia Dating Sim e molto altro",
@@ -5710,24 +5491,104 @@
       "url": "https://www.animeclick.it/news/111389-anime-preview-annunci-per-demon-slave-3-reincarnated-in-a-mafia-dating-sim-e-molto-altro"
     },
     {
+      "title": "Resident Evil: il successo della saga sostiene i progetti di nuove IP",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111325-resident-evil-il-successo-della-saga-sostiene-i-progetti-di-nuove-ip"
+    },
+    {
+      "title": "La Palworld mania non si ferma: disponibile il gioco di carte ufficiale e in arrivo l'MMO",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111395-la-palworld-mania-non-si-ferma-disponibile-il-gioco-di-carte-ufficiale-e-in-arrivo-lmmo"
+    },
+    {
+      "title": "Gachiakuta: rilasciato un \"First Look\" video della seconda stagione dell’anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111341-gachiakuta-rilasciato-un-first-look-video-della-seconda-stagione-dell%25e2%2580%2599anime"
+    },
+    {
       "title": "Amv: la compilation a tutta musica di luglio 2026",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111289-amv-la-compilation-a-tutta-musica-di-luglio-2026"
     },
     {
-      "title": "Dance in the Vampire Bund e Block Blockade Battlefront: informazioni sui doppiaggi di Dynit",
+      "title": "Top Sakuga: le migliori animazioni del mese di luglio",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111351-dance-in-the-vampire-bund-e-block-blockade-battlefront-informazioni-sui-doppiaggi-di-dynit"
+      "url": "https://www.animeclick.it/news/111112-top-sakuga-le-migliori-animazioni-del-mese-di-luglio"
     },
     {
-      "title": "Anime Preview: annunciato un nuovo film di Doraemon in arrivo nella primavera 2027 e altre novità",
+      "title": "A.O.T. 3: il capitolo conclusivo della saga videoludica arriva il 10 dicembre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111299-anime-preview-annunciato-un-nuovo-film-di-doraemon-in-arrivo-nella-primavera-2027-e-altre-novita"
+      "url": "https://www.animeclick.it/news/111393-aot-3-il-capitolo-conclusivo-della-saga-videoludica-arriva-il-10-dicembre-2026"
     },
     {
-      "title": "Netflix: i film e le serie anime in scadenza a luglio",
+      "title": "Dungeons & Dragons presenta World of Warcraft e Star Wars: tutti gli annunci della Gen Con 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111326-netflix-i-film-e-le-serie-anime-in-scadenza-a-luglio"
+      "url": "https://www.animeclick.it/news/111371-dungeons-dragons-presenta-world-of-warcraft-e-star-wars-tutti-gli-annunci-della-gen-con-2026"
+    },
+    {
+      "title": "Fire Emblem Fortune's Weave Direct: ecco il recap",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111399-fire-emblem-fortunes-weave-direct-ecco-il-recap"
+    },
+    {
+      "title": "GTA 6: Netflix mostrerà in esclusiva un nuovo trailer esteso del gioco",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111422-gta-6-netflix-mostrera-in-esclusiva-un-nuovo-trailer-esteso-del-gioco"
+    },
+    {
+      "title": "Wuchang Fallen Feathers: il criticato soulslike cinese avrà un seguito",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111347-wuchang-fallen-feathers-il-criticato-soulslike-cinese-avra-un-seguito"
+    },
+    {
+      "title": "Firefly Wedding: novità e data di debutto per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111278-firefly-wedding-novita-e-data-di-debutto-per-lanime"
+    },
+    {
+      "title": "Japan Expo 2026: intervista agli autori di Akane-Banashi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111361-japan-expo-2026-intervista-agli-autori-di-akane-banashi"
+    },
+    {
+      "title": "Box Office Giappone: il film di Chiikawa subito al primo posto, nono miglior debutto di sempre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111334-box-office-giappone-il-film-di-chiikawa-subito-al-primo-posto-nono-miglior-debutto-di-sempre"
+    },
+    {
+      "title": "Fairy Tail compie 20 anni e Hiro Mashima torna a disegnare la serie che gli ha cambiato la vita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111394-fairy-tail-compie-20-anni-e-hiro-mashima-torna-a-disegnare-la-serie-che-gli-ha-cambiato-la-vita"
+    },
+    {
+      "title": "Daiki Tomiyasu, regista di Pokémon e Inazuma Eleven, ospite alla Milan Games Week & Cartoomics 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111390-daiki-tomiyasu-regista-di-pokemon-e-inazuma-eleven-ospite-alla-milan-games-week-cartoomics-2026"
+    },
+    {
+      "title": "Super Robot Wars Y: aggiornamenti e DLC per il 35° anniversario",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111404-super-robot-wars-y-aggiornamenti-e-dlc-per-il-35%25c2%25b0-anniversario"
+    },
+    {
+      "title": "Gundam Seed e Gundam Seed Destiny arrivano su Youtube sottotitolati in italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111380-gundam-seed-e-gundam-seed-destiny-arrivano-su-youtube-sottotitolati-in-italiano"
+    },
+    {
+      "title": "Mii-chan and Miss Yamada, l'annuncio dell'anime scatena polemiche in Giappone",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111333-mii-chan-and-miss-yamada-lannuncio-dellanime-scatena-polemiche-in-giappone"
+    },
+    {
+      "title": "Demon Slayer Il Castello dell'Infinito e Rent a Girlfiend 4 ora doppiati su Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111345-demon-slayer-il-castello-dellinfinito-e-rent-a-girlfiend-4-ora-doppiati-su-crunchyroll"
+    },
+    {
+      "title": "Clair Obscur: Expedition 33: l'influenza di Attack On Titan e l'arrivo su Switch 2",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111349-clair-obscur-expedition-33-linfluenza-di-attack-on-titan-e-larrivo-su-switch-2"
     },
     {
       "title": "Nasce Sprea Manga: i grandi classici del manga tornano in Italia in edizioni da collezione",
@@ -5735,20 +5596,49 @@
       "url": "https://www.animeclick.it/news/111414-nasce-sprea-manga-i-grandi-classici-del-manga-tornano-in-italia-in-edizioni-da-collezione"
     },
     {
-      "title": "Keigo Higashino, scompare a 68 anni il pilastro del mystery giapponese moderno",
+      "title": "Anime Preview: anime per Mii-chan to Yamada-san, Senren * Banka e Odoru Sennen Kazoku",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111323-keigo-higashino-scompare-a-68-anni-il-pilastro-del-mystery-giapponese-moderno"
+      "url": "https://www.animeclick.it/news/111328-anime-preview-anime-per-mii-chan-to-yamada-san-senren-banka-e-odoru-sennen-kazoku"
     },
     {
-      "title": "Conan, il ragazzo del futuro: svelati i prototipi di nuove action figures",
+      "title": "Voci clonate dall'IA: la seiyu di Shinji chiede regole urgenti al governo giapponese",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111343-conan-il-ragazzo-del-futuro-svelati-i-prototipi-di-nuove-action-figures"
+      "url": "https://www.animeclick.it/news/111353-voci-clonate-dallia-la-seiyu-di-shinji-chiede-regole-urgenti-al-governo-giapponese"
+    },
+    {
+      "title": "Netflix: i film e le serie anime in scadenza a luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111326-netflix-i-film-e-le-serie-anime-in-scadenza-a-luglio"
+    },
+    {
+      "title": "Anime Preview: trailer e novità per The Ribbon Hero, Witch on the Holy Night e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111375-anime-preview-trailer-e-novita-per-the-ribbon-hero-witch-on-the-holy-night-e-molto-altro"
+    },
+    {
+      "title": "Annunciati i giochi gratuiti di PlayStation Plus di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111342-annunciati-i-giochi-gratuiti-di-playstation-plus-di-agosto-2026"
+    },
+    {
+      "title": "I primi 85 episodi di Detective Conan da oggi su Prime Video per un periodo limitato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111362-i-primi-85-episodi-di-detective-conan-da-oggi-su-prime-video-per-un-periodo-limitato"
+    },
+    {
+      "title": "Magical Explorer: trailer e visual per l'harem isekai",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111364-magical-explorer-trailer-e-visual-per-l-harem-isekai"
     }
   ],
   "youtube_trends": [
     {
       "title": "[LalibreriadiGiady📚] Raga quanto mi manca 😭#booktok #bibliomanzia #libricheamo #books #libri #bookworm #romance #bookish",
       "url": "https://www.youtube.com/watch?v=BcqJ6jTzhfA"
+    },
+    {
+      "title": "[mmarti nao] Le mie red flag da lettrice 😬🚩 #booktok #redflags #booktube #lettura #lettore #libri #perte #books",
+      "url": "https://www.youtube.com/watch?v=PIzJPLx4jOQ"
     },
     {
       "title": "[Aveline Row] Scoprila su #wattpad #perte #booktok #books #booktokitalia #wattpaditalia #neiperte #wattpadforyou",
@@ -5771,24 +5661,12 @@
       "url": "https://www.youtube.com/watch?v=HsGg9pbSIEA"
     },
     {
-      "title": "[IlSognatoreDiMondi] If you loved Pride &amp; Prejudice...(Italian version) #booktok #asmr #prideandprejudice",
-      "url": "https://www.youtube.com/watch?v=BArc9enEIHk"
-    },
-    {
-      "title": "[LaSegnalibri] Wrap up di luglio ✨ #booktubeitalia #booktok #consiglidilettura",
-      "url": "https://www.youtube.com/watch?v=UTNpPgm_83w"
-    },
-    {
       "title": "[IlSognatoreDiMondi] POV: His loyalty belongs only to you  (ITA/ENG) #booktok #darkromance #romantasy #pov",
       "url": "https://www.youtube.com/watch?v=NoVhHC1tNiY"
     },
     {
       "title": "[Byakuro Stories] POV: Always, for you #booktok #pov #asmr (ITA/ENG)",
       "url": "https://www.youtube.com/watch?v=B77nxeTnIWg"
-    },
-    {
-      "title": "[Maina Lilac] #vtuber wants chat to WHAT?? #envtuber #twitch #vtuberclips #fruitmountain #vtuberen #twitchstreamer",
-      "url": "https://www.youtube.com/watch?v=32eXD92XTlY"
     },
     {
       "title": "[Anihwa toon] #webtoon #recommended #recommandation #anihwa_toon #manga",
@@ -5799,6 +5677,14 @@
       "url": "https://www.youtube.com/watch?v=rOCdqvF7c6k"
     },
     {
+      "title": "[Key Comics Explained] The Ultimate Warrior Battle Begins 😲 Wonder Woman Vs Red Sonja! 😲",
+      "url": "https://www.youtube.com/watch?v=P5DyG38DH-A"
+    },
+    {
+      "title": "[FlyingOverTr0ut] Goddamn This War! Comic Review",
+      "url": "https://www.youtube.com/watch?v=ZtsCAYKBR0o"
+    },
+    {
       "title": "[Sono Cose Serie] Supergirl, meglio il film o il fumetto? Sei round per deciderlo",
       "url": "https://www.youtube.com/watch?v=xIx9bxo2K2Q"
     },
@@ -5807,44 +5693,28 @@
       "url": "https://www.youtube.com/watch?v=udWYDrrWqEk"
     },
     {
+      "title": "[Mad Mitch Universo Fumetto  ] RECENSIONE LUCKY LUKE 80 anni USCITA N.1: Terra Promessa #fumetti #luckyluke #gazzettadellosport",
+      "url": "https://www.youtube.com/watch?v=RN1dKJZ6KBU"
+    },
+    {
+      "title": "[Artsy Sister] Public library Hidden Gem House of Penance #horror #comic #review",
+      "url": "https://www.youtube.com/watch?v=FzlU1ZwnD-A"
+    },
+    {
       "title": "[Hodgepodge Channel] Thundercats &amp; Silverhawks #comics #thundercats #silverhawks #80scartoons #comicbook",
       "url": "https://www.youtube.com/watch?v=AfcgRzVfCtk"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem Family Tree #supernatural #comics #review",
-      "url": "https://www.youtube.com/watch?v=jYs6MxIeC-w"
+      "title": "[Artsy Sister] Public library Hidden Gem Roku #comic #review #superhero",
+      "url": "https://www.youtube.com/watch?v=wGYdlclLUR0"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem Red Mass For Mars #scifi #review #comic",
-      "url": "https://www.youtube.com/watch?v=8kp3YSDDGt8"
-    },
-    {
-      "title": "[Serginius84] Recensione Topolino 3686 #recensione #topolino #fumetto ",
-      "url": "https://www.youtube.com/watch?v=yeYgZsTy4Ks"
-    },
-    {
-      "title": "[L' Uomo Ragno di Roma] recensione spider-man brand new day e spider-man day #shorts#spidermanbrandnewday #spiderman",
-      "url": "https://www.youtube.com/watch?v=6qV_xf6-bww"
-    },
-    {
-      "title": "[Etra chan saw it!] Making good memories before graduation... Gone wrong [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=y-A2p2FIwZ0"
-    },
-    {
-      "title": "[mochibz] Horikoshi&#39;s New Manga Draws Parallels To Deku.. And Denji?",
-      "url": "https://www.youtube.com/watch?v=ke2TSRjdmZ0"
+      "title": "[Segnali di Fumetto / Bike&Raft] SPIDER-MAN - BRAND NEW DAY | Cinecomic Night Live con @StoriediFumettieCinema e Parla di me",
+      "url": "https://www.youtube.com/watch?v=xdohiXccqAg"
     },
     {
       "title": "[Ayasaki-san] [Manga Dub] She was writing a manga about me...!? [RomCom]",
       "url": "https://www.youtube.com/watch?v=e1sXRARqUEI"
-    },
-    {
-      "title": "[The Omnibus Collector] Manga Buyer&#39;s Guide - July 2026",
-      "url": "https://www.youtube.com/watch?v=py5hl5VRzHA"
-    },
-    {
-      "title": "[Raining Souls ASMR] ASMR 🌙 Relaxing Manga Haul (Whispered, Page Turning, Dusting &amp; Bagging)",
-      "url": "https://www.youtube.com/watch?v=4SzfoKe2KrA"
     },
     {
       "title": "[Ani Amanda] After Rebirth, I Didn&#39;t Follow Him to the Countryside for His First Love—I Took the City Job Instead",
@@ -5855,16 +5725,32 @@
       "url": "https://www.youtube.com/watch?v=3myLz93QrSI"
     },
     {
-      "title": "[Screen Explain TV] Hunter x Hunter Returns in 2026 | OFFICIAL UPDATE — Gon &amp; Killua&#39;s Long-Awaited Comeback Begins!",
-      "url": "https://www.youtube.com/watch?v=e2JAAFduLJs"
-    },
-    {
       "title": "[Marika Lafortezza] Che ne pensate di questo manga?👀 adv #cthulhu #lovecraft #manga #mangaitalia #otaku #nerd",
       "url": "https://www.youtube.com/watch?v=aqyx1PJgRtk"
     },
     {
+      "title": "[Kirio1984] NUOVI MANGA ANNUNCIATI IN ITALIA! Appleseed, Cobra, Grey e tante altre sorprese!",
+      "url": "https://www.youtube.com/watch?v=9ztGPx76PAM"
+    },
+    {
       "title": "[JobyFunko] new anime clothing i got! #anime #animeclothing #mangacollection #jobyfunko #fyp",
       "url": "https://www.youtube.com/watch?v=UE-3-2x0Sx8"
+    },
+    {
+      "title": "[AbsoluteDuelist!] New Crew Mangas And Baki Kaido!!! || OPTCG NEWS || #onepiece #optcg #onepiecetcg #op17 #altart",
+      "url": "https://www.youtube.com/watch?v=059Hr9CmuDI"
+    },
+    {
+      "title": "[Daniel M Cartoons] Rurouni Kenshin: Restoration vol. 2 (Manga Review) #Anime #Manga #RurouniKenshin #Kenshin",
+      "url": "https://www.youtube.com/watch?v=H3CddmFS9lg"
+    },
+    {
+      "title": "[Andrew Reiz] ​6 New Manga You NEED to Read Before They Get Popular",
+      "url": "https://www.youtube.com/watch?v=TVejL_AqYA8"
+    },
+    {
+      "title": "[LovePlot Stories] Manga Dub 100 new hires ditched me on a trip, but the CEO who came was my sister",
+      "url": "https://www.youtube.com/watch?v=baVsGlNgBd8"
     }
   ]
 }
