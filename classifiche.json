@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-08-08T05:55:16.776994+00:00",
+  "updated_at": "2026-08-08T13:55:25.449772+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -75,24 +75,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -387,16 +387,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -683,26 +683,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788852225789",
-      "title": "Zootropolis. Il libro delle barzellette....",
+      "ean": "9788869461118",
+      "title": "Disegno & mi diverto. 100 giochi. Ediz. ...",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788869461118",
-      "title": "Disegno & mi diverto. 100 giochi. Ediz. ...",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788862463942",
-      "title": "Gli animali. Le mie prime paroline. Ediz...",
-      "author": "",
-      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,13 +702,21 @@
       "ean": "9788834730423",
       "title": "Alice nel paese delle meraviglie. Ediz. ...",
       "author": "",
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
+      "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788834740460",
-      "title": "Le avventure di Pinocchio. Ediz. integrale",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788818031522",
-      "title": "Cime tempestose. Ediz. integrale",
+      "ean": "9788834740460",
+      "title": "Le avventure di Pinocchio. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -995,10 +995,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9791256211890",
+      "title": "Un polpo alla gola",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788891201041",
       "title": "I tre guerrieri. Thor",
       "author": "",
-      "position": 33,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1006,29 +1014,21 @@
       "ean": "9791256210848",
       "title": "La profezia dell'armadillo",
       "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791256211890",
-      "title": "Un polpo alla gola",
-      "author": "",
       "position": 35,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221948561",
-      "title": "Atelier of witch hat. Grimoire edition. ...",
-      "author": "",
-      "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9791221941234",
       "title": "Berserk collection. Vol. 43",
+      "author": "",
+      "position": 36,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221948561",
+      "title": "Atelier of witch hat. Grimoire edition. ...",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1307,26 +1307,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854171671",
-      "title": "Il ramo d'oro. Studio della magia e dell...",
-      "author": "",
-      "position": 35,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788858155325",
       "title": "San Francesco",
       "author": "",
-      "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
-      "author": "",
-      "position": 37,
+      "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,7 +1318,7 @@
       "ean": "9788892251717",
       "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
-      "position": 38,
+      "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1342,29 +1326,45 @@
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
       "author": "",
+      "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
+      "author": "",
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788854171671",
+      "title": "Il ramo d'oro. Studio della magia e dell...",
+      "author": "",
       "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788888039053",
-      "title": "Provocati dal giubileo, i consacrati rip...",
-      "author": "",
-      "position": 40,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788860996596",
-      "title": "Coscienza, conoscenza e informazione qua...",
-      "author": "",
-      "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788826610948",
       "title": "«Tornarono a Gerusalemme con grande gioi...",
+      "author": "",
+      "position": 40,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788829706914",
+      "title": "Demoni, mostri e prodigi. L'irrazionale ...",
+      "author": "",
+      "position": 41,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788831528948",
+      "title": "Il castello interiore",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -5489,79 +5489,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Anime Preview: annunci per Demon Slave 3, Reincarnated in a Mafia Dating Sim e molto altro",
+      "title": "Parla con Ryza e crea la tua storia: RyzaChat porta l'IA conversazionale nell'universo di Atelier",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111389-anime-preview-annunci-per-demon-slave-3-reincarnated-in-a-mafia-dating-sim-e-molto-altro"
-    },
-    {
-      "title": "Yamato Video: SUPER CUBE in arrivo su Anime Generation anche doppiato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111400-yamato-video-super-cube-in-arrivo-su-anime-generation-anche-doppiato"
-    },
-    {
-      "title": "Fire Emblem Fortune's Weave Direct: ecco il recap",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111399-fire-emblem-fortunes-weave-direct-ecco-il-recap"
-    },
-    {
-      "title": "Nuovo atto nella lotta alla pirateria in Giappone: arrestato uno dei seeder di Nyaa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111350-nuovo-atto-nella-lotta-alla-pirateria-in-giappone-arrestato-uno-dei-seeder-di-nyaa"
-    },
-    {
-      "title": "Crunchyroll: arriva il nuovo film di That Time I Got Reincarnated as a Slime, e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111370-crunchyroll-arriva-il-nuovo-film-di-that-time-i-got-reincarnated-as-a-slime-e-altre-novita"
-    },
-    {
-      "title": "Dance in the Vampire Bund e Block Blockade Battlefront: informazioni sui doppiaggi di Dynit",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111351-dance-in-the-vampire-bund-e-block-blockade-battlefront-informazioni-sui-doppiaggi-di-dynit"
-    },
-    {
-      "title": "Conan, il ragazzo del futuro: svelati i prototipi di nuove action figures",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111343-conan-il-ragazzo-del-futuro-svelati-i-prototipi-di-nuove-action-figures"
-    },
-    {
-      "title": "Da potenziale gacha a successo single player: ecco DragonSword Awakening",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111397-da-potenziale-gacha-a-successo-single-player-ecco-dragonsword-awakening"
-    },
-    {
-      "title": "We Are Aliens: nuovo trailer e visual per il film franco-nipponico",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111335-we-are-aliens-nuovo-trailer-e-visual-per-il-film-franco-nipponico"
-    },
-    {
-      "title": "Daiki Tomiyasu, regista di Pokémon e Inazuma Eleven, ospite alla Milan Games Week & Cartoomics 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111390-daiki-tomiyasu-regista-di-pokemon-e-inazuma-eleven-ospite-alla-milan-games-week-cartoomics-2026"
-    },
-    {
-      "title": "Onimusha: Way of the Sword- Lo abbiamo provato ed è decisamente interessante",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111309-onimusha-way-of-the-sword-la-nostra-anteprima"
-    },
-    {
-      "title": "Ordina 24 milioni di euro in gadget anime per \"alleviare lo stress\": arrestata 32enne in Giappone",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111429-ordina-24-milioni-di-euro-in-gadget-anime-per-alleviare-lo-stress-arrestata-32enne-in-giappone"
-    },
-    {
-      "title": "Xbox Game Pass: i giochi confermati in arrivo ad agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111377-xbox-game-pass-i-giochi-confermati-in-arrivo-ad-agosto-2026"
-    },
-    {
-      "title": "Shueisha lancia a livello globale la piattaforma digitale Manga Million in 100 lingue diverse",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111419-shueisha-lancia-a-livello-globale-la-piattaforma-digitale-manga-million-in-100-lingue-diverse"
-    },
-    {
-      "title": "I primi 85 episodi di Detective Conan da oggi su Prime Video per un periodo limitato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111362-i-primi-85-episodi-di-detective-conan-da-oggi-su-prime-video-per-un-periodo-limitato"
+      "url": "https://www.animeclick.it/news/111407-parla-con-ryza-e-crea-la-tua-storia-ryzachat-porta-lia-conversazionale-nelluniverso-di-atelier"
     },
     {
       "title": "Wuchang Fallen Feathers: il criticato soulslike cinese avrà un seguito",
@@ -5569,49 +5499,39 @@
       "url": "https://www.animeclick.it/news/111347-wuchang-fallen-feathers-il-criticato-soulslike-cinese-avra-un-seguito"
     },
     {
-      "title": "Nasce Sprea Manga: i grandi classici del manga tornano in Italia in edizioni da collezione",
+      "title": "Fairy Tail compie 20 anni e Hiro Mashima torna a disegnare la serie che gli ha cambiato la vita",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111414-nasce-sprea-manga-i-grandi-classici-del-manga-tornano-in-italia-in-edizioni-da-collezione"
+      "url": "https://www.animeclick.it/news/111394-fairy-tail-compie-20-anni-e-hiro-mashima-torna-a-disegnare-la-serie-che-gli-ha-cambiato-la-vita"
     },
     {
-      "title": "Firefly Wedding: novità e data di debutto per l'anime",
+      "title": "Crazy Taxi: World Tour: SEGA annuncia il Test di rete multigiocatore chiuso",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111278-firefly-wedding-novita-e-data-di-debutto-per-lanime"
+      "url": "https://www.animeclick.it/news/111352-crazy-taxi-world-tour-sega-annuncia-il-test-di-rete-multigiocatore-chiuso"
     },
     {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di luglio 2026",
+      "title": "I primi 85 episodi di Detective Conan da oggi su Prime Video per un periodo limitato",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111356-zipaki-tutte-le-uscite-digitali-e-cartacee-di-luglio-2026"
+      "url": "https://www.animeclick.it/news/111362-i-primi-85-episodi-di-detective-conan-da-oggi-su-prime-video-per-un-periodo-limitato"
     },
     {
-      "title": "Shigeru Miyamoto guarda al futuro: meno regia nei videogiochi e niente pensione",
+      "title": "Weekly Shonen Jump per la prima volta sotto il milione di copie: la fine di un'era per il manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/105037-shigeru-miyamoto-guarda-al-futuro-meno-regia-nei-videogiochi-e-niente-pensione"
+      "url": "https://www.animeclick.it/news/111417-jump"
     },
     {
-      "title": "A.O.T. 3: il capitolo conclusivo della saga videoludica arriva il 10 dicembre 2026",
+      "title": "Pokémon Gamma Emerald: arriva l'incredibile mod che reinventa il classico per Game Boy Advance",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111393-aot-3-il-capitolo-conclusivo-della-saga-videoludica-arriva-il-10-dicembre-2026"
+      "url": "https://www.animeclick.it/news/111396-pokemon-gamma-emerald-arriva-lincredibile-mod-che-reinventa-il-classico-per-game-boy-advance"
     },
     {
-      "title": "Genshin Impact presenta le novità della versione 7.0",
+      "title": "Demon Slayer Il Castello dell'Infinito e Rent a Girlfiend 4 ora doppiati su Crunchyroll",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111360-genshin-impact-presenta-le-novita-della-versione-70"
+      "url": "https://www.animeclick.it/news/111345-demon-slayer-il-castello-dellinfinito-e-rent-a-girlfiend-4-ora-doppiati-su-crunchyroll"
     },
     {
-      "title": "Eventi e fiere di agosto 2026",
+      "title": "Dungeons & Dragons presenta World of Warcraft e Star Wars: tutti gli annunci della Gen Con 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111344-eventi-e-fiere-di-agosto-2026"
-    },
-    {
-      "title": "Annunciati i giochi gratuiti di PlayStation Plus di agosto 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111342-annunciati-i-giochi-gratuiti-di-playstation-plus-di-agosto-2026"
-    },
-    {
-      "title": "Voci clonate dall'IA: la seiyu di Shinji chiede regole urgenti al governo giapponese",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111353-voci-clonate-dallia-la-seiyu-di-shinji-chiede-regole-urgenti-al-governo-giapponese"
+      "url": "https://www.animeclick.it/news/111371-dungeons-dragons-presenta-world-of-warcraft-e-star-wars-tutti-gli-annunci-della-gen-con-2026"
     },
     {
       "title": "Da Xbox 360 al PC: arriva la svolta per la retrocompatibilità e il passaggio al digitale",
@@ -5619,9 +5539,34 @@
       "url": "https://www.animeclick.it/news/111392-da-xbox-360-al-pc-arriva-la-svolta-per-la-retrocompatibilita-e-il-passaggio-al-digitale"
     },
     {
-      "title": "Toei Animation festeggia il suo 70° anniversario: presentati video e logo celebrativi",
+      "title": "Shueisha lancia a livello globale la piattaforma digitale Manga Million in 100 lingue diverse",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111358-toei-animation-festeggia-il-suo-70%25c2%25b0-anniversario-presentati-video-e-logo-celebrativi"
+      "url": "https://www.animeclick.it/news/111419-shueisha-lancia-a-livello-globale-la-piattaforma-digitale-manga-million-in-100-lingue-diverse"
+    },
+    {
+      "title": "Box Office Giappone: il film di Chiikawa subito al primo posto, nono miglior debutto di sempre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111334-box-office-giappone-il-film-di-chiikawa-subito-al-primo-posto-nono-miglior-debutto-di-sempre"
+    },
+    {
+      "title": "Yamato Video: SUPER CUBE in arrivo su Anime Generation anche doppiato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111400-yamato-video-super-cube-in-arrivo-su-anime-generation-anche-doppiato"
+    },
+    {
+      "title": "Made in Abyss Awakening Mystery: nuovo trailer svela cast e sigla di Kevin Penkin",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111424-made-in-abyss-awakening-mystery-nuovo-trailer-svela-cast-e-sigla-di-kevin-penkin"
+    },
+    {
+      "title": "Annunciati i giochi gratuiti di PlayStation Plus di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111342-annunciati-i-giochi-gratuiti-di-playstation-plus-di-agosto-2026"
+    },
+    {
+      "title": "Nasce Sprea Manga: i grandi classici del manga tornano in Italia in edizioni da collezione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111414-nasce-sprea-manga-i-grandi-classici-del-manga-tornano-in-italia-in-edizioni-da-collezione"
     },
     {
       "title": "Black Clover: pubblicato uno speciale trailer per celebrare l'uscita del volume finale del manga",
@@ -5629,32 +5574,79 @@
       "url": "https://www.animeclick.it/news/111412-black-clover-pubblicato-uno-speciale-trailer-per-celebrare-luscita-del-volume-finale-del-manga"
     },
     {
-      "title": "La Palworld mania non si ferma: disponibile il gioco di carte ufficiale e in arrivo l'MMO",
+      "title": "A.O.T. 3: il capitolo conclusivo della saga videoludica arriva il 10 dicembre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111395-la-palworld-mania-non-si-ferma-disponibile-il-gioco-di-carte-ufficiale-e-in-arrivo-lmmo"
+      "url": "https://www.animeclick.it/news/111393-aot-3-il-capitolo-conclusivo-della-saga-videoludica-arriva-il-10-dicembre-2026"
     },
     {
-      "title": "Made in Abyss Awakening Mystery: nuovo trailer svela cast e sigla di Kevin Penkin",
+      "title": "Xbox Game Pass: i giochi confermati in arrivo ad agosto 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111424-made-in-abyss-awakening-mystery-nuovo-trailer-svela-cast-e-sigla-di-kevin-penkin"
+      "url": "https://www.animeclick.it/news/111377-xbox-game-pass-i-giochi-confermati-in-arrivo-ad-agosto-2026"
+    },
+    {
+      "title": "Re:ZERO: trailer per il nuovo arco narrativo della quarta stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111418-rezero-trailer-per-il-nuovo-arco-narrativo-della-quarta-stagione"
+    },
+    {
+      "title": "Yamato Video: le novità di luglio del catalogo di ANiME GENERATION",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111410-yamato-video-le-novita-di-luglio-del-catalogo-di-anime-generation"
+    },
+    {
+      "title": "Firefly Wedding: novità e data di debutto per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111278-firefly-wedding-novita-e-data-di-debutto-per-lanime"
+    },
+    {
+      "title": "Anime Preview: trailer e novità per The Ribbon Hero, Witch on the Holy Night e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111375-anime-preview-trailer-e-novita-per-the-ribbon-hero-witch-on-the-holy-night-e-molto-altro"
+    },
+    {
+      "title": "Pokémon Pocket, arriva Sovrano dei Cieli: Mega Rayquaza ex, QR Code e tutte le novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111329-pokemon-pocket-arriva-sovrano-dei-cieli-mega-rayquaza-ex-qr-code-e-tutte-le-novita"
+    },
+    {
+      "title": "Fire Emblem Fortune's Weave Direct: ecco il recap",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111399-fire-emblem-fortunes-weave-direct-ecco-il-recap"
+    },
+    {
+      "title": "Giappone: calo demografico record ma aumentano gli stranieri residenti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111363-giappone-calo-demografico-record-ma-aumentano-gli-stranieri-residenti"
+    },
+    {
+      "title": "Gundam Seed e Gundam Seed Destiny arrivano su Youtube sottotitolati in italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111380-gundam-seed-e-gundam-seed-destiny-arrivano-su-youtube-sottotitolati-in-italiano"
+    },
+    {
+      "title": "Magic Press: le uscite di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111368-magic-press-le-uscite-di-agosto-2026"
+    },
+    {
+      "title": "Top Sakuga: le migliori animazioni del mese di luglio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111112-top-sakuga-le-migliori-animazioni-del-mese-di-luglio"
+    },
+    {
+      "title": "Voci clonate dall'IA: la seiyu di Shinji chiede regole urgenti al governo giapponese",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111353-voci-clonate-dallia-la-seiyu-di-shinji-chiede-regole-urgenti-al-governo-giapponese"
     }
   ],
   "youtube_trends": [
     {
-      "title": "[LalibreriadiGiady📚] Raga quanto mi manca 😭#booktok #bibliomanzia #libricheamo #books #libri #bookworm #romance #bookish",
-      "url": "https://www.youtube.com/watch?v=BcqJ6jTzhfA"
-    },
-    {
-      "title": "[mmarti nao] Le mie red flag da lettrice 😬🚩 #booktok #redflags #booktube #lettura #lettore #libri #perte #books",
-      "url": "https://www.youtube.com/watch?v=PIzJPLx4jOQ"
+      "title": "[Victoria📚🎀] #booktokitalia #booktok #bookstagram #perte #bookworm #books #libriromantici",
+      "url": "https://www.youtube.com/watch?v=1uj58g29JEY"
     },
     {
       "title": "[Attraversalibri] 📚💜 #authortube #booktok #autriciitaliane #selfpublishedbook #fibromialgia #writingcommunity",
       "url": "https://www.youtube.com/watch?v=4VSvuyUgavM"
-    },
-    {
-      "title": "[Ag's Book Ita] ✨CoN lA cAnNuCcIa GiAlLa TuTtO è PiÙ bUoNo✨ 🤣🤣 #Gameofgods #booktok",
-      "url": "https://www.youtube.com/watch?v=RqgNpEnxEBo"
     },
     {
       "title": "[dark history boy] #dark #history #lifeisbutadream #booktok",
@@ -5673,6 +5665,10 @@
       "url": "https://www.youtube.com/watch?v=B77nxeTnIWg"
     },
     {
+      "title": "[Jade Nives (autrice)] #bibliomanzia #booktok #booktokitalia #viral #wattpad #books #bookish #bookworm #perte #neiperte",
+      "url": "https://www.youtube.com/watch?v=ZPHqHWd4PJ8"
+    },
+    {
       "title": "[Ale_Books12] 🤍#wattpaditalia #storiewattpaditalia #consigliostorie  #booktokitalia  #perte",
       "url": "https://www.youtube.com/watch?v=LM1iGbisxaw"
     },
@@ -5681,44 +5677,44 @@
       "url": "https://www.youtube.com/watch?v=32Mg61S1UCs"
     },
     {
-      "title": "[CapedUp] Who chose the better covers? #comic #comics #comicbook #comicbooks #spiderman",
-      "url": "https://www.youtube.com/watch?v=rOCdqvF7c6k"
-    },
-    {
-      "title": "[FlyingOverTr0ut] Goddamn This War! Comic Review",
-      "url": "https://www.youtube.com/watch?v=ZtsCAYKBR0o"
-    },
-    {
-      "title": "[Swarm of Comics] Quick review of my new favorite comic book! #comics #comicbooks #killswitch #ampcomics #comicreview",
-      "url": "https://www.youtube.com/watch?v=udWYDrrWqEk"
+      "title": "[D.C. Network] Dynamite&#39;s Ben 10 Comic Issue #4 Was Weird | Review",
+      "url": "https://www.youtube.com/watch?v=7CY4qRhANEk"
     },
     {
       "title": "[Mad Mitch Universo Fumetto  ] RECENSIONE LUCKY LUKE 80 anni USCITA N.1: Terra Promessa #fumetti #luckyluke #gazzettadellosport",
       "url": "https://www.youtube.com/watch?v=RN1dKJZ6KBU"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem House of Penance #horror #comic #review",
-      "url": "https://www.youtube.com/watch?v=FzlU1ZwnD-A"
-    },
-    {
-      "title": "[Hodgepodge Channel] Thundercats &amp; Silverhawks #comics #thundercats #silverhawks #80scartoons #comicbook",
-      "url": "https://www.youtube.com/watch?v=AfcgRzVfCtk"
-    },
-    {
-      "title": "[Artsy Sister] Public library Hidden Gem Roku #comic #review #superhero",
-      "url": "https://www.youtube.com/watch?v=wGYdlclLUR0"
+      "title": "[CapedUp] Who chose the better covers? #comic #comics #comicbook #comicbooks #spiderman",
+      "url": "https://www.youtube.com/watch?v=rOCdqvF7c6k"
     },
     {
       "title": "[Serginius84] Recensione Topolino 3686 #recensione #topolino #fumetto ",
       "url": "https://www.youtube.com/watch?v=yeYgZsTy4Ks"
     },
     {
-      "title": "[Il mondo di Chri] MIRA #amici #amore #tormenti Fumetto a colori per bambini",
-      "url": "https://www.youtube.com/watch?v=CLOBwRhtLug"
+      "title": "[Cami Manga & Games] Recensione manga RANDAGI (ATTENZIONE SPOILER!)",
+      "url": "https://www.youtube.com/watch?v=BWkCzQKnYe8"
     },
     {
-      "title": "[redav 98] MINI RECENSIONE LEGS WEAVER",
-      "url": "https://www.youtube.com/watch?v=alYl5kM6fJ0"
+      "title": "[FlyingOverTr0ut] Goddamn This War! Comic Review",
+      "url": "https://www.youtube.com/watch?v=ZtsCAYKBR0o"
+    },
+    {
+      "title": "[smerdp] The Uncanny X-Men Issue #32 Comic Book Review! by Gail Simone | Shadows of Tomorrow!",
+      "url": "https://www.youtube.com/watch?v=eoILRhfTeZs"
+    },
+    {
+      "title": "[Comics From The Multiverse] The Movement #11 | New 52 Comic Book Review",
+      "url": "https://www.youtube.com/watch?v=TqFDUB1sRQQ"
+    },
+    {
+      "title": "[Swarm of Comics] Quick review of my new favorite comic book! #comics #comicbooks #killswitch #ampcomics #comicreview",
+      "url": "https://www.youtube.com/watch?v=udWYDrrWqEk"
+    },
+    {
+      "title": "[Artsy Sister] Public library Hidden Gem House of Penance #horror #comic #review",
+      "url": "https://www.youtube.com/watch?v=FzlU1ZwnD-A"
     },
     {
       "title": "[RomCom Manga Lab] My ex looked down on my daughter at her new school [Manga Dub]",
@@ -5729,36 +5725,36 @@
       "url": "https://www.youtube.com/watch?v=e1sXRARqUEI"
     },
     {
-      "title": "[Simom] SPIDER-MAN DIVENTA UN MANGA! I nuovi eroi Marvel in Giappone",
-      "url": "https://www.youtube.com/watch?v=Ss04T7zmmpI"
+      "title": "[Ani Amanda] After Rebirth, I Didn&#39;t Follow Him to the Countryside for His First Love—I Took the City Job Instead",
+      "url": "https://www.youtube.com/watch?v=CRkV0MVXhdo"
     },
     {
-      "title": "[mansi] MANGA STUPENDI E TANTISSIMI NUOVI GADGET: UNBOXING luglio",
-      "url": "https://www.youtube.com/watch?v=3myLz93QrSI"
+      "title": "[Monarctica] Is the New Yellow Kid Starter Deck Worth It?",
+      "url": "https://www.youtube.com/watch?v=t3p9FTSaOyw"
+    },
+    {
+      "title": "[Simom] SPIDER-MAN DIVENTA UN MANGA! I nuovi eroi Marvel in Giappone",
+      "url": "https://www.youtube.com/watch?v=Ss04T7zmmpI"
     },
     {
       "title": "[Kirio1984] NUOVI MANGA ANNUNCIATI IN ITALIA! Appleseed, Cobra, Grey e tante altre sorprese!",
       "url": "https://www.youtube.com/watch?v=9ztGPx76PAM"
     },
     {
-      "title": "[JobyFunko] new anime clothing i got! #anime #animeclothing #mangacollection #jobyfunko #fyp",
-      "url": "https://www.youtube.com/watch?v=UE-3-2x0Sx8"
-    },
-    {
       "title": "[Nerdando Insieme] 40°C FUORI, MANGA NUOVI DENTRO! 📚🥵 | unboxing manga super golosi. ",
       "url": "https://www.youtube.com/watch?v=wfrPBIqfy2I"
     },
     {
-      "title": "[Andrew Reiz] ​6 New Manga You NEED to Read Before They Get Popular",
-      "url": "https://www.youtube.com/watch?v=TVejL_AqYA8"
+      "title": "[JobyFunko] new anime clothing i got! #anime #animeclothing #mangacollection #jobyfunko #fyp",
+      "url": "https://www.youtube.com/watch?v=UE-3-2x0Sx8"
+    },
+    {
+      "title": "[AbsoluteDuelist!] New Crew Mangas And Baki Kaido!!! || OPTCG NEWS || #onepiece #optcg #onepiecetcg #op17 #altart",
+      "url": "https://www.youtube.com/watch?v=059Hr9CmuDI"
     },
     {
       "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA FUMETTERIA INIZIO AGOSTO 2026",
       "url": "https://www.youtube.com/watch?v=alAvrmFV1is"
-    },
-    {
-      "title": "[VEMAZZO] ACQUISTI MANGA AGGIORNAMENTO 7 AGOSTO 2026",
-      "url": "https://www.youtube.com/watch?v=IeXB-i84Xzw"
     }
   ]
 }
