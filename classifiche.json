@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-08-09T13:57:53.698762+00:00",
+  "updated_at": "2026-08-10T06:22:06.256035+00:00",
   "rankings": [
     {
       "ean": "9788850241910",
@@ -27,16 +27,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
+      "ean": "9788822766199",
+      "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822766199",
-      "title": "Il piccolo negozio dei tesori perduti",
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -67,8 +67,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 9,
       "category": "generale",
@@ -83,18 +83,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 11,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822786333",
-      "title": "L'eredità. The legacy. The campus series",
-      "author": "",
-      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
@@ -102,15 +94,15 @@
       "ean": "9788869800825",
       "title": "Il racconto dell'ancella",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788822786333",
+      "title": "L'eredità. The legacy. The campus series",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,13 +110,21 @@
       "ean": "9788804807278",
       "title": "Ci basterà mangiare il vento",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822756350",
       "title": "Il segreto della libraia di Parigi",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 16,
       "category": "generale",
@@ -139,16 +139,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788858333037",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858333037",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -347,18 +347,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
-      "author": "",
-      "position": 24,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822766199",
       "title": "Il piccolo negozio dei tesori perduti",
       "author": "",
-      "position": 25,
+      "position": 24,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -366,7 +358,23 @@
       "ean": "9788822783387",
       "title": "Lo sbaglio. The mistake",
       "author": "",
+      "position": 25,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
+      "author": "",
       "position": 26,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
+      "author": "",
+      "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -374,7 +382,7 @@
       "ean": "9788822783967",
       "title": "L'imprevisto. The goal",
       "author": "",
-      "position": 27,
+      "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -382,21 +390,13 @@
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
-      "position": 28,
+      "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788869800825",
       "title": "Il racconto dell'ancella",
-      "author": "",
-      "position": 29,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -699,18 +699,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834730423",
-      "title": "Alice nel paese delle meraviglie. Ediz. ...",
-      "author": "",
-      "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788867145065",
       "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
-      "position": 39,
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,21 +710,29 @@
       "ean": "9788829603473",
       "title": "Quel fiore è mio! Ediz. a colori",
       "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834730423",
+      "title": "Alice nel paese delle meraviglie. Ediz. ...",
+      "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788834740460",
-      "title": "Le avventure di Pinocchio. Ediz. integrale",
+      "ean": "9788847739857",
+      "title": "Il pesciolino d'oro. Ediz. a colori",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788834740460",
+      "title": "Le avventure di Pinocchio. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -963,16 +963,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
       "author": "",
       "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
+      "ean": "9788822762610",
+      "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
       "position": 30,
       "category": "fumetti",
@@ -1003,32 +1003,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788893366366",
-      "title": "Francis",
+      "ean": "9791221941234",
+      "title": "Berserk collection. Vol. 43",
       "author": "",
       "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788894953381",
-      "title": "Rwanda. I giorni dell'oblio",
+      "ean": "9791256211890",
+      "title": "Un polpo alla gola",
       "author": "",
       "position": 35,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221941234",
-      "title": "Berserk collection. Vol. 43",
+      "ean": "9782889753956",
+      "title": "Manga. Storie di yokai. Racconti di spir...",
       "author": "",
       "position": 36,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221948561",
-      "title": "Atelier of witch hat. Grimoire edition. ...",
+      "ean": "9788822633255",
+      "title": "Demon slayer. Kimetsu no yaiba. Vol. 20",
       "author": "",
       "position": 37,
       "category": "fumetti",
@@ -1107,10 +1107,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788801069877",
+      "title": "L'eresia di Francesco. Storia di un sant...",
+      "author": "",
+      "position": 10,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804477648",
       "title": "Tantra per due. Una guida per la felicit...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1118,7 +1126,7 @@
       "ean": "9788804515944",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1126,7 +1134,7 @@
       "ean": "9788804564003",
       "title": "La calma",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1134,7 +1142,7 @@
       "ean": "9788804579939",
       "title": "Rifondazione della fede",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1142,21 +1150,13 @@
       "ean": "9788804586531",
       "title": "Il dito e la luna. Racconti zen, haiku, ...",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804589105",
       "title": "L'arte della felicità",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804648246",
-      "title": "In amore vince chi ama",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1355,16 +1355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788829706914",
-      "title": "Demoni, mostri e prodigi. L'irrazionale ...",
+      "ean": "9788830900707",
+      "title": "Amo i ragazzi cattivi",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788860996596",
-      "title": "Coscienza, conoscenza e informazione qua...",
+      "ean": "9788829706914",
+      "title": "Demoni, mostri e prodigi. L'irrazionale ...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -5489,124 +5489,14 @@
   ],
   "manga_trends": [
     {
-      "title": "Gli animatori Keniichi Ichikawa e Noriyo Sasaki ospiti al San Donà Fumetto a ottobre",
+      "title": "Onimusha: Way of the Sword- Lo abbiamo provato ed è decisamente interessante",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111401-gli-animatori-keniichi-ichikawa-e-noriyo-sasaki-ospiti-al-san-dona-fumetto-in-occasione-del-40esimo-de-i-cavalieri-dello-zodiaco"
+      "url": "https://www.animeclick.it/news/111309-onimusha-way-of-the-sword-la-nostra-anteprima"
     },
     {
-      "title": "Ordina 24 milioni di euro in gadget anime per \"alleviare lo stress\": arrestata 32enne in Giappone",
+      "title": "Crunchyroll: arriva il nuovo film di That Time I Got Reincarnated as a Slime, e altre novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111429-ordina-24-milioni-di-euro-in-gadget-anime-per-alleviare-lo-stress-arrestata-32enne-in-giappone"
-    },
-    {
-      "title": "Beast of ReincarnationLa Recensione: un mondo in rovina che fa fatica a rifiorire",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111431-beast-of-reincarnation-la-recensione-un-mondo-in-rovina-che-fa-fatica-a-rifiorire"
-    },
-    {
-      "title": "Japan Expo 2026: intervista agli autori di Akane-Banashi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111361-japan-expo-2026-intervista-agli-autori-di-akane-banashi"
-    },
-    {
-      "title": "Firefly Wedding: novità e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111278-firefly-wedding-novita-e-data-di-debutto-per-lanime"
-    },
-    {
-      "title": "A.O.T. 3: il capitolo conclusivo della saga videoludica arriva il 10 dicembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111393-aot-3-il-capitolo-conclusivo-della-saga-videoludica-arriva-il-10-dicembre-2026"
-    },
-    {
-      "title": "Wuchang Fallen Feathers: il criticato soulslike cinese avrà un seguito",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111347-wuchang-fallen-feathers-il-criticato-soulslike-cinese-avra-un-seguito"
-    },
-    {
-      "title": "Sony ribadisce: il futuro è digitale e giocare su PlayStation continuerà ad essere conveniente",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111405-sony-ribadisce-il-futuro-e-digitale-e-giocare-su-playstation-continuera-ad-essere-conveniente"
-    },
-    {
-      "title": "The Promised Neverland: in arrivo a fine agosto il nuovo capitolo one-shot",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111430-the-promised-neverland-in-arrivo-a-fine-agosto-il-nuovo-capitolo-one-shot"
-    },
-    {
-      "title": "Splatoon Raiders- Recensione della brillante escursione PvE del franchise",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111346-splatoon-raiders-recensione-della-brillante-escursione-pve-del-franchise"
-    },
-    {
-      "title": "Just Like Mona Lisa: trailer e staff per la serie queer animata da SHAFT",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111369-just-like-mona-lisa-trailer-e-staff-per-la-serie-queer-animata-da-shaft"
-    },
-    {
-      "title": "Halo Campaign Evolved: Halo Studios colpita dai licenziamenti dopo il lancio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111420-halo-campaign-evolved-halo-studios-colpita-dai-licenziamenti-dopo-il-lancio"
-    },
-    {
-      "title": "Dungeons & Dragons presenta World of Warcraft e Star Wars: tutti gli annunci della Gen Con 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111371-dungeons-dragons-presenta-world-of-warcraft-e-star-wars-tutti-gli-annunci-della-gen-con-2026"
-    },
-    {
-      "title": "I primi 85 episodi di Detective Conan da oggi su Prime Video per un periodo limitato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111362-i-primi-85-episodi-di-detective-conan-da-oggi-su-prime-video-per-un-periodo-limitato"
-    },
-    {
-      "title": "Weekly Shonen Jump per la prima volta sotto il milione di copie: la fine di un'era per il manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111417-jump"
-    },
-    {
-      "title": "GTA 6: Netflix mostrerà in esclusiva un nuovo trailer esteso del gioco",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111422-gta-6-netflix-mostrera-in-esclusiva-un-nuovo-trailer-esteso-del-gioco"
-    },
-    {
-      "title": "Laputa: 40 anni fa Miyazaki cercò di riportare l'animazione ai bambini",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/109100-laputa-40-anni-fa-miyazaki-cerco-di-riportare-lanimazione-ai-bambini"
-    },
-    {
-      "title": "Black Clover: pubblicato uno speciale trailer per celebrare l'uscita del volume finale del manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111412-black-clover-pubblicato-uno-speciale-trailer-per-celebrare-luscita-del-volume-finale-del-manga"
-    },
-    {
-      "title": "Toei Animation festeggia il suo 70° anniversario: presentati video e logo celebrativi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111358-toei-animation-festeggia-il-suo-70%25c2%25b0-anniversario-presentati-video-e-logo-celebrativi"
-    },
-    {
-      "title": "Xbox punta al rilancio entro il 2027: console, grandi franchise e Minecraft al centro del piano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111359-xbox-punta-al-rilancio-entro-il-2027-console-grandi-franchise-e-minecraft-al-centro-del-piano"
-    },
-    {
-      "title": "Fairy Tail compie 20 anni e Hiro Mashima torna a disegnare la serie che gli ha cambiato la vita",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111394-fairy-tail-compie-20-anni-e-hiro-mashima-torna-a-disegnare-la-serie-che-gli-ha-cambiato-la-vita"
-    },
-    {
-      "title": "Parla con Ryza e crea la tua storia: RyzaChat porta l'IA conversazionale nell'universo di Atelier",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111407-parla-con-ryza-e-crea-la-tua-storia-ryzachat-porta-lia-conversazionale-nelluniverso-di-atelier"
-    },
-    {
-      "title": "Addio al leggendario designer Katsushi Murakami, il padre della linea Chogokin e di tanti robot",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111406-addio-al-leggendario-designer-katsushi-murakami-il-padre-della-linea-chogokin-e-di-tanti-robot"
-    },
-    {
-      "title": "Yamato Video: Kun il divoratore del creato in arrivo su Anime Generation anche doppiato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111413-yamato-video-kun-il-divoratore-del-creato-in-arrivo-su-anime-generation-anche-doppiato"
+      "url": "https://www.animeclick.it/news/111370-crunchyroll-arriva-il-nuovo-film-di-that-time-i-got-reincarnated-as-a-slime-e-altre-novita"
     },
     {
       "title": "Xbox Game Pass: i giochi confermati in arrivo ad agosto 2026",
@@ -5614,14 +5504,29 @@
       "url": "https://www.animeclick.it/news/111377-xbox-game-pass-i-giochi-confermati-in-arrivo-ad-agosto-2026"
     },
     {
-      "title": "Voci clonate dall'IA: la seiyu di Shinji chiede regole urgenti al governo giapponese",
+      "title": "Eventi e fiere di agosto 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111353-voci-clonate-dallia-la-seiyu-di-shinji-chiede-regole-urgenti-al-governo-giapponese"
+      "url": "https://www.animeclick.it/news/111344-eventi-e-fiere-di-agosto-2026"
     },
     {
-      "title": "Lupin III: finalmente in edicola le miniature esclusive dedicata al celebre ladro gentiluomo",
+      "title": "Daiki Tomiyasu, regista di Pokémon e Inazuma Eleven, ospite alla Milan Games Week & Cartoomics 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111434-lupin-iii-finalmente-in-edicola-le-miniature-esclusive-dedicata-al-celebre-ladro-gentiluomo"
+      "url": "https://www.animeclick.it/news/111390-daiki-tomiyasu-regista-di-pokemon-e-inazuma-eleven-ospite-alla-milan-games-week-cartoomics-2026"
+    },
+    {
+      "title": "Dance in the Vampire Bund e Block Blockade Battlefront: informazioni sui doppiaggi di Dynit",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111351-dance-in-the-vampire-bund-e-block-blockade-battlefront-informazioni-sui-doppiaggi-di-dynit"
+    },
+    {
+      "title": "Sony ribadisce: il futuro è digitale e giocare su PlayStation continuerà ad essere conveniente",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111405-sony-ribadisce-il-futuro-e-digitale-e-giocare-su-playstation-continuera-ad-essere-conveniente"
+    },
+    {
+      "title": "The Dangers in My Heart e Kemono Jihen: si concludono i due manga editi in Italia da J-POP",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111402-the-dangers-in-my-heart-e-kemono-jihen-si-concludono-i-due-manga-editi-in-italia-da-j-pop"
     },
     {
       "title": "Top Sakuga: le migliori animazioni del mese di luglio",
@@ -5629,14 +5534,109 @@
       "url": "https://www.animeclick.it/news/111112-top-sakuga-le-migliori-animazioni-del-mese-di-luglio"
     },
     {
-      "title": "Re:ZERO: trailer per il nuovo arco narrativo della quarta stagione",
+      "title": "Shueisha lancia a livello globale la piattaforma digitale Manga Million in 100 lingue diverse",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111418-rezero-trailer-per-il-nuovo-arco-narrativo-della-quarta-stagione"
+      "url": "https://www.animeclick.it/news/111419-shueisha-lancia-a-livello-globale-la-piattaforma-digitale-manga-million-in-100-lingue-diverse"
     },
     {
       "title": "Da potenziale gacha a successo single player: ecco DragonSword Awakening",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111397-da-potenziale-gacha-a-successo-single-player-ecco-dragonsword-awakening"
+    },
+    {
+      "title": "Xbox punta al rilancio entro il 2027: console, grandi franchise e Minecraft al centro del piano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111359-xbox-punta-al-rilancio-entro-il-2027-console-grandi-franchise-e-minecraft-al-centro-del-piano"
+    },
+    {
+      "title": "Laputa: 40 anni fa Miyazaki cercò di riportare l'animazione ai bambini",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/109100-laputa-40-anni-fa-miyazaki-cerco-di-riportare-lanimazione-ai-bambini"
+    },
+    {
+      "title": "Gundam Seed e Gundam Seed Destiny arrivano su Youtube sottotitolati in italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111380-gundam-seed-e-gundam-seed-destiny-arrivano-su-youtube-sottotitolati-in-italiano"
+    },
+    {
+      "title": "Japan Expo 2026: intervista agli autori di Akane-Banashi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111361-japan-expo-2026-intervista-agli-autori-di-akane-banashi"
+    },
+    {
+      "title": "Magical Explorer: trailer e visual per l'harem isekai",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111364-magical-explorer-trailer-e-visual-per-l-harem-isekai"
+    },
+    {
+      "title": "Toei Animation festeggia il suo 70° anniversario: presentati video e logo celebrativi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111358-toei-animation-festeggia-il-suo-70%25c2%25b0-anniversario-presentati-video-e-logo-celebrativi"
+    },
+    {
+      "title": "Splatoon Raiders- Recensione della brillante escursione PvE del franchise",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111346-splatoon-raiders-recensione-della-brillante-escursione-pve-del-franchise"
+    },
+    {
+      "title": "Gli animatori Keniichi Ichikawa e Noriyo Sasaki ospiti al San Donà Fumetto a ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111401-gli-animatori-keniichi-ichikawa-e-noriyo-sasaki-ospiti-al-san-dona-fumetto-in-occasione-del-40esimo-de-i-cavalieri-dello-zodiaco"
+    },
+    {
+      "title": "Magic Press: le uscite di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111368-magic-press-le-uscite-di-agosto-2026"
+    },
+    {
+      "title": "GTA 6: Netflix mostrerà in esclusiva un nuovo trailer esteso del gioco",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111422-gta-6-netflix-mostrera-in-esclusiva-un-nuovo-trailer-esteso-del-gioco"
+    },
+    {
+      "title": "I primi 85 episodi di Detective Conan da oggi su Prime Video per un periodo limitato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111362-i-primi-85-episodi-di-detective-conan-da-oggi-su-prime-video-per-un-periodo-limitato"
+    },
+    {
+      "title": "Dungeons & Dragons presenta World of Warcraft e Star Wars: tutti gli annunci della Gen Con 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111371-dungeons-dragons-presenta-world-of-warcraft-e-star-wars-tutti-gli-annunci-della-gen-con-2026"
+    },
+    {
+      "title": "Lupin III: finalmente in edicola le miniature esclusive dedicate al celebre ladro gentiluomo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111434-lupin-iii-finalmente-in-edicola-le-miniature-esclusive-dedicata-al-celebre-ladro-gentiluomo"
+    },
+    {
+      "title": "Re:ZERO: trailer per il nuovo arco narrativo della quarta stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111418-rezero-trailer-per-il-nuovo-arco-narrativo-della-quarta-stagione"
+    },
+    {
+      "title": "Giappone: calo demografico record ma aumentano gli stranieri residenti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111363-giappone-calo-demografico-record-ma-aumentano-gli-stranieri-residenti"
+    },
+    {
+      "title": "Firefly Wedding: novità e data di debutto per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111278-firefly-wedding-novita-e-data-di-debutto-per-lanime"
+    },
+    {
+      "title": "Chainsmoker Cat: l'anime della gatta fumatrice a rischio censura in Giappone",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111433-chainsmoker-cat-lanime-della-gatta-fumatrice-a-rischio-censura-in-giappone"
+    },
+    {
+      "title": "Anime Preview: annunci per Demon Slave 3, Reincarnated in a Mafia Dating Sim e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111389-anime-preview-annunci-per-demon-slave-3-reincarnated-in-a-mafia-dating-sim-e-molto-altro"
+    },
+    {
+      "title": "Baby Beard porta il \"Maximum Kawaii Chaos\" in Italia: due tappe per la band kawaii-metal",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111428-baby-beard-porta-il-maximum-kawaii-chaos-in-italia-due-tappe-per-la-band-kawaii-metal"
     }
   ],
   "youtube_trends": [
@@ -5649,16 +5649,20 @@
       "url": "https://www.youtube.com/watch?v=bFLFpyRQooA"
     },
     {
+      "title": "[Jade Nives (autrice)] #bibliomanzia #booktok #booktokitalia #viral #wattpad #books #bookish #bookworm #perte #neiperte",
+      "url": "https://www.youtube.com/watch?v=ZPHqHWd4PJ8"
+    },
+    {
+      "title": "[Jade Nives (autrice)] #bibliomanzia #booktok #booktokitalia #viral #wattpad #books #bookish #bookworm #perte #neiperte",
+      "url": "https://www.youtube.com/watch?v=p7wcyRxcRm0"
+    },
+    {
       "title": "[Attraversalibri] 📚💜 #authortube #booktok #autriciitaliane #selfpublishedbook #fibromialgia #writingcommunity",
       "url": "https://www.youtube.com/watch?v=4VSvuyUgavM"
     },
     {
       "title": "[dark history boy] #dark #history #lifeisbutadream #booktok",
       "url": "https://www.youtube.com/watch?v=qMXKNqa8AVM"
-    },
-    {
-      "title": "[Storyline Studio] #books #booktube #booktok #bookrecs #literature #bookworm #reading #italianliterature #libros",
-      "url": "https://www.youtube.com/watch?v=HsGg9pbSIEA"
     },
     {
       "title": "[TheReadingCorner] Books I brought to Italy xx #booktok #booktube #bookstagram #booklover",
@@ -5671,10 +5675,6 @@
     {
       "title": "[Ale_Books12] 🤍#wattpaditalia #storiewattpaditalia #consigliostorie  #booktokitalia  #perte",
       "url": "https://www.youtube.com/watch?v=LM1iGbisxaw"
-    },
-    {
-      "title": "[Jade Nives (autrice)] #bibliomanzia #booktok #booktokitalia #viral #wattpad #books #bookish #bookworm #perte #neiperte",
-      "url": "https://www.youtube.com/watch?v=p7wcyRxcRm0"
     },
     {
       "title": "[Byakuro Stories] POV: Always, for you #booktok #pov #asmr (ITA/ENG)",
@@ -5701,36 +5701,44 @@
       "url": "https://www.youtube.com/watch?v=AfcgRzVfCtk"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem Roku #comic #review #superhero",
-      "url": "https://www.youtube.com/watch?v=wGYdlclLUR0"
-    },
-    {
-      "title": "[KnightLineReacts ] KING IN BLACK REVIEW #trending #viral #fyp #comics #marvel",
-      "url": "https://www.youtube.com/watch?v=w28xZ92cls4"
-    },
-    {
       "title": "[Il mondo di Chri] MIRA #amici #amore #tormenti Fumetto a colori per bambini",
       "url": "https://www.youtube.com/watch?v=CLOBwRhtLug"
     },
     {
-      "title": "[Comics From The Multiverse] The Phantom Stranger #18 | New 52 Comic Book Review",
-      "url": "https://www.youtube.com/watch?v=SneZvYu-mqo"
+      "title": "[The Comic Patrol] JSA 22 Review #comicbooks #dccomics #jsa #thespectre #justicesocietyofamerica",
+      "url": "https://www.youtube.com/watch?v=-FIh8Kigkdo"
     },
     {
       "title": "[smerdp] The Uncanny X-Men Issue #32 Comic Book Review! by Gail Simone | Shadows of Tomorrow!",
       "url": "https://www.youtube.com/watch?v=eoILRhfTeZs"
     },
     {
+      "title": "[Collectin & Connectin Network - Collectors Welcome] Ballin Till 2am - Comic Edition - Spiderman: Brand New Day Review (**WITH SPOILERS**)",
+      "url": "https://www.youtube.com/watch?v=S9rAkWDo4c8"
+    },
+    {
+      "title": "[Narvali nerd] GHOST CAT ANZU #anime#giappone#japan#cartone#cartoni#cartoneanimato#cartonianimati#manga#recensione",
+      "url": "https://www.youtube.com/watch?v=Mu_V_kBhxPE"
+    },
+    {
+      "title": "[Shrimpy] I Created My Own MANGA in 30 DAYS... 👀🎨(Chapter 2)",
+      "url": "https://www.youtube.com/watch?v=kszwNR_I42s"
+    },
+    {
       "title": "[RomCom Manga Lab] My ex looked down on my daughter at her new school [Manga Dub]",
       "url": "https://www.youtube.com/watch?v=RUcAHGgxZVk"
     },
     {
-      "title": "[Monarctica] Is the New Yellow Kid Starter Deck Worth It?",
-      "url": "https://www.youtube.com/watch?v=t3p9FTSaOyw"
+      "title": "[Ayasaki-san] [Manga Dub] She was writing a manga about me...!? [RomCom]",
+      "url": "https://www.youtube.com/watch?v=e1sXRARqUEI"
     },
     {
       "title": "[Simom] SPIDER-MAN DIVENTA UN MANGA! I nuovi eroi Marvel in Giappone",
       "url": "https://www.youtube.com/watch?v=Ss04T7zmmpI"
+    },
+    {
+      "title": "[Monarctica] Is the New Yellow Kid Starter Deck Worth It?",
+      "url": "https://www.youtube.com/watch?v=t3p9FTSaOyw"
     },
     {
       "title": "[Ani Amanda] After Rebirth, I Didn&#39;t Follow Him to the Countryside for His First Love—I Took the City Job Instead",
@@ -5745,20 +5753,12 @@
       "url": "https://www.youtube.com/watch?v=wfrPBIqfy2I"
     },
     {
+      "title": "[Fanfare Kzoo] New Comics [8/5/2026]",
+      "url": "https://www.youtube.com/watch?v=26W-7gQRH_k"
+    },
+    {
       "title": "[Mas] The NEW Fairy Tail Manga is BACK!! #fairytail #fairytailanime #manga",
       "url": "https://www.youtube.com/watch?v=NXFB13ebm5Q"
-    },
-    {
-      "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA FUMETTERIA INIZIO AGOSTO 2026",
-      "url": "https://www.youtube.com/watch?v=alAvrmFV1is"
-    },
-    {
-      "title": "[AbsoluteDuelist!] New Crew Mangas And Baki Kaido!!! || OPTCG NEWS || #onepiece #optcg #onepiecetcg #op17 #altart",
-      "url": "https://www.youtube.com/watch?v=059Hr9CmuDI"
-    },
-    {
-      "title": "[Andrew Reiz] ​6 New Manga You NEED to Read Before They Get Popular",
-      "url": "https://www.youtube.com/watch?v=TVejL_AqYA8"
     }
   ]
 }
