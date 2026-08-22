@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-08-22T05:40:31.888870+00:00",
+  "updated_at": "2026-08-22T13:43:57.333304+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -19,16 +19,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 4,
       "category": "generale",
@@ -51,18 +51,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831743006",
-      "title": "Odissea",
-      "author": "",
-      "position": 7,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
-      "position": 8,
+      "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
@@ -70,15 +62,15 @@
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788804807278",
-      "title": "Ci basterà mangiare il vento",
+      "ean": "9788831743006",
+      "title": "Odissea",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,7 +78,7 @@
       "ean": "9788869800719",
       "title": "Domani, domani",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,21 +86,29 @@
       "ean": "9788869800825",
       "title": "Il racconto dell'ancella",
       "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
+      "author": "",
       "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788804807278",
+      "title": "Ci basterà mangiare il vento",
       "author": "",
       "position": 14,
       "category": "generale",
@@ -123,26 +123,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783967",
-      "title": "L'imprevisto. The goal",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
       "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
-      "author": "",
-      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,13 +142,21 @@
       "ean": "9788822783387",
       "title": "Lo sbaglio. The mistake",
       "author": "",
-      "position": 19,
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788863114201",
       "title": "Uno, nessuno e centomila. Ediz. integrale",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -339,16 +339,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 23,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 24,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804807278",
-      "title": "Ci basterà mangiare il vento",
+      "ean": "9788822783967",
+      "title": "L'imprevisto. The goal",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -659,16 +659,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788867908325",
+      "title": "Pera Toons. Diario scolastico 2026-2027",
       "author": "",
       "position": 33,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867908325",
-      "title": "Pera Toons. Diario scolastico 2026-2027",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
@@ -691,16 +691,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788862464291",
-      "title": "Mamma, dove vai quando non sei con me? E...",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
+      "ean": "9788862464291",
+      "title": "Mamma, dove vai quando non sei con me? E...",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854050631",
-      "title": "Frida Kahlo e la sua vita a colori. I mi...",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -811,10 +811,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804721437",
+      "title": "Noi siamo i cavalieri dello Zodiaco. Vol. 2",
+      "author": "",
+      "position": 10,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -822,7 +830,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -830,7 +838,7 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -838,7 +846,7 @@
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -846,21 +854,13 @@
       "ean": "9788804767091",
       "title": "The Heartstopper yearbook",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788806154950",
       "title": "MAUS",
-      "author": "",
-      "position": 15,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806156299",
-      "title": "Olimpo Spa",
       "author": "",
       "position": 16,
       "category": "fumetti",
@@ -979,18 +979,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
+      "ean": "9791221934892",
+      "title": "Blu. Spider-Man",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221934892",
-      "title": "Blu. Spider-Man",
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
       "author": "",
       "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221942699",
+      "title": "La storia della mia vita. Spider-Man",
+      "author": "",
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,21 +1006,13 @@
       "ean": "9791221921250",
       "title": "Jujutsu Kaisen. Vol. 27: Baka survivor!",
       "author": "",
-      "position": 33,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788896275757",
       "title": "Dante. La Divina Commedia a fumetti",
-      "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221942699",
-      "title": "La storia della mia vita. Spider-Man",
       "author": "",
       "position": 35,
       "category": "fumetti",
@@ -1035,8 +1035,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828728634",
-      "title": "Boruto. Naruto next generations. Vol. 18",
+      "ean": "9788828774518",
+      "title": "Death note. Vol. 7",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1307,32 +1307,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9791257490355",
+      "title": "Saggi sull’esoterismo islamico e sul tao...",
       "author": "",
       "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791257490355",
-      "title": "Saggi sull’esoterismo islamico e sul tao...",
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788858155325",
-      "title": "San Francesco",
+      "ean": "9788804745440",
+      "title": "Profondo come il mare, leggero come il c...",
       "author": "",
       "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804745440",
-      "title": "Profondo come il mare, leggero come il c...",
+      "ean": "9788858155325",
+      "title": "San Francesco",
       "author": "",
       "position": 37,
       "category": "religione",
@@ -1347,24 +1347,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788892251717",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788868983567",
-      "title": "L' umanità di Dio. L'attualità del messa...",
+      "ean": "9788833320540",
+      "title": "Vivere l'autobiografia di uno yogi. 108 ...",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791280340962",
-      "title": "Il cuore dell'insegnamento del Buddha. T...",
+      "ean": "9788831559218",
+      "title": "Esposizione della predicazione apostolic...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -5341,19 +5341,19 @@
   ],
   "manga_trends": [
     {
-      "title": "Fool Night: trailer per l'anime in uscita a novembre su Netflix",
+      "title": "Crunchyroll e Sony Pictures distribuiranno il nuovo film di Makoto Shinkai",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111534-fool-night-trailer-per-lanime-in-uscita-a-novembre-su-netflix"
+      "url": "https://www.animeclick.it/news/111466-crunchyroll-e-sony-picture-distribuiranno-il-nuovo-film-di-makoto-shinkai"
     },
     {
-      "title": "Un bundle di giochi indie da 127 titoli raccoglie oltre 100.000 dollari in tre giorni per gli sviluppatori licenziati",
+      "title": "Fortnite: la nuova stagione celebra le leggende dei videogiochi",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111443-un-bundle-di-giochi-indie-da-127-titoli-raccoglie-oltre-100000-dollari-in-tre-giorni-per-gli-sviluppatori-licenziati"
+      "url": "https://www.animeclick.it/news/111525-fortnite-la-nuova-stagione-celebra-le-leggende-dei-videogiochi"
     },
     {
-      "title": "Joe Hisaishi: il compositore dei film dello Studio Ghibli ottiene tre Guinness World Record",
+      "title": "Skip & Loafer: trailer e data di debutto della seconda stagione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111520-joe-hisaishi-il-compositore-dei-film-dello-studio-ghibli-ottiene-tre-guinness-world-record"
+      "url": "https://www.animeclick.it/news/111483-skip-loafer-trailer-e-data-di-debutto-della-seconda-stagione"
     },
     {
       "title": "Oshi no Ko: nuova key visual per la quarta stagione",
@@ -5361,79 +5361,24 @@
       "url": "https://www.animeclick.it/news/111489-oshi-no-ko-nuova-key-visual-per-la-quarta-stagione"
     },
     {
-      "title": "Indonesia: sempre più giovani danno ai figli nomi di personaggi di anime e manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111472-indonesia-sempre-piu-giovani-danno-ai-figli-nomi-di-personaggi-di-anime-e-manga"
-    },
-    {
-      "title": "Aniimo: annunciata la data di uscita del peculiare monster collector",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111467-aniimo-annunciata-la-data-di-uscita-del-peculiare-monster-collector"
-    },
-    {
-      "title": "Kingdom Hearts: il panel al D23 rivela molti retroscena e novità sulla serie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111492-kingdom-hearts-il-panel-al-d23-rivela-molti-retroscena-e-novita-sulla-serie"
-    },
-    {
-      "title": "Electronic Arts: completata la privatizzazione al fondo saudita PIF",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111421-electronic-arts-completata-la-privatizzazione-al-fondo-saudita-pif"
-    },
-    {
-      "title": "Il monologo della speziale: trailer per la terza stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111479-il-monologo-della-speziale-trailer-per-la-terza-stagione"
-    },
-    {
-      "title": "Il futuro dello Studio Ghibli: film in lavorazione, uso dell'IA e prossimi progetti dello Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111515-il-futuro-dello-studio-ghibli-film-in-lavorazione-uso-dellia-e-prossimi-progetti-dello-studio"
-    },
-    {
       "title": "TCP - Super riassunto della lore di Magic: the Gathering Parte 1",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111458-tcp-super-riassunto-della-lore-di-magic-the-gathering-parte-1"
     },
     {
-      "title": "Top 100 fumetti più venduti in Italia a giugno 2026",
+      "title": "One Piece x SpongeBob: annunciato l'Happy Meal di McDonald's in arrivo anche in Italia",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111403-top-100-fumetti-piu-venduti-in-italia-a-giugno-2026"
+      "url": "https://www.animeclick.it/news/111475-one-piece-x-spongebob-annunciato-lhappy-meal-di-mcdonalds-in-arrivo-anche-in-italia"
     },
     {
-      "title": "Haikyu!!: novità e trailer per il nuovo film e lo speciale Where Monsters Go",
+      "title": "Ghost of Yotei: arriva l'edizione completa con tanti nuovi contenuti",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111519-haikyu-novita-e-trailer-per-il-nuovo-film-e-lo-speciale-where-monsters-go"
+      "url": "https://www.animeclick.it/news/111465-ghost-of-yotei-arriva-ledizione-completa-con-tanti-nuovi-contenuti"
     },
     {
-      "title": "Dark Machine: nuovo trailer per l'anime in arrivo a ottobre",
+      "title": "Persona 4 Revival: un nuovo trailer presenta le novità",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111516-dark-machine-nuovo-trailer-per-anime-in-arrivo-a-ottobre"
-    },
-    {
-      "title": "Scandalo Shogakukan: il rapporto dell'indagine esterna fa luce sulle responsabilità della casa editrice",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111494-scandalo-shogakukan-il-rapporto-dellindagine-esterna-fa-luce-sulle-responsabilita-della-casa-editrice"
-    },
-    {
-      "title": "Pillole di manga #57: finisce WataNare (o no?) e torna To-LoveRu",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111497-pillole-di-manga-57-finisce-watanare-o-no-e-torna-to-loveru"
-    },
-    {
-      "title": "Lutto nel mondo manga: Yōko Umezu, autrice di Vermeil in Gold, muore per un ictus",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111468-lutto-nel-mondo-manga-yoko-umezu-autrice-di-vermeil-in-gold-muore-per-un-ictus"
-    },
-    {
-      "title": "Yamato Video: Blades of the Guardians in arrivo su Anime Generation anche doppiato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111535-yamato-video-blades-of-the-guardians-in-arrivo-su-anime-generation-anche-doppiato"
-    },
-    {
-      "title": "La cantante Ado dona 40 milioni di yen per le aree colpite dal terremoto di Kumamoto",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111469-la-cantante-ado-dona-40-milioni-di-yen-per-le-aree-colpite-dal-terremoto-di-kumamoto"
+      "url": "https://www.animeclick.it/news/111461-persona-4-revival-un-nuovo-trailer-presenta-le-novita"
     },
     {
       "title": "Mistfall Hunter- Recensione di un extraction game che prova davvero a dire la sua",
@@ -5441,14 +5386,49 @@
       "url": "https://www.animeclick.it/news/111453-mistfall-hunter-recensione-di-un-extraction-game-che-prova-davvero-a-dire-la-sua"
     },
     {
-      "title": "Black Myth Zhong Kui: pubblicati a sorpresa 15 minuti di gameplay",
+      "title": "The Seven Knights of the Marronnier Kingdom: svelati trailer, poster e cast dell'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111522-black-myth-zhong-kui-pubblicati-a-sorpresa-15-minuti-di-gameplay"
+      "url": "https://www.animeclick.it/news/111447-the-seven-knights-of-the-marronnier-kingdom-svelati-trailer-poster-e-cast-dellanime"
     },
     {
-      "title": "Massimo Stano celebra il suo titolo europeo nella marcia con un omaggio a One Piece",
+      "title": "Halo: Campaign Evolved non decolla: i dati di vendita svelano un lancio sottotono.",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111485-massimo-stano-campione-europeo-celebrando-one-piece"
+      "url": "https://www.animeclick.it/news/111484-halo-campaign-evolved-non-decolla-i-dati-di-vendita-svelano-un-lancio-sottotono"
+    },
+    {
+      "title": "Rumiko Takahashi e Junji Ito: due mondi diversi a confronto davanti a una tazza di tè",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111452-rumiko-takahashi-e-junji-ito-due-mondi-diversi-a-confronto-davanti-a-una-tazza-di-te"
+    },
+    {
+      "title": "Il futuro dello Studio Ghibli: film in lavorazione, uso dell'IA e prossimi progetti dello Studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111515-il-futuro-dello-studio-ghibli-film-in-lavorazione-uso-dellia-e-prossimi-progetti-dello-studio"
+    },
+    {
+      "title": "Joe Hisaishi: il compositore dei film dello Studio Ghibli ottiene tre Guinness World Record",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111520-joe-hisaishi-il-compositore-dei-film-dello-studio-ghibli-ottiene-tre-guinness-world-record"
+    },
+    {
+      "title": "Anime Preview: novità per Tenkaichi e altre serie",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111481-anime-preview-novita-per-tenkaichi-e-altre-serie"
+    },
+    {
+      "title": "Nintendo Switch 2 a tema Zelda: spuntano i leak di una presunta edizione 40° anniversario",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111462-nintendo-switch-2-a-tema-zelda-spuntano-i-leak-di-una-presunta-edizione-40esimo-anniversario"
+    },
+    {
+      "title": "Though I am an Inept Villainess: informazioni sul doppiaggio italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111527-though-i-am-an-inept-villainess-informazioni-sul-doppiaggio-italiano"
+    },
+    {
+      "title": "Trails in the Sky 2nd Chapter: disponibile la demo del remake Falcom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111523-trails-in-the-sky-2nd-chapter-disponibile-la-demo-del-remake-falcom"
     },
     {
       "title": "Gosho Aoyama ha già delineato il finale del manga Detective Conan",
@@ -5456,29 +5436,9 @@
       "url": "https://www.animeclick.it/news/111493-gosho-aoyama-ha-gia-delineato-il-finale-del-manga-detective-conan"
     },
     {
-      "title": "Tank Chair: nuovi membri del cast e data di debutto per l'anime",
+      "title": "Massimo Stano celebra il suo titolo europeo nella marcia con un omaggio a One Piece",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111471-tank-chair-nuovi-membri-del-cast-e-data-di-debutto-per-l-anime"
-    },
-    {
-      "title": "The Elder Scrolls VI: Asha Sharma lo ha visto e lo riempie di elogi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111460-the-elder-scrolls-vi-asha-sharma-lo-ha-visto-e-lo-riempie-di-elogi"
-    },
-    {
-      "title": "Mushoku Tensei III: trailer per il nuovo arco narrativo, e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111454-mushoku-tensei-iii-trailer-per-il-nuovo-arco-narrativo-e-altre-novita"
-    },
-    {
-      "title": "Box Office Giappone: il film di Chiikawa torna primo, fa il suo ingresso Blue Lock",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111463-box-office-giappone-il-film-di-chiikawa-torna-primo-fa-il-suo-ingresso-blue-lock"
-    },
-    {
-      "title": "Cyberpunk: Edgerunners 2 - Nuovo trailer per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111533-cyberpunk-edgerunners-2-nuovo-trailer-per-lanime"
+      "url": "https://www.animeclick.it/news/111485-massimo-stano-campione-europeo-celebrando-one-piece"
     },
     {
       "title": "Magic the Gathering X Lo Hobbit - Prodotti e contenuti dell'espansione di Tolkien",
@@ -5486,16 +5446,52 @@
       "url": "https://www.animeclick.it/news/111488-magic-the-gathering-x-lo-hobbit-prodotti-e-contenuti-dell-espansione-di-tolkien"
     },
     {
-      "title": "Though I am an Inept Villainess: informazioni sul doppiaggio italiano",
+      "title": "Top 100 fumetti più venduti in Italia a giugno 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111527-though-i-am-an-inept-villainess-informazioni-sul-doppiaggio-italiano"
+      "url": "https://www.animeclick.it/news/111403-top-100-fumetti-piu-venduti-in-italia-a-giugno-2026"
+    },
+    {
+      "title": "Link Click 3: nuovo trailer per la nuova stagione del donghua sovrannaturale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111456-link-click-3-nuovo-trailer-per-la-nuova-stagione-del-donghua-sovrannaturale"
+    },
+    {
+      "title": "Yamato Video: Blades of the Guardians in arrivo su Anime Generation anche doppiato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111535-yamato-video-blades-of-the-guardians-in-arrivo-su-anime-generation-anche-doppiato"
+    },
+    {
+      "title": "Myther: il manga di Teki Yatsuda si avvia alla conclusione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111440-myther-il-manga-di-teki-yatsuda-si-avvia-alla-conclusione"
+    },
+    {
+      "title": "Phantom Blade Zero: lo stiloso soulslike cinese scopre le sue carte nello State of Play dedicato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111510-phantom-blade-0-lo-stiloso-soulslike-cinese-scopre-le-sue-carte-nello-state-of-play-dedicato"
+    },
+    {
+      "title": "Non solo anime speciale D23: molte le novità Disney da Gli Incredibili 3 a Kingdom Hearts fino a Star Wars",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111480-non-solo-anime-speciale-d23-molte-le-novita-disney-da-gli-incredibili-3-a-kingdom-hearts-fino-a-star-wars"
+    },
+    {
+      "title": "Grand Theft Auto in portabilità: la saga criminale da Advance a Chinatown Wars - PARTE 1",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111486-grand-theft-auto-in-portabilita-la-saga-criminale-da-advance-a-chinatown-wars"
+    },
+    {
+      "title": "Dark Machine: nuovo trailer per l'anime in arrivo a ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111516-dark-machine-nuovo-trailer-per-anime-in-arrivo-a-ottobre"
+    },
+    {
+      "title": "Anime Factory: le novità home video di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111411-anime-factory-le-novita-home-video-di-luglio-2026"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[Jade Nives (autrice)] #bibliomanzia #booktok #booktokitalia #viral #wattpad #books #bookish #bookworm #perte #neiperte",
-      "url": "https://www.youtube.com/watch?v=p9m4FCQ-WhM"
-    },
     {
       "title": "[Jeem Z🍂] sì, sono decisamente cambiati❤️‍🔥 #booktok #books",
       "url": "https://www.youtube.com/watch?v=IXlBKWWJ9Mk"
@@ -5541,32 +5537,32 @@
       "url": "https://www.youtube.com/watch?v=iuGsjHjcKZI"
     },
     {
+      "title": "[DANI DARK COMICS] BATMAN: IL CAVALIERE OSCURO COLPISCE ANCORA - RECENSIONE DC POCKET",
+      "url": "https://www.youtube.com/watch?v=6hi2gQm-KaU"
+    },
+    {
       "title": "[Cultura per pochi ma buoni  ] #dragonballz e la saga di #gohan alla scuola superiore recensione",
       "url": "https://www.youtube.com/watch?v=r8xWRHP25rE"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem Athos in America #review #comic #sliceoflife",
-      "url": "https://www.youtube.com/watch?v=ONg1CmIWqAo"
-    },
-    {
-      "title": "[Dennis from The DNA Show] NEW!!! How is Terminal #1 Comic book?",
-      "url": "https://www.youtube.com/watch?v=rabEMZ7aSOk"
-    },
-    {
-      "title": "[Dennis from The DNA Show] let&#39;s look at Fire and Ice Darkwolf #2 comic!",
-      "url": "https://www.youtube.com/watch?v=G3yjiVIlycQ"
+      "title": "[The Comic Patrol] New Titans 38 Review #dccomics #comicbooks #newtitans #static",
+      "url": "https://www.youtube.com/watch?v=De1ozCc0x28"
     },
     {
       "title": "[Emerald Enthusiast] Check out my #Spiderman comic book review. #amazingspiderman #venom #marvel #comicbookreview",
       "url": "https://www.youtube.com/watch?v=o2i3uKiTtqs"
     },
     {
-      "title": "[Artsy Sister] Public library Hidden Gem Sandman A Game of You #fantasy #comic #review",
-      "url": "https://www.youtube.com/watch?v=30MpDFbMwk0"
-    },
-    {
       "title": "[Bad Comic Reviews] Mickey Spillane&#39;s Mike Danger -- Vol. 1, Issue 2 (1995, Tekno Comix) Bad Comic Reviews",
       "url": "https://www.youtube.com/watch?v=9vKEcg1f3UA"
+    },
+    {
+      "title": "[Il mondo di Chri] Stop! fumetto per bambini",
+      "url": "https://www.youtube.com/watch?v=nAfKotpT_z4"
+    },
+    {
+      "title": "[Zeifs ] BATMAN IL CAVALIERE BIANCO - recensione del fumetto DC",
+      "url": "https://www.youtube.com/watch?v=L-pJpUgdx-4"
     },
     {
       "title": "[Arkantos] TORNA ATTACK ON TITAN? HAIKYU!! FILM e ANNUNCIATO l’ANIME di KINGDOM HEARTS! Anime &amp; Manga News🔥",
@@ -5581,14 +5577,6 @@
       "url": "https://www.youtube.com/watch?v=gSci1w8n1Zs"
     },
     {
-      "title": "[Etra chan saw it!] Hit-and-Run [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=lyr6a7TJgkw"
-    },
-    {
-      "title": "[Saturday AM] SATURDAY AM’s Brazilian manga GUN+BONE returns in our new app! New manga, chapters &amp; features soon!",
-      "url": "https://www.youtube.com/watch?v=UJT9aBVPcCQ"
-    },
-    {
       "title": "[Fabi No Sekai] Manga shopping vlog 💕",
       "url": "https://www.youtube.com/watch?v=D2tnjwjJbec"
     },
@@ -5601,12 +5589,20 @@
       "url": "https://www.youtube.com/watch?v=WWp_t_FJhwA"
     },
     {
-      "title": "[Maltality] Ho speso troppo (di nuovo) | ACQUISTI MANGA degli ULTIMI MESI!",
-      "url": "https://www.youtube.com/watch?v=LJm9hrzS-SE"
+      "title": "[Mighty Lancer Games] What&#39;s New At MLG? | CaDA, Manga, Zvezda, ICM, Moonstone &amp; More",
+      "url": "https://www.youtube.com/watch?v=ByFOs8uyexg"
     },
     {
       "title": "[Tutto molto carino] HAUL FUMETTERIA + unboxing Hello Kitty Starter Pack",
       "url": "https://www.youtube.com/watch?v=GvT3oLp5Olw"
+    },
+    {
+      "title": "[Otaku Biker] 458a (non) Live Parlo di manga (126) Vediamo i manga che ho comprato (59)(18-08-26)",
+      "url": "https://www.youtube.com/watch?v=uUYIhyeDH4E"
+    },
+    {
+      "title": "[VEMAZZO] ACQUISTI MANGA AGGIORNAMENTO 21 AGOSTO 2026",
+      "url": "https://www.youtube.com/watch?v=XXfWwS6I13A"
     }
   ]
 }
