@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-08-29T11:40:03.987248+00:00",
+  "updated_at": "2026-08-29T17:07:09.123418+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -27,24 +27,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867992973",
-      "title": "Bibbia pagana",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788858333037",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858333037",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9788867992973",
+      "title": "Bibbia pagana",
       "author": "",
       "position": 6,
       "category": "generale",
@@ -67,18 +67,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788829705320",
-      "title": "Circe",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788829705320",
+      "title": "Circe",
       "author": "",
       "position": 10,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788808639561",
+      "title": "Zingarelli 2026. Vocabolario della lingua italiana. Con Contenuto digitale (fornito elettronicamente). Con Contenuto digitale per download",
+      "author": "",
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,7 +94,7 @@
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,21 +102,13 @@
       "ean": "9788822783387",
       "title": "Lo sbaglio. The mistake",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822783967",
       "title": "L'imprevisto. The goal",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788808639561",
-      "title": "Zingarelli 2026. Vocabolario della lingua italiana. Con Contenuto digitale (fornito elettronicamente). Con Contenuto digitale per download",
       "author": "",
       "position": 14,
       "category": "generale",
@@ -139,24 +139,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788869800689",
+      "title": "Finché il caffè è caldo",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800689",
-      "title": "Finché il caffè è caldo",
+      "ean": "9788845927867",
+      "title": "L'avversario",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788845927867",
-      "title": "L'avversario",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -5787,9 +5787,24 @@
   ],
   "manga_trends": [
     {
-      "title": "Pokémon: le nuove fotocamere istantanee in collaborazione con Polaroid",
+      "title": "Naruto Shippuden Battle: il gioco da tavolo arriva in italiano il 15 settembre su Gamefound",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111524-pokemon-le-nuove-fotocamere-istantanee-in-collaborazione-con-polaroid"
+      "url": "https://www.animeclick.it/news/111567-naruto-shippuden-battle-il-gioco-da-tavolo-arriva-in-italiano-il-15-settembre-su-gamefound"
+    },
+    {
+      "title": "Black Lagoon torna dopo tre anni di attesa e l'autore risponde alle critiche",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111596-black-lagoon-torna-dopo-tre-anni-di-attesa-e-lautore-risponde-alle-critiche"
+    },
+    {
+      "title": "One Piece e Detective Conan celebrano i 25 anni di Universal Studios Japan",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111572-one-piece-e-detective-conan-celebrano-i-25-anni-di-universal-studios-japan"
+    },
+    {
+      "title": "Niu Lai: il film indie cinese che passa da meme a campione d'incassi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111552-niu-lai-il-film-indie-cinese-che-passa-da-meme-a-campione-dincassi"
     },
     {
       "title": "Fortnite: la nuova stagione celebra le leggende dei videogiochi",
@@ -5797,79 +5812,29 @@
       "url": "https://www.animeclick.it/news/111525-fortnite-la-nuova-stagione-celebra-le-leggende-dei-videogiochi"
     },
     {
-      "title": "Kadokawa: un tribunale ordina a YouTube di rivelare l'identità di tre creator",
+      "title": "Joe Hisaishi: il compositore dei film dello Studio Ghibli ottiene tre Guinness World Record",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111513-kadokawa-un-tribunale-ordina-a-youtube-di-rivelare-lidentita-di-tre-creator"
+      "url": "https://www.animeclick.it/news/111520-joe-hisaishi-il-compositore-dei-film-dello-studio-ghibli-ottiene-tre-guinness-world-record"
     },
     {
-      "title": "Yasujirō Ozu: undici capolavori restaurati su Rai3 e in streaming",
+      "title": "Box Office Giappone: Chiikawa non rallenta e supera 9 miliardi di yen",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111511-yasujiro-ozu-undici-capolavori-restaurati-su-rai3-e-in-streaming"
+      "url": "https://www.animeclick.it/news/111518-box-office-giappone-chiikawa-non-rallenta-e-supera-9-miliardi-di-yen"
     },
     {
-      "title": "Anime Preview: novità per Sekiro, Takopi e altro ancora",
+      "title": "Non solo anime: novità per God of War, Blue Eye Samurai, Golden Axe e altro ancora",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111544-anime-preview-novita-per-sekiro-takopi-e-altro-ancora"
+      "url": "https://www.animeclick.it/news/111537-non-solo-anime-novita-per-god-of-war-blue-eye-samurai-golden-axe-e-altro-ancora"
     },
     {
-      "title": "La video presentazione di GTA VI è disponibile gratuitamente per tutti",
+      "title": "Gamescom Opening Night Live- Riassunto della serata di apertura",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111585-la-video-presentazione-di-gta-vi-e-disponibile-gratuitamente-per-tutti"
+      "url": "https://www.animeclick.it/news/111571-gamescom-opening-night-live-riassunto-della-serata-di-apertura"
     },
     {
-      "title": "Chiikawa the Movie: The Secret of Mermaid Island in vista dei 10 miliardi di yen al botteghino giapponese",
+      "title": "Scandalo Shogakukan: il rapporto dell'indagine esterna fa luce sulle responsabilità della casa editrice",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111498-chiikawa-the-movie-the-secret-of-mermaid-island-in-vista-dei-10-miliardi-di-yen-al-botteghino-giapponese"
-    },
-    {
-      "title": "The Ramparts of Ice: nuovi trailer e visual per la seconda stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111582-the-ramparts-of-ice-nuovi-trailer-e-visual-per-la-seconda-stagione"
-    },
-    {
-      "title": "Chainsmoker Cat: stop allo streaming in diversi mercati asiatici per le leggi sul tabacco",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111536-chainsmoker-cat-stop-allo-streaming-in-diversi-mercati-asiatici-per-le-leggi-sul-tabacco"
-    },
-    {
-      "title": "Box Office Giappone: Il film di Chiikawa non si ferma più e continua a dominare la classifica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111574-box-office-giappone-il-film-di-chiikawa-non-si-ferma-piu-e-continua-a-dominare-la-classifica"
-    },
-    {
-      "title": "One Piece: Luffy vince il secondo contest mondiale di popolarità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111549-one-piece-luffy-vince-il-secondo-contest-mondiale-di-popolarita"
-    },
-    {
-      "title": "Lain: Protocol 7: il progetto fan made è stato finanziato con successo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111530-lain-protocol-7-il-progetto-fan-made-e-stato-finanziato-con-successo"
-    },
-    {
-      "title": "Dark Machine: nuovo trailer per l'anime in arrivo a ottobre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111516-dark-machine-nuovo-trailer-per-anime-in-arrivo-a-ottobre"
-    },
-    {
-      "title": "Anime Preview: novità per Tenkaichi e altre serie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111481-anime-preview-novita-per-tenkaichi-e-altre-serie"
-    },
-    {
-      "title": "Pokémon GCC: arrivano Megaevoluzione - Dominio Delta e I Loschi Piani del Team Rocket",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111569-pokemon-gcc-arrivano-megaevoluzione-dominio-delta-e-i-loschi-piani-del-team-rocket"
-    },
-    {
-      "title": "Though I am an Inept Villainess: informazioni sul doppiaggio italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111527-though-i-am-an-inept-villainess-informazioni-sul-doppiaggio-italiano"
-    },
-    {
-      "title": "Il futuro dello Studio Ghibli: film in lavorazione, uso dell'IA e prossimi progetti dello Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111515-il-futuro-dello-studio-ghibli-film-in-lavorazione-uso-dellia-e-prossimi-progetti-dello-studio"
+      "url": "https://www.animeclick.it/news/111494-scandalo-shogakukan-il-rapporto-dellindagine-esterna-fa-luce-sulle-responsabilita-della-casa-editrice"
     },
     {
       "title": "Warlock: Dungeons & Dragons, il nuovo open world fantasy svela il gameplay alla Gamescom 2026",
@@ -5877,49 +5842,39 @@
       "url": "https://www.animeclick.it/news/111553-warlock-dungeons-dragons-debutta-alla-gamescom-con-un-gameplay"
     },
     {
-      "title": "Godzilla Minus Zero: teaser trailer e nuova data per il film al cinema",
+      "title": "Your Name: 10 anni del film di Makoto Shinkai che ha inaugurato l'epoca post-Ghibli",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111566-godzilla-minus-zero-teaser-trailer-e-nuova-data-per-il-film-al-cinema"
+      "url": "https://www.animeclick.it/news/108993-your-name-10-anni-del-film-di-makoto-shinkai-che-ha-inaugurato-lepoca-post-ghibli"
     },
     {
-      "title": "Trails in the Sky 2nd Chapter: disponibile la demo del remake Falcom",
+      "title": "Box Office Giappone: Il film di Chiikawa non si ferma più e continua a dominare la classifica",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111523-trails-in-the-sky-2nd-chapter-disponibile-la-demo-del-remake-falcom"
+      "url": "https://www.animeclick.it/news/111574-box-office-giappone-il-film-di-chiikawa-non-si-ferma-piu-e-continua-a-dominare-la-classifica"
     },
     {
-      "title": "Black Myth Zhong Kui: pubblicati a sorpresa 15 minuti di gameplay",
+      "title": "Anime Preview: trailer per Tokyo Revengers, Overgeared e molto altro",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111522-black-myth-zhong-kui-pubblicati-a-sorpresa-15-minuti-di-gameplay"
+      "url": "https://www.animeclick.it/news/111558-anime-preview-trailer-per-tokyo-revengers-overgeared-e-molto-altro"
     },
     {
-      "title": "Cool Japan: il governo giapponese verso l'abolizione del fondo per la promozione della cultura all'estero",
+      "title": "A Returner's Magic Should Be Special: primo trailer per la seconda stagione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111542-cool-japan-il-governo-giapponese-verso-labolizione-del-fondo-per-la-promozione-della-cultura-allestero"
+      "url": "https://www.animeclick.it/news/111546-a-returners-magic-should-be-special-primo-trailer-per-la-seconda-stagione"
     },
     {
-      "title": "Parco Dragon Ball a Parigi: ancora non ci sarebbe l'ok da parte dei titolari dei diritti",
+      "title": "Gundam: Noah Centineo descrive il live action come un \"Romeo e Giulietta nello spazio\"",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111584-parco-dragon-ball-a-parigi-ancora-non-ci-sarebbe-lok-da-parte-dei-titolari-dei-diritti"
+      "url": "https://www.animeclick.it/news/111517-gundam-noah-centineo-descrive-il-live-action-come-un-romeo-e-giulietta-nello-spazio"
     },
     {
-      "title": "Fool Night: trailer per l'anime in uscita a novembre su Netflix",
+      "title": "Though I am an Inept Villainess: informazioni sul doppiaggio italiano",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111534-fool-night-trailer-per-lanime-in-uscita-a-novembre-su-netflix"
+      "url": "https://www.animeclick.it/news/111527-though-i-am-an-inept-villainess-informazioni-sul-doppiaggio-italiano"
     },
     {
-      "title": "Anime Preview: trailer e novità per Murciélago, Me and Older Brother Yu e molto altro",
+      "title": "Xbox Disc-to-Digital: come convertire i giochi fisici in digitali gratis",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111575-anime-preview-trailer-e-novita-per-murcielago-me-and-older-brother-yu-e-molto-altro"
-    },
-    {
-      "title": "Fall in Love, You False Angels: il manga di Coco Uzuki entra in pausa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111565-fall-in-love-you-false-angels-il-manga-di-coco-uzuki-andra-in-pausa-fino-a-novembre"
-    },
-    {
-      "title": "Magic Press: sconti del 20% sul catalogo per tutto settembre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111595-magic-press-sconti-del-20-sul-catalogo-per-tutto-settembre"
+      "url": "https://www.animeclick.it/news/111590-xbox-disc-to-digital-come-convertire-i-giochi-fisici-in-digitali-gratis"
     },
     {
       "title": "Da Tokyo a Malpensa con 605 carte Pokémon e One Piece non dichiarate: sequestro da 27.000 euro",
@@ -5927,24 +5882,73 @@
       "url": "https://www.animeclick.it/news/111559-da-tokyo-a-malpensa-con-605-carte-pokemon-e-one-piece-non-dichiarate-sequestro-da-27000-euro"
     },
     {
-      "title": "Riftstorm- Recensione: quando il looter shooter incontra l'extraction",
+      "title": "Magic Press: sconti del 20% sul catalogo per tutto settembre",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111532-riftstorm-recensione-un-extraction-lite-senza-stress"
+      "url": "https://www.animeclick.it/news/111595-magic-press-sconti-del-20-sul-catalogo-per-tutto-settembre"
+    },
+    {
+      "title": "Blue Box: il nuovo trailer della seconda stagione dell'anime svela le sigle",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111573-blue-box-il-nuovo-trailer-della-seconda-stagione-dellanime-svela-le-sigle"
+    },
+    {
+      "title": "Godzilla Minus Zero: teaser trailer e nuova data per il film al cinema",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111566-godzilla-minus-zero-teaser-trailer-e-nuova-data-per-il-film-al-cinema"
+    },
+    {
+      "title": "La Malinconia di Haruhi Suzumiya: le foto della mostra ufficiale per i 20 anni della serie anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111570-la-malinconia-di-haruhi-suzumiya-le-foto-della-mostra-ufficiale-per-i-20-anni-della-serie-anime"
     },
     {
       "title": "Terranigma: il classico Super Nintendo torna su console e PC",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111564-terranigma"
+    },
+    {
+      "title": "Trails in the Sky 2nd Chapter: disponibile la demo del remake Falcom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111523-trails-in-the-sky-2nd-chapter-disponibile-la-demo-del-remake-falcom"
+    },
+    {
+      "title": "Addio a Yayoi Kusama: la regina dei pois che ha trasformato le sue ossessioni in arte immortale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111576-addio-a-yayoi-kusama-la-regina-dei-pois-che-ha-trasformato-le-sue-ossessioni-in-arte-immortale"
+    },
+    {
+      "title": "Parco Dragon Ball a Parigi: ancora non ci sarebbe l'ok da parte dei titolari dei diritti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111584-parco-dragon-ball-a-parigi-ancora-non-ci-sarebbe-lok-da-parte-dei-titolari-dei-diritti"
+    },
+    {
+      "title": "My Hero Academia 3D Collection: arrivano in edicola le miniature della celebre serie animata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111592-my-hero-academia-3d-collection-arrivano-in-edicola-le-miniature-della-celebre-serie-animata"
+    },
+    {
+      "title": "DLC di Bandai Namco: Nanashi Uchiha disponibile e Mask of Idris in arrivo su Code Vein II",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111540-dlc-di-bandai-namco-nanashi-uchiha-disponibile-e-mask-of-idris-in-arrivo-su-code-vein-ii"
+    },
+    {
+      "title": "Cool Japan: il governo giapponese verso l'abolizione del fondo per la promozione della cultura all'estero",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111542-cool-japan-il-governo-giapponese-verso-labolizione-del-fondo-per-la-promozione-della-cultura-allestero"
     }
   ],
   "youtube_trends": [
     {
-      "title": "[LalibreriadiGiady📚] Puntualmente va così🥲#booktok #libri #books #libricheamo #theruinsbeneathus",
-      "url": "https://www.youtube.com/watch?v=TP_3KhwBVfY"
-    },
-    {
       "title": "[Diana📖💓] Ti ho convinto?🤪 #booktok #booktubeitalia #bookrecommendations",
       "url": "https://www.youtube.com/watch?v=q3C7A-Zhj7Y"
+    },
+    {
+      "title": "[Victoria📚🎀] #booktok #bibliomanzia #booktokitalia #books #bookstagram #perte",
+      "url": "https://www.youtube.com/watch?v=xn1blomLkrE"
+    },
+    {
+      "title": "[Nicole] Mi odia ￼🌚 #booktokitalia #perte",
+      "url": "https://www.youtube.com/watch?v=oN_GuHZ5Enc"
     },
     {
       "title": "[Zemelda] Enemies to love da non perdere su wattpad #bibliomanzia #wattpaditalia #booktok #booktokitalia #love",
@@ -5959,16 +5963,16 @@
       "url": "https://www.youtube.com/watch?v=BojgDJF7lus"
     },
     {
-      "title": "[Nicole] Mi odia ￼🌚 #booktokitalia #perte",
-      "url": "https://www.youtube.com/watch?v=oN_GuHZ5Enc"
-    },
-    {
       "title": "[Jade Nives (autrice)] #bibliomanzia #booktok #booktokitalia #viral #wattpad #books #bookish #bookworm #perte #neiperte",
       "url": "https://www.youtube.com/watch?v=jspHttvsaCc"
     },
     {
       "title": "[Анна Шор] Билет в Италию доступный каждому #путешествие #booktok #книги #booktube #италия #тоскана",
       "url": "https://www.youtube.com/watch?v=ZIlCqZqUsjc"
+    },
+    {
+      "title": "[psico Analisi] # #history #booktok",
+      "url": "https://www.youtube.com/watch?v=dXGn2wO0VN0"
     },
     {
       "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 420, i migliori FUMETTI e MANGA di OTTOBRE 2026 | Polvere &amp; Fumetti",
@@ -5979,12 +5983,20 @@
       "url": "https://www.youtube.com/watch?v=ITZBI8Lhc3I"
     },
     {
+      "title": "[Yuhoo Comic Review] A Must Read Green Lantern Comic...",
+      "url": "https://www.youtube.com/watch?v=FmZJlN1_w_o"
+    },
+    {
       "title": "[AirspeedPrime] Avatar Comic Review - Masters of the Elements Volume 1",
       "url": "https://www.youtube.com/watch?v=cG8t-4QIQ_w"
     },
     {
-      "title": "[Yuhoo Comic Review] A Must Read Green Lantern Comic...",
-      "url": "https://www.youtube.com/watch?v=FmZJlN1_w_o"
+      "title": "[Gigi Cribe] Alan Ford 684 agosto 2026, piccola recensione e novità in arrivo #shortsvideo 👌",
+      "url": "https://www.youtube.com/watch?v=YTjoMQ8BA44"
+    },
+    {
+      "title": "[LuckyAura] GRANDPA MAX IS SUSPICIOUS! | Ben 10 Dynamite Comic Book Issue #2 Read Along + Review!",
+      "url": "https://www.youtube.com/watch?v=sglgUoOS848"
     },
     {
       "title": "[Artsy Sister] Public library Hidden Gem Seekers of the Aweto #comic #review #fantasy",
@@ -6007,18 +6019,6 @@
       "url": "https://www.youtube.com/watch?v=E7iECPS0F9I"
     },
     {
-      "title": "[Serginius84] Recensione Martin Mystère n438 #fumetto #collection #comics ",
-      "url": "https://www.youtube.com/watch?v=0fLt-4ZXiPk"
-    },
-    {
-      "title": "[divinocarpediem] Pariamo di zodiac : I dettagli che ti sono sfuggiti! | Recensione Podcast",
-      "url": "https://www.youtube.com/watch?v=34GFU1r2rzs"
-    },
-    {
-      "title": "[Etra chan saw it!] My new boss was making my life difficult but then... [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=j8gRy4hgV1I"
-    },
-    {
       "title": "[Etra chan saw it!] Finding My Voice [Manga Dub]",
       "url": "https://www.youtube.com/watch?v=ZnLFsC7XYS4"
     },
@@ -6039,16 +6039,20 @@
       "url": "https://www.youtube.com/watch?v=8U7DwC9AIQ0"
     },
     {
-      "title": "[Raining Souls ASMR] ASMR 🌃 A Relaxing Look at How Comics Are Becoming More Like Manga (Whisper, Page Turning, &amp; Tapping)",
-      "url": "https://www.youtube.com/watch?v=DVsND7sQoAI"
-    },
-    {
       "title": "[Paul Soles] anime figure haul: new miku figures, jjk &amp; punks triangle ",
       "url": "https://www.youtube.com/watch?v=2GpIZUL6B8c"
     },
     {
+      "title": "[GeekyLines] My Hero Academia’s Creator Has a NEW Manga — And You Need to Read It!",
+      "url": "https://www.youtube.com/watch?v=Hr5O6QNbMkc"
+    },
+    {
       "title": "[Blez Sports Cards] A MASSIVE manga of Lionel Messi #lionelmessi #soccercards #boxbreak",
       "url": "https://www.youtube.com/watch?v=utVjbCcygGQ"
+    },
+    {
+      "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI AGOSTO 2026",
+      "url": "https://www.youtube.com/watch?v=aSPZ1_DQ4uE"
     },
     {
       "title": "[bluew0lf100] 10 YEARS OF BEYBLADE RISING! | Beyblade Rising Retrospective",
