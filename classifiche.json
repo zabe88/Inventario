@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-09-02T09:35:32.709770+00:00",
+  "updated_at": "2026-09-02T17:10:08.010140+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -19,10 +19,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788836232635",
+      "title": "Chimica e Propedeutica Biochimica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
+      "author": "",
+      "position": 3,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
       "author": "",
-      "position": 3,
+      "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
@@ -30,7 +38,7 @@
       "ean": "9788858333037",
       "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
@@ -38,23 +46,7 @@
       "ean": "9788822787149",
       "title": "Il contratto. The deal",
       "author": "",
-      "position": 5,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788836232635",
-      "title": "Chimica e Propedeutica Biochimica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
-      "author": "",
       "position": 6,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867908325",
-      "title": "Pera Toons. Diario scolastico 2026-2027",
-      "author": "",
-      "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
@@ -62,13 +54,21 @@
       "ean": "9788836232567",
       "title": "Biologia e genetica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
       "author": "",
+      "position": 7,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788836232598",
+      "title": "Fisica generale e biomedica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
+      "author": "",
       "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788838935688",
-      "title": "Una vita come tante",
+      "ean": "9788867908325",
+      "title": "Pera Toons. Diario scolastico 2026-2027",
       "author": "",
       "position": 9,
       "category": "generale",
@@ -91,26 +91,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224206385",
-      "title": "First lady per caso",
+      "ean": "9788838935688",
+      "title": "Una vita come tante",
       "author": "",
       "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806271305",
-      "title": "Il sole nelle pozzanghere",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
-      "author": "",
-      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,21 +102,37 @@
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
+      "position": 13,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791224206385",
+      "title": "First lady per caso",
+      "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
+      "author": "",
       "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788836232598",
-      "title": "Fisica generale e biomedica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
+      "ean": "9788806271305",
+      "title": "Il sole nelle pozzanghere",
       "author": "",
       "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788829705320",
-      "title": "Circe",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -147,16 +147,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788829705320",
+      "title": "Circe",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806256340",
-      "title": "Tutti i colori del buio",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -355,24 +355,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788838935688",
-      "title": "Una vita come tante",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 25,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788869800689",
+      "title": "Finché il caffè è caldo",
       "author": "",
       "position": 26,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800689",
-      "title": "Finché il caffè è caldo",
+      "ean": "9788838935688",
+      "title": "Una vita come tante",
       "author": "",
       "position": 27,
       "category": "narrativa",
@@ -387,16 +387,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806271305",
-      "title": "Il sole nelle pozzanghere",
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
+      "ean": "9788806271305",
+      "title": "Il sole nelle pozzanghere",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -723,16 +723,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788829608935",
-      "title": "Puoi. Ediz. a colori",
+      "ean": "9788854039513",
+      "title": "Amici animali. Libro sonoro. Ediz. a colori",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788804702535",
-      "title": "A caccia dell'Orso. Ediz. a colori",
+      "ean": "9788847739260",
+      "title": "Il sistema metrico. Numeri 1!",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -947,16 +947,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256210848",
-      "title": "La profezia dell'armadillo",
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
       "author": "",
       "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
+      "ean": "9791256210848",
+      "title": "La profezia dell'armadillo",
       "author": "",
       "position": 28,
       "category": "fumetti",
@@ -979,18 +979,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788865432549",
-      "title": "Dimentica il mio nome",
-      "author": "",
-      "position": 31,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788893366366",
       "title": "Francis",
       "author": "",
-      "position": 32,
+      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,13 +990,21 @@
       "ean": "9788896275757",
       "title": "Dante. La Divina Commedia a fumetti",
       "author": "",
-      "position": 33,
+      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9791256212439",
       "title": "Nel nido dei serpenti",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221934892",
+      "title": "Blu. Spider-Man",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1283,16 +1283,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804745440",
-      "title": "Profondo come il mare, leggero come il c...",
+      "ean": "9788855448833",
+      "title": "Risveglia la tua mente. Trasforma la sof...",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788855448833",
-      "title": "Risveglia la tua mente. Trasforma la sof...",
+      "ean": "9788804745440",
+      "title": "Profondo come il mare, leggero come il c...",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1331,16 +1331,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791256393220",
-      "title": "Sulla tua parola. Messalino. Letture del...",
+      "ean": "9788892250420",
+      "title": "Il cristiano è un lavoro duro ma qualcun...",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791280340962",
-      "title": "Il cuore dell'insegnamento del Buddha. T...",
+      "ean": "9788892251717",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -5871,104 +5871,24 @@
   ],
   "manga_trends": [
     {
-      "title": "Gamescom Opening Night Live- Riassunto della serata di apertura",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111571-gamescom-opening-night-live-riassunto-della-serata-di-apertura"
-    },
-    {
-      "title": "Yamato Video: Blades of the Guardians in arrivo su Anime Generation anche doppiato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111535-yamato-video-blades-of-the-guardians-in-arrivo-su-anime-generation-anche-doppiato"
-    },
-    {
-      "title": "Da Tokyo a Malpensa con 605 carte Pokémon e One Piece non dichiarate: sequestro da 27.000 euro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111559-da-tokyo-a-malpensa-con-605-carte-pokemon-e-one-piece-non-dichiarate-sequestro-da-27000-euro"
-    },
-    {
-      "title": "Anime Preview: trailer per Votoms, novità per Mononoke e Patlabor",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111548-anime-preview-trailer-per-votoms-novita-per-mononoke-e-patlabor"
-    },
-    {
-      "title": "One Piece Day '26: tutto quello che c'è da sapere tra live-action, TCG e la collab con la Nike",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111555-one-piece-day-26-tutto-quello-che-ce-da-sapere-tra-live-action-tcg-e-la-collab-con-la-nike"
-    },
-    {
-      "title": "My Hero Academia 3D Collection: arrivano in edicola le miniature della celebre serie animata",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111592-my-hero-academia-3d-collection-arrivano-in-edicola-le-miniature-della-celebre-serie-animata"
-    },
-    {
-      "title": "Parco Dragon Ball a Parigi: ancora non ci sarebbe l'ok da parte dei titolari dei diritti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111584-parco-dragon-ball-a-parigi-ancora-non-ci-sarebbe-lok-da-parte-dei-titolari-dei-diritti"
-    },
-    {
-      "title": "Niu Lai: il film indie cinese che passa da meme a campione d'incassi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111552-niu-lai-il-film-indie-cinese-che-passa-da-meme-a-campione-dincassi"
-    },
-    {
-      "title": "DLC di Bandai Namco: Nanashi Uchiha disponibile e Mask of Idris in arrivo su Code Vein II",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111540-dlc-di-bandai-namco-nanashi-uchiha-disponibile-e-mask-of-idris-in-arrivo-su-code-vein-ii"
-    },
-    {
-      "title": "Tomb Raider: Legacy of Atlantis - Gli sviluppatori parlano delle meccaniche di gioco",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111539-tomb-raider-legacy-of-atlantis-gli-sviluppatori-parlano-delle-meccaniche-di-gioco"
-    },
-    {
-      "title": "Playstation: Sony ricorda agli utenti che i giochi digitali non sono una loro proprietà",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111560-playstation-sony-ricorda-agli-utenti-che-i-giochi-digitali-non-sono-una-loro-proprieta"
-    },
-    {
-      "title": "Naruto Shippuden Battle: il gioco da tavolo arriva in italiano il 15 settembre su Gamefound",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111567-naruto-shippuden-battle-il-gioco-da-tavolo-arriva-in-italiano-il-15-settembre-su-gamefound"
-    },
-    {
-      "title": "Riftstorm- Recensione: quando il looter shooter incontra l'extraction",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111532-riftstorm-recensione-un-extraction-lite-senza-stress"
-    },
-    {
-      "title": "Non solo anime: novità per God of War, Blue Eye Samurai, Golden Axe e altro ancora",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111537-non-solo-anime-novita-per-god-of-war-blue-eye-samurai-golden-axe-e-altro-ancora"
-    },
-    {
-      "title": "Chainsmoker Cat: stop allo streaming in diversi mercati asiatici per le leggi sul tabacco",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111536-chainsmoker-cat-stop-allo-streaming-in-diversi-mercati-asiatici-per-le-leggi-sul-tabacco"
-    },
-    {
       "title": "Giappone: il boom dell'industria degli anime nasconde una grave carenza di animatori",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111562-giappone-il-boom-dellindustria-degli-anime-nasconde-una-grave-carenza-di-animatori"
     },
     {
-      "title": "J-POP Manga: le novità dal Direct 145",
+      "title": "Godzilla Minus Zero: teaser trailer e nuova data per il film al cinema",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111591-j-pop-manga-le-novita-dal-direct-145"
+      "url": "https://www.animeclick.it/news/111566-godzilla-minus-zero-teaser-trailer-e-nuova-data-per-il-film-al-cinema"
     },
     {
-      "title": "L'estate in cui Hikaru è morto: il manga terminerà il 20 ottobre",
+      "title": "Primo trailer per Racconti Pokémon: Le disavventure di Sirfetch’d e Pichu",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111619-lestate-in-cui-hikaru-e-morto-il-manga-terminera-il-20-ottobre"
+      "url": "https://www.animeclick.it/news/111599-primo-trailer-per-racconti-pokemon-le-disavventure-di-sirfetch%25e2%2580%2599d-e-pichu"
     },
     {
-      "title": "Eventi e fiere di settembre 2026",
+      "title": "Terranigma: il classico Super Nintendo torna su console e PC",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111603-eventi-e-fiere-di-settembre-2026"
-    },
-    {
-      "title": "Black Lagoon torna dopo tre anni di attesa e l'autore risponde alle critiche",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111596-black-lagoon-torna-dopo-tre-anni-di-attesa-e-lautore-risponde-alle-critiche"
+      "url": "https://www.animeclick.it/news/111564-terranigma"
     },
     {
       "title": "Anime Preview: annunci e novità per Fate/strange Fake, Maiden Blood e molto altro",
@@ -5976,34 +5896,24 @@
       "url": "https://www.animeclick.it/news/111557-anime-preview-annunci-e-novita-per-fatestrange-fake-maiden-blood-e-molto-altro"
     },
     {
-      "title": "Masami Kurumada (I Cavalieri dello Zodiaco) truffato da suoi manager: danni per 253 milioni di euro",
+      "title": "Tomb Raider: Legacy of Atlantis - Gli sviluppatori parlano delle meccaniche di gioco",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111627-masami-kurumada-i-cavalieri-dello-zodiaco-truffato-da-suoi-manager-danni-per-253-milioni-di-euro"
+      "url": "https://www.animeclick.it/news/111539-tomb-raider-legacy-of-atlantis-gli-sviluppatori-parlano-delle-meccaniche-di-gioco"
     },
     {
-      "title": "Mondiali Pokémon 2026: Luca Ceribelli e altri due italiani esclusi dal torneo",
+      "title": "Gamescom Opening Night Live- Riassunto della serata di apertura",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111600-mondiali-pokemon-2026-luca-ceribelli-e-altri-due-italiani-esclusi-dal-torneo"
+      "url": "https://www.animeclick.it/news/111571-gamescom-opening-night-live-riassunto-della-serata-di-apertura"
     },
     {
-      "title": "Anime Preview: annunci e novità per Baki, Arcanadea e molto altro",
+      "title": "Crunchyroll lascia Nintendo Switch: servizio interrotto a ottobre",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111623-anime-preview-annunci-e-novita-per-baki-arcanadea-e-molto-altro"
+      "url": "https://www.animeclick.it/news/111586-crunchyroll-lascia-nintendo-switch-servizio-interrotto-a-ottobre"
     },
     {
-      "title": "Macron annuncia un parco a tema manga vicino a Parigi: potrebbe essere dedicato a Dragon Ball",
+      "title": "Masami Kurumada (I Cavalieri dello Zodiaco) truffato da suoi manager: danni per 25 milioni di euro",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111526-macron-annuncia-un-parco-a-tema-manga-vicino-a-parigi-potrebbe-essere-dedicato-a-dragon-ball"
-    },
-    {
-      "title": "Even the Student Council Has its Holes!: trailer per l'anime ecchi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111556-even-the-student-council-has-its-holes-trailer-per-lanime-ecchi"
-    },
-    {
-      "title": "Cool Japan: il governo giapponese verso l'abolizione del fondo per la promozione della cultura all'estero",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111542-cool-japan-il-governo-giapponese-verso-labolizione-del-fondo-per-la-promozione-della-cultura-allestero"
+      "url": "https://www.animeclick.it/news/111627-masami-kurumada-i-cavalieri-dello-zodiaco-truffato-da-suoi-manager-danni-per-25-milioni-di-euro"
     },
     {
       "title": "J-POP Manga annuncia nuove opere di Kazuo Kamimura e Tsukasa Hojo",
@@ -6011,20 +5921,114 @@
       "url": "https://www.animeclick.it/news/111624-j-pop-manga-annuncia-nuove-opere-di-kazuo-kamimura-e-tsukasa-hojo"
     },
     {
-      "title": "Anime Preview: trailer per Tokyo Revengers, Overgeared e molto altro",
+      "title": "GTA 6 conquista Netflix: 31 milioni di visualizzazioni in appena quattro giorni",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111558-anime-preview-trailer-per-tokyo-revengers-overgeared-e-molto-altro"
+      "url": "https://www.animeclick.it/news/111630-gta-6-conquista-netflix-31-milioni-di-visualizzazioni-in-appena-quattro-giorni"
     },
     {
-      "title": "Pokémon: le nuove fotocamere istantanee in collaborazione con Polaroid",
+      "title": "Cool Japan: il governo giapponese verso l'abolizione del fondo per la promozione della cultura all'estero",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111524-pokemon-le-nuove-fotocamere-istantanee-in-collaborazione-con-polaroid"
+      "url": "https://www.animeclick.it/news/111542-cool-japan-il-governo-giapponese-verso-labolizione-del-fondo-per-la-promozione-della-cultura-allestero"
+    },
+    {
+      "title": "L'estate in cui Hikaru è morto: il manga terminerà il 20 ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111619-lestate-in-cui-hikaru-e-morto-il-manga-terminera-il-20-ottobre"
+    },
+    {
+      "title": "Toshokan: il catalogo dedicato al fumetto asiatico ora è parte di Edizioni BD & J-POP Manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111620-toshokan-il-catalogo-dedicato-al-fumetto-asiatico-ora-e-parte-di-edizioni-bd-j-pop-manga"
+    },
+    {
+      "title": "La video presentazione di GTA VI è disponibile gratuitamente per tutti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111585-la-video-presentazione-di-gta-vi-e-disponibile-gratuitamente-per-tutti"
+    },
+    {
+      "title": "La Malinconia di Haruhi Suzumiya: le foto della mostra ufficiale per i 20 anni della serie anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111570-la-malinconia-di-haruhi-suzumiya-le-foto-della-mostra-ufficiale-per-i-20-anni-della-serie-anime"
+    },
+    {
+      "title": "Parco Dragon Ball a Parigi: ancora non ci sarebbe l'ok da parte dei titolari dei diritti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111584-parco-dragon-ball-a-parigi-ancora-non-ci-sarebbe-lok-da-parte-dei-titolari-dei-diritti"
+    },
+    {
+      "title": "The Ramparts of Ice: nuovi trailer e visual per la seconda stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111582-the-ramparts-of-ice-nuovi-trailer-e-visual-per-la-seconda-stagione"
+    },
+    {
+      "title": "Assassination Classroom - L'ora di tutti noi: trailer e poster per il film in arrivo al cinema grazie a Eagle Pictures e Yamato Video",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111579-assassination-classroom-lora-di-tutti-noi-trailer-e-poster-per-il-film-in-arrivo-al-cinema-grazie-a-eagle-pictures-e-yamato-video"
+    },
+    {
+      "title": "My Hero Academia 3D Collection: arrivano in edicola le miniature della celebre serie animata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111592-my-hero-academia-3d-collection-arrivano-in-edicola-le-miniature-della-celebre-serie-animata"
+    },
+    {
+      "title": "SCANDAL, cala il sipario dopo 20 anni: la band giapponese si scioglierà nel 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111563-scandal-cala-il-sipario-dopo-20-anni-la-band-giapponese-si-sciogliera-nel-2027"
+    },
+    {
+      "title": "Your Name: 10 anni del film di Makoto Shinkai che ha inaugurato l'epoca post-Ghibli",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/108993-your-name-10-anni-del-film-di-makoto-shinkai-che-ha-inaugurato-lepoca-post-ghibli"
+    },
+    {
+      "title": "Grand Theft Auto in portabilità: la saga criminale da Advance a Chinatown Wars - PARTE 2",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111589-grand-theft-auto-in-portabilita-la-saga-criminale-da-advance-a-chinatown-wars-parte-2"
+    },
+    {
+      "title": "Anime Preview: trailer e novità per Murciélago, Me and Older Brother Yu e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111575-anime-preview-trailer-e-novita-per-murcielago-me-and-older-brother-yu-e-molto-altro"
+    },
+    {
+      "title": "Aoashi: nuovo trailer della seconda stagione svela la prima opening",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111632-aoashi-nuovo-trailer-della-seconda-stagione-svela-la-prima-opening"
+    },
+    {
+      "title": "Eventi e fiere di settembre 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111603-eventi-e-fiere-di-settembre-2026"
+    },
+    {
+      "title": "Addio a Yayoi Kusama: la regina dei pois che ha trasformato le sue ossessioni in arte immortale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111576-addio-a-yayoi-kusama-la-regina-dei-pois-che-ha-trasformato-le-sue-ossessioni-in-arte-immortale"
+    },
+    {
+      "title": "Warlock: Dungeons & Dragons, il nuovo open world fantasy svela il gameplay alla Gamescom 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111553-warlock-dungeons-dragons-debutta-alla-gamescom-con-un-gameplay"
+    },
+    {
+      "title": "Macron annuncia un parco a tema manga vicino a Parigi: potrebbe essere dedicato a Dragon Ball",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111526-macron-annuncia-un-parco-a-tema-manga-vicino-a-parigi-potrebbe-essere-dedicato-a-dragon-ball"
+    },
+    {
+      "title": "RyzaChat, gli utenti aggirano i filtri per ottenere contenuti adulti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111583-ryzachat-gli-utenti-aggirano-i-filtri-per-ottenere-contenuti-adulti"
     }
   ],
   "youtube_trends": [
     {
       "title": "[LalibreriadiGiady📚] ✨Cose che farei piuttosto che tornare a scuola booktok Edition ✨￼#booktok #books #backtoschool",
       "url": "https://www.youtube.com/watch?v=NE-BikbtLbA"
+    },
+    {
+      "title": "[Coco Belle] Healing Game di CoconutInk su Wattpad #booktok #bibliomanzia #booktokitalia #wattpad #wattpaditalia",
+      "url": "https://www.youtube.com/watch?v=_QCL6715J3s"
     },
     {
       "title": "[Diana📖💓] Ti ho convinto?🤪 #booktok #booktubeitalia #bookrecommendations",
@@ -6059,14 +6063,6 @@
       "url": "https://www.youtube.com/watch?v=reWKnxcVnw4"
     },
     {
-      "title": "[Ale_Books12] 🎀🤍 #perte #booktokitalia #wattpad  #wattpaditalia #neiperte #booktok",
-      "url": "https://www.youtube.com/watch?v=B62fjMSz4dQ"
-    },
-    {
-      "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 420, i migliori FUMETTI e MANGA di OTTOBRE 2026 | Polvere &amp; Fumetti",
-      "url": "https://www.youtube.com/watch?v=6TjN1Fz1icw"
-    },
-    {
       "title": "[NonSiamoFratelli] TORNANO gli X-Men! - calendario uscite Manga e Fumetti prima settimana di Settembre",
       "url": "https://www.youtube.com/watch?v=_LpAnXS2U40"
     },
@@ -6079,20 +6075,16 @@
       "url": "https://www.youtube.com/watch?v=FmZJlN1_w_o"
     },
     {
-      "title": "[TheComicBookReport] X-Men Blue &amp; Gold Bloodties Omnibus ❌ #xmen #omnibus #marvel #comics",
-      "url": "https://www.youtube.com/watch?v=53epwJUIkdQ"
-    },
-    {
       "title": "[HardcoreCF18 ] TOMB OF APOCALYPSE ISSUE 1 REVIEW! #xmen #marvel #comics #review #fyp",
       "url": "https://www.youtube.com/watch?v=TjGdkkQlTRw"
     },
     {
-      "title": "[TheComicBookReport] Wolverine by Jason Aaron Omnibus Vol. 1 📚 #wolverine #marvel #xmen #comics",
-      "url": "https://www.youtube.com/watch?v=Mao-egEe_yw"
-    },
-    {
       "title": "[The Fangirl] She-Ra and the Princesses of Power Legend of the Fire Princess Reaction",
       "url": "https://www.youtube.com/watch?v=CJ8_3GDIlK8"
+    },
+    {
+      "title": "[TheComicBookReport] Wolverine by Jason Aaron Omnibus Vol. 1 📚 #wolverine #marvel #xmen #comics",
+      "url": "https://www.youtube.com/watch?v=Mao-egEe_yw"
     },
     {
       "title": "[DANI DARK COMICS] X-MEN: L&#39;ERA DI APOCALISSE - MARVEL MASTERSERIES RECENSIONE",
@@ -6103,12 +6095,16 @@
       "url": "https://www.youtube.com/watch?v=ehYZMrV8PtU"
     },
     {
-      "title": "[DC TV Podcasts] Supergirl (2025-) #16 | Comic Book Review",
-      "url": "https://www.youtube.com/watch?v=vULxfo1613A"
+      "title": "[LuckyAura] GRANDPA MAX IS SUSPICIOUS! | Ben 10 Dynamite Comic Book Issue #2 Read Along + Review!",
+      "url": "https://www.youtube.com/watch?v=sglgUoOS848"
     },
     {
-      "title": "[Craven Road 7] Torna il co-creatore di Dampyr! - Dampyr 316-317 #dampyr #sergiobonellieditore #fumetti",
-      "url": "https://www.youtube.com/watch?v=Oka12lfurXA"
+      "title": "[LuckyAura] KRAAB GOES ON A RAMPAGE!! | Ben 10 Dynamite Comic Book Issue #3 Read Along + Review!",
+      "url": "https://www.youtube.com/watch?v=6G4WpP9t8-I"
+    },
+    {
+      "title": "[The Lion Podcast] #5 THE LION KING: Recensione del quinto Fumetto Dynamite RAFIKI VEDE I RE DEL PASSATO!",
+      "url": "https://www.youtube.com/watch?v=E7iECPS0F9I"
     },
     {
       "title": "[OtakuMan100] The Loner Who Suddenly Got a Beautiful Wife!",
