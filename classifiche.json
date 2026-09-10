@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-09-09T17:10:01.265320+00:00",
+  "updated_at": "2026-09-10T09:41:06.950950+00:00",
   "rankings": [
     {
       "ean": "9788836232635",
@@ -75,16 +75,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822756350",
-      "title": "Il segreto della libraia di Parigi",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788822756350",
+      "title": "Il segreto della libraia di Parigi",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -99,8 +99,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -115,18 +115,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
       "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806271978",
-      "title": "I convitati di pietra",
-      "author": "",
-      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,7 +126,7 @@
       "ean": "9788822787149",
       "title": "Il contratto. The deal",
       "author": "",
-      "position": 17,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,13 +134,21 @@
       "ean": "9788836232604",
       "title": "Fisica generale basato sull’opera di E. Ragozzino. Manuale conforme al Syllabus per il semestre filtro 2026- 2027. Con assistente virtuale",
       "author": "",
-      "position": 18,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788838935688",
       "title": "Una vita come tante",
+      "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806271978",
+      "title": "I convitati di pietra",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -355,16 +355,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822756350",
-      "title": "Il segreto della libraia di Parigi",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 25,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788822756350",
+      "title": "Il segreto della libraia di Parigi",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -379,16 +379,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788838935688",
-      "title": "Una vita come tante",
+      "ean": "9788822787149",
+      "title": "Il contratto. The deal",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822787149",
-      "title": "Il contratto. The deal",
+      "ean": "9788838935688",
+      "title": "Una vita come tante",
       "author": "",
       "position": 29,
       "category": "narrativa",
@@ -475,10 +475,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9780746083383",
+      "title": "Che cosa mi succede? (Ragazze). Ediz. il...",
+      "author": "",
+      "position": 10,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9781108349093",
       "title": "Compact. Preliminary for schools. B1. St...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -486,7 +494,7 @@
       "ean": "9781108954815",
       "title": "Open up. Level 2. Student's Book-Workboo...",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -494,7 +502,7 @@
       "ean": "9781108954860",
       "title": "Open up. Level 3. Student's Book-Workboo...",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,7 +510,7 @@
       "ean": "9781380037374",
       "title": "Your INVALSI tutor. Per le Scuole superi...",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -510,21 +518,13 @@
       "ean": "9781409515470",
       "title": "Atlante illustrato. Ediz. a colori. Con ...",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9781409528296",
       "title": "Artisti in erba. Ediz. illustrata",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409530022",
-      "title": "Il grande libro dei miti greci. Ediz. il...",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -683,26 +683,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788852225789",
-      "title": "Zootropolis. Il libro delle barzellette....",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
-      "author": "",
-      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,13 +702,21 @@
       "ean": "9788829608959",
       "title": "Il ladro di zucche. Ediz. a colori",
       "author": "",
-      "position": 39,
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788851168506",
       "title": "Orsetto. Sono queste le mie orecchie? Ed...",
+      "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854050631",
-      "title": "Frida Kahlo e la sua vita a colori. I mi...",
+      "ean": "9788834730423",
+      "title": "Alice nel paese delle meraviglie. Ediz. ...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -787,10 +787,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804520986",
+      "title": "Diabolik. Ginko alleato a sorpresa",
+      "author": "",
+      "position": 7,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804600794",
       "title": "Tex. Le terre bianche",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -798,7 +806,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -806,7 +814,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -814,21 +822,13 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806145996",
-      "title": "Paz. Scritti, disegni, fumetti",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -939,34 +939,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9782889753956",
-      "title": "Manga. Storie di yokai. Racconti di spir...",
-      "author": "",
-      "position": 26,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817180696",
-      "title": "Persepolis. Ediz. integrale",
-      "author": "",
-      "position": 27,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221934892",
-      "title": "Blu. Spider-Man",
-      "author": "",
-      "position": 28,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9791256210848",
       "title": "La profezia dell'armadillo",
       "author": "",
-      "position": 29,
+      "position": 26,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -974,13 +950,37 @@
       "ean": "9788893366366",
       "title": "Francis",
       "author": "",
-      "position": 30,
+      "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788896275757",
       "title": "Dante. La Divina Commedia a fumetti",
+      "author": "",
+      "position": 28,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221934892",
+      "title": "Blu. Spider-Man",
+      "author": "",
+      "position": 29,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
+      "author": "",
+      "position": 30,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817034777",
+      "title": "Persepolis. Ediz. integrale",
       "author": "",
       "position": 31,
       "category": "fumetti",
@@ -995,16 +995,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817034777",
-      "title": "Persepolis. Ediz. integrale",
+      "ean": "9791221929379",
+      "title": "Il Batman che ride",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221929379",
-      "title": "Il Batman che ride",
+      "ean": "9788866567479",
+      "title": "La caduta del patriarcato. La storia del...",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1083,10 +1083,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788801023725",
+      "title": "I cinque linguaggi dell'amore. Come dire...",
+      "author": "",
+      "position": 10,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788801056334",
       "title": "Parola del Signore. La Bibbia in lingua ...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1094,7 +1102,7 @@
       "ean": "9788801106503",
       "title": "Vangelo secondo Matteo. Commento esegeti...",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1102,37 +1110,29 @@
       "ean": "9788804414759",
       "title": "La luce della notte. I grandi miti nella...",
       "author": "",
-      "position": 12,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804543626",
-      "title": "Ricominciare da sé",
-      "author": "",
       "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804546511",
-      "title": "Samsara",
+      "ean": "9788804500827",
+      "title": "Paolo. L'ebreo che fondò il cristianesimo",
       "author": "",
       "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804551737",
-      "title": "Con te e senza di te",
+      "ean": "9788804524502",
+      "title": "Ildegarda. Badessa, visionaria, esorcista",
       "author": "",
       "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804586531",
-      "title": "Il dito e la luna. Racconti zen, haiku, ...",
+      "ean": "9788804543626",
+      "title": "Ricominciare da sé",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1275,18 +1275,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788855448833",
-      "title": "Risveglia la tua mente. Trasforma la sof...",
-      "author": "",
-      "position": 34,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804745440",
       "title": "Profondo come il mare, leggero come il c...",
       "author": "",
-      "position": 35,
+      "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1294,7 +1286,7 @@
       "ean": "9788829702732",
       "title": "Eroi. Le grandi saghe della mitologia greca",
       "author": "",
-      "position": 36,
+      "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1302,7 +1294,23 @@
       "ean": "9788821593246",
       "title": "La Bibbia",
       "author": "",
+      "position": 36,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788855448833",
+      "title": "Risveglia la tua mente. Trasforma la sof...",
+      "author": "",
       "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788871988719",
+      "title": "Medjugorje. Perché non ho dubbi",
+      "author": "",
+      "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1318,7 @@
       "ean": "9791223992883",
       "title": "Il libro di Enoch",
       "author": "",
-      "position": 38,
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,7 +1326,7 @@
       "ean": "9791280340962",
       "title": "Il cuore dell'insegnamento del Buddha. T...",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,21 +1334,13 @@
       "ean": "9791254802632",
       "title": "Parlare di dio. Un dialogo con Simone Weil",
       "author": "",
-      "position": 40,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788852608384",
-      "title": "Marco Gallo. Anche i sassi si sarebbero ...",
-      "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788861762619",
-      "title": "I tre mondi dello spirito",
+      "ean": "9788892250420",
+      "title": "Il cristiano è un lavoro duro ma qualcun...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1763,10 +1763,26 @@
       "source": "giunti"
     },
     {
+      "ean": "9781806072255",
+      "title": "Halloween da brividi",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9781836068716",
+      "title": "Halloween",
+      "author": "",
+      "position": 5,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9791223402603",
       "title": "Skifidol Cuties Dumpling. Il libro gioco",
       "author": "",
-      "position": 4,
+      "position": 6,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1790,7 @@
       "ean": "9791221223507",
       "title": "Aspettando Halloween. Il calendario 1-31 ottobre",
       "author": "",
-      "position": 5,
+      "position": 7,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1798,7 @@
       "ean": "9791221223507",
       "title": "Aspettando Halloween. Il calendario 1-3...",
       "author": "",
-      "position": 6,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1806,7 @@
       "ean": "9788857023335",
       "title": "Giulio Coniglio in gita nel bosco",
       "author": "",
-      "position": 7,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1814,7 @@
       "ean": "9791255190943",
       "title": "Indovina chi vive di notte?",
       "author": "",
-      "position": 8,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1822,7 @@
       "ean": "9781474977340",
       "title": "Animali del mondo",
       "author": "",
-      "position": 9,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1830,7 @@
       "ean": "9788857023342",
       "title": "Una giornata di Giulio Coniglio",
       "author": "",
-      "position": 10,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1838,7 @@
       "ean": "9791222114019",
       "title": "La piscina. Scorri e gioca",
       "author": "",
-      "position": 11,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1846,7 @@
       "ean": "9788830383166",
       "title": "I tre porcellini. Arriva il lupo! I miei primi giochi di società",
       "author": "",
-      "position": 12,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,7 +1854,7 @@
       "ean": "9788830383166",
       "title": "I tre porcellini. Arriva il lupo! I mie...",
       "author": "Roberta Marcolin",
-      "position": 13,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1846,7 +1862,7 @@
       "ean": "9782889759156",
       "title": "Triceratopo. Costruisci il tuo dinosauro gigante in 3D",
       "author": "",
-      "position": 14,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1854,7 +1870,7 @@
       "ean": "9782889759156",
       "title": "Triceratopo. Costruisci il tuo dinosaur...",
       "author": "David Hawcock",
-      "position": 15,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1862,7 +1878,7 @@
       "ean": "9788804817543",
       "title": "KPop Demon Hunters. Sticker book ufficiale",
       "author": "",
-      "position": 16,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1870,7 +1886,7 @@
       "ean": "9791222115450",
       "title": "Kimi Antonelli. Come è diventato un fenomeno",
       "author": "",
-      "position": 17,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1878,7 +1894,7 @@
       "ean": "9791222115450",
       "title": "Kimi Antonelli. Come è diventato un fen...",
       "author": "Umberto Zapelloni",
-      "position": 18,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1886,7 +1902,7 @@
       "ean": "9781836068624",
       "title": "Il ballo delle fate. Libro di attività",
       "author": "",
-      "position": 19,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1894,7 +1910,7 @@
       "ean": "9788847743519",
       "title": "Magici unicorni da colorare",
       "author": "",
-      "position": 20,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1902,7 +1918,7 @@
       "ean": "9781806071692",
       "title": "I cavernicoli. Con adesivi",
       "author": "",
-      "position": 21,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1910,7 +1926,7 @@
       "ean": "9788855069069",
       "title": "La rana dalla bocca larga",
       "author": "",
-      "position": 22,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1918,7 +1934,7 @@
       "ean": "9791222113746",
       "title": "Tino fa le foto agli animali della fattoria",
       "author": "",
-      "position": 23,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1926,7 +1942,7 @@
       "ean": "9791222113746",
       "title": "Tino fa le foto agli animali della fatt...",
       "author": "Laurence Jammes, Marc Clamens, Marc Cl...",
-      "position": 24,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1934,7 +1950,7 @@
       "ean": "9788872243060",
       "title": "Andiamo a scuola! Gli albi di Sofia e Mattia",
       "author": "",
-      "position": 25,
+      "position": 27,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1942,7 +1958,7 @@
       "ean": "9788872243060",
       "title": "Andiamo a scuola! Gli albi di Sofia e M...",
       "author": "Alberto Pellai",
-      "position": 26,
+      "position": 28,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1950,7 +1966,7 @@
       "ean": "9788855068802",
       "title": "La tua mente è un giardino. Un libro per far germogliare i tuoi diversi talenti",
       "author": "",
-      "position": 27,
+      "position": 29,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1958,31 +1974,7 @@
       "ean": "9788855068802",
       "title": "La tua mente è un giardino. Un libro pe...",
       "author": "Alberto Pellai, Sophie Fatus, Sophie F...",
-      "position": 28,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788872243077",
-      "title": "È ora di lavarsi. Gli albi di Sofia e Mattia",
-      "author": "",
-      "position": 29,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788872243077",
-      "title": "È ora di lavarsi. Gli albi di Sofia e M...",
-      "author": "Alberto Pellai",
       "position": 30,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9782889759200",
-      "title": "Antiche civiltà. Il libro dei flip-flap",
-      "author": "",
-      "position": 31,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -2139,10 +2131,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9788834442715",
+      "title": "Bloody Black. La vendetta del cuore nero",
+      "author": "",
+      "position": 4,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
       "ean": "9788893907606",
       "title": "L'aquila e i lupi",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2150,7 +2150,7 @@
       "ean": "9791281656635",
       "title": "Il corso del cuore",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2158,7 +2158,7 @@
       "ean": "9788804818441",
       "title": "Il libro delle magie",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2166,7 +2166,7 @@
       "ean": "9788804785002",
       "title": "Tagliatele la testa",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2174,7 +2174,7 @@
       "ean": "9788834747759",
       "title": "Nati da una tempesta di ferro. L'era della collera. Vol. 2",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2182,7 +2182,7 @@
       "ean": "9788834747759",
       "title": "Nati da una tempesta di ferro. L'era de...",
       "author": "Anthony Ryan",
-      "position": 9,
+      "position": 10,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2190,7 +2190,7 @@
       "ean": "9788804804246",
       "title": "Il sangue degli antichi re",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2198,7 +2198,7 @@
       "ean": "9788865513958",
       "title": "La torre dei sette gobbi",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2206,7 +2206,7 @@
       "ean": "9788804817130",
       "title": "La saga di Terramare",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2214,7 +2214,7 @@
       "ean": "9791282205092",
       "title": "Savage Blooms",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2222,7 +2222,7 @@
       "ean": "9788834746769",
       "title": "Dune. Illustrato da Sam Weber",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2230,7 +2230,7 @@
       "ean": "9788834746752",
       "title": "Dune. Illustrato da Sam Weber. Con cofanetto",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2238,7 +2238,7 @@
       "ean": "9788834746752",
       "title": "Dune. Illustrato da Sam Weber. Con cofa...",
       "author": "Frank Herbert",
-      "position": 16,
+      "position": 17,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2246,7 +2246,7 @@
       "ean": "9788831024822",
       "title": "Songlight",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2254,7 +2254,7 @@
       "ean": "9788804818526",
       "title": "The martian. Il sopravvissuto",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2262,7 +2262,7 @@
       "ean": "9788820082536",
       "title": "Crowntide. Ediz. italiana",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2270,7 +2270,7 @@
       "ean": "9788842936152",
       "title": "L'inverno rosso",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2278,7 +2278,7 @@
       "ean": "9788850264988",
       "title": "La regina dei dannati. Le cronache dei vampiri",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2286,7 +2286,7 @@
       "ean": "9788850264988",
       "title": "La regina dei dannati. Le cronache dei ...",
       "author": "Anne Rice",
-      "position": 22,
+      "position": 23,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2294,7 +2294,7 @@
       "ean": "9788850264971",
       "title": "Scelti dalle tenebre. Le cronache dei vampiri",
       "author": "",
-      "position": 23,
+      "position": 24,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2302,7 +2302,7 @@
       "ean": "9788850264971",
       "title": "Scelti dalle tenebre. Le cronache dei v...",
       "author": "Anne Rice",
-      "position": 24,
+      "position": 25,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2310,21 +2310,13 @@
       "ean": "9788860432421",
       "title": "Keira la prediletta",
       "author": "",
-      "position": 25,
+      "position": 26,
       "category": "fantasy",
       "source": "giunti"
     },
     {
       "ean": "9791221937879",
       "title": "Predatrice del vuoto. Warhammer 40.000",
-      "author": "",
-      "position": 26,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788831982665",
-      "title": "Stelle meccaniche",
       "author": "",
       "position": 27,
       "category": "fantasy",
@@ -3677,6 +3669,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Presentazione del libro di Asante Efrikian",
+      "date": "2026-10-02",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_20-03-03_220.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Brodo bike",
       "date": "2026-09-27",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/06/2026-08-28_00-16-54_142.jpeg",
@@ -3749,6 +3747,18 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "La Misericordia in festa",
+      "date": "2026-09-19",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_20-01-58_655.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Il convegno sulla missione umanitaria Toscana in Ucraina",
+      "date": "2026-09-19",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_20-01-52_701.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Comano Cavalli",
       "date": "2026-09-18",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-02_15-40-40_422.jpeg",
@@ -3791,6 +3801,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Sagra del fungo",
+      "date": "2026-09-12",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-11_23-57-39_603.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "La donna piu’ dolce",
       "date": "2026-09-12",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-16-55_061.jpeg",
@@ -3827,6 +3843,18 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "La natura racconta / In cammino con Marco Pardini",
+      "date": "2026-09-12",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_20-03-09_502.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Sagra delle Focaccette di Quercia",
+      "date": "2026-09-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-18_19-48-08_098.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Festa della Madonna del Buon Consiglio",
       "date": "2026-09-11",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-08_06-31-05_827.jpeg",
@@ -3851,6 +3879,24 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Convegno sulle infiammazioni croniche",
+      "date": "2026-09-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_20-02-40_039.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro “profondaMENTE”",
+      "date": "2026-09-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_20-01-29_079.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Serata focaccette e dj",
+      "date": "2026-09-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-09_22-07-45_000.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Presentazione libro di Alessandro Pampana",
       "date": "2026-09-10",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-18-46_214.jpeg",
@@ -3863,105 +3909,9 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Scrittori in borgo",
-      "date": "2026-09-08",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-02_19-46-00_976.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Sarra Douik e Christian Guidolin al Festival Mutamenti",
-      "date": "2026-09-07",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-22-29_071.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "42a Marcia Straca",
-      "date": "2026-09-06",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-17-30_489.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mercatino della Creativita’ Mani e Menti",
-      "date": "2026-09-06",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-16-18_733.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mercatino dell’antiquariato di Fivizzano",
-      "date": "2026-09-06",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-08-25_12-43-35_000.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Trio Brazuka al Festival Mutamenti",
-      "date": "2026-09-06",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-22-32_447.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Concerto della Traband al Rifugio Zani",
-      "date": "2026-09-06",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-02_19-46-05_052.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mercati della terra di Lunigiana",
-      "date": "2026-09-06",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-04_00-55-07_105.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Medicea Dance show",
-      "date": "2026-09-05",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-12_00-01-21_291.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Erbi in festa / Gara di torte d’erbi",
-      "date": "2026-09-05",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-19-37_117.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Serate lunigianesi a Castevoli",
-      "date": "2026-09-05",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-16-31_183.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "AperiAvis Casola",
       "date": "2026-09-05",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-16-02_814.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Fiera di San Severo ad Aulla",
-      "date": "2026-09-05",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-02_19-45-54_783.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Festa delle Focaccette con carne alla brace",
-      "date": "2026-09-05",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-02_19-46-24_275.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Capture the future",
-      "date": "2026-09-05",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-03_11-17-42_000.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Sagra delle Focaccette di Quercia",
-      "date": "2026-09-04",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-18_19-48-08_098.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Focaccette in piazza a Folegnano",
-      "date": "2026-09-04",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-20-11_747.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3971,45 +3921,15 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Presentazione libro / La chiave sulla porta",
-      "date": "2026-09-04",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-02_19-46-40_734.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Cena nel borgo di Pallerone",
-      "date": "2026-09-04",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-03_11-23-10_300.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Personale di Margherita Casadei",
       "date": "2026-09-04",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-08_06-34-21_026.jpeg",
       "source": "lunigianaworld"
     },
     {
-      "title": "LuniGiallo I mercoledi del brivido",
-      "date": "2026-09-02",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-16-10_644.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Sagra del fungo",
-      "date": "2026-08-29",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-11_23-57-39_603.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Chiese Castelli Palazzi Aperti",
       "date": "2026-08-09",
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/08/2026-08-05_10-55-28_398.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mostra di Federico Maria Sardelli",
-      "date": "2026-07-22",
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/07/2026-07-21_23-53-08_616.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -4099,104 +4019,9 @@
   ],
   "manga_trends": [
     {
-      "title": "FX Fighter Kurumi-chan: rilasciato video promozionale principale e svelata data di uscita",
+      "title": "The Detective Is Already Dead: nuovo trailer per la seconda stagione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111613-fx-fighter-kurumi-chan-rilasciato-video-promozionale-principale-e-svelata-data-di-uscita"
-    },
-    {
-      "title": "Il Romics presenta la quinta edizione del Musicomics",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111616-il-romics-presenta-la-quinta-edizione-del-musicomics"
-    },
-    {
-      "title": "Box Office Giappone: superato il miliardo di yen al debutto per il nuovo film di Madoka Magica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111626-box-office-giappone-oltre-1-miliardo-di-yen-al-debutto-e-primo-posto-per-il-nuovo-film-di-madoka-magica"
-    },
-    {
-      "title": "Giant Ojō-sama: trailer e data di uscita dell'anime tratto dal manga di Nikumura Q",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111649-giant-ojo-sama-trailer-e-data-di-uscita-dellanime-tratto-dal-manga-di-nikumura-q"
-    },
-    {
-      "title": "Kochikame: trailer e cast per il nuovo anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111663-kochikame-trailer-e-cast-per-il-nuovo-anime"
-    },
-    {
-      "title": "Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)",
-      "source": "animeclick",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it"
-    },
-    {
-      "title": "Anime Preview: nuovi trailer per Rascal Does Not Dream, We Are Aliens e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111622-anime-preview-nuovi-trailer-per-rascal-does-not-dream-we-are-aliens-e-molto-altro"
-    },
-    {
-      "title": "Mondiali Pokémon 2026: tutti gli annunci della giornata finale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111617-mondiali-pokemon-2026-tutti-gli-annunci-della-giornata-finale"
-    },
-    {
-      "title": "Hideki Kamiya trova i nuovi Resident Evil troppo spaventosi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111660-hideki-kamiya-trova-i-nuovi-resident-evil-troppo-horror"
-    },
-    {
-      "title": "Anime Preview: trailer e novità per Murciélago, Me and Older Brother Yu e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111575-anime-preview-trailer-e-novita-per-murcielago-me-and-older-brother-yu-e-molto-altro"
-    },
-    {
-      "title": "Toshio Suzuki: l’IA non può replicare l’arte di Hayao Miyazaki",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111694-toshio-suzuki-l%25e2%2580%2599ia-non-puo-replicare-l%25e2%2580%2599arte-di-hayao-miyazaki"
-    },
-    {
-      "title": "Siamo stati alla mostra di Ken il Guerriero a Tokyo (ed è gratis)",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111666-siamo-stati-alla-mostra-di-ken-il-guerriero-a-tokyo-ed-e-gratis"
-    },
-    {
-      "title": "Magic Press: le uscite di settembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111644-magic-press-le-uscite-di-settembre-2026"
-    },
-    {
-      "title": "Sony scappa dal fisico, Xbox lo trasforma in un’arma: dietrofront possibile?",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111612-sony-scappa-dal-fisico-xbox-lo-trasforma-in-un%25e2%2580%2599arma-dietrofront-possibile"
-    },
-    {
-      "title": "Anime Preview: annunci per Hololive, You Are a Four Leaf Clover e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111706-anime-preview-annunci-per-hololive-you-are-a-four-leaf-clover-e-altre-novita"
-    },
-    {
-      "title": "Dragon Ball Super Beerus: rilasciato un nuovo trailer e svelata la data di uscita",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111637-dragon-ball-super-beerus-rilasciato-un-nuovo-trailer-e-svelata-la-data-di-uscita"
-    },
-    {
-      "title": "Keroro Gunso☆: trailer svela il nuovo cast per la serie sul Sergente Rana",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111698-keroro-gunso-trailer-svela-il-nuovo-cast-per-la-serie-sul-sergente-rana"
-    },
-    {
-      "title": "The Witcher non è mai stato così vivo: il futuro passa da Ciri, dal remake e da un gradito ritorno",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111657-the-witcher-non-e-mai-stato-cosi-vivo-il-futuro-passa-da-ciri-dal-remake-e-da-un-gradito-ritorno"
-    },
-    {
-      "title": "Masami Kurumada (I Cavalieri dello Zodiaco) truffato da suoi manager: danni per 25 milioni di euro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111627-masami-kurumada-i-cavalieri-dello-zodiaco-truffato-da-suoi-manager-danni-per-25-milioni-di-euro"
-    },
-    {
-      "title": "Dragon Ball Daima: nella versione italiana mancano i doppiatori storici",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111695-dragon-ball-daima-nella-versione-italiana-mancano-i-doppiatori-storici"
+      "url": "https://www.animeclick.it/news/111678-the-detective-is-already-dead-nuovo-trailer-per-la-seconda-stagione"
     },
     {
       "title": "Eventi e fiere di settembre 2026",
@@ -4204,24 +4029,104 @@
       "url": "https://www.animeclick.it/news/111603-eventi-e-fiere-di-settembre-2026"
     },
     {
-      "title": "Xbox Disc-to-Digital: come convertire i giochi fisici in digitali gratis",
+      "title": "J-POP Manga annuncia nuove opere di Kazuo Kamimura e Tsukasa Hojo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111590-xbox-disc-to-digital-come-convertire-i-giochi-fisici-in-digitali-gratis"
+      "url": "https://www.animeclick.it/news/111624-j-pop-manga-annuncia-nuove-opere-di-kazuo-kamimura-e-tsukasa-hojo"
     },
     {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di agosto 2026",
+      "title": "Toshio Suzuki: l’IA non può replicare l’arte di Hayao Miyazaki",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111614-zipaki-tutte-le-uscite-digitali-e-cartacee-di-agosto-2026"
+      "url": "https://www.animeclick.it/news/111694-toshio-suzuki-l%25e2%2580%2599ia-non-puo-replicare-l%25e2%2580%2599arte-di-hayao-miyazaki"
     },
     {
-      "title": "Netflix, Amazon Prime e Disney+: i palinsesti di settembre 2026",
+      "title": "Fable mostra il suo combat system: combattimenti più fluidi, magia e schivate al rallentatore",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111625-netflix-amazon-prime-e-disney-i-palinsesti-di-settembre-2026"
+      "url": "https://www.animeclick.it/news/111668-fable-mostra-il-suo-combat-system-combattimenti-piu-fluidi-magia-e-schivate-al-rallentatore"
     },
     {
-      "title": "The Detective Is Already Dead: nuovo trailer per la seconda stagione",
+      "title": "Fate/Extra Record: data d'uscita e localizzazione in italiano",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111678-the-detective-is-already-dead-nuovo-trailer-per-la-seconda-stagione"
+      "url": "https://www.animeclick.it/news/111661-fateextra-record-sara-localizzato-in-italiano"
+    },
+    {
+      "title": "Amv: la compilation a tutta musica di agosto 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111615-amv-la-compilation-a-tutta-musica-di-agosto-2026"
+    },
+    {
+      "title": "Addio all'animatore e regista Yūji Yanase",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111658-addio-allanimatore-e-regista-yuji-yanase"
+    },
+    {
+      "title": "Dragon Ball Daima: nella versione italiana mancano i doppiatori storici",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111695-dragon-ball-daima-nella-versione-italiana-mancano-i-doppiatori-storici"
+    },
+    {
+      "title": "Kochikame: trailer e cast per il nuovo anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111663-kochikame-trailer-e-cast-per-il-nuovo-anime"
+    },
+    {
+      "title": "Anime Preview: annunciata la seconda stagione di Victoria of Many Faces e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111708-anime-preview-annunciata-la-seconda-stagione-di-victoria-of-many-faces-e-altre-novita"
+    },
+    {
+      "title": "Yamato Video: le novità di agosto del catalogo di ANiME GENERATION",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111659-yamato-video-le-novita-di-agosto-del-catalogo-di-anime-generation"
+    },
+    {
+      "title": "Dragon Ball Daima su Italia 2 dal 14 settembre con due episodi ogni lunedì in serata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111651-dragon-ball-daima-su-italia-2-dal-14-settembre-con-due-episodi-ogni-lunedi-in-serata"
+    },
+    {
+      "title": "State of Play (e Japan): tutti gli annunci e le novità della doppia diretta PlayStation!",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111646-state-of-play-e-japan-tutti-gli-annunci-e-le-novita-della-doppia-diretta-playstation"
+    },
+    {
+      "title": "L'estate in cui Hikaru è morto: il manga terminerà il 20 ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111619-lestate-in-cui-hikaru-e-morto-il-manga-terminera-il-20-ottobre"
+    },
+    {
+      "title": "GTA 6 conquista Netflix: 31 milioni di visualizzazioni in appena quattro giorni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111630-gta-6-conquista-netflix-31-milioni-di-visualizzazioni-in-appena-quattro-giorni"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: Yuu Watase ospite per Star Comics",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111703-lucca-comics-games-2026-yuu-watase-ospite-per-star-comics"
+    },
+    {
+      "title": "Yoshiki Takaya (Guyver) potrebbe non creare più manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111717-yoshiki-takaya-guyver-potrebbe-non-creare-piu-manga"
+    },
+    {
+      "title": "The Witcher non è mai stato così vivo: il futuro passa da Ciri, dal remake e da un gradito ritorno",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111657-the-witcher-non-e-mai-stato-cosi-vivo-il-futuro-passa-da-ciri-dal-remake-e-da-un-gradito-ritorno"
+    },
+    {
+      "title": "Dragon Ball Super Beerus: rilasciato un nuovo trailer e svelata la data di uscita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111637-dragon-ball-super-beerus-rilasciato-un-nuovo-trailer-e-svelata-la-data-di-uscita"
+    },
+    {
+      "title": "Black Lagoon torna dopo tre anni di attesa e l'autore risponde alle critiche",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111596-black-lagoon-torna-dopo-tre-anni-di-attesa-e-lautore-risponde-alle-critiche"
+    },
+    {
+      "title": "Milan Games Week & Cartoomics 2026: Posuka Demizu non sarà ospite della manifestazione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111682-milan-games-week-cartoomics-2026-posuka-demizu-non-sara-ospite-della-manifestazione"
     },
     {
       "title": "Toshokan: il catalogo dedicato al fumetto asiatico ora è parte di Edizioni BD & J-POP Manga",
@@ -4229,34 +4134,45 @@
       "url": "https://www.animeclick.it/news/111620-toshokan-il-catalogo-dedicato-al-fumetto-asiatico-ora-e-parte-di-edizioni-bd-j-pop-manga"
     },
     {
-      "title": "Box Office Giappone: Chiikawa torna primo, secondo posto per Hakucho to Komori (Delitto a Tokyo)",
+      "title": "Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111707-box-office-giappone-chiikawa-torna-primo-secondo-posto-per-hakucho-to-komori-delitto-a-tokyo"
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it"
+    },
+    {
+      "title": "Mondiali Pokémon 2026: tutti gli annunci della giornata finale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111617-mondiali-pokemon-2026-tutti-gli-annunci-della-giornata-finale"
+    },
+    {
+      "title": "The Apothecary Diaries: The False Imperial Brother: la serie della Speziale diventa un videogioco in uscita nel 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111718-the-apothecary-diaries-the-false-imperial-brother-la-serie-della-speziale-diventa-un-videogioco-in-uscita-nel-2027"
+    },
+    {
+      "title": "A Tale of the Secret Saint: trailer per l'anime in arrivo a ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111699-a-tale-of-the-secret-saint-trailer-per-lanime-in-arrivo-a-ottobre"
+    },
+    {
+      "title": "Box Office Giappone: superato il miliardo di yen al debutto per il nuovo film di Madoka Magica",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111626-box-office-giappone-oltre-1-miliardo-di-yen-al-debutto-e-primo-posto-per-il-nuovo-film-di-madoka-magica"
+    },
+    {
+      "title": "Giappone: dal 1° ottobre le tasse per i residenti stranieri aumentano fino a venti volte",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111602-giappone-dal-1%25c2%25b0-ottobre-le-tasse-per-i-residenti-stranieri-aumentano-fino-a-venti-volte"
     },
     {
       "title": "Il creatore di Gintama parla dello sforzo fisico richiesto dallo scrivere per Weekly Shonen Jump",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111680-il-creatore-di-gintama-parla-dello-sforzo-fisico-richiesto-dallo-scrivere-per-weekly-shonen-jump"
-    },
-    {
-      "title": "The Legend of Zelda 40th Anniversary Direct- Riassunto di tutti gli annunci",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111709-the-legend-of-zelda-40th-anniversary-direct-riassunto-di-tutti-gli-annunci"
-    },
-    {
-      "title": "Aoashi: nuovo trailer della seconda stagione svela la prima opening",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111632-aoashi-nuovo-trailer-della-seconda-stagione-svela-la-prima-opening"
     }
   ],
   "youtube_trends": [
     {
       "title": "[elowisestories ] Midnight di elowisestories #booktok #bibliomanzia #booktokitalia #books #ilmaggiodeilibri #wattpad",
       "url": "https://www.youtube.com/watch?v=XMVsSjR1D6I"
-    },
-    {
-      "title": "[Aveline Row] #perte #darkromance #booktok #booktokitalia #neiperte #wattpaditalia #wattpad #wattpadforyou #books",
-      "url": "https://www.youtube.com/watch?v=wDfWAfIjXiA"
     },
     {
       "title": "[Zemelda] Enemies to love su wattpad #booktokitalia #booktok #bibliomanzia #wattpaditalia #wattpad #booklover",
@@ -4271,6 +4187,10 @@
       "url": "https://www.youtube.com/watch?v=7f_b5EWtnwg"
     },
     {
+      "title": "[Ale_Books12] Storia su Wattpad🩷🎀#booktok #booktokitalia  #storiewattpaditalia  #wattpad #wattpaditalia #neiperte",
+      "url": "https://www.youtube.com/watch?v=cQMSrWD6fvg"
+    },
+    {
       "title": "[Mafalda Cinquetti] Neuer Venedig-Krimi 🇮🇹 Mafalda Cinquetti ist zurück! | Band 4 #booktok #books #bookworm #bookish",
       "url": "https://www.youtube.com/watch?v=v8dhuCsKiJ8"
     },
@@ -4283,16 +4203,8 @@
       "url": "https://www.youtube.com/watch?v=WW4XQTG9B_k"
     },
     {
-      "title": "[Ale_Books12] Storia su Wattpad🩷🎀#booktok #booktokitalia  #storiewattpaditalia  #wattpad #wattpaditalia #neiperte",
-      "url": "https://www.youtube.com/watch?v=cQMSrWD6fvg"
-    },
-    {
       "title": "[Mafalda Cinquetti] Fürs Mittagsbuffet lasse ich heute das graue Venedig zurück  #venedigkrimi #booktok #italienkrimi",
       "url": "https://www.youtube.com/watch?v=vZdxhH0EnPk"
-    },
-    {
-      "title": "[UKANIMEGB ] New Anime Recommendations to watch #animeaddicts #anime #animeweeb #animerecommendation #manga",
-      "url": "https://www.youtube.com/watch?v=lWkBCBz3Tac"
     },
     {
       "title": "[La Gata Otaku y Fujoshi] Enciclopedia My Hero Academia #books #manga #otaku #recommended #booktube",
@@ -4305,18 +4217,6 @@
     {
       "title": "[漫画の時間] 先を越されちゃいました... #漫画 #おすすめ #anime",
       "url": "https://www.youtube.com/watch?v=84NqYmLzaD0"
-    },
-    {
-      "title": "[D.C. Network] Dynamite&#39;s Ben 10 Issue #5 Was Underwhelming | Comic Review",
-      "url": "https://www.youtube.com/watch?v=1KMJgzsj5xw"
-    },
-    {
-      "title": "[Kody Collects] 🤖 DOOM PATROL #1",
-      "url": "https://www.youtube.com/watch?v=FiSQdHB9s9I"
-    },
-    {
-      "title": "[Kody Collects] 😈 DAREDEVIL #6",
-      "url": "https://www.youtube.com/watch?v=Q77b9wxZM7M"
     },
     {
       "title": "[Kody Collects] 🦇 NEW DC COMICS 9/2/26",
@@ -4339,12 +4239,24 @@
       "url": "https://www.youtube.com/watch?v=4qdJfI-qR3U"
     },
     {
+      "title": "[Yuhoo Comic Review] The Most Important Green Lantern Comic?",
+      "url": "https://www.youtube.com/watch?v=5VYL3NPG_Jw"
+    },
+    {
       "title": "[Superman Homepage] The Best Superman Comic of 2026? | Superman: The Stranger #1 Review",
       "url": "https://www.youtube.com/watch?v=uY0s0CD8Pw8"
     },
     {
-      "title": "[Yuhoo Comic Review] The Most Important Green Lantern Comic?",
-      "url": "https://www.youtube.com/watch?v=5VYL3NPG_Jw"
+      "title": "[Noi e la Niura. ] #fumetti #drawing  #comics #graphicnovel  #comicreview  #artstyle#shorts #youtubeshorts #comicshorts",
+      "url": "https://www.youtube.com/watch?v=VU06FDCDcD8"
+    },
+    {
+      "title": "[TheComicBookReport] TBR: What Comic Collections are you Reading? 📚 #comics #comicbooks #tbr",
+      "url": "https://www.youtube.com/watch?v=7Kxmu984Mys"
+    },
+    {
+      "title": "[The Comic Patrol] Legion Of Super-heroes 1 Review #comicbooks #dccomics #dcnextlevel #dcallin #legionofsuperheroes",
+      "url": "https://www.youtube.com/watch?v=i26qUoDBSE4"
     },
     {
       "title": "[Hana's Romance Journal] [Manga Dub]  The 2nd-Gen CEO Demanded Half Price After 15 Years! So I Said Goodbye and Then [RomCom]",
@@ -4359,12 +4271,12 @@
       "url": "https://www.youtube.com/watch?v=uj97r8PADs4"
     },
     {
-      "title": "[Aurora Sofia] i miei nuovi manga BL",
-      "url": "https://www.youtube.com/watch?v=YToPtO22uEw"
+      "title": "[Azuki] AZUKI (Official Trailer)",
+      "url": "https://www.youtube.com/watch?v=A1TrwNyIszs"
     },
     {
-      "title": "[Aurora Sofia] nuovi manga di Ichi the Witch e Dan Da Dan",
-      "url": "https://www.youtube.com/watch?v=pUZIioDK42k"
+      "title": "[Aurora Sofia] i miei nuovi manga BL",
+      "url": "https://www.youtube.com/watch?v=YToPtO22uEw"
     },
     {
       "title": "[AniManCo 9000] Here are Additional Info Regarding Orihime&#39;s new Power #bleach #tybw #subscribe #shorts",
@@ -4379,8 +4291,12 @@
       "url": "https://www.youtube.com/watch?v=k6WzTVZZPcY"
     },
     {
-      "title": "[Azuki] AZUKI (Official Trailer)",
-      "url": "https://www.youtube.com/watch?v=A1TrwNyIszs"
+      "title": "[Rod's 143 Project] Nuovi acquisti manga. Aspettando Hikaru 1 che mi arriva in camion perché regalo di @aurora_sofia",
+      "url": "https://www.youtube.com/watch?v=PTHPeWgMCFQ"
+    },
+    {
+      "title": "[The Ecliptic Philosopher] New Zombie Powers Unlocked #anime #transformation #shorts  #manga #zombie",
+      "url": "https://www.youtube.com/watch?v=HAqHYCrwkI4"
     }
   ]
 }
