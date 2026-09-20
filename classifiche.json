@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-09-19T16:28:21.589410+00:00",
+  "updated_at": "2026-09-20T09:47:46.119587+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -11,10 +11,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788868364748",
+      "title": "Il giorno in cui ho imparato a volermi bene",
+      "author": "",
+      "position": 2,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788836232635",
       "title": "Chimica e Propedeutica Biochimica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
       "author": "",
-      "position": 2,
+      "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
@@ -22,29 +30,21 @@
       "ean": "9788836232567",
       "title": "Biologia e genetica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
       "author": "",
-      "position": 3,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788868364748",
-      "title": "Il giorno in cui ho imparato a volermi bene",
-      "author": "",
       "position": 4,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788836232598",
-      "title": "Fisica generale e biomedica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
-      "author": "",
-      "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788858350218",
       "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
+      "author": "",
+      "position": 5,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788836232598",
+      "title": "Fisica generale e biomedica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
       "author": "",
       "position": 6,
       "category": "generale",
@@ -75,16 +75,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863888782",
-      "title": "Suono elettronico. Manuale per studenti di tecnologie musicali e altri esploratori di suoni. Con File audio per il download",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788863888782",
+      "title": "Suono elettronico. Manuale per studenti di tecnologie musicali e altri esploratori di suoni. Con File audio per il download",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -107,24 +107,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822756350",
-      "title": "Il segreto della libraia di Parigi",
+      "ean": "9788858333006",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858333006",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
+      "ean": "9788822756350",
+      "title": "Il segreto della libraia di Parigi",
       "author": "",
       "position": 16,
       "category": "generale",
@@ -139,24 +139,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788867908325",
+      "title": "Pera Toons. Diario scolastico 2026-2027",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9791224205074",
+      "title": "Cara Debbie",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788867908325",
-      "title": "Pera Toons. Diario scolastico 2026-2027",
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -187,18 +187,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804212928",
-      "title": "Storia della mia vita. Vol. 1",
-      "author": "",
-      "position": 4,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804228943",
       "title": "Tutte le novelle. Vol. 1",
       "author": "",
-      "position": 5,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,7 +198,7 @@
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 6,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,13 +206,21 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
+      "author": "",
+      "position": 7,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804259329",
+      "title": "La cruna dell'ago",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -363,40 +363,40 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822756350",
-      "title": "Il segreto della libraia di Parigi",
+      "ean": "9788822783974",
+      "title": "Il tradimento. The campus series. The score",
       "author": "",
       "position": 26,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822783974",
-      "title": "Il tradimento. The campus series. The score",
+      "ean": "9788822756350",
+      "title": "Il segreto della libraia di Parigi",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788883379079",
-      "title": "1984. Ediz. integrale. Con Segnalibro",
+      "ean": "9791224205074",
+      "title": "Cara Debbie",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9791224205074",
-      "title": "Cara Debbie",
+      "ean": "9788883379079",
+      "title": "1984. Ediz. integrale. Con Segnalibro",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -707,24 +707,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788847739857",
-      "title": "Il pesciolino d'oro. Ediz. a colori",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788854050631",
-      "title": "Frida Kahlo e la sua vita a colori. I mi...",
+      "ean": "9788847739857",
+      "title": "Il pesciolino d'oro. Ediz. a colori",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
+      "ean": "9788858015049",
+      "title": "Ti regalo la luna. Ediz. illustrata",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
@@ -739,18 +739,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834742891",
-      "title": "Giulietta zombie da «Romeo e Giulietta» ...",
-      "author": "",
-      "position": 1,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788898177936",
       "title": "Pompei. La città riscoperta",
       "author": "",
-      "position": 2,
+      "position": 1,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -758,7 +750,7 @@
       "ean": "9788833552910",
       "title": "Ookami rise. Vol. 4",
       "author": "",
-      "position": 3,
+      "position": 2,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -766,7 +758,23 @@
       "ean": "9788865061398",
       "title": "L'opulenza del piccione. Ediz. italiana ...",
       "author": "",
+      "position": 3,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788829306237",
+      "title": "Batman e Cacciatrice. Birds of prey coll...",
+      "author": "",
       "position": 4,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788467498905",
+      "title": "Jemm figlio di Saturno",
+      "author": "",
+      "position": 5,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -774,7 +782,7 @@
       "ean": "9788804520986",
       "title": "Diabolik. Ginko alleato a sorpresa",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -782,7 +790,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -790,7 +798,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -798,7 +806,7 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -806,7 +814,7 @@
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -814,21 +822,13 @@
       "ean": "9788806165819",
       "title": "Il rumore della brina",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788806202347",
       "title": "MAUS",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806233761",
-      "title": "Anne Frank. Diario",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -939,10 +939,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788896275757",
+      "title": "Dante. La Divina Commedia a fumetti",
+      "author": "",
+      "position": 26,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788817180696",
       "title": "Persepolis. Ediz. integrale",
       "author": "",
-      "position": 26,
+      "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -950,39 +958,7 @@
       "ean": "9788822762610",
       "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
-      "position": 27,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788896275757",
-      "title": "Dante. La Divina Commedia a fumetti",
-      "author": "",
       "position": 28,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221957259",
-      "title": "Boruto. Two blue vortex. Vol. 7",
-      "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791256211890",
-      "title": "Un polpo alla gola",
-      "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788868836320",
-      "title": "Tokyo Ghoul. Vol. 14",
-      "author": "",
-      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,7 +966,7 @@
       "ean": "9788822666604",
       "title": "Kagurabachi. Vol. 8",
       "author": "",
-      "position": 32,
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,13 +974,37 @@
       "ean": "9788834941911",
       "title": "Hirayasumi. Vol. 10",
       "author": "",
+      "position": 30,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221904673",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
+      "author": "",
+      "position": 31,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221957259",
+      "title": "Boruto. Two blue vortex. Vol. 7",
+      "author": "",
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791256211890",
+      "title": "Un polpo alla gola",
+      "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828781424",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
+      "ean": "9788868836320",
+      "title": "Tokyo Ghoul. Vol. 14",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1083,10 +1083,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788801069877",
+      "title": "L'eresia di Francesco. Storia di un sant...",
+      "author": "",
+      "position": 10,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804477648",
       "title": "Tantra per due. Una guida per la felicit...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1094,7 +1102,7 @@
       "ean": "9788804499800",
       "title": "Lourdes",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1102,7 +1110,7 @@
       "ean": "9788804500827",
       "title": "Paolo. L'ebreo che fondò il cristianesimo",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1110,7 +1118,7 @@
       "ean": "9788804524502",
       "title": "Ildegarda. Badessa, visionaria, esorcista",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1118,21 +1126,13 @@
       "ean": "9788804543626",
       "title": "Ricominciare da sé",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804546511",
       "title": "Samsara",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804551737",
-      "title": "Con te e senza di te",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1291,34 +1291,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863116304",
-      "title": "Timore e tremore",
+      "ean": "9788810820360",
+      "title": "La Sacra Bibbia. UELCI. Versione ufficia...",
       "author": "",
       "position": 36,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788845907647",
-      "title": "Simboli della scienza sacra",
+      "ean": "9788863116304",
+      "title": "Timore e tremore",
       "author": "",
       "position": 37,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788810820360",
-      "title": "La Sacra Bibbia. UELCI. Versione ufficia...",
-      "author": "",
-      "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817074247",
-      "title": "Tra Cesare e Dio. Come la rivoluzione di...",
-      "author": "",
-      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,7 +1310,31 @@
       "ean": "9788831558839",
       "title": "Fiorisci in pieno inverno. 365 semi per ...",
       "author": "",
+      "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845907647",
+      "title": "Simboli della scienza sacra",
+      "author": "",
+      "position": 39,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788848603836",
+      "title": "Gesù di Nazaret",
+      "author": "",
       "position": 40,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788885742901",
+      "title": "Il Giudeo, il Giudaismo e la Giudaizzazi...",
+      "author": "",
+      "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,7 +1342,7 @@
       "ean": "9788892251496",
       "title": "La Bibbia nuova versione dai testi antic...",
       "author": "",
-      "position": 41,
+      "position": 42,
       "category": "religione",
       "source": "libraccio"
     },
@@ -2155,10 +2163,26 @@
       "source": "giunti"
     },
     {
+      "ean": "9788822782311",
+      "title": "Carmilla e altri racconti di fantasmi e vampiri",
+      "author": "",
+      "position": 4,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788822782311",
+      "title": "Carmilla e altri racconti di fantasmi e...",
+      "author": "Joseph Sheridan Le Fanu",
+      "position": 5,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
       "ean": "9788834442111",
       "title": "Nel santuario delle ali. Le memorie di Lady Trent",
       "author": "",
-      "position": 4,
+      "position": 6,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2166,7 +2190,7 @@
       "ean": "9788834442111",
       "title": "Nel santuario delle ali. Le memorie di ...",
       "author": "Marie Brennan",
-      "position": 5,
+      "position": 7,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2174,7 +2198,7 @@
       "ean": "9788855444316",
       "title": "Il talismano",
       "author": "",
-      "position": 6,
+      "position": 8,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2182,7 +2206,7 @@
       "ean": "9791282205184",
       "title": "Angel down",
       "author": "",
-      "position": 7,
+      "position": 9,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2190,7 +2214,7 @@
       "ean": "9791221937930",
       "title": "Non conosceranno la paura. The Horus heresy. Warhammer. Vol. 19",
       "author": "",
-      "position": 8,
+      "position": 10,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2198,7 +2222,7 @@
       "ean": "9791221937930",
       "title": "Non conosceranno la paura. The Horus he...",
       "author": "",
-      "position": 9,
+      "position": 11,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2206,7 +2230,7 @@
       "ean": "9788855444323",
       "title": "La casa del buio",
       "author": "",
-      "position": 10,
+      "position": 12,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2214,7 +2238,7 @@
       "ean": "9791221937862",
       "title": "Ravenor ritorna. Warhammer 40.000",
       "author": "",
-      "position": 11,
+      "position": 13,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2222,7 +2246,7 @@
       "ean": "9788804776666",
       "title": "Practical magic. La serie",
       "author": "",
-      "position": 12,
+      "position": 14,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2230,7 +2254,7 @@
       "ean": "9788804787136",
       "title": "Queen of faces. Ediz. italiana. Vol. 1",
       "author": "",
-      "position": 13,
+      "position": 15,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2238,7 +2262,7 @@
       "ean": "9788804813620",
       "title": "Poltergeist. Storie di case infestate, di luoghi e di presenze",
       "author": "",
-      "position": 14,
+      "position": 16,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2246,7 +2270,7 @@
       "ean": "9788804813620",
       "title": "Poltergeist. Storie di case infestate, ...",
       "author": "",
-      "position": 15,
+      "position": 17,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2254,7 +2278,7 @@
       "ean": "9788850271542",
       "title": "Il demone incarnato",
       "author": "",
-      "position": 16,
+      "position": 18,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2262,7 +2286,7 @@
       "ean": "9788850271535",
       "title": "L'ora delle streghe",
       "author": "",
-      "position": 17,
+      "position": 19,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2270,7 +2294,7 @@
       "ean": "9788850271559",
       "title": "Taltos. Il ritorno",
       "author": "",
-      "position": 18,
+      "position": 20,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2278,7 +2302,7 @@
       "ean": "9788804820246",
       "title": "L'alba sulla mietitura. Hunger games",
       "author": "",
-      "position": 19,
+      "position": 21,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2286,7 +2310,7 @@
       "ean": "9788822792389",
       "title": "La città sotto l’ombra delle stelle",
       "author": "",
-      "position": 20,
+      "position": 22,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2294,7 +2318,7 @@
       "ean": "9788834442715",
       "title": "Bloody Black. La vendetta del cuore nero",
       "author": "",
-      "position": 21,
+      "position": 23,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2302,7 +2326,7 @@
       "ean": "9788893907606",
       "title": "L'aquila e i lupi",
       "author": "",
-      "position": 22,
+      "position": 24,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2310,7 +2334,7 @@
       "ean": "9788852256059",
       "title": "Grimorio Le Radici del male Disney Villains",
       "author": "",
-      "position": 23,
+      "position": 25,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2318,7 +2342,7 @@
       "ean": "9788852256059",
       "title": "Grimorio Le Radici del male Disney Vill...",
       "author": "Walt Disney",
-      "position": 24,
+      "position": 26,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2326,7 +2350,7 @@
       "ean": "9791281656635",
       "title": "Il corso del cuore",
       "author": "",
-      "position": 25,
+      "position": 27,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2334,15 +2358,7 @@
       "ean": "9791223271414",
       "title": "Male d'amore",
       "author": "",
-      "position": 26,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830155411",
-      "title": "Lo Hobbit",
-      "author": "",
-      "position": 27,
+      "position": 28,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -4098,139 +4114,9 @@
       "url": "https://www.animeclick.it/news/111767-j-pop-manga-annuncia-smoke-di-oh-great-e-metaphor-refantazio"
     },
     {
-      "title": "Anime Preview: annunci e novità per Eat-Man, SSS-Class Revival Hunter e molto altro",
+      "title": "Yoshiki Takaya (Guyver) potrebbe non creare più manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111799-anime-preview-annunci-e-novita-per-eat-man-sss-class-revival-hunter-e-molto-altro"
-    },
-    {
-      "title": "Genshin Impact presenta ufficialmente le novità del sesto anniversario",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111739-genshin-impact-presenta-ufficialmente-le-novita-del-sesto-anniversario"
-    },
-    {
-      "title": "The Vermilion Mask: nuovo trailer per l'anime soprannaturale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111738-the-vermilion-mask-nuovo-trailer-per-lanime-soprannaturale"
-    },
-    {
-      "title": "Physint: a sorpresa Sony abbandona il progetto di Hideo Kojima e Xbox coglie la palla al balzo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111721-physint-a-sorpresa-sony-abbandona-il-progetto-di-hideo-kojima-e-xbox-coglie-la-palla-al-balzo"
-    },
-    {
-      "title": "Akihiro Miwa, l'icona culturale che Hayao Miyazaki ha voluto in Principessa Mononoke",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111123-akihiro-miwa-licona-culturale-che-hayao-miyazaki-ha-voluto-in-principessa-mononoke"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: Tōru Fujisawa non sarà ospite della manifestazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111713-lucca-comics-games-2026-toru-fujisawa-non-sara-ospite-della-manifestazione"
-    },
-    {
-      "title": "Anime Preview: novità per Firefly Wedding e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111802-anime-preview-novita-per-firefly-wedding-e-molto-altro"
-    },
-    {
-      "title": "BlizzCon 2026: tutti gli annunci, da Diablo V a StarCraft, World of Warcraft e Overwatch",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111789-blizzcon-2026-tutti-gli-annunci-da-diablo-v-a-starcraft-world-of-warcraft-e-overwatch"
-    },
-    {
-      "title": "5 motivi per innamorarsi della follia artistica di Amanita Design",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111700-i-5-migliori-giochi-di-amanita-design"
-    },
-    {
-      "title": "KEMURI non arriverà su Xbox al lancio: Nakamura spiega le difficoltà di un piccolo studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111762-kemuri-non-arrivera-su-xbox-al-lancio-nakamura-spiega-le-difficolta-di-un-piccolo-studio"
-    },
-    {
-      "title": "Hello, I am a Witch: trailer per la strega creatrice di pozioni d'amore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111769-hello-i-am-a-witch-trailer-per-la-strega-creatrice-di-pozioni-damore"
-    },
-    {
-      "title": "Publisher chiede il 90% dei ricavi a uno sviluppatore indie: \"Così è insostenibile\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111763-publisher-chiede-il-90-dei-ricavi-a-uno-sviluppatore-indie-cosi-e-insostenibile"
-    },
-    {
-      "title": "A Wild Last Boss Appeared: trailer per la seconda stagione in arrivo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111752-a-wild-last-boss-appeared-trailer-per-la-seconda-stagione-in-arrivo"
-    },
-    {
-      "title": "Uncle's Obsession with Cute Things: nuovo trailer per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111723-uncles-obsession-with-cute-things-nuovo-trailer-per-l-anime"
-    },
-    {
-      "title": "Sony revoca a Kojima Productions l'accesso al motore grafico Decima?",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111741-sony-revoca-a-kojima-productions-laccesso-al-motore-grafico-decima-a-rischio-lo-sviluppo-di-physint"
-    },
-    {
-      "title": "Intervista a Gastronogeek: dalla Japan Expo, ecco il cuoco shōnen!",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111337-intervista-a-gastronogeek-dalla-japan-expo-il-cuoco-shonen"
-    },
-    {
-      "title": "Nintendo Direct settembre 2026: tutti gli annunci dello showcase",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111714-nintendo-direct-settembre-2026-tutti-gli-annunci-dello-showcase"
-    },
-    {
-      "title": "Milan Games Week & Cartoomics 2026: gli attori E. Rudd e T. Skylar di One Piece live action ospiti della fiera",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111760-milan-games-week-cartoomics-2026-gli-attori-e-rudd-e-t-skylar-di-one-piece-live-action-ospiti-della-fiera"
-    },
-    {
-      "title": "The Apothecary Diaries: The False Imperial Brother: la serie della speziale diventa un videogioco in uscita nel 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111718-the-apothecary-diaries-the-false-imperial-brother-la-serie-della-speziale-diventa-un-videogioco-in-uscita-nel-2027"
-    },
-    {
-      "title": "Sonic Racing Crossworlds: il nuovo season pass è il sogno degli amanti della cultura giapponese",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111779-sonic-racing-crossworlds-il-nuovo-season-pass-e-il-sogno-degli-amanti-della-cultura-giapponese"
-    },
-    {
-      "title": "Anime Preview: novità per Black Clover 2, Spice and Wolf 2 e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111715-anime-preview-nuovi-trailer-per-black-clover-2-spice-and-wolf-2-e-molto-altro"
-    },
-    {
-      "title": "Anime Preview: novità per il nuovo film di Doraemon, The Idolm@ster e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111792-anime-preview-novita-per-il-nuovo-film-di-doraemon-the-idolmaster-e-molto-altro"
-    },
-    {
-      "title": "Non solo anime: nuova serie per Sonic, Diablo e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111781-non-solo-anime-nuova-serie-per-sonic-diablo-e-molto-altro"
-    },
-    {
-      "title": "Anime Preview: annunci per Hololive, You Are a Four Leaf Clover e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111706-anime-preview-annunci-per-hololive-you-are-a-four-leaf-clover-e-altre-novita"
-    },
-    {
-      "title": "Un'italiana nell'industria degli anime: intervista alla director Misu Yamaneko",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111672-unitaliana-nellindustria-degli-anime-intervista-alla-director-misu-yamaneko"
-    },
-    {
-      "title": "SPYAIR: la band di Haikyu!! e Gintama arriva in concerto a Milano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111795-spyair-la-band-di-haikyu-e-gintama-arriva-in-concerto-a-milano"
-    },
-    {
-      "title": "Crunchyroll annuncia il palinsesto dell'autunno 2026 e nuovi doppiaggi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111775-crunchyroll-annuncia-il-palinsesto-dellautunno-2026-e-nuovi-doppiaggi"
+      "url": "https://www.animeclick.it/news/111717-yoshiki-takaya-guyver-potrebbe-non-creare-piu-manga"
     },
     {
       "title": "Snowball Earth: informazioni sul doppiaggio di Disney+",
@@ -4238,16 +4124,142 @@
       "url": "https://www.animeclick.it/news/111794-snowball-earth-informazioni-sul-doppiaggio-di-disney"
     },
     {
+      "title": "The Apothecary Diaries: The False Imperial Brother: la serie della speziale diventa un videogioco in uscita nel 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111718-the-apothecary-diaries-the-false-imperial-brother-la-serie-della-speziale-diventa-un-videogioco-in-uscita-nel-2027"
+    },
+    {
+      "title": "Box Office Giappone: Chiikawa inarrestabile, debutta la versione live action di Look Back",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111774-box-office-giappone-chiikawa-inarrestabile-debutta-la-versione-live-action-di-look-back"
+    },
+    {
+      "title": "#I'm Looking For Zombie: Trailer e novità per il post apocalittico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111780-anime-preview-novita-per-star-wars-visions-ghost-madhouse-e-non-solo"
+    },
+    {
+      "title": "Burger King: annunciato il menù speciale di Dragon Ball Super",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111768-burger-king-annunciato-il-menu-speciale-di-dragonball-super"
+    },
+    {
       "title": "Reborn as a Space Mercenary: nuovo trailer, nuova visual e ulteriori informazioni sul cast",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111782-reborn-as-a-space-mercenary-nuovo-trailer-nuova-visual-e-ulteriori-informazioni-sul-cast"
+    },
+    {
+      "title": "Jujutsu Kaisen Rumble Survivaton viene ufficialmente rimandato al 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111777-jujutsu-kaisen-rumble-survivaton-viene-ufficialmente-rimandato-al-2027"
+    },
+    {
+      "title": "KEMURI non arriverà su Xbox al lancio: Nakamura spiega le difficoltà di un piccolo studio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111762-kemuri-non-arrivera-su-xbox-al-lancio-nakamura-spiega-le-difficolta-di-un-piccolo-studio"
+    },
+    {
+      "title": "SPYAIR: la band di Haikyu!! e Gintama arriva in concerto a Milano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111795-spyair-la-band-di-haikyu-e-gintama-arriva-in-concerto-a-milano"
+    },
+    {
+      "title": "Wo Long 2: Wings of Ember ha una data di uscita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111784-wo-long-2-wings-of-ember-ha-una-data-di-uscita"
+    },
+    {
+      "title": "Secondo alcuni dati oltre l'85% degli sviluppatori giapponesi usa l'IA generativa",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111804-secondo-alcuni-dati-oltre-l85-degli-sviluppatori-giapponesi-usa-lia-generativa"
+    },
+    {
+      "title": "Uncle's Obsession with Cute Things: nuovo trailer per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111723-uncles-obsession-with-cute-things-nuovo-trailer-per-l-anime"
+    },
+    {
+      "title": "Suikoden: trailer per l'anime in arrivo a ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111801-suikoden-trailer-per-lanime-in-arrivo-a-ottobre"
+    },
+    {
+      "title": "Nuove polemiche in Giappone su turista che balla al Santuario Fushimi Inari",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111726-nuove-polemiche-in-giappone-su-turista-che-balla-al-santuario-fushimi-inari"
+    },
+    {
+      "title": "5 motivi per innamorarsi della follia artistica di Amanita Design",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111700-i-5-migliori-giochi-di-amanita-design"
+    },
+    {
+      "title": "Publisher chiede il 90% dei ricavi a uno sviluppatore indie: \"Così è insostenibile\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111763-publisher-chiede-il-90-dei-ricavi-a-uno-sviluppatore-indie-cosi-e-insostenibile"
+    },
+    {
+      "title": "J-POP Manga annuncia Witchriv e non solo, novità per Sensei Manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111805-j-pop-manga-annuncia-witchriv-e-non-solo-novita-per-sensei-manga"
+    },
+    {
+      "title": "Anime Preview: novità per Firefly Wedding e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111802-anime-preview-novita-per-firefly-wedding-e-molto-altro"
+    },
+    {
+      "title": "Tougen Anki: trailer, data di debutto e altre novità per il Nikko Kegon Falls Arc",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111812-tougen-anki-trailer-data-di-debutto-e-altre-novita-per-il-nikko-kegon-falls-arc"
+    },
+    {
+      "title": "Grand Theft Auto VI: The Album in arrivo il 19 novembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111793-grand-theft-auto-vi-the-album-in-arrivo-il-19-novembre"
+    },
+    {
+      "title": "Anime Preview: nuovo trailer per Madoka Magica Walpurgis e tanto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111743-anime-preview-nuovo-trailer-per-madoka-magica-walpurgis-e-tanto-altro"
+    },
+    {
+      "title": "The Iceblade Sorcerer Shall Rule the World: trailer per la seconda stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111734-the-iceblade-sorcerer-shall-rule-the-world-trailer-per-la-seconda-stagione"
+    },
+    {
+      "title": "Doppiaggio Dragon Ball Daima: il comunicato congiunto di Gianluca Iacono e Claudio Moneta",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111736-doppiaggio-dragon-ball-daima-il-comunicato-congiunto-di-gianluca-iacono-e-claudio-moneta"
+    },
+    {
+      "title": "Fine di un'era per Bungie: in subaffitto il quartier generale dei sogni da 20.000 metri quadri",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111696-fine-di-unera-per-bungie-in-subaffitto-il-quartier-generale-dei-sogni-da-20000-metri-quadri"
+    },
+    {
+      "title": "Witch on the Holy Night dal 28 gennaio 2027 al cinema per Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111722-witch-on-the-holy-night-dal-28-gennaio-2027-al-cinema-per-crunchyroll"
+    },
+    {
+      "title": "Un'italiana nell'industria degli anime: intervista alla director Misu Yamaneko",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111672-unitaliana-nellindustria-degli-anime-intervista-alla-director-misu-yamaneko"
+    },
+    {
+      "title": "Crunchyroll annuncia il palinsesto dell'autunno 2026 e nuovi doppiaggi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111775-crunchyroll-annuncia-il-palinsesto-dellautunno-2026-e-nuovi-doppiaggi"
+    },
+    {
+      "title": "Anime Preview: novità per Bleach TYBW, Black Torch e altri anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111748-anime-preview-novita-per-bleach-tybw-black-torch-e-altri-anime"
     }
   ],
   "youtube_trends": [
-    {
-      "title": "[mjrage] #libri #wattpad #wattpadstories #booktok #books #booktube #romance #darkromance #enemiestolovers",
-      "url": "https://www.youtube.com/watch?v=Nd4RVX9ZHJg"
-    },
     {
       "title": "[Victoria📚🎀] Obv il video è ironicooo state attenti a scuola 🫶🏻🫂 #booktok #bibliomanzia #booktokitalia #books",
       "url": "https://www.youtube.com/watch?v=XnYxbeCdkmY"
@@ -4262,6 +4274,10 @@
     },
     {
       "title": "[Rita Patanè] “Anima di Ghiaccio” di ritaapatan su Wattpad❄️ #booktokitalia #booktok #wattpaditalia #booktokita",
+      "url": "https://www.youtube.com/watch?v=7H0UjrZeom0"
+    },
+    {
+      "title": "[Rita Patanè] “Anima di Ghiaccio” di ritaapatan su Wattpad❄️ #booktokitalia #booktok #wattpaditalia #booktokita",
       "url": "https://www.youtube.com/watch?v=pDyZyzE2Nb8"
     },
     {
@@ -4269,20 +4285,20 @@
       "url": "https://www.youtube.com/watch?v=7GTUBytlDiQ"
     },
     {
-      "title": "[I.M Redwright author] Demon Slayer Fans Will Love This Epic Fantasy Series 🔥 #demonslayer  #booktok #booktubetbr #fantasy",
-      "url": "https://www.youtube.com/watch?v=2OhA-LG8ZJQ"
+      "title": "[Giorgia Saolini] #romanziconsigliati #loveforbooks #libribooktokita #booktokitalia #booktok #booklover #books #libri",
+      "url": "https://www.youtube.com/watch?v=gGafc2aH_Z4"
     },
     {
       "title": "[Rita Patanè] “Anima di Ghiaccio” di ritaapatan su Wattpad❄️ #booktokitalia #booktok #wattpaditalia #booktokita",
-      "url": "https://www.youtube.com/watch?v=7H0UjrZeom0"
+      "url": "https://www.youtube.com/watch?v=ulhHvWZi6J8"
     },
     {
       "title": "[Rita Patanè] “Anima di Ghiaccio” di ritaapatan su Wattpad❄️ #booktokitalia #booktok #wattpaditalia #booktokita",
       "url": "https://www.youtube.com/watch?v=7JRTaUuvmX0"
     },
     {
-      "title": "[Rita Patanè] “ANIMA DI GHIACCIO” di ritaapatan su wattpad❄️ #book #booktok #booktokita #booktube #libro #wattpad",
-      "url": "https://www.youtube.com/watch?v=qBVswwiqoQA"
+      "title": "[Drama Subtext Lab] 【Eng】Kneel! That&#39;s the Dragon Rider#DramaBox#englishdrama #booktok #movie #adopt",
+      "url": "https://www.youtube.com/watch?v=g4LUUBbgUjs"
     },
     {
       "title": "[Cupcake_galaxy🧁] 😋#relatable#fypシ#mathhomework#school#funny#recommended#anime#manga",
@@ -4337,6 +4353,10 @@
       "url": "https://www.youtube.com/watch?v=GEvFsOuI77M"
     },
     {
+      "title": "[Playoff Comics] Clayface Comic Recommendations!! #batman #clayface #dcu #dccomics #comics",
+      "url": "https://www.youtube.com/watch?v=lSGuE_GJRN8"
+    },
+    {
       "title": "[iFanboy] Superman&#39;s Secret Third Weakness Revealed! #superman #dccomics #comics",
       "url": "https://www.youtube.com/watch?v=4l6CDKPEqbE"
     },
@@ -4349,10 +4369,6 @@
       "url": "https://www.youtube.com/watch?v=j5KQKFvhSG4"
     },
     {
-      "title": "[TheComicBookReport] Black Widow Modern Era Epic Collections 🕷️ #blackwidow #marvel #comics",
-      "url": "https://www.youtube.com/watch?v=_StQCuhcanA"
-    },
-    {
       "title": "[manganimist] TWO NEW HUNTER x HUNTER UPDATES‼️",
       "url": "https://www.youtube.com/watch?v=yPocDRCGN_o"
     },
@@ -4361,36 +4377,36 @@
       "url": "https://www.youtube.com/watch?v=kzCxQjpwnw4"
     },
     {
-      "title": "[Ayasaki-san] [Manga Dub] My childhood friend thought I was married and was shocked... [RomCom]",
-      "url": "https://www.youtube.com/watch?v=dW32G7o7FDk"
+      "title": "[BrokenDaydream94] He Married His Childhood Friend",
+      "url": "https://www.youtube.com/watch?v=PWLZ0oza_ZA"
     },
     {
       "title": "[Ani Amanda] Exam Morning Hit, and My Sister Opened Her Bag—EVERY Required Item Was Missing All at Once Today",
       "url": "https://www.youtube.com/watch?v=jBam36ZnXOc"
     },
     {
-      "title": "[Ani Amanda] Rebirth, I Switched Banquet Tables—She Waited Alone While My Name Was Called for the Grand Prize",
-      "url": "https://www.youtube.com/watch?v=icxt5B6hlLY"
-    },
-    {
       "title": "[aricyo52] One Of The Most Hilarious New Anime Coming Out!",
       "url": "https://www.youtube.com/watch?v=3tyanpBdVp0"
-    },
-    {
-      "title": "[BrokenDaydream94] He Married His Childhood Friend",
-      "url": "https://www.youtube.com/watch?v=PWLZ0oza_ZA"
     },
     {
       "title": "[Arkantos] 4 NUOVI FILM ANIME nei CINEMA ITALIANI!",
       "url": "https://www.youtube.com/watch?v=lt8kv0TmflY"
     },
     {
-      "title": "[Anime Balls Deep Clips] Saitama vs New Generation Strongest Heros Power Shocked Everyone - One Punch Man",
-      "url": "https://www.youtube.com/watch?v=oE8VHXM9m2Y"
-    },
-    {
       "title": "[Nerdando Insieme] Quindi… cosa sto leggendo? | ECCO le MIE letture MANGA",
       "url": "https://www.youtube.com/watch?v=0c81wHKTgPo"
+    },
+    {
+      "title": "[Fumetteria Terramare] 📦 Nuovo pacco, nuovi arrivi, nuove tentazioni! 👀🔥 #manga #mangaedit #unboxing #unboxingvideo",
+      "url": "https://www.youtube.com/watch?v=2Wq2Mxz6TV4"
+    },
+    {
+      "title": "[Professor Yuki] Il MANGA Pokémon è un’altra realtà? #Yukimanga",
+      "url": "https://www.youtube.com/watch?v=EojS5AZqnAE"
+    },
+    {
+      "title": "[DANI DARK COMICS] NUOVI ACQUISTI  MANGA E FUMETTI DALLA PANINI SETTEMBRE 2026",
+      "url": "https://www.youtube.com/watch?v=qh8QTwkCL2Q"
     }
   ]
 }
