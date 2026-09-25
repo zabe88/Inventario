@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-09-25T10:10:49.280916+00:00",
+  "updated_at": "2026-09-25T17:57:31.602927+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -11,32 +11,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788868364748",
-      "title": "Il giorno in cui ho imparato a volermi bene",
+      "ean": "9788858350218",
+      "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
       "author": "",
       "position": 2,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858350218",
-      "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
+      "ean": "9788868364748",
+      "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788836232635",
-      "title": "Chimica e Propedeutica Biochimica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
+      "ean": "9788828869269",
+      "title": "Manuale di diritto privato",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788828869269",
-      "title": "Manuale di diritto privato",
+      "ean": "9788836232635",
+      "title": "Chimica e Propedeutica Biochimica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -67,8 +67,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224206385",
-      "title": "First lady per caso",
+      "ean": "9791221120059",
+      "title": "Diritto costituzionale",
       "author": "",
       "position": 9,
       "category": "generale",
@@ -83,8 +83,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791221120059",
-      "title": "Diritto costituzionale",
+      "ean": "9791224206385",
+      "title": "First lady per caso",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -99,18 +99,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788808639561",
-      "title": "Zingarelli 2026. Vocabolario della lingua italiana. Con Contenuto digitale (fornito elettronicamente). Con Contenuto digitale per download",
-      "author": "",
-      "position": 13,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788858333006",
       "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,31 +110,7 @@
       "ean": "9788858333013",
       "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
-      "position": 15,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788836232581",
-      "title": "Biologia cellulare e principi di Genetica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221121209",
-      "title": "Diritto privato. Linee essenziali",
-      "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822787149",
-      "title": "Il contratto. The deal",
-      "author": "",
-      "position": 18,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
@@ -150,13 +118,45 @@
       "ean": "9791221109894",
       "title": "Introduzione all'economia aziendale. Il sistema delle operazioni e le condizioni di equilibrio aziendale",
       "author": "",
-      "position": 19,
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221121209",
+      "title": "Diritto privato. Linee essenziali",
+      "author": "",
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788836232581",
+      "title": "Biologia cellulare e principi di Genetica. Manuale conforme al Syllabus per il semestre filtro 2026-2027. Con assistente virtuale",
+      "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822787149",
+      "title": "Il contratto. The deal",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788808639561",
+      "title": "Zingarelli 2026. Vocabolario della lingua italiana. Con Contenuto digitale (fornito elettronicamente). Con Contenuto digitale per download",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -339,16 +339,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791224206385",
-      "title": "First lady per caso",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 23,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9791224206385",
+      "title": "First lady per caso",
       "author": "",
       "position": 24,
       "category": "narrativa",
@@ -371,8 +371,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822788351",
-      "title": "Una di famiglia",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 27,
       "category": "narrativa",
@@ -387,16 +387,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788822788351",
+      "title": "Una di famiglia",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788822793805",
+      "title": "Nella casa dei segreti",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -691,18 +691,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834740460",
-      "title": "Le avventure di Pinocchio. Ediz. integrale",
-      "author": "",
-      "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788867148974",
       "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
-      "position": 38,
+      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,7 +702,7 @@
       "ean": "9788858015049",
       "title": "Ti regalo la luna. Ediz. illustrata",
       "author": "",
-      "position": 39,
+      "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,7 +710,7 @@
       "ean": "9788883622908",
       "title": "Pezzettino. Ediz. illustrata",
       "author": "",
-      "position": 40,
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,13 +718,21 @@
       "ean": "9791259572790",
       "title": "Imparo a tracciare. Ediz. a colori",
       "author": "",
+      "position": 40,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788831018869",
+      "title": "Il mio migliore amico è un fantasma",
+      "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9791221957266",
-      "title": "Chainsaw man. Vol. 23",
+      "ean": "9788829608959",
+      "title": "Il ladro di zucche. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -939,24 +939,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788896275757",
-      "title": "Dante. La Divina Commedia a fumetti",
+      "ean": "9788893514668",
+      "title": "John Constantine. Hellblazer",
       "author": "",
       "position": 26,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791221904673",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
+      "ean": "9788896275757",
+      "title": "Dante. La Divina Commedia a fumetti",
       "author": "",
       "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788893514668",
-      "title": "John Constantine. Hellblazer",
+      "ean": "9791221904673",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
       "author": "",
       "position": 28,
       "category": "fumetti",
@@ -995,16 +995,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834941973",
-      "title": "L'estate in cui Hikaru è morto. Vol. 8",
+      "ean": "9788834941911",
+      "title": "Hirayasumi. Vol. 10",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788834941911",
-      "title": "Hirayasumi. Vol. 10",
+      "ean": "9788834941973",
+      "title": "L'estate in cui Hikaru è morto. Vol. 8",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1283,26 +1283,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817203944",
-      "title": "Il centro della vita. Il fatto di Cristo...",
+      "ean": "9788811001430",
+      "title": "Lettera d'amore alla madre Terra",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804813163",
-      "title": "Profeti del buio. Potere, manipolazione,...",
+      "ean": "9788817203944",
+      "title": "Il centro della vita. Il fatto di Cristo...",
       "author": "",
       "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788811001430",
-      "title": "Lettera d'amore alla madre Terra",
-      "author": "",
-      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1302,23 @@
       "ean": "9788810820360",
       "title": "La Sacra Bibbia. UELCI. Versione ufficia...",
       "author": "",
+      "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804813163",
+      "title": "Profeti del buio. Potere, manipolazione,...",
+      "author": "",
       "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804745440",
+      "title": "Profondo come il mare, leggero come il c...",
+      "author": "",
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,7 +1326,7 @@
       "ean": "9788830154285",
       "title": "Ci vuole coraggio per amare. Noi stessi,...",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,21 +1334,13 @@
       "ean": "9788833913070",
       "title": "Il segreto del fiore d'oro. Un libro di ...",
       "author": "",
-      "position": 40,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788868948955",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
-      "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788883371493",
-      "title": "I fioretti di San Francesco. Ediz. integ...",
+      "ean": "9788837235758",
+      "title": "Introduzione alla storia del Cristianesi...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -4009,54 +4009,9 @@
   ],
   "manga_trends": [
     {
-      "title": "The Blood of Dawnwalker- Recensione: Scelte pesanti e conseguenze brutali",
+      "title": "Lucca Comics & Games 2026: Saka Mikami ospite per J-POP Manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111765-the-blood-of-dawnwalker-la-recensione"
-    },
-    {
-      "title": "Anime Preview: trailer e novità per Magic Knight Rayearth e altre serie autunnali",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111844-anime-preview-trailer-e-novita-per-magic-knight-rayearth-e-altre-serie-autunnali"
-    },
-    {
-      "title": "Dengeki Daisy: nuovo trailer per la trasposizione del manga di Kyōsuke Motomi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111830-elettroshock-daisy-nuovo-trailer-per-la-trasposizione-del-manga-di-kyosuke-motomi"
-    },
-    {
-      "title": "#I'm Looking For Zombie: Trailer e novità per il post apocalittico",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111780-anime-preview-novita-per-star-wars-visions-ghost-madhouse-e-non-solo"
-    },
-    {
-      "title": "Dragon Quest supera i 100 milioni di copie vendute",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111840-dragon-quest-supera-i-100-milioni-di-copie-vendute"
-    },
-    {
-      "title": "Anteprima 421: annunci e altre novità per Planet Manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111771-anteprima-421-annunci-e-altre-novita-per-planet-manga"
-    },
-    {
-      "title": "La nuova era degli anime: come streaming e social stanno ridisegnando il fandom",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111729-la-nuova-era-degli-anime-come-streaming-e-social-stanno-ridisegnando-il-fandom"
-    },
-    {
-      "title": "5 motivi per innamorarsi della follia artistica di Amanita Design",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111700-i-5-migliori-giochi-di-amanita-design"
-    },
-    {
-      "title": "Intervista esclusiva all'animatore Hisashi Kagawa: da Sailor Moon alla IA",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111759-intervista-esclusiva-allanimatore-hisashi-kagawa-da-sailor-moon-alla-ia"
-    },
-    {
-      "title": "Anime Preview: Nuova stagione per Yomi no tsugai e non solo...",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111829-anime-preview-nuova-stagione-per-yomi-no-tsugai-e-non-solo"
+      "url": "https://www.animeclick.it/news/111845-lucca-comics-games-2026-saka-mikami-ospite-per-j-pop-manga"
     },
     {
       "title": "Mushoku Tensei III, arriva “Il diario”: persino l’autore sembra aver bisogno di un drink (spoiler ep.13)",
@@ -4064,69 +4019,9 @@
       "url": "https://www.animeclick.it/news/111819-mushoku-tensei-iii-arriva-il-diario-persino-l-autore-sembra-aver-bisogno-di-un-drink"
     },
     {
-      "title": "Lego annuncia finalmente la collaborazione con Dragon Ball",
+      "title": "Il Giappone supera per la prima volta i centomila centenari",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111839-lego-annuncia-finalmente-la-collaborazione-con-dragon-ball"
-    },
-    {
-      "title": "Alya Sometimes Hides Her Feelings in Russian: trailer per la seconda stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111821-alya-sometimes-hides-her-feelings-in-russian-trailer-per-la-seconda-stagione"
-    },
-    {
-      "title": "Anime Preview: trailer e novità per Grand Blue, Witch and Mercenary e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111838-anime-preview-trailer-e-novita-per-grand-blue-witch-and-mercenary-e-molto-altro"
-    },
-    {
-      "title": "Non solo anime: nuova serie per Sonic, Diablo e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111781-non-solo-anime-nuova-serie-per-sonic-diablo-e-molto-altro"
-    },
-    {
-      "title": "Anime Preview: Kami-sama Gakkō no Ochikobore, Mobile Suit Gundam RG XARX-ZERO e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111800-anime-preview-kami-sama-gakko-no-ochikobore-mobile-suit-gundam-rg-xarx-zero-e-molto-altro"
-    },
-    {
-      "title": "Hello, I am a Witch: trailer per la strega creatrice di pozioni d'amore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111769-hello-i-am-a-witch-trailer-per-la-strega-creatrice-di-pozioni-damore"
-    },
-    {
-      "title": "Final Fantasy VII Revelation: aumento automatico del livello per chi non vuole grindare",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111831-final-fantasy-vii-revelation-aumento-automatico-del-livello-per-chi-non-vuole-grindare"
-    },
-    {
-      "title": "Anime Preview: novità per Firefly Wedding e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111802-anime-preview-novita-per-firefly-wedding-e-molto-altro"
-    },
-    {
-      "title": "Top 100 fumetti più venduti in Italia a luglio 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111757-top-100-fumetti-piu-venduti-in-italia-a-luglio-2026"
-    },
-    {
-      "title": "Suikoden: trailer per l'anime in arrivo a ottobre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111801-suikoden-trailer-per-lanime-in-arrivo-a-ottobre"
-    },
-    {
-      "title": "Sonic stava per essere cancellato: il successo del film ha salvato la storica mascotte SEGA",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111842-sonic-stava-per-essere-cancellato-il-successo-del-film-ha-salvato-la-storica-mascotte-sega"
-    },
-    {
-      "title": "Le condizioni di lavoro nell'animazione stanno davvero migliorando? Parla il CEO di Bibury",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111816-le-condizioni-di-lavoro-nellanimazione-stanno-davvero-migliorando-parla-il-ceo-di-bibury"
-    },
-    {
-      "title": "Jujutsu Kaisen Rumble Survivaton viene ufficialmente rimandato al 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111777-jujutsu-kaisen-rumble-survivaton-viene-ufficialmente-rimandato-al-2027"
+      "url": "https://www.animeclick.it/news/111832-il-giappone-supera-per-la-prima-volta-i-centomila-centenari"
     },
     {
       "title": "Magic: the Gathering Reality Fracture - Data di lancio, prodotti e contenuti",
@@ -4134,9 +4029,34 @@
       "url": "https://www.animeclick.it/news/111796-magic-the-gathering-reality-fracture-data-di-lancio-prodotti-e-contenuti"
     },
     {
-      "title": "Anime Preview: novità per il nuovo film di Doraemon, The Idolm@ster e molto altro",
+      "title": "Snowball Earth: informazioni sul doppiaggio di Disney+",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111792-anime-preview-novita-per-il-nuovo-film-di-doraemon-the-idolmaster-e-molto-altro"
+      "url": "https://www.animeclick.it/news/111794-snowball-earth-informazioni-sul-doppiaggio-di-disney"
+    },
+    {
+      "title": "Japan Matsuri: la nostra intervista a Yumiko Igarashi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111817-japan-matsuri-la-nostra-intervista-a-yumiko-igarashi"
+    },
+    {
+      "title": "Dragon Quest supera i 100 milioni di copie vendute",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111840-dragon-quest-supera-i-100-milioni-di-copie-vendute"
+    },
+    {
+      "title": "Il monologo della speziale: nuovo trailer per la terza stagione, svelato l'artista dell'ending",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111852-il-monologo-della-speziale-nuovo-trailer-per-la-terza-stagione-svelato-l-artista-dell-ending"
+    },
+    {
+      "title": "Anime Preview: Nuova stagione per Yomi no tsugai e non solo...",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111829-anime-preview-nuova-stagione-per-yomi-no-tsugai-e-non-solo"
+    },
+    {
+      "title": "Bride of the Barrier Master: nuovo teaser trailer e novità sul cast",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111826-bride-of-the-barrier-master-nuovo-teaser-trailer-e-novita-sul-cast"
     },
     {
       "title": "Anime Preview: trailer e novità per The Fable 2, Inherit the Winds e molto altro",
@@ -4144,19 +4064,99 @@
       "url": "https://www.animeclick.it/news/111823-anime-preview-trailer-e-novita-per-the-fable-2-inherit-the-winds-e-molto-altro"
     },
     {
-      "title": "Akihiro Miwa, l'icona culturale che Hayao Miyazaki ha voluto in Principessa Mononoke",
+      "title": "Ace Combat: teatro, regia e armi di distruzione di massa – Cosa l’ha reso così magnetico?",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111123-akihiro-miwa-licona-culturale-che-hayao-miyazaki-ha-voluto-in-principessa-mononoke"
+      "url": "https://www.animeclick.it/news/111635-ace-combat-teatro-regia-e-armi-di-distruzione-di-massa-%25e2%2580%2593-cosa-l%25e2%2580%2599ha-reso-cosi-magnetico"
     },
     {
-      "title": "Honkai: Star Rail presenta le novità della patch 4.6",
+      "title": "Jujutsu Kaisen Rumble Survivaton viene ufficialmente rimandato al 2027",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111820-honkai-star-rail-presenta-le-novita-della-patch-46"
+      "url": "https://www.animeclick.it/news/111777-jujutsu-kaisen-rumble-survivaton-viene-ufficialmente-rimandato-al-2027"
     },
     {
-      "title": "Anime Preview: trailer per Keroro Gunsō ☆, Vertex Force e altre novità",
+      "title": "LiSA a Milano: la voce delle sigle di tanti anime conquista l'Unipol Forum",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111790-anime-preview-trailer-per-keroro-gunso-vertex-force-e-altre-novita"
+      "url": "https://www.animeclick.it/news/111815-lisa-a-milano-la-voce-delle-sigle-di-tanti-anime-conquista-lunipol-forum"
+    },
+    {
+      "title": "Grand Theft Auto VI: The Album in arrivo il 19 novembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111793-grand-theft-auto-vi-the-album-in-arrivo-il-19-novembre"
+    },
+    {
+      "title": "The Blood of Dawnwalker- Recensione: Scelte pesanti e conseguenze brutali",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111765-the-blood-of-dawnwalker-la-recensione"
+    },
+    {
+      "title": "5 motivi per innamorarsi della follia artistica di Amanita Design",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111700-i-5-migliori-giochi-di-amanita-design"
+    },
+    {
+      "title": "J-POP Manga annuncia Witchriv e non solo, novità per Sensei Manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111805-j-pop-manga-annuncia-witchriv-e-non-solo-novita-per-sensei-manga"
+    },
+    {
+      "title": "A Wild Last Boss Appeared: trailer per la seconda stagione in arrivo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111752-a-wild-last-boss-appeared-trailer-per-la-seconda-stagione-in-arrivo"
+    },
+    {
+      "title": "Anime Preview: Kami-sama Gakkō no Ochikobore, Mobile Suit Gundam RG XARX-ZERO e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111800-anime-preview-kami-sama-gakko-no-ochikobore-mobile-suit-gundam-rg-xarx-zero-e-molto-altro"
+    },
+    {
+      "title": "Gli Ikimonogakari realizzano un video commemorativo per il finale di Goodbye, Lara",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111834-gli-ikimonogakari-realizzano-un-video-commemorativo-per-il-finale-di-goodbye-lara"
+    },
+    {
+      "title": "SPYAIR: la band di Haikyu!! e Gintama arriva in concerto a Milano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111795-spyair-la-band-di-haikyu-e-gintama-arriva-in-concerto-a-milano"
+    },
+    {
+      "title": "Lego annuncia finalmente la collaborazione con Dragon Ball",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111839-lego-annuncia-finalmente-la-collaborazione-con-dragon-ball"
+    },
+    {
+      "title": "Hello, I am a Witch: trailer per la strega creatrice di pozioni d'amore",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111769-hello-i-am-a-witch-trailer-per-la-strega-creatrice-di-pozioni-damore"
+    },
+    {
+      "title": "Anime Preview: novità per Jojo Steel Ball Run, Cyberpunk e altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111848-anime-preview-novita-per-jojo-steel-ball-run-cyberpunk-e-altro"
+    },
+    {
+      "title": "Reborn as a Space Mercenary: nuovo trailer, nuova visual e ulteriori informazioni sul cast",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111782-reborn-as-a-space-mercenary-nuovo-trailer-nuova-visual-e-ulteriori-informazioni-sul-cast"
+    },
+    {
+      "title": "La nuova era degli anime: come streaming e social stanno ridisegnando il fandom",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111729-la-nuova-era-degli-anime-come-streaming-e-social-stanno-ridisegnando-il-fandom"
+    },
+    {
+      "title": "Box Office Giappone: Chiikawa inarrestabile, debutta la versione live action di Look Back",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111774-box-office-giappone-chiikawa-inarrestabile-debutta-la-versione-live-action-di-look-back"
+    },
+    {
+      "title": "Anime Preview: trailer e novità per Magic Knight Rayearth e altre serie autunnali",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111844-anime-preview-trailer-e-novita-per-magic-knight-rayearth-e-altre-serie-autunnali"
+    },
+    {
+      "title": "Woodo- Recensione: il diorama che ci riporta bambini",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111813-woodo-recensione-il-diorama-che-ci-riporta-bambini"
     }
   ],
   "youtube_trends": [
@@ -4173,16 +4173,12 @@
       "url": "https://www.youtube.com/watch?v=g4LUUBbgUjs"
     },
     {
-      "title": "[Rita Patanè] #booktok #booktokita #wattpad #booktube #libro #booktokitalia #wattpaditalia",
-      "url": "https://www.youtube.com/watch?v=7GTUBytlDiQ"
-    },
-    {
-      "title": "[Ely in FanGirLand] #booktoker #booktubeitalia #lettori #leggere #ticonsigliounlibro",
-      "url": "https://www.youtube.com/watch?v=_M-OP95WTjU"
-    },
-    {
       "title": "[ANKITA] the ultimate fake-dating romance book 🤌🏻✨ #booktok #booktube #books #recommended #romance",
       "url": "https://www.youtube.com/watch?v=oxFwwVponeY"
+    },
+    {
+      "title": "[Grazia Pieruzzi ] 3 thriller italiani ! #booktok #books #booktubetbr #libri #booktube #thriller",
+      "url": "https://www.youtube.com/watch?v=-arJbTeLZ6Y"
     },
     {
       "title": "[Rita Patanè] “Anima di Ghiaccio” di ritaapatan su Wattpad❄️ #booktokitalia #booktok #wattpaditalia #booktokita",
@@ -4197,16 +4193,12 @@
       "url": "https://www.youtube.com/watch?v=7H0UjrZeom0"
     },
     {
+      "title": "[Drama Subtext Lab] 【Eng】Altarboy#ReelShort#englishdrama #booktok #movie #adopt",
+      "url": "https://www.youtube.com/watch?v=4I5AshifZA8"
+    },
+    {
       "title": "[Rita Patanè] “Anima di Ghiaccio” di ritaapatan su Wattpad❄️ #booktokitalia #booktok #wattpaditalia #booktokita",
       "url": "https://www.youtube.com/watch?v=ulhHvWZi6J8"
-    },
-    {
-      "title": "[漫画の時間] 意味が分かると怖い話... #漫画 #おすすめ #anime",
-      "url": "https://www.youtube.com/watch?v=N-y-XWZRLSY"
-    },
-    {
-      "title": "[Melissa_manga&anime] manga consigliati da me❤️ #manga #demonslayer #spyxfamily",
-      "url": "https://www.youtube.com/watch?v=WFACEZIO1zc"
     },
     {
       "title": "[Pop Culture Philosophers] Weekly Comic Book Review 09/23/26",
@@ -4229,6 +4221,14 @@
       "url": "https://www.youtube.com/watch?v=lSGuE_GJRN8"
     },
     {
+      "title": "[The Kovacs Report] Terminal #3 Review - Has This Comic Book Failed To Deliver?",
+      "url": "https://www.youtube.com/watch?v=BCH_Y5WmQK8"
+    },
+    {
+      "title": "[RealLifeRyan] John Carpenter Wrote A Comic! - CATHEDRAL Review",
+      "url": "https://www.youtube.com/watch?v=WWsKzGqjik4"
+    },
+    {
       "title": "[Pelati e Fumetti] Punisher: ma non era Frank Castle? - Colazione a Fumetti",
       "url": "https://www.youtube.com/watch?v=0L69WKZreqQ"
     },
@@ -4237,16 +4237,8 @@
       "url": "https://www.youtube.com/watch?v=ohspYXhcgwY"
     },
     {
-      "title": "[Junior lesego Ragontse] Grant Morrison review fantastic 4 first steps",
-      "url": "https://www.youtube.com/watch?v=V_PiyaFryeo"
-    },
-    {
       "title": "[Broke Horror Fan] JOE BOB BRIGGS Launches MonsterVision Comic",
       "url": "https://www.youtube.com/watch?v=zm-joyl841c"
-    },
-    {
-      "title": "[Rennavision] Batman of Two Worlds Review: Did It Live Up To The Hype? | This Past Wednesday",
-      "url": "https://www.youtube.com/watch?v=0TDrzwhn1oY"
     },
     {
       "title": "[RichardHTT] Quali MANGA ho acquistato questa settimana?",
@@ -4263,10 +4255,6 @@
     {
       "title": "[Arkantos] PROBLEMI per BLEACH, NUOVI FILM nei CINEMA e DAEMONS OF THE SHADOW REALM 2! Anime &amp; Manga News🔥",
       "url": "https://www.youtube.com/watch?v=4QuQ7t02qbE"
-    },
-    {
-      "title": "[Ani Amanda] Rebirth, I Deleted the Team Calendar Invite—They Missed the Final Demo and Lost EVERYTHING Today",
-      "url": "https://www.youtube.com/watch?v=_EjiTx1F-mU"
     },
     {
       "title": "[𝙆𝙞𝙉𝙂爱亗] ELE NASCEU CEGO, MAS DESPERTOU UM PODER CAPAZ DE LHE DAR NOVOS OLHOS",
@@ -4287,6 +4275,10 @@
     {
       "title": "[Failed Faker] MHA ENDED So Why is it STILL Getting New Content?!! #shorts #trending #viral",
       "url": "https://www.youtube.com/watch?v=tgP-6xvQ43g"
+    },
+    {
+      "title": "[Kyodai Yo!] Nuovo unboxing manga!",
+      "url": "https://www.youtube.com/watch?v=WEgs1JIDJMU"
     }
   ]
 }
