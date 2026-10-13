@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-10-13T12:41:41.029516+00:00",
+  "updated_at": "2026-10-13T19:51:45.978651+00:00",
   "rankings": [
     {
       "ean": "9788828869269",
@@ -59,18 +59,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863115666",
-      "title": "La morte di Ivan Il'ic. Ediz. integrale",
-      "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,21 +70,29 @@
       "ean": "9788836005598",
       "title": "Comunicare in cinese. Livello 1 del Chinese Proficiency Grading Standard (2021). Con Contenuto digitale per download e accesso online. Vol. 1",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822756077",
-      "title": "Il caffè delle cose preziose",
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
+      "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822756077",
+      "title": "Il caffè delle cose preziose",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -155,8 +155,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822752871",
+      "title": "Il profumo segreto del mare",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -339,32 +339,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863115666",
-      "title": "La morte di Ivan Il'ic. Ediz. integrale",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 23,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
       "position": 24,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822756077",
-      "title": "Il caffè delle cose preziose",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 25,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788822756077",
+      "title": "Il caffè delle cose preziose",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -475,10 +475,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9780746083383",
+      "title": "Che cosa mi succede? (Ragazze). Ediz. il...",
+      "author": "",
+      "position": 10,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9781108349093",
       "title": "Compact. Preliminary for schools. B1. St...",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -486,7 +494,7 @@
       "ean": "9781108954815",
       "title": "Open up. Level 2. Student's Book-Workboo...",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -494,7 +502,7 @@
       "ean": "9781108954860",
       "title": "Open up. Level 3. Student's Book-Workboo...",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -502,7 +510,7 @@
       "ean": "9781409515470",
       "title": "Atlante illustrato. Ediz. a colori. Con ...",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -510,21 +518,13 @@
       "ean": "9781409551133",
       "title": "Miti greci per bambini. Mini",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9781409560517",
       "title": "Lo spazio. Ediz. illustrata",
-      "author": "",
-      "position": 15,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9781409578437",
-      "title": "Le tabelline. Sollevo e scopro. Ediz. il...",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -691,34 +691,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834740460",
-      "title": "Le avventure di Pinocchio. Ediz. integrale",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788852225789",
-      "title": "Zootropolis. Il libro delle barzellette....",
+      "ean": "9788834740460",
+      "title": "Le avventure di Pinocchio. Ediz. integrale",
       "author": "",
       "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788847739901",
-      "title": "Riccioli d'Oro e i tre orsi. Ediz. a colori",
-      "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
-      "author": "",
-      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,13 +710,29 @@
       "ean": "9788854041561",
       "title": "Il mio giardino. Montessori: un mondo di...",
       "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788847739901",
+      "title": "Riccioli d'Oro e i tre orsi. Ediz. a colori",
+      "author": "",
+      "position": 40,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
+      "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788829608959",
-      "title": "Il ladro di zucche. Ediz. a colori",
+      "ean": "9789403212555",
+      "title": "Culture. Il mio primo atlante",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -771,16 +771,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788467490855",
-      "title": "Cacofonia. Batman",
+      "ean": "9788804520573",
+      "title": "Donne a fior di nervi",
       "author": "",
       "position": 5,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788804520573",
-      "title": "Donne a fior di nervi",
+      "ean": "9788804607779",
+      "title": "L'abbraccio",
       "author": "",
       "position": 6,
       "category": "fumetti",
@@ -947,16 +947,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822651334",
-      "title": "My Hero Academia. Vol. 40",
+      "ean": "9788822654359",
+      "title": "My Hero Academia. Vol. 41",
       "author": "",
       "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788822654359",
-      "title": "My Hero Academia. Vol. 41",
+      "ean": "9788822651334",
+      "title": "My Hero Academia. Vol. 40",
       "author": "",
       "position": 28,
       "category": "fumetti",
@@ -1299,8 +1299,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788851141356",
-      "title": "I giorni del sacro. I riti e le feste de...",
+      "ean": "9788868948955",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 37,
       "category": "religione",
@@ -1315,32 +1315,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788830154285",
-      "title": "Ci vuole coraggio per amare. Noi stessi,...",
+      "ean": "9788851141356",
+      "title": "I giorni del sacro. I riti e le feste de...",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804813163",
-      "title": "Profeti del buio. Potere, manipolazione,...",
+      "ean": "9788837238797",
+      "title": "Il nuovo ABC della teologia",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788817074247",
-      "title": "Tra Cesare e Dio. Come la rivoluzione di...",
+      "ean": "9788830154285",
+      "title": "Ci vuole coraggio per amare. Noi stessi,...",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788837238797",
-      "title": "Il nuovo ABC della teologia",
+      "ean": "9788804813163",
+      "title": "Profeti del buio. Potere, manipolazione,...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3939,34 +3939,14 @@
   ],
   "manga_trends": [
     {
-      "title": "Yamato Video: le novità di settembre del catalogo di ANiME GENERATION",
+      "title": "Naruto: Kishimoto al lavoro su un nuovo manga - Tutti gli annunci del New York Comic Con 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111958-yamato-video-le-novita-di-settembre-del-catalogo-di-anime-generation"
+      "url": "https://www.animeclick.it/news/112005-naruto-kishimoto-al-lavoro-su-un-nuovo-manga-tutti-gli-annunci-del-new-york-comic-con-2026"
     },
     {
-      "title": "The Seven Knights of the Marronnier Kingdom: informazioni sul doppiaggio di Amazon",
+      "title": "Yamato Video: Nia Liston in arrivo su ANiME Generation",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111931-the-seven-knights-of-the-marronnier-kingdom-informazioni-sul-doppiaggio-di-amazon"
-    },
-    {
-      "title": "Halo, GTA Vice City e I Simpson arrivano nel browser grazie all’IA: è questo il futuro del retrogaming?",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111996-halo-gta-vice-city-e-i-simpson-arrivano-nel-browser-grazie-all%25e2%2580%2599ia-e-questo-il-futuro-del-retrogaming"
-    },
-    {
-      "title": "Star Comics: in arrivo Dig It, la nuova serie sportiva di Star Comics",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111967-star-comics-in-arrivo-dig-it-la-nuova-serie-sportiva-di-star-comics"
-    },
-    {
-      "title": "Google Playground apre a tutti la possibilità di creare videogiochi: basterà un prompt",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111997-google-playground-apre-a-tutti-la-possibilita-di-creare-videogiochi-bastera-un-prompt"
-    },
-    {
-      "title": "Hideaki Anno dirige il nuovo film Cosmoship Yamato √2199 con Studio khara e Production I.G",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111954-hideaki-anno-dirige-il-nuovo-film-cosmoship-yamato-%25e2%2588%259a2199-con-studio-khara-e-production-ig"
+      "url": "https://www.animeclick.it/news/112016-yamato-video-nia-liston-in-arrivo-su-anime-generation"
     },
     {
       "title": "Crunchyroll annuncia The Boxer, EAT-MAN, e diverse serie per le prossime stagioni",
@@ -3974,84 +3954,14 @@
       "url": "https://www.animeclick.it/news/111980-crunchyroll-annuncia-the-boxer-eat-man-e-diverse-serie-per-le-prossime-stagioni"
     },
     {
-      "title": "Top Sakuga: le migliori animazioni del mese di settembre",
+      "title": "Nuvole a nord-ovest: primo video promo per l'adattamento animato in arrivo su Netflix",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111697-top-sakuga-le-migliori-animazioni-del-mese-di-settembre"
+      "url": "https://www.animeclick.it/news/111979-nuvole-a-nord-ovest-primo-video-promo-per-ladattamento-animato-in-arrivo-su-netflix"
     },
     {
-      "title": "Top 20 settimanale manga dal Giappone (27/09/2026)",
+      "title": "Dan Houser non guarda il reveal di GTA 6: \"Evito ciò che può distrarmi creativamente\"",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/31701-top-20-settimanale-manga-dal-giappone-27092026"
-    },
-    {
-      "title": "Everyone's Darling Has a Secret: trailer e novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111991-everyones-darling-has-a-secret-trailer-e-novita-per-lanime"
-    },
-    {
-      "title": "Captain Tsubasa: a Milano arriva la mostra d'arte dedicata al manga di Yoichi Takahashi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111999-captain-tsubasa-a-milano-arriva-la-mostra-darte-dedicata-al-manga-di-yoichi-takahashi"
-    },
-    {
-      "title": "Okko The Exiled- Recensione: il diavolo non veste Prada",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111886-okko-the-exiled-recensione"
-    },
-    {
-      "title": "Skull Dragon's Precious Daughter: trailer e novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111978-skull-dragons-precious-daughter-trailer-e-novita-per-lanime"
-    },
-    {
-      "title": "Addio a Toshio Masuda, regista de La corazzata spaziale Yamato e Tora! Tora! Tora!",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111973-addio-a-toshio-masuda-regista-de-la-corazzata-spaziale-yamato-e-tora-tora-tora"
-    },
-    {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di settembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111897-zipaki-tutte-le-uscite-digitali-e-cartacee-di-settembre-2026"
-    },
-    {
-      "title": "One-Punch Man: nuovo trailer e data di debutto per la seconda parte della terza stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112018-one-punch-man-nuovo-trailer-e-data-di-debutto-per-la-seconda-parte-della-terza-stagione"
-    },
-    {
-      "title": "Addio allo sceneggiatore So Kuramoto, il maestro che ispirò Hirokazu Kore'eda",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111875-addio-allo-sceneggiatore-so-kuramoto-il-maestro-che-ispiro-hirokazu-koreeda"
-    },
-    {
-      "title": "Fatal Fury CotW: i personaggi di Tokyo Revengers si preparano a scendere in campo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111982-fatal-fury-cotw-i-personaggi-di-tokyo-revengers-si-preparano-a-scendere-in-campo"
-    },
-    {
-      "title": "La versione femminile di Draco Malfoy conquista i social",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112004-la-versione-femminile-di-draco-malfoy-conquista-i-social"
-    },
-    {
-      "title": "Sony lancia Crunchyroll Storyworks, la nuova divisione per anime e adattamenti live-action",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111971-sony-lancia-crunchyroll-storyworks-la-nuova-divisione-per-anime-e-adattamenti-live-action"
-    },
-    {
-      "title": "Riftbound: Radiance - la quinta espansione del TCG debutta il 16 ottobre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111953-riftbound-radiance-la-quinta-espansione-del-tcg-debutta-il-16-ottobre"
-    },
-    {
-      "title": "Guild Receptionist torna dopo due anni di limbo: Alina avrà un nuovo character design",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111934-guild-receptionist-torna-dopo-due-anni-di-limbo-alina-avra-un-nuovo-character-design"
-    },
-    {
-      "title": "AI-Mashup nei videogiochi: come funzionano le mod che fondono giochi diversi e perché preoccupano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111950-ai-mashup-nei-videogiochi-come-funzionano-le-mod-che-fondono-giochi-diversi-e-perche-preoccupano"
+      "url": "https://www.animeclick.it/news/111926-dan-houser-non-guarda-il-reveal-di-gta-6-evito-cio-che-puo-distrarmi-creativamente"
     },
     {
       "title": "Addio a Fusako Yusaki, l'artista giapponese che portò la plastilina animata in TV",
@@ -4059,19 +3969,39 @@
       "url": "https://www.animeclick.it/news/111961-addio-a-fusako-yusaki-lartista-giapponese-che-porto-la-plastilina-animata-in-tv"
     },
     {
-      "title": "Box Office Giappone: il film Mama ga mou kono sekai ni inakutemo debutta al primo posto",
+      "title": "Fatal Fury CotW: i personaggi di Tokyo Revengers si preparano a scendere in campo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111988-box-office-giappone-il-film-mama-ga-mou-kono-sekai-ni-inakutemo-debutta-al-primo-posto"
+      "url": "https://www.animeclick.it/news/111982-fatal-fury-cotw-i-personaggi-di-tokyo-revengers-si-preparano-a-scendere-in-campo"
     },
     {
-      "title": "La persona che mi piace non è un ragazzo: nuovo trailer per l'anime",
+      "title": "Magic: The Gathering: dal 2027 cambiano Play Booster e Collector Booster, arrivano i God Pack",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111985-la-persona-che-mi-piace-non-e-un-ragazzo-nuovo-trailer-per-lanime"
+      "url": "https://www.animeclick.it/news/112007-magic-the-gathering-dal-2027-cambiano-play-booster-e-collector-booster-arrivano-i-god-pack"
     },
     {
-      "title": "Naruto: Kishimoto al lavoro su un nuovo manga - Tutti gli annunci del New York Comic Con 2026",
+      "title": "Zipaki: tutte le uscite digitali e cartacee di settembre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112005-naruto-kishimoto-al-lavoro-su-un-nuovo-manga-tutti-gli-annunci-del-new-york-comic-con-2026"
+      "url": "https://www.animeclick.it/news/111897-zipaki-tutte-le-uscite-digitali-e-cartacee-di-settembre-2026"
+    },
+    {
+      "title": "Magical Buff: trailer e novità per il fantasy invernale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111990-magical-buff-trailer-e-novita-per-il-fantasy-invernale"
+    },
+    {
+      "title": "Dr. Stone: annunciato Terraforming, sequel dell'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111998-dr-stone-annunciato-terraforming-sequel-dellanime"
+    },
+    {
+      "title": "Il monologo della speziale: il film arriverà al cinema in Italia",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111976-il-monologo-della-speziale-il-film-arrivera-al-cinema-in-italia"
+    },
+    {
+      "title": "Overwatch x Solo Leveling: tutti i dettagli della nuova collaborazione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111970-overwatch-x-solo-leveling-tutti-i-dettagli-della-nuova-collaborazione"
     },
     {
       "title": "Ape Escape sta tornando in vita? Dietro il progetto ci sarebbe il team di Sonic Mania",
@@ -4079,24 +4009,90 @@
       "url": "https://www.animeclick.it/news/111975-ape-escape-sta-tornando-in-vita-dietro-il-progetto-ci-sarebbe-il-team-di-sonic-mania"
     },
     {
-      "title": "Crunchyroll: in arrivo una sezione completamente dedicata nella home PS5",
+      "title": "Lucca Comics & Games 2026: Yoshiyasu Tamura ospite per Lucca Manga School",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111981-crunchyroll-in-arrivo-una-sezione-completamente-dedicata-nella-home-ps5"
+      "url": "https://www.animeclick.it/news/111952-lucca-comics-games-2026-yoshiyasu-tamura-ospite-per-lucca-manga-school"
+    },
+    {
+      "title": "Riftbound: Radiance - la quinta espansione del TCG debutta il 16 ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111953-riftbound-radiance-la-quinta-espansione-del-tcg-debutta-il-16-ottobre"
+    },
+    {
+      "title": "The Seven Knights of the Marronnier Kingdom: informazioni sul doppiaggio di Amazon",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111931-the-seven-knights-of-the-marronnier-kingdom-informazioni-sul-doppiaggio-di-amazon"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Paru Itagaki",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111983-lucca-comics-games-2026-regolamento-firmacopie-di-paru-itagaki"
     },
     {
       "title": "Hirayasumi: il manga di Keigo Shinzō si concluderà in due capitoli",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111947-hirayasumi-il-manga-di-keigo-shinzo-si-concludera-in-due-capitoli"
+    },
+    {
+      "title": "One-Punch Man: nuovo trailer e data di debutto per la seconda parte della terza stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112018-one-punch-man-nuovo-trailer-e-data-di-debutto-per-la-seconda-parte-della-terza-stagione"
+    },
+    {
+      "title": "Steam raggiunge il record di 43,5 milioni di utenti simultanei: ecco cosa ha trainato la crescita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112022-steam-raggiunge-il-record-di-435-milioni-di-utenti-simultanei-ecco-cosa-ha-trainato-la-crescita"
+    },
+    {
+      "title": "Captain Tsubasa: a Milano arriva la mostra d'arte dedicata al manga di Yoichi Takahashi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111999-captain-tsubasa-a-milano-arriva-la-mostra-darte-dedicata-al-manga-di-yoichi-takahashi"
+    },
+    {
+      "title": "Google Playground apre a tutti la possibilità di creare videogiochi: basterà un prompt",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111997-google-playground-apre-a-tutti-la-possibilita-di-creare-videogiochi-bastera-un-prompt"
+    },
+    {
+      "title": "Okko The Exiled- Recensione: il diavolo non veste Prada",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111886-okko-the-exiled-recensione"
+    },
+    {
+      "title": "Kiki - Consegne a domicilio torna al cinema in 4K con nuovo doppiaggio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112025-kiki-consegne-a-domicilio-torna-al-cinema-in-4k-con-nuovo-doppiaggio"
+    },
+    {
+      "title": "Anime Preview: annunci per The Record of a Fallen Vampire e altre serie",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111966-anime-preview-annunci-per-the-record-of-a-fallen-vampire-e-altre-serie"
+    },
+    {
+      "title": "Le musiche di Persona arrivano in Italia: Shoji Meguro ospite al Gigacon di Caserta",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111955-le-musiche-di-persona-arrivano-in-italia-shoji-meguro-ospite-al-gigacon-di-caserta"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Usamaru Furuya",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111960-lucca-comics-games-2026-regolamento-firmacopie-di-usamaru-furuya"
+    },
+    {
+      "title": "Dynit Manga annuncia More Than a Married Couple, But Not Lovers",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112002-dynit-manga-annuncia-more-than-a-married-couple-but-not-lovers"
+    },
+    {
+      "title": "Tokyo Duel: il manga di Toshiaki Yamada si è concluso",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/108331-tokyo-duel-il-manga-di-toshiaki-yamada-si-e-concluso"
     }
   ],
   "youtube_trends": [
     {
       "title": "[The Poseidon Cabin] Annabeth&#39;s Circe&#39;s spa look! #leahsavajeffries #percyjackson #booktok #pjo",
       "url": "https://www.youtube.com/watch?v=5m69_Z4GYUM"
-    },
-    {
-      "title": "[LalibreriadiGiady📚] Non mi avranno😭✨ #booktok #libri #libricheamo #books #romance #humor #bibliomanzia #perte",
-      "url": "https://www.youtube.com/watch?v=Vw7bOdOjB7w"
     },
     {
       "title": "[LalibreriadiGiady📚] Andiamo a vedere Verity 💚 #booktok #libricheamo #bibliomanzia #ilmaggiodeilibri #books #verity",
@@ -4115,20 +4111,20 @@
       "url": "https://www.youtube.com/watch?v=0dBJySnHrGQ"
     },
     {
-      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites",
-      "url": "https://www.youtube.com/watch?v=iNJ8E78OpDY"
+      "title": "[LaSegnalibri] #booktubeitalia #booktok #consiglidilettura #booktokitalia #books #perte",
+      "url": "https://www.youtube.com/watch?v=yskZ3BH2Px0"
     },
     {
-      "title": "[Sara Dalla Palma] Non si può disobbedire al concilio! #booktokitalia #booktok #books #booktube #libri #lettura #vlog",
-      "url": "https://www.youtube.com/watch?v=30eJkJJP1Ik"
+      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites",
+      "url": "https://www.youtube.com/watch?v=iNJ8E78OpDY"
     },
     {
       "title": "[Troppo_dolce23] &quot;Preferisci Odiarmi o Amarmi?&quot;  su Wattpad📚#bibliomanzia #romance  #booktok#perte#wattpad#librispicy",
       "url": "https://www.youtube.com/watch?v=Y9A-zCw1mtk"
     },
     {
-      "title": "[LaSegnalibri] #booktubeitalia #booktok #consiglidilettura #booktokitalia #books #perte",
-      "url": "https://www.youtube.com/watch?v=yskZ3BH2Px0"
+      "title": "[Lina Maria Ugolini memorie di poesia] Villa sbadigli in libreria. Lina Maria Ugolini @AlgraeditoreIt #linamariaugolini #booktok",
+      "url": "https://www.youtube.com/watch?v=F-0UXIK6kvk"
     },
     {
       "title": "[Maina Lilac] OIL CEO DOES WHAT WITH TREE? #vtuber #vtuberclips #envtuber #booktube #booktok #twitch #vtuberen",
@@ -4143,16 +4139,16 @@
       "url": "https://www.youtube.com/watch?v=_ZXkRHqmeFU"
     },
     {
+      "title": "[nhgreads] Marvel Comics EVERYONE Should Read",
+      "url": "https://www.youtube.com/watch?v=AIE43VjAufI"
+    },
+    {
       "title": "[Comics by Perch] Midnight release: reviews of all three new comics",
       "url": "https://www.youtube.com/watch?v=oIkl7wHh6SY"
     },
     {
       "title": "[Gem Mint Collectibles] See… I told ya #comicbooks #cgccomics #nycc",
       "url": "https://www.youtube.com/watch?v=fY-FayF6OJ0"
-    },
-    {
-      "title": "[nhgreads] Marvel Comics EVERYONE Should Read",
-      "url": "https://www.youtube.com/watch?v=AIE43VjAufI"
     },
     {
       "title": "[Kody Collects] 📚 NEW COMIC BOOK DAY 10/7",
@@ -4163,16 +4159,16 @@
       "url": "https://www.youtube.com/watch?v=_DbMdL7KrzY"
     },
     {
-      "title": "[TheComicBookReport] Daredevil by Chip Zdarsky! MUST READ? 🤔📚 #daredevil #marvel #comics",
-      "url": "https://www.youtube.com/watch?v=9DMBy516gaY"
-    },
-    {
       "title": "[Rachel Redd] I’m new here, but these horror comics are just too good to not share. #bookrecommendations",
       "url": "https://www.youtube.com/watch?v=EtZo84-jxYg"
     },
     {
-      "title": "[Smirking Gun] Terminal #2 Review - Lets Read Comics  #59",
-      "url": "https://www.youtube.com/watch?v=IipyW0x9__w"
+      "title": "[TheComicBookReport] BLOOD HUNT OMNIBUS 🩸😱 #marvelcomics #marvel #comics #bloodhunt #vampire",
+      "url": "https://www.youtube.com/watch?v=znGfR4j3GMs"
+    },
+    {
+      "title": "[Comic Radio] What’s your ranking? #marvel #comics #marvelmidnight #spiderman",
+      "url": "https://www.youtube.com/watch?v=FhocyXlkzWY"
     },
     {
       "title": "[ActuallyJays ] yes, this is a horror manga about delivering MAIL",
@@ -4195,12 +4191,12 @@
       "url": "https://www.youtube.com/watch?v=WB8Ce0i4yXs"
     },
     {
-      "title": "[SecondPageManga] ISEKAI MANGA You Need to Read📚 #shorts #anime #manga",
-      "url": "https://www.youtube.com/watch?v=onUNLGa8XHY"
-    },
-    {
       "title": "[Michele Mari] NUOVI MANGA IN ARRIVO? TOTOANNUNCI LUCCA COMICS &amp; GAMES 2026 E OLTRE...",
       "url": "https://www.youtube.com/watch?v=JuTOvh-yoPc"
+    },
+    {
+      "title": "[SecondPageManga] ISEKAI MANGA You Need to Read📚 #shorts #anime #manga",
+      "url": "https://www.youtube.com/watch?v=onUNLGa8XHY"
     },
     {
       "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI OTTOBRE 2026",
