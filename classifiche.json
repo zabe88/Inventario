@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-10-12T21:44:00.631780+00:00",
+  "updated_at": "2026-10-13T12:41:41.029516+00:00",
   "rankings": [
     {
       "ean": "9788828869269",
@@ -11,32 +11,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791221120059",
-      "title": "Diritto costituzionale",
+      "ean": "9788868364748",
+      "title": "Il giorno in cui ho imparato a volermi bene",
       "author": "",
       "position": 2,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788868364748",
-      "title": "Il giorno in cui ho imparato a volermi bene",
+      "ean": "9791221120059",
+      "title": "Diritto costituzionale",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791221120066",
-      "title": "Diritto pubblico",
+      "ean": "9788858333037",
+      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858333037",
-      "title": "Il vocabolario della lingua latina. Latino-italiano, italiano-latino-Guida all'uso",
+      "ean": "9791221120066",
+      "title": "Diritto pubblico",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -131,16 +131,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788808343871",
-      "title": "Codice civile e leggi collegate 2026",
+      "ean": "9791221109894",
+      "title": "Introduzione all'economia aziendale. Il sistema delle operazioni e le condizioni di equilibrio aziendale",
       "author": "",
       "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791221109894",
-      "title": "Introduzione all'economia aziendale. Il sistema delle operazioni e le condizioni di equilibrio aziendale",
+      "ean": "9788808343871",
+      "title": "Codice civile e leggi collegate 2026",
       "author": "",
       "position": 18,
       "category": "generale",
@@ -691,18 +691,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788852225789",
-      "title": "Zootropolis. Il libro delle barzellette....",
+      "ean": "9788834740460",
+      "title": "Le avventure di Pinocchio. Ediz. integrale",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788834740460",
-      "title": "Le avventure di Pinocchio. Ediz. integrale",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788847739901",
+      "title": "Riccioli d'Oro e i tre orsi. Ediz. a colori",
+      "author": "",
+      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,29 +718,21 @@
       "ean": "9788867145065",
       "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791259572790",
-      "title": "Imparo a tracciare. Ediz. a colori",
-      "author": "",
       "position": 40,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9789403212555",
-      "title": "Culture. Il mio primo atlante",
-      "author": "",
-      "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788854041561",
       "title": "Il mio giardino. Montessori: un mondo di...",
+      "author": "",
+      "position": 41,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788829608959",
+      "title": "Il ladro di zucche. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -771,10 +771,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788467490855",
+      "title": "Cacofonia. Batman",
+      "author": "",
+      "position": 5,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804520573",
       "title": "Donne a fior di nervi",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -782,7 +790,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -790,7 +798,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -798,7 +806,7 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -806,7 +814,7 @@
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -814,21 +822,13 @@
       "ean": "9788804767091",
       "title": "The Heartstopper yearbook",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788806233761",
       "title": "Anne Frank. Diario",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788807550072",
-      "title": "Romanzo esplicito",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -963,18 +963,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858021804",
-      "title": "Nelson Mandela. L'anima invincibile",
-      "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788864202242",
       "title": "One piece. New edition. Vol. 38",
       "author": "",
-      "position": 30,
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -982,7 +974,7 @@
       "ean": "9791256210848",
       "title": "La profezia dell'armadillo",
       "author": "",
-      "position": 31,
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,21 +982,29 @@
       "ean": "9791221904673",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 26: ...",
       "author": "",
-      "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788866567479",
-      "title": "La caduta del patriarcato. La storia del...",
-      "author": "",
-      "position": 33,
+      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788869715730",
       "title": "Luthor. Joker",
+      "author": "",
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858021804",
+      "title": "Nelson Mandela. L'anima invincibile",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822643926",
+      "title": "My Hero Academia. Vol. 38",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1315,16 +1315,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804813163",
-      "title": "Profeti del buio. Potere, manipolazione,...",
+      "ean": "9788830154285",
+      "title": "Ci vuole coraggio per amare. Noi stessi,...",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788830154285",
-      "title": "Ci vuole coraggio per amare. Noi stessi,...",
+      "ean": "9788804813163",
+      "title": "Profeti del buio. Potere, manipolazione,...",
       "author": "",
       "position": 40,
       "category": "religione",
@@ -1499,10 +1499,34 @@
       "source": "giunti"
     },
     {
+      "ean": "9788817199995",
+      "title": "Il cuore è un'arma",
+      "author": "",
+      "position": 4,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788893908689",
+      "title": "Danzate su di me",
+      "author": "",
+      "position": 5,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788807036927",
+      "title": "Rossa di sera",
+      "author": "",
+      "position": 6,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9788842937883",
       "title": "La porta dei destini",
       "author": "",
-      "position": 4,
+      "position": 7,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1510,7 +1534,7 @@
       "ean": "9788830462830",
       "title": "Evasione",
       "author": "",
-      "position": 5,
+      "position": 8,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1518,7 +1542,7 @@
       "ean": "9791224203421",
       "title": "Il bestseller",
       "author": "",
-      "position": 6,
+      "position": 9,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1526,7 +1550,7 @@
       "ean": "9788850271146",
       "title": "L'educazione delle farfalle",
       "author": "",
-      "position": 7,
+      "position": 10,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1534,7 +1558,7 @@
       "ean": "9788829795932",
       "title": "Assassinio a Villa Borghese",
       "author": "",
-      "position": 8,
+      "position": 11,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1542,7 +1566,7 @@
       "ean": "9788829795956",
       "title": "La donna in gabbia. I casi della sezione Q. Vol. 1",
       "author": "",
-      "position": 9,
+      "position": 12,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1550,7 +1574,7 @@
       "ean": "9788829795956",
       "title": "La donna in gabbia. I casi della sezion...",
       "author": "Jussi Adler-Olsen",
-      "position": 10,
+      "position": 13,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1558,7 +1582,7 @@
       "ean": "9791281792319",
       "title": "Una vita per una vita",
       "author": "",
-      "position": 11,
+      "position": 14,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1566,7 +1590,7 @@
       "ean": "9788829796847",
       "title": "Credere tradire combattere",
       "author": "",
-      "position": 12,
+      "position": 15,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1574,7 +1598,7 @@
       "ean": "9791255023180",
       "title": "La torre d'avorio",
       "author": "",
-      "position": 13,
+      "position": 16,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1606,7 @@
       "ean": "9788817197717",
       "title": "Mezzanotte e il blu",
       "author": "",
-      "position": 14,
+      "position": 17,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1614,7 @@
       "ean": "9791281792074",
       "title": "Note di vendetta",
       "author": "",
-      "position": 15,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1622,7 @@
       "ean": "9788894758269",
       "title": "Al centro del cuore. Il primo caso del commissario Camillo Bellavista",
       "author": "",
-      "position": 16,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1630,7 @@
       "ean": "9788894758269",
       "title": "Al centro del cuore. Il primo caso del ...",
       "author": "Nicola Paone",
-      "position": 17,
+      "position": 20,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,7 +1638,7 @@
       "ean": "9788894758207",
       "title": "Delitti in ordine per il commissario Cirillo",
       "author": "",
-      "position": 18,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1622,7 +1646,7 @@
       "ean": "9788894758207",
       "title": "Delitti in ordine per il commissario Ci...",
       "author": "Nicola Paone",
-      "position": 19,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1630,7 +1654,7 @@
       "ean": "9791281792289",
       "title": "La stanza 3B. La prima indagine di Ennio Carbone",
       "author": "",
-      "position": 20,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1638,7 +1662,7 @@
       "ean": "9791281792289",
       "title": "La stanza 3B. La prima indagine di Enni...",
       "author": "Marzio Di Mezza",
-      "position": 21,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1646,7 +1670,7 @@
       "ean": "9791259856210",
       "title": "I segreti che nascondiamo",
       "author": "",
-      "position": 22,
+      "position": 25,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1654,7 +1678,7 @@
       "ean": "9788829796571",
       "title": "Il predicatore. I delitti di Fjällbacka. Vol. 2",
       "author": "",
-      "position": 23,
+      "position": 26,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1662,7 +1686,7 @@
       "ean": "9788829796571",
       "title": "Il predicatore. I delitti di Fjällbacka...",
       "author": "Camilla Läckberg",
-      "position": 24,
+      "position": 27,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1670,39 +1694,7 @@
       "ean": "9788833942377",
       "title": "Lettere d'amore a un serial killer",
       "author": "",
-      "position": 25,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224208921",
-      "title": "Mistero alla pasticceria dell'acero rosso. I segreti di Cinnamon Falls",
-      "author": "",
-      "position": 26,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224208921",
-      "title": "Mistero alla pasticceria dell'acero ros...",
-      "author": "R. L. Killmore",
-      "position": 27,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791257300357",
-      "title": "Nebbia sulla laguna",
-      "author": "",
       "position": 28,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830464926",
-      "title": "L'ultimo gioco",
-      "author": "",
-      "position": 29,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1731,10 +1723,34 @@
       "source": "giunti"
     },
     {
+      "ean": "9788804817888",
+      "title": "KPop Demon Hunters. Divano, divano, divano! Coloring book ufficiale",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788804817888",
+      "title": "KPop Demon Hunters. Divano, divano, div...",
+      "author": "",
+      "position": 5,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788852256165",
+      "title": "CHRISTMAS BOX 2026",
+      "author": "",
+      "position": 6,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9788858059135",
       "title": "Lupetto le mie storie più belle. Amico lupo",
       "author": "",
-      "position": 4,
+      "position": 7,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1742,7 +1758,7 @@
       "ean": "9788858059135",
       "title": "Lupetto le mie storie più belle. Amico ...",
       "author": "Orianne Lallemand",
-      "position": 5,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1750,7 +1766,7 @@
       "ean": "9788893086134",
       "title": "Minecraft Mojang. Crea i tuoi eroi. Giochi e sticker. Il libro ufficiale",
       "author": "",
-      "position": 6,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1758,7 +1774,7 @@
       "ean": "9788893086134",
       "title": "Minecraft Mojang. Crea i tuoi eroi. Gio...",
       "author": "",
-      "position": 7,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1766,7 +1782,7 @@
       "ean": "9788893086127",
       "title": "Minecraft Mojang. Crea un nuovo mondo. Il libro ufficiale. Guida all'immaginazione. I segreti per costruzioni incredibili",
       "author": "",
-      "position": 8,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1790,7 @@
       "ean": "9788893086127",
       "title": "Minecraft Mojang. Crea un nuovo mondo. ...",
       "author": "Thomas McBrien",
-      "position": 9,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1798,7 @@
       "ean": "9791259577061",
       "title": "Harry Potter. Pronti per Hogwarts. La magia pop-up",
       "author": "",
-      "position": 10,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1806,7 @@
       "ean": "9791259577061",
       "title": "Harry Potter. Pronti per Hogwarts. La m...",
       "author": "",
-      "position": 11,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1814,7 @@
       "ean": "9788830315839",
       "title": "Inverno. Sticker e attività",
       "author": "",
-      "position": 12,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1822,7 @@
       "ean": "9788836123032",
       "title": "Le macchine di Leonardo da Vinci. Libro pop-up",
       "author": "",
-      "position": 13,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1830,7 @@
       "ean": "9788836123032",
       "title": "Le macchine di Leonardo da Vinci. Libro...",
       "author": "David Hawcock, Jaspre Bark, Jaspre Bark",
-      "position": 14,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1838,7 @@
       "ean": "9788855068741",
       "title": "In giardino",
       "author": "",
-      "position": 15,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1846,7 @@
       "ean": "9791256601752",
       "title": "Le puzzette dei supereroi. Libro sonoro",
       "author": "",
-      "position": 16,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,7 +1854,7 @@
       "ean": "9791223400739",
       "title": "Bluey. Il grande libro pop-up",
       "author": "",
-      "position": 17,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1846,7 +1862,7 @@
       "ean": "9788855068710",
       "title": "Nella giungla",
       "author": "",
-      "position": 18,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1854,7 +1870,7 @@
       "ean": "9788847744431",
       "title": "Campioni italiani del calcio di oggi",
       "author": "",
-      "position": 19,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1862,7 +1878,7 @@
       "ean": "9788836123063",
       "title": "Dov'è Wally? Il libro ufficiale da colorare",
       "author": "",
-      "position": 20,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1870,7 +1886,7 @@
       "ean": "9788836123063",
       "title": "Dov'è Wally? Il libro ufficiale da colo...",
       "author": "Martin Handford",
-      "position": 21,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1878,7 +1894,7 @@
       "ean": "9791256601745",
       "title": "Le puzzette delle principesse. Libro sonoro",
       "author": "",
-      "position": 22,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1886,7 +1902,7 @@
       "ean": "9791256601745",
       "title": "Le puzzette delle principesse. Libro so...",
       "author": "",
-      "position": 23,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1894,7 +1910,7 @@
       "ean": "9788857022925",
       "title": "Cuore di strega",
       "author": "",
-      "position": 24,
+      "position": 27,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1902,7 +1918,7 @@
       "ean": "9788857023090",
       "title": "Nascondino delle streghe",
       "author": "",
-      "position": 25,
+      "position": 28,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1910,7 +1926,7 @@
       "ean": "9788857023311",
       "title": "Pimpa e Gianni vanno in campagna",
       "author": "",
-      "position": 26,
+      "position": 29,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1918,7 +1934,7 @@
       "ean": "9788857023328",
       "title": "Pimpa e la casa della gallina",
       "author": "",
-      "position": 27,
+      "position": 30,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1926,23 +1942,7 @@
       "ean": "9791221221459",
       "title": "Pompieri, in azione!",
       "author": "",
-      "position": 28,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791221950717",
-      "title": "Epic history. Lego Ninjago",
-      "author": "",
-      "position": 29,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788857017877",
-      "title": "Gli animali del mare da toccare",
-      "author": "",
-      "position": 30,
+      "position": 31,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -3939,29 +3939,9 @@
   ],
   "manga_trends": [
     {
-      "title": "La persona che mi piace non è un ragazzo: nuovo trailer per l'anime",
+      "title": "Yamato Video: le novità di settembre del catalogo di ANiME GENERATION",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111985-la-persona-che-mi-piace-non-e-un-ragazzo-nuovo-trailer-per-lanime"
-    },
-    {
-      "title": "Spice & Wolf: trailer e novità per la seconda stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111924-spice-wolf-trailer-e-novita-per-la-seconda-stagione"
-    },
-    {
-      "title": "Manshu Opium Squad: annunciato l'adattamento animato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111945-manshu-opium-squad-annunciato-ladattamento-animato"
-    },
-    {
-      "title": "Skull Dragon's Precious Daughter: trailer e novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111978-skull-dragons-precious-daughter-trailer-e-novita-per-lanime"
-    },
-    {
-      "title": "Gundam Unicorn e Gundam Narrative arrivano su Youtube sottotitolati in italiano",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111946-gundam-unicorn-e-gundam-narrative-arrivano-su-youtube-sottotitolati-in-italiano"
+      "url": "https://www.animeclick.it/news/111958-yamato-video-le-novita-di-settembre-del-catalogo-di-anime-generation"
     },
     {
       "title": "The Seven Knights of the Marronnier Kingdom: informazioni sul doppiaggio di Amazon",
@@ -3969,14 +3949,14 @@
       "url": "https://www.animeclick.it/news/111931-the-seven-knights-of-the-marronnier-kingdom-informazioni-sul-doppiaggio-di-amazon"
     },
     {
-      "title": "Addio a Fusako Yusaki, l'artista giapponese che portò la plastilina animata in TV",
+      "title": "Halo, GTA Vice City e I Simpson arrivano nel browser grazie all’IA: è questo il futuro del retrogaming?",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111961-addio-a-fusako-yusaki-lartista-giapponese-che-porto-la-plastilina-animata-in-tv"
+      "url": "https://www.animeclick.it/news/111996-halo-gta-vice-city-e-i-simpson-arrivano-nel-browser-grazie-all%25e2%2580%2599ia-e-questo-il-futuro-del-retrogaming"
     },
     {
-      "title": "Nuvole a nord-ovest: primo video promo per l'adattamento animato in arrivo su Netflix",
+      "title": "Star Comics: in arrivo Dig It, la nuova serie sportiva di Star Comics",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111979-nuvole-a-nord-ovest-primo-video-promo-per-ladattamento-animato-in-arrivo-su-netflix"
+      "url": "https://www.animeclick.it/news/111967-star-comics-in-arrivo-dig-it-la-nuova-serie-sportiva-di-star-comics"
     },
     {
       "title": "Google Playground apre a tutti la possibilità di creare videogiochi: basterà un prompt",
@@ -3984,59 +3964,29 @@
       "url": "https://www.animeclick.it/news/111997-google-playground-apre-a-tutti-la-possibilita-di-creare-videogiochi-bastera-un-prompt"
     },
     {
-      "title": "Il monologo della speziale: il film arriverà al cinema in Italia",
+      "title": "Hideaki Anno dirige il nuovo film Cosmoship Yamato √2199 con Studio khara e Production I.G",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111976-il-monologo-della-speziale-il-film-arrivera-al-cinema-in-italia"
+      "url": "https://www.animeclick.it/news/111954-hideaki-anno-dirige-il-nuovo-film-cosmoship-yamato-%25e2%2588%259a2199-con-studio-khara-e-production-ig"
     },
     {
-      "title": "AI-Mashup nei videogiochi: come funzionano le mod che fondono giochi diversi e perché preoccupano",
+      "title": "Crunchyroll annuncia The Boxer, EAT-MAN, e diverse serie per le prossime stagioni",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111950-ai-mashup-nei-videogiochi-come-funzionano-le-mod-che-fondono-giochi-diversi-e-perche-preoccupano"
+      "url": "https://www.animeclick.it/news/111980-crunchyroll-annuncia-the-boxer-eat-man-e-diverse-serie-per-le-prossime-stagioni"
     },
     {
-      "title": "Magic Press: le uscite di ottobre 2026",
+      "title": "Top Sakuga: le migliori animazioni del mese di settembre",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111921-magic-press-le-uscite-di-ottobre-2026"
+      "url": "https://www.animeclick.it/news/111697-top-sakuga-le-migliori-animazioni-del-mese-di-settembre"
     },
     {
-      "title": "Le musiche di Persona arrivano in Italia: Shoji Meguro ospite al Gigacon di Caserta",
+      "title": "Top 20 settimanale manga dal Giappone (27/09/2026)",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111955-le-musiche-di-persona-arrivano-in-italia-shoji-meguro-ospite-al-gigacon-di-caserta"
+      "url": "https://www.animeclick.it/news/31701-top-20-settimanale-manga-dal-giappone-27092026"
     },
     {
-      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Usamaru Furuya",
+      "title": "Everyone's Darling Has a Secret: trailer e novità per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111960-lucca-comics-games-2026-regolamento-firmacopie-di-usamaru-furuya"
-    },
-    {
-      "title": "Per il CEO di CyberConnect 2 il futuro dei giochi è digitale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111964-il-ceo-di-cyberconnect-2-valuta-positiva-la-fine-delle-versioni-fisiche"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Paru Itagaki",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111983-lucca-comics-games-2026-regolamento-firmacopie-di-paru-itagaki"
-    },
-    {
-      "title": "Yamato Video: Nia Liston in arrivo su ANiME Generation",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112016-yamato-video-nia-liston-in-arrivo-su-anime-generation"
-    },
-    {
-      "title": "Crunchyroll: in arrivo una sezione completamente dedicata nella home PS5",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111981-crunchyroll-in-arrivo-una-sezione-completamente-dedicata-nella-home-ps5"
-    },
-    {
-      "title": "Naruto: Kishimoto al lavoro su un nuovo manga - Tutti gli annunci del New York Comic Con 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112005-naruto-kishimoto-al-lavoro-su-un-nuovo-manga-tutti-gli-annunci-del-new-york-comic-con-2026"
-    },
-    {
-      "title": "Dan Houser non guarda il reveal di GTA 6: \"Evito ciò che può distrarmi creativamente\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111926-dan-houser-non-guarda-il-reveal-di-gta-6-evito-cio-che-puo-distrarmi-creativamente"
+      "url": "https://www.animeclick.it/news/111991-everyones-darling-has-a-secret-trailer-e-novita-per-lanime"
     },
     {
       "title": "Captain Tsubasa: a Milano arriva la mostra d'arte dedicata al manga di Yoichi Takahashi",
@@ -4044,59 +3994,105 @@
       "url": "https://www.animeclick.it/news/111999-captain-tsubasa-a-milano-arriva-la-mostra-darte-dedicata-al-manga-di-yoichi-takahashi"
     },
     {
-      "title": "Keroro☆: la nuova serie arriva su Crunchyroll",
+      "title": "Okko The Exiled- Recensione: il diavolo non veste Prada",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111928-keroro-la-nuova-serie-arriva-su-crunchyroll"
+      "url": "https://www.animeclick.it/news/111886-okko-the-exiled-recensione"
     },
     {
-      "title": "Yamato Video: le novità di settembre del catalogo di ANiME GENERATION",
+      "title": "Skull Dragon's Precious Daughter: trailer e novità per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111958-yamato-video-le-novita-di-settembre-del-catalogo-di-anime-generation"
+      "url": "https://www.animeclick.it/news/111978-skull-dragons-precious-daughter-trailer-e-novita-per-lanime"
     },
     {
-      "title": "Libreria Antiquaria Biblia: trailer e novità per la serie Cloverworks",
+      "title": "Addio a Toshio Masuda, regista de La corazzata spaziale Yamato e Tora! Tora! Tora!",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111959-libreria-antiquaria-biblia-trailer-e-novita-per-la-serie-cloverworks"
+      "url": "https://www.animeclick.it/news/111973-addio-a-toshio-masuda-regista-de-la-corazzata-spaziale-yamato-e-tora-tora-tora"
     },
     {
-      "title": "PlayStation 5: arriva l'upscaling tramite IA anche sul modello base",
+      "title": "Zipaki: tutte le uscite digitali e cartacee di settembre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111909-playstation-5-arriva-lupscaling-tramite-ia-anche-sul-modello-base"
+      "url": "https://www.animeclick.it/news/111897-zipaki-tutte-le-uscite-digitali-e-cartacee-di-settembre-2026"
     },
     {
-      "title": "Anime Preview: annunci per The Record of a Fallen Vampire e altre serie",
+      "title": "One-Punch Man: nuovo trailer e data di debutto per la seconda parte della terza stagione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111966-anime-preview-annunci-per-the-record-of-a-fallen-vampire-e-altre-serie"
+      "url": "https://www.animeclick.it/news/112018-one-punch-man-nuovo-trailer-e-data-di-debutto-per-la-seconda-parte-della-terza-stagione"
     },
     {
-      "title": "Overwatch x Solo Leveling: tutti i dettagli della nuova collaborazione",
+      "title": "Addio allo sceneggiatore So Kuramoto, il maestro che ispirò Hirokazu Kore'eda",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111970-overwatch-x-solo-leveling-tutti-i-dettagli-della-nuova-collaborazione"
+      "url": "https://www.animeclick.it/news/111875-addio-allo-sceneggiatore-so-kuramoto-il-maestro-che-ispiro-hirokazu-koreeda"
     },
     {
-      "title": "Anime autunno 2026: panoramica sui doppiaggi italiani",
+      "title": "Fatal Fury CotW: i personaggi di Tokyo Revengers si preparano a scendere in campo",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111951-anime-autunno-2026-panoramica-sui-doppiaggi-italiani"
+      "url": "https://www.animeclick.it/news/111982-fatal-fury-cotw-i-personaggi-di-tokyo-revengers-si-preparano-a-scendere-in-campo"
     },
     {
-      "title": "Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)",
+      "title": "La versione femminile di Draco Malfoy conquista i social",
       "source": "animeclick",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it"
+      "url": "https://www.animeclick.it/news/112004-la-versione-femminile-di-draco-malfoy-conquista-i-social"
     },
     {
-      "title": "Anime Preview: annunci per Liar Game, New Fairy Princess Minky Momo e molto altro",
+      "title": "Sony lancia Crunchyroll Storyworks, la nuova divisione per anime e adattamenti live-action",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111932-anime-preview-annunci-per-liar-game-new-fairy-princess-minky-momo-e-molto-altro"
+      "url": "https://www.animeclick.it/news/111971-sony-lancia-crunchyroll-storyworks-la-nuova-divisione-per-anime-e-adattamenti-live-action"
+    },
+    {
+      "title": "Riftbound: Radiance - la quinta espansione del TCG debutta il 16 ottobre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111953-riftbound-radiance-la-quinta-espansione-del-tcg-debutta-il-16-ottobre"
+    },
+    {
+      "title": "Guild Receptionist torna dopo due anni di limbo: Alina avrà un nuovo character design",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111934-guild-receptionist-torna-dopo-due-anni-di-limbo-alina-avra-un-nuovo-character-design"
+    },
+    {
+      "title": "AI-Mashup nei videogiochi: come funzionano le mod che fondono giochi diversi e perché preoccupano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111950-ai-mashup-nei-videogiochi-come-funzionano-le-mod-che-fondono-giochi-diversi-e-perche-preoccupano"
+    },
+    {
+      "title": "Addio a Fusako Yusaki, l'artista giapponese che portò la plastilina animata in TV",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111961-addio-a-fusako-yusaki-lartista-giapponese-che-porto-la-plastilina-animata-in-tv"
+    },
+    {
+      "title": "Box Office Giappone: il film Mama ga mou kono sekai ni inakutemo debutta al primo posto",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111988-box-office-giappone-il-film-mama-ga-mou-kono-sekai-ni-inakutemo-debutta-al-primo-posto"
+    },
+    {
+      "title": "La persona che mi piace non è un ragazzo: nuovo trailer per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111985-la-persona-che-mi-piace-non-e-un-ragazzo-nuovo-trailer-per-lanime"
+    },
+    {
+      "title": "Naruto: Kishimoto al lavoro su un nuovo manga - Tutti gli annunci del New York Comic Con 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112005-naruto-kishimoto-al-lavoro-su-un-nuovo-manga-tutti-gli-annunci-del-new-york-comic-con-2026"
+    },
+    {
+      "title": "Ape Escape sta tornando in vita? Dietro il progetto ci sarebbe il team di Sonic Mania",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111975-ape-escape-sta-tornando-in-vita-dietro-il-progetto-ci-sarebbe-il-team-di-sonic-mania"
+    },
+    {
+      "title": "Crunchyroll: in arrivo una sezione completamente dedicata nella home PS5",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111981-crunchyroll-in-arrivo-una-sezione-completamente-dedicata-nella-home-ps5"
+    },
+    {
+      "title": "Hirayasumi: il manga di Keigo Shinzō si concluderà in due capitoli",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111947-hirayasumi-il-manga-di-keigo-shinzo-si-concludera-in-due-capitoli"
     }
   ],
   "youtube_trends": [
     {
       "title": "[The Poseidon Cabin] Annabeth&#39;s Circe&#39;s spa look! #leahsavajeffries #percyjackson #booktok #pjo",
       "url": "https://www.youtube.com/watch?v=5m69_Z4GYUM"
-    },
-    {
-      "title": "[LalibreriadiGiady📚] E voi avete già qualche idea? 🤭#BookTok#libri#libricheamo#books#romance #singer #perte",
-      "url": "https://www.youtube.com/watch?v=V-jKbrRGsho"
     },
     {
       "title": "[LalibreriadiGiady📚] Non mi avranno😭✨ #booktok #libri #libricheamo #books #romance #humor #bibliomanzia #perte",
@@ -4131,16 +4127,16 @@
       "url": "https://www.youtube.com/watch?v=Y9A-zCw1mtk"
     },
     {
+      "title": "[LaSegnalibri] #booktubeitalia #booktok #consiglidilettura #booktokitalia #books #perte",
+      "url": "https://www.youtube.com/watch?v=yskZ3BH2Px0"
+    },
+    {
       "title": "[Maina Lilac] OIL CEO DOES WHAT WITH TREE? #vtuber #vtuberclips #envtuber #booktube #booktok #twitch #vtuberen",
       "url": "https://www.youtube.com/watch?v=74Ccqlg50PA"
     },
     {
       "title": "[Themangaguy] Ranking all 3 midnight universe books #comics #marvel #midnightuniverse #fyp #foryou",
       "url": "https://www.youtube.com/watch?v=uhmkmdKHw90"
-    },
-    {
-      "title": "[nhgreads] Underrated Batman Comics",
-      "url": "https://www.youtube.com/watch?v=V-HsNxepBE0"
     },
     {
       "title": "[Pop Culture Philosophers] Weekly Comic Book Review 10/06/26",
@@ -4153,10 +4149,6 @@
     {
       "title": "[Gem Mint Collectibles] See… I told ya #comicbooks #cgccomics #nycc",
       "url": "https://www.youtube.com/watch?v=fY-FayF6OJ0"
-    },
-    {
-      "title": "[Pelati e Fumetti] Daredevil: Nuova Serie, Nuove Polemiche! - Colazione a Fumetti",
-      "url": "https://www.youtube.com/watch?v=svxsGwKI5ek"
     },
     {
       "title": "[nhgreads] Marvel Comics EVERYONE Should Read",
@@ -4175,20 +4167,20 @@
       "url": "https://www.youtube.com/watch?v=9DMBy516gaY"
     },
     {
-      "title": "[Zouhair ] Every Person Sukuna Killed Throughout His Lifetime | Jujutsu Kaisen Manga #jujutsukaisen #sukuna",
-      "url": "https://www.youtube.com/watch?v=hHWedBR7RUE"
+      "title": "[Rachel Redd] I’m new here, but these horror comics are just too good to not share. #bookrecommendations",
+      "url": "https://www.youtube.com/watch?v=EtZo84-jxYg"
     },
     {
-      "title": "[Etra chan saw it!] An interview with a lottery winner was broadcasted on TV... [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=T5JukWpU2MU"
-    },
-    {
-      "title": "[Mizter Manga] He Can COPY Any Skill and Turn EXP Into New Powers! – Manga Recap",
-      "url": "https://www.youtube.com/watch?v=FN-8qJrtt0I"
+      "title": "[Smirking Gun] Terminal #2 Review - Lets Read Comics  #59",
+      "url": "https://www.youtube.com/watch?v=IipyW0x9__w"
     },
     {
       "title": "[ActuallyJays ] yes, this is a horror manga about delivering MAIL",
       "url": "https://www.youtube.com/watch?v=bHLFyum_5Zk"
+    },
+    {
+      "title": "[Mizter Manga] He Can COPY Any Skill and Turn EXP Into New Powers! – Manga Recap",
+      "url": "https://www.youtube.com/watch?v=FN-8qJrtt0I"
     },
     {
       "title": "[Simom] Perché i nuovi anime hanno titoli lunghi come frasi?",
@@ -4207,12 +4199,20 @@
       "url": "https://www.youtube.com/watch?v=onUNLGa8XHY"
     },
     {
-      "title": "[Mas] NEW Naruto Manga OFFICIALLY ANNOUNCED 🔥 #naruto #narutoshippuden",
-      "url": "https://www.youtube.com/watch?v=4C7MNwsEn6Y"
+      "title": "[Michele Mari] NUOVI MANGA IN ARRIVO? TOTOANNUNCI LUCCA COMICS &amp; GAMES 2026 E OLTRE...",
+      "url": "https://www.youtube.com/watch?v=JuTOvh-yoPc"
     },
     {
       "title": "[DANI DARK COMICS] NUOVI MANGA E FUMETTI DALLA PANINI OTTOBRE 2026",
       "url": "https://www.youtube.com/watch?v=AX6s7kweNAk"
+    },
+    {
+      "title": "[Sad Marcus Inc] What’s in the bag? Recent manga pick ups #manga #mangaedit #weeb #mangarecommendations",
+      "url": "https://www.youtube.com/watch?v=auAlInbNXps"
+    },
+    {
+      "title": "[AnimeStrikerz] Naruto Announced 4 New Projects!?😱",
+      "url": "https://www.youtube.com/watch?v=ebBbAIvzjZw"
     }
   ]
 }
