@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-10-19T10:43:38.426904+00:00",
+  "updated_at": "2026-10-19T19:19:15.430448+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -75,24 +75,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788828878919",
+      "title": "Codice civile. Con la Costituzione, i trattati U.E. e le principali norme complementari",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788828878919",
-      "title": "Codice civile. Con la Costituzione, i trattati U.E. e le principali norme complementari",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
       "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -123,16 +123,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822752918",
+      "title": "I migliori anni",
       "author": "",
       "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -155,18 +155,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788870432350",
-      "title": "Appunti di diritto privato",
+      "ean": "9788838613036",
+      "title": "Psicologia dello sviluppo",
       "author": "",
       "position": 20,
       "category": "generale",
       "source": "libraccio"
     },
     {
+      "ean": "9782940552535",
+      "title": "Corto Maltese. La regina di Babilonia",
+      "author": "",
+      "position": 1,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804236061",
       "title": "Il ritratto di Dorian Gray",
       "author": "",
-      "position": 1,
+      "position": 2,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -174,7 +182,7 @@
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 2,
+      "position": 3,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -182,7 +190,7 @@
       "ean": "9788804239932",
       "title": "I Malavoglia",
       "author": "",
-      "position": 3,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -190,7 +198,7 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -198,7 +206,7 @@
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,21 +214,13 @@
       "ean": "9788804259329",
       "title": "La cruna dell'ago",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804273899",
       "title": "Racconti del grottesco",
-      "author": "",
-      "position": 7,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804277156",
-      "title": "Le mie prigioni",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -371,24 +371,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822752871",
-      "title": "Il profumo segreto del mare",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822752871",
+      "title": "Il profumo segreto del mare",
       "author": "",
       "position": 29,
       "category": "narrativa",
@@ -771,10 +771,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9782940552535",
+      "title": "Corto Maltese. La regina di Babilonia",
+      "author": "",
+      "position": 5,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804449218",
       "title": "Tutti gli orrori di Dylan Dog",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -782,7 +790,7 @@
       "ean": "9788804520573",
       "title": "Donne a fior di nervi",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -790,7 +798,7 @@
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -798,7 +806,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -806,7 +814,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -814,21 +822,13 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
-      "author": "",
-      "position": 11,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804767084",
-      "title": "Heartstopper. Vol. 5",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -963,24 +963,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822654359",
-      "title": "My Hero Academia. Vol. 41",
+      "ean": "9788822651334",
+      "title": "My Hero Academia. Vol. 40",
       "author": "",
       "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828705659",
-      "title": "Rinascita. Daredevil",
+      "ean": "9788822654359",
+      "title": "My Hero Academia. Vol. 41",
       "author": "",
       "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828782988",
-      "title": "Watchmen",
+      "ean": "9788828705659",
+      "title": "Rinascita. Daredevil",
       "author": "",
       "position": 31,
       "category": "fumetti",
@@ -1275,16 +1275,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858155325",
-      "title": "San Francesco",
+      "ean": "9788851141356",
+      "title": "I giorni del sacro. I riti e le feste de...",
       "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788851141356",
-      "title": "I giorni del sacro. I riti e le feste de...",
+      "ean": "9788858155325",
+      "title": "San Francesco",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1315,24 +1315,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804813163",
-      "title": "Profeti del buio. Potere, manipolazione,...",
+      "ean": "9788858151136",
+      "title": "Missionari",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788806273361",
-      "title": "Senzadio. A che cosa serve credere all'i...",
+      "ean": "9788804813163",
+      "title": "Profeti del buio. Potere, manipolazione,...",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788817074247",
-      "title": "Tra Cesare e Dio. Come la rivoluzione di...",
+      "ean": "9788806273361",
+      "title": "Senzadio. A che cosa serve credere all'i...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3587,138 +3587,319 @@
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-monti-2026/",
       "source": "visitlunigiana"
+    },
+    {
+      "title": "Eventi in Lunigiana",
+      "date": "2026-11-20",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-14_23-17-00_802.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Categorie Eventi",
+      "date": "2026-11-20",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-14_23-17-00_802.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "5° Festival del Tartufo",
+      "date": "2026-11-20",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-14_23-17-00_802.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Note d’autunno",
+      "date": "2026-11-14",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-54-29_675.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mangialonga Fivizzano",
+      "date": "2026-11-08",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-55-05_960.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Cena con il Falo’ 2026",
+      "date": "2026-11-07",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-53-22_409.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Halloween Monzone Alto",
+      "date": "2026-10-31",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-23_20-26-10_457.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Castagnata a Folegnano",
+      "date": "2026-10-31",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-50-49_193.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Halloween al Castello",
+      "date": "2026-10-31",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-51-33_688.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Climbing day",
+      "date": "2026-10-31",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-53-28_052.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Halloween Village",
+      "date": "2026-10-30",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-52-51_356.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Camminata a favore della ricerca sui tumori",
+      "date": "2026-10-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-08_06-29-50_054.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Castagnata a Pieve di Viano",
+      "date": "2026-10-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-06_22-12-10_105.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Castagnata a Caprigliola",
+      "date": "2026-10-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-51-09_608.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Premio Bancarella della Cucina",
+      "date": "2026-10-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-55-23_559.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Halloween in maneggio",
+      "date": "2026-10-25",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-56-13_810.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Pumpkin Patch La festa delle zucche",
+      "date": "2026-10-24",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-10-06_22-09-42_609.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Casola in Castagna / Percorso enogastronomico",
+      "date": "2026-10-24",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-53-46_416.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Concerto alla Fornace di Monzone",
+      "date": "2026-10-24",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-55-30_853.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Convegno e cena tematica / La Pietra nell’architettura",
+      "date": "2026-10-23",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-48-11_927.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Insolita domenica d’autunno",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-23_20-27-57_155.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La castagnata del donatore",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-29_20-48-29_039.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Regnano Polenta di castagne e ….",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-06_22-13-52_963.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa della castagna di Monzone",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-06_22-14-36_586.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro di Vanessa Isoppo",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-48-31_128.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Sagra d’autunno al Parco Fiera di Barbarasco",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-50-23_142.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Castagnata al Museo Audiovisivo della Resistenza",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-50-32_220.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Non solo mondine a Canepari",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-52-29_394.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La Filiera della Castagna",
+      "date": "2026-10-18",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-53-03_923.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Tourday 2026 / Il Food tour piu’ pazzo d’Italia",
+      "date": "2026-10-17",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/02/2026-02-22_19-34-27_836.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione romanzo di Corrado Leoni",
+      "date": "2026-10-17",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-06_22-12-30_305.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Castagnata a Pontremoli",
+      "date": "2026-10-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-06_22-11-02_567.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro di Riccardo Boggi",
+      "date": "2026-10-17",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-54-06_254.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Performance di Stefano Filippi",
+      "date": "2026-10-17",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-15_23-51-17_780.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Narrazione -spettacolo di e con Stefano Filippi",
+      "date": "2026-10-16",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-53-09_687.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Castagnata a Filetto",
+      "date": "2026-10-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-29_20-45-39_893-2.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La Castagna Racconta",
+      "date": "2026-10-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-23_20-28-54_146.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra omaggio a Cherubino Binelli",
+      "date": "2026-10-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-06_22-09-33_907.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra di Maria Elena Mori",
+      "date": "2026-10-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-08_20-10-45_335.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Book club di Start Working",
+      "date": "2026-10-06",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-18-39_325.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra di Elena Borghi e Stefano Paulon",
+      "date": "2026-09-23",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-23_20-25-17_606.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra su San Francesco",
+      "date": "2026-09-17",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-17_21-53-33_636.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Museo Archivio della Memoria di Bagnone",
+      "date": "2026-04-05",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-25_21-14-03_151.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visita alle Grotte di Equi Terme",
+      "date": "2026-04-04",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-01_09-35-22_187.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello di Lusuolo",
+      "date": "2026-04-04",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-01_09-35-53_987.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello di Bastia di Licciana",
+      "date": "2026-03-29",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-01_20-22-52_274.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello Malaspina di Monti di Licciana",
+      "date": "2026-03-29",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-01_20-22-46_205-1.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello di Castiglione del Terziere",
+      "date": "2026-03-28",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-02_20-03-52_249-scaled.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate alla Fortezza della Brunella",
+      "date": "2026-02-15",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-07-at-20.54.57.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate a Villa Dosi Delfini",
+      "date": "2026-01-11",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-03-at-23.38.22.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Museo Diocesano di Pontremoli",
+      "date": "2026-01-10",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-03-at-23.38.21.jpeg",
+      "source": "lunigianaworld"
     }
   ],
   "manga_trends": [
     {
-      "title": "Lucca Comics & Games 2026: gli eventi su prenotazione",
+      "title": "Happy Kanako's Killer Life: annunciato l'adattamento animato",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112060-lucca-comics-games-2026-gli-eventi-su-prenotazione"
-    },
-    {
-      "title": "Yamato Video: Anche il consiglio studentesco cade in fallo in arrivo su ANiME Generation",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112043-yamato-video-anche-il-consiglio-studentesco-cade-in-fallo-in-arrivo-su-anime-generation"
-    },
-    {
-      "title": "La persona che mi piace non è un ragazzo: nuovo trailer per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111985-la-persona-che-mi-piace-non-e-un-ragazzo-nuovo-trailer-per-lanime"
-    },
-    {
-      "title": "God of War Laufey: annunciata la collector's edition (ma senza il gioco)",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112036-god-of-war-laufey-annunciata-la-collectors-edition-ma-senza-il-gioco"
-    },
-    {
-      "title": "Okko The Exiled- Recensione: il diavolo non veste Prada",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111886-okko-the-exiled-recensione"
-    },
-    {
-      "title": "La versione femminile di Draco Malfoy conquista i social",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112004-la-versione-femminile-di-draco-malfoy-conquista-i-social"
-    },
-    {
-      "title": "I Got a Cheat Skill in Another World: trailer e novità per la seconda stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112055-i-got-a-cheat-skill-in-another-world-trailer-e-novita-per-la-seconda-stagione"
-    },
-    {
-      "title": "Dynit Manga: le uscite di ottobre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112032-dynit-manga-le-uscite-di-ottobre-2026"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: il merch esclusivo di Jungle",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112031-lucca-comics-games-2026-il-merch-esclusivo-di-jungle"
-    },
-    {
-      "title": "GTA 6: ecco il launch trailer",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112044-gta-6-ecco-il-launch-trailer"
-    },
-    {
-      "title": "The Otome Heroine's Fight for Survival: nuovo video e visual per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111994-the-otome-heroines-fight-for-survival-nuovo-video-e-visual-per-l-anime"
-    },
-    {
-      "title": "Magic: The Gathering: dal 2027 cambiano Play Booster e Collector Booster, arrivano i God Pack",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112007-magic-the-gathering-dal-2027-cambiano-play-booster-e-collector-booster-arrivano-i-god-pack"
-    },
-    {
-      "title": "La protagonista del nuovo Atelier potrà ingrassare, a grande richiesta dei fan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112052-la-protagonista-del-nuovo-atelier-potra-ingrassare-a-grande-richiesta-dei-fan"
-    },
-    {
-      "title": "Dynit Manga annuncia More Than a Married Couple, But Not Lovers",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112002-dynit-manga-annuncia-more-than-a-married-couple-but-not-lovers"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: le iniziative di Bandai Namco",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112047-lucca-comics-games-2026-le-iniziative-di-bandai-namco"
-    },
-    {
-      "title": "Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)",
-      "source": "animeclick",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it"
-    },
-    {
-      "title": "Blue Lock: in anteprima a Lucca Comics & Games 2026 il film live-action tratto dal manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112045-blue-lock-in-anteprima-a-lucca-comics-games-2026-il-film-live-action-tratto-dal-manga"
-    },
-    {
-      "title": "Amayo no Tsuki: Tra Yuri e disabilità. Trailer dell'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112001-amayo-no-tsuki-tra-yuri-e-disabilita-trailer-dellanime"
-    },
-    {
-      "title": "Dr. Stone: annunciato Terraforming, sequel dell'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111998-dr-stone-annunciato-terraforming-sequel-dellanime"
-    },
-    {
-      "title": "Enjoy New Life with My Daughter: primo trailer e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112057-enjoy-new-life-with-my-daughter-primo-trailer-e-data-di-debutto-per-lanime"
-    },
-    {
-      "title": "Fire Emblem Fortune's Weave- Recensione: tra strategia e nuove ambizioni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112019-fire-emblem-fortunes-weave-recensione-tra-strategia-e-nuove-ambizioni"
-    },
-    {
-      "title": "Tiger Mask W compie 10 anni: intervista al character designer Hisashi Kagawa",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111901-tiger-mask-w-compie-10-anni-intervista-al-character-designer-hisashi-kagawa"
-    },
-    {
-      "title": "Ken il Guerriero - Il Film torna nei cinema italiani",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112035-ken-il-guerriero-il-film-torna-nei-cinema-italiani"
-    },
-    {
-      "title": "GACKT YELLOW FRIED CHICKENz si esibiranno a Roma per il FATE FESTIVAL 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112069-gackt-yellow-fried-chickenz-si-esibiranno-a-roma-per-il-fate-festival-2027"
-    },
-    {
-      "title": "Epic Games rinvia lo sparatutto Disney e impone lo sviluppo “AI first”",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112027-epic-games-rinvia-lo-sparatutto-disney-e-impone-lo-sviluppo-%25e2%2580%259cai-first%25e2%2580%259d"
-    },
-    {
-      "title": "Accordo in USA per l'animazione TV: più salari e tutele contro l’IA per chi lavora nel settore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112015-accordo-in-usa-per-lanimazione-tv-piu-salari-e-tutele-contro-l%25e2%2580%2599ia-per-chi-lavora-nel-settore"
+      "url": "https://www.animeclick.it/news/112066-happy-kanako-s-killer-life-annunciato-l-adattamento-animato"
     },
     {
       "title": "Addio allo sceneggiatore So Kuramoto, il maestro che ispirò Hirokazu Kore'eda",
@@ -3726,19 +3907,144 @@
       "url": "https://www.animeclick.it/news/111875-addio-allo-sceneggiatore-so-kuramoto-il-maestro-che-ispiro-hirokazu-koreeda"
     },
     {
-      "title": "Top 20 settimanale manga dal Giappone (04/10/2026)",
+      "title": "Blue Lock: in anteprima a Lucca Comics & Games 2026 il film live-action tratto dal manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111957-top-20-settimanale-manga-dal-giappone-04102026"
+      "url": "https://www.animeclick.it/news/112045-blue-lock-in-anteprima-a-lucca-comics-games-2026-il-film-live-action-tratto-dal-manga"
     },
     {
-      "title": "Naruto: Kishimoto al lavoro su un nuovo manga - Tutti gli annunci del New York Comic Con 2026",
+      "title": "Gundam: The Witch from Mercury arriva su Youtube sottotitolata in italiano",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112005-naruto-kishimoto-al-lavoro-su-un-nuovo-manga-tutti-gli-annunci-del-new-york-comic-con-2026"
+      "url": "https://www.animeclick.it/news/112028-gundam-the-witch-from-mercury-arriva-su-youtube-sottotitolata-in-italiano"
+    },
+    {
+      "title": "Nue's Exorcist: annunciato l'adattamento animato del manga di Kōta Kawae",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112021-nue-s-exorcist-annunciato-l-adattamento-animato-del-manga-di-kota-kawae"
     },
     {
       "title": "Skull Dragon's Precious Daughter: trailer e novità per l'anime",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/111978-skull-dragons-precious-daughter-trailer-e-novita-per-lanime"
+    },
+    {
+      "title": "Tiger Mask W compie 10 anni: intervista al character designer Hisashi Kagawa",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111901-tiger-mask-w-compie-10-anni-intervista-al-character-designer-hisashi-kagawa"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: al via la quarta edizione dei Community Awards",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112020-lucca-comics-games-2026-al-via-la-quarta-edizione-dei-community-awards"
+    },
+    {
+      "title": "Addio a Toshio Masuda, regista de La corazzata spaziale Yamato e Tora! Tora! Tora!",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111973-addio-a-toshio-masuda-regista-de-la-corazzata-spaziale-yamato-e-tora-tora-tora"
+    },
+    {
+      "title": "Google Playground apre a tutti la possibilità di creare videogiochi: basterà un prompt",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111997-google-playground-apre-a-tutti-la-possibilita-di-creare-videogiochi-bastera-un-prompt"
+    },
+    {
+      "title": "Zipaki: tutte le uscite digitali e cartacee di settembre 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111897-zipaki-tutte-le-uscite-digitali-e-cartacee-di-settembre-2026"
+    },
+    {
+      "title": "Dynit Manga annuncia More Than a Married Couple, But Not Lovers",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112002-dynit-manga-annuncia-more-than-a-married-couple-but-not-lovers"
+    },
+    {
+      "title": "Accordo in USA per l'animazione TV: più salari e tutele contro l’IA per chi lavora nel settore",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112015-accordo-in-usa-per-lanimazione-tv-piu-salari-e-tutele-contro-l%25e2%2580%2599ia-per-chi-lavora-nel-settore"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Saka Mikami",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112041-lucca-comics-games-2026-regolamento-firmacopie-di-saka-mikami"
+    },
+    {
+      "title": "Anime Preview: trailer per The Kept Man of the Princess Knight, Red Riding Hood: A Detective Story e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112026-anime-preview-trailer-per-the-kept-man-of-the-princess-knight-red-riding-hood-a-detective-story-e-molto-altro"
+    },
+    {
+      "title": "Captain Tsubasa: a Milano arriva la mostra d'arte dedicata al manga di Yoichi Takahashi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111999-captain-tsubasa-a-milano-arriva-la-mostra-darte-dedicata-al-manga-di-yoichi-takahashi"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Naoya Ando e Ryo Nakamura (Dynit)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112029-lucca-comics-games-2026-regolamento-firmacopie-di-naoya-ando-ryo-nakamura-dynit"
+    },
+    {
+      "title": "Non solo anime: novità dal New York Comic Con e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112011-non-solo-anime-novita-dal-new-york-comic-con-e-molto-altro"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie In Your Face Comix",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112062-lucca-comics-games-2026-regolamento-firmacopie-in-your-face-comix"
+    },
+    {
+      "title": "Il monologo della Speziale: The Late Lady's Treasure: nuovi trailer e cast per il film in arrivo a dicembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112046-il-monologo-della-speziale-the-late-ladys-treasure-nuovi-trailer-e-cast-per-il-film-in-arrivo-a-dicembre"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: anteprima del nuovo film di Madoka Magica, con ospiti di SHAFT e Aniplex",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112034-lucca-comics-games-2026-anteprima-del-nuovo-film-di-madoka-magica-con-ospiti-di-shaft-e-aniplex"
+    },
+    {
+      "title": "Anteprima 422: annunci e altre novità per Planet Manga",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112042-anteprima-422-annunci-e-altre-novita-per-planet-manga"
+    },
+    {
+      "title": "Fire Emblem Fortune's Weave- Recensione: tra strategia e nuove ambizioni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112019-fire-emblem-fortunes-weave-recensione-tra-strategia-e-nuove-ambizioni"
+    },
+    {
+      "title": "Okko The Exiled- Recensione: il diavolo non veste Prada",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111886-okko-the-exiled-recensione"
+    },
+    {
+      "title": "Hades in Concert: il concerto ufficiale arriva su YouTube",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111968-hades-in-concert-il-concerto-ufficiale-arriva-su-youtube"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: il merch esclusivo di Jungle",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112031-lucca-comics-games-2026-il-merch-esclusivo-di-jungle"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie Jundo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112048-lucca-comics-games-2026-regolamento-firmacopie-jundo"
+    },
+    {
+      "title": "Magical Buff: trailer e novità per il fantasy invernale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111990-magical-buff-trailer-e-novita-per-il-fantasy-invernale"
+    },
+    {
+      "title": "Yamato Video: la seconda stagione di Tenken - Reincarnato in una spada arriva su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112058-yamato-video-la-seconda-stagione-di-tenken-reincarnato-in-una-spada-arriva-su-anime-generation"
+    },
+    {
+      "title": "Dr. Stone: annunciato Terraforming, sequel dell'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111998-dr-stone-annunciato-terraforming-sequel-dellanime"
     }
   ],
   "youtube_trends": [
@@ -3771,16 +4077,16 @@
       "url": "https://www.youtube.com/watch?v=an6ihgF0j6E"
     },
     {
-      "title": "[LaSegnalibri] #booktubeitalia #booktok #consiglidilettura #booktokitalia #books #perte",
-      "url": "https://www.youtube.com/watch?v=yskZ3BH2Px0"
-    },
-    {
       "title": "[Libros_libri_books ] La mia terapia “librosa”… #booktube #booktok #books #perte #booktubeitalia",
       "url": "https://www.youtube.com/watch?v=hPmDFF0dK-8"
     },
     {
       "title": "[Once Upon a Cousin] Is this our sign to go back to Italy? #books #booktok #bookrecommendations #bookreview #bookish",
       "url": "https://www.youtube.com/watch?v=Mtu6IVExfEg"
+    },
+    {
+      "title": "[Ale_Books12] La ragazza del Boss di ale books12 su Wattpad 🤍  #booktok #booktokita  #perte #booktokitalia",
+      "url": "https://www.youtube.com/watch?v=F8YHoPba3rY"
     },
     {
       "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 422, i migliori FUMETTI e MANGA di DICEMBRE 2026 | Polvere &amp; Fumetti",
@@ -3791,8 +4097,8 @@
       "url": "https://www.youtube.com/watch?v=UR5mbCKoUw0"
     },
     {
-      "title": "[Blerd Without Fear!] Marvel&#39;s MIDNIGHT Just Launched and It&#39;s...",
-      "url": "https://www.youtube.com/watch?v=FbtPi6QZDRA"
+      "title": "[NonSiamoFratelli] Torna FRANK MILLER! - Calendario uscite MANGA e FUMETTI della Settimana",
+      "url": "https://www.youtube.com/watch?v=3Tx0nKbIvY4"
     },
     {
       "title": "[Pop Culture Philosophers] Weekly Comic Book Review 10/14/26",
@@ -3823,6 +4129,10 @@
       "url": "https://www.youtube.com/watch?v=ssi0GXi-hzw"
     },
     {
+      "title": "[CapedUp] Which is your favorite comic we pulled? #comic #comicbook #comics #comicbooks",
+      "url": "https://www.youtube.com/watch?v=4XFsf_5KlQQ"
+    },
+    {
       "title": "[Yuhoo Comic Review] Ram V Detective Comics Omnibus!",
       "url": "https://www.youtube.com/watch?v=2G_k8et9bnY"
     },
@@ -3835,8 +4145,8 @@
       "url": "https://www.youtube.com/watch?v=8zV9b4VWLdA"
     },
     {
-      "title": "[RichardHTT] Oltre 100€ in fumetteria: acquisti, manga e ripensamenti",
-      "url": "https://www.youtube.com/watch?v=hY90Evv1TfM"
+      "title": "[Ayasaki-san] [Manga Dub] The new girl saves the boy with the mask on, and his life makes a drastic turn [RomCom]",
+      "url": "https://www.youtube.com/watch?v=_Qlx_6FmZxY"
     },
     {
       "title": "[mangatama] 7 horror &amp; thriller manga you NEED to read // literally couldn&#39;t sleep after reading these",
@@ -3847,8 +4157,8 @@
       "url": "https://www.youtube.com/watch?v=9eQcCmzlLVQ"
     },
     {
-      "title": "[Michele Mari] NUOVI MANGA IN ARRIVO? TOTOANNUNCI LUCCA COMICS &amp; GAMES 2026 E OLTRE...",
-      "url": "https://www.youtube.com/watch?v=JuTOvh-yoPc"
+      "title": "[Ayasaki-san] [Manga Dub] The girl who always takes care of me goes full Yandere the second I mention another girl",
+      "url": "https://www.youtube.com/watch?v=qU8NTvyBoRk"
     },
     {
       "title": "[Dante’s Rant Room] Is Boruto The New DragonBall GT? #naruto #boruto #anime",
