@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-10-20T17:58:51.850638+00:00",
+  "updated_at": "2026-10-21T10:06:04.544144+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -35,8 +35,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863115666",
-      "title": "La morte di Ivan Il'ic. Ediz. integrale",
+      "ean": "9791221120066",
+      "title": "Diritto pubblico",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -51,16 +51,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791221120066",
-      "title": "Diritto pubblico",
+      "ean": "9788836005598",
+      "title": "Comunicare in cinese. Livello 1 del Chinese Proficiency Grading Standard (2021). Con Contenuto digitale per download e accesso online. Vol. 1",
       "author": "",
       "position": 7,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788836005598",
-      "title": "Comunicare in cinese. Livello 1 del Chinese Proficiency Grading Standard (2021). Con Contenuto digitale per download e accesso online. Vol. 1",
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
       "position": 8,
       "category": "generale",
@@ -91,18 +91,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
-      "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114355",
       "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,7 +102,7 @@
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,15 +110,15 @@
       "ean": "9788869800825",
       "title": "Il racconto dell'ancella",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752871",
-      "title": "Il profumo segreto del mare",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
-      "position": 16,
+      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,21 +126,29 @@
       "ean": "9788822752918",
       "title": "I migliori anni",
       "author": "",
-      "position": 17,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822756756",
-      "title": "La moglie del mercante di stoffe",
+      "ean": "9788822752871",
+      "title": "Il profumo segreto del mare",
       "author": "",
-      "position": 18,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788838613036",
       "title": "Psicologia dello sviluppo",
+      "author": "",
+      "position": 18,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822756756",
+      "title": "La moglie del mercante di stoffe",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -171,34 +171,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804236061",
-      "title": "Il ritratto di Dorian Gray",
-      "author": "",
-      "position": 2,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804237518",
-      "title": "Il codice Rebecca",
-      "author": "",
-      "position": 3,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804239932",
-      "title": "I Malavoglia",
-      "author": "",
-      "position": 4,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 5,
+      "position": 2,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,7 +182,7 @@
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
       "author": "",
-      "position": 6,
+      "position": 3,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,13 +190,37 @@
       "ean": "9788804252597",
       "title": "Malombra",
       "author": "",
-      "position": 7,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804259329",
       "title": "La cruna dell'ago",
+      "author": "",
+      "position": 5,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804273899",
+      "title": "Racconti del grottesco",
+      "author": "",
+      "position": 6,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804277156",
+      "title": "Le mie prigioni",
+      "author": "",
+      "position": 7,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804319719",
+      "title": "I dolori del giovane Werther",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -331,16 +331,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863115666",
-      "title": "La morte di Ivan Il'ic. Ediz. integrale",
+      "ean": "9788822756350",
+      "title": "Il segreto della libraia di Parigi",
       "author": "",
       "position": 22,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822756350",
-      "title": "Il segreto della libraia di Parigi",
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
       "position": 23,
       "category": "narrativa",
@@ -363,8 +363,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822752871",
-      "title": "Il profumo segreto del mare",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 26,
       "category": "narrativa",
@@ -379,24 +379,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788822752918",
+      "title": "I migliori anni",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9788822752871",
+      "title": "Il profumo segreto del mare",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -507,24 +507,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781474930796",
-      "title": "Cos'è la cacca? Ediz. illustrata",
+      "ean": "9781474935104",
+      "title": "L'Odissea",
       "author": "",
       "position": 14,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9781474935104",
-      "title": "L'Odissea",
+      "ean": "9781474965910",
+      "title": "Alla scoperta della luna",
       "author": "",
       "position": 15,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9781474965910",
-      "title": "Alla scoperta della luna",
+      "ean": "9781474977722",
+      "title": "Le maghette e la sirena nei guai. Con ad...",
       "author": "",
       "position": 16,
       "category": "bambini_ragazzi",
@@ -723,16 +723,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9789403212555",
-      "title": "Culture. Il mio primo atlante",
+      "ean": "9788804717485",
+      "title": "Lo scontro finale. Percy Jackson e gli d...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788847739901",
-      "title": "Riccioli d'Oro e i tre orsi. Ediz. a colori",
+      "ean": "9789403212555",
+      "title": "Culture. Il mio primo atlante",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -779,18 +779,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804520573",
-      "title": "Donne a fior di nervi",
-      "author": "",
-      "position": 6,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804607779",
       "title": "L'abbraccio",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -798,7 +790,7 @@
       "ean": "9788804723967",
       "title": "Heartstopper. Vol. 1",
       "author": "",
-      "position": 8,
+      "position": 7,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -806,7 +798,7 @@
       "ean": "9788804728818",
       "title": "Heartstopper. Vol. 2",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -814,7 +806,7 @@
       "ean": "9788804734307",
       "title": "Heartstopper. Vol. 3",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -822,13 +814,21 @@
       "ean": "9788804739425",
       "title": "Heartstopper. Vol. 4",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788804767091",
       "title": "The Heartstopper yearbook",
+      "author": "",
+      "position": 11,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788806156299",
+      "title": "Olimpo Spa",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -931,10 +931,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788896275757",
+      "title": "Dante. La Divina Commedia a fumetti",
+      "author": "",
+      "position": 25,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788822762610",
       "title": "50 manga da leggere almeno una volta nel...",
       "author": "",
-      "position": 25,
+      "position": 26,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -942,7 +950,39 @@
       "ean": "9788822668547",
       "title": "One piece. Vol. 114",
       "author": "",
-      "position": 26,
+      "position": 27,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817180696",
+      "title": "Persepolis. Ediz. integrale",
+      "author": "",
+      "position": 28,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788864201870",
+      "title": "One piece. New edition. Vol. 1",
+      "author": "",
+      "position": 29,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788864201924",
+      "title": "One piece. New edition. Vol. 6",
+      "author": "",
+      "position": 30,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788864202242",
+      "title": "One piece. New edition. Vol. 38",
+      "author": "",
+      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -950,53 +990,13 @@
       "ean": "9788869715730",
       "title": "Luthor. Joker",
       "author": "",
-      "position": 27,
+      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788873901815",
       "title": "Sharaz-de. Vol. 2",
-      "author": "",
-      "position": 28,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788866567479",
-      "title": "La caduta del patriarcato. La storia del...",
-      "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788866915218",
-      "title": "Superman per il domani",
-      "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788869132520",
-      "title": "Jenus di Nazareth. Redux. Leo Ortolani v...",
-      "author": "",
-      "position": 31,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791221952919",
-      "title": "Atelier of witch hat. Grimoire edition. ...",
-      "author": "",
-      "position": 32,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822658821",
-      "title": "My Hero Academia. Vol. 42",
       "author": "",
       "position": 33,
       "category": "fumetti",
@@ -1083,10 +1083,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804449256",
+      "title": "Chiamati all'amore. Riflessioni",
+      "author": "",
+      "position": 11,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804477648",
       "title": "Tantra per due. Una guida per la felicit...",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1094,7 +1102,7 @@
       "ean": "9788804514275",
       "title": "Io, Caterina. La vita di una donna, il m...",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1102,7 +1110,7 @@
       "ean": "9788804534457",
       "title": "OM. 365 meditazioni quotidiane del Dalai...",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1110,21 +1118,13 @@
       "ean": "9788804561750",
       "title": "Liberarsi dai condizionamenti",
       "author": "",
-      "position": 14,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804635802",
-      "title": "Il mistero femminile",
-      "author": "",
       "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804648246",
-      "title": "In amore vince chi ama",
+      "ean": "9788804564003",
+      "title": "La calma",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1259,10 +1259,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788821560385",
+      "title": "Eucaristia. La mia autostrada per il cie...",
+      "author": "",
+      "position": 33,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788826610931",
       "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
-      "position": 33,
+      "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1270,21 +1278,13 @@
       "ean": "9788851141356",
       "title": "I giorni del sacro. I riti e le feste de...",
       "author": "",
-      "position": 34,
+      "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788858155325",
       "title": "San Francesco",
-      "author": "",
-      "position": 35,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788868948955",
-      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 36,
       "category": "religione",
@@ -1299,18 +1299,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788861762619",
-      "title": "I tre mondi dello spirito",
+      "ean": "9788868948955",
+      "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
       "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858131022",
-      "title": "Francesco d'Assisi. La storia negata",
-      "author": "",
-      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,7 +1310,7 @@
       "ean": "9788806273361",
       "title": "Senzadio. A che cosa serve credere all'i...",
       "author": "",
-      "position": 40,
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,13 +1318,21 @@
       "ean": "9788817074247",
       "title": "Tra Cesare e Dio. Come la rivoluzione di...",
       "author": "",
+      "position": 40,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788827010969",
+      "title": "È proprio tutto finito? Fedeltà all'amor...",
+      "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791223802649",
-      "title": "Il segreto di mio figlio. Come Carlo Acu...",
+      "ean": "9788842095255",
+      "title": "Introduzione alla storia delle religioni",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3881,54 +3881,14 @@
   ],
   "manga_trends": [
     {
-      "title": "La protagonista del nuovo Atelier potrà ingrassare, a grande richiesta dei fan",
+      "title": "Halo, GTA Vice City e I Simpson arrivano nel browser grazie all’IA: è questo il futuro del retrogaming?",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112052-la-protagonista-del-nuovo-atelier-potra-ingrassare-a-grande-richiesta-dei-fan"
+      "url": "https://www.animeclick.it/news/111996-halo-gta-vice-city-e-i-simpson-arrivano-nel-browser-grazie-all%25e2%2580%2599ia-e-questo-il-futuro-del-retrogaming"
     },
     {
-      "title": "Box Office Giappone: il film Mama ga mou kono sekai ni inakutemo debutta al primo posto",
+      "title": "Xbox Game Pass: i giochi confermati in arrivo ad ottobre e novembre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111988-box-office-giappone-il-film-mama-ga-mou-kono-sekai-ni-inakutemo-debutta-al-primo-posto"
-    },
-    {
-      "title": "The Otome Heroine's Fight for Survival: nuovo video e visual per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111994-the-otome-heroines-fight-for-survival-nuovo-video-e-visual-per-l-anime"
-    },
-    {
-      "title": "Blue Lock: in anteprima a Lucca Comics & Games 2026 il film live-action tratto dal manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112045-blue-lock-in-anteprima-a-lucca-comics-games-2026-il-film-live-action-tratto-dal-manga"
-    },
-    {
-      "title": "Kiki - Consegne a domicilio torna al cinema in 4K con nuovo doppiaggio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112025-kiki-consegne-a-domicilio-torna-al-cinema-in-4k-con-nuovo-doppiaggio"
-    },
-    {
-      "title": "Castlevania Belmont's Curse- Recensione: Il sole del mattino per scacciare l'orribile notte",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111933-castlevania-belmonts-curse-recensione-il-sole-del-mattino-per-scacciare-lorribile-notte"
-    },
-    {
-      "title": "Xbox lancia XBOX LABS: esplorare il futuro dei videogiochi con l’IA",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112056-xbox-lancia-xbox-labs-esplorare-il-futuro-dei-videogiochi-con-l%25e2%2580%2599ia"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: gli eventi su prenotazione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112060-lucca-comics-games-2026-gli-eventi-su-prenotazione"
-    },
-    {
-      "title": "Dynit Manga: le uscite di ottobre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112032-dynit-manga-le-uscite-di-ottobre-2026"
-    },
-    {
-      "title": "Nue's Exorcist: annunciato l'adattamento animato del manga di Kōta Kawae",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112021-nue-s-exorcist-annunciato-l-adattamento-animato-del-manga-di-kota-kawae"
+      "url": "https://www.animeclick.it/news/112084-xbox-game-pass-i-giochi-confermati-in-arrivo-a-novembre-2026"
     },
     {
       "title": "Yamato Video: Suikoden in arrivo su ANiME Generation",
@@ -3936,39 +3896,14 @@
       "url": "https://www.animeclick.it/news/112075-yamato-video-suikoden-in-arrivo-su-anime-generation"
     },
     {
-      "title": "Jun Maeda (Clannad, Kanon) ha un tumore alla faringe ma continuerà a creare",
+      "title": "Lucca Comics & Games 2026: le iniziative su Go Nagai",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112072-jun-maeda-clannad-kanon-ha-un-tumore-alla-faringe-ma-continuera-a-creare"
+      "url": "https://www.animeclick.it/news/112073-lucca-comics-games-2026-le-iniziative-su-go-nagai"
     },
     {
-      "title": "Lucca Comics & Games 2026: il merch esclusivo di Jungle",
+      "title": "Okko The Exiled- Recensione: il diavolo non veste Prada",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112031-lucca-comics-games-2026-il-merch-esclusivo-di-jungle"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Saka Mikami",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112041-lucca-comics-games-2026-regolamento-firmacopie-di-saka-mikami"
-    },
-    {
-      "title": "Hades in Concert: il concerto ufficiale arriva su YouTube",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111968-hades-in-concert-il-concerto-ufficiale-arriva-su-youtube"
-    },
-    {
-      "title": "Non solo anime: novità dal New York Comic Con e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112011-non-solo-anime-novita-dal-new-york-comic-con-e-molto-altro"
-    },
-    {
-      "title": "Star Comics: le novità previste per gennaio dall'anteprima dell'editore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112077-star-comics-le-novita-previste-per-gennaio-dall-anteprima-dell-editore"
-    },
-    {
-      "title": "Magical Buff: trailer e novità per il fantasy invernale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111990-magical-buff-trailer-e-novita-per-il-fantasy-invernale"
+      "url": "https://www.animeclick.it/news/111886-okko-the-exiled-recensione"
     },
     {
       "title": "Rizzoli Lizard lancia la collana di artbook dedicata ai film Ghibli",
@@ -3976,14 +3911,64 @@
       "url": "https://www.animeclick.it/news/112059-rizzoli-lizard-lancia-la-collana-di-artbook-dedicata-ai-film-ghibli"
     },
     {
-      "title": "Steam raggiunge il record di 43,5 milioni di utenti simultanei: ecco cosa ha trainato la crescita",
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Saka Mikami",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112022-steam-raggiunge-il-record-di-435-milioni-di-utenti-simultanei-ecco-cosa-ha-trainato-la-crescita"
+      "url": "https://www.animeclick.it/news/112041-lucca-comics-games-2026-regolamento-firmacopie-di-saka-mikami"
     },
     {
-      "title": "GTA 6: ecco il launch trailer",
+      "title": "Cyberpunk: Edgerunners 2 - Informazioni sul doppiaggio di Netflix",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112044-gta-6-ecco-il-launch-trailer"
+      "url": "https://www.animeclick.it/news/112079-cyberpunk-edgerunners-2-informazioni-sul-doppiaggio-di-netflix"
+    },
+    {
+      "title": "Zelda Ocarina of Time: Nintendo pubblica un trailer panoramico",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112037-zelda-ocarina-of-time-nintendo-pubblica-un-trailer-panoramico"
+    },
+    {
+      "title": "Gundam: The Witch from Mercury arriva su Youtube sottotitolata in italiano",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112028-gundam-the-witch-from-mercury-arriva-su-youtube-sottotitolata-in-italiano"
+    },
+    {
+      "title": "GACKT YELLOW FRIED CHICKENz si esibiranno a Roma per il FATE FESTIVAL 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112069-gackt-yellow-fried-chickenz-si-esibiranno-a-roma-per-il-fate-festival-2027"
+    },
+    {
+      "title": "Accordo in USA per l'animazione TV: più salari e tutele contro l’IA per chi lavora nel settore",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112015-accordo-in-usa-per-lanimazione-tv-piu-salari-e-tutele-contro-l%25e2%2580%2599ia-per-chi-lavora-nel-settore"
+    },
+    {
+      "title": "Everyone's Darling Has a Secret: trailer e novità per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111991-everyones-darling-has-a-secret-trailer-e-novita-per-lanime"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie In Your Face Comix",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112062-lucca-comics-games-2026-regolamento-firmacopie-in-your-face-comix"
+    },
+    {
+      "title": "Kiki - Consegne a domicilio torna al cinema in 4K con nuovo doppiaggio",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112025-kiki-consegne-a-domicilio-torna-al-cinema-in-4k-con-nuovo-doppiaggio"
+    },
+    {
+      "title": "Anime Preview: trailer per The Kept Man of the Princess Knight, Red Riding Hood: A Detective Story e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112026-anime-preview-trailer-per-the-kept-man-of-the-princess-knight-red-riding-hood-a-detective-story-e-molto-altro"
+    },
+    {
+      "title": "Gigacon Caserta: la band Seven Oops (Naruto, Bugie d'Aprile) ospite in fiera",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111987-gigacon-caserta-la-band-seven-oops-naruto-bugie-daprile-ospite-in-fiera"
+    },
+    {
+      "title": "God of War Laufey: annunciata la collector's edition (ma senza il gioco)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112036-god-of-war-laufey-annunciata-la-collectors-edition-ma-senza-il-gioco"
     },
     {
       "title": "Light Novel Ranking La classifica giapponese al 11/10/2026",
@@ -3991,34 +3976,49 @@
       "url": "https://www.animeclick.it/news/42477-light-novel-ranking-la-classifica-giapponese-al-11102026"
     },
     {
-      "title": "Dr. Stone: annunciato Terraforming, sequel dell'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111998-dr-stone-annunciato-terraforming-sequel-dellanime"
-    },
-    {
       "title": "Lucca Comics & Games 2026: regolamento firmacopie Jundo",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/112048-lucca-comics-games-2026-regolamento-firmacopie-jundo"
     },
     {
-      "title": "I Got a Cheat Skill in Another World: trailer e novità per la seconda stagione",
+      "title": "The Otome Heroine's Fight for Survival: nuovo video e visual per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112055-i-got-a-cheat-skill-in-another-world-trailer-e-novita-per-la-seconda-stagione"
+      "url": "https://www.animeclick.it/news/111994-the-otome-heroines-fight-for-survival-nuovo-video-e-visual-per-l-anime"
     },
     {
-      "title": "Happy Kanako's Killer Life: annunciato l'adattamento animato",
+      "title": "Xbox lancia XBOX LABS: esplorare il futuro dei videogiochi con l’IA",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112066-happy-kanako-s-killer-life-annunciato-l-adattamento-animato"
+      "url": "https://www.animeclick.it/news/112056-xbox-lancia-xbox-labs-esplorare-il-futuro-dei-videogiochi-con-l%25e2%2580%2599ia"
     },
     {
-      "title": "Tiger Mask W compie 10 anni: intervista al character designer Hisashi Kagawa",
+      "title": "Amayo no Tsuki: Tra Yuri e disabilità. Trailer dell'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111901-tiger-mask-w-compie-10-anni-intervista-al-character-designer-hisashi-kagawa"
+      "url": "https://www.animeclick.it/news/112001-amayo-no-tsuki-tra-yuri-e-disabilita-trailer-dellanime"
     },
     {
-      "title": "One-Punch Man: nuovo trailer e data di debutto per la seconda parte della terza stagione",
+      "title": "Hades in Concert: il concerto ufficiale arriva su YouTube",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112018-one-punch-man-nuovo-trailer-e-data-di-debutto-per-la-seconda-parte-della-terza-stagione"
+      "url": "https://www.animeclick.it/news/111968-hades-in-concert-il-concerto-ufficiale-arriva-su-youtube"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: il merch esclusivo di Jungle",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112031-lucca-comics-games-2026-il-merch-esclusivo-di-jungle"
+    },
+    {
+      "title": "Captain Tsubasa: a Milano arriva la mostra d'arte dedicata al manga di Yoichi Takahashi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111999-captain-tsubasa-a-milano-arriva-la-mostra-darte-dedicata-al-manga-di-yoichi-takahashi"
+    },
+    {
+      "title": "Addio a Hiroshi Tsuchida, voce di Grisha in L’attacco dei giganti: aveva 54 anni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112089-addio-a-hiroshi-tsuchida-voce-di-grisha-in-l%25e2%2580%2599attacco-dei-giganti-aveva-54-anni"
+    },
+    {
+      "title": "Yamato Video: la seconda stagione di Tenken - Reincarnato in una spada arriva su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112058-yamato-video-la-seconda-stagione-di-tenken-reincarnato-in-una-spada-arriva-su-anime-generation"
     },
     {
       "title": "Enjoy New Life with My Daughter: primo trailer e data di debutto per l'anime",
@@ -4026,9 +4026,9 @@
       "url": "https://www.animeclick.it/news/112057-enjoy-new-life-with-my-daughter-primo-trailer-e-data-di-debutto-per-lanime"
     },
     {
-      "title": "Ken il Guerriero - Il Film torna nei cinema italiani",
+      "title": "Non solo anime: novità dal New York Comic Con e molto altro",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112035-ken-il-guerriero-il-film-torna-nei-cinema-italiani"
+      "url": "https://www.animeclick.it/news/112011-non-solo-anime-novita-dal-new-york-comic-con-e-molto-altro"
     }
   ],
   "youtube_trends": [
@@ -4039,6 +4039,10 @@
     {
       "title": "[The Poseidon Cabin] walker sees himself made of gold #walkerscobell #percyjackson #booktok #pjo",
       "url": "https://www.youtube.com/watch?v=TfaC2_Y6S2s"
+    },
+    {
+      "title": "[Read Me, Love Me] libri che mi sono piaciuti ma🦋🧡 #booktok #bibliomanzia #perte #ilmaggiodeilibri #books #bookbites",
+      "url": "https://www.youtube.com/watch?v=aT06J6-KAO4"
     },
     {
       "title": "[LalibreriadiGiady📚] Edizioni Americane🇺🇸 VS Edizioni italiane🇮🇹 #booktok #bibliomanzia #libricheamo #books #perte",
@@ -4057,20 +4061,16 @@
       "url": "https://www.youtube.com/watch?v=DAj1HMdRaso"
     },
     {
+      "title": "[Essiejk] #enemiestolovers #bibliomanzia #wattpaditalia #romancebooks #booktok #booktube #libridaleggere",
+      "url": "https://www.youtube.com/watch?v=_NY3KnJZFps"
+    },
+    {
       "title": "[Once upon a Vero] 🤭 #booktok #bookshelf #booktubeitalia #ikeavlog #vlogday #ikeahaul",
       "url": "https://www.youtube.com/watch?v=F93J2_UV12c"
     },
     {
       "title": "[Libros_libri_books ] La mia terapia “librosa”… #booktube #booktok #books #perte #booktubeitalia",
       "url": "https://www.youtube.com/watch?v=hPmDFF0dK-8"
-    },
-    {
-      "title": "[Ale_Books12] La ragazza del Boss di ale books12 su Wattpad 🤍  #booktok #booktokita  #perte #booktokitalia",
-      "url": "https://www.youtube.com/watch?v=F8YHoPba3rY"
-    },
-    {
-      "title": "[Philippa L. Andersson] spicy Italien-RomCom #booktok #booktube #liebesroman #bücherliebe",
-      "url": "https://www.youtube.com/watch?v=6NgxkiQMPmg"
     },
     {
       "title": "[Polvere & Fumetti] ANTEPRIMA PANINI 422, i migliori FUMETTI e MANGA di DICEMBRE 2026 | Polvere &amp; Fumetti",
@@ -4089,20 +4089,16 @@
       "url": "https://www.youtube.com/watch?v=5ZIE-MrwIB0"
     },
     {
-      "title": "[Pop Culture Philosophers] Weekly Comic Book Review 10/14/26",
-      "url": "https://www.youtube.com/watch?v=H8KKehVCjGg"
-    },
-    {
-      "title": "[nhgreads] DC Comics EVERYONE Should Read",
-      "url": "https://www.youtube.com/watch?v=UY_mtdqzy_g"
-    },
-    {
-      "title": "[nhgreads] Can I Convince You To Read These Comics?",
-      "url": "https://www.youtube.com/watch?v=mJEmWyM9hBc"
+      "title": "[nhgreads] Comics I Will ALWAYS Recommend",
+      "url": "https://www.youtube.com/watch?v=wD6oS0PNiS8"
     },
     {
       "title": "[Yuhoo Comic Review] How to Read Krakoa?",
       "url": "https://www.youtube.com/watch?v=EoLzoQXejy4"
+    },
+    {
+      "title": "[nhgreads] Can I Convince You To Read These Comics?",
+      "url": "https://www.youtube.com/watch?v=mJEmWyM9hBc"
     },
     {
       "title": "[nhgreads] How To Start Reading DC Comics",
@@ -4113,40 +4109,48 @@
       "url": "https://www.youtube.com/watch?v=ssi0GXi-hzw"
     },
     {
-      "title": "[CapedUp] Which is your favorite comic we pulled? #comic #comicbook #comics #comicbooks",
-      "url": "https://www.youtube.com/watch?v=4XFsf_5KlQQ"
+      "title": "[Yuhoo Comic Review] Guess My Favorite Character",
+      "url": "https://www.youtube.com/watch?v=-_MfchwdqpU"
     },
     {
-      "title": "[Yuhoo Comic Review] Ram V Detective Comics Omnibus!",
-      "url": "https://www.youtube.com/watch?v=2G_k8et9bnY"
+      "title": "[CapedUp] Which is your favorite comic we pulled? #comic #comicbook #comics #comicbooks",
+      "url": "https://www.youtube.com/watch?v=4XFsf_5KlQQ"
     },
     {
       "title": "[OMNIBUS GOD] BATMAN DETECTIVE COMICS BU RAM V! #comic #dccomics #comics #batman #omnibus #batmancomics",
       "url": "https://www.youtube.com/watch?v=7EIGMV7RhPE"
     },
     {
+      "title": "[Yuhoo Comic Review] Ram V Detective Comics Omnibus!",
+      "url": "https://www.youtube.com/watch?v=2G_k8et9bnY"
+    },
+    {
+      "title": "[Kanon's RomCom Mangas] [Manga Dub] Every boy worships the gorgeous new transfer student, but she only bothers me",
+      "url": "https://www.youtube.com/watch?v=uG6FRtLw2yg"
+    },
+    {
       "title": "[Ayasaki-san] [Manga Dub] The girl who always takes care of me goes full Yandere the second I mention another girl",
       "url": "https://www.youtube.com/watch?v=qU8NTvyBoRk"
-    },
-    {
-      "title": "[Ayasaki-san] [Manga Dub] The new girl saves the boy with the mask on, and his life makes a drastic turn [RomCom]",
-      "url": "https://www.youtube.com/watch?v=_Qlx_6FmZxY"
-    },
-    {
-      "title": "[mangatama] 7 horror &amp; thriller manga you NEED to read // literally couldn&#39;t sleep after reading these",
-      "url": "https://www.youtube.com/watch?v=8k1Wrv6okQg"
-    },
-    {
-      "title": "[The Omnibus Collector] Manga Buyer&#39;s Guide - October 2026",
-      "url": "https://www.youtube.com/watch?v=9eQcCmzlLVQ"
     },
     {
       "title": "[Etra chan saw it!] The day after I told my friends who I liked [Manga Dub]",
       "url": "https://www.youtube.com/watch?v=l4nmsAkdfgE"
     },
     {
-      "title": "[Fanfare Kzoo] New Comics [10/14/2026]",
-      "url": "https://www.youtube.com/watch?v=OF5v7gR_FYQ"
+      "title": "[mangatama] 7 horror &amp; thriller manga you NEED to read // literally couldn&#39;t sleep after reading these",
+      "url": "https://www.youtube.com/watch?v=8k1Wrv6okQg"
+    },
+    {
+      "title": "[Manga Bear Nana Kuma] [Manga Dub] My new boss quit her company to follow me to the countryside... [RomCom]",
+      "url": "https://www.youtube.com/watch?v=6uq_-BHudyI"
+    },
+    {
+      "title": "[The Omnibus Collector] Manga Buyer&#39;s Guide - October 2026",
+      "url": "https://www.youtube.com/watch?v=9eQcCmzlLVQ"
+    },
+    {
+      "title": "[SecondPageManga] NEW YURI MANGA You Need to Read📚 #shorts #anime #manga",
+      "url": "https://www.youtube.com/watch?v=LNXASu3fz74"
     },
     {
       "title": "[screenWEEK] Naruto torna, nuovo anime e nuovo manga in arrivo 🔥",
@@ -4159,10 +4163,6 @@
     {
       "title": "[Kirio1984] NUOVI MANGA e GRANDI SORPRESE! 📚 Unboxing della settimana",
       "url": "https://www.youtube.com/watch?v=wH-K4RjSpnc"
-    },
-    {
-      "title": "[SecondPageManga] NEW YURI MANGA You Need to Read📚 #shorts #anime #manga",
-      "url": "https://www.youtube.com/watch?v=LNXASu3fz74"
     }
   ]
 }
