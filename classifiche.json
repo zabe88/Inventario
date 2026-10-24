@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-10-23T17:52:47.312421+00:00",
+  "updated_at": "2026-10-24T09:31:20.822923+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -67,18 +67,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788836005598",
-      "title": "Comunicare in cinese. Livello 1 del Chinese Proficiency Grading Standard (2021). Con Contenuto digitale per download e accesso online. Vol. 1",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788836005598",
+      "title": "Comunicare in cinese. Livello 1 del Chinese Proficiency Grading Standard (2021). Con Contenuto digitale per download e accesso online. Vol. 1",
       "author": "",
       "position": 10,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788833190259",
+      "title": "Anatomia umana",
+      "author": "",
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
@@ -86,21 +94,13 @@
       "ean": "9788850241910",
       "title": "Fiori per Algernon",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788838613036",
       "title": "Psicologia dello sviluppo",
-      "author": "",
-      "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788833190259",
-      "title": "Anatomia umana",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -123,18 +123,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788822752918",
       "title": "I migliori anni",
       "author": "",
-      "position": 17,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,13 +134,21 @@
       "ean": "9788822752871",
       "title": "Il profumo segreto del mare",
       "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
+      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822756077",
-      "title": "Il caffè delle cose preziose",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -379,24 +379,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863113853",
-      "title": "I fratelli Karamazov. Ediz. integrale",
+      "ean": "9788822752918",
+      "title": "I migliori anni",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9788822752871",
+      "title": "Il profumo segreto del mare",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752871",
-      "title": "Il profumo segreto del mare",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -659,16 +659,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 33,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
@@ -699,24 +699,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788851168506",
-      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
+      "ean": "9788867145065",
+      "title": "I colori dei mestieri. Filastrocche in c...",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867145065",
-      "title": "I colori dei mestieri. Filastrocche in c...",
+      "ean": "9788867908356",
+      "title": "Miss kappa da ridere",
       "author": "",
       "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867908356",
-      "title": "Miss kappa da ridere",
+      "ean": "9788854041561",
+      "title": "Il mio giardino. Montessori: un mondo di...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
@@ -731,8 +731,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854041561",
-      "title": "Il mio giardino. Montessori: un mondo di...",
+      "ean": "9788804765516",
+      "title": "Coraline",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -979,24 +979,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828785057",
-      "title": "Death note. Vol. 4",
+      "ean": "9788864201924",
+      "title": "One piece. New edition. Vol. 6",
       "author": "",
       "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828766391",
-      "title": "Death note. Vol. 12",
+      "ean": "9788822638700",
+      "title": "Demon slayer. Kimetsu no yaiba. Vol. 23",
       "author": "",
       "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828766377",
-      "title": "Death note. Vol. 5",
+      "ean": "9788828766391",
+      "title": "Death note. Vol. 12",
       "author": "",
       "position": 33,
       "category": "fumetti",
@@ -1299,8 +1299,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788842095255",
-      "title": "Introduzione alla storia delle religioni",
+      "ean": "9791223802649",
+      "title": "Il segreto di mio figlio. Come Carlo Acu...",
       "author": "",
       "position": 38,
       "category": "religione",
@@ -1323,8 +1323,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788810432358",
-      "title": "Introduzione alla Sacra Scrittura",
+      "ean": "9788801064308",
+      "title": "Passodopopasso. Notebook. Vol. 3: Pane e...",
       "author": "",
       "position": 41,
       "category": "religione",
@@ -1491,8 +1491,8 @@
       "source": "giunti"
     },
     {
-      "ean": "9788834748190",
-      "title": "Il guardiano dell'aldilà. La trilogia di Monday",
+      "ean": "9788892912847",
+      "title": "Mi chiamavano Mascherina",
       "author": "",
       "position": 4,
       "category": "gialli_thriller",
@@ -1500,9 +1500,17 @@
     },
     {
       "ean": "9788834748190",
+      "title": "Il guardiano dell'aldilà. La trilogia di Monday",
+      "author": "",
+      "position": 5,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788834748190",
       "title": "Il guardiano dell'aldilà. La trilogia d...",
       "author": "Susanna Raule",
-      "position": 5,
+      "position": 6,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1510,7 +1518,7 @@
       "ean": "9788823536494",
       "title": "La rete a maglie strette",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1518,7 +1526,7 @@
       "ean": "9791224204794",
       "title": "Delitto al cimitero dei Saints-Pères",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1526,7 +1534,7 @@
       "ean": "9791224200291",
       "title": "Otto scrittori per un delitto",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1534,7 +1542,7 @@
       "ean": "9788867719709",
       "title": "Il sangue della tellaria",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1542,7 +1550,7 @@
       "ean": "9791281017221",
       "title": "So cosa vuoi",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1550,7 +1558,7 @@
       "ean": "9788892912946",
       "title": "Ti ho visto morire",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1558,7 +1566,7 @@
       "ean": "9788822767370",
       "title": "Assassinio a Pedra Manna. Le indagini del tenente Roversi",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1566,7 +1574,7 @@
       "ean": "9788822767370",
       "title": "Assassinio a Pedra Manna. Le indagini d...",
       "author": "Gavino Zucca",
-      "position": 13,
+      "position": 14,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1574,7 +1582,7 @@
       "ean": "9788829795024",
       "title": "Mistero al Circolo Colonna",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1590,7 @@
       "ean": "9788823537415",
       "title": "Una piccola cosa proibita",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1598,7 @@
       "ean": "9791255822936",
       "title": "Il codice del Ragno",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1606,7 @@
       "ean": "9791223227824",
       "title": "LA VILLA DELL'ENIGMISTA",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1614,7 @@
       "ean": "9791254943250",
       "title": "La mano di Orfeo",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,7 +1622,7 @@
       "ean": "9788850276295",
       "title": "La curva dell'oblio",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1622,7 +1630,7 @@
       "ean": "9788804787068",
       "title": "Un caso di coscienza",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1630,7 +1638,7 @@
       "ean": "9791223802458",
       "title": "Cattiva condotta",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1638,7 +1646,7 @@
       "ean": "9788850276332",
       "title": "Il silenzio delle rondini",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1646,7 +1654,7 @@
       "ean": "9788850276615",
       "title": "Fatal intrusion",
       "author": "",
-      "position": 23,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1654,23 +1662,7 @@
       "ean": "9788850276820",
       "title": "Le chiavi del cosmo",
       "author": "",
-      "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224209003",
-      "title": "Indagine a tre. Un nuovo caso per il commissario Calligaris",
-      "author": "",
       "position": 25,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224209003",
-      "title": "Indagine a tre. Un nuovo caso per il co...",
-      "author": "Alessandra Carnevali",
-      "position": 26,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1699,10 +1691,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9781806074082",
+      "title": "Buonanotte, coniglietto",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9788878748835",
       "title": "Trasformavestiti",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1710,7 +1710,7 @@
       "ean": "9782889758777",
       "title": "Voglio fare il portiere. Una guida pratica",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1718,7 +1718,7 @@
       "ean": "9782889758784",
       "title": "Voglio fare l'attaccante. Una guida pratica",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1726,7 +1726,7 @@
       "ean": "9782889758784",
       "title": "Voglio fare l'attaccante. Una guida pra...",
       "author": "Alberto Bertolazzi",
-      "position": 7,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1734,7 +1734,7 @@
       "ean": "9791221223569",
       "title": "Animaletti. Super cute activity book",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1742,7 +1742,7 @@
       "ean": "9788829609369",
       "title": "Disegni magici. Unicorni",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1750,7 +1750,7 @@
       "ean": "9788858059043",
       "title": "I miei trucchi di magia",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1758,7 +1758,7 @@
       "ean": "9788858058336",
       "title": "Skincare, pelle e beauty. La scienza dei cosmetici",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1766,7 +1766,7 @@
       "ean": "9788858058336",
       "title": "Skincare, pelle e beauty. La scienza de...",
       "author": "Beatrice Mautino",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1774,7 @@
       "ean": "9791256731855",
       "title": "Insieme",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1782,7 @@
       "ean": "9788830357587",
       "title": "Cenerentola. Pop up",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1790,7 @@
       "ean": "9781806073948",
       "title": "Unicorni. Collezione Vesto le bamboline",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1798,7 @@
       "ean": "9791039586993",
       "title": "Voglio essere una star K-pop",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1806,7 @@
       "ean": "9781836068754",
       "title": "Unicorno ha la bua",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1814,7 @@
       "ean": "9781806072262",
       "title": "Draghi. Con adesivi",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1822,7 @@
       "ean": "9788855066372",
       "title": "La mia biblioteca dei libri coi buchi. Vol. 2",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1830,7 @@
       "ean": "9788855066372",
       "title": "La mia biblioteca dei libri coi buchi. ...",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,7 +1838,7 @@
       "ean": "9791039586788",
       "title": "Il mio grande libro degli odori",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1846,7 +1846,7 @@
       "ean": "9791255335139",
       "title": "Buongiorno, cagnolini!",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1854,7 +1854,7 @@
       "ean": "9791259747037",
       "title": "Cosa c'è nel dono?",
       "author": "",
-      "position": 23,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1862,21 +1862,13 @@
       "ean": "9791259747310",
       "title": "Dino non vuole andare a nanna",
       "author": "",
-      "position": 24,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
       "ean": "9791259746627",
       "title": "Le migliori amiche",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788855069359",
-      "title": "Colora gli unicorni con le spugnette",
       "author": "",
       "position": 26,
       "category": "bambini_ragazzi",
@@ -2251,8 +2243,8 @@
       "source": "giunti"
     },
     {
-      "ean": "9788852255519",
-      "title": "W.I.T.C.H. Il cuore solo sa. Il Romanzo. E se... le Guardiane avessero dimenticato la magia?",
+      "ean": "9791223208595",
+      "title": "One last breath",
       "author": "",
       "position": 5,
       "category": "young_adult",
@@ -2260,9 +2252,17 @@
     },
     {
       "ean": "9788852255519",
+      "title": "W.I.T.C.H. Il cuore solo sa. Il Romanzo. E se... le Guardiane avessero dimenticato la magia?",
+      "author": "",
+      "position": 6,
+      "category": "young_adult",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788852255519",
       "title": "W.I.T.C.H. Il cuore solo sa. Il Romanzo...",
       "author": "Lodovica Comello",
-      "position": 6,
+      "position": 7,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2270,7 +2270,7 @@
       "ean": "9791223279625",
       "title": "L'ordine dei senzasonno . Il risveglio del baratro del nulla. Vol. 2",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2278,7 +2278,7 @@
       "ean": "9791223279625",
       "title": "L'ordine dei senzasonno . Il risveglio ...",
       "author": "Isaak Friedl",
-      "position": 8,
+      "position": 9,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2286,7 +2286,7 @@
       "ean": "9788852256059",
       "title": "Grimorio Le Radici del male Disney Villains",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2294,7 +2294,7 @@
       "ean": "9788852256059",
       "title": "Grimorio Le Radici del male Disney Vill...",
       "author": "Walt Disney",
-      "position": 10,
+      "position": 11,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2302,7 +2302,7 @@
       "ean": "9791223209790",
       "title": "The Knave and the moon",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2310,7 +2310,7 @@
       "ean": "9788852256240",
       "title": "W.I.T.C.H. volume 9 - Da Tutta la verità a Doppio inganno",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2318,7 +2318,7 @@
       "ean": "9788852256240",
       "title": "W.I.T.C.H. volume 9 - Da Tutta la verit...",
       "author": "Walt Disney",
-      "position": 13,
+      "position": 14,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2326,7 +2326,7 @@
       "ean": "9788809973688",
       "title": "Pagati in esperienza",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2334,7 +2334,7 @@
       "ean": "9791223203217",
       "title": "Songs for Ghosts",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2342,7 +2342,7 @@
       "ean": "9788809915725",
       "title": "Il segreto di Milly",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2350,7 +2350,7 @@
       "ean": "9788852255199",
       "title": "Nessuno resta indietro. Disney A twisted tale. E se Nani non si sentisse all'altezza del compito?",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2358,7 +2358,7 @@
       "ean": "9788852255199",
       "title": "Nessuno resta indietro. Disney A twiste...",
       "author": "Walt Disney, Keala Kendall",
-      "position": 18,
+      "position": 19,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2366,7 +2366,7 @@
       "ean": "9791223208694",
       "title": "The Fear",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2374,7 +2374,7 @@
       "ean": "9791223201046",
       "title": "Manslaughter Park",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2382,7 +2382,7 @@
       "ean": "9788852255274",
       "title": "Oltre l'orizzonte - Disney A twisted tale",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2390,7 +2390,7 @@
       "ean": "9791223207918",
       "title": "The Agency for Scandal. Edizione Italiana",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2398,7 +2398,7 @@
       "ean": "9791223270059",
       "title": "L'ora dei dannati. La montagna",
       "author": "",
-      "position": 23,
+      "position": 24,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2406,7 +2406,7 @@
       "ean": "9791223270042",
       "title": "L'ora dei dannati. L'abisso",
       "author": "",
-      "position": 24,
+      "position": 25,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2414,7 +2414,7 @@
       "ean": "9791223282502",
       "title": "The Afterdark",
       "author": "",
-      "position": 25,
+      "position": 26,
       "category": "young_adult",
       "source": "giunti"
     },
@@ -2422,21 +2422,13 @@
       "ean": "9791223204863",
       "title": "Yuzuru. Il volo del Samurai",
       "author": "",
-      "position": 26,
+      "position": 27,
       "category": "young_adult",
       "source": "giunti"
     },
     {
       "ean": "9791223283097",
       "title": "The Other Girl",
-      "author": "",
-      "position": 27,
-      "category": "young_adult",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791223210673",
-      "title": "Odiarsi a Parigi",
       "author": "",
       "position": 28,
       "category": "young_adult",
@@ -3839,39 +3831,9 @@
   ],
   "manga_trends": [
     {
-      "title": "Yamato Video: riepilogo della stagione autunnale su ANiME Generation",
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie Hollow Press",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112105-yamato-video-riepilogo-della-stagione-autunnale-su-anime-generation"
-    },
-    {
-      "title": "Enjoy New Life with My Daughter: primo trailer e data di debutto per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112057-enjoy-new-life-with-my-daughter-primo-trailer-e-data-di-debutto-per-lanime"
-    },
-    {
-      "title": "Yamato Video: Anche il consiglio studentesco cade in fallo in arrivo su ANiME Generation",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112043-yamato-video-anche-il-consiglio-studentesco-cade-in-fallo-in-arrivo-su-anime-generation"
-    },
-    {
-      "title": "Just Like Mona Lisa: trailer e novità per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112095-just-like-mona-lisa-trailer-e-novita-per-lanime"
-    },
-    {
-      "title": "Anteprima 422: annunci e altre novità per Planet Manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112042-anteprima-422-annunci-e-altre-novita-per-planet-manga"
-    },
-    {
-      "title": "Cyberpunk: Edgerunners 2 - Informazioni sul doppiaggio di Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112079-cyberpunk-edgerunners-2-informazioni-sul-doppiaggio-di-netflix"
-    },
-    {
-      "title": "Black Ops 1 e 2 vendono 11 milioni di copie in un mese, ma gli autori restano a mani vuote",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112090-black-ops-1-e-2-vendono-11-milioni-di-copie-in-un-mese-ma-gli-autori-restano-a-mani-vuote"
+      "url": "https://www.animeclick.it/news/112088-lucca-comics-games-2026-regolamento-firmacopie-hollow-press"
     },
     {
       "title": "Jun Maeda (Clannad, Kanon) ha un tumore alla faringe ma continuerà a creare",
@@ -3879,104 +3841,44 @@
       "url": "https://www.animeclick.it/news/112072-jun-maeda-clannad-kanon-ha-un-tumore-alla-faringe-ma-continuera-a-creare"
     },
     {
-      "title": "Anime Preview: trailer per The Kept Man of the Princess Knight, Red Riding Hood: A Detective Story e molto altro",
+      "title": "Gundam: The Witch from Mercury arriva su Youtube sottotitolata in italiano",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112026-anime-preview-trailer-per-the-kept-man-of-the-princess-knight-red-riding-hood-a-detective-story-e-molto-altro"
+      "url": "https://www.animeclick.it/news/112028-gundam-the-witch-from-mercury-arriva-su-youtube-sottotitolata-in-italiano"
     },
     {
-      "title": "Hades in Concert: il concerto ufficiale arriva su YouTube",
+      "title": "Enjoy New Life with My Daughter: primo trailer e data di debutto per l'anime",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111968-hades-in-concert-il-concerto-ufficiale-arriva-su-youtube"
+      "url": "https://www.animeclick.it/news/112057-enjoy-new-life-with-my-daughter-primo-trailer-e-data-di-debutto-per-lanime"
     },
     {
-      "title": "Il monologo della Speziale: The Late Lady's Treasure: nuovi trailer e cast per il film in arrivo a dicembre",
+      "title": "Addio al prolifico scrittore Ryu Murakami",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112046-il-monologo-della-speziale-the-late-ladys-treasure-nuovi-trailer-e-cast-per-il-film-in-arrivo-a-dicembre"
+      "url": "https://www.animeclick.it/news/112117-addio-al-prolifico-scrittore-ryu-murakami"
     },
     {
-      "title": "Magic: The Gathering: dal 2027 cambiano Play Booster e Collector Booster, arrivano i God Pack",
+      "title": "Lucca Comics & Games 2026: le iniziative di Bandai Namco",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112007-magic-the-gathering-dal-2027-cambiano-play-booster-e-collector-booster-arrivano-i-god-pack"
+      "url": "https://www.animeclick.it/news/112047-lucca-comics-games-2026-le-iniziative-di-bandai-namco"
     },
     {
-      "title": "Xbox lancia XBOX LABS: esplorare il futuro dei videogiochi con l’IA",
+      "title": "Lucca Comics & Games 2026: il merch esclusivo di Jungle",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112056-xbox-lancia-xbox-labs-esplorare-il-futuro-dei-videogiochi-con-l%25e2%2580%2599ia"
+      "url": "https://www.animeclick.it/news/112031-lucca-comics-games-2026-il-merch-esclusivo-di-jungle"
     },
     {
-      "title": "Dynit Manga: le uscite di ottobre 2026",
+      "title": "Lucca Comics & Games 2026: gli eventi su prenotazione",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112032-dynit-manga-le-uscite-di-ottobre-2026"
+      "url": "https://www.animeclick.it/news/112060-lucca-comics-games-2026-gli-eventi-su-prenotazione"
     },
     {
-      "title": "Accordo in USA per l'animazione TV: più salari e tutele contro l’IA per chi lavora nel settore",
+      "title": "Yamato Video: Anche il consiglio studentesco cade in fallo in arrivo su ANiME Generation",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112015-accordo-in-usa-per-lanimazione-tv-piu-salari-e-tutele-contro-l%25e2%2580%2599ia-per-chi-lavora-nel-settore"
+      "url": "https://www.animeclick.it/news/112043-yamato-video-anche-il-consiglio-studentesco-cade-in-fallo-in-arrivo-su-anime-generation"
     },
     {
-      "title": "Lucca Comics & Games 2026: regolamento firmacopie Hollow Press",
+      "title": "Tiger Mask W compie 10 anni: intervista al character designer Hisashi Kagawa",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112088-lucca-comics-games-2026-regolamento-firmacopie-hollow-press"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: regolamento firmacopie In Your Face Comix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112062-lucca-comics-games-2026-regolamento-firmacopie-in-your-face-comix"
-    },
-    {
-      "title": "Masako Nozawa, celebre voce di Goku, contro le voci clonate dall’IA: \"è un furto!\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112050-masako-nozawa-celebre-voce-di-goku-contro-le-voci-clonate-dall%25e2%2580%2599ia-e-un-furto"
-    },
-    {
-      "title": "Happy Kanako's Killer Life: annunciato l'adattamento animato",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112066-happy-kanako-s-killer-life-annunciato-l-adattamento-animato"
-    },
-    {
-      "title": "Addio a Hiroshi Tsuchida, voce di Grisha in L’attacco dei giganti: aveva 54 anni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112089-addio-a-hiroshi-tsuchida-voce-di-grisha-in-l%25e2%2580%2599attacco-dei-giganti-aveva-54-anni"
-    },
-    {
-      "title": "Fire Emblem Fortune's Weave- Recensione: tra strategia e nuove ambizioni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112019-fire-emblem-fortunes-weave-recensione-tra-strategia-e-nuove-ambizioni"
-    },
-    {
-      "title": "ReVamp cancella il playtest su Steam: l'IA minaccia gli sviluppatori indie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112092-revamp-cancella-il-playtest-su-steam-lia-minaccia-gli-sviluppatori-indie"
-    },
-    {
-      "title": "Xbox Game Pass: i giochi confermati in arrivo ad ottobre e novembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112084-xbox-game-pass-i-giochi-confermati-in-arrivo-a-novembre-2026"
-    },
-    {
-      "title": "Kiki - Consegne a domicilio torna al cinema in 4K con nuovo doppiaggio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112025-kiki-consegne-a-domicilio-torna-al-cinema-in-4k-con-nuovo-doppiaggio"
-    },
-    {
-      "title": "Anime Preview: annunci per Yumene Connect, Null Meta e altre novità",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112086-anime-preview-annunci-per-yumene-connect-null-meta-e-altre-novita"
-    },
-    {
-      "title": "GTA 6: ecco il launch trailer",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112044-gta-6-ecco-il-launch-trailer"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Saka Mikami",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112041-lucca-comics-games-2026-regolamento-firmacopie-di-saka-mikami"
-    },
-    {
-      "title": "EA chiude BioWare, cancellato il nuovo Mass Effect: tagli per circa 400 posti di lavoro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112097-ea-chiude-bioware-cancellato-il-nuovo-mass-effect-tagli-per-circa-400-posti-di-lavoro"
+      "url": "https://www.animeclick.it/news/111901-tiger-mask-w-compie-10-anni-intervista-al-character-designer-hisashi-kagawa"
     },
     {
       "title": "Lucca Comics & Games 2026: le iniziative di Dynit",
@@ -3984,9 +3886,99 @@
       "url": "https://www.animeclick.it/news/112109-lucca-comics-games-2026-le-iniziative-di-dynit"
     },
     {
-      "title": "Lucca Comics & Games 2026: gli eventi su prenotazione",
+      "title": "Dynit Manga: le uscite di ottobre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112060-lucca-comics-games-2026-gli-eventi-su-prenotazione"
+      "url": "https://www.animeclick.it/news/112032-dynit-manga-le-uscite-di-ottobre-2026"
+    },
+    {
+      "title": "Cyberpunk: Edgerunners 2 - Informazioni sul doppiaggio di Netflix",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112079-cyberpunk-edgerunners-2-informazioni-sul-doppiaggio-di-netflix"
+    },
+    {
+      "title": "God of War Laufey: annunciata la collector's edition (ma senza il gioco)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112036-god-of-war-laufey-annunciata-la-collectors-edition-ma-senza-il-gioco"
+    },
+    {
+      "title": "Xbox lancia XBOX LABS: esplorare il futuro dei videogiochi con l’IA",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112056-xbox-lancia-xbox-labs-esplorare-il-futuro-dei-videogiochi-con-l%25e2%2580%2599ia"
+    },
+    {
+      "title": "Just Like Mona Lisa: trailer e novità per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112095-just-like-mona-lisa-trailer-e-novita-per-lanime"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Naoya Ando e Ryo Nakamura (Dynit)",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112029-lucca-comics-games-2026-regolamento-firmacopie-di-naoya-ando-ryo-nakamura-dynit"
+    },
+    {
+      "title": "Yamato Video: riepilogo della stagione autunnale su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112105-yamato-video-riepilogo-della-stagione-autunnale-su-anime-generation"
+    },
+    {
+      "title": "Happy Kanako's Killer Life: annunciato l'adattamento animato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112066-happy-kanako-s-killer-life-annunciato-l-adattamento-animato"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie di Marco Kohinata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112108-lucca-comics-games-2026-regolamento-firmacopie-marco-kohinata"
+    },
+    {
+      "title": "Shigeru Miyamoto riceve l’Ordine della Cultura, prima volta per un creatore di videogiochi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112115-shigeru-miyamoto-riceve-l%25e2%2580%2599ordine-della-cultura-prima-volta-per-un-creatore-di-videogiochi"
+    },
+    {
+      "title": "Amayo no Tsuki: Tra Yuri e disabilità. Trailer dell'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112001-amayo-no-tsuki-tra-yuri-e-disabilita-trailer-dellanime"
+    },
+    {
+      "title": "Yamato Video: Suikoden in arrivo su ANiME Generation",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112075-yamato-video-suikoden-in-arrivo-su-anime-generation"
+    },
+    {
+      "title": "Light Novel Ranking La classifica giapponese al 11/10/2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/42477-light-novel-ranking-la-classifica-giapponese-al-11102026"
+    },
+    {
+      "title": "Box Office Giappone: Chiikawa torna primo e sfiora l'incredibile cifra di 18 miliardi di yen",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112033-box-office-giappone-chiikawa-torna-primo-e-sfiora-lincredibile-cifra-di-18-miliardi-di-yen"
+    },
+    {
+      "title": "Addio a Hiroshi Tsuchida, voce di Grisha in L’attacco dei giganti: aveva 54 anni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112089-addio-a-hiroshi-tsuchida-voce-di-grisha-in-l%25e2%2580%2599attacco-dei-giganti-aveva-54-anni"
+    },
+    {
+      "title": "Anime Preview: annunci per Yumene Connect, Null Meta e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112086-anime-preview-annunci-per-yumene-connect-null-meta-e-altre-novita"
+    },
+    {
+      "title": "Accordo in USA per l'animazione TV: più salari e tutele contro l’IA per chi lavora nel settore",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112015-accordo-in-usa-per-lanimazione-tv-piu-salari-e-tutele-contro-l%25e2%2580%2599ia-per-chi-lavora-nel-settore"
+    },
+    {
+      "title": "Lucky Red cambia le date: Look Back di Koreeda dal 12 novembre, poi Kiki e Ghost in the Shell in 4K",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112112-lucky-red-cambia-le-date-look-back-di-koreeda-dal-12-novembre-poi-kiki-e-ghost-in-the-shell-in-4k"
+    },
+    {
+      "title": "Xbox, la prossima console punterebbe al 2028 e potrebbe costare tra 1.200 e 1.800 dollari",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112104-xbox-la-prossima-console-punterebbe-al-2028-e-potrebbe-costare-tra-1200-e-1800-dollari"
     }
   ],
   "youtube_trends": [
@@ -4011,6 +4003,14 @@
       "url": "https://www.youtube.com/watch?v=UJR3m8rJoCE"
     },
     {
+      "title": "[Elaya Lyn] #wattpaditalia #bibliomanzia #booktokita #wattpadwriter #wattpadforyou #wattpadstories #booktok",
+      "url": "https://www.youtube.com/watch?v=3C8vkAX98-Y"
+    },
+    {
+      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
+      "url": "https://www.youtube.com/watch?v=09s1S0miQts"
+    },
+    {
       "title": "[LalibreriadiGiady📚] The Ruins Beneath us💙(in italiano)dal 5 Gennaio#BookTok #libri #blibliomazia #libricheamo #perte",
       "url": "https://www.youtube.com/watch?v=oeUuWDMuXk8"
     },
@@ -4019,20 +4019,12 @@
       "url": "https://www.youtube.com/watch?v=eKFx7Z4xpIY"
     },
     {
-      "title": "[Elaya Lyn] #wattpaditalia #bibliomanzia #booktokita #wattpadwriter #wattpadforyou #wattpadstories #booktok",
-      "url": "https://www.youtube.com/watch?v=3C8vkAX98-Y"
-    },
-    {
       "title": "[Manuela🩵] booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
       "url": "https://www.youtube.com/watch?v=DAj1HMdRaso"
     },
     {
-      "title": "[Essiejk] #enemiestolovers #bibliomanzia #wattpaditalia #romancebooks #booktok #booktube #libridaleggere",
-      "url": "https://www.youtube.com/watch?v=_NY3KnJZFps"
-    },
-    {
-      "title": "[Chris Mac After Dark] Piccolo Daimao the Demon King Origins Explained | Dragon Ball | Deep Dives",
-      "url": "https://www.youtube.com/watch?v=UR5mbCKoUw0"
+      "title": "[Kana Yamasaki | Mangaka] My Hand Shakes When I Draw Manga. Depression.",
+      "url": "https://www.youtube.com/watch?v=E-cHESIeyPw"
     },
     {
       "title": "[NonSiamoFratelli] Torna FRANK MILLER! - Calendario uscite MANGA e FUMETTI della Settimana",
@@ -4041,6 +4033,10 @@
     {
       "title": "[nhgreads] Comics I Will ALWAYS Recommend",
       "url": "https://www.youtube.com/watch?v=wD6oS0PNiS8"
+    },
+    {
+      "title": "[nhgreads] 10 Comic Book Runs EVERYONE Should Read",
+      "url": "https://www.youtube.com/watch?v=gVOlmUCZ2do"
     },
     {
       "title": "[Yuhoo Comic Review] Guess My Favorite Character",
@@ -4055,10 +4051,6 @@
       "url": "https://www.youtube.com/watch?v=4XFsf_5KlQQ"
     },
     {
-      "title": "[nhgreads] 10 Comic Book Runs EVERYONE Should Read",
-      "url": "https://www.youtube.com/watch?v=gVOlmUCZ2do"
-    },
-    {
       "title": "[Yuhoo Comic Review] Thunderbolts Dark Reign Omnibus!",
       "url": "https://www.youtube.com/watch?v=1hApXgHLxbo"
     },
@@ -4067,16 +4059,16 @@
       "url": "https://www.youtube.com/watch?v=z2HS4D37DZ4"
     },
     {
-      "title": "[Comic Uno] Was the Absolute Green Arrow Reveal Worth the Wait?! | Ranking Comic Books of the Week",
-      "url": "https://www.youtube.com/watch?v=BeygE7tBGAg"
-    },
-    {
       "title": "[JAR’s Toy Emporium ] New Comic Book Day for 10/21/2026 #comics #vlog #dc",
       "url": "https://www.youtube.com/watch?v=8O3SZG2O36o"
     },
     {
-      "title": "[SWFX] Can Lex Luthor Be Trusted? | Superman &#39;78 #2 Review",
-      "url": "https://www.youtube.com/watch?v=uYRZoi49Ndk"
+      "title": "[nhgreads] Are These Comics Worth The Hype?",
+      "url": "https://www.youtube.com/watch?v=8IxpN8m1o2Y"
+    },
+    {
+      "title": "[RatedComics] Spawn Just Made The Biggest Mistake In The Underworld | The Curse of Sherlee Johnson 8",
+      "url": "https://www.youtube.com/watch?v=ht6Ssj5W4hY"
     },
     {
       "title": "[Kanon's RomCom Mangas] [Manga Dub] The office party misunderstanding that made my coworker confess her feelings",
@@ -4099,12 +4091,12 @@
       "url": "https://www.youtube.com/watch?v=FemRZfxPHfc"
     },
     {
-      "title": "[SecondPageManga] NEW YURI MANGA You Need to Read📚 #shorts #anime #manga",
-      "url": "https://www.youtube.com/watch?v=LNXASu3fz74"
-    },
-    {
       "title": "[Fanfare Kzoo] New Comics [10/21/2026]",
       "url": "https://www.youtube.com/watch?v=eqzbAeb5cpk"
+    },
+    {
+      "title": "[SecondPageManga] NEW YURI MANGA You Need to Read📚 #shorts #anime #manga",
+      "url": "https://www.youtube.com/watch?v=LNXASu3fz74"
     },
     {
       "title": "[Kirio1984] NUOVI MANGA e GRANDI SORPRESE! 📚 Unboxing della settimana",
