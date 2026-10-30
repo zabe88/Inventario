@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-10-30T11:22:21.103990+00:00",
+  "updated_at": "2026-10-30T18:35:42.967327+00:00",
   "rankings": [
     {
       "ean": "9788868364748",
@@ -19,32 +19,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9791221120059",
+      "title": "Diritto costituzionale",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788828869269",
-      "title": "Manuale di diritto privato",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791221120059",
-      "title": "Diritto costituzionale",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 5,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788828869269",
+      "title": "Manuale di diritto privato",
       "author": "",
       "position": 6,
       "category": "generale",
@@ -75,18 +75,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788833190259",
-      "title": "Anatomia umana",
-      "author": "",
-      "position": 10,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,13 +86,21 @@
       "ean": "9791221120066",
       "title": "Diritto pubblico",
       "author": "",
-      "position": 12,
+      "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788822788351",
       "title": "Una di famiglia",
+      "author": "",
+      "position": 12,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788833190259",
+      "title": "Anatomia umana",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -115,10 +115,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
+      "author": "",
+      "position": 15,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788838613036",
       "title": "Psicologia dello sviluppo",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -126,37 +134,29 @@
       "ean": "9788860086631",
       "title": "La linguistica. Un corso introduttivo",
       "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
-      "author": "",
       "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788891915504",
-      "title": "Economia aziendale e management. Ediz. Mylab. Con espansione online",
+      "ean": "9788854530645",
+      "title": "Quando le gru volano a sud",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788845923326",
-      "title": "Nel paese dei ciechi",
+      "ean": "9788818016505",
+      "title": "La morte di Iván Iljìc-Padre Sergio",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822756756",
-      "title": "La moglie del mercante di stoffe",
+      "ean": "9788822796257",
+      "title": "Non mentire",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845923326",
-      "title": "Nel paese dei ciechi",
+      "ean": "9788854530645",
+      "title": "Quando le gru volano a sud",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -507,8 +507,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9781409515449",
-      "title": "Il mio primo carezzalibro. Ediz. illustrata",
+      "ean": "9781409528296",
+      "title": "Artisti in erba. Ediz. illustrata",
       "author": "",
       "position": 14,
       "category": "bambini_ragazzi",
@@ -667,16 +667,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804819967",
-      "title": "Una corte di armonia infranta. Il ciclo ...",
+      "ean": "9788851168506",
+      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788851168506",
-      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
+      "ean": "9788804819967",
+      "title": "Una corte di armonia infranta. Il ciclo ...",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
@@ -699,10 +699,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788867908356",
+      "title": "Miss kappa da ridere",
+      "author": "",
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
+      "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788852225789",
       "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
-      "position": 38,
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -710,29 +726,13 @@
       "ean": "9788854047259",
       "title": "I miei occhi sono per… Solleva le alette...",
       "author": "",
-      "position": 39,
+      "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788829601639",
       "title": "L'eredità di Topone. Stampatello maiusco...",
-      "author": "",
-      "position": 40,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858015629",
-      "title": "Pronti, attenti, buh! Ediz. illustrata",
-      "author": "",
-      "position": 41,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867908356",
-      "title": "Miss kappa da ridere",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -811,24 +811,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788806159092",
-      "title": "Anni frolli",
+      "ean": "9788804767084",
+      "title": "Heartstopper. Vol. 5",
       "author": "",
       "position": 10,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788806202347",
-      "title": "MAUS",
+      "ean": "9788806159092",
+      "title": "Anni frolli",
       "author": "",
       "position": 11,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788806233761",
-      "title": "Anne Frank. Diario",
+      "ean": "9788806202347",
+      "title": "MAUS",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -955,34 +955,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822668547",
-      "title": "One piece. Vol. 114",
-      "author": "",
-      "position": 28,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822638700",
-      "title": "Demon slayer. Kimetsu no yaiba. Vol. 23",
-      "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822633255",
-      "title": "Demon slayer. Kimetsu no yaiba. Vol. 20",
-      "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788834946886",
       "title": "I diari della speziale. Vol. 17",
       "author": "",
-      "position": 31,
+      "position": 28,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,7 +966,7 @@
       "ean": "9788834947593",
       "title": "The fragrant flower blooms with dignity....",
       "author": "",
-      "position": 32,
+      "position": 29,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,13 +974,37 @@
       "ean": "9788828766391",
       "title": "Death note. Vol. 12",
       "author": "",
-      "position": 33,
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788828786207",
       "title": "Batman. Anno uno",
+      "author": "",
+      "position": 31,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828792055",
+      "title": "Death note. Vol. 10",
+      "author": "",
+      "position": 32,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828794530",
+      "title": "Death note. Vol. 11",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834923801",
+      "title": "My dress up darling. Bisque doll. Vol. 12",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1131,8 +1131,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804561750",
-      "title": "Liberarsi dai condizionamenti",
+      "ean": "9788804558996",
+      "title": "Storia delle punizioni corporali",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1267,10 +1267,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788821560385",
+      "title": "Eucaristia. La mia autostrada per il cie...",
+      "author": "",
+      "position": 33,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788826610931",
       "title": "Magnifica humanitas. Lettera Enciclica s...",
       "author": "",
-      "position": 33,
+      "position": 34,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1278,31 +1286,15 @@
       "ean": "9791280340184",
       "title": "Come una goccia di miele. Piccola antolo...",
       "author": "",
-      "position": 34,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892251496",
-      "title": "La Bibbia nuova versione dai testi antic...",
-      "author": "",
       "position": 35,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791280340429",
-      "title": "Lama Tsongkhapa. La vita di un Buddha ne...",
+      "ean": "9788892251496",
+      "title": "La Bibbia nuova versione dai testi antichi",
       "author": "",
       "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892251878",
-      "title": "Dio in un segno. Un itinerario attravers...",
-      "author": "",
-      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1302,23 @@
       "ean": "9791223802649",
       "title": "Il segreto di mio figlio. Come Carlo Acu...",
       "author": "",
+      "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791280340429",
+      "title": "Lama Tsongkhapa. La vita di un Buddha ne...",
+      "author": "",
       "position": 38,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788892251878",
+      "title": "Dio in un segno. Un itinerario attravers...",
+      "author": "",
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,7 +1326,7 @@
       "ean": "9788830153899",
       "title": "Cacciatori di anime. Lungo il sentiero d...",
       "author": "",
-      "position": 39,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,21 +1334,13 @@
       "ean": "9788851141356",
       "title": "I giorni del sacro. I riti e le feste de...",
       "author": "",
-      "position": 40,
+      "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788868948955",
       "title": "Magnifica humanitas. Lettera Enciclica s...",
-      "author": "",
-      "position": 41,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788838469572",
-      "title": "Segregati da Dio. Tutti i conclavi del '900",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -2549,21 +2549,15 @@
       "source": "sigeric"
     },
     {
-      "title": "La Pietra nell’Architettura",
+      "title": "Halloween Village 2026",
       "date": null,
-      "url": "https://visitlunigiana.it/events/la-pietra-nellarchitettura/",
+      "url": "https://visitlunigiana.it/events/halloween-village-2026/",
       "source": "visitlunigiana"
     },
     {
       "title": "Apertura e visita guidata a Villa Dosi-Delfini",
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-autunno-2026/",
-      "source": "visitlunigiana"
-    },
-    {
-      "title": "Visita al Castello di Castiglione del Terziere",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/visita-al-castello-di-castiglione-del-terziere-2026/",
       "source": "visitlunigiana"
     },
     {
@@ -2576,12 +2570,6 @@
       "title": "Apertura Museo Diocesano di Pontremoli",
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-museo-diocesano-di-pontremoli-autunno-2026/",
-      "source": "visitlunigiana"
-    },
-    {
-      "title": "Transumanza: storia millenaria di uomini ed animali",
-      "date": null,
-      "url": "https://visitlunigiana.it/events/transumanza-storia-millenaria-di-uomini-ed-animali/",
       "source": "visitlunigiana"
     },
     {
@@ -2603,21 +2591,33 @@
       "source": "visitlunigiana"
     },
     {
-      "title": "Casola in Castagna",
+      "title": "Halloween al Castello del Piagnaro",
       "date": null,
-      "url": "https://visitlunigiana.it/events/casola-in-castagna-2026/",
+      "url": "https://visitlunigiana.it/events/halloween-al-castello-del-piagnaro/",
       "source": "visitlunigiana"
     },
     {
-      "title": "Bukolica Fest",
+      "title": "La Leggenda del Lupo Mannaro – Speciale Halloween",
       "date": null,
-      "url": "https://visitlunigiana.it/events/bukolica-fest-2026/",
+      "url": "https://visitlunigiana.it/events/la-leggenda-del-lupo-mannaro-speciale-halloween/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Halloween Village 2026",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/halloween-village-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "Festa di Halloween",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/festa-di-halloween-monzone-2026/",
       "source": "visitlunigiana"
     },
     {
       "title": "Apertura e visita guidata a Villa Dosi-Delfini",
       "date": null,
-      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini-autunno-2026/",
+      "url": "https://visitlunigiana.it/events/apertura-e-visita-guidata-a-villa-dosi-delfini/",
       "source": "visitlunigiana"
     },
     {
@@ -3449,6 +3449,18 @@
       "source": "visitlunigiana"
     },
     {
+      "title": "17:30La Leggenda del Lupo Mannaro – Speciale HalloweenPontremoli",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/la-leggenda-del-lupo-mannaro-speciale-halloween/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "18:00Halloween Village 2026Albiano",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/halloween-village-2026/",
+      "source": "visitlunigiana"
+    },
+    {
       "title": "19:00Festa di HalloweenMonzone Alto",
       "date": null,
       "url": "https://visitlunigiana.it/events/festa-di-halloween-monzone-2026/",
@@ -3509,9 +3521,27 @@
       "source": "visitlunigiana"
     },
     {
+      "title": "11:00 - 18:00Festa delle CastagneSassalbo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/festa-delle-castagne-sassalbo-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "12:00 - 18:00Castagnata nel BorgoPonticello",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/castagnata-nel-borgo-ponticello-2026/",
+      "source": "visitlunigiana"
+    },
+    {
       "title": "15:00 - 18:00Apertura straordinaria Castello di Monti 2026Monti",
       "date": null,
       "url": "https://visitlunigiana.it/events/apertura-straordinaria-castello-di-monti-2026/",
+      "source": "visitlunigiana"
+    },
+    {
+      "title": "15:00Alla Scoperta di MulazzoMulazzo",
+      "date": null,
+      "url": "https://visitlunigiana.it/events/alla-scoperta-di-mulazzo-novembre-2026/",
       "source": "visitlunigiana"
     },
     {
@@ -3877,129 +3907,24 @@
   ],
   "manga_trends": [
     {
+      "title": "Anime Preview: trailer per lo spin-off Demon School! Iruma-kun: IruMafia Edition e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112157-anime-preview-trailer-per-lo-spin-off-demon-school-iruma-kun-irumafia-edition-e-molto-altro"
+    },
+    {
       "title": "Box Office Giappone: debutto per In the Clear Moonlit Dusk e il nuovo film di Made in Abyss",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/112152-box-office-giappone-debutto-per-in-the-clear-moonlit-dusk-e-il-nuovo-film-di-made-in-abyss"
     },
     {
-      "title": "Lucca Comics & Games 2026: le iniziative di Crunchyroll",
+      "title": "Death Stranding Isolations: il nuovo trailer svela la storia dell'anime in arrivo nel 2027",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112119-lucca-comics-games-2026-le-iniziative-di-crunchyroll"
+      "url": "https://www.animeclick.it/news/112165-death-stranding-isolations-il-nuovo-trailer-svela-la-storia-dell-anime-in-arrivo-nel-2027"
     },
     {
-      "title": "Star Comics: le novità previste per gennaio dall'anteprima dell'editore",
+      "title": "Super Cube: informazioni sul doppiaggio di Yamato Video",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112077-star-comics-le-novita-previste-per-gennaio-dall-anteprima-dell-editore"
-    },
-    {
-      "title": "Marvel's Blade è quasi completo, ma Arkane Lyon rischia la chiusura: servono acquirenti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112128-marvels-blade-e-quasi-completo-ma-arkane-lyon-rischia-la-chiusura-servono-acquirenti"
-    },
-    {
-      "title": "Addio a Tetsuya Chiba, il maestro del manga sportivo e papà di Ashita no Joe ci lascia a 87 anni",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112142-addio-a-tetsuya-chiba-il-maestro-del-manga-sportivo-e-papa-di-ashita-no-joe-ci-lascia-a-87-anni"
-    },
-    {
-      "title": "Masako Nozawa, la storica voce di Goku, compie 90 anni ed è ancora sulla cresta dell’onda",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112129-masako-nozawa-compie-90-anni-auguri-alla-voce-di-goku-che-grida-ancora-kamehameha"
-    },
-    {
-      "title": "My Dress Up Darling: Marin Kitagawa in scala 1/1 è la nuova figure di Prime 1 Studio",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112148-my-dress-up-darling-marin-kitagawa-in-scala-11-e-la-nuova-figure-di-prime-1-studio"
-    },
-    {
-      "title": "PHP ferma le Umamusume, o di come una vulnerabilità informatica possa coinvolgere proprio tutti",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112100-php-ferma-le-umamusume-o-di-come-una-vulnerabilita-informatica-possa-coinvolgere-proprio-tutti"
-    },
-    {
-      "title": "Jun Maeda (Clannad, Kanon) ha un tumore alla faringe ma continuerà a creare",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112072-jun-maeda-clannad-kanon-ha-un-tumore-alla-faringe-ma-continuera-a-creare"
-    },
-    {
-      "title": "Light Novel Ranking La classifica giapponese al 18/10/2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112131-light-novel-ranking-la-classifica-giapponese-al-18102026"
-    },
-    {
-      "title": "Cyberpunk: Edgerunners 2 - Informazioni sul doppiaggio di Netflix",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112079-cyberpunk-edgerunners-2-informazioni-sul-doppiaggio-di-netflix"
-    },
-    {
-      "title": "Black Ops 1 e 2 vendono 11 milioni di copie in un mese, ma gli autori restano a mani vuote",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112090-black-ops-1-e-2-vendono-11-milioni-di-copie-in-un-mese-ma-gli-autori-restano-a-mani-vuote"
-    },
-    {
-      "title": "Kun - Il divoratore del creato: informazioni sul doppiaggio di Yamato Video",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112159-kun-il-divoratore-del-creato-informazioni-sul-doppiaggio-di-yamato-video"
-    },
-    {
-      "title": "Kaiju No. 8 avrà un film conclusivo nel 2027: svelati titolo, regista e primo teaser",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112120-kaiju-no-8-avra-un-film-conclusivo-nel-2027-svelati-titolo-regista-e-primo-teaser"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: le iniziative di Toei Animation Europe",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112094-lucca-comics-games-2026-le-iniziative-di-toei-animation-europe"
-    },
-    {
-      "title": "Rintaro nominato \"Personalità di merito culturale\" per il contributo artistico al Giappone",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112124-rintaro-nominato-personalita-di-merito-culturale-per-il-contributo-artistico-al-giappone"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: gli annunci di Toshokan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112144-lucca-comics-games-2026-gli-annunci-di-toshokan"
-    },
-    {
-      "title": "Marvel’s Wolverine: nonostante tutto è il gioco più venduto negli USA a settembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112114-marvel%25e2%2580%2599s-wolverine-nonostante-tutto-e-il-gioco-piu-venduto-negli-usa-a-settembre-2026"
-    },
-    {
-      "title": "Akane Banashi: nuovo trailer e altre novità per la seconda stagione",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112135-akane-banashi-nuovo-trailer-e-altre-novita-per-la-seconda-stagione"
-    },
-    {
-      "title": "Lucca Comics & Games Awards: tutti i vincitori e i premi assegnati",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112160-lucca-comics-games-awards-tutti-i-vincitori-e-i-premi-assegnati"
-    },
-    {
-      "title": "J-POP Manga: le novità dal Direct 147",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112096-j-pop-manga-le-novita-dal-direct-147"
-    },
-    {
-      "title": "The Apothecary Diaries: The False Imperial Brother, data di uscita per il videogioco della speziale",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112093-the-apothecary-diaries-the-false-imperial-brother-data-di-uscita-per-il-videogioco-della-speziale"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: gli annunci di Planet Manga",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112155-lucca-comics-games-2026-gli-annunci-di-planet-manga"
-    },
-    {
-      "title": "ReVamp cancella il playtest su Steam: l'IA minaccia gli sviluppatori indie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112092-revamp-cancella-il-playtest-su-steam-lia-minaccia-gli-sviluppatori-indie"
-    },
-    {
-      "title": "Yamato Video: riepilogo della stagione autunnale su ANiME Generation",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112105-yamato-video-riepilogo-della-stagione-autunnale-su-anime-generation"
+      "url": "https://www.animeclick.it/news/112149-super-cube-informazioni-sul-doppiaggio-di-yamato-video"
     },
     {
       "title": "Lucca Comics & Games 2026: le iniziative di Planet Manga",
@@ -4007,9 +3932,69 @@
       "url": "https://www.animeclick.it/news/112123-lucca-comics-games-2026-le-iniziative-di-edizioni-bd-j-pop-manga"
     },
     {
-      "title": "EA chiude BioWare, cancellato il nuovo Mass Effect: tagli per circa 400 posti di lavoro",
+      "title": "Lucky Red cambia le date: Look Back di Koreeda dal 12 novembre, poi Kiki e Ghost in the Shell in 4K",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112097-ea-chiude-bioware-cancellato-il-nuovo-mass-effect-tagli-per-circa-400-posti-di-lavoro"
+      "url": "https://www.animeclick.it/news/112112-lucky-red-cambia-le-date-look-back-di-koreeda-dal-12-novembre-poi-kiki-e-ghost-in-the-shell-in-4k"
+    },
+    {
+      "title": "J-POP Manga: le novità dal Direct 147",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112096-j-pop-manga-le-novita-dal-direct-147"
+    },
+    {
+      "title": "Il numero uno di Epic Games attacca Steam: \"l’etichetta sull’IA è aberrante\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112145-il-numero-uno-di-epic-games-attacca-steam-l%25e2%2580%2599etichetta-sull%25e2%2580%2599ia-e-aberrante"
+    },
+    {
+      "title": "Akane Banashi: nuovo trailer e altre novità per la seconda stagione",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112135-akane-banashi-nuovo-trailer-e-altre-novita-per-la-seconda-stagione"
+    },
+    {
+      "title": "Anime Preview: in arrivo un nuovo progetto firmato Science Saru per The Ghost in the Shell e altre novità",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112121-anime-preview-in-arrivo-un-nuovo-progetto-firmato-science-saru-per-the-ghost-in-the-shell-e-altre-novita"
+    },
+    {
+      "title": "ReVamp cancella il playtest su Steam: l'IA minaccia gli sviluppatori indie",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112092-revamp-cancella-il-playtest-su-steam-lia-minaccia-gli-sviluppatori-indie"
+    },
+    {
+      "title": "Xbox, la prossima console punterebbe al 2028 e potrebbe costare tra 1.200 e 1.800 dollari",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112104-xbox-la-prossima-console-punterebbe-al-2028-e-potrebbe-costare-tra-1200-e-1800-dollari"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: le iniziative di Dynit",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112109-lucca-comics-games-2026-le-iniziative-di-dynit"
+    },
+    {
+      "title": "PHP ferma le Umamusume, o di come una vulnerabilità informatica possa coinvolgere proprio tutti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112100-php-ferma-le-umamusume-o-di-come-una-vulnerabilita-informatica-possa-coinvolgere-proprio-tutti"
+    },
+    {
+      "title": "The Apothecary Diaries: The False Imperial Brother, data di uscita per il videogioco della speziale",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112093-the-apothecary-diaries-the-false-imperial-brother-data-di-uscita-per-il-videogioco-della-speziale"
+    },
+    {
+      "title": "Anime Preview: novità per Love Live, Il monologo della speziale e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112111-anime-preview-novita-per-love-live-il-monologo-della-speziale-e-molto-altro"
+    },
+    {
+      "title": "Bleach: ending speciale per la conclusione della serie anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112139-bleach-ending-speciale-per-la-conclusione-della-serie-anime"
+    },
+    {
+      "title": "Kaiju No. 8 avrà un film conclusivo nel 2027: svelati titolo, regista e primo teaser",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112120-kaiju-no-8-avra-un-film-conclusivo-nel-2027-svelati-titolo-regista-e-primo-teaser"
     },
     {
       "title": "Top 100 fumetti più venduti in Italia a settembre 2026",
@@ -4017,14 +4002,59 @@
       "url": "https://www.animeclick.it/news/112087-top-100-fumetti-piu-venduti-in-italia-a-settembre-2026"
     },
     {
-      "title": "Lucca Comics & Games 2026: le iniziative su Go Nagai",
+      "title": "Lucca Comics & Games 2026: le iniziative di Edizioni BD & J-POP Manga",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112073-lucca-comics-games-2026-le-iniziative-su-go-nagai"
+      "url": "https://www.animeclick.it/news/112118-lucca-comics-games-2026-le-iniziative-di-edizioni-bd-e-j-pop-manga"
+    },
+    {
+      "title": "Addio a Tetsuya Chiba, il maestro del manga sportivo e papà di Ashita no Joe ci lascia a 87 anni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112142-addio-a-tetsuya-chiba-il-maestro-del-manga-sportivo-e-papa-di-ashita-no-joe-ci-lascia-a-87-anni"
     },
     {
       "title": "Addio al prolifico scrittore Ryu Murakami",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/112117-addio-al-prolifico-scrittore-ryu-murakami"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: regolamento firmacopie Toshokan",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112091-lucca-comics-games-2026-regolamento-firmacopie-toshokan"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: gli annunci di Toshokan",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112144-lucca-comics-games-2026-gli-annunci-di-toshokan"
+    },
+    {
+      "title": "Mobile Suit Gundam Battle Operation 3: annunciato ufficialmente il nuovo free-to-play PvP",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112154-mobile-suit-gundam-battle-operation-3-annunciato-ufficialmente-il-nuovo-free-to-play-pvp"
+    },
+    {
+      "title": "Dokusho Edizioni presenta i suoi prossimi volumi in uscita",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112106-dokusho-edizioni-presenta-i-suoi-prossimi-volumi-in-uscita"
+    },
+    {
+      "title": "Shigeru Miyamoto riceve l’Ordine della Cultura, prima volta per un creatore di videogiochi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112115-shigeru-miyamoto-riceve-l%25e2%2580%2599ordine-della-cultura-prima-volta-per-un-creatore-di-videogiochi"
+    },
+    {
+      "title": "Marvel's Blade è quasi completo, ma Arkane Lyon rischia la chiusura: servono acquirenti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112128-marvels-blade-e-quasi-completo-ma-arkane-lyon-rischia-la-chiusura-servono-acquirenti"
+    },
+    {
+      "title": "Kojima e il \"walking simulator\": chi giudica Death Stranding spesso non lo ha mai giocato",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112103-kojima-e-il-walking-simulator-chi-giudica-death-stranding-spesso-non-lo-ha-mai-giocato"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: gli annunci di Dynit",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112146-lucca-comics-games-2026-gli-annunci-di-dynit"
     }
   ],
   "youtube_trends": [
@@ -4042,15 +4072,11 @@
     },
     {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
-      "url": "https://www.youtube.com/watch?v=qOth_CpCEQU"
-    },
-    {
-      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
-      "url": "https://www.youtube.com/watch?v=Sn4KIKSKFHU"
-    },
-    {
-      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
       "url": "https://www.youtube.com/watch?v=zLLdiY5HAk4"
+    },
+    {
+      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
+      "url": "https://www.youtube.com/watch?v=qOth_CpCEQU"
     },
     {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
@@ -4061,12 +4087,16 @@
       "url": "https://www.youtube.com/watch?v=n_rh52XUq9E"
     },
     {
+      "title": "[Axondrite] Whalefall bag pre-orders are now live! #whalefall #booktok #art #itabag #films",
+      "url": "https://www.youtube.com/watch?v=aW6e-KL6Dwg"
+    },
+    {
       "title": "[Jeem 🌟] read that book, start that profile, write that story!!🎀 #booktok #books #booktokers",
       "url": "https://www.youtube.com/watch?v=T0ihssdZVsY"
     },
     {
-      "title": "[Libros_libri_books ] Un giallo storico imperdibile! #booktube #booktok #books #perte #booktubeitalia",
-      "url": "https://www.youtube.com/watch?v=tfePsqwhRJk"
+      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
+      "url": "https://www.youtube.com/watch?v=TcSMUgtojv0"
     },
     {
       "title": "[Kana Yamasaki | Mangaka] My Hand Shakes When I Draw Manga. Depression.",
@@ -4133,12 +4163,12 @@
       "url": "https://www.youtube.com/watch?v=IRVq6ZDjXYU"
     },
     {
-      "title": "[SLEEPLESSBANTER] 3 New Anime of 2026 You Need to Watch Right Now",
-      "url": "https://www.youtube.com/watch?v=Yg0dhmIwIEM"
-    },
-    {
       "title": "[Lovely RomCom Manga] 【RomCom】When a beautiful new employee makes a mistake…【Manga Dub】",
       "url": "https://www.youtube.com/watch?v=tu4uKMsVQJQ"
+    },
+    {
+      "title": "[SLEEPLESSBANTER] 3 New Anime of 2026 You Need to Watch Right Now",
+      "url": "https://www.youtube.com/watch?v=Yg0dhmIwIEM"
     },
     {
       "title": "[RuchoManga] Tutte le variant manga esclusive di Lucca Comics 2026",
@@ -4155,6 +4185,10 @@
     {
       "title": "[Be Steve Brown] New Green and Red Yuri Volumes! #Yurimas",
       "url": "https://www.youtube.com/watch?v=od3O7FKu4Jo"
+    },
+    {
+      "title": "[Kirio1984] DA NARUTO A KAGURABACHI: 6 MANGA CHE HO LETTO ULTIMAMENTE!",
+      "url": "https://www.youtube.com/watch?v=juWj8rYfh-k"
     }
   ]
 }
