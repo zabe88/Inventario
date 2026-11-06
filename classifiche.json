@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-11-06T12:55:53.910953+00:00",
+  "updated_at": "2026-11-06T19:57:34.023570+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -27,16 +27,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791221120059",
-      "title": "Diritto costituzionale",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 5,
       "category": "generale",
@@ -51,8 +51,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9791221120059",
+      "title": "Diritto costituzionale",
       "author": "",
       "position": 7,
       "category": "generale",
@@ -83,26 +83,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788830463639",
+      "title": "La casa dei respiri",
       "author": "",
       "position": 11,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788830463639",
-      "title": "La casa dei respiri",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 12,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863115666",
-      "title": "La morte di Ivan Il'ic. Ediz. integrale",
-      "author": "",
-      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
@@ -110,13 +102,21 @@
       "ean": "9788867148974",
       "title": "Frigo. L'orso che non amava l'inverno. Ediz. a colori",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788828886617",
       "title": "Istituzioni di diritto privato",
+      "author": "",
+      "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863115666",
+      "title": "La morte di Ivan Il'ic. Ediz. integrale",
       "author": "",
       "position": 15,
       "category": "generale",
@@ -131,8 +131,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788833190259",
-      "title": "Anatomia umana",
+      "ean": "9791223401996",
+      "title": "Il libro maledetto. Romanzo dell'Avvento",
       "author": "",
       "position": 17,
       "category": "generale",
@@ -147,8 +147,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791223401996",
-      "title": "Il libro maledetto. Romanzo dell'Avvento",
+      "ean": "9788833190259",
+      "title": "Anatomia umana",
       "author": "",
       "position": 19,
       "category": "generale",
@@ -339,16 +339,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788869800825",
+      "title": "Il racconto dell'ancella",
       "author": "",
       "position": 23,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788869800825",
-      "title": "Il racconto dell'ancella",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 24,
       "category": "narrativa",
@@ -371,16 +371,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
+      "ean": "9788830463639",
+      "title": "La casa dei respiri",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788830463639",
-      "title": "La casa dei respiri",
+      "ean": "9788863114355",
+      "title": "La fattoria degli animali. Ediz. integrale",
       "author": "",
       "position": 28,
       "category": "narrativa",
@@ -691,26 +691,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867908356",
-      "title": "Miss kappa da ridere",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788867908356",
+      "title": "Miss kappa da ridere",
       "author": "",
       "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788852225789",
-      "title": "Zootropolis. Il libro delle barzellette....",
-      "author": "",
-      "position": 39,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -718,21 +710,29 @@
       "ean": "9788883622908",
       "title": "Pezzettino. Ediz. illustrata",
       "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858350607",
+      "title": "Il nuovo libro di storia e geografia. Pe...",
+      "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883625169",
-      "title": "Papà-isola. Ediz. a colori",
+      "ean": "9788852225789",
+      "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9791221221589",
-      "title": "Boys of Tommen. Releasing 10. Il rischio...",
+      "ean": "9788804702535",
+      "title": "A caccia dell'Orso. Ediz. a colori",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -971,16 +971,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828792055",
-      "title": "Death note. Vol. 10",
+      "ean": "9788828794530",
+      "title": "Death note. Vol. 11",
       "author": "",
       "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828794530",
-      "title": "Death note. Vol. 11",
+      "ean": "9788828792055",
+      "title": "Death note. Vol. 10",
       "author": "",
       "position": 31,
       "category": "fumetti",
@@ -1003,16 +1003,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828791928",
-      "title": "Il lungo Halloween. Batman",
+      "ean": "9791256212439",
+      "title": "Nel nido dei serpenti",
       "author": "",
       "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828774525",
-      "title": "Death note. Vol. 8",
+      "ean": "9788828791928",
+      "title": "Il lungo Halloween. Batman",
       "author": "",
       "position": 35,
       "category": "fumetti",
@@ -1027,16 +1027,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828786207",
-      "title": "Batman. Anno uno",
+      "ean": "9788828789505",
+      "title": "Jujutsu Kaisen. Vol. 25: Resa dei conti ...",
       "author": "",
       "position": 37,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828789505",
-      "title": "Jujutsu Kaisen. Vol. 25: Resa dei conti ...",
+      "ean": "9788828786207",
+      "title": "Batman. Anno uno",
       "author": "",
       "position": 38,
       "category": "fumetti",
@@ -1131,18 +1131,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804489856",
-      "title": "Eretico e profeta. Ernesto Buonaiuti, un...",
-      "author": "",
-      "position": 12,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804533597",
       "title": "Emozioni distruttive. Liberarsi dai tre ...",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1150,7 +1142,7 @@
       "ean": "9788804558996",
       "title": "Storia delle punizioni corporali",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1158,13 +1150,21 @@
       "ean": "9788804564003",
       "title": "La calma",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804585442",
       "title": "Nutri i tuoi demoni. Risolvere i conflit...",
+      "author": "",
+      "position": 15,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804586500",
+      "title": "Emozioni distruttive. Liberarsi dai tre ...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1315,10 +1315,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9791254710289",
+      "title": "Spostare le montagne. L'energia della pr...",
+      "author": "",
+      "position": 35,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791259755728",
+      "title": "Una decina a testa e al nemico nulla res...",
+      "author": "",
+      "position": 36,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788892251496",
       "title": "La Bibbia nuova versione dai testi antichi",
       "author": "",
-      "position": 35,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1326,7 +1342,7 @@
       "ean": "9791280340184",
       "title": "Come una goccia di miele. Piccola antolo...",
       "author": "",
-      "position": 36,
+      "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1334,29 +1350,13 @@
       "ean": "9791280340429",
       "title": "Lama Tsongkhapa. La vita di un Buddha ne...",
       "author": "",
-      "position": 37,
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9791280340771",
       "title": "Nelle parole del Buddha. Insegnamenti da...",
-      "author": "",
-      "position": 38,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788886423601",
-      "title": "Io sono con voi. Sussidio al catechismo ...",
-      "author": "",
-      "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788886423618",
-      "title": "Io sono con voi. Sussidio al catechismo ...",
       "author": "",
       "position": 40,
       "category": "religione",
@@ -1371,8 +1371,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791259755728",
-      "title": "Una decina a testa e al nemico nulla res...",
+      "ean": "9788886423601",
+      "title": "Io sono con voi. Sussidio al catechismo ...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -3914,44 +3914,44 @@
   "manga_trends": [],
   "youtube_trends": [
     {
-      "title": "[LalibreriadiGiady📚] Dai però sarei una grande nail artist🤣#booktok #books #bibliomazia #romance #libri",
-      "url": "https://www.youtube.com/watch?v=2siD_Tyr-nc"
+      "title": "[mmarti nao] Che odio le edizioni diverse… #booktok #booktube #books #perte #booktubetbr #libri #books",
+      "url": "https://www.youtube.com/watch?v=v3omx3Wc2tM"
     },
     {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
       "url": "https://www.youtube.com/watch?v=RXQK-CnzaFc"
     },
     {
-      "title": "[Andrew’s Wizardly Reads] I’m LOVING Omniscient Readers Viewpoint #webnovel #omniscientreadersviewpoint #booktok #booktube",
-      "url": "https://www.youtube.com/watch?v=c8zj81z15OI"
-    },
-    {
       "title": "[Кристина Яковица] In italiano diciamo: ❤️🥰 #fypシ゚viral #booktok #perte #seguimi #books",
       "url": "https://www.youtube.com/watch?v=_VLM59Bt1CI"
-    },
-    {
-      "title": "[Libros_libri_books ] Nuovi arrivi librosi #booktube #booktok #perte #books #booktubeitalia",
-      "url": "https://www.youtube.com/watch?v=8SraVxGevyc"
-    },
-    {
-      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
-      "url": "https://www.youtube.com/watch?v=KGF9zOgk_Ck"
     },
     {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
       "url": "https://www.youtube.com/watch?v=Cx6Igo74mqM"
     },
     {
-      "title": "[Mafalda Cinquetti] Sind Touristen eigentlich gegen Kälte immun?  #venedigkrimi #travel #italienkrimi #booktok #venedig",
-      "url": "https://www.youtube.com/watch?v=H3R25WOhF0M"
-    },
-    {
-      "title": "[Soleil_writer_4132 official] come funzionano le scuole italiane #perte #bibliomanzia #booktok #neiperte #wattpad#enemiestolovers",
-      "url": "https://www.youtube.com/watch?v=qMp1FbB_qHU"
+      "title": "[TraLePagineDiNicole] 3 libri per ragazzi sulla scuola: amicizia, cotta ed enemies to lovers  #booktok #wrapup #libri",
+      "url": "https://www.youtube.com/watch?v=0W8sZwg5CIs"
     },
     {
       "title": "[Valerie Root ] always my 22 di Valerie Root #perte #booktokitalia #wattpaditalia #booktok",
       "url": "https://www.youtube.com/watch?v=4op8KiSVTpY"
+    },
+    {
+      "title": "[Fernanda Chaves ] livros para viajantes! #booktok #livros #viagem",
+      "url": "https://www.youtube.com/watch?v=XfLakVOZ0_E"
+    },
+    {
+      "title": "[Giuliano Golinelli - Cronache del Dwailinar] Blog - #dwailinar #booktok #booktok #fantasyitaliano #books",
+      "url": "https://www.youtube.com/watch?v=ZzLXW9CaY44"
+    },
+    {
+      "title": "[Mafalda Cinquetti] Was interessiert Lucia an einem schönen Ausblick #VenedigKrimi #CozyCrime #italienkrimi #booktok",
+      "url": "https://www.youtube.com/watch?v=N8FJROL1Ta0"
+    },
+    {
+      "title": "[bcinemixstudio] Manga consigliati pt. 2 #FireflyWedding #FireflyWeddingManga #MangaRomance #AnimeLovers",
+      "url": "https://www.youtube.com/watch?v=lyfBypM1Zh0"
     },
     {
       "title": "[Near Mint Condition] New Omnibus’ Coming in November from @Marvel Entertainment !#marvelcomics #omnibus #comicbooks #xmen",
@@ -4018,6 +4018,10 @@
       "url": "https://www.youtube.com/watch?v=k7Jrs4BBeEo"
     },
     {
+      "title": "[Rest Easy Himmel] He Thought Isekai Was Just a Fantasy… Until It Happened to Him! #anime #manga #mangarecommendations",
+      "url": "https://www.youtube.com/watch?v=d14FkQfE2lM"
+    },
+    {
       "title": "[RuchoManga] Annunciati Nuovi Manga JPOP: Giorno 2 Lucca Comics 2026",
       "url": "https://www.youtube.com/watch?v=P4JeA-xlGuE"
     },
@@ -4028,10 +4032,6 @@
     {
       "title": "[Yomeko's Manga] [Manga Dub] He Called Me Useless and Left Me for My Sister 💔",
       "url": "https://www.youtube.com/watch?v=etgrrpa91hc"
-    },
-    {
-      "title": "[Yomeko's Manga] [Manga Dub] He Got His Mistress Pregnant… and Offered Me Everything to Leave 😏",
-      "url": "https://www.youtube.com/watch?v=30Lj3OoUfx8"
     }
   ]
 }
