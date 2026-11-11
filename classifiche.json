@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-11-10T13:27:14.947904+00:00",
+  "updated_at": "2026-11-11T12:42:07.714524+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -51,18 +51,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828869269",
-      "title": "Manuale di diritto privato",
+      "ean": "9788817201254",
+      "title": "La mia storia",
       "author": "",
       "position": 7,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788830463639",
-      "title": "La casa dei respiri",
-      "author": "",
-      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -70,21 +62,29 @@
       "ean": "9788811810292",
       "title": "Lettera di una sconosciuta",
       "author": "",
+      "position": 8,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788830463639",
+      "title": "La casa dei respiri",
+      "author": "",
       "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788828869269",
+      "title": "Manuale di diritto privato",
       "author": "",
       "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788833190259",
-      "title": "Anatomia umana",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -99,18 +99,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9791221120059",
-      "title": "Diritto costituzionale",
+      "ean": "9788858350218",
+      "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
       "author": "",
       "position": 13,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858350218",
-      "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
+      "ean": "9791221120059",
+      "title": "Diritto costituzionale",
       "author": "",
       "position": 14,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788833190259",
+      "title": "Anatomia umana",
+      "author": "",
+      "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
@@ -118,15 +126,15 @@
       "ean": "9788838950322",
       "title": "Sotto il cielo infernale",
       "author": "",
-      "position": 15,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9788831013826",
+      "title": "Harry Potter. La serie completa. Ediz. Castello di Hogwarts",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -134,29 +142,21 @@
       "ean": "9788806272364",
       "title": "La confessione di Elsa",
       "author": "",
-      "position": 17,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788845923326",
-      "title": "Nel paese dei ciechi",
-      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788867921256",
-      "title": "La memoria degli specchi e altre poesie-La memoria de los espejos y otros poemas. Ediz. bilingue",
+      "ean": "9788822752918",
+      "title": "I migliori anni",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788845941603",
-      "title": "Il dilemma del riccio",
+      "ean": "9788867921256",
+      "title": "La memoria degli specchi e altre poesie-La memoria de los espejos y otros poemas. Ediz. bilingue",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -187,18 +187,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804203247",
-      "title": "Altri romanzi e poesie",
-      "author": "",
-      "position": 4,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804237518",
       "title": "Il codice Rebecca",
       "author": "",
-      "position": 5,
+      "position": 4,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -206,7 +198,7 @@
       "ean": "9788804247821",
       "title": "L'uomo di Pietroburgo",
       "author": "",
-      "position": 6,
+      "position": 5,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -214,13 +206,21 @@
       "ean": "9788804248118",
       "title": "Tutte le opere. Vol. 1",
       "author": "",
-      "position": 7,
+      "position": 6,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788804259312",
       "title": "Triplo",
+      "author": "",
+      "position": 7,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804259329",
+      "title": "La cruna dell'ago",
       "author": "",
       "position": 8,
       "category": "narrativa",
@@ -251,18 +251,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788811017967",
-      "title": "Parola di perpetua. I casi del marescial...",
-      "author": "",
-      "position": 12,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788867029051",
       "title": "Prova a uccidermi",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -270,7 +262,7 @@
       "ean": "9788804794097",
       "title": "Il cerchio dei giorni",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -278,13 +270,21 @@
       "ean": "9788830463561",
       "title": "La più bella del mondo",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788822796431",
       "title": "Mistero al profumo di cannella. I segret...",
+      "author": "",
+      "position": 15,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788817190527",
+      "title": "Ossa e fiamme",
       "author": "",
       "position": 16,
       "category": "narrativa",
@@ -395,8 +395,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9788806272364",
+      "title": "La confessione di Elsa",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -555,10 +555,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788807037436",
+      "title": "I Sanacore",
+      "author": "",
+      "position": 20,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788830315211",
       "title": "Carnevale nel bosco. Cerca e trova. Ediz...",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -566,7 +574,7 @@
       "ean": "9788858049006",
       "title": "So this is ever after. Per sempre felici...",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -574,21 +582,13 @@
       "ean": "9788883627217",
       "title": "Il favoloso club del libro del bus 65. E...",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9791259963758",
       "title": "Tobia. L'ombra delle cime",
-      "author": "",
-      "position": 23,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791259746160",
-      "title": "Al tempo dei dinosauri. Ediz. a colori",
       "author": "",
       "position": 24,
       "category": "bambini_ragazzi",
@@ -675,50 +675,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788883622908",
-      "title": "Pezzettino. Ediz. illustrata",
+      "ean": "9788867908356",
+      "title": "Miss kappa da ridere",
       "author": "",
       "position": 35,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883622564",
-      "title": "Che rabbia! Ediz. illustrata",
+      "ean": "9788883622908",
+      "title": "Pezzettino. Ediz. illustrata",
       "author": "",
       "position": 36,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788867908356",
-      "title": "Miss kappa da ridere",
-      "author": "",
-      "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788851168506",
-      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
-      "author": "",
-      "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858015049",
-      "title": "Ti regalo la luna. Ediz. illustrata",
-      "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
-      "author": "",
-      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,13 +694,45 @@
       "ean": "9788858350607",
       "title": "Il nuovo libro di storia e geografia. Pe...",
       "author": "",
-      "position": 41,
+      "position": 37,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858015049",
+      "title": "Ti regalo la luna. Ediz. illustrata",
+      "author": "",
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788851168506",
+      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
+      "author": "",
+      "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9788852225789",
       "title": "Zootropolis. Il libro delle barzellette....",
+      "author": "",
+      "position": 41,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788883622564",
+      "title": "Che rabbia! Ediz. illustrata",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -931,58 +931,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788817097192",
-      "title": "Diario di una mamma imperfetta. Cosa sig...",
-      "author": "",
-      "position": 25,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806233761",
-      "title": "Anne Frank. Diario",
-      "author": "",
-      "position": 26,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817090568",
-      "title": "Il libro che il tuo gatto non vorrebbe f...",
-      "author": "",
-      "position": 27,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817066907",
-      "title": "Corto Maltese. Nonni e fiabe",
-      "author": "",
-      "position": 28,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788817180696",
       "title": "Persepolis. Ediz. integrale",
       "author": "",
-      "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834946886",
-      "title": "I diari della speziale. Vol. 17",
-      "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822762610",
-      "title": "50 manga da leggere almeno una volta nel...",
-      "author": "",
-      "position": 31,
+      "position": 25,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,7 +942,39 @@
       "ean": "9788828766391",
       "title": "Death note. Vol. 12",
       "author": "",
-      "position": 32,
+      "position": 26,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834946886",
+      "title": "I diari della speziale. Vol. 17",
+      "author": "",
+      "position": 27,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791256212439",
+      "title": "Nel nido dei serpenti",
+      "author": "",
+      "position": 28,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788891295057",
+      "title": "Berserk collection. Serie nera. Vol. 26",
+      "author": "",
+      "position": 29,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791221921243",
+      "title": "Jujutsu Kaisen. Vol. 28: Resa dei conti ...",
+      "author": "",
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -998,23 +982,7 @@
       "ean": "9788828786207",
       "title": "Batman. Anno uno",
       "author": "",
-      "position": 33,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788806202347",
-      "title": "MAUS",
-      "author": "",
-      "position": 34,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822636775",
-      "title": "Look back",
-      "author": "",
-      "position": 35,
+      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1022,7 +990,7 @@
       "ean": "9788828788409",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 7: P...",
       "author": "",
-      "position": 36,
+      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1030,7 +998,7 @@
       "ean": "9788828789505",
       "title": "Jujutsu Kaisen. Vol. 25: Resa dei conti ...",
       "author": "",
-      "position": 37,
+      "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1038,7 +1006,7 @@
       "ean": "9788828791928",
       "title": "Il lungo Halloween. Batman",
       "author": "",
-      "position": 38,
+      "position": 34,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -1123,16 +1091,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804449256",
-      "title": "Chiamati all'amore. Riflessioni",
+      "ean": "9788804433859",
+      "title": "La visione di Dio",
       "author": "",
       "position": 11,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788804453925",
-      "title": "Tantra. La via dell'estasi sessuale",
+      "ean": "9788804449256",
+      "title": "Chiamati all'amore. Riflessioni",
       "author": "",
       "position": 12,
       "category": "religione",
@@ -1163,8 +1131,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804558996",
-      "title": "Storia delle punizioni corporali",
+      "ean": "9788804544746",
+      "title": "Senza radici. Europa, relativismo, crist...",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1347,18 +1315,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788886423632",
-      "title": "Venite con me. Sussidio al catechismo de...",
-      "author": "",
-      "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9791255361046",
       "title": "Il libro della legge. Nuova ediz.",
       "author": "",
-      "position": 40,
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1366,13 +1326,21 @@
       "ean": "9791256851416",
       "title": "Il libro del Tao. Ediz. integrale",
       "author": "",
-      "position": 41,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9791259854902",
       "title": "Francesco. Il primo italiano",
+      "author": "",
+      "position": 41,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788892251519",
+      "title": "Solo il vino migliore",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1531,10 +1499,122 @@
       "source": "giunti"
     },
     {
+      "ean": "9788850276899",
+      "title": "Il segreto del vecchio signor Nakamura",
+      "author": "",
+      "position": 4,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788804819059",
+      "title": "La vedova",
+      "author": "",
+      "position": 5,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788850277216",
+      "title": "La bestia",
+      "author": "",
+      "position": 6,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788848330626",
+      "title": "Sherlock Holmes sei tu. Trova gli indizi, scegli le piste, risolvi il caso",
+      "author": "",
+      "position": 7,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788848330626",
+      "title": "Sherlock Holmes sei tu. Trova gli indiz...",
+      "author": "Daniel Smith",
+      "position": 8,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788854533110",
+      "title": "L'ossessione della diva. Le indagini di Madame le commissarie",
+      "author": "",
+      "position": 9,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788854533110",
+      "title": "L'ossessione della diva. Le indagini di...",
+      "author": "Pierre Martin",
+      "position": 10,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788850276646",
+      "title": "Notti nere",
+      "author": "",
+      "position": 11,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788850276929",
+      "title": "È notte sul confine",
+      "author": "",
+      "position": 12,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788829792986",
+      "title": "Il coccodrillo di pietra",
+      "author": "",
+      "position": 13,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788855449250",
+      "title": "La ragazza del treno",
+      "author": "",
+      "position": 14,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788823537781",
+      "title": "La vendetta",
+      "author": "",
+      "position": 15,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791259856357",
+      "title": "La più grande detective del mondo e la sua assistente appena sufficiente",
+      "author": "",
+      "position": 16,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791259856357",
+      "title": "La più grande detective del mondo e la ...",
+      "author": "Liza Tully",
+      "position": 17,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9791224203261",
       "title": "Delitto al club del libro",
       "author": "",
-      "position": 4,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1542,7 +1622,7 @@
       "ean": "9788806275068",
       "title": "Natale in giallo. Le storie piú belle",
       "author": "",
-      "position": 5,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1550,7 +1630,7 @@
       "ean": "9788892764927",
       "title": "Lady Brooke, detective",
       "author": "",
-      "position": 6,
+      "position": 20,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1558,7 +1638,7 @@
       "ean": "9791281000711",
       "title": "Prima di Sherlock Holmes. Alle origini del mistero",
       "author": "",
-      "position": 7,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1566,7 +1646,7 @@
       "ean": "9791281000711",
       "title": "Prima di Sherlock Holmes. Alle origini ...",
       "author": "Arthur Conan Doyle",
-      "position": 8,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1574,7 +1654,7 @@
       "ean": "9791259678874",
       "title": "Il pacco",
       "author": "",
-      "position": 9,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1662,7 @@
       "ean": "9791281149076",
       "title": "La torre",
       "author": "",
-      "position": 10,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1670,7 @@
       "ean": "9791257780357",
       "title": "Che la morte ci sfiori",
       "author": "",
-      "position": 11,
+      "position": 25,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1678,7 @@
       "ean": "9791256731923",
       "title": "Il mastino dei Baskerville",
       "author": "",
-      "position": 12,
+      "position": 26,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1686,7 @@
       "ean": "9791257760489",
       "title": "Michael jr. Mistero a Parigi. Il segreto del serpente",
       "author": "",
-      "position": 13,
+      "position": 27,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,118 +1694,6 @@
       "ean": "9791257760489",
       "title": "Michael jr. Mistero a Parigi. Il segret...",
       "author": "Mattia Zuliani",
-      "position": 14,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788855448642",
-      "title": "Dove finiscono i vivi. Le indagini di via Gluck. Vol. 2",
-      "author": "",
-      "position": 15,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788855448642",
-      "title": "Dove finiscono i vivi. Le indagini di v...",
-      "author": "Paolo Roversi",
-      "position": 16,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788867029846",
-      "title": "La Società Arcana di New York. Le indagini di Moriarty",
-      "author": "",
-      "position": 17,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788867029846",
-      "title": "La Società Arcana di New York. Le indag...",
-      "author": "Jack Anderson",
-      "position": 18,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788850277186",
-      "title": "Omicidio a Manhattan",
-      "author": "",
-      "position": 19,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830463639",
-      "title": "La casa dei respiri",
-      "author": "",
-      "position": 20,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788807037726",
-      "title": "Autoritratto da annegato",
-      "author": "",
-      "position": 21,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224208242",
-      "title": "24 giorni con l'assassino",
-      "author": "",
-      "position": 22,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224208303",
-      "title": "La mappa della Città Eterna",
-      "author": "",
-      "position": 23,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788823535732",
-      "title": "Vespri veneziani",
-      "author": "",
-      "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788811017967",
-      "title": "Parola di perpetua. I casi del maresciallo Ernesto Maccadò",
-      "author": "",
-      "position": 25,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788811017967",
-      "title": "Parola di perpetua. I casi del marescia...",
-      "author": "Andrea Vitali",
-      "position": 26,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788811020776",
-      "title": "Un velo sul cuore",
-      "author": "",
-      "position": 27,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791224209843",
-      "title": "Il castello dei delitti",
-      "author": "",
       "position": 28,
       "category": "gialli_thriller",
       "source": "giunti"
@@ -1755,10 +1723,42 @@
       "source": "giunti"
     },
     {
+      "ean": "9791221219968",
+      "title": "Rifacciamo il mondo. L'arte come liberazione",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791221219968",
+      "title": "Rifacciamo il mondo. L'arte come libera...",
+      "author": "Tomaso Montanari",
+      "position": 5,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791256602100",
+      "title": "Il mio libro beauty. Winx club",
+      "author": "",
+      "position": 6,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791256602117",
+      "title": "Colora, ritaglia e crea. Winx club",
+      "author": "",
+      "position": 7,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9791223401675",
       "title": "Spotty e la neve",
       "author": "",
-      "position": 4,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1766,7 +1766,7 @@
       "ean": "9791255643289",
       "title": "Il mondo magico di Harry Potter™. 800 stickers. Lego Harry Potter",
       "author": "",
-      "position": 5,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1774,7 @@
       "ean": "9791255643289",
       "title": "Il mondo magico di Harry Potter™. 800 s...",
       "author": "",
-      "position": 6,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1782,7 @@
       "ean": "9788857023496",
       "title": "Fiabe in valigia",
       "author": "",
-      "position": 7,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1790,7 @@
       "ean": "9781806073801",
       "title": "A nanna con Topino",
       "author": "",
-      "position": 8,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1798,7 @@
       "ean": "9791256601028",
       "title": "Che la magia abbia inizio. Io e il mio elfo. 24 attività e giochi per una caccia all'elfo da fare insieme!",
       "author": "",
-      "position": 9,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1806,7 @@
       "ean": "9791256601028",
       "title": "Che la magia abbia inizio. Io e il mio ...",
       "author": "Monica Pezzoli",
-      "position": 10,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1814,7 @@
       "ean": "9781836068730",
       "title": "Il camion",
       "author": "",
-      "position": 11,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1822,7 @@
       "ean": "9791256731862",
       "title": "I musicanti di Brema",
       "author": "",
-      "position": 12,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1830,7 @@
       "ean": "9788883627590",
       "title": "Tutti fotografi",
       "author": "",
-      "position": 13,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,7 +1838,7 @@
       "ean": "9791254642979",
       "title": "Dentro",
       "author": "",
-      "position": 14,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1846,7 +1846,7 @@
       "ean": "9788817200585",
       "title": "Aviarium. Il grande libro degli uccelli",
       "author": "",
-      "position": 15,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1854,7 +1854,7 @@
       "ean": "9788893085878",
       "title": "Sonic the Hedgehog. Impara a disegnare. La guida ufficiale",
       "author": "",
-      "position": 16,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1862,7 +1862,7 @@
       "ean": "9788893085878",
       "title": "Sonic the Hedgehog. Impara a disegnare....",
       "author": "",
-      "position": 17,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1870,7 +1870,7 @@
       "ean": "9791223402153",
       "title": "Bluey. Farfalle",
       "author": "",
-      "position": 18,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1878,7 +1878,7 @@
       "ean": "9788893085861",
       "title": "Sonic The Hedgehog. 1001 sticker",
       "author": "",
-      "position": 19,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1886,7 +1886,7 @@
       "ean": "9788868906955",
       "title": "Contiamo insieme",
       "author": "",
-      "position": 20,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1894,7 +1894,7 @@
       "ean": "9791255335634",
       "title": "Warhammer 40.000. La guida ufficiale",
       "author": "",
-      "position": 21,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1902,7 +1902,7 @@
       "ean": "9788893086141",
       "title": "Minecraft Mojang. L'attacco dei mob. Avventure e sticker. Il libro ufficiale",
       "author": "",
-      "position": 22,
+      "position": 26,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1910,7 +1910,7 @@
       "ean": "9788893086141",
       "title": "Minecraft Mojang. L'attacco dei mob. Av...",
       "author": "",
-      "position": 23,
+      "position": 27,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1918,47 +1918,7 @@
       "ean": "9788836247660",
       "title": "Come si fa un libro",
       "author": "",
-      "position": 24,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830331594",
-      "title": "Space-Lo Spazio-L'espace. Discover the world. Puzzle night & day",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830331594",
-      "title": "Space-Lo Spazio-L'espace. Discover the ...",
-      "author": "Matteo Gaule",
-      "position": 26,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830358171",
-      "title": "The Sea-Il mare-La mer. Discover the world. Puzzle night & day",
-      "author": "",
-      "position": 27,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788830358171",
-      "title": "The Sea-Il mare-La mer. Discover the wo...",
-      "author": "Matteo Gaule",
       "position": 28,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791256731794",
-      "title": "L'isola dei dinosauri. Gira e sopravvivi",
-      "author": "",
-      "position": 29,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -2115,10 +2075,74 @@
       "source": "giunti"
     },
     {
+      "ean": "9788822789792",
+      "title": "La notte delle ombre. Wicked is the reaper",
+      "author": "",
+      "position": 4,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791281656765",
+      "title": "Headlights",
+      "author": "",
+      "position": 5,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791254982297",
+      "title": "La forgia anime",
+      "author": "",
+      "position": 6,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788820086695",
+      "title": "It. Ediz. speciale 40 anni",
+      "author": "",
+      "position": 7,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788804820413",
+      "title": "Dead Beat. L'ultimo rintocco",
+      "author": "",
+      "position": 8,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788804779711",
+      "title": "L'anima caduta & il bacio del crepuscolo. Shadowborn Duet. Vol. 2",
+      "author": "",
+      "position": 9,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788804779711",
+      "title": "L'anima caduta & il bacio del crepuscol...",
+      "author": "Carissa Broadbent",
+      "position": 10,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788804806004",
+      "title": "Lo spirito ha denti affilati",
+      "author": "",
+      "position": 11,
+      "category": "fantasy",
+      "source": "giunti"
+    },
+    {
       "ean": "9788834442753",
       "title": "L'inverno della paura",
       "author": "",
-      "position": 4,
+      "position": 12,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2126,7 +2150,7 @@
       "ean": "9791221937978",
       "title": "L'ascesa del ratto cornuto. The old world. Warhammer. Vol. 4",
       "author": "",
-      "position": 5,
+      "position": 13,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2134,7 +2158,7 @@
       "ean": "9791221937978",
       "title": "L'ascesa del ratto cornuto. The old wor...",
       "author": "",
-      "position": 6,
+      "position": 14,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2142,7 +2166,7 @@
       "ean": "9788834442661",
       "title": "Wicca creed. Il fuoco della vendetta. Vol. 3",
       "author": "",
-      "position": 7,
+      "position": 15,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2150,7 +2174,7 @@
       "ean": "9788834442661",
       "title": "Wicca creed. Il fuoco della vendetta. V...",
       "author": "Marah Woolf",
-      "position": 8,
+      "position": 16,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2158,7 +2182,7 @@
       "ean": "9791257780371",
       "title": "Paris Celestial",
       "author": "",
-      "position": 9,
+      "position": 17,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2166,7 +2190,7 @@
       "ean": "9788804758174",
       "title": "A pochi passi dal sole",
       "author": "",
-      "position": 10,
+      "position": 18,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2174,7 +2198,7 @@
       "ean": "9791259856548",
       "title": "Le nebbie di Avalon. Vol. 1",
       "author": "",
-      "position": 11,
+      "position": 19,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2182,7 +2206,7 @@
       "ean": "9788804790921",
       "title": "L'ultimo re della terra delle fate",
       "author": "",
-      "position": 12,
+      "position": 20,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2190,7 +2214,7 @@
       "ean": "9791259856555",
       "title": "Le nebbie di Avalon. Vol. 2",
       "author": "",
-      "position": 13,
+      "position": 21,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2198,7 +2222,7 @@
       "ean": "9788834748022",
       "title": "L'ultimo dio della rete",
       "author": "",
-      "position": 14,
+      "position": 22,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2206,7 +2230,7 @@
       "ean": "9791221222630",
       "title": "The dawn of the cursed queen. L'alba di un regno maledetto. Booklover approved",
       "author": "",
-      "position": 15,
+      "position": 23,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2214,7 +2238,7 @@
       "ean": "9791221222630",
       "title": "The dawn of the cursed queen. L'alba di...",
       "author": "Amber V. Nicole",
-      "position": 16,
+      "position": 24,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2222,7 +2246,7 @@
       "ean": "9788834442654",
       "title": "Winterset Hollow. Dove la favola incontra l'incubo",
       "author": "",
-      "position": 17,
+      "position": 25,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2230,7 +2254,7 @@
       "ean": "9788834442654",
       "title": "Winterset Hollow. Dove la favola incont...",
       "author": "Jonathan Edward Durham",
-      "position": 18,
+      "position": 26,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2238,7 +2262,7 @@
       "ean": "9788865513972",
       "title": "Il messaggio dell'uomo morto",
       "author": "",
-      "position": 19,
+      "position": 27,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -2246,87 +2270,7 @@
       "ean": "9788854535664",
       "title": "La casa accanto",
       "author": "",
-      "position": 20,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791259855879",
-      "title": "Visions of Flesh and Blood. Dalla voce di Miss Willa, il compendio delle serie Blood and Ash e Flesh and Fire",
-      "author": "",
-      "position": 21,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791259855879",
-      "title": "Visions of Flesh and Blood. Dalla voce ...",
-      "author": "Jennifer L. Armentrout, Rayvn Salvador...",
-      "position": 22,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788804819967",
-      "title": "Una corte di armonia infranta. Il ciclo delle Valchirie: movimento I",
-      "author": "",
-      "position": 23,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788804819967",
-      "title": "Una corte di armonia infranta. Il ciclo...",
-      "author": "Sarah J. Maas",
-      "position": 24,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791281656703",
-      "title": "Il varco degli dei selvaggi. Dungeon Crawler Carl. Vol. 4",
-      "author": "",
-      "position": 25,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791281656703",
-      "title": "Il varco degli dei selvaggi. Dungeon Cr...",
-      "author": "Matt Dinniman",
-      "position": 26,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788804817727",
-      "title": "Bruciammo di luce fortissima",
-      "author": "",
-      "position": 27,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788804810537",
-      "title": "Brigands & breadknives. Ediz. italiana",
-      "author": "",
       "position": 28,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788850277025",
-      "title": "Il vampiro Marius. Le cronache dei vampiri",
-      "author": "",
-      "position": 29,
-      "category": "fantasy",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788804801139",
-      "title": "Il libro delle foglie cadute",
-      "author": "",
-      "position": 30,
       "category": "fantasy",
       "source": "giunti"
     },
@@ -3619,25 +3563,49 @@
     {
       "title": "Eventi in Lunigiana",
       "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-02-19_333.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-38_610.jpeg",
       "source": "lunigianaworld"
     },
     {
       "title": "Categorie Eventi",
       "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-02-19_333.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-38_610.jpeg",
       "source": "lunigianaworld"
     },
     {
       "title": "Presepe Vivente di Equi Terme",
       "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-02-19_333.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-38_610.jpeg",
       "source": "lunigianaworld"
     },
     {
       "title": "Presepe vivente nel borgo di Castello di Villa",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-01-18_389.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "C’era una volta Santa Lucia",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-28_521.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa di natale alla Croce Bianca di Casola",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-24_870.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Stagione teatrale al Teatro Quartieri di Bagnone",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-03_116.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La Meraviglia di chiamarsi Lucio / Spettacolo concerto",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-20-58_526.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3653,6 +3621,12 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Pomeriggissimo Santa House",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-46_786.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "La notte della Fisarmonica",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-36-21_865.jpeg",
@@ -3665,15 +3639,15 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Accendiamo il natale ad Aulla",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-15_975.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Antica Fiera di Santa Caterina",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-40_371.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Accendiamo il natale ad Aulla",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-15_975.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3683,9 +3657,39 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Opzioni di un clown / Spettacolo teatrale",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-44_612.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La Magica Casa di Babbo Natale",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-38_723.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Bagnone Tartufo Walking",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-59-54_006.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Aspettando il Natale a Equi Terme",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-31_753.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Concerto della Musica Cittadina di Pontremoli",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-06_428.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "5° Festival del Tartufo",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-14_23-17-00_802.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3695,9 +3699,9 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "5° Festival del Tartufo",
+      "title": "Presentazione libro di Franco Faggiani",
       "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-14_23-17-00_802.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-26_031.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3713,27 +3717,9 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Dal ribollir dei tini…",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-21_14-03-46_319.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Regnano: Il cammino della Castagna",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-01-08_606.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "35a Corsa delle Castagne",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-35-42_569.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Fiera di San Martino a Fivizzano",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-44_815.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3743,27 +3729,33 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Dal ribollir dei tini…",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-11-10_23-21-13_876.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Esposizione stendardi d’autore",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-37_805.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Regnano: Il cammino della Castagna",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-01-08_606.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Fiera di San Martino a Fivizzano",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-19_300.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Note d’autunno",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-54-29_675.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "San Martino Trail",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-21_14-05-46_403.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Mangialonga Fivizzano",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-55-05_960.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Festa del ringraziamento a Olivola",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-59-46_113.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3773,15 +3765,39 @@
       "source": "lunigianaworld"
     },
     {
+      "title": "Mondinata in piazza a Folegnano",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-09_216.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa del ringraziamento a Olivola",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-59-46_113.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
       "title": "Mercatini di Filetto",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-30_945.jpeg",
       "source": "lunigianaworld"
     },
     {
-      "title": "Mondinata in piazza a Folegnano",
+      "title": "Mangialonga Fivizzano",
       "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-09_216.jpeg",
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-55-05_960.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "San Martino Trail",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-21_14-05-46_403.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Aperitivo di beneficenza a Succisa",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-31_680.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3794,12 +3810,6 @@
       "title": "Cena concerto con The Gang",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-58_417.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
-      "title": "Aperitivo di beneficenza a Succisa",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-31_680.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3821,15 +3831,15 @@
       "source": "lunigianaworld"
     },
     {
-      "title": "Festa della Castagna di Virgoletta",
-      "date": null,
-      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-27_10-21-57_865-scaled.jpeg",
-      "source": "lunigianaworld"
-    },
-    {
       "title": "Castagnata nel borgo di Ponticello",
       "date": null,
       "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-36-11_704.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa della Castagna di Virgoletta",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-27_10-21-57_865-scaled.jpeg",
       "source": "lunigianaworld"
     },
     {
@@ -3902,10 +3912,6 @@
       "url": "https://www.youtube.com/watch?v=trNrmN0OikA"
     },
     {
-      "title": "[Aveline Row] # #booktok #wattpaditalia #wattpad #perte #booktokitalia #books #neiperte #fyp #wattpadcommunity",
-      "url": "https://www.youtube.com/watch?v=KWAIYP4rCn4"
-    },
-    {
       "title": "[Valerie Root ] always my 22 di Valerie Root #perte #booktokitalia #wattpaditalia #booktok",
       "url": "https://www.youtube.com/watch?v=4op8KiSVTpY"
     },
@@ -3914,16 +3920,20 @@
       "url": "https://www.youtube.com/watch?v=PkK-fASSGWA"
     },
     {
+      "title": "[maidnerautrice ] Feelings Hunt su Wattpad #books #wattpad #booktok #wattpadita #enemiestolovers #hatetolove #fyp",
+      "url": "https://www.youtube.com/watch?v=Qi155-1JQfA"
+    },
+    {
       "title": "[TraLePagineDiNicole] 3 libri per ragazzi sulla scuola: amicizia, cotta ed enemies to lovers  #booktok #wrapup #libri",
       "url": "https://www.youtube.com/watch?v=0W8sZwg5CIs"
     },
     {
-      "title": "[ARTE VISIVA PROMOTER] Il Padiglione Invisibile (1974) | Manicomio Criminale -  #booktokitalia #consiglidilettura #booktok",
-      "url": "https://www.youtube.com/watch?v=luxFUbMgA9Y"
-    },
-    {
       "title": "[Libros_libri_books ] Nuovi arrivi Adelphi #booktube #booktok #perte #books #booktubeitalia",
       "url": "https://www.youtube.com/watch?v=XdwFVwL1PEc"
+    },
+    {
+      "title": "[ARTE VISIVA PROMOTER] Il Padiglione Invisibile (1974) | Manicomio Criminale -  #booktokitalia #consiglidilettura #booktok",
+      "url": "https://www.youtube.com/watch?v=luxFUbMgA9Y"
     },
     {
       "title": "[semplicemente_noe005] Tra un po’ spendo più in #postit che #libri ✨📚 #booktokita #booktokitalia #fabbricantedilacrime",
@@ -3938,64 +3948,52 @@
       "url": "https://www.youtube.com/watch?v=lyfBypM1Zh0"
     },
     {
-      "title": "[Pop Culture Philosophers] Weekly Comic Book Review 11/04/26",
-      "url": "https://www.youtube.com/watch?v=6e8GgeHjDk0"
-    },
-    {
       "title": "[nhgreads] 10/10 Comics You Can Finish in One Sitting",
       "url": "https://www.youtube.com/watch?v=uzg3BbBEPmg"
-    },
-    {
-      "title": "[OMNIBUS GOD] COMIC BOOK TBR FOR NOVEMBER! #comic #dccomics #marvel #tbr #comics #spiderman #wonderwoman",
-      "url": "https://www.youtube.com/watch?v=rLB_KrA_HO0"
-    },
-    {
-      "title": "[nhgreads] The GREATEST Comics I’ve Ever Read",
-      "url": "https://www.youtube.com/watch?v=TOxLd2_76sM"
-    },
-    {
-      "title": "[Smirking Gun] Wolverine Paradise #1 Review Lets Read Comics 72 #wolverine #wolverineparadise",
-      "url": "https://www.youtube.com/watch?v=ZyPHH9U00bw"
-    },
-    {
-      "title": "[The Stoked Nerd] 5 Must Read Marvel Event Comics",
-      "url": "https://www.youtube.com/watch?v=MProqQkKWHQ"
-    },
-    {
-      "title": "[Old Fart Nerd] BONELLI e PANINI: TUTTA la VERITÀ sui FUMETTI EXTRALUSSO",
-      "url": "https://www.youtube.com/watch?v=N1onWcPTbDA"
-    },
-    {
-      "title": "[Big Nerd Boys ] #comics #comicbookslabs #dccomics #comicinsights #comicbooks #absolutebatman #absoluteuniverse #ncbd",
-      "url": "https://www.youtube.com/watch?v=ovyw2-Dec6E"
     },
     {
       "title": "[nhgreads] 10 Marvel Comics EVERYONE Should Read",
       "url": "https://www.youtube.com/watch?v=PRrs44DNteg"
     },
     {
+      "title": "[nhgreads] The GREATEST Comics I’ve Ever Read",
+      "url": "https://www.youtube.com/watch?v=TOxLd2_76sM"
+    },
+    {
+      "title": "[OMNIBUS GOD] COMIC BOOK TBR FOR NOVEMBER! #comic #dccomics #marvel #tbr #comics #spiderman #wonderwoman",
+      "url": "https://www.youtube.com/watch?v=rLB_KrA_HO0"
+    },
+    {
       "title": "[nhgreads] Batman Year One Review",
       "url": "https://www.youtube.com/watch?v=cb_TRH6qi4I"
+    },
+    {
+      "title": "[VeeFriends Comics] He Revealed A $24,000 COMIC!",
+      "url": "https://www.youtube.com/watch?v=_X4yHJMjHeI"
+    },
+    {
+      "title": "[Kody Collects] 🟥 NEW MARVEL COMICS FOR 11/11",
+      "url": "https://www.youtube.com/watch?v=Rkwq4aY_ekg"
+    },
+    {
+      "title": "[TheComicBookReport] DC Absolute Library 📚 DC COMICS #comics #dccomics #absolute",
+      "url": "https://www.youtube.com/watch?v=s9r8A_0bBH8"
+    },
+    {
+      "title": "[ItzCardinal] Did I Get An Absolute Steal?? (Batman A Death in the Family) #batman #comics",
+      "url": "https://www.youtube.com/watch?v=huFQg4yTkfg"
+    },
+    {
+      "title": "[ChubbyRay Comics] I Read 3 Comics… ONE Gets 5 STARS! | Trade Paperback Tuesday",
+      "url": "https://www.youtube.com/watch?v=9mzv9C9DUrQ"
     },
     {
       "title": "[Ruxin34] Opening Konami&#39;s INSANE New Manga Rare Box (Original Artwork Duel Set)",
       "url": "https://www.youtube.com/watch?v=C95R6Ct_KfE"
     },
     {
-      "title": "[Hey Man!] What Every New Manga Title Sounds Like to Me: Part 9",
-      "url": "https://www.youtube.com/watch?v=HCkwjygSps0"
-    },
-    {
-      "title": "[Etra chan saw it!] Everyone expected a happy wedding, but… [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=hPyQyIcbLWg"
-    },
-    {
-      "title": "[Ayasaki-san] [Manga Dub] Genius chemist girl creates a love potion, but accidentally ingests it and goes crazy!",
-      "url": "https://www.youtube.com/watch?v=l6mpsLomCg8"
-    },
-    {
-      "title": "[TheMangaSloth] I Bought Every Manga To Make The Biggest Manga Haul",
-      "url": "https://www.youtube.com/watch?v=PF8iOFvAj6E"
+      "title": "[ermExplains] Talented Learner or Genius? Blue Lock’s New Players #bluelock",
+      "url": "https://www.youtube.com/watch?v=HhslhGLfF64"
     },
     {
       "title": "[Rest Easy Himmel] He Thought Isekai Was Just a Fantasy… Until It Happened to Him! #anime #manga #mangarecommendations",
@@ -4014,8 +4012,20 @@
       "url": "https://www.youtube.com/watch?v=7tK4xeRK1dg"
     },
     {
+      "title": "[Sludge] Guys i got new manga yesterday bc of my grades🥹 #manga #school #goodgrades #grades #art  𝘺𝘪𝘱𝘱𝘦",
+      "url": "https://www.youtube.com/watch?v=dQY7PzSqquA"
+    },
+    {
       "title": "[Yomeko's Manga] [Manga Dub] My Sister Crashed My Wedding… And Said She&#39;s Pregnant by My Fiancé 💔",
       "url": "https://www.youtube.com/watch?v=T_hGQOHPN34"
+    },
+    {
+      "title": "[Olorin23] SÌ, VA LETTO - Dei MANGA (poco) SOPRENDENTI",
+      "url": "https://www.youtube.com/watch?v=WEeaRRS-4hU"
+    },
+    {
+      "title": "[Yomeko's Manga] [Manga Dub] He Got His Mistress Pregnant… and Offered Me Everything to Leave 😏",
+      "url": "https://www.youtube.com/watch?v=30Lj3OoUfx8"
     }
   ]
 }
