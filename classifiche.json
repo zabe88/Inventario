@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-11-11T12:42:07.714524+00:00",
+  "updated_at": "2026-11-11T20:10:59.283353+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -35,10 +35,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788817201254",
+      "title": "La mia storia",
+      "author": "",
+      "position": 5,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "generale",
       "source": "libraccio"
     },
@@ -46,23 +54,7 @@
       "ean": "9788822756350",
       "title": "Il segreto della libraia di Parigi",
       "author": "",
-      "position": 6,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788817201254",
-      "title": "La mia storia",
-      "author": "",
       "position": 7,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788811810292",
-      "title": "Lettera di una sconosciuta",
-      "author": "",
-      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -70,7 +62,7 @@
       "ean": "9788830463639",
       "title": "La casa dei respiri",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,15 +70,15 @@
       "ean": "9788828869269",
       "title": "Manuale di diritto privato",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788831013826",
+      "title": "Harry Potter. La serie completa. Ediz. Castello di Hogwarts",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
@@ -94,13 +86,21 @@
       "ean": "9788867148974",
       "title": "Frigo. L'orso che non amava l'inverno. Ediz. a colori",
       "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
+      "author": "",
       "position": 12,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788858350218",
-      "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
+      "ean": "9788806272364",
+      "title": "La confessione di Elsa",
       "author": "",
       "position": 13,
       "category": "generale",
@@ -131,32 +131,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831013826",
-      "title": "Harry Potter. La serie completa. Ediz. Castello di Hogwarts",
+      "ean": "9788822752918",
+      "title": "I migliori anni",
       "author": "",
       "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806272364",
-      "title": "La confessione di Elsa",
+      "ean": "9788838613098",
+      "title": "Psicologia generale",
       "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9788858350218",
+      "title": "GI. Vocabolario della lingua greca. Con la guida all'uso del vocabolario e lessico di base. Con Contenuto digitale per download",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788867921256",
-      "title": "La memoria degli specchi e altre poesie-La memoria de los espejos y otros poemas. Ediz. bilingue",
+      "ean": "9788845941603",
+      "title": "Il dilemma del riccio",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -371,32 +371,32 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788811810292",
-      "title": "Lettera di una sconosciuta",
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 27,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
+      "ean": "9788806272364",
+      "title": "La confessione di Elsa",
       "author": "",
       "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788838950322",
-      "title": "Sotto il cielo infernale",
+      "ean": "9788822752918",
+      "title": "I migliori anni",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806272364",
-      "title": "La confessione di Elsa",
+      "ean": "9788838950322",
+      "title": "Sotto il cielo infernale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -659,16 +659,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788831013826",
+      "title": "Harry Potter. La serie completa. Ediz. C...",
       "author": "",
       "position": 33,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788831013826",
-      "title": "Harry Potter. La serie completa. Ediz. C...",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
@@ -691,34 +691,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858350607",
-      "title": "Il nuovo libro di storia e geografia. Pe...",
-      "author": "",
-      "position": 37,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858015049",
-      "title": "Ti regalo la luna. Ediz. illustrata",
-      "author": "",
-      "position": 38,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
-      "author": "",
-      "position": 39,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788851168506",
       "title": "Orsetto. Sono queste le mie orecchie? Ed...",
       "author": "",
-      "position": 40,
+      "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -726,13 +702,37 @@
       "ean": "9788852225789",
       "title": "Zootropolis. Il libro delle barzellette....",
       "author": "",
+      "position": 38,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788854041561",
+      "title": "Il mio giardino. Montessori: un mondo di...",
+      "author": "",
+      "position": 39,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858015049",
+      "title": "Ti regalo la luna. Ediz. illustrata",
+      "author": "",
+      "position": 40,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883622564",
-      "title": "Che rabbia! Ediz. illustrata",
+      "ean": "9788858350607",
+      "title": "Il nuovo libro di storia e geografia. Pe...",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -827,8 +827,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804767084",
-      "title": "Heartstopper. Vol. 5",
+      "ean": "9788806202347",
+      "title": "MAUS",
       "author": "",
       "position": 12,
       "category": "fumetti",
@@ -947,24 +947,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834946886",
-      "title": "I diari della speziale. Vol. 17",
+      "ean": "9788828791928",
+      "title": "Il lungo Halloween. Batman",
       "author": "",
       "position": 27,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9791256212439",
-      "title": "Nel nido dei serpenti",
+      "ean": "9788834946886",
+      "title": "I diari della speziale. Vol. 17",
       "author": "",
       "position": 28,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788891295057",
-      "title": "Berserk collection. Serie nera. Vol. 26",
+      "ean": "9791256212439",
+      "title": "Nel nido dei serpenti",
       "author": "",
       "position": 29,
       "category": "fumetti",
@@ -979,8 +979,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828786207",
-      "title": "Batman. Anno uno",
+      "ean": "9788828789505",
+      "title": "Jujutsu Kaisen. Vol. 25: Resa dei conti ...",
       "author": "",
       "position": 31,
       "category": "fumetti",
@@ -995,16 +995,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788828789505",
-      "title": "Jujutsu Kaisen. Vol. 25: Resa dei conti ...",
+      "ean": "9788834936474",
+      "title": "I diari della speziale. Vol. 15",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828791928",
-      "title": "Il lungo Halloween. Batman",
+      "ean": "9788828781462",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 24: ...",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1099,18 +1099,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804449256",
-      "title": "Chiamati all'amore. Riflessioni",
-      "author": "",
-      "position": 12,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788804454311",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 13,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1118,7 +1110,7 @@
       "ean": "9788804489856",
       "title": "Eretico e profeta. Ernesto Buonaiuti, un...",
       "author": "",
-      "position": 14,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1126,13 +1118,21 @@
       "ean": "9788804533597",
       "title": "Emozioni distruttive. Liberarsi dai tre ...",
       "author": "",
-      "position": 15,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804544746",
       "title": "Senza radici. Europa, relativismo, crist...",
+      "author": "",
+      "position": 15,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788804558996",
+      "title": "Storia delle punizioni corporali",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1283,10 +1283,26 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788851141356",
+      "title": "I giorni del sacro. I riti e le feste de...",
+      "author": "",
+      "position": 35,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788877878403",
+      "title": "Il calendario delle semine 2027",
+      "author": "",
+      "position": 36,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788888819808",
       "title": "Gli antichi insegnamenti dei nativi amer...",
       "author": "",
-      "position": 35,
+      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1294,7 +1310,7 @@
       "ean": "9788886423601",
       "title": "Io sono con voi. Sussidio al catechismo ...",
       "author": "",
-      "position": 36,
+      "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1302,7 +1318,7 @@
       "ean": "9788886423618",
       "title": "Io sono con voi. Sussidio al catechismo ...",
       "author": "",
-      "position": 37,
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1326,7 @@
       "ean": "9791254710289",
       "title": "Spostare le montagne. L'energia della pr...",
       "author": "",
-      "position": 38,
+      "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,29 +1334,13 @@
       "ean": "9791255361046",
       "title": "Il libro della legge. Nuova ediz.",
       "author": "",
-      "position": 39,
+      "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9791256851416",
       "title": "Il libro del Tao. Ediz. integrale",
-      "author": "",
-      "position": 40,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
-      "author": "",
-      "position": 41,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788892251519",
-      "title": "Solo il vino migliore",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1371,26 +1371,42 @@
       "source": "giunti"
     },
     {
-      "ean": "9788804819967",
-      "title": "Una corte di armonia infranta. Il ciclo delle Valchirie: movimento I",
+      "ean": "9788830463639",
+      "title": "La casa dei respiri",
       "author": "",
       "position": 4,
       "category": "generale",
       "source": "giunti"
     },
     {
-      "ean": "9788804819967",
-      "title": "Una corte di armonia infranta. Il ciclo...",
-      "author": "Sarah J. Maas",
+      "ean": "9788820086428",
+      "title": "Santa, I did something bad. Il calendario dell'Avvento romance",
+      "author": "",
       "position": 5,
       "category": "generale",
       "source": "giunti"
     },
     {
-      "ean": "9788830153028",
-      "title": "Le ali in una stanza",
-      "author": "",
+      "ean": "9788820086428",
+      "title": "Santa, I did something bad. Il calendar...",
+      "author": "Hazel Riley, S. Stefania, S. Stefania",
       "position": 6,
+      "category": "generale",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791223274491",
+      "title": "Orlando. Dal mondo delle Sette Sorelle di Lucinda Riley",
+      "author": "",
+      "position": 7,
+      "category": "generale",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791223274491",
+      "title": "Orlando. Dal mondo delle Sette Sorelle ...",
+      "author": "Harry Whittaker",
+      "position": 8,
       "category": "generale",
       "source": "giunti"
     },
@@ -1398,7 +1414,7 @@
       "ean": "9788852254918",
       "title": "Storie della buonanotte da 1 minuto Disney - 10 titoli",
       "author": "",
-      "position": 7,
+      "position": 9,
       "category": "generale",
       "source": "giunti"
     },
@@ -1406,7 +1422,7 @@
       "ean": "9788852254918",
       "title": "Storie della buonanotte da 1 minuto Dis...",
       "author": "Walt Disney",
-      "position": 8,
+      "position": 10,
       "category": "generale",
       "source": "giunti"
     },
@@ -1414,55 +1430,23 @@
       "ean": "9788806272364",
       "title": "La confessione di Elsa",
       "author": "",
-      "position": 9,
-      "category": "generale",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791223276082",
-      "title": "La stanza dei tarocchi",
-      "author": "",
-      "position": 10,
-      "category": "generale",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791223274927",
-      "title": "L'intruso",
-      "author": "",
       "position": 11,
       "category": "generale",
       "source": "giunti"
     },
     {
-      "ean": "9791221221589",
-      "title": "Boys of Tommen. Releasing 10. Il rischio del contatto. Vol. 6/1",
+      "ean": "9788830153028",
+      "title": "Le ali in una stanza",
       "author": "",
       "position": 12,
       "category": "generale",
       "source": "giunti"
     },
     {
-      "ean": "9791221221589",
-      "title": "Boys of Tommen. Releasing 10. Il rischi...",
-      "author": "Chloe Walsh",
+      "ean": "9788829721047",
+      "title": "Il canto dei morti",
+      "author": "",
       "position": 13,
-      "category": "generale",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788817174053",
-      "title": "Il Bufalo e Sammarzano",
-      "author": "",
-      "position": 14,
-      "category": "generale",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788829608959",
-      "title": "Il ladro di zucche",
-      "author": "",
-      "position": 15,
       "category": "generale",
       "source": "giunti"
     },
@@ -1470,7 +1454,15 @@
       "ean": "9788867908356",
       "title": "Miss Kappa da ridere",
       "author": "",
-      "position": 16,
+      "position": 14,
+      "category": "generale",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788882224455",
+      "title": "La cosa più importante",
+      "author": "",
+      "position": 15,
       "category": "generale",
       "source": "giunti"
     },
@@ -3904,14 +3896,6 @@
       "url": "https://www.youtube.com/watch?v=fUXIotKWH5w"
     },
     {
-      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
-      "url": "https://www.youtube.com/watch?v=RXQK-CnzaFc"
-    },
-    {
-      "title": "[LalibreriadiGiady📚] Questo romanzo ha capovolto ogni mia certezza 🤯#booktok #books #bibliomazia #romance #thenaturals",
-      "url": "https://www.youtube.com/watch?v=trNrmN0OikA"
-    },
-    {
       "title": "[Valerie Root ] always my 22 di Valerie Root #perte #booktokitalia #wattpaditalia #booktok",
       "url": "https://www.youtube.com/watch?v=4op8KiSVTpY"
     },
@@ -3940,6 +3924,14 @@
       "url": "https://www.youtube.com/watch?v=Q-O3NmCphDk"
     },
     {
+      "title": "[Martina Skia] Nuovi arrivi librosi 📚 #bookhaul #booktokitalia #booktubeitalia",
+      "url": "https://www.youtube.com/watch?v=fLeN6PD69kA"
+    },
+    {
+      "title": "[Книгоджунглі] Розпакуємо? #booktok",
+      "url": "https://www.youtube.com/watch?v=fFtu8laS6zY"
+    },
+    {
       "title": "[Kana Yamasaki | Mangaka] 【H×H】 Rookie Mangaka reacts to Togashi drawing",
       "url": "https://www.youtube.com/watch?v=OpF-9_6GakI"
     },
@@ -3956,12 +3948,12 @@
       "url": "https://www.youtube.com/watch?v=PRrs44DNteg"
     },
     {
-      "title": "[nhgreads] The GREATEST Comics I’ve Ever Read",
-      "url": "https://www.youtube.com/watch?v=TOxLd2_76sM"
-    },
-    {
       "title": "[OMNIBUS GOD] COMIC BOOK TBR FOR NOVEMBER! #comic #dccomics #marvel #tbr #comics #spiderman #wonderwoman",
       "url": "https://www.youtube.com/watch?v=rLB_KrA_HO0"
+    },
+    {
+      "title": "[nhgreads] The GREATEST Comics I’ve Ever Read",
+      "url": "https://www.youtube.com/watch?v=TOxLd2_76sM"
     },
     {
       "title": "[nhgreads] Batman Year One Review",
@@ -3984,12 +3976,8 @@
       "url": "https://www.youtube.com/watch?v=huFQg4yTkfg"
     },
     {
-      "title": "[ChubbyRay Comics] I Read 3 Comics… ONE Gets 5 STARS! | Trade Paperback Tuesday",
-      "url": "https://www.youtube.com/watch?v=9mzv9C9DUrQ"
-    },
-    {
-      "title": "[Ruxin34] Opening Konami&#39;s INSANE New Manga Rare Box (Original Artwork Duel Set)",
-      "url": "https://www.youtube.com/watch?v=C95R6Ct_KfE"
+      "title": "[ItzCardinal] My Third Batman Comic! (Batman Hush) #batman #comics",
+      "url": "https://www.youtube.com/watch?v=xw6guEBZ-TU"
     },
     {
       "title": "[ermExplains] Talented Learner or Genius? Blue Lock’s New Players #bluelock",
@@ -4008,10 +3996,6 @@
       "url": "https://www.youtube.com/watch?v=znGSKQU6ick"
     },
     {
-      "title": "[Yomeko's Manga] [Manga Dub] My Fiancé Said We&#39;d Wait Until I&#39;m 39 to Have Kids So It Could Be Just Us Two! So…",
-      "url": "https://www.youtube.com/watch?v=7tK4xeRK1dg"
-    },
-    {
       "title": "[Sludge] Guys i got new manga yesterday bc of my grades🥹 #manga #school #goodgrades #grades #art  𝘺𝘪𝘱𝘱𝘦",
       "url": "https://www.youtube.com/watch?v=dQY7PzSqquA"
     },
@@ -4024,8 +4008,16 @@
       "url": "https://www.youtube.com/watch?v=WEeaRRS-4hU"
     },
     {
-      "title": "[Yomeko's Manga] [Manga Dub] He Got His Mistress Pregnant… and Offered Me Everything to Leave 😏",
-      "url": "https://www.youtube.com/watch?v=30Lj3OoUfx8"
+      "title": "[Yomeko's Manga] [Manga Dub] I Cared for His Dad for 10 Years… Then He Said I&#39;m No Use Now 😤",
+      "url": "https://www.youtube.com/watch?v=mVY47uMfnL8"
+    },
+    {
+      "title": "[Yomeko's Manga] [Manga Dub] My Husband Brought His Ex-Wife Home to Plan Our Divorce 😤",
+      "url": "https://www.youtube.com/watch?v=a9IRbio-yvQ"
+    },
+    {
+      "title": "[Yomeko's Manga] [Manga Dub] My Husband Called Me Worthless for Having No Kids… Then His Mistress Called 💔",
+      "url": "https://www.youtube.com/watch?v=Uqi8guPhrWU"
     }
   ]
 }
