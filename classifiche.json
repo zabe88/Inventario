@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-11-13T20:29:00.021701+00:00",
+  "updated_at": "2026-11-14T12:08:43.825560+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -59,18 +59,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
-      "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788811810292",
       "title": "Lettera di una sconosciuta",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,21 +70,29 @@
       "ean": "9788828869269",
       "title": "Manuale di diritto privato",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788831013826",
-      "title": "Harry Potter. La serie completa. Ediz. Castello di Hogwarts",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 11,
+      "position": 10,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788867148974",
       "title": "Frigo. L'orso che non amava l'inverno. Ediz. a colori",
+      "author": "",
+      "position": 11,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788831013826",
+      "title": "Harry Potter. La serie completa. Ediz. Castello di Hogwarts",
       "author": "",
       "position": 12,
       "category": "generale",
@@ -123,18 +123,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845941603",
-      "title": "Il dilemma del riccio",
-      "author": "",
-      "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788863114096",
       "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
-      "position": 17,
+      "position": 16,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,21 +134,29 @@
       "ean": "9788838950322",
       "title": "Sotto il cielo infernale",
       "author": "",
+      "position": 17,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788845941603",
+      "title": "Il dilemma del riccio",
+      "author": "",
       "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9791221120059",
-      "title": "Diritto costituzionale",
+      "ean": "9788845924460",
+      "title": "Lettera di una sconosciuta",
       "author": "",
       "position": 19,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788822752918",
-      "title": "I migliori anni",
+      "ean": "9791221120059",
+      "title": "Diritto costituzionale",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -363,18 +363,26 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788863114409",
-      "title": "Le notti bianche. Ediz. integrale",
+      "ean": "9788811810292",
+      "title": "Lettera di una sconosciuta",
       "author": "",
       "position": 26,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788811810292",
-      "title": "Lettera di una sconosciuta",
+      "ean": "9788863114409",
+      "title": "Le notti bianche. Ediz. integrale",
       "author": "",
       "position": 27,
+      "category": "narrativa",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788863114096",
+      "title": "Delitto e castigo. Ediz. integrale",
+      "author": "",
+      "position": 28,
       "category": "narrativa",
       "source": "libraccio"
     },
@@ -382,21 +390,13 @@
       "ean": "9788806272364",
       "title": "La confessione di Elsa",
       "author": "",
-      "position": 28,
+      "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
       "ean": "9788845941603",
       "title": "Il dilemma del riccio",
-      "author": "",
-      "position": 29,
-      "category": "narrativa",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114096",
-      "title": "Delitto e castigo. Ediz. integrale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -659,16 +659,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831013826",
-      "title": "Harry Potter. La serie completa. Ediz. C...",
+      "ean": "9788867148974",
+      "title": "Frigo. L'orso che non amava l'inverno. E...",
       "author": "",
       "position": 33,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788867148974",
-      "title": "Frigo. L'orso che non amava l'inverno. E...",
+      "ean": "9788831013826",
+      "title": "Harry Potter. La serie completa. Ediz. C...",
       "author": "",
       "position": 34,
       "category": "bambini_ragazzi",
@@ -683,8 +683,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788867908356",
-      "title": "Miss kappa da ridere",
+      "ean": "9788858037218",
+      "title": "Il lupo che voleva cambiare colore. Amic...",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
@@ -699,8 +699,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788851168506",
-      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
+      "ean": "9788867908356",
+      "title": "Miss kappa da ridere",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
@@ -715,24 +715,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858037218",
-      "title": "Il lupo che voleva cambiare colore. Amic...",
+      "ean": "9788851168506",
+      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788883622564",
-      "title": "Che rabbia! Ediz. illustrata",
+      "ean": "9788804702535",
+      "title": "A caccia dell'Orso. Ediz. a colori",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788854041561",
-      "title": "Il mio giardino. Montessori: un mondo di...",
+      "ean": "9788883622564",
+      "title": "Che rabbia! Ediz. illustrata",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -971,16 +971,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788891294272",
-      "title": "Death note. Vol. 9",
+      "ean": "9791221924121",
+      "title": "Stagioni. Superman",
       "author": "",
       "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788828788409",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 7: P...",
+      "ean": "9788891294272",
+      "title": "Death note. Vol. 9",
       "author": "",
       "position": 31,
       "category": "fumetti",
@@ -995,16 +995,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788834936474",
-      "title": "I diari della speziale. Vol. 15",
+      "ean": "9788828788409",
+      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 7: P...",
       "author": "",
       "position": 33,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788806202347",
-      "title": "MAUS",
+      "ean": "9788834936474",
+      "title": "I diari della speziale. Vol. 15",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1299,10 +1299,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845910098",
-      "title": "I vangeli gnostici. Vangeli di Tomaso, M...",
+      "ean": "9791223800928",
+      "title": "Dio. Può dare senso alla vita un mistero...",
       "author": "",
       "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791259854902",
+      "title": "Francesco. Il primo italiano",
+      "author": "",
+      "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,7 +1318,7 @@
       "ean": "9788877878403",
       "title": "Il calendario delle semine 2027",
       "author": "",
-      "position": 38,
+      "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1318,29 +1326,21 @@
       "ean": "9788888819808",
       "title": "Gli antichi insegnamenti dei nativi amer...",
       "author": "",
-      "position": 39,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788886423601",
-      "title": "Io sono con voi. Sussidio al catechismo ...",
-      "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788886423618",
-      "title": "Io sono con voi. Sussidio al catechismo ...",
+      "ean": "9788890931529",
+      "title": "Capire i 72 nomi di Dio",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9788888039053",
+      "title": "Provocati dal giubileo, i consacrati rip...",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1491,10 +1491,42 @@
       "source": "giunti"
     },
     {
+      "ean": "9791255671770",
+      "title": "Gaetano Lamprecht e la bara dell'Arciduca",
+      "author": "",
+      "position": 4,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788822796516",
+      "title": "Omicidio perfetto a Saint-Flour",
+      "author": "",
+      "position": 5,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788854535398",
+      "title": "Morte in tre tempi",
+      "author": "",
+      "position": 6,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791259678577",
+      "title": "L'inferno addosso",
+      "author": "",
+      "position": 7,
+      "category": "gialli_thriller",
+      "source": "giunti"
+    },
+    {
       "ean": "9788850276899",
       "title": "Il segreto del vecchio signor Nakamura",
       "author": "",
-      "position": 4,
+      "position": 8,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1502,7 +1534,7 @@
       "ean": "9788804819059",
       "title": "La vedova",
       "author": "",
-      "position": 5,
+      "position": 9,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1510,7 +1542,7 @@
       "ean": "9788850277216",
       "title": "La bestia",
       "author": "",
-      "position": 6,
+      "position": 10,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1518,7 +1550,7 @@
       "ean": "9788848330626",
       "title": "Sherlock Holmes sei tu. Trova gli indizi, scegli le piste, risolvi il caso",
       "author": "",
-      "position": 7,
+      "position": 11,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1526,7 +1558,7 @@
       "ean": "9788848330626",
       "title": "Sherlock Holmes sei tu. Trova gli indiz...",
       "author": "Daniel Smith",
-      "position": 8,
+      "position": 12,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1534,7 +1566,7 @@
       "ean": "9788854533110",
       "title": "L'ossessione della diva. Le indagini di Madame le commissarie",
       "author": "",
-      "position": 9,
+      "position": 13,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1542,7 +1574,7 @@
       "ean": "9788854533110",
       "title": "L'ossessione della diva. Le indagini di...",
       "author": "Pierre Martin",
-      "position": 10,
+      "position": 14,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1550,7 +1582,7 @@
       "ean": "9788850276646",
       "title": "Notti nere",
       "author": "",
-      "position": 11,
+      "position": 15,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1558,7 +1590,7 @@
       "ean": "9788850276929",
       "title": "È notte sul confine",
       "author": "",
-      "position": 12,
+      "position": 16,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1566,7 +1598,7 @@
       "ean": "9788829792986",
       "title": "Il coccodrillo di pietra",
       "author": "",
-      "position": 13,
+      "position": 17,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1574,7 +1606,7 @@
       "ean": "9788855449250",
       "title": "La ragazza del treno",
       "author": "",
-      "position": 14,
+      "position": 18,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1582,7 +1614,7 @@
       "ean": "9788823537781",
       "title": "La vendetta",
       "author": "",
-      "position": 15,
+      "position": 19,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1590,7 +1622,7 @@
       "ean": "9791259856357",
       "title": "La più grande detective del mondo e la sua assistente appena sufficiente",
       "author": "",
-      "position": 16,
+      "position": 20,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1598,7 +1630,7 @@
       "ean": "9791259856357",
       "title": "La più grande detective del mondo e la ...",
       "author": "Liza Tully",
-      "position": 17,
+      "position": 21,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1606,7 +1638,7 @@
       "ean": "9791224203261",
       "title": "Delitto al club del libro",
       "author": "",
-      "position": 18,
+      "position": 22,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1614,7 +1646,7 @@
       "ean": "9788806275068",
       "title": "Natale in giallo. Le storie piú belle",
       "author": "",
-      "position": 19,
+      "position": 23,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1622,7 +1654,7 @@
       "ean": "9788892764927",
       "title": "Lady Brooke, detective",
       "author": "",
-      "position": 20,
+      "position": 24,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1630,7 +1662,7 @@
       "ean": "9791281000711",
       "title": "Prima di Sherlock Holmes. Alle origini del mistero",
       "author": "",
-      "position": 21,
+      "position": 25,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1638,7 +1670,7 @@
       "ean": "9791281000711",
       "title": "Prima di Sherlock Holmes. Alle origini ...",
       "author": "Arthur Conan Doyle",
-      "position": 22,
+      "position": 26,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1646,47 +1678,7 @@
       "ean": "9791259678874",
       "title": "Il pacco",
       "author": "",
-      "position": 23,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791281149076",
-      "title": "La torre",
-      "author": "",
-      "position": 24,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791257780357",
-      "title": "Che la morte ci sfiori",
-      "author": "",
-      "position": 25,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791256731923",
-      "title": "Il mastino dei Baskerville",
-      "author": "",
-      "position": 26,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791257760489",
-      "title": "Michael jr. Mistero a Parigi. Il segreto del serpente",
-      "author": "",
       "position": 27,
-      "category": "gialli_thriller",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791257760489",
-      "title": "Michael jr. Mistero a Parigi. Il segret...",
-      "author": "Mattia Zuliani",
-      "position": 28,
       "category": "gialli_thriller",
       "source": "giunti"
     },
@@ -1715,10 +1707,66 @@
       "source": "giunti"
     },
     {
+      "ean": "9781806072187",
+      "title": "Gemme e cristalli",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788865325605",
+      "title": "Cani da (s)ballo",
+      "author": "",
+      "position": 5,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788857023595",
+      "title": "Pimpa at the Ducal Palace of Mantua",
+      "author": "",
+      "position": 6,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9788857023571",
+      "title": "Pimpa a Palazzo Ducale di Mantova",
+      "author": "",
+      "position": 7,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9781836068877",
+      "title": "Lo spazio",
+      "author": "",
+      "position": 8,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9791222114613",
+      "title": "Il mio primo Schubert. Classici sonori",
+      "author": "",
+      "position": 9,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
+      "ean": "9781835400852",
+      "title": "Ruspe",
+      "author": "",
+      "position": 10,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9788857023564",
       "title": "Pimpa va a Udine",
       "author": "",
-      "position": 4,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1726,7 +1774,7 @@
       "ean": "9788857023588",
       "title": "Pimpa goes to Udine",
       "author": "",
-      "position": 5,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1734,7 +1782,7 @@
       "ean": "9781836065142",
       "title": "Creature degli abissi. Con adesivi",
       "author": "",
-      "position": 6,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1742,7 +1790,7 @@
       "ean": "9791221219968",
       "title": "Rifacciamo il mondo. L'arte come liberazione",
       "author": "",
-      "position": 7,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1750,7 +1798,7 @@
       "ean": "9791221219968",
       "title": "Rifacciamo il mondo. L'arte come libera...",
       "author": "Tomaso Montanari",
-      "position": 8,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1758,7 +1806,7 @@
       "ean": "9791256602100",
       "title": "Il mio libro beauty. Winx club",
       "author": "",
-      "position": 9,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1766,7 +1814,7 @@
       "ean": "9791256602117",
       "title": "Colora, ritaglia e crea. Winx club",
       "author": "",
-      "position": 10,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1822,7 @@
       "ean": "9791223401675",
       "title": "Spotty e la neve",
       "author": "",
-      "position": 11,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1830,7 @@
       "ean": "9791255643289",
       "title": "Il mondo magico di Harry Potter™. 800 stickers. Lego Harry Potter",
       "author": "",
-      "position": 12,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1838,7 @@
       "ean": "9791255643289",
       "title": "Il mondo magico di Harry Potter™. 800 s...",
       "author": "",
-      "position": 13,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1846,7 @@
       "ean": "9788857023496",
       "title": "Fiabe in valigia",
       "author": "",
-      "position": 14,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1854,7 @@
       "ean": "9781806073801",
       "title": "A nanna con Topino",
       "author": "",
-      "position": 15,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1862,7 @@
       "ean": "9791256601028",
       "title": "Che la magia abbia inizio. Io e il mio elfo. 24 attività e giochi per una caccia all'elfo da fare insieme!",
       "author": "",
-      "position": 16,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1870,7 @@
       "ean": "9791256601028",
       "title": "Che la magia abbia inizio. Io e il mio ...",
       "author": "Monica Pezzoli",
-      "position": 17,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1878,7 @@
       "ean": "9781836068730",
       "title": "Il camion",
       "author": "",
-      "position": 18,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,71 +1886,7 @@
       "ean": "9791256731862",
       "title": "I musicanti di Brema",
       "author": "",
-      "position": 19,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788883627590",
-      "title": "Tutti fotografi",
-      "author": "",
-      "position": 20,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791254642979",
-      "title": "Dentro",
-      "author": "",
-      "position": 21,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788817200585",
-      "title": "Aviarium. Il grande libro degli uccelli",
-      "author": "",
-      "position": 22,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788893085878",
-      "title": "Sonic the Hedgehog. Impara a disegnare. La guida ufficiale",
-      "author": "",
-      "position": 23,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788893085878",
-      "title": "Sonic the Hedgehog. Impara a disegnare....",
-      "author": "",
-      "position": 24,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791223402153",
-      "title": "Bluey. Farfalle",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788893085861",
-      "title": "Sonic The Hedgehog. 1001 sticker",
-      "author": "",
       "position": 26,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9788868906955",
-      "title": "Contiamo insieme",
-      "author": "",
-      "position": 27,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -3831,89 +3815,19 @@
   ],
   "manga_trends": [
     {
-      "title": "J-POP Manga: arrivano F. Compo e le Short Stories di Tsukasa Hojo",
+      "title": "DETECTIVE CONAN - L'angelo ribelle dell'autostrada arriva al cinema",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112268-j-pop-manga-arrivano-f-compo-e-le-short-stories-di-tsukasa-hojo"
+      "url": "https://www.animeclick.it/news/112218-detective-conan-langelo-ribelle-dellautostrada-arriva-al-cinema"
     },
     {
-      "title": "Tetsuo Hara (Ken il guerriero) di nuovo al lavoro su una carta Pokémon",
+      "title": "Box Office Giappone: Godzilla Minus Zero conquista la vetta con un debutto da record",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112264-tetsuo-hara-ken-il-guerriero-di-nuovo-al-lavoro-su-una-carta-pokemon"
+      "url": "https://www.animeclick.it/news/112161-box-office-giappone-godzilla-minus-zero-conquista-la-vetta-con-un-debutto-da-record"
     },
     {
-      "title": "Annunciato ufficialmente Dragon Quest RPG: arriva il primo capitolo \"classico\" pensato per mobile",
+      "title": "Dragon Ball: arriva a Roma un pop-up store dedicato alla serie",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112261-annunciato-ufficialmente-dragon-quest-rpg-arriva-il-primo-capitolo-classico-pensato-per-mobile"
-    },
-    {
-      "title": "Sony scommette sugli anime e rilancia: \"Demon Slayer deve durare 50 o 100 anni\"",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112280-sony-scommette-sugli-anime-e-rilancia-demon-slayer-deve-durare-50-o-100-anni"
-    },
-    {
-      "title": "Stellar Blade: il nuovo spot Sembra IA ma è tutto vero e stupisce i fan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112260-stellar-blade-il-nuovo-spot-sembra-ia-ma-e-tutto-vero-e-stupisce-i-fan"
-    },
-    {
-      "title": "Zipaki: tutte le uscite digitali e cartacee di ottobre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112223-zipaki-tutte-le-uscite-digitali-e-cartacee-di-ottobre-2026"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: le foto dei cosplay (seconda parte)",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112196-lucca-comics-games-2026-le-foto-dei-cosplay-seconda-parte"
-    },
-    {
-      "title": "Planet Manga presenta le instant variant di Atelier of Witch Hat, Jujutsu Kaisen Modulo e Asura's Verdict",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112219-planet-manga-presenta-le-instant-variant-di-atelier-of-witch-hat-jujutsu-kaisen-modulo-e-asuras-verdict"
-    },
-    {
-      "title": "Hyperspace Neptunia: Unlimited annunciato per l'Occidente",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112200-hyperdimension-neptunia-unlimited-annunciato-per-loccidente"
-    },
-    {
-      "title": "Cobra: i segreti del manga cult di fantascienza che ritorna in Italia con Sprea",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112232-cobra-i-segreti-del-manga-cult-di-fantascienza-che-ritorna-in-italia-con-sprea"
-    },
-    {
-      "title": "Anime Preview: annunciati l'anime di Hiragi-san's House of Vampires e altri titoli",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112211-anime-preview-annunciati-l-anime-di-hiragi-sans-house-of-vampires-e-altri-titoli"
-    },
-    {
-      "title": "Box Office Giappone: una commovente storia vera domina la classifica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112204-box-office-giappone-una-commovente-storia-vera-domina-la-classifica"
-    },
-    {
-      "title": "Star Comics: le novità previste per febbraio dall'anteprima dell'editore",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112234-star-comics-le-novita-previste-per-febbraio-dall-anteprima-dell-editore"
-    },
-    {
-      "title": "Anime e intelligenza artificiale, il CEO di Sony avverte: senza originalità si perde tutto",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112258-anime-e-intelligenza-artificiale-il-ceo-di-sony-avverte-senza-originalita-si-perde-tutto"
-    },
-    {
-      "title": "Godzilla Minus Zero da record: è il miglior debutto in Giappone per un film live action",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112224-godzilla-minus-zero-da-record-e-il-miglior-debutto-in-giappone-per-un-film-live-action"
-    },
-    {
-      "title": "Magic Press: le uscite di novembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112212-magic-press-le-uscite-di-novembre-2026"
-    },
-    {
-      "title": "Non solo Godzilla: i 5 kaiju più iconici, rivali e alleati del Re dei mostri",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112265-godzilla-i-5-mostri-piu-iconici-da-jet-jaguar-a-mothra-rivali-e-alleati-del-re-dei-mostri"
+      "url": "https://www.animeclick.it/news/112263-dragon-ball-arriva-a-roma-un-pop-up-store-dedicato-alla-serie"
     },
     {
       "title": "Lucca Comics & Games 2026: Press Cafè e Showcase di Saka Mikami",
@@ -3921,34 +3835,39 @@
       "url": "https://www.animeclick.it/news/112197-lucca-comics-games-2026-press-cafe-e-showcase-di-saka-mikami"
     },
     {
+      "title": "Godzilla Minus Zero da record: è il miglior debutto in Giappone per un film live action",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112224-godzilla-minus-zero-da-record-e-il-miglior-debutto-in-giappone-per-un-film-live-action"
+    },
+    {
+      "title": "Wound & Bandage: nuovo trailer e nuova visual per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112233-wound-bandage-nuovo-trailer-e-nuova-visual-per-l-anime"
+    },
+    {
+      "title": "Zelda: Ocarina of Time Remake da record: oltre 5,2 milioni di copie vendute in quattro giorni",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112266-zelda-ocarina-of-time-remake-da-record-oltre-52-milioni-di-copie-vendute-in-quattro-giorni"
+    },
+    {
+      "title": "Yotobi denunciato per diffamazione dopo il video su Gioventù Ribelle?",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112257-yotobi-denunciato-per-diffamazione-dopo-il-video-su-gioventu-ribelle"
+    },
+    {
       "title": "Kiki - Consegne a domicilio: trailer e poster del ritorno al cinema in 4K",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/112271-kiki-consegne-a-domicilio-trailer-e-poster-del-ritorno-al-cinema-in-4k"
     },
     {
-      "title": "Otaku Vampire's Love Bite: annunciato l'adattamento anime del manga di Julietta Suzuki",
+      "title": "Mii-chan and Miss Yamada, Kodansha valuta se fermare l’anime dopo le proteste: \"Nulla è deciso\"",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112162-otaku-vampires-love-bite-annunciato-ladattamento-anime-del-manga-di-julietta-suzuki"
+      "url": "https://www.animeclick.it/news/112209-mii-chan-and-miss-yamada-kodansha-valuta-se-fermare-l%25e2%2580%2599anime-dopo-le-proteste-nulla-e-deciso"
     },
     {
-      "title": "GTA 6: preordini ben oltre le aspettative di Take-Two e il CEO sorpreso dalle vendite",
+      "title": "Zipaki: tutte le uscite digitali e cartacee di ottobre 2026",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112262-gta-6-preordini-ben-oltre-le-aspettative-di-take-two-e-il-ceo-sorpreso-dalle-vendite"
-    },
-    {
-      "title": "Magic: The Gathering X Burger King - la collaborazione italiana che ha fatto impazzire il mondo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112273-magic-the-gathering-x-burger-king-la-collaborazione-italiana-che-ha-fatto-impazzire-il-mondo"
-    },
-    {
-      "title": "Devils' Crest: informazioni sul doppiaggio di Amazon",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112229-devils-crest-informazioni-sul-doppiaggio-di-amazon"
-    },
-    {
-      "title": "Fortnite x One Piece: i pirati di cappello di paglia approdano sul battle royale di Epic Games",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112213-fortnite-x-one-piece-i-pirati-di-cappello-di-paglia-approdano-sul-battle-royale-di-epic-games"
+      "url": "https://www.animeclick.it/news/112223-zipaki-tutte-le-uscite-digitali-e-cartacee-di-ottobre-2026"
     },
     {
       "title": "Giappone: in arrivo un’app con IA per imparare la lingua parlando con i personaggi anime",
@@ -3956,29 +3875,94 @@
       "url": "https://www.animeclick.it/news/112272-giappone-in-arrivo-un%25e2%2580%2599app-con-ia-per-imparare-la-lingua-parlando-con-i-personaggi-anime"
     },
     {
+      "title": "Lucca Comics & Games 2026: quali sono i vostri annunci manga preferiti?",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112274-lucca-comics-games-2026-quali-sono-i-vostri-annunci-manga-preferiti"
+    },
+    {
+      "title": "Il mercato anime cresce del 15,8%: sempre più investimenti tra Giappone ed estero",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112186-il-mercato-anime-cresce-del-158-sempre-piu-investimenti-tra-giappone-ed-estero"
+    },
+    {
+      "title": "L'anime di Spy×Family avrà una quarta stagione e un film per il cinema nel 2027.",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112246-lanime-di-spy%25c3%2597family-avra-una-quarta-stagione-e-un-film-per-il-cinema-nel-2027"
+    },
+    {
+      "title": "Spirit Circle: l’adattamento animato debutterà a dicembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112235-spirit-circle-l-adattamento-animato-debuttera-a-dicembre"
+    },
+    {
+      "title": "Box Office Giappone: una commovente storia vera domina la classifica",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112204-box-office-giappone-una-commovente-storia-vera-domina-la-classifica"
+    },
+    {
+      "title": "Girls Band Cry: il nuovo film arriverà nei cinema giapponesi a maggio 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112163-girls-band-cry-il-nuovo-film-arrivera-nei-cinema-giapponesi-a-maggio-2027"
+    },
+    {
+      "title": "Shiba Inu Rooms: annunciato l'adattamento anime per l'estate 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112210-shiba-inu-rooms-annunciato-ladattamento-anime-per-lestate-2027"
+    },
+    {
+      "title": "Girls und Panzer: All-Star Tank Carnival annunciato per console e PC",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112281-girls-und-panzer-all-star-tank-carnival-annunciato-per-console-e-pc"
+    },
+    {
+      "title": "Non solo Godzilla: i 5 kaiju più iconici, rivali e alleati del Re dei mostri",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112265-godzilla-i-5-mostri-piu-iconici-da-jet-jaguar-a-mothra-rivali-e-alleati-del-re-dei-mostri"
+    },
+    {
+      "title": "Fortnite x One Piece: i pirati di cappello di paglia approdano sul battle royale di Epic Games",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112213-fortnite-x-one-piece-i-pirati-di-cappello-di-paglia-approdano-sul-battle-royale-di-epic-games"
+    },
+    {
+      "title": "Wistoria: Wand and Sword: informazioni sul doppiaggio italiano di Crunchyroll",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112286-wistoria-wand-and-sword-informazioni-sul-doppiaggio-italiano-di-crunchyroll"
+    },
+    {
+      "title": "Magic: The Gathering X Burger King - la collaborazione italiana che ha fatto impazzire il mondo",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112273-magic-the-gathering-x-burger-king-la-collaborazione-italiana-che-ha-fatto-impazzire-il-mondo"
+    },
+    {
+      "title": "Bless: nuovo trailer e data di debutto per la serie animata",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112248-bless-nuovo-trailer-e-data-di-debutto-per-la-serie-animata"
+    },
+    {
       "title": "Wolfenstein 3 è ufficiale: confermato il nuovo capitolo sviluppato da MachineGames",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/112282-wolfenstein-3-e-ufficiale-confermato-il-nuovo-capitolo-sviluppato-da-machinegames"
     },
     {
-      "title": "Tradurre le visual novel con l’IA? Il presidente di MAGES (Steins;Gate) dice che è troppo presto",
+      "title": "Nippon Anime Awards: arriva il nuovo evento che metterà al centro l'animazione e chi ci lavora",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112231-tradurre-le-visual-novel-con-l%25e2%2580%2599ia-il-presidente-di-mages-steinsgate-dice-che-e-troppo-presto"
+      "url": "https://www.animeclick.it/news/112238-nippon-anime-awards-arriva-il-nuovo-evento-che-mettera-al-centro-lanimazione-e-chi-ci-lavora"
     },
     {
-      "title": "Physint potrebbe avere otto ore di narrazione: Bill Skarsgård svela nuovi dettagli",
+      "title": "Mediaset lancia Mia, l’IA che può doppiare i contenuti",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112241-physint-potrebbe-avere-otto-ore-di-narrazione-bill-skarsgard-svela-nuovi-dettagli"
+      "url": "https://www.animeclick.it/news/112287-mediaset-lancia-mia-l%25e2%2580%2599ia-che-puo-doppiare-i-contenuti"
     },
     {
-      "title": "Lucca Comics & Games 2026: le foto dei cosplay (prima parte)",
+      "title": "Anime Preview: annunciati l'anime di Hiragi-san's House of Vampires e altri titoli",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112194-lucca-comics-games-2026-le-foto-dei-cosplay-prima-parte"
+      "url": "https://www.animeclick.it/news/112211-anime-preview-annunciati-l-anime-di-hiragi-sans-house-of-vampires-e-altri-titoli"
     },
     {
-      "title": "L'editor di Baki non si nasconde: \"Questo manga ha influenzato gli sport da combattimento\"",
+      "title": "Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112276-leditor-di-baki-non-si-nasconde-questo-manga-ha-influenzato-gli-sport-da-combattimento"
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it"
     }
   ],
   "youtube_trends": [
@@ -3991,16 +3975,12 @@
       "url": "https://www.youtube.com/watch?v=PkK-fASSGWA"
     },
     {
-      "title": "[ARTE VISIVA PROMOTER] Il Padiglione Invisibile (1974) | Manicomio Criminale -  #booktokitalia #consiglidilettura #booktok",
-      "url": "https://www.youtube.com/watch?v=luxFUbMgA9Y"
-    },
-    {
-      "title": "[semplicemente_noe005] Tra un po’ spendo più in #postit che #libri ✨📚 #booktokita #booktokitalia #fabbricantedilacrime",
-      "url": "https://www.youtube.com/watch?v=Q-O3NmCphDk"
-    },
-    {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
       "url": "https://www.youtube.com/watch?v=aG9qWg5sKRY"
+    },
+    {
+      "title": "[ARTE VISIVA PROMOTER] Il Padiglione Invisibile (1974) | Manicomio Criminale -  #booktokitalia #consiglidilettura #booktok",
+      "url": "https://www.youtube.com/watch?v=luxFUbMgA9Y"
     },
     {
       "title": "[Michelle 🤍] #booktube #booktok #romantasybücher #buchempfehlungen #dilogie #abgeschlossenereihen",
@@ -4015,20 +3995,20 @@
       "url": "https://www.youtube.com/watch?v=_4EWmriauvc"
     },
     {
-      "title": "[Huskerdust ] Love me love 🐧🫶🏻 #booktok #booktokitalia #italia #Lovemeloveme #StefaniaS",
-      "url": "https://www.youtube.com/watch?v=JpLCjEwI_qc"
+      "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
+      "url": "https://www.youtube.com/watch?v=fPMKV784zXI"
     },
     {
       "title": "[Artemisia Birch author] La porta tra i mondi Saga di Wise #saga #book #booktok #fantasyita #writer #fantasy #libri",
       "url": "https://www.youtube.com/watch?v=fqs4xEzYbYs"
     },
     {
-      "title": "[Kana Yamasaki | Mangaka] 【H×H】 Rookie Mangaka reacts to Togashi drawing",
-      "url": "https://www.youtube.com/watch?v=OpF-9_6GakI"
+      "title": "[LaSegnalibri] #booktubeitalia #booktok #booktokitalia #consiglidilettura #perte #libriconsigliati",
+      "url": "https://www.youtube.com/watch?v=FczZVCHMN8U"
     },
     {
-      "title": "[nhgreads] 10/10 Comics You Can Finish in One Sitting",
-      "url": "https://www.youtube.com/watch?v=uzg3BbBEPmg"
+      "title": "[Kana Yamasaki | Mangaka] 【H×H】 Rookie Mangaka reacts to Togashi drawing",
+      "url": "https://www.youtube.com/watch?v=OpF-9_6GakI"
     },
     {
       "title": "[nhgreads] 10 Marvel Comics EVERYONE Should Read",
@@ -4039,16 +4019,24 @@
       "url": "https://www.youtube.com/watch?v=TOxLd2_76sM"
     },
     {
-      "title": "[Pelati e Fumetti] Midnight Universe e le Artist Edition - Colazione a Fumetti",
-      "url": "https://www.youtube.com/watch?v=VnqCitRrT7Y"
-    },
-    {
       "title": "[nhgreads] What Daredevil Comics Should You Buy?",
       "url": "https://www.youtube.com/watch?v=EWQoZNndd7M"
     },
     {
+      "title": "[MidnightDre] Red Hood is BACK, baby!!! #comics #dc #redhood #teentitans #review #shorts",
+      "url": "https://www.youtube.com/watch?v=RCwGNTX-xcw"
+    },
+    {
+      "title": "[Pelati e Fumetti] Midnight Universe e le Artist Edition - Colazione a Fumetti",
+      "url": "https://www.youtube.com/watch?v=VnqCitRrT7Y"
+    },
+    {
       "title": "[Kody Collects] 🟥 NEW MARVEL COMICS FOR 11/11",
       "url": "https://www.youtube.com/watch?v=Rkwq4aY_ekg"
+    },
+    {
+      "title": "[Pelati e Fumetti] Drome: il capolavoro di Jesse Lonergan - Colazione a Fumetti",
+      "url": "https://www.youtube.com/watch?v=CJlBx5bTXv0"
     },
     {
       "title": "[TheComicBookReport] DC Absolute Library 📚 DC COMICS #comics #dccomics #absolute",
@@ -4063,16 +4051,12 @@
       "url": "https://www.youtube.com/watch?v=x9H1Yb_rPGE"
     },
     {
-      "title": "[Lucadeejay Storie dell'Altra Vita] Bonelli, qui si fa sul serio: tre eroi contro il tempo",
-      "url": "https://www.youtube.com/watch?v=uYsvGRMkhHA"
+      "title": "[Aerosassain] NEW SIDE B CONTENT!! | #anime #bluelock #bluelockspoilers #manga #isagiyoichi #bluelockanime",
+      "url": "https://www.youtube.com/watch?v=S3mE7zdnj0Y"
     },
     {
       "title": "[ermExplains] Talented Learner or Genius? Blue Lock’s New Players #bluelock",
       "url": "https://www.youtube.com/watch?v=HhslhGLfF64"
-    },
-    {
-      "title": "[Aerosassain] NEW SIDE B CONTENT!! | #anime #bluelock #bluelockspoilers #manga #isagiyoichi #bluelockanime",
-      "url": "https://www.youtube.com/watch?v=S3mE7zdnj0Y"
     },
     {
       "title": "[Whisper of Manga] They DUMPED Their Strongest Saintess, Unaware of the Disaster Heading Their Way | Manga recap",
@@ -4087,8 +4071,16 @@
       "url": "https://www.youtube.com/watch?v=znGSKQU6ick"
     },
     {
-      "title": "[Yomeko's Manga] [Manga Dub] My Sister Crashed My Wedding… And Said She&#39;s Pregnant by My Fiancé 💔",
-      "url": "https://www.youtube.com/watch?v=T_hGQOHPN34"
+      "title": "[OP I Massimi Esperti] Le Nuove Incredibili Forme di IMU e LOKI. LUFFY una nuova versione di NIKA? Power UP? One Piece 1198",
+      "url": "https://www.youtube.com/watch?v=-k79rQecPpY"
+    },
+    {
+      "title": "[Scalever] He Wanted to Escape His Ex-Wife... But Fate Had Other Plans | Manga Recap",
+      "url": "https://www.youtube.com/watch?v=1msFQDngf1c"
+    },
+    {
+      "title": "[Yomeko's Manga] [Manga Dub] My Husband Cheated With My Best Friend… Then Invited Me to Their Wedding 💔",
+      "url": "https://www.youtube.com/watch?v=tAP1NHVMdvo"
     },
     {
       "title": "[Yomeko's Manga] [Manga Dub] My Husband Brought His Ex-Wife Home to Plan Our Divorce 😤",
@@ -4097,14 +4089,6 @@
     {
       "title": "[Yomeko's Manga] [Manga Dub] My Husband Called Me Worthless for Having No Kids… Then His Mistress Called 💔",
       "url": "https://www.youtube.com/watch?v=Uqi8guPhrWU"
-    },
-    {
-      "title": "[Yomeko's Manga] [Manga Dub] My Husband Cheated With My Best Friend… Then Invited Me to Their Wedding 💔",
-      "url": "https://www.youtube.com/watch?v=tAP1NHVMdvo"
-    },
-    {
-      "title": "[Michele Mari] TUTTI I NUOVI MANGA ANNUNCIATI A LUCCA COMICS &amp; GAMES 2026! 🔥 La lista completa",
-      "url": "https://www.youtube.com/watch?v=I3B2Zmz1LTo"
     }
   ]
 }
