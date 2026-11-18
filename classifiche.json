@@ -1,6 +1,6 @@
 {
   "source": "Radar completo v11.0",
-  "updated_at": "2026-11-17T14:20:17.388252+00:00",
+  "updated_at": "2026-11-18T13:55:13.686835+00:00",
   "rankings": [
     {
       "ean": "9788858333037",
@@ -19,16 +19,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788850241910",
-      "title": "Fiori per Algernon",
+      "ean": "9788817201254",
+      "title": "La mia storia",
       "author": "",
       "position": 3,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788817201254",
-      "title": "La mia storia",
+      "ean": "9788850241910",
+      "title": "Fiori per Algernon",
       "author": "",
       "position": 4,
       "category": "generale",
@@ -59,18 +59,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788830463639",
-      "title": "La casa dei respiri",
-      "author": "",
-      "position": 8,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788867148974",
       "title": "Frigo. L'orso che non amava l'inverno. Ediz. a colori",
       "author": "",
-      "position": 9,
+      "position": 8,
       "category": "generale",
       "source": "libraccio"
     },
@@ -78,13 +70,21 @@
       "ean": "9788863114409",
       "title": "Le notti bianche. Ediz. integrale",
       "author": "",
-      "position": 10,
+      "position": 9,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788828869269",
       "title": "Manuale di diritto privato",
+      "author": "",
+      "position": 10,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788830463639",
+      "title": "La casa dei respiri",
       "author": "",
       "position": 11,
       "category": "generale",
@@ -115,26 +115,18 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845924460",
-      "title": "Lettera di una sconosciuta",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 15,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788806272364",
-      "title": "La confessione di Elsa",
+      "ean": "9788845924460",
+      "title": "Lettera di una sconosciuta",
       "author": "",
       "position": 16,
-      "category": "generale",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788863114355",
-      "title": "La fattoria degli animali. Ediz. integrale",
-      "author": "",
-      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
@@ -142,21 +134,29 @@
       "ean": "9788858037218",
       "title": "Il lupo che voleva cambiare colore. Amico lupo. Ediz. illustrata",
       "author": "",
-      "position": 18,
+      "position": 17,
       "category": "generale",
       "source": "libraccio"
     },
     {
-      "ean": "9788820086428",
-      "title": "Santa, I did something bad. Il calendario dell'Avvento romance",
+      "ean": "9788806272364",
+      "title": "La confessione di Elsa",
       "author": "",
-      "position": 19,
+      "position": 18,
       "category": "generale",
       "source": "libraccio"
     },
     {
       "ean": "9788838950322",
       "title": "Sotto il cielo infernale",
+      "author": "",
+      "position": 19,
+      "category": "generale",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788851168506",
+      "title": "Orsetto. Sono queste le mie orecchie? Ediz. a colori",
       "author": "",
       "position": 20,
       "category": "generale",
@@ -387,16 +387,16 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788845924460",
-      "title": "Lettera di una sconosciuta",
+      "ean": "9788863113853",
+      "title": "I fratelli Karamazov. Ediz. integrale",
       "author": "",
       "position": 29,
       "category": "narrativa",
       "source": "libraccio"
     },
     {
-      "ean": "9788806272364",
-      "title": "La confessione di Elsa",
+      "ean": "9788838950322",
+      "title": "Sotto il cielo infernale",
       "author": "",
       "position": 30,
       "category": "narrativa",
@@ -555,18 +555,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788807037436",
-      "title": "I Sanacore",
-      "author": "",
-      "position": 20,
-      "category": "bambini_ragazzi",
-      "source": "libraccio"
-    },
-    {
       "ean": "9788830315211",
       "title": "Carnevale nel bosco. Cerca e trova. Ediz...",
       "author": "",
-      "position": 21,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -574,7 +566,7 @@
       "ean": "9788858049006",
       "title": "So this is ever after. Per sempre felici...",
       "author": "",
-      "position": 22,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
@@ -582,13 +574,21 @@
       "ean": "9788883627217",
       "title": "Il favoloso club del libro del bus 65. E...",
       "author": "",
-      "position": 23,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
       "ean": "9791259963758",
       "title": "Tobia. L'ombra delle cime",
+      "author": "",
+      "position": 23,
+      "category": "bambini_ragazzi",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9791259746160",
+      "title": "Al tempo dei dinosauri. Ediz. a colori",
       "author": "",
       "position": 24,
       "category": "bambini_ragazzi",
@@ -683,24 +683,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788858015049",
-      "title": "Ti regalo la luna. Ediz. illustrata",
+      "ean": "9788851168506",
+      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
       "author": "",
       "position": 36,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788858018804",
-      "title": "La magia del natale. Storie sotto la nev...",
+      "ean": "9788858015049",
+      "title": "Ti regalo la luna. Ediz. illustrata",
       "author": "",
       "position": 37,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788851168506",
-      "title": "Orsetto. Sono queste le mie orecchie? Ed...",
+      "ean": "9791280953704",
+      "title": "Atlante della Terra. Mappe visuali per b...",
       "author": "",
       "position": 38,
       "category": "bambini_ragazzi",
@@ -715,24 +715,24 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788854047259",
-      "title": "I miei occhi sono per… Solleva le alette...",
+      "ean": "9788858018804",
+      "title": "La magia del natale. Storie sotto la nev...",
       "author": "",
       "position": 40,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9791280953704",
-      "title": "Atlante della Terra. Mappe visuali per b...",
+      "ean": "9788854047259",
+      "title": "I miei occhi sono per… Solleva le alette...",
       "author": "",
       "position": 41,
       "category": "bambini_ragazzi",
       "source": "libraccio"
     },
     {
-      "ean": "9788854041561",
-      "title": "Il mio giardino. Montessori: un mondo di...",
+      "ean": "9788834740460",
+      "title": "Le avventure di Pinocchio. Ediz. integrale",
       "author": "",
       "position": 42,
       "category": "bambini_ragazzi",
@@ -779,8 +779,8 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788804457541",
-      "title": "I promessi paperi e altri capolavori del...",
+      "ean": "9788804483618",
+      "title": "Diabolik. Gli anni della ferocia",
       "author": "",
       "position": 6,
       "category": "fumetti",
@@ -947,10 +947,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788828791928",
+      "title": "Il lungo Halloween. Batman",
+      "author": "",
+      "position": 27,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
       "ean": "9791281692480",
       "title": "Corto Maltese. La casa delle orchidee bi...",
       "author": "",
-      "position": 27,
+      "position": 28,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -958,31 +966,7 @@
       "ean": "9788891288257",
       "title": "Berserk collection. Serie nera. Vol. 4",
       "author": "",
-      "position": 28,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788822638700",
-      "title": "Demon slayer. Kimetsu no yaiba. Vol. 23",
-      "author": "",
       "position": 29,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828791928",
-      "title": "Il lungo Halloween. Batman",
-      "author": "",
-      "position": 30,
-      "category": "fumetti",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788828788409",
-      "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 7: P...",
-      "author": "",
-      "position": 31,
       "category": "fumetti",
       "source": "libraccio"
     },
@@ -990,21 +974,37 @@
       "ean": "9788828781424",
       "title": "Jujutsu Kaisen. Sorcery Fight. Vol. 4: T...",
       "author": "",
-      "position": 32,
+      "position": 30,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
-      "ean": "9788864201894",
-      "title": "One piece. New edition. Vol. 3",
+      "ean": "9788822638700",
+      "title": "Demon slayer. Kimetsu no yaiba. Vol. 23",
       "author": "",
-      "position": 33,
+      "position": 31,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788822608611",
+      "title": "Uzumaki. Spirale. Vol. 2",
+      "author": "",
+      "position": 32,
       "category": "fumetti",
       "source": "libraccio"
     },
     {
       "ean": "9788822634283",
       "title": "Demon slayer. Kimetsu no yaiba. Vol. 21",
+      "author": "",
+      "position": 33,
+      "category": "fumetti",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788828782964",
+      "title": "The killing joke-L'uomo che ride. Batman",
       "author": "",
       "position": 34,
       "category": "fumetti",
@@ -1091,10 +1091,18 @@
       "source": "libraccio"
     },
     {
+      "ean": "9788804386476",
+      "title": "Dio e la nuova fisica",
+      "author": "",
+      "position": 11,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
       "ean": "9788804388197",
       "title": "Vita di Gesù Cristo",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1102,7 +1110,7 @@
       "ean": "9788804454311",
       "title": "I grandi miti greci",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1110,7 +1118,7 @@
       "ean": "9788804477648",
       "title": "Tantra per due. Una guida per la felicit...",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1118,21 +1126,13 @@
       "ean": "9788804533597",
       "title": "Emozioni distruttive. Liberarsi dai tre ...",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "religione",
       "source": "libraccio"
     },
     {
       "ean": "9788804544746",
       "title": "Senza radici. Europa, relativismo, crist...",
-      "author": "",
-      "position": 15,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788804558996",
-      "title": "Storia delle punizioni corporali",
       "author": "",
       "position": 16,
       "category": "religione",
@@ -1283,26 +1283,10 @@
       "source": "libraccio"
     },
     {
-      "ean": "9788831528948",
-      "title": "Il castello interiore",
+      "ean": "9788877878403",
+      "title": "Il calendario delle semine 2027",
       "author": "",
       "position": 35,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788834004111",
-      "title": "Frammenti di un insegnamento sconosciuto",
-      "author": "",
-      "position": 36,
-      "category": "religione",
-      "source": "libraccio"
-    },
-    {
-      "ean": "9788851141356",
-      "title": "I giorni del sacro. I riti e le feste de...",
-      "author": "",
-      "position": 37,
       "category": "religione",
       "source": "libraccio"
     },
@@ -1310,37 +1294,53 @@
       "ean": "9791223800928",
       "title": "Dio. Può dare senso alla vita un mistero...",
       "author": "",
+      "position": 36,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788831528948",
+      "title": "Il castello interiore",
+      "author": "",
+      "position": 37,
+      "category": "religione",
+      "source": "libraccio"
+    },
+    {
+      "ean": "9788834004111",
+      "title": "Frammenti di un insegnamento sconosciuto",
+      "author": "",
       "position": 38,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788877878403",
-      "title": "Il calendario delle semine 2027",
+      "ean": "9788851141356",
+      "title": "I giorni del sacro. I riti e le feste de...",
       "author": "",
       "position": 39,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788888039053",
-      "title": "Provocati dal giubileo, i consacrati rip...",
+      "ean": "9788806261153",
+      "title": "Furiose. L'ira delle donne nel mito antico",
       "author": "",
       "position": 40,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9788888819808",
-      "title": "Gli antichi insegnamenti dei nativi amer...",
+      "ean": "9788858160305",
+      "title": "Virginia de Leyva. La monaca di Monza",
       "author": "",
       "position": 41,
       "category": "religione",
       "source": "libraccio"
     },
     {
-      "ean": "9791259854902",
-      "title": "Francesco. Il primo italiano",
+      "ean": "9791223803318",
+      "title": "52 detti mai detti di Gesù",
       "author": "",
       "position": 42,
       "category": "religione",
@@ -1675,10 +1675,18 @@
       "source": "giunti"
     },
     {
+      "ean": "9791255334613",
+      "title": "Intelligenza artificiale. Baby scienziati",
+      "author": "",
+      "position": 4,
+      "category": "bambini_ragazzi",
+      "source": "giunti"
+    },
+    {
       "ean": "9781806072187",
       "title": "Gemme e cristalli",
       "author": "",
-      "position": 4,
+      "position": 5,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1686,7 +1694,7 @@
       "ean": "9788865325605",
       "title": "Cani da (s)ballo",
       "author": "",
-      "position": 5,
+      "position": 6,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1694,7 +1702,7 @@
       "ean": "9788857023595",
       "title": "Pimpa at the Ducal Palace of Mantua",
       "author": "",
-      "position": 6,
+      "position": 7,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1702,7 +1710,7 @@
       "ean": "9788857023571",
       "title": "Pimpa a Palazzo Ducale di Mantova",
       "author": "",
-      "position": 7,
+      "position": 8,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1710,7 +1718,7 @@
       "ean": "9781836068877",
       "title": "Lo spazio",
       "author": "",
-      "position": 8,
+      "position": 9,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1718,7 +1726,7 @@
       "ean": "9791222114613",
       "title": "Il mio primo Schubert. Classici sonori",
       "author": "",
-      "position": 9,
+      "position": 10,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1726,7 +1734,7 @@
       "ean": "9781835400852",
       "title": "Ruspe",
       "author": "",
-      "position": 10,
+      "position": 11,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1734,7 +1742,7 @@
       "ean": "9788857023564",
       "title": "Pimpa va a Udine",
       "author": "",
-      "position": 11,
+      "position": 12,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1742,7 +1750,7 @@
       "ean": "9788857023588",
       "title": "Pimpa goes to Udine",
       "author": "",
-      "position": 12,
+      "position": 13,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1750,7 +1758,7 @@
       "ean": "9781836065142",
       "title": "Creature degli abissi. Con adesivi",
       "author": "",
-      "position": 13,
+      "position": 14,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1758,7 +1766,7 @@
       "ean": "9791221219968",
       "title": "Rifacciamo il mondo. L'arte come liberazione",
       "author": "",
-      "position": 14,
+      "position": 15,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1766,7 +1774,7 @@
       "ean": "9791221219968",
       "title": "Rifacciamo il mondo. L'arte come libera...",
       "author": "Tomaso Montanari",
-      "position": 15,
+      "position": 16,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1774,7 +1782,7 @@
       "ean": "9791256602100",
       "title": "Il mio libro beauty. Winx club",
       "author": "",
-      "position": 16,
+      "position": 17,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1782,7 +1790,7 @@
       "ean": "9791256602117",
       "title": "Colora, ritaglia e crea. Winx club",
       "author": "",
-      "position": 17,
+      "position": 18,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1790,7 +1798,7 @@
       "ean": "9791223401675",
       "title": "Spotty e la neve",
       "author": "",
-      "position": 18,
+      "position": 19,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1798,7 +1806,7 @@
       "ean": "9791255643289",
       "title": "Il mondo magico di Harry Potter™. 800 stickers. Lego Harry Potter",
       "author": "",
-      "position": 19,
+      "position": 20,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1806,7 +1814,7 @@
       "ean": "9791255643289",
       "title": "Il mondo magico di Harry Potter™. 800 s...",
       "author": "",
-      "position": 20,
+      "position": 21,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1814,7 +1822,7 @@
       "ean": "9788857023496",
       "title": "Fiabe in valigia",
       "author": "",
-      "position": 21,
+      "position": 22,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1822,7 +1830,7 @@
       "ean": "9781806073801",
       "title": "A nanna con Topino",
       "author": "",
-      "position": 22,
+      "position": 23,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1830,7 +1838,7 @@
       "ean": "9791256601028",
       "title": "Che la magia abbia inizio. Io e il mio elfo. 24 attività e giochi per una caccia all'elfo da fare insieme!",
       "author": "",
-      "position": 23,
+      "position": 24,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
@@ -1838,21 +1846,13 @@
       "ean": "9791256601028",
       "title": "Che la magia abbia inizio. Io e il mio ...",
       "author": "Monica Pezzoli",
-      "position": 24,
+      "position": 25,
       "category": "bambini_ragazzi",
       "source": "giunti"
     },
     {
       "ean": "9781836068730",
       "title": "Il camion",
-      "author": "",
-      "position": 25,
-      "category": "bambini_ragazzi",
-      "source": "giunti"
-    },
-    {
-      "ean": "9791256731862",
-      "title": "I musicanti di Brema",
       "author": "",
       "position": 26,
       "category": "bambini_ragazzi",
@@ -3495,148 +3495,289 @@
       "date": null,
       "url": "https://visitlunigiana.it/events/alla-scoperta-di-mulazzo-novembre-2026/",
       "source": "visitlunigiana"
+    },
+    {
+      "title": "Eventi in Lunigiana",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-38_610.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Categorie Eventi",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-38_610.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presepe Vivente di Equi Terme",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-38_610.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presepe vivente nel borgo di Castello di Villa",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-01-18_389.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa di natale alla Croce Bianca di Casola",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-24_870.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "C’era una volta Santa Lucia",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-28_521.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La Meraviglia di chiamarsi Lucio / Spettacolo concerto",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-20-58_526.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Stagione teatrale al Teatro Quartieri di Bagnone",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-03_116.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Aperiski a Zum Zeri",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-17_704.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Stagione teatrale al Teatro della Rosa",
+      "date": null,
+      "url": "",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra fotografica / La tradizione bandistica in Lunigiana",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-59-36_640.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Pomeriggissimo Santa House",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-46_786.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Sapori di Natale Fivizzano",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-21_14-04-00_746.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La notte della Fisarmonica",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-36-21_865.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Accendiamo il natale ad Aulla",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-15_975.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Antica Fiera di Santa Caterina",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-57-40_371.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mercatini di Natale a Fosdinovo",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-25-03_628.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa di Natale a Taponecco",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-21_14-07-44_783.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Opzioni di un clown / Spettacolo teatrale",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-44_612.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Aspettando il Natale a Equi Terme",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-31_753.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Festa di Santa Cecilia",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-24-57_509.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Bagnone Tartufo Walking",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-59-54_006.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "La Magica Casa di Babbo Natale",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-22-38_723.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Concerto della Musica Cittadina di Pontremoli",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-06_428.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "5° Festival del Tartufo",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-11-10_23-25-27_743.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Passaggi sonori",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-03-15_325.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Presentazione libro di Franco Faggiani",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-26_031.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Cine,Ma.. non solo un film",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_10-58-22_395.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Corso di dialetto pontremolese",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-03-25_369.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Regnano: Il cammino della Castagna",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-04_11-01-08_606.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Esposizione stendardi d’autore",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-21-37_805.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Fiera di San Martino a Fivizzano",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-10_23-23-19_300.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Dal ribollir dei tini…",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-11-10_23-21-13_876.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mielerie aperte",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-34-40_060.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "35a Corsa delle Castagne",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-26_11-35-42_569.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Canzoni di rivolta",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/11/2026-11-13_04-07-09_479.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Note d’autunno",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/10/2026-10-14_21-54-29_675.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Book club di Start Working",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-01_02-18-39_325.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Mostra su San Francesco",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/09/2026-09-17_21-53-33_636.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visita alle Grotte di Equi Terme",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/04/2026-04-01_09-35-22_187.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello Malaspina di Monti di Licciana",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-01_20-22-46_205-1.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello di Bastia di Licciana",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-01_20-22-52_274.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Castello di Castiglione del Terziere",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/03/2026-03-02_20-03-52_249-scaled.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate alla Fortezza della Brunella",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-07-at-20.54.57.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate a Villa Dosi Delfini",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-03-at-23.38.22.jpeg",
+      "source": "lunigianaworld"
+    },
+    {
+      "title": "Visite guidate al Museo Diocesano di Pontremoli",
+      "date": null,
+      "url": "https://cdnlunigiana2-202f8.kxcdn.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-03-at-23.38.21.jpeg",
+      "source": "lunigianaworld"
     }
   ],
   "manga_trends": [
     {
-      "title": "Bless: nuovo trailer e data di debutto per la serie animata",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112248-bless-nuovo-trailer-e-data-di-debutto-per-la-serie-animata"
-    },
-    {
-      "title": "Magic: The Gathering X Burger King - la collaborazione italiana che ha fatto impazzire il mondo",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112273-magic-the-gathering-x-burger-king-la-collaborazione-italiana-che-ha-fatto-impazzire-il-mondo"
-    },
-    {
-      "title": "Tradurre le visual novel con l’IA? Il presidente di MAGES (Steins;Gate) dice che è troppo presto",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112231-tradurre-le-visual-novel-con-l%25e2%2580%2599ia-il-presidente-di-mages-steinsgate-dice-che-e-troppo-presto"
-    },
-    {
-      "title": "GTA 6 arriva incredibilmente anche su Xbox One: tutto grazie a Cloud Gaming",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112270-gta-6-arriva-incredibilmente-anche-su-xbox-one-tutto-grazie-a-cloud-gaming"
-    },
-    {
-      "title": "Box Office Giappone: Godzilla Minus Zero conquista la vetta con un debutto da record",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112161-box-office-giappone-godzilla-minus-zero-conquista-la-vetta-con-un-debutto-da-record"
-    },
-    {
-      "title": "Il mercato anime cresce del 15,8%: sempre più investimenti tra Giappone ed estero",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112186-il-mercato-anime-cresce-del-158-sempre-piu-investimenti-tra-giappone-ed-estero"
-    },
-    {
-      "title": "Bloodborne, nessun segnale di rinascita: l’ex capo di PlayStation frena le speranze dei fan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112255-bloodborne-nessun-segnale-di-rinascita-l%25e2%2580%2599ex-capo-di-playstation-frena-le-speranze-dei-fan"
-    },
-    {
-      "title": "Cobra: i segreti del manga cult di fantascienza che ritorna in Italia con Sprea",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112232-cobra-i-segreti-del-manga-cult-di-fantascienza-che-ritorna-in-italia-con-sprea"
-    },
-    {
-      "title": "The New Prince of Tennis Musical: intervista ad Alec Ryan Gonzalez, interprete di Banbi",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/111974-the-new-prince-of-tennis-musical-intervista-ad-alec-ryan-gonzalez-interprete-di-banbi"
-    },
-    {
-      "title": "Dynit Manga: le uscite di novembre 2026",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112310-dynit-manga-le-uscite-di-novembre-2026"
-    },
-    {
       "title": "Yamato Video presenta Ken Il Guerriero per la prima volta in Blu-Ray",
       "source": "animeclick",
       "url": "https://www.animeclick.it/news/112300-yamato-video-presenta-ken-il-guerriero-per-la-prima-volta-in-blu-ray"
-    },
-    {
-      "title": "Dragon Ball: arriva a Roma un pop-up store dedicato alla serie",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112263-dragon-ball-arriva-a-roma-un-pop-up-store-dedicato-alla-serie"
-    },
-    {
-      "title": "Nanatsuya: Shinobu no Housekibako: in arrivo l'anime nel 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112275-nanatsuya-shinobu-no-housekibako-in-arrivo-lanime-nel-2027"
-    },
-    {
-      "title": "Stellar Blade: il nuovo spot Sembra IA ma è tutto vero e stupisce i fan",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112260-stellar-blade-il-nuovo-spot-sembra-ia-ma-e-tutto-vero-e-stupisce-i-fan"
-    },
-    {
-      "title": "Physint potrebbe avere otto ore di narrazione: Bill Skarsgård svela nuovi dettagli",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112241-physint-potrebbe-avere-otto-ore-di-narrazione-bill-skarsgard-svela-nuovi-dettagli"
-    },
-    {
-      "title": "Witch Watch: la conclusione del manga annuncia la seconda stagione anime per il 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112305-witch-watch-la-conclusione-del-manga-annuncia-la-seconda-stagione-anime-per-il-2027"
-    },
-    {
-      "title": "The Legend of Zelda 40th Anniversary Concert arriva a Roma: tre concerti il 17 e 18 aprile 2027",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112284-the-legend-of-zelda-40th-anniversary-concert-arriva-a-roma-tre-concerti-il-17-e-18-aprile-2027"
-    },
-    {
-      "title": "Detective Conan: un uomo sopravvive a un incidente in auto grazie a una scena dell'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112279-detective-conan-un-uomo-sopravvive-a-un-incidente-in-auto-grazie-a-una-scena-dellanime"
-    },
-    {
-      "title": "Spirit Circle: l’adattamento animato debutterà a dicembre",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112235-spirit-circle-l-adattamento-animato-debuttera-a-dicembre"
-    },
-    {
-      "title": "Wound & Bandage: nuovo trailer e nuova visual per l'anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112233-wound-bandage-nuovo-trailer-e-nuova-visual-per-l-anime"
-    },
-    {
-      "title": "Anime Preview: trailer per My Crush's Crush, Bride of the Barrier Master e molto altro",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112259-anime-preview-trailer-per-my-crushs-crush-bride-of-the-barrier-master-e-molto-altro"
-    },
-    {
-      "title": "Shigeru Miyamoto riceverà il primo Legend Award ai D.I.C.E. Awards",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112317-shigeru-miyamoto-ricevera-il-primo-legend-award-ai-dice-awards"
-    },
-    {
-      "title": "Re: Zero: annunciata la quinta stagione dell’anime",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112289-re-zero-annunciata-la-quinta-stagione-dell%25e2%2580%2599anime"
-    },
-    {
-      "title": "Box Office Giappone: una commovente storia vera domina la classifica",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112204-box-office-giappone-una-commovente-storia-vera-domina-la-classifica"
-    },
-    {
-      "title": "Godzilla, 5 film da vedere: dal capolavoro del 1954 a Minus One, la guida per chi comincia",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112297-godzilla-5-film-da-vedere-dal-capolavoro-del-1954-a-minus-one-la-guida-per-chi-comincia"
-    },
-    {
-      "title": "Lucca Comics & Games 2026: Press cafè e Showcase di Yuu Watase",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112222-lucca-comics-games-2026-press-cafe-e-showcase-di-yuu-watase"
-    },
-    {
-      "title": "Yotobi denunciato per diffamazione dopo il video su Gioventù Ribelle?",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112257-yotobi-denunciato-per-diffamazione-dopo-il-video-su-gioventu-ribelle"
-    },
-    {
-      "title": "LiSA candidata ai Grammy con \"YES\": unica sigla anime nella nuova categoria Asian Pop",
-      "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112316-lisa-candidata-ai-grammy-con-yes-unica-sigla-anime-nella-nuova-categoria-asian-pop"
     },
     {
       "title": "Zelda: Ocarina of Time Remake da record: oltre 5,2 milioni di copie vendute in quattro giorni",
@@ -3644,15 +3785,154 @@
       "url": "https://www.animeclick.it/news/112266-zelda-ocarina-of-time-remake-da-record-oltre-52-milioni-di-copie-vendute-in-quattro-giorni"
     },
     {
-      "title": "Skip & Loafer: trailer e nuove informazioni per la seconda stagione",
+      "title": "L'anime di Spy×Family avrà una quarta stagione e un film per il cinema nel 2027.",
       "source": "animeclick",
-      "url": "https://www.animeclick.it/news/112314-skip-loafer-trailer-e-nuove-informazioni-per-la-seconda-stagione"
+      "url": "https://www.animeclick.it/news/112246-lanime-di-spy%25c3%2597family-avra-una-quarta-stagione-e-un-film-per-il-cinema-nel-2027"
+    },
+    {
+      "title": "Rainy Day Serenade: trailer e data di debutto per l'anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112247-rainy-day-serenade-trailer-e-data-di-debutto-per-lanime"
+    },
+    {
+      "title": "Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale (CC BY-NC-ND 4.0)",
+      "source": "animeclick",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.it"
+    },
+    {
+      "title": "Tetsuo Hara (Ken il guerriero) di nuovo al lavoro su una carta Pokémon",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112264-tetsuo-hara-ken-il-guerriero-di-nuovo-al-lavoro-su-una-carta-pokemon"
+    },
+    {
+      "title": "Kadokawa punta a raddoppiare la produzione di anime entro il 2031 grazie a Studio One Base",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112298-kadokawa-punta-a-raddoppiare-la-produzione-di-anime-entro-il-2031-grazie-a-studio-one-base"
+    },
+    {
+      "title": "The Game Awards 2026: ecco tutta la lista dei candidati",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112325-the-game-awards-2026-ecco-tutta-la-lista-dei-candidati"
+    },
+    {
+      "title": "League of Legends \"2\" è realtà: annunciato per il 2027 l'aggiornamento \"Nuova Alba\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112312-league-of-legends-2-e-realta-annunciato-per-il-2027-laggiornamento-nuova-alba"
+    },
+    {
+      "title": "Lucca Comics & Games 2026: quali sono i vostri annunci manga preferiti?",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112274-lucca-comics-games-2026-quali-sono-i-vostri-annunci-manga-preferiti"
+    },
+    {
+      "title": "Physint potrebbe avere otto ore di narrazione: Bill Skarsgård svela nuovi dettagli",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112241-physint-potrebbe-avere-otto-ore-di-narrazione-bill-skarsgard-svela-nuovi-dettagli"
+    },
+    {
+      "title": "LiSA candidata ai Grammy con \"YES\": unica sigla anime nella nuova categoria Asian Pop",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112316-lisa-candidata-ai-grammy-con-yes-unica-sigla-anime-nella-nuova-categoria-asian-pop"
+    },
+    {
+      "title": "Giappone: in arrivo un’app con IA per imparare la lingua parlando con i personaggi anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112272-giappone-in-arrivo-un%25e2%2580%2599app-con-ia-per-imparare-la-lingua-parlando-con-i-personaggi-anime"
+    },
+    {
+      "title": "Wolfenstein 3 è ufficiale: confermato il nuovo capitolo sviluppato da MachineGames",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112282-wolfenstein-3-e-ufficiale-confermato-il-nuovo-capitolo-sviluppato-da-machinegames"
+    },
+    {
+      "title": "Bloodborne, nessun segnale di rinascita: l’ex capo di PlayStation frena le speranze dei fan",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112255-bloodborne-nessun-segnale-di-rinascita-l%25e2%2580%2599ex-capo-di-playstation-frena-le-speranze-dei-fan"
+    },
+    {
+      "title": "Mediaset lancia Mia, l’IA che può doppiare i contenuti",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112287-mediaset-lancia-mia-l%25e2%2580%2599ia-che-puo-doppiare-i-contenuti"
+    },
+    {
+      "title": "Stellar Blade: il nuovo spot Sembra IA ma è tutto vero e stupisce i fan",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112260-stellar-blade-il-nuovo-spot-sembra-ia-ma-e-tutto-vero-e-stupisce-i-fan"
+    },
+    {
+      "title": "Makoto Yukimura in Islanda sulle tracce di Thorfinn",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112308-makoto-yukimura-in-vacanza-in-islanda-sulle-tracce-di-thorfinn"
+    },
+    {
+      "title": "The Legend of Zelda 40th Anniversary Concert arriva a Roma: tre concerti il 17 e 18 aprile 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112284-the-legend-of-zelda-40th-anniversary-concert-arriva-a-roma-tre-concerti-il-17-e-18-aprile-2027"
+    },
+    {
+      "title": "Nintendo apre un POP-UP STORE a Milano fino al 20 dicembre",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112243-nintendo-apre-un-pop-up-store-a-milano-fino-al-20-dicembre"
+    },
+    {
+      "title": "Witch Watch: la conclusione del manga annuncia la seconda stagione anime per il 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112305-witch-watch-la-conclusione-del-manga-annuncia-la-seconda-stagione-anime-per-il-2027"
+    },
+    {
+      "title": "Re: Zero: annunciata la quinta stagione dell’anime",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112289-re-zero-annunciata-la-quinta-stagione-dell%25e2%2580%2599anime"
+    },
+    {
+      "title": "Anime Preview: novità per Getting Shots on a Frying Pan e molto altro",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112299-anime-preview-novita-per-getting-shots-on-a-frying-pan-e-molto-altro"
+    },
+    {
+      "title": "L'editor di Baki non si nasconde: \"Questo manga ha influenzato gli sport da combattimento\"",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112276-leditor-di-baki-non-si-nasconde-questo-manga-ha-influenzato-gli-sport-da-combattimento"
+    },
+    {
+      "title": "Yotobi denunciato per diffamazione dopo il video su Gioventù Ribelle?",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112257-yotobi-denunciato-per-diffamazione-dopo-il-video-su-gioventu-ribelle"
+    },
+    {
+      "title": "Anime e intelligenza artificiale, il CEO di Sony avverte: senza originalità si perde tutto",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112258-anime-e-intelligenza-artificiale-il-ceo-di-sony-avverte-senza-originalita-si-perde-tutto"
+    },
+    {
+      "title": "The New Prince of Tennis Musical: intervista ad Alec Ryan Gonzalez, interprete di Banbi",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/111974-the-new-prince-of-tennis-musical-intervista-ad-alec-ryan-gonzalez-interprete-di-banbi"
+    },
+    {
+      "title": "Girls und Panzer: All-Star Tank Carnival annunciato per console e PC",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112281-girls-und-panzer-all-star-tank-carnival-annunciato-per-console-e-pc"
+    },
+    {
+      "title": "Dynit Manga: le uscite di novembre 2026",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112310-dynit-manga-le-uscite-di-novembre-2026"
+    },
+    {
+      "title": "Nanatsuya: Shinobu no Housekibako: in arrivo l'anime nel 2027",
+      "source": "animeclick",
+      "url": "https://www.animeclick.it/news/112275-nanatsuya-shinobu-no-housekibako-in-arrivo-lanime-nel-2027"
     }
   ],
   "youtube_trends": [
     {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
       "url": "https://www.youtube.com/watch?v=u1BQxe1Gfm8"
+    },
+    {
+      "title": "[elowisestories ] Midnight di elowisestories #perte #bibliomanzia #booktok #ilmaggiodeilibri #booktokitalia #books",
+      "url": "https://www.youtube.com/watch?v=uHeOBqh8atU"
     },
     {
       "title": "[Manuela🩵] #booktok #booktokitalia #bibliomanzia #books #ilmaggiodeilibri #perte #bookbites #bookworm",
@@ -3679,10 +3959,6 @@
       "url": "https://www.youtube.com/watch?v=ltuBjMD0Ap4"
     },
     {
-      "title": "[Sophie Coccia BtS] 𝑩𝒖𝒕 𝑺𝒂𝒏𝒕𝒂 𝑰 𝒍𝒐𝒗𝒆 𝑯𝒊𝒎 - 𝑰𝒍 𝒄𝒂𝒍𝒆𝒏𝒅𝒂𝒓𝒊𝒐 𝒅𝒆𝒍𝒍&#39;𝒂𝒗𝒗𝒆𝒏𝒕𝒐 𝑹𝒐𝒎𝒂𝒏𝒄𝒆 𝒅𝒊 𝑯𝒂𝒛𝒆𝒍 𝑹𝒊𝒍𝒆𝒚/𝑲𝒂𝒓𝒊𝒎 𝑩. 🎁🎄🎅🏼💝📚  #booktok",
-      "url": "https://www.youtube.com/watch?v=-4bjJNgGwNM"
-    },
-    {
       "title": "[Esse Non Esiste] Le donne del booktok mi hanno salvata — e non lo dirò mai abbastanza 🖤 Buk Romance Festival Vlog",
       "url": "https://www.youtube.com/watch?v=vLxY4MczVZ4"
     },
@@ -3707,8 +3983,8 @@
       "url": "https://www.youtube.com/watch?v=EWQoZNndd7M"
     },
     {
-      "title": "[Pelati e Fumetti] Midnight Universe e le Artist Edition - Colazione a Fumetti",
-      "url": "https://www.youtube.com/watch?v=VnqCitRrT7Y"
+      "title": "[nhgreads] Best Batman Comics For Beginners",
+      "url": "https://www.youtube.com/watch?v=jb4sfBY-BPY"
     },
     {
       "title": "[Il Covo del Tao] Il Tao Risponde Episodio 6: Ristampa Tex 1/29? Dico la mia.",
@@ -3719,20 +3995,20 @@
       "url": "https://www.youtube.com/watch?v=x9H1Yb_rPGE"
     },
     {
-      "title": "[D.C. Network] Dynamite’s Ben 10 #6 Gets Things Back on Track | Comic Review",
-      "url": "https://www.youtube.com/watch?v=Js2tXehX39E"
+      "title": "[Pelati e Fumetti] Drome: il capolavoro di Jesse Lonergan - Colazione a Fumetti",
+      "url": "https://www.youtube.com/watch?v=CJlBx5bTXv0"
     },
     {
-      "title": "[Lucadeejay Storie dell'Altra Vita] Bonelli, qui si fa sul serio: tre eroi contro il tempo",
-      "url": "https://www.youtube.com/watch?v=uYsvGRMkhHA"
+      "title": "[D.C. Network] Dynamite’s Ben 10 #6 Gets Things Back on Track | Comic Review",
+      "url": "https://www.youtube.com/watch?v=Js2tXehX39E"
     },
     {
       "title": "[comicnutz] NEW COMIC BOOK DAY!? #newcomicbookday #comics #marvel #dc #superhero",
       "url": "https://www.youtube.com/watch?v=ZnE1GFbHGa0"
     },
     {
-      "title": "[La taverna dei lettori ] ODISSEA NEL TEMPO 2 | Martin Mystère 441 L&#39;invasione silenziosa",
-      "url": "https://www.youtube.com/watch?v=y2t3U0nEs0o"
+      "title": "[Cam Will] Ranking all 3 midnight universe books #marvel #thecomicshoppe",
+      "url": "https://www.youtube.com/watch?v=89wE80umuIU"
     },
     {
       "title": "[Scalever] He Wanted to Escape His Ex-Wife... But Fate Had Other Plans | Manga Recap",
@@ -3743,12 +4019,20 @@
       "url": "https://www.youtube.com/watch?v=S3mE7zdnj0Y"
     },
     {
+      "title": "[Anton] Our new neighbors made fun of us for being poor, but... [Manga Dub]",
+      "url": "https://www.youtube.com/watch?v=wGfXVL0G9q0"
+    },
+    {
       "title": "[Antoniofaliti] 3 nuovi shonen da vedere!🔥",
       "url": "https://www.youtube.com/watch?v=AS0RuAEvIUM"
     },
     {
-      "title": "[Anton] Our new neighbors made fun of us for being poor, but... [Manga Dub]",
-      "url": "https://www.youtube.com/watch?v=wGfXVL0G9q0"
+      "title": "[Manga Bear Nana Kuma] [Manga Dub] The gorgeous new boss is strict with everyone... [RomCom]",
+      "url": "https://www.youtube.com/watch?v=G7fudTVmLoY"
+    },
+    {
+      "title": "[Misu Recap] (1-3) My Yandere Girlfriend Wants Too Much Attention",
+      "url": "https://www.youtube.com/watch?v=wmsQcp_Az_4"
     },
     {
       "title": "[Yomeko's Manga] [Manga Dub] Right After I Gave Birth, My Husband Completely Ignored Me! So…",
@@ -3763,16 +4047,8 @@
       "url": "https://www.youtube.com/watch?v=qDiYr1__HIc"
     },
     {
-      "title": "[Comics by Perch] Why Manga Hooks New Readers (and What Western Comics Can Learn)",
-      "url": "https://www.youtube.com/watch?v=PI3fXhJ8tDo"
-    },
-    {
       "title": "[ThePromG] I Bought Manga to SURVIVE This Winter! | 50+ Manga Haul",
       "url": "https://www.youtube.com/watch?v=pdEwCx2P7Ag"
-    },
-    {
-      "title": "[Yomeko's Manga] [Manga Dub] My Husband Cheated With My Best Friend… Then Invited Me to Their Wedding 💔",
-      "url": "https://www.youtube.com/watch?v=tAP1NHVMdvo"
     }
   ]
 }
